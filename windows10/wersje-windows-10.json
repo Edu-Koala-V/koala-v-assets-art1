@@ -41,7 +41,7 @@
         ["Windows 10 Enterprise multi-session","Opcja dla wirtualnych desktopów wielosekcyjnych (multi-session) w środowiskach zdalnych. Pozwala na uruchamianie wielu sesji użytkownika na jednym serwerze. W normalnych warunkach z systemu może korzystać jeden użytkownik na raz i trzeba się pomiędzy nimi przełączać. W tej wersji system jest wstanie obsługiwać wielu użytkowników zdalnych w jednym momencie "],
         ["Windows 10 Pro Education","Podobna do Windows 10 Pro, ale dostosowana do środowisk edukacyjnych. Obejmuje opcje konfiguracji i wdrażania w szkołach. Umożliwia instalację oprogramowania tylko poprzez Microsoft Store. Daje możliwość wdrożenia użytkowników poprzez sieć Internat za pośrednictwem Azure konfiguruje i dostosowuje urządzenia do pracy w pseudo domenie szkolnej."]
       ]
-    }
+    },
 {"type": "h2", "sectionID": "section3", "elementContent": ["Przejdź do instalacji Windows 10"]},
     {"type": "span", "sectionID": "section3","elementContent":["Gdy wiesz jaką wersje windowsa chcesz to teraz potrzebujesz pliku ISO",""]},
  {"type": "link-art", "sectionID": "section3", "elementContent": ["Obrazy systemów Windows", "Typy i rozszerzenia plików"]},
