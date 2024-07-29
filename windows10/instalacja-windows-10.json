@@ -1,4 +1,15 @@
 [
-   {"type": "h2", "sectionID": "section1", "elementContent": ["Co to jest ISO"]},
-    {"type": "span", "sectionID": "section1","elementContent":["Do przeprowadzenia instalacji systemu będziesz potrzebować obrazu dysku (",""]},
+   {"type": "h2", "sectionID": "section1", "elementContent": ["Wstęp"]},
+   {"type": "span", "sectionID": "section1","elementContent":["Przygotuj maszynę wirtualną i dodaj do niej plik ISO wybranego systemu Windows. Następnie uruchom ją, i powinien załadować się instalator systemu Windows",""]},
+   {"type": "br", "sectionID": "section1"},
+   {"type": "br", "sectionID": "section1"},
+   {"type": "span", "sectionID": "section1","elementContent":["Jeżeli nie wiesz jak utworzyć maszynę wirtualną to sprawdź: ",""]},
+   {"type": "link-art", "sectionID": "section1", "elementContent": ["Tworzenie nowej maszyny gościa", "VirtualBox"]},
+
+    {"type": "h2", "sectionID": "section2", "elementContent": ["Instalator systemu Windows 10"]},
+   {"type": "span", "sectionID": "section2","elementContent":["Wprowadź klucz produktu i kliknij ",""]},
+    {"type": "key-combo", "sectionID": "section1", "elementContent": ["Dalej"]},
+   {"type": "span", "sectionID": "section2","elementContent":[", lub gdy go nie masz lub jest przypisany do twojego konta Microsoft kliknij ",""]},
+   {"type": "text-block-name", "sectionID": "section2", "elementContent": ["Nie mam klucza produktu", "​"]}
+  
 ]
