@@ -1,0 +1,19 @@
+[
+    {"type": "h2", "sectionID": "section1", "elementContent": ["Obrazy systemów linux"]},
+
+    {"type": "span", "sectionID": "section1","elementContent":["Poniżej widnieją linki do różnych dystrybucji opartch o jądro GNU Linux: ",""]},
+    {"type": "br", "sectionID": "section1"},
+    
+    {"type": "card-box", "sectionID": "section1","elementContent":["Ubuntu ","KiraTheGames/test/main/typy-rozszerzenia-plikow/linux/Ubuntu_logo.webp","https://ubuntu.com/download"]},
+    {"type": "card-box", "sectionID": "section1","elementContent":["CentOS ","KiraTheGames/test/main/typy-rozszerzenia-plikow/linux/CentOS_logo.webp","https://www.centos.org/download/"]},
+
+    {"type": "card-box", "sectionID": "section1","elementContent":["openSUSE ","KiraTheGames/test/main/typy-rozszerzenia-plikow/linux/openSUSE_logo.webp","https://get.opensuse.org/"]},
+    
+    {"type": "card-box", "sectionID": "section1","elementContent":["Mint ","KiraTheGames/test/main/typy-rozszerzenia-plikow/linux/Mint_logo.webp","https://www.linuxmint.com/download.php"]},
+    {"type": "card-box", "sectionID": "section1","elementContent":["Zorin ","KiraTheGames/test/main/typy-rozszerzenia-plikow/linux/Zorin_logo.webp","https://zorin.com/os/download/"]},
+    {"type": "card-box", "sectionID": "section1","elementContent":["Arch ","KiraTheGames/test/main/typy-rozszerzenia-plikow/linux/Arch_logo.webp","https://archlinux.org/download/"]}
+    
+
+    
+   
+    ]
