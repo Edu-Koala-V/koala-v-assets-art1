@@ -42,5 +42,13 @@
         ["Windows 10 Pro Education","Podobna do Windows 10 Pro, ale dostosowana do środowisk edukacyjnych. Obejmuje opcje konfiguracji i wdrażania w szkołach. Umożliwia instalację oprogramowania tylko poprzez Microsoft Store. Daje możliwość wdrożenia użytkowników poprzez sieć Internat za pośrednictwem Azure konfiguruje i dostosowuje urządzenia do pracy w pseudo domenie szkolnej."]
       ]
     }
-  
+{"type": "h2", "sectionID": "section3", "elementContent": ["Przejdź do instalacji Windows 10"]},
+    {"type": "span", "sectionID": "section3","elementContent":["Gdy wiesz jaką wersje windowsa chcesz to teraz potrzebujesz pliku ISO",""]},
+ {"type": "link-art", "sectionID": "section3", "elementContent": ["Obrazy systemów Windows", "Typy i rozszerzenia plików"]},
+   {"type": "br", "sectionID": "section3"},
+  {"type": "span", "sectionID": "section3","elementContent":["Nie wiesz co to plik obrazu ISO? To sprawdź to:",""]},
+ {"type": "link-art", "sectionID": "section3", "elementContent": ["Obrazy ISO - Co to jest", "Typy i rozszerzenia plików"]},
+   {"type": "br", "sectionID": "section3"},
+  {"type": "span", "sectionID": "section3","elementContent":["Gdy masz już plik ISO Windowsa możesz przejść do instalacji:",""]},
+  {"type": "link-art", "sectionID": "section3", "elementContent": ["Instalacja Windows 10 (w VirtualBox)", "Windows 10"]}   
 ]
