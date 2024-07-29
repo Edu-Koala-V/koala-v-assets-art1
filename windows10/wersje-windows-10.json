@@ -18,7 +18,7 @@
    
   {"type": "span", "sectionID": "section2","elementContent":["Wersje N systemów Windows są specjalnymi edycjami przeznaczonymi na rynek europejski UE, które nie zawierają odtwarzacza multimediów Windows Media Player oraz aplikacji Groove Music i Film i TV. Istnieją z kilku powodów:",""]},
   
-    {"type": "list","sectionID": "section3", "elementContent": {"ver":"ol",
+    {"type": "list","sectionID": "section2", "elementContent": {"ver":"ol",
     "listElements":["Decyzje prawne: Wersje N powstały w wyniku decyzji prawnych. W 2004 roku Komisja Europejska nakazała Microsoftowi dostarczenie wersji systemu Windows bez odtwarzacza Windows Media Player, aby zapewnić uczciwą konkurencję na rynku przeglądarek internetowych i odtwarzaczy multimedialnych.",
     "Wybór użytkownika: Wersje N pozwalają użytkownikom wybrać, czy chcą korzystać z odtwarzacza Windows Media Player czy z innych dostępnych aplikacji multimedialnych. Dla niektórych użytkowników odtwarzacz Windows Media Player nie jest potrzebny, dlatego wersje N stanowią alternatywę.",
     "Specjalne zastosowania: Wersje N są również używane w niektórych specjalistycznych zastosowaniach, takich jak systemy wbudowane, urządzenia kioskowe czy komputery w miejscach publicznych. Wyeliminowanie odtwarzacza multimedialnego może pomóc w zminimalizowaniu zbędnych funkcji."] }},
