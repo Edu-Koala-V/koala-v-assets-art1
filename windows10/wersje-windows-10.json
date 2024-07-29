@@ -50,5 +50,5 @@
  {"type": "link-art", "sectionID": "section3", "elementContent": ["Obrazy ISO - Co to jest", "Typy i rozszerzenia plików"]},
    {"type": "br", "sectionID": "section3"},
   {"type": "span", "sectionID": "section3","elementContent":["Gdy masz już plik ISO Windowsa możesz przejść do instalacji:",""]},
-  {"type": "link-art", "sectionID": "section3", "elementContent": ["Instalacja Windows 10 (w VirtualBox)", "Windows 10"]}   
+  {"type": "link-art", "sectionID": "section3", "elementContent": ["Instalacja Windows 10 w VirtualBox", "Windows 10"]}   
 ]
