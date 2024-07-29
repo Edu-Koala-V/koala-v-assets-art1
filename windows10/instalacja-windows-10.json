@@ -8,7 +8,7 @@
 
     {"type": "h2", "sectionID": "section2", "elementContent": ["Instalator systemu Windows 10"]},
    {"type": "span", "sectionID": "section2","elementContent":["Wprowadź klucz produktu i kliknij ",""]},
-    {"type": "key-combo", "sectionID": "section1", "elementContent": ["Dalej"]},
+    {"type": "key-combo", "sectionID": "section2", "elementContent": ["Dalej"]},
    {"type": "span", "sectionID": "section2","elementContent":[", lub gdy go nie masz lub jest przypisany do twojego konta Microsoft kliknij ",""]},
    {"type": "text-block-name", "sectionID": "section2", "elementContent": ["Nie mam klucza produktu", "​"]}
   
