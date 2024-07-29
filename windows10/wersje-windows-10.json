@@ -7,7 +7,7 @@
     {"type": "table", "sectionID": "section1","elementContent":
       [
         ["Nazwa podzespołu","Wymagania dla wersji 32-bitowej","Wymagania dla wersji 64-bitowej"],
-        ["Procesor CPU","1GHz","1GHz"],
+        ["Procesor CPU","1GHz lub lepszy"],
         ["Pamięć RAM","1GB","2GB"],
         ["Rozmiar dysku twardego","16GB","32GB"],
         ["Karta graficzna","Zgodna z DirectX 9"]
