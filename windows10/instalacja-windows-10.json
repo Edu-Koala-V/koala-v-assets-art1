@@ -104,6 +104,15 @@
    {"type": "b", "sectionID": "section5","elementContent":["wirusy MBR",""]},
    {"type": "span", "sectionID": "section5","elementContent":[".",""]},
    {"type": "br", "sectionID": "section5"},
+   {"type": "span", "sectionID": "section5","elementContent":["Wiecej informacji o tych złośliwych oprogramowaniach znajdziesz w: ",""]},
+{"type": "link-art", "sectionID": "section5", "elementContent": ["Zagrożenia w Informatyce", "Wirusy rezydentne"]},
+   {"type": "span", "sectionID": "section5","elementContent":[", oraz możesz się też zapoznać z:",""]},
+{"type": "link-art", "sectionID": "section5", "elementContent": ["Zagrożenia w Informatyce", "Wirusy nierezydentne"]},
+   
+
+
+
+   {"type": "br", "sectionID": "section5"},
    {"type": "span", "sectionID": "section5","elementContent":["Po wyczyszczeniu nie ma już partycji na dysku. Wpisując ",""]},
    {"type": "text-block-name", "sectionID": "section5","elementContent":["create part primary ",""]},
    {"type": "span", "sectionID": "section5","elementContent":["utworzy się partycja podstawowa, która zajmie całą przestrzeń na dysku. Nastepnie możesz wylistować partcje: ",""]},
@@ -115,12 +124,87 @@
    {"type": "span", "sectionID": "section5","elementContent":[". Utworzoną w ten sposób partycję należy sformatować wykorzystując jeden z trzech systemów plików:",""]},
    {"type": "br", "sectionID": "section5"},
 
-   {"type": "list","sectionID": "section2", "elementContent": {"ver":"ul",
+   {"type": "list","sectionID": "section5", "elementContent": {"ver":"ul",
     "listElements":["NTFS (New Technology File System) – Niby nowy a pierwsza wersja została wydana w 1993r. Charakteryzuje go ogromne pliki, szyfrowany, zarządzany poprzez uprawnienia do plików i katalogów, nieuniwersalny.",
          "FAT (File Allocation Table )– Domyślnie (FAT32) uniwersalny i zgodny z wszystkimi urządzeniami ograniczony rozmiarem pliku max 4GB, brak szyfrowania i systemu uprawnień plików i katalogów",
           "exFAT (Extensible File Allocation Table) – Rozszerzenie FAT64 dla FAT32 można przechowywać na nim większe pliki niż 4GB. Spoko system plików do przechowywania kopi zapasowych nie wymagających od użytkownika zabezpieczania lub szyfrowania danych np.: backup-y gier."
-    ] }}
-
+    ] }},
+   {"type": "span", "sectionID": "section5","elementContent":["Dodatkowo możesz dodać nazwę partycji ",""]},
+   {"type": "text-block-name", "sectionID": "section5","elementContent":["label=Nazwa",""]},
+   {"type": "span", "sectionID": "section5","elementContent":["Pamiętaj by dopisać na koniec ",""]},
+   {"type": "text-block-name", "sectionID": "section5","elementContent":["quick",""]},
+   {"type": "span", "sectionID": "section5","elementContent":[", aby zamiast czekać 2 dni format zrobił się w 3 sekundy 😊",""]},
+   {"type": "br", "sectionID": "section5"},
+   {"type": "span", "sectionID": "section5","elementContent":["Przypisz literę do partycji wpisując ",""]},
+   {"type": "text-block-name", "sectionID": "section5","elementContent":["assign",""]},
+   {"type": "span", "sectionID": "section5","elementContent":["oraz dodatkowo  ",""]},
+   {"type": "text-block-name", "sectionID": "section5","elementContent":["liter=R",""]},
+   {"type": "span", "sectionID": "section5","elementContent":[", R jak chcesz nadać konkretną literę. Bez ",""]},
+   {"type": "text-block-name", "sectionID": "section5","elementContent":["liter=R",""]},
+   {"type": "span", "sectionID": "section5","elementContent":["DiskPart ustawi lierę dysku automatycznie. No i ",""]},
+   {"type": "text-block-name", "sectionID": "section5","elementContent":["exit",""]},
+   {"type": "span", "sectionID": "section5","elementContent":["aby przerwać działanie programu konsolowego DiskPart.",""]},
+   {"type": "img", "sectionID": "section5", "elementContent": [
+    "KiraTheGames/test/main/windows10/formatowanie-dysku-nowa-partycja-podstawowa.webp",
+    "Formatowanie dysku i tworzenie nowej partycji podstawowej wykorzystując DiskPart.",
+    "806","994", "KiraTheGames/test/main/windows10/formatowanie-dysku-nowa-partycja-podstawowa_ORIGINAL.webp"
+    ]},
    
-   
+  {"type": "h2", "sectionID": "section6", "elementContent": ["Instalacja i pierwsza konfiguracja systemu Windows 10"]},
+   {"type": "span", "sectionID": "section6","elementContent":["Czas rozpocząć instalację systemu. Podczas tego procesu urządzenie może się kilka razy zrestartować.",""]},
+   {"type": "img", "sectionID": "section6", "elementContent": [
+    "KiraTheGames/test/main/windows10/rozpoczęcie-instalacji-systemu-windows-10.webp",
+    "Rozpoczęcie instalacji systemu Windows 10.",
+    "944","707", "KiraTheGames/test/main/windows10/rozpoczęcie-instalacji-systemu-windows-10_ORIGINAL.webp"
+    ]},
+   {"type": "span", "sectionID": "section6","elementContent":["Po zakończeniu procesu instalacji system może się uruchomić na dwa sposoby, w zależności od kolejności bootowania dysków. Jeżeli zobaczysz okno instalacyjne Windows, wymontuj pendrive i uruchom ponownie urządzenie. Wtedy system uruchomi się w początkowej konfiguracji.",""]},
+{"type": "img", "sectionID": "section6", "elementContent": [
+    "KiraTheGames/test/main/windows10/Strona-główna-konfiguracji-poinstalacyjnej.webp",
+    "Strona główna konfiguracji poinstalacyjnej - wybór języka.",
+    "945","707", "KiraTheGames/test/main/windows10/Strona-główna-konfiguracji-poinstalacyjnej_ORIGINAL.webp"
+    ]},
+   {"type": "span", "sectionID": "section6","elementContent":["W procesie konfiguracji wybierz scenariusz umożliwiający ci pełną kontrolę nad tym urządzeniem.",""]},
+   {"type": "img", "sectionID": "section6", "elementContent": [
+    "KiraTheGames/test/main/windows10/rodzaj-konfiguracji-urządzenia.webp",
+    "Rodzaj konfiguracji urządzenia.",
+    "945","707", "KiraTheGames/test/main/windows10/rodzaj-konfiguracji-urządzenia_ORIGINAL.webp"
+    ]},
+   {"type": "span", "sectionID": "section6","elementContent":["Teraz będziesz chcieć utworzyć konto w trybie offline.",""]},
+    {"type": "img", "sectionID": "section6", "elementContent": [
+    "KiraTheGames/test/main/windows10/konto-offline-part1.webp",
+    "Windows installer - konto-offline part1.",
+    "945","707", "KiraTheGames/test/main/windows10/konto-offline-part1_ORIGINAL.webp"
+    ]},
+   {"type": "span", "sectionID": "section6","elementContent":["Kreator będzie chciał cię przekonać do wykorzystania konta Microsoft, więc aby przejść w końcu do tworzenia konta, kliknij w „Ograniczone doświadczenie”.",""]},
+    {"type": "img", "sectionID": "section6", "elementContent": [
+    "KiraTheGames/test/main/windows10/konto-offline-part2.webp",
+    "Windows installer - konto-offline part2.",
+    "945","707", "KiraTheGames/test/main/windows10/konto-offline-part2_ORIGINAL.webp"
+    ]},
+   {"type": "span", "sectionID": "section6","elementContent":["Wprowadź nazwę użytkownika",""]},
+   {"type": "i", "sectionID": "section6","elementContent":["„Klient”",""]},
+   {"type": "span", "sectionID": "section6","elementContent":["lub swoją nazwę gdy instalujesz system na urządzaniu prywatnym.",""]},
+    {"type": "img", "sectionID": "section6", "elementContent": [
+    "KiraTheGames/test/main/windows10/konto-offline-part3.webp",
+    "Windows installer - konto-offline part3.",
+    "945","707", "KiraTheGames/test/main/windows10/konto-offline-part3_ORIGINAL.webp"
+    ]},
+    {"type": "span", "sectionID": "section6","elementContent":["Wprowadź hasło do konta oraz powtórz je na kolejnym ekranie.",""]},
+    {"type": "img", "sectionID": "section6", "elementContent": [
+    "KiraTheGames/test/main/windows10/konto-offline-part4.webp",
+    "Windows installer - konto-offline part4.",
+    "945","707", "KiraTheGames/test/main/windows10/konto-offline-part4_ORIGINAL.webp"
+    ]},
+     {"type": "span", "sectionID": "section6","elementContent":["W kolejnym kroku musisz uzupełnić odpowiedzi na trzy pytania do wyboru z listy.",""]},
+    {"type": "img", "sectionID": "section6", "elementContent": [
+    "KiraTheGames/test/main/windows10/konto-offline-part5.webp",
+    "Windows installer - konto-offline part5.",
+    "945","707", "KiraTheGames/test/main/windows10/konto-offline-part5_ORIGINAL.webp"
+    ]},
+     {"type": "span", "sectionID": "section6","elementContent":["Następne strony dadzą ci wybór, na jakie uprawnienia zezwolisz aplikacjom w systemie oraz ile danych diagnostycznych zamierzasz dostarczać Microsoftowi. Po wszystkim ukaże się ekran główny Windows 10.",""]},
+    {"type": "img", "sectionID": "section6", "elementContent": [
+    "KiraTheGames/test/main/windows10/powitanie-w-świerzym-windowsie-10.webp",
+    "Powitanie w świerzym Windowsie 10.",
+    "945","707", "KiraTheGames/test/main/windows10/powitanie-w-świerzym-windowsie-10_ORIGINAL.webp"
+    ]}
 ]
