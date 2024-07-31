@@ -92,5 +92,32 @@
     "Porównanie informacji z DiskPart do danych z GUI Instalatora Windows 10.",
     "944","707", "KiraTheGames/test/main/windows10/wyświetlnie-sformatowanych-partycji-na-dysku_ORIGINAL.webp"
     ]},
+  {"type": "h2", "sectionID": "section5", "elementContent": ["DiskPart - komendy przyformatowaniu dysku"]},
+   {"type": "span", "sectionID": "section5","elementContent":["Przeprowadzimy teraz operację czyszczenia dysku z pomocą DiskPart.",""]},
+   {"type": "br", "sectionID": "section5"},
+   {"type": "b", "sectionID": "section5","elementContent":["MBR",""]},
+   {"type": "span", "sectionID": "section5","elementContent":["MBR (ang. Master Boot Record), wpisz komendę ",""]},
+   {"type": "text-block-name", "sectionID": "section4","elementContent":["clean",""]},
+   {"type": "span", "sectionID": "section5","elementContent":[". Pozwoli to oczyścić dysk z potencjalnie błędnych informacji uniemożliwiających sformatowanie nośnika np. wpisów utworzonych przez ",""]},
+   {"type": "b", "sectionID": "section5","elementContent":["rootkity ",""]},
+   {"type": "span", "sectionID": "section5","elementContent":[" lub ",""]},
+   {"type": "b", "sectionID": "section5","elementContent":["wirusy MBR",""]},
+   {"type": "span", "sectionID": "section5","elementContent":[".",""]},
+   {"type": "br", "sectionID": "section5"},
+   {"type": "span", "sectionID": "section5","elementContent":["Po wyczyszczeniu nie ma już partycji na dysku. Wpisując ",""]},
+   {"type": "text-block-name", "sectionID": "section5","elementContent":["create part primary ",""]},
+   {"type": "span", "sectionID": "section5","elementContent":["utworzy się partycja podstawowa, która zajmie całą przestrzeń na dysku. Nastepnie możesz wylistować partcje: ",""]},
+   {"type": "text-block-name", "sectionID": "section5","elementContent":["list part",""]},
+   {"type": "span", "sectionID": "section5","elementContent":["by następnie wybrać partycję o index-się 1 przy użyciu ",""]},
+   {"type": "text-block-name", "sectionID": "section5","elementContent":["sel part 1",""]},
+   {"type": "span", "sectionID": "section5","elementContent":["i ją aktywować komendą ",""]},
+   {"type": "text-block-name", "sectionID": "section5","elementContent":["active",""]},
+   {"type": "span", "sectionID": "section5","elementContent":[". Utworzoną w ten sposób partycję należy sformatować wykorzystując jeden z trzech systemów plików:",""]},
+   {"type": "br", "sectionID": "section5"},
 
+   {"type": "list","sectionID": "section2", "elementContent": [{"ver":"ul",
+    "listElements":[{"type": "b", "sectionID": "section5","elementContent":["NTFS",""]},{"type": "span", "sectionID": "section5","elementContent":["(New Technology File System) – Niby nowy a pierwsza wersja została wydana w 1993r. Charakteryzuje go ogromne pliki, szyfrowany, zarządzany poprzez uprawnienia do plików i katalogów, nieuniwersalny.",""]}]] }}
+
+   
+   
 ]
