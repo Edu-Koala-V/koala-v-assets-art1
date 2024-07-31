@@ -21,48 +21,48 @@
     {"type": "link","sectionID":"section2","elementContent":["https://www.microsoft.com/pl-pl/software-download/windows10?msockid=1c6fa4861d626f3d3670b0011ce96e6c"]},
     {"type": "span", "sectionID": "section2","elementContent":["Po uruchomieniu pliku .exe program przez chwilę będzie przygotowywał składniki do przeprowadzenia procesów tworzenia bootowalnej instalki lub pliku ISO. Aby przejść dalej, musisz zaakceptować postanowienia licencyjne. Następnie ponownie zostaną przygotowane składniki.",""]},
     {"type": "img", "sectionID": "section2", "elementContent": [
-    "KiraTheGames/test/main/typy-rozszerzenia-plikow/kreator-iso-ms-eula.webp",
+    "Edu-Koala-V/koala-v-assets-art1/main/typy-rozszerzenia-plikow/kreator-iso-ms-eula.webp",
     "Pierwsza strona kreatora z postanowieniami licencyjnymi",
-    "944","745", "KiraTheGames/test/main/typy-rozszerzenia-plikow/kreator-iso-ms-eula_ORIGINAL.webp"
+    "944","745", "Edu-Koala-V/koala-v-assets-art1/main/typy-rozszerzenia-plikow/kreator-iso-ms-eula_ORIGINAL.webp"
     ]},
     {"type": "span", "sectionID": "section2","elementContent":["Wybieramy opcję utworzenia nośnika instalacyjnego.",""]},
      {"type": "img", "sectionID": "section2", "elementContent": [
-    "KiraTheGames/test/main/typy-rozszerzenia-plikow/kreator-iso-ms-nosnik.webp",
+    "Edu-Koala-V/koala-v-assets-art1/main/typy-rozszerzenia-plikow/kreator-iso-ms-nosnik.webp",
     "Wybór pomiedzy aktualizacją aktualnego windowsa a utworzeniem obrazu ISO",
-    "944","743", "KiraTheGames/test/main/typy-rozszerzenia-plikow/kreator-iso-ms-nosnik_ORIGINAL.webp"
+    "944","743", "Edu-Koala-V/koala-v-assets-art1/main/typy-rozszerzenia-plikow/kreator-iso-ms-nosnik_ORIGINAL.webp"
     ]},
     {"type": "span", "sectionID": "section2","elementContent":["Na kolejnej stronie możesz wybrać język, wersję i architekturę 32 bitową lub 64 bitową.",""]},
     {"type": "img", "sectionID": "section2", "elementContent": [
-    "KiraTheGames/test/main/typy-rozszerzenia-plikow/kreator-iso-ms-jezyk.webp",
+    "Edu-Koala-V/koala-v-assets-art1/main/typy-rozszerzenia-plikow/kreator-iso-ms-jezyk.webp",
     "Wybór języka i architektury systemu",
-    "944","746", "KiraTheGames/test/main/typy-rozszerzenia-plikow/kreator-iso-ms-jezyk_ORIGINAL.webp"
+    "944","746", "Edu-Koala-V/koala-v-assets-art1/main/typy-rozszerzenia-plikow/kreator-iso-ms-jezyk_ORIGINAL.webp"
     ]},
     {"type": "span", "sectionID": "section2","elementContent":["Kolejnym wyborem który musisz dokonać to zmiana z Dysku flash USB na Plik ISO:",""]},
     {"type": "img", "sectionID": "section2", "elementContent": [
-    "KiraTheGames/test/main/typy-rozszerzenia-plikow/kreator-iso-ms-output.webp",
+    "Edu-Koala-V/koala-v-assets-art1/main/typy-rozszerzenia-plikow/kreator-iso-ms-output.webp",
     "Wybór pomiedzy dyskiem flash USB a plikiem ISO",
-    "944","746", "KiraTheGames/test/main/typy-rozszerzenia-plikow/kreator-iso-ms-output_ORIGINAL.webp"
+    "944","746", "Edu-Koala-V/koala-v-assets-art1/main/typy-rozszerzenia-plikow/kreator-iso-ms-output_ORIGINAL.webp"
     ]},
     {"type": "span", "sectionID": "section2","elementContent":["Wybieramy lokalizację zapisu obrazu ISO, zmieniając nazwę pliku na bardziej precyzyjną, możesz dodać jeszcze wersję Windows-a np.: 22h2",""]},
      {"type": "img", "sectionID": "section2", "elementContent": [
-    "KiraTheGames/test/main/typy-rozszerzenia-plikow/kreator-iso-ms-lokalizacja.webp",
+    "Edu-Koala-V/koala-v-assets-art1/main/typy-rozszerzenia-plikow/kreator-iso-ms-lokalizacja.webp",
     "Lokalizacja zapisu pliku ISO",
-    "944","531", "KiraTheGames/test/main/typy-rozszerzenia-plikow/kreator-iso-ms-lokalizacja_ORIGINAL.webp"
+    "944","531", "Edu-Koala-V/koala-v-assets-art1/main/typy-rozszerzenia-plikow/kreator-iso-ms-lokalizacja_ORIGINAL.webp"
     ]},
     {"type": "span", "sectionID": "section2","elementContent":["Na kolejnej stronie rozpocznie się pobieranie plików.",""]},
 {"type": "img", "sectionID": "section2", "elementContent": [
-    "KiraTheGames/test/main/typy-rozszerzenia-plikow/kreator-iso-ms-pobieranie.webp",
+    "Edu-Koala-V/koala-v-assets-art1/main/typy-rozszerzenia-plikow/kreator-iso-ms-pobieranie.webp",
     "Pobieranie plików instalatora Windows",
-    "944","745", "KiraTheGames/test/main/typy-rozszerzenia-plikow/kreator-iso-ms-pobieranie_ORIGINAL.webp"
+    "944","745", "Edu-Koala-V/koala-v-assets-art1/main/typy-rozszerzenia-plikow/kreator-iso-ms-pobieranie_ORIGINAL.webp"
     ]},
     {"type": "span", "sectionID": "section2","elementContent":["Po pobraniu plików zostaną one spakowane do obrazu ISO, który zostanie umieszczony w wcześniej podanej lokalizacji. Następnie pojawi się okienko z możliwością nagrania systemu na płytę DVD. Po kliknięciu przycisku,",""]},
     {"type": "text-block-name", "sectionID": "section2", "elementContent": ["„Zakończ”", "​"]},
     {"type": "span", "sectionID": "section2","elementContent":[", instalator przeprowadzi jeszcze czyszczenie plików tymczasowych i zakończy swoją pracę.",""]},
     {"type": "span", "sectionID": "section2","elementContent":["Na kolejnej stronie rozpocznie się pobieranie plików.",""]},
      {"type": "img", "sectionID": "section2", "elementContent": [
-    "KiraTheGames/test/main/typy-rozszerzenia-plikow/kreator-iso-ms-end.webp",
+    "Edu-Koala-V/koala-v-assets-art1/main/typy-rozszerzenia-plikow/kreator-iso-ms-end.webp",
     "Kreator ponownie na koniec zaproponuje przygotowanie bootowalnego pendrive USB z instalacją Windows",
-    "944","747", "KiraTheGames/test/main/typy-rozszerzenia-plikow/kreator-iso-ms-end_ORIGINAL.webp"
+    "944","747", "Edu-Koala-V/koala-v-assets-art1/main/typy-rozszerzenia-plikow/kreator-iso-ms-end_ORIGINAL.webp"
     ]},
 
     
@@ -82,9 +82,9 @@
      {"type": "br", "sectionID": "section3"},
     {"type": "span", "sectionID": "section3","elementContent":["W ten sposób mamy już Windows 10 z dwóch źródeł. Zauważ, że wersja z BaseWin waży więcej niż ta od Microsoftu. Wynika to z różnicy w stopniu kompresji plików w obrazie ISO. Dzięki mniejszej kompresji plik z BaseWin zainstaluje się szybciej. Podczas testu wersja od MS przygotowywała pliki do instalacji na poziomie 32%, gdy obraz z alternatywnego źródła zakończył pracę i uruchomił konfigurację systemu.",""]},
  {"type": "img", "sectionID": "section3", "elementContent": [
-    "KiraTheGames/test/main/typy-rozszerzenia-plikow/pliki-iso-1.webp",
+    "Edu-Koala-V/koala-v-assets-art1/main/typy-rozszerzenia-plikow/pliki-iso-1.webp",
     "Pliki ISO z Microsoft i BaseWin",
-    "945","87", "KiraTheGames/test/main/typy-rozszerzenia-plikow/pliki-iso-1_ORIGINAL.webp"
+    "945","87", "Edu-Koala-V/koala-v-assets-art1/main/typy-rozszerzenia-plikow/pliki-iso-1_ORIGINAL.webp"
     ]},
 
      {"type": "h2", "sectionID": "section4", "elementContent": ["Gotowe obraz ISO z WinISO.pl"]},
@@ -97,8 +97,8 @@
      {"type": "br", "sectionID": "section4"},
     {"type": "span", "sectionID": "section4","elementContent":["W testach okazuje się że obraz ISO z winiso.pl zainstalował się intersubiektywnie w podobnym czasie co wersja z basewin.pl i obiektywnie jest trochę lżejszy o około 728MB.",""]},
     {"type": "img", "sectionID": "section4", "elementContent": [
-    "KiraTheGames/test/main/typy-rozszerzenia-plikow/pliki-iso-2.webp",
+    "Edu-Koala-V/koala-v-assets-art1/main/typy-rozszerzenia-plikow/pliki-iso-2.webp",
     "Pliki ISO z Microsoft i BaseWin oraz WinISO",
-    "945","112", "KiraTheGames/test/main/typy-rozszerzenia-plikow/pliki-iso-2_ORIGINAL.webp"
+    "945","112", "Edu-Koala-V/koala-v-assets-art1/main/typy-rozszerzenia-plikow/pliki-iso-2_ORIGINAL.webp"
     ]}
 ]
