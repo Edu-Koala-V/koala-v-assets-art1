@@ -17,9 +17,9 @@
     {"type": "h2", "sectionID": "section2", "elementContent": ["Wparcie wirtualizacji przez procesor CPU", ""]},
    {"type": "p", "sectionID": "section2","elementContent":["Do prawidłowego działania systemów gości procesor musi wspierać wirtualizację oraz mieć ją włączoną. Możesz w prosty sposób sprawdzić, czy wirtualizacja na procesorze (CPU) jest włączona za pośrednictwem Menedżera zadań.",""]},
    {"type": "img", "sectionID": "section2", "elementContent": [
-    "KiraTheGames/test/main/virtualbox/wirtualizacja-menedzer-zadan.webp",
+    "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/wirtualizacja-menedzer-zadan.webp",
     "Przedstawienie wirtualizacji w menedżerze zadań.",
-    "1032","695", "KiraTheGames/test/main/virtualbox/wirtualizacja-menedzer-zadan_ORIGINAL.webp"
+    "1032","695", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/wirtualizacja-menedzer-zadan_ORIGINAL.webp"
     ]},
     {"type": "span", "sectionID": "section2","elementContent":["Jeżeli u Ciebie wirtualizacja jest wyłączona, będziesz musiał ją włączyć w ",""]},
    {"type": "b", "sectionID": "section2","elementContent":[" BIOS/UEFI",""]},
@@ -54,9 +54,9 @@
     
      {"type": "span", "sectionID": "section3", "elementContent": [", aby przejść dalej. ", ""]},
  {"type": "img", "sectionID": "section3", "elementContent": [
-    "KiraTheGames/test/main/virtualbox/virtualbox-install-part1.webp",
+    "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/virtualbox-install-part1.webp",
     "Strona główna instalatora oprogramowania VirtualBox.",
-    "770","607", "KiraTheGames/test/main/virtualbox/virtualbox-install-part1_ORIGINAL.webp"
+    "770","607", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/virtualbox-install-part1_ORIGINAL.webp"
     ]},
 
  {"type": "span", "sectionID": "section3", "elementContent": ["Aby zainstalować oprogramowanie w innej niż domyślna lokalizacji dyskowej, wybierz ", ""]},
@@ -65,9 +65,9 @@
 {"type": "span", "sectionID": "section3", "elementContent": [", następnie z listy wybierz interesujący cię dysk, a potem utwórz na nim nowy katalog o adekwatnej nazwie, np. VirtualBox. W efekcie końcowym uzyskasz ścieżkę do katalogu plików źródłowych oprogramowania do wirtualizacji: 5)", ""]},
     {"type": "text-block-name", "sectionID": "section3", "elementContent": ["V:\\VirtualBox", "​"]},
      {"type": "img", "sectionID": "section3", "elementContent": [
-    "KiraTheGames/test/main/virtualbox/virtualbox-install-part2.webp",
+    "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/virtualbox-install-part2.webp",
     "Zmiana lokalizacji instalacji Virtualbox-a",
-    "944","372", "KiraTheGames/test/main/virtualbox/virtualbox-install-part2_ORIGINAL.webp"
+    "944","372", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/virtualbox-install-part2_ORIGINAL.webp"
     ]},
     
      {"type": "span", "sectionID": "section3", "elementContent": ["Zatwierdź zmiany klikając  ", ""]},
@@ -81,9 +81,9 @@
  {"type": "span", "sectionID": "section3", "elementContent": [", aby zainstalować wirtualne karty sieciowe.", ""]},
     
     {"type": "img", "sectionID": "section3", "elementContent": [
-    "KiraTheGames/test/main/virtualbox/virtualbox-install-part3.webp",
+    "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/virtualbox-install-part3.webp",
     "Ostrzeżenie o restartowaniu interfejsów sieciowych podczas instalacji Virtualbox.",
-    "944","372", "KiraTheGames/test/main/virtualbox/virtualbox-install-part3_ORIGINAL.webp"
+    "944","372", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/virtualbox-install-part3_ORIGINAL.webp"
     ]},
    {"type": "span", "sectionID": "section3", "elementContent": ["Może pojawić się następujący komunikat o braku zależności ", ""]},
        {"type": "i", "sectionID": "section3", "elementContent": ["„Python Core / win32api”", ""]},
@@ -94,13 +94,13 @@
     {"type": "text-block-name", "sectionID": "section3", "elementContent": ["Next>", "​"]},
    {"type": "span", "sectionID": "section3", "elementContent": ["rozpocznie się instalacja oprogramowania.", ""]},
     {"type": "img", "sectionID": "section3", "elementContent": [
-    "KiraTheGames/test/main/virtualbox/virtualbox-install-part4.webp",
+    "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/virtualbox-install-part4.webp",
     "Brak zainstalowanego wsparcia dla języka Python i biblioteki win32api.",
-    "944","372", "KiraTheGames/test/main/virtualbox/virtualbox-install-part4_ORIGINAL.webp"
+    "944","372", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/virtualbox-install-part4_ORIGINAL.webp"
     ]},
     {"type": "img", "sectionID": "section3", "elementContent": [
-    "KiraTheGames/test/main/virtualbox/virtualbox-install-part5.webp",
+    "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/virtualbox-install-part5.webp",
     "Ostatnia strona instalatora przed rozpoczęciem instalacji",
-    "944","372", "KiraTheGames/test/main/virtualbox/virtualbox-install-part5_ORIGINAL.webp"
+    "944","372", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/virtualbox-install-part5_ORIGINAL.webp"
     ]}
     ]
