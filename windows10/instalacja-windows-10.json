@@ -95,9 +95,11 @@
   {"type": "h2", "sectionID": "section5", "elementContent": ["DiskPart - komendy przyformatowaniu dysku"]},
    {"type": "span", "sectionID": "section5","elementContent":["Przeprowadzimy teraz operację czyszczenia dysku z pomocą DiskPart.",""]},
    {"type": "br", "sectionID": "section5"},
+   
+   {"type": "span", "sectionID": "section5","elementContent":[" Gdy masz wybrany już dysk wyzeruj schemat partycjonowania",""]},
    {"type": "b", "sectionID": "section5","elementContent":["MBR",""]},
-   {"type": "span", "sectionID": "section5","elementContent":["MBR (ang. Master Boot Record), wpisz komendę ",""]},
-   {"type": "text-block-name", "sectionID": "section4","elementContent":["clean",""]},
+   {"type": "span", "sectionID": "section5","elementContent":["(ang. Master Boot Record), wpisz komendę ",""]},
+   {"type": "text-block-name", "sectionID": "section5","elementContent":["clean",""]},
    {"type": "span", "sectionID": "section5","elementContent":[". Pozwoli to oczyścić dysk z potencjalnie błędnych informacji uniemożliwiających sformatowanie nośnika np. wpisów utworzonych przez ",""]},
    {"type": "b", "sectionID": "section5","elementContent":["rootkity ",""]},
    {"type": "span", "sectionID": "section5","elementContent":[" lub ",""]},
@@ -113,6 +115,7 @@
 
 
    {"type": "br", "sectionID": "section5"},
+   {"type": "br", "sectionID": "section5"},
    {"type": "span", "sectionID": "section5","elementContent":["Po wyczyszczeniu nie ma już partycji na dysku. Wpisując ",""]},
    {"type": "text-block-name", "sectionID": "section5","elementContent":["create part primary ",""]},
    {"type": "span", "sectionID": "section5","elementContent":["utworzy się partycja podstawowa, która zajmie całą przestrzeń na dysku. Nastepnie możesz wylistować partcje: ",""]},
@@ -121,7 +124,10 @@
    {"type": "text-block-name", "sectionID": "section5","elementContent":["sel part 1",""]},
    {"type": "span", "sectionID": "section5","elementContent":["i ją aktywować komendą ",""]},
    {"type": "text-block-name", "sectionID": "section5","elementContent":["active",""]},
+   {"type": "br", "sectionID": "section5"},
+   
    {"type": "span", "sectionID": "section5","elementContent":[". Utworzoną w ten sposób partycję należy sformatować wykorzystując jeden z trzech systemów plików:",""]},
+   {"type": "br", "sectionID": "section5"},
    {"type": "br", "sectionID": "section5"},
 
    {"type": "list","sectionID": "section5", "elementContent": {"ver":"ul",
@@ -129,6 +135,8 @@
          "FAT (File Allocation Table )– Domyślnie (FAT32) uniwersalny i zgodny z wszystkimi urządzeniami ograniczony rozmiarem pliku max 4GB, brak szyfrowania i systemu uprawnień plików i katalogów",
           "exFAT (Extensible File Allocation Table) – Rozszerzenie FAT64 dla FAT32 można przechowywać na nim większe pliki niż 4GB. Spoko system plików do przechowywania kopi zapasowych nie wymagających od użytkownika zabezpieczania lub szyfrowania danych np.: backup-y gier."
     ] }},
+   {"type": "br", "sectionID": "section5"},
+   
    {"type": "span", "sectionID": "section5","elementContent":["Dodatkowo możesz dodać nazwę partycji ",""]},
    {"type": "text-block-name", "sectionID": "section5","elementContent":["label=Nazwa",""]},
    {"type": "span", "sectionID": "section5","elementContent":["Pamiętaj by dopisać na koniec ",""]},
@@ -141,7 +149,9 @@
    {"type": "text-block-name", "sectionID": "section5","elementContent":["liter=R",""]},
    {"type": "span", "sectionID": "section5","elementContent":[", R jak chcesz nadać konkretną literę. Bez ",""]},
    {"type": "text-block-name", "sectionID": "section5","elementContent":["liter=R",""]},
-   {"type": "span", "sectionID": "section5","elementContent":["DiskPart ustawi lierę dysku automatycznie. No i ",""]},
+   {"type": "span", "sectionID": "section5","elementContent":["DiskPart ustawi lierę dysku automatycznie.",""]},
+   {"type": "br", "sectionID": "section5"},
+   {"type": "span", "sectionID": "section5","elementContent":["No i ",""]},
    {"type": "text-block-name", "sectionID": "section5","elementContent":["exit",""]},
    {"type": "span", "sectionID": "section5","elementContent":["aby przerwać działanie programu konsolowego DiskPart.",""]},
    {"type": "img", "sectionID": "section5", "elementContent": [
