@@ -1,5 +1,39 @@
 [
     {"type": "h2", "sectionID": "section1", "elementContent": ["Wstęp"]},
-   {"type": "span", "sectionID": "section1","elementContent":["Wirusy",""]},
+   {"type": "i", "sectionID": "section1","elementContent":["Wirusy komputerowe",""]},
+   {"type": "span", "sectionID": "section1","elementContent":[", znane również jako ",""]},
+   {"type": "bi", "sectionID": "section1","elementContent":["malware",""]},
+   {"type": "span", "sectionID": "section1","elementContent":[", są rodzajem złośliwego oprogramowania zaprojektowanego do infiltracji i uszkodzenia systemów komputerowych. Historia wirusów sięga lat osiemdziesiątych, kiedy to pierwsze przypadki infekcji pojawiły się na komputerach Apple II, a słynny robak Morrisa sparaliżował systemy Unix w 1988 roku. ",""]},
    {"type": "br", "sectionID": "section1"}
+    
+   {"type": "span", "sectionID": "section1","elementContent":["Wirusy komputerowe mogą przybierać różne formy, w tym ",""]},
+   {"type": "bi", "sectionID": "section1","elementContent":["trojany",""]},
+   {"type": "span", "sectionID": "section1","elementContent":[", ",""]},
+    {"type": "bi", "sectionID": "section1","elementContent":["robaki ",""]},
+   {"type": "span", "sectionID": "section1","elementContent":[" i ",""]},
+    {"type": "bi", "sectionID": "section1","elementContent":["konie trojańskie",""]},
+   {"type": "span", "sectionID": "section1","elementContent":[", ",""]},
+   {"type": "span", "sectionID": "section1","elementContent":[", każdy z nich charakteryzuje się unikalnymi metodami rozprzestrzeniania i działania. Na przykład, trojany udają legalne oprogramowanie, aby zwabić użytkowników do ich instalacji, podczas gdy robaki samodzielnie replikują się i rozprzestrzeniają przez sieci komputerowe.",""]},
+    
+{"type": "h2", "sectionID": "section2", "elementContent": ["Rozpowszechnianie złośliwego oprogramowania"]},
+   {"type": "span", "sectionID": "section2","elementContent":["Zrozumienie, jak wirusy są rozpowszechniane, jest kluczowe dla ich wykrywania i zapobiegania. Najczęstsze metody infekcji to ",""]},
+   {"type": "bi", "sectionID": "section2","elementContent":["phishing",""]},
+   {"type": "span", "sectionID": "section2","elementContent":[", czyli podszywanie się pod zaufane źródła w celu wyłudzenia danych, oraz wykorzystywanie luk w zabezpieczeniach oprogramowania. Współczesne ataki malware często wykorzystują zaawansowane techniki, takie jak",""]},
+   {"type": "bi", "sectionID": "section2","elementContent":["kryptojacking",""]},
+   {"type": "span", "sectionID": "section2","elementContent":[", który wykorzystuje zasoby komputera ofiary do wydobywania kryptowalut, czy ",""]},
+   {"type": "bi", "sectionID": "section2","elementContent":["ransomware",""]},
+   {"type": "span", "sectionID": "section2","elementContent":[", który szyfruje dane ofiary i żąda okupu za ich odblokowanie.",""]},
+
+    {"type": "h2", "sectionID": "section3", "elementContent": ["Ochrona przed zainfekowaniem"]},
+   {"type": "span", "sectionID": "section3","elementContent":["Ochrona przed wirusami komputerowymi wymaga kompleksowego podejścia, w tym regularnych aktualizacji oprogramowania, stosowania zaawansowanych rozwiązań antywirusowych i edukacji użytkowników w zakresie bezpiecznych praktyk online. Ważne jest, aby być świadomym najnowszych zagrożeń i zachować czujność, ponieważ cyberprzestępcy nieustannie rozwijają nowe metody ataku. Dodatkowo, tworzenie regularnych kopii zapasowych danych może pomóc w szybkim przywróceniu systemu w przypadku infekcji.",""]},
+
+    {"type": "h2", "sectionID": "section4", "elementContent": ["Prywatność i bezpieczeństwo danych lokalnych i sieciowych"]},
+   {"type": "span", "sectionID": "section4","elementContent":["Wirusy komputerowe nie tylko powodują szkody materialne, ale mogą również naruszać prywatność i bezpieczeństwo danych osobowych. Ataki takie jak ",""]},
+   {"type": "bi", "sectionID": "section4","elementContent":["ILOVEYOU",""]},
+   {"type": "span", "sectionID": "section4","elementContent":[", ",""]},
+     {"type": "bi", "sectionID": "section4","elementContent":["SQL Slammer",""]},
+   {"type": "span", "sectionID": "section4","elementContent":["czy ",""]},
+    {"type": "bi", "sectionID": "section4","elementContent":["CryptoLocker ",""]},
+   {"type": "span", "sectionID": "section4","elementContent":["pokazały, jak destrukcyjne mogą być te zagrożenia, powodując miliardowe straty i paraliżując infrastrukturę krytyczną. Dlatego też zrozumienie natury wirusów komputerowych i stosowanie najlepszych praktyk w zakresie cyberbezpieczeństwa jest niezbędne w dzisiejszym cyfrowym świecie. ",""]}
+    
 ]
