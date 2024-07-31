@@ -5,21 +5,21 @@
     {"type": "key-combo", "sectionID": "section1", "elementContent": ["Ctrl","G"]},
     {"type": "span", "sectionID": "section1","elementContent":[")",""]},
      {"type": "img", "sectionID": "section1", "elementContent": [
-    "KiraTheGames/test/main/virtualbox/vb-globalne-ustawienia.webp",
+    "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/vb-globalne-ustawienia.webp",
     "Ustawienia globalne w VirtualBox",
-    "944","539", "KiraTheGames/test/main/virtualbox/vb-globalne-ustawienia_ORIGINAL.webp"
+    "944","539", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/vb-globalne-ustawienia_ORIGINAL.webp"
     ]},
     {"type": "span", "sectionID": "section1","elementContent":["Zmień domyślny folder maszyn wirtualnych.",""]},
  {"type": "img", "sectionID": "section1", "elementContent": [
-    "KiraTheGames/test/main/virtualbox/vb-globalne-ustawienia-ogolne.webp",
+    "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/vb-globalne-ustawienia-ogolne.webp",
     "Domyślna ścieżka do przechowywania wyeksportowanych maszyn",
-    "900","630", "KiraTheGames/test/main/virtualbox/vb-globalne-ustawienia-ogolne_ORIGINAL.webp"
+    "900","630", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/vb-globalne-ustawienia-ogolne_ORIGINAL.webp"
     ]},
     {"type": "span", "sectionID": "section1","elementContent":["Dodatkowo możesz skonfigurować: motyw, język i sprawdzanie aktualizacji.",""]},
 {"type": "img", "sectionID": "section1", "elementContent": [
-    "KiraTheGames/test/main/virtualbox/vb-globalne-ustawienia-ogolne-inne.webp",
+    "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/vb-globalne-ustawienia-ogolne-inne.webp",
     "Inne ustawienia globalne VirtualBox-a",
-    "900","630", "KiraTheGames/test/main/virtualbox/vb-globalne-ustawienia-ogolne-inne_ORIGINAL.webp"
+    "900","630", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/vb-globalne-ustawienia-ogolne-inne_ORIGINAL.webp"
     ]},
 
     
@@ -39,9 +39,9 @@
     {"type": "text-block-name", "sectionID": "section2", "elementContent": ["„Skip unattended Installation”", "​"]},
     {"type": "span", "sectionID": "section2","elementContent":[").",""]},
     {"type": "img", "sectionID": "section2", "elementContent": [
-    "KiraTheGames/test/main/virtualbox/vb-nowa-maszyna.webp",
+    "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/vb-nowa-maszyna.webp",
     "Podstawowe ustawienia nowej maszyny",
-    "944","536", "KiraTheGames/test/main/virtualbox/vb-nowa-maszyna_ORIGINAL.webp"
+    "944","536", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/vb-nowa-maszyna_ORIGINAL.webp"
     ]},
     {"type": "span", "sectionID": "section2","elementContent":["W kolejnym kroku przydziel cześć zasobów swojego fizycznego komputera nazywanego również ",""]},
     {"type": "b", "sectionID": "section2","elementContent":["Gospodarzem",""]},
@@ -49,9 +49,9 @@
     {"type": "u", "sectionID": "section2","elementContent":["będziesz musiał jednocześnie uruchamiać wiele maszyn i na nich pracować",""]},
     {"type": "span", "sectionID": "section2","elementContent":["dlatego przemyśl ten etap (w razie co zawsze możesz to w późniejszym czasie zmienić w ustawieniach maszyny).",""]},
 {"type": "img", "sectionID": "section2", "elementContent": [
-    "KiraTheGames/test/main/virtualbox/vb-nowa-maszyna-RAM.webp",
+    "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/vb-nowa-maszyna-RAM.webp",
     "Przydzielanie zasobów RAM-u i Procesora",
-    "944","532", "KiraTheGames/test/main/virtualbox/vb-nowa-maszyna-RAM_ORIGINAL.webp"
+    "944","532", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/vb-nowa-maszyna-RAM_ORIGINAL.webp"
     ]},
     {"type": "span", "sectionID": "section2","elementContent":["Następnie utwórz nowy wirtualny dysk twardy. Jeśli zaznaczysz opcję",""]},
     {"type": "span", "sectionID": "section2","elementContent":["„Pre-allocate Full Size” ",""]},
@@ -63,14 +63,14 @@
     {"type": "i", "sectionID": "section2","elementContent":["SSD",""]},
     {"type": "span", "sectionID": "section2","elementContent":["jako fizycznego nośnika, różnicy w wydajności maszyn nie zaobserwujesz, ale przy statycznej alokacji zmarnujesz potencjalne miejsce na dysku gospodarza.",""]},
     {"type": "img", "sectionID": "section2", "elementContent": [
-    "KiraTheGames/test/main/virtualbox/vb-nowa-maszyna-Dysk.webp",
+    "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/vb-nowa-maszyna-Dysk.webp",
     "Tworzenie wirtualnego dysku",
-    "944","532", "KiraTheGames/test/main/virtualbox/vb-nowa-maszyna-Dysk_ORIGINAL.webp"
+    "944","532", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/vb-nowa-maszyna-Dysk_ORIGINAL.webp"
     ]},
         {"type": "span", "sectionID": "section2","elementContent":["W końcowej karcie zobaczysz wszystkie podjęte przez ciebie wybory podczas kreacji.",""]},
    {"type": "img", "sectionID": "section2", "elementContent": [
-    "KiraTheGames/test/main/virtualbox/vb-nowa-maszyna-podsumowanie.webp",
+    "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/vb-nowa-maszyna-podsumowanie.webp",
     "Podsumowanie tworzenia nowej maszyny",
-    "944","531", "KiraTheGames/test/main/virtualbox/vb-nowa-maszyna-podsumowanie_ORIGINAL.webp"
+    "944","531", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/vb-nowa-maszyna-podsumowanie_ORIGINAL.webp"
     ]}
     ]
