@@ -1,0 +1,5 @@
+[
+    {"type": "h2", "sectionID": "section1", "elementContent": ["Wstęp"]},
+   {"type": "span", "sectionID": "section1","elementContent":["Wirusy",""]},
+   {"type": "br", "sectionID": "section1"}
+]
