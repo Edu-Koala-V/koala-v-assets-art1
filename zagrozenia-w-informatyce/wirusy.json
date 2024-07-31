@@ -4,7 +4,7 @@
    {"type": "span", "sectionID": "section1","elementContent":[", znane również jako ",""]},
    {"type": "bi", "sectionID": "section1","elementContent":["malware",""]},
    {"type": "span", "sectionID": "section1","elementContent":[", są rodzajem złośliwego oprogramowania zaprojektowanego do infiltracji i uszkodzenia systemów komputerowych. Historia wirusów sięga lat osiemdziesiątych, kiedy to pierwsze przypadki infekcji pojawiły się na komputerach Apple II, a słynny robak Morrisa sparaliżował systemy Unix w 1988 roku. ",""]},
-   {"type": "br", "sectionID": "section1"}
+   {"type": "br", "sectionID": "section1"},
     
    {"type": "span", "sectionID": "section1","elementContent":["Wirusy komputerowe mogą przybierać różne formy, w tym ",""]},
    {"type": "bi", "sectionID": "section1","elementContent":["trojany",""]},
