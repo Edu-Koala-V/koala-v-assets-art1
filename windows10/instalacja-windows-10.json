@@ -115,8 +115,11 @@
    {"type": "span", "sectionID": "section5","elementContent":[". Utworzoną w ten sposób partycję należy sformatować wykorzystując jeden z trzech systemów plików:",""]},
    {"type": "br", "sectionID": "section5"},
 
-   {"type": "list","sectionID": "section2", "elementContent": [{"ver":"ul",
-    "listElements":[[{"type": "b", "sectionID": "section5","elementContent":["NTFS",""]},{"type": "span", "sectionID": "section5","elementContent":["(New Technology File System) – Niby nowy a pierwsza wersja została wydana w 1993r. Charakteryzuje go ogromne pliki, szyfrowany, zarządzany poprzez uprawnienia do plików i katalogów, nieuniwersalny.",""]}]] }}
+   {"type": "list","sectionID": "section2", "elementContent": {"ver":"ul",
+    "listElements":["NTFS (New Technology File System) – Niby nowy a pierwsza wersja została wydana w 1993r. Charakteryzuje go ogromne pliki, szyfrowany, zarządzany poprzez uprawnienia do plików i katalogów, nieuniwersalny.",
+         "FAT (File Allocation Table )– Domyślnie (FAT32) uniwersalny i zgodny z wszystkimi urządzeniami ograniczony rozmiarem pliku max 4GB, brak szyfrowania i systemu uprawnień plików i katalogów",
+          "exFAT (Extensible File Allocation Table) – Rozszerzenie FAT64 dla FAT32 można przechowywać na nim większe pliki niż 4GB. Spoko system plików do przechowywania kopi zapasowych nie wymagających od użytkownika zabezpieczania lub szyfrowania danych np.: backup-y gier."
+    ] }}
 
    
    
