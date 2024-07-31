@@ -116,7 +116,7 @@
    {"type": "br", "sectionID": "section5"},
 
    {"type": "list","sectionID": "section2", "elementContent": [{"ver":"ul",
-    "listElements":[{"type": "b", "sectionID": "section5","elementContent":["NTFS",""]},{"type": "span", "sectionID": "section5","elementContent":["(New Technology File System) – Niby nowy a pierwsza wersja została wydana w 1993r. Charakteryzuje go ogromne pliki, szyfrowany, zarządzany poprzez uprawnienia do plików i katalogów, nieuniwersalny.",""]}]] }}
+    "listElements":[[{"type": "b", "sectionID": "section5","elementContent":["NTFS",""]},{"type": "span", "sectionID": "section5","elementContent":["(New Technology File System) – Niby nowy a pierwsza wersja została wydana w 1993r. Charakteryzuje go ogromne pliki, szyfrowany, zarządzany poprzez uprawnienia do plików i katalogów, nieuniwersalny.",""]}]] }}
 
    
    
