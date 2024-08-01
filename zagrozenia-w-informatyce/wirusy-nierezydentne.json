@@ -21,5 +21,79 @@
     "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/wirus.webp",
     "Malware - wirus.",
     "819","947", "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/wirus_ORIGINAL.webp"
+    ,"low-size-img"]},
+    
+    {"type": "h2", "sectionID": "section3", "elementContent": ["Wirus dyskowy i wirus klasterowy"]},
+   {"type": "bi", "sectionID": "section3","elementContent":["Wirus dyskowy",""]},
+   {"type": "span", "sectionID": "section3","elementContent":[" infekuje sektor rozruchowy dysku lub główny rekord rozruchowy (",""]},
+   {"type": "i", "sectionID": "section3","elementContent":["MBR - Master Boot Record",""]},
+   {"type": "span", "sectionID": "section3","elementContent":[") i aktywuje się podczas startu systemu z zainfekowanego nośnika. ",""]},
+   {"type": "i", "sectionID": "section3","elementContent":["„nosicielem”",""]},
+   {"type": "span", "sectionID": "section3","elementContent":[".",""]},
+   {"type": "br", "sectionID": "section3"},
+   {"type": "bi", "sectionID": "section3","elementContent":["Wirus klastrowy",""]},
+   {"type": "span", "sectionID": "section3","elementContent":[" zmienia tablicę alokacji plików (",""]},
+   {"type": "i", "sectionID": "section3","elementContent":["FAT - File Allocation Table",""]},
+   {"type": "span", "sectionID": "section3","elementContent":[") i przechwytuje wszystkie próby dostępu do plików, a następnie infekuje je.",""]},
+   {"type": "br", "sectionID": "section3"},
+   {"type": "br", "sectionID": "section3"},
+    {"type": "img", "sectionID": "section3", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/wirus-dysku.webp",
+    "Malware - wirus dyskowy i wirus klasterowy.",
+    "819","947", "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/wirus-dysku_ORIGINAL.webp"
+    ,"low-size-img"]},
+
+       {"type": "h2", "sectionID": "section4", "elementContent": ["wirus plikowy"]},
+   {"type": "span", "sectionID": "section4","elementContent":["Infekuje pliki wykonywalne (",""]},
+   {"type": "bi", "sectionID": "section4","elementContent":[".exe, .com, .bat",""]},
+   {"type": "span", "sectionID": "section4","elementContent":[") oraz obrazy i dokumenty. Aktywacja następuje przez uruchomienie pliku przez użytkownika lub inny program. Wirus plikowy może zmieniać lub uszkadzać pliki. W zależności od sposobu dopisania swojego kodu:",""]},
+   {"type": "br", "sectionID": "section4"},
+   {"type": "br", "sectionID": "section4"},
+    {"type": "list","sectionID": "section4", "elementContent": {"ver":"ul",
+    "listElements":["Gdy kod zostanie dopisany na początku pliku uszkodzi go.",
+        "Gdy kod zostanie dopisany na końcu pliku nie uszkodzi go."
+    ] }},
+   {"type": "br", "sectionID": "section4"},
+   {"type": "br", "sectionID": "section4"},
+   {"type": "span", "sectionID": "section4","elementContent":["Wirus plikowy należy do jednej z najczęstszych i najstarszych kategorii wirusów komputerowych.",""]},
+   {"type": "br", "sectionID": "section4"},
+   {"type": "br", "sectionID": "section4"},
+    
+    {"type": "img", "sectionID": "section4", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/wirus-plikowy.webp",
+    "Malware - wirus plikowy.",
+    "819","947", "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/wirus-plikowy_ORIGINAL.webp"
+    ,"low-size-img"]},
+
+    {"type": "h2", "sectionID": "section5", "elementContent": ["Wirus telefonu komórkowego"]},
+   {"type": "span", "sectionID": "section5","elementContent":["Złośliwe oprogramowanie skoncentrowane na infekowaniu urządzeń mobilnych z systemem Android iOS lub innym.",""]},
+   {"type": "br", "sectionID": "section5"},
+    {"type": "span", "sectionID": "section5","elementContent":["Dostaje się poprzez zainfekowane pliki i linki często zamieszczone w reklamach na stronach internetowych lub w aplikacjach.",""]},
+   {"type": "br", "sectionID": "section5"},
+     {"type": "span", "sectionID": "section5","elementContent":["Może zostać zainstalowane jako aplikacja z nieautoryzowanego źródła lub z autoryzowanego źródła gdy właściciel sklepu ( Google Play / Sklep Play lub App Store) nie zdoła wykryć złośliwego kodu.",""]},
+   {"type": "br", "sectionID": "section5"},
+     {"type": "span", "sectionID": "section5","elementContent":["Infekcja może nastąpić poprzez lukę zabezpieczeń systemu lub nakładki systemowej.",""]},
+   {"type": "br", "sectionID": "section5"},
+   {"type": "br", "sectionID": "section5"},
+     {"type": "img", "sectionID": "section5", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/wirus-telefonu.webp",
+    "Malware - wirus telefonu komórkowego.",
+    "819","947", "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/wirus-telefonu_ORIGINAL.webp"
+    ,"low-size-img"]},
+
+    {"type": "h2", "sectionID": "section6", "elementContent": ["makro wirus"]},
+   {"type": "span", "sectionID": "section6","elementContent":["Infekuje pliki z makrami, takie jak dokumenty",""]},
+    {"type": "i", "sectionID": "section6","elementContent":["Worda",""]},
+     {"type": "span", "sectionID": "section6","elementContent":[" , czy arkusze ",""]},
+     {"type": "i", "sectionID": "section6","elementContent":["Excela, i wykonuje złośliwe makra.",""]},
+     {"type": "span", "sectionID": "section6","elementContent":[", i wykonuje ",""]},
+     {"type": "u", "sectionID": "section6","elementContent":["Excela, i wykonuje złośliwe makra.",""]},
+     {"type": "span", "sectionID": "section6","elementContent":[".",""]},
+   {"type": "br", "sectionID": "section6"},
+   {"type": "br", "sectionID": "section6"},
+     {"type": "img", "sectionID": "section6", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/makro-wirus.webp",
+    "Malware - makro wirus.",
+    "819","947", "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/makro-wirus_ORIGINAL.webp"
     ,"low-size-img"]}
 ]
