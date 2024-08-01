@@ -8,7 +8,6 @@
     "Zamontuj obraz w maszynie i otwórz go w stacji dysków.",
     "944","658", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/add-guest-addon_ORIGINAL.webp"
     ]},
-    ,
 {"type": "span", "sectionID": "section1","elementContent":["Uruchom instalator VBoxWindowsAdditions.exe i przejdź przez proces instalacji, a następnie uruchom ponownie maszynę.",""]},
 {"type": "img", "sectionID": "section1", "elementContent": [
     "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/install-guest-addon.webp",
