@@ -33,7 +33,7 @@
      {"type": "bi", "sectionID": "section4","elementContent":["SQL Slammer",""]},
    {"type": "span", "sectionID": "section4","elementContent":["czy ",""]},
     {"type": "bi", "sectionID": "section4","elementContent":["CryptoLocker ",""]},
-   {"type": "span", "sectionID": "section4","elementContent":["pokazały, jak destrukcyjne mogą być te zagrożenia, powodując miliardowe straty i paraliżując infrastrukturę krytyczną. Dlatego też zrozumienie natury wirusów komputerowych i stosowanie najlepszych praktyk w zakresie cyberbezpieczeństwa jest niezbędne w dzisiejszym cyfrowym świecie. ",""]}
+   {"type": "span", "sectionID": "section4","elementContent":["pokazały, jak destrukcyjne mogą być te zagrożenia, powodując miliardowe straty i paraliżując infrastrukturę krytyczną. Dlatego też zrozumienie natury wirusów komputerowych i stosowanie najlepszych praktyk w zakresie cyberbezpieczeństwa jest niezbędne w dzisiejszym cyfrowym świecie. ",""]},
 
     {"type": "h2", "sectionID": "section5", "elementContent": ["Cele złośliwego oprogramowania"]},
    {"type": "span", "sectionID": "section5","elementContent":["W dzisiejszych czasach złośliwe oprogramowanie koncentruje się na różnych celach, takich jak:",""]},
