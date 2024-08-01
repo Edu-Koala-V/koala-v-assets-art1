@@ -34,5 +34,74 @@
    {"type": "span", "sectionID": "section4","elementContent":["czy ",""]},
     {"type": "bi", "sectionID": "section4","elementContent":["CryptoLocker ",""]},
    {"type": "span", "sectionID": "section4","elementContent":["pokazały, jak destrukcyjne mogą być te zagrożenia, powodując miliardowe straty i paraliżując infrastrukturę krytyczną. Dlatego też zrozumienie natury wirusów komputerowych i stosowanie najlepszych praktyk w zakresie cyberbezpieczeństwa jest niezbędne w dzisiejszym cyfrowym świecie. ",""]}
+
+    {"type": "h2", "sectionID": "section5", "elementContent": ["Cele złośliwego oprogramowania"]},
+   {"type": "span", "sectionID": "section5","elementContent":["W dzisiejszych czasach złośliwe oprogramowanie koncentruje się na różnych celach, takich jak:",""]},
+  {"type": "br", "sectionID": "section5"},
+   {"type": "br", "sectionID": "section5"},
+    {"type": "list","sectionID": "section5", "elementContent": {"ver":"ul",
+    "listElements":["Wykradanie danych z urządzenia ofiary, takich jak hasła, informacje o karcie kredytowej i wiele innych.",
+         "Szyfrowanie dysków w celu okupu w zamian za klucz do odszyfrowania.",
+          "Instalacja i konfiguracja oraz ukrycie oprogramowania do kopania kryptowalut na urządzeniu ofiary, co najpewniej doprowadzić do spowolnienia urządzenia i zwiększenia rachunków za energię elektryczną oraz wyeksploatowanie podzespołów urządzenia.",
+"Częściowe lub całkowite przejęcie urządzenia na określony czas do wykorzystania w ataku DDoS na konkretne serwery rządowe i korporacyjne. ( Takie zainfekowane urządzenie nazywane jest uśpionym zombie. A grupę urządzeń, do których mam dostęp haker nazywa się Botnet `em )."
+    ] }},
+     {"type": "img", "sectionID": "section5", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/malware.webp",
+    "Malware - złośliwe oprogramowanie (wirus komputerowy).",
+    "945","707", "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/malware_ORIGINAL.webp"
+    ]},
+
     
+    {"type": "h2", "sectionID": "section6", "elementContent": ["Kategoryzacja malware"]},
+   {"type": "span", "sectionID": "section6","elementContent":["Wirusy komputerowe tak samo jak rzeczywiste wirusy mutują i ewoluują. Dlatego wymagane jest ich kategoryzacja. Podziału można dokonać ze względu na atakowany obiekt w systemie, sposób działania oraz lokalizację zagnieżdżenia infekcji.",""]},
+   {"type": "span", "sectionID": "section6","elementContent":["Złośliwe oprogrtamowanie może:",""]},
+  {"type": "br", "sectionID": "section6"},
+  {"type": "br", "sectionID": "section6"},
+
+ {"type": "list","sectionID": "section6", "elementContent": {"ver":"ul",
+    "listElements":["Zainfekować plik programu, obrazu lub dokumentu.",
+        "Dodać się jako klucz w rejestrze komputera.",
+        "Dopisać się do jądra lub powłoki systemu operacyjnego.",
+        "Zagnieździć w oprogramowaniu płyty głównej oraz biosu.",
+        "Ukryć się w sektorze pamięci stałej np.: HDD, SSD, FLASH ( dyski wewnętrzne i zewnętrzne oraz pendrive ), deklarując swoje połażenie jako uszkodzony sektor ( ang. bad sector )."
+    ] }},
+
+    {"type": "h3", "sectionID": "section6","elementContent":["Wirusy komputerowe rezydentne nie rezydentne",""]},
+   {"type": "span", "sectionID": "section6","elementContent":["Wirusy komputerowe można podzielić na dwa typy ze względu na sposób infekcji:",""]},
+    
+  {"type": "br", "sectionID": "section6"},
+  {"type": "br", "sectionID": "section6"},
+{"type": "list","sectionID": "section6", "elementContent": {"ver":"ul",
+    "listElements":["Wirusy nierezydentne zarażają pliki z programami i rozpoczynają wyszukiwanie kolejnego elementu do infekcji po uruchomieniu wirusa.",
+        "Wirusy rezydentne instalują się w głębszych warstwach systemu operacyjnej urządzenia np.: jądro, powłoka, sterowniki. Swoją pracę rozpoczynają wraz ze startem systemu"
+    ] }},
+
+    
+  {"type": "br", "sectionID": "section6"},
+  {"type": "br", "sectionID": "section6"},
+    
+   {"type": "h3", "sectionID": "section6","elementContent":["Sposoby zainfekowania urządzenia:",""]},
+  {"type": "br", "sectionID": "section6"},
+  {"type": "br", "sectionID": "section6"},
+    
+ {"type": "list","sectionID": "section6", "elementContent": {"ver":"ul",
+    "listElements":["Posiadanie Malware `u zdolnego do instalacji złośliwego oprogramowania.",
+        "Klikanie w podejrzane reklamy.",
+        "Nieaktualizowanie systemu i zasad zabezpieczeń oraz oprogramowania antywirusowego i antyszpiegowskiego.",
+        "Wyłączanie zapory sieciowej / ogniowej ( w sytuacjach niebadawczych ).",
+        "Wchodzenie na podejrzane strony WwW.",
+        "Instalując podejrzane rozszerzenia do przeglądarki WwW.",
+        "Bezmyślne podawanie danych na stronach promowanych poprzez posty Facebooka.",
+        "Bezmyślne podawanie danych na stronach z nieprawidłową nazwą domeny np.: santander-online.pl zamiast santander.pl",
+        "Klikanie w linki i pobieranie plików oraz instalatorów z podejrzanych e-mail-y lub SMS-ów."
+    ] }},
+  {"type": "br", "sectionID": "section6"},
+  {"type": "br", "sectionID": "section6"},
+
+    {"type": "link-art", "sectionID": "section6", "elementContent": ["Wirusy rezydentne", "Zagrożenia w Informatyce"]},
+  {"type": "br", "sectionID": "section6"},
+  {"type": "br", "sectionID": "section6"},
+    
+{"type": "link-art", "sectionID": "section6", "elementContent": ["Wirusy nierezydentne","Zagrożenia w Informatyce"]}
+
 ]
