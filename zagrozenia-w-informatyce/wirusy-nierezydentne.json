@@ -154,5 +154,87 @@
     "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/spyware.webp",
     "Malware - spyware.",
     "819","947", "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/spyware_ORIGINAL.webp"
-    ,"low-size-img"]}
+    ,"low-size-img"]},
+
+    {"type": "h2", "sectionID": "section11", "elementContent": ["keylogger","uppercase"]},
+   {"type": "span", "sectionID": "section11","elementContent":["Oprogramowanie przechwytujące, zapisujące i wysyłające do autora wszystkie wciśnięte fizyczne przyciski urządzeń peryferyjnych ( np.: klawiatura mysz i pad do gier ).",""]},
+        {"type": "img", "sectionID": "section11", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/keylogger.webp",
+    "Malware - keylogger.",
+    "819","947", "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/keylogger_ORIGINAL.webp"
+    ,"low-size-img"]},
+
+    {"type": "h2", "sectionID": "section12", "elementContent": ["exploit","uppercase"]},
+   {"type": "span", "sectionID": "section12","elementContent":["Jest to oprogramowanie, które po zainstalowaniu próbuje uzyskać uprawnienia administratora, by wyszukać podatności w zabezpieczeniach systemu dla późniejszego ataku cyberprzestępców poprzez zdalną kontrolę.",""]},
+        {"type": "img", "sectionID": "section12", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/exploit.webp",
+    "Malware - exploit.",
+    "819","947", "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/exploit_ORIGINAL.webp"
+    ,"low-size-img"]},
+
+     {"type": "h2", "sectionID": "section13", "elementContent": ["Hijacker Browser Helper Object","uppercase"]},
+   {"type": "span", "sectionID": "section13","elementContent":["Porywacz przeglądarek najczęściej jest instalowany z oprogramowaniem, które ma na celu modyfikowanie wyglądu i działania systemu np.: animowana tapeta pulpitu.",""]},
+   {"type": "span", "sectionID": "section13","elementContent":["Porywacz zmienia:",""]},
+     {"type": "list","sectionID": "section13", "elementContent": {"ver":"ul",
+    "listElements":["Domyślną stronę startową",
+        "Domyślną wyszukiwarkę",
+        "Instaluje niechciane dodatki do przeglądarki",
+        "Instaluje niechciane Toolbar`y"
+    ] }},
+   {"type": "span", "sectionID": "section13","elementContent":["Na dodatek jest bardzo sprytny i wredny, gdyż blokuje strony z ",""]},
+   {"type": "i", "sectionID": "section13","elementContent":["oprogramowaniem antywirusowym ",""]},
+   {"type": "span", "sectionID": "section13","elementContent":[" i ",""]},
+   {"type": "i", "sectionID": "section13","elementContent":["antyszpiegowskim",""]},
+   {"type": "span", "sectionID": "section13","elementContent":["oraz",""]},
+   {"type": "i", "sectionID": "section13","elementContent":["oraz usuwającym Hijacker Browser Helper Object",""]},
+   {"type": "span", "sectionID": "section13","elementContent":[".",""]},
+        {"type": "img", "sectionID": "section13", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/hijacker-browser-helper-object.webp",
+    "Malware - Hijacker Browser Helper Object.",
+    "819","947", "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/hijacker-browser-helper-object_ORIGINAL.webp"
+    ,"low-size-img"]},
+
+    {"type": "h2", "sectionID": "section14", "elementContent": ["SQL/URL injection","uppercase"]},
+   {"type": "span", "sectionID": "section14","elementContent":["Atak SQL Injection polega na wstrzyknięciu złośliwego kodu SQL do formularza na stronie internetowej. Zwykle atakujący wykorzystują formularze, które umożliwiają użytkownikom wprowadzenie danych do bazy danych. Wprowadzenie złośliwego kodu SQL do formularza pozwala atakującemu na wykonanie dowolnego polecenia w bazie danych. ",""]},
+   {"type": "br", "sectionID": "section14"},
+   {"type": "span", "sectionID": "section14","elementContent":["Dodatkowo skrypt SQL może mieć charakter ataku XSS ( Cross-Site Scripting ) na użytkowników wykonujących zapytania do bazy danych. W ten sposób uzyskają odpowiedź ze złośliwym kodem PHP/SQL który będzie poświadczony przez serwer i prześle wszystkie dane, które użytkownik wpisał w formularzu do cyberprzestępcy.",""]},
+
+        {"type": "img", "sectionID": "section14", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/SQL-URL-injection.webp",
+    "Malware - SQL/URL injection.",
+    "819","947", "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/SQL-URL-injection_ORIGINAL.webp"
+    ,"low-size-img"]},
+
+      {"type": "h2", "sectionID": "section15", "elementContent": ["Adware","uppercase"]},
+   {"type": "span", "sectionID": "section15","elementContent":["To oprogramowanie dostaje się do systemu użytkownika poprzez instalację innego programu lub przez zainfekowaną stronę WwW, przenikając luki przeglądarki.",""]},
+   {"type": "span", "sectionID": "section15","elementContent":["Jego działanie jest proste i najczęściej pracuje w przeglądarce, dodając masę podejrzanych reklam do stron internetowych, a także wymusza otwarcie nowych okienek przeglądarki ( POP-UP ) z reklamą.",""]},
+        {"type": "img", "sectionID": "section15", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/adware.webp",
+    "Malware - adware.",
+    "819","947", "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/adware_ORIGINAL.webp"
+    ,"low-size-img"]},
+
+      {"type": "h2", "sectionID": "section16", "elementContent": ["Dialer","uppercase"]},
+   {"type": "span", "sectionID": "section16","elementContent":["To oprogramowanie, które kiedyś gdy dostęp do internetu był poprzez linie komunikacji telefonicznej dokonywało połączeń z zagranicznymi bramkami telefonicznymi, by zwiększyć koszty abonenckie użytkownika.",""]},
+   {"type": "span", "sectionID": "section16","elementContent":["To oprogramowanie, które kiedyś gdy dostęp do internetu był poprzez linie komunikacji telefonicznej dokonywało połączeń z zagranicznymi bramkami telefonicznymi, by zwiększyć koszty abonenckie użytkownika.",""]},
+   {"type": "span", "sectionID": "section16","elementContent":["W dzisiejszych czasach powszechnie stosuje się połączenia szerokopasmowe, więc dialer został skoncentrowany do infekcji telefonów, by wysyłać",""]},
+   {"type": "bi", "sectionID": "section16","elementContent":["SMS-y PREMIUM ",""]},
+        {"type": "img", "sectionID": "section16", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/dialer.webp",
+    "Malware - dialer.",
+    "819","947", "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/dialer_ORIGINAL.webp"
+    ,"low-size-img"]},
+
+      {"type": "h2", "sectionID": "section17", "elementContent": ["cryptomining","uppercase"]},
+   {"type": "span", "sectionID": "section17","elementContent":["To oprogramowanie, które wykorzystuje moc obliczeniową zainfekowanego urządzenia do kopania kryptowalut. Najczęściej podszywa się pod procesy systemowe, aby trudniej było go wykryć.",""]},
+        {"type": "img", "sectionID": "section17", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/cryptomining.webp",
+    "Malware - cryptomining.",
+    "819","947", "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/cryptomining_ORIGINAL.webp"
+    ,"low-size-img"]},
+
+     {"type": "h2", "sectionID": "section18", "elementContent": ["Inne powiązane artykuły"]},
+   {"type": "span", "sectionID": "section18","elementContent":["Wymienione tu wirusy są nie rezydentne. Sprawdź też typy wirusów rezydentnych:",""]},
+    {"type": "br", "sectionID": "section18"},
+    {"type": "link-art", "sectionID": "section18", "elementContent": ["Wirusy rezydentne","Zagrożenia w Informatyce"]}
 ]
