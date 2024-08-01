@@ -1,5 +1,10 @@
 [
     {"type": "h2", "sectionID": "section1", "elementContent": ["Wstęp"]},
+       {"type": "span", "sectionID": "section1","elementContent":["zanim zaczniesz przeczytaj pierwszy powiązany artykuł:",""]},
+   {"type": "br", "sectionID": "section1"},
+    {"type": "link-art", "sectionID": "section1", "elementContent": ["Wirusy nierezydentne","Złośliwe oprogramowanie"]},
+   {"type": "br", "sectionID": "section1"},
+    
    {"type": "span", "sectionID": "section1","elementContent":["Wirusy rezydentne instalują się w głębszych warstwach systemu operacyjnej urządzenia np.: jądro, powłoka, sterowniki. Swoją pracę rozpoczynają wraz ze startem systemu",""]},
    {"type": "br", "sectionID": "section1"},
    {"type": "span", "sectionID": "section1","elementContent":["Poniżej przedstaiono ich typy z opisami.",""]},
@@ -81,5 +86,13 @@
     "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/backdoor.webp",
     "Malware - backdoor.",
     "819","947", "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/backdoor_ORIGINAL.webp"
-    ,"low-size-img"]}
+    ,"low-size-img"]},
+
+     {"type": "h2", "sectionID": "section8", "elementContent": ["Inne powiązane artykuły"]},
+   {"type": "span", "sectionID": "section8","elementContent":["Wymienione tu wirusy są rezydentne. Sprawdź też typy wirusów nie rezydentnych:",""]},
+    {"type": "br", "sectionID": "section8"},
+    {"type": "link-art", "sectionID": "section8", "elementContent": ["Wirusy nierezydentne","Zagrożenia w Informatyce"]}
+
+    
+  
 ]
