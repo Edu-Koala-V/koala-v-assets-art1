@@ -9,7 +9,7 @@
    {"type": "br", "sectionID": "section1"},
    {"type": "span", "sectionID": "section1","elementContent":["Poniżej przedstaiono ich typy z opisami.",""]},
 
-    {"type": "h2", "sectionID": "section2", "elementContent": ["wirus"]},
+    {"type": "h2", "sectionID": "section2", "elementContent": ["wirus","uppercase"]},
    {"type": "span", "sectionID": "section2","elementContent":["Program lub fragment kodu w programie będącym ",""]},
    {"type": "i", "sectionID": "section2","elementContent":["„nosicielem”",""]},
    {"type": "span", "sectionID": "section2","elementContent":[".",""]},
@@ -23,7 +23,7 @@
     "819","947", "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/wirus_ORIGINAL.webp"
     ,"low-size-img"]},
     
-    {"type": "h2", "sectionID": "section3", "elementContent": ["Wirus dyskowy i wirus klasterowy"]},
+    {"type": "h2", "sectionID": "section3", "elementContent": ["Wirus dyskowy i wirus klasterowy","uppercase"]},
    {"type": "bi", "sectionID": "section3","elementContent":["Wirus dyskowy",""]},
    {"type": "span", "sectionID": "section3","elementContent":[" infekuje sektor rozruchowy dysku lub główny rekord rozruchowy (",""]},
    {"type": "i", "sectionID": "section3","elementContent":["MBR - Master Boot Record",""]},
@@ -41,7 +41,7 @@
     "819","947", "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/wirus-dysku_ORIGINAL.webp"
     ,"low-size-img"]},
 
-       {"type": "h2", "sectionID": "section4", "elementContent": ["wirus plikowy"]},
+       {"type": "h2", "sectionID": "section4", "elementContent": ["wirus plikowy","uppercase"]},
    {"type": "span", "sectionID": "section4","elementContent":["Infekuje pliki wykonywalne (",""]},
    {"type": "bi", "sectionID": "section4","elementContent":[".exe, .com, .bat",""]},
    {"type": "span", "sectionID": "section4","elementContent":[") oraz obrazy i dokumenty. Aktywacja następuje przez uruchomienie pliku przez użytkownika lub inny program. Wirus plikowy może zmieniać lub uszkadzać pliki. W zależności od sposobu dopisania swojego kodu:",""]},
@@ -61,7 +61,7 @@
     "819","947", "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/wirus-plikowy_ORIGINAL.webp"
     ,"low-size-img"]},
 
-    {"type": "h2", "sectionID": "section5", "elementContent": ["Wirus telefonu komórkowego"]},
+    {"type": "h2", "sectionID": "section5", "elementContent": ["Wirus telefonu komórkowego","uppercase"]},
    {"type": "span", "sectionID": "section5","elementContent":["Złośliwe oprogramowanie skoncentrowane na infekowaniu urządzeń mobilnych z systemem Android iOS lub innym.",""]},
    {"type": "br", "sectionID": "section5"},
     {"type": "span", "sectionID": "section5","elementContent":["Dostaje się poprzez zainfekowane pliki i linki często zamieszczone w reklamach na stronach internetowych lub w aplikacjach.",""]},
@@ -77,7 +77,7 @@
     "819","947", "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/wirus-telefonu_ORIGINAL.webp"
     ,"low-size-img"]},
 
-    {"type": "h2", "sectionID": "section6", "elementContent": ["makro wirus"]},
+    {"type": "h2", "sectionID": "section6", "elementContent": ["makro wirus","uppercase"]},
    {"type": "span", "sectionID": "section6","elementContent":["Infekuje pliki z makrami, takie jak dokumenty",""]},
     {"type": "i", "sectionID": "section6","elementContent":["Worda",""]},
      {"type": "span", "sectionID": "section6","elementContent":[" , czy arkusze ",""]},
@@ -93,7 +93,7 @@
     "819","947", "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/makro-wirus_ORIGINAL.webp"
     ,"low-size-img"]},
 
-        {"type": "h2", "sectionID": "section7", "elementContent": ["Wirus typu robak"]},
+        {"type": "h2", "sectionID": "section7", "elementContent": ["Wirus typu robak","uppercase"]},
    {"type": "span", "sectionID": "section7","elementContent":["Infekuje pakiety wysyłane poprzez sieć komputerową. Najczęściej rozpowszechnia się poprzez pocztę e-mail",""]},
    {"type": "br", "sectionID": "section7"},
     {"type": "span", "sectionID": "section7","elementContent":["Robaki głównie służą do instalacji na jak największej grupie urządzeń innych wirusów, które autor robaka zechce zainstalować.",""]},
@@ -111,7 +111,7 @@
     "819","947", "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/robak_ORIGINAL.webp"
     ,"low-size-img"]},
 
-    {"type": "h2", "sectionID": "section8", "elementContent": ["spam"]},
+    {"type": "h2", "sectionID": "section8", "elementContent": ["spam","uppercase"]},
    {"type": "span", "sectionID": "section8","elementContent":["Wiadomości masowo rozsyłane poprzez:",""]},
    {"type": "br", "sectionID": "section8"},
    {"type": "list","sectionID": "section8", "elementContent": {"ver":"ul",
@@ -130,7 +130,7 @@
     "819","947", "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/spam_ORIGINAL.webp"
     ,"low-size-img"]},
 
-    {"type": "h2", "sectionID": "section9", "elementContent": ["stealware"]},
+    {"type": "h2", "sectionID": "section9", "elementContent": ["stealware","uppercase"]},
    {"type": "span", "sectionID": "section9","elementContent":["Oprogramowanie mające na celu kradzież poufnych danych o użytkownikach, aby wykorzystać je do wyczyszczenia kont bankowych lub innych przestępstw.",""]},
         {"type": "img", "sectionID": "section9", "elementContent": [
     "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/stealware.webp",
@@ -138,7 +138,7 @@
     "819","947", "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/stealware_ORIGINAL.webp"
     ,"low-size-img"]},
 
-    {"type": "h2", "sectionID": "section10", "elementContent": ["Spyware"]},
+    {"type": "h2", "sectionID": "section10", "elementContent": ["Spyware","uppercase"]},
    {"type": "span", "sectionID": "section10","elementContent":["Spyware w przeciwieństwie,",""]},
    {"type": "i", "sectionID": "section10","elementContent":["Stealware",""]},
    {"type": "span", "sectionID": "section10","elementContent":["`u, który wykrada poufne dane, monitoruje aktywność użytkownika i gromadzi jego poufne dane, takie jak",""]},
