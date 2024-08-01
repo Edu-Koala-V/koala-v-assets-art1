@@ -2,7 +2,7 @@
     {"type": "h2", "sectionID": "section1", "elementContent": ["Wstęp"]},
        {"type": "span", "sectionID": "section1","elementContent":["zanim zaczniesz przeczytaj pierwszy powiązany artykuł:",""]},
    {"type": "br", "sectionID": "section1"},
-    {"type": "link-art", "sectionID": "section1", "elementContent": ["Wirusy nierezydentne","Złośliwe oprogramowanie"]},
+    {"type": "link-art", "sectionID": "section1", "elementContent": ["Złośliwe oprogramowanie","Zagrożenia w Informatyce"]},
    {"type": "br", "sectionID": "section1"},
     
    {"type": "span", "sectionID": "section1","elementContent":["Wirusy rezydentne instalują się w głębszych warstwach systemu operacyjnej urządzenia np.: jądro, powłoka, sterowniki. Swoją pracę rozpoczynają wraz ze startem systemu",""]},
