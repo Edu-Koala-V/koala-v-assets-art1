@@ -130,29 +130,29 @@
     "819","947", "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/spam_ORIGINAL.webp"
     ,"low-size-img"]},
 
-    {"type": "h2", "sectionID": "section8", "elementContent": ["stealware"]},
-   {"type": "span", "sectionID": "section8","elementContent":["Oprogramowanie mające na celu kradzież poufnych danych o użytkownikach, aby wykorzystać je do wyczyszczenia kont bankowych lub innych przestępstw.",""]},
-        {"type": "img", "sectionID": "section8", "elementContent": [
+    {"type": "h2", "sectionID": "section9", "elementContent": ["stealware"]},
+   {"type": "span", "sectionID": "section9","elementContent":["Oprogramowanie mające na celu kradzież poufnych danych o użytkownikach, aby wykorzystać je do wyczyszczenia kont bankowych lub innych przestępstw.",""]},
+        {"type": "img", "sectionID": "section9", "elementContent": [
     "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/stealware.webp",
     "Malware - stealware.",
     "819","947", "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/stealware_ORIGINAL.webp"
     ,"low-size-img"]},
 
-    {"type": "h2", "sectionID": "section8", "elementContent": ["stealware"]},
-   {"type": "span", "sectionID": "section8","elementContent":["Spyware w przeciwieństwie,",""]},
-   {"type": "i", "sectionID": "section8","elementContent":["Stealware",""]},
-   {"type": "span", "sectionID": "section8","elementContent":["`u, który wykrada poufne dane, monitoruje aktywność użytkownika i gromadzi jego poufne dane, takie jak",""]},
-   {"type": "bi", "sectionID": "section8","elementContent":["numery PESEL",""]},
-   {"type": "span", "sectionID": "section8","elementContent":[",",""]},
-   {"type": "bi", "sectionID": "section8","elementContent":["loginy",""]},
-   {"type": "span", "sectionID": "section8","elementContent":["i",""]},
-   {"type": "bi", "sectionID": "section8","elementContent":["hasła",""]},
-   {"type": "span", "sectionID": "section8","elementContent":["do portali społecznościowych lub systemu bankowości elektronicznej, czy ",""]},
-   {"type": "bi", "sectionID": "section8","elementContent":["numery kart kredytowych",""]},
-   {"type": "span", "sectionID": "section8","elementContent":[".",""]},
-        {"type": "img", "sectionID": "section8", "elementContent": [
-    "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/stealware.webp",
-    "Malware - stealware.",
-    "819","947", "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/stealware_ORIGINAL.webp"
+    {"type": "h2", "sectionID": "section10", "elementContent": ["Spyware"]},
+   {"type": "span", "sectionID": "section10","elementContent":["Spyware w przeciwieństwie,",""]},
+   {"type": "i", "sectionID": "section10","elementContent":["Stealware",""]},
+   {"type": "span", "sectionID": "section10","elementContent":["`u, który wykrada poufne dane, monitoruje aktywność użytkownika i gromadzi jego poufne dane, takie jak",""]},
+   {"type": "bi", "sectionID": "section10","elementContent":["numery PESEL",""]},
+   {"type": "span", "sectionID": "section10","elementContent":[",",""]},
+   {"type": "bi", "sectionID": "section10","elementContent":["loginy",""]},
+   {"type": "span", "sectionID": "section10","elementContent":["i",""]},
+   {"type": "bi", "sectionID": "section10","elementContent":["hasła",""]},
+   {"type": "span", "sectionID": "section10","elementContent":["do portali społecznościowych lub systemu bankowości elektronicznej, czy ",""]},
+   {"type": "bi", "sectionID": "section10","elementContent":["numery kart kredytowych",""]},
+   {"type": "span", "sectionID": "section10","elementContent":[".",""]},
+        {"type": "img", "sectionID": "section10", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/spyware.webp",
+    "Malware - spyware.",
+    "819","947", "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/spyware_ORIGINAL.webp"
     ,"low-size-img"]}
 ]
