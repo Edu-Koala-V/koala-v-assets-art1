@@ -83,7 +83,7 @@
 
     {"type": "h2", "sectionID": "section3", "elementContent": ["Ustawienia maszyny: Ekran"]},
 {"type": "span", "sectionID": "section3","elementContent":["W zakładce Ekran możesz włączyć akcelerację 3D która wpłynie na wydajność oraz dostosować ilość pamięci ram i wybrać kontroler grafiki:",""]},
-     {"type": "list","sectionID": "section4", "elementContent": {"ver":"ul",
+     {"type": "list","sectionID": "section3", "elementContent": {"ver":"ul",
     "listElements":["VBoxVGA – zaimportowano maszynę ( Czyli utworzoną w VirtualBox starszym niż 6.0)",
         "VMSVGA – Maszyna została utworzona w VMware Workstation i zaimportowana do VirtualBox",
         "VBoxSVGA – Najlepsza opcja gdy tworzysz nową maszynę w VirtualBox nowszym niż 6.0 i nie masz zamiarów instalować systemu starszego niż Windows 7"
@@ -100,9 +100,9 @@
     "944","508", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/maszyna-ekran-efekt_ORIGINAL.webp"
     ]},
 {"type": "span", "sectionID": "section3","elementContent":["Zakładki ",""]},
-    {"type": "text-block-name", "sectionID": "section2", "elementContent": ["Zdalny pulpit",""]},
+    {"type": "text-block-name", "sectionID": "section3", "elementContent": ["Zdalny pulpit",""]},
     {"type": "span", "sectionID": "section3","elementContent":[" i ",""]},
-    {"type": "text-block-name", "sectionID": "section2", "elementContent": ["Nagrywanie",""]},
+    {"type": "text-block-name", "sectionID": "section3", "elementContent": ["Nagrywanie",""]},
 {"type": "span", "sectionID": "section3","elementContent":["Możesz sprawdzić w własnym zakresie przy nowszych wersjach VB bo aktualnie powoduje to dużo błędów i nie działą tak jak powinno.",""]},
 
     {"type": "h2", "sectionID": "section4", "elementContent": ["Ustawienia maszyny: Pamięć"]},
