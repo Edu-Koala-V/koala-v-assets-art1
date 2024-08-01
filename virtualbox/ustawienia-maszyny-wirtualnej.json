@@ -14,7 +14,7 @@
     "Uruchom instalator VBoxWindowsAdditions.exe.",
     "943","706", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/install-guest-addon_ORIGINAL.webp"
     ]},
-  {"type": "span", "sectionID": "section1","elementContent":["Teraz system w maszynie automatycznie będzie wypełniać całą dostępną przestrzeń w oknie dostosowując się do jej rozmiaru i proporcji.",""]}
+  {"type": "span", "sectionID": "section1","elementContent":["Teraz system w maszynie automatycznie będzie wypełniać całą dostępną przestrzeń w oknie dostosowując się do jej rozmiaru i proporcji.",""]},
 {"type": "br", "sectionID": "section1"},
   {"type": "span", "sectionID": "section1","elementContent":["Kolejną funkcjonalnością którą daje instalacja dodatków gościa to opcje transferu danych pomiędzy gościem a gospodarzem. Współdzielony schowek pozwala na przekopiowanie danych tekstowych i obrazów. Przeciąganie i upuszczanie pozwala przekopiować pliki przenosząc je na lub poza obszar maszyny. ( Niestety zdarza się że VirtualBox się pogubi w działaniach użytkownika i może to zgłośić okienkiem błędu kopiowania pliku )",""]},
   {"type": "img", "sectionID": "section1", "elementContent": [
