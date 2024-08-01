@@ -1,5 +1,27 @@
 [
     {"type": "h2", "sectionID": "section1", "elementContent": ["Wstęp"]},
-   {"type": "span", "sectionID": "section1","elementContent":["Wirusy",""]},
-   {"type": "br", "sectionID": "section1"}
+   {"type": "span", "sectionID": "section1","elementContent":["Wirusy rezydentne instalują się w głębszych warstwach systemu operacyjnej urządzenia np.: jądro, powłoka, sterowniki. Swoją pracę rozpoczynają wraz ze startem systemu",""]},
+   {"type": "br", "sectionID": "section1"},
+   {"type": "span", "sectionID": "section1","elementContent":["Poniżej przedstaiono ich typy z opisami.",""]},
+
+    {"type": "h2", "sectionID": "section2", "elementContent": ["Wirus płyty głównej","uppercase"]},
+   {"type": "span", "sectionID": "section2","elementContent":["Infekuje BIOS komputera i może uniemożliwić jego uruchomienie lub zmienić jego ustawienia.",""]},
+   {"type": "br", "sectionID": "section2"},
+   {"type": "br", "sectionID": "section2"},
+    {"type": "img", "sectionID": "section2", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/wirus-plyty-glownej.webp",
+    "Malware - wirus płyty głównej.",
+    "819","947", "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/wirus-plyty-glownej_ORIGINAL.webp"
+    ]},
+      {"type": "h2", "sectionID": "section3", "elementContent": ["wobbit","uppercase"]},
+   {"type": "span", "sectionID": "section3","elementContent":["Oprogramowanie które po uruchomieniu rozpoczyna replikację samego siebie, zapychając wszystkie dostępne lokalnie pamięci masowe i zużywając podzespoły komputera do utrzymania i dalszej replikacji swoich klonów.",""]},
+   {"type": "br", "sectionID": "section3"},
+   {"type": "span", "sectionID": "section3","elementContent":["Można go usunąć jedynie poprzez uruchomienie systemu w trybie awaryjnym i zlokalizowanie źródła z pomocą oprogramowania antywirusowego.",""]},
+   {"type": "br", "sectionID": "section3"},
+   {"type": "br", "sectionID": "section3"},
+    {"type": "img", "sectionID": "section3", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/wobbit.webp",
+    "Malware - wobbit.",
+    "819","947", "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/wobbit_ORIGINAL.webp"
+    ]}
 ]
