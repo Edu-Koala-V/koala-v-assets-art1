@@ -10,7 +10,9 @@
    {"type": "span", "sectionID": "section1","elementContent":["Poniżej przedstaiono ich typy z opisami.",""]},
 
     {"type": "h2", "sectionID": "section2", "elementContent": ["wirus"]},
-   {"type": "span", "sectionID": "section2","elementContent":["Program lub fragment kodu w programie będącym „nosicielem”.",""]},
+   {"type": "span", "sectionID": "section2","elementContent":["Program lub fragment kodu w programie będącym ",""]},
+   {"type": "i", "sectionID": "section2","elementContent":["„nosicielem”",""]},
+   {"type": "span", "sectionID": "section2","elementContent":[".",""]},
    {"type": "br", "sectionID": "section2"},
    {"type": "span", "sectionID": "section2","elementContent":["Celem wirusa jest rozpowszechnianie się i umożliwienie innemu rodzajowi Malware infekcję urządzenia.",""]},
    {"type": "br", "sectionID": "section2"},
