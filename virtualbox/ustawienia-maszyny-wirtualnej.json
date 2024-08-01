@@ -3,9 +3,39 @@
 {"type": "span", "sectionID": "section1","elementContent":["Aby wykorzystać dodatkowe funkcjonalności interakcji z maszyną, musisz zainstalować zestaw pakietowy dodatków gościa, zwanych również “Guest Additions”. Dzięki nim będziesz mógł zmieniać okno gościa na pełen ekran.",""]},
 {"type": "br", "sectionID": "section1"},
 {"type": "span", "sectionID": "section1","elementContent":["Zamontuj obraz w maszynie i otwórz go w stacji dysków.",""]},
-{"type": "img", "sectionID": "section1", "elementContent": [,
+{"type": "img", "sectionID": "section1", "elementContent": [
     "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/add-guest-addon.webp",
     "Zamontuj obraz w maszynie i otwórz go w stacji dysków.",
     "944","658", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/add-guest-addon_ORIGINAL.webp"
+    ]},
+    ,
+{"type": "span", "sectionID": "section1","elementContent":["Uruchom instalator VBoxWindowsAdditions.exe i przejdź przez proces instalacji, a następnie uruchom ponownie maszynę.",""]},
+{"type": "img", "sectionID": "section1", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/install-guest-addon.webp",
+    "Uruchom instalator VBoxWindowsAdditions.exe.",
+    "943","706", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/install-guest-addon_ORIGINAL.webp"
+    ]},
+  {"type": "span", "sectionID": "section1","elementContent":["Teraz system w maszynie automatycznie będzie wypełniać całą dostępną przestrzeń w oknie dostosowując się do jej rozmiaru i proporcji.",""]},
+{"type": "br", "sectionID": "section1"},
+  {"type": "span", "sectionID": "section1","elementContent":["Kolejną funkcjonalnością którą daje instalacja dodatków gościa to opcje transferu danych pomiędzy gościem a gospodarzem. Współdzielony schowek pozwala na przekopiowanie danych tekstowych i obrazów. Przeciąganie i upuszczanie pozwala przekopiować pliki przenosząc je na lub poza obszar maszyny. ( Niestety zdarza się że VirtualBox się pogubi w działaniach użytkownika i może to zgłośić okienkiem błędu kopiowania pliku )",""]},
+  {"type": "img", "sectionID": "section1", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/maszyna-schowek-windows.webp",
+    "Ustawienie maszyny dotyczące wspódzielenia schowka gościa z gospodarzem.",
+    "944","658", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/maszyna-schowek-windows_ORIGINAL.webp"
+    ]},
+{"type": "span", "sectionID": "section1","elementContent":["W razie gdyby gość przechwycił i nie chciał oddać kursora myszki użyj klawisza host zaznaczony na pomarańczowo w prawym dolnym rogu maszyny.",""]},
+{"type": "br", "sectionID": "section1"},
+  {"type": "span", "sectionID": "section1","elementContent":["Wykorzystując kombinację klawiszy ",""]},
+      {"type": "key-combo", "sectionID": "section1", "elementContent": ["Windows","V"]},
+  {"type": "span", "sectionID": "section1","elementContent":[", uruchomisz schowek elementów kopiowanych ",""]},
+      {"type": "key-combo", "sectionID": "section1", "elementContent": ["Ctrl","C"]},
+   {"type": "span", "sectionID": "section1","elementContent":[" lub wyciętych ",""]},
+      {"type": "key-combo", "sectionID": "section1", "elementContent": ["Ctrl","X"]},
+  {"type": "span", "sectionID": "section1","elementContent":[" oraz twoich zrzutów ekranów („screenshots”) ",""]},
+      {"type": "key-combo", "sectionID": "section1", "elementContent": ["Windows","Shift","S"]},
+    {"type": "img", "sectionID": "section1", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/schowek-windows.webp",
+    "Przedstawienie działania schowka Windows.",
+    "944","1105", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/schowek-windows_ORIGINAL.webp"
     ]}
 ]
