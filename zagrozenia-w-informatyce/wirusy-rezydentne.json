@@ -13,6 +13,7 @@
     "Malware - wirus płyty głównej.",
     "819","947", "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/wirus-plyty-glownej_ORIGINAL.webp"
     ,"low-size-img"]},
+    
       {"type": "h2", "sectionID": "section3", "elementContent": ["wobbit","uppercase"]},
    {"type": "span", "sectionID": "section3","elementContent":["Oprogramowanie które po uruchomieniu rozpoczyna replikację samego siebie, zapychając wszystkie dostępne lokalnie pamięci masowe i zużywając podzespoły komputera do utrzymania i dalszej replikacji swoich klonów.",""]},
    {"type": "br", "sectionID": "section3"},
@@ -23,5 +24,63 @@
     "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/wobbit.webp",
     "Malware - wobbit.",
     "819","947", "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/wobbit_ORIGINAL.webp"
+    ,"low-size-img"]},
+
+    {"type": "h2", "sectionID": "section4", "elementContent": ["wobbit","uppercase"]},
+   {"type": "span", "sectionID": "section4","elementContent":["Jest to rodzaj złośliwego oprogramowania blokujące dostęp do danych na urządzeniu poprzez ich zaszyfrowanie. Gdy nastąpi pełne zaszyfrowanie danych wirus ujawnia swoją obecność, informując użytkownika, że w zamian za opłatę może uzyskać klucz deszyfrujący dane. Atak przy użyciu tego oprogramowania zazwyczaj ma na celu uzyskaniu okupu.",""]},
+   {"type": "br", "sectionID": "section4"},
+   {"type": "span", "sectionID": "section4","elementContent":["UWAGA! Zapłacenie okupu nie gwarantuje odszyfrowania danych lub tego, że dane z urządzenia nie zostały wykradzione",""]},
+   {"type": "br", "sectionID": "section4"},
+   {"type": "br", "sectionID": "section4"},
+    {"type": "img", "sectionID": "section4", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/ransomware.webp",
+    "Malware - ransomware.",
+    "819","947", "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/ransomware_ORIGINAL.webp"
+    ,"low-size-img"]},
+
+    {"type": "h2", "sectionID": "section5", "elementContent": ["trojan","uppercase"]},
+   {"type": "span", "sectionID": "section5","elementContent":["Rodzaj złośliwego oprogramowania, które nigdy się nie samo replikuje, natomiast ukrywa się jako nieszkodliwy program.",""]},
+   {"type": "br", "sectionID": "section5"},
+    {"type": "list","sectionID": "section5", "elementContent": {"ver":"ul",
+    "listElements":["Transfer danych z urządzenia do zdalnego serwera.",
+        "Umożliwia zdalną instalację innych wirusów.",
+        "Jest stosowany jako wektor ataku cyberprzestępcy i źródło rozpowszechniania złośliwego oprogramowania."
+    ] }},
+   {"type": "br", "sectionID": "section5"},
+   {"type": "br", "sectionID": "section5"},
+    {"type": "img", "sectionID": "section5", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/trojan.webp",
+    "Malware - trojan.",
+    "819","947", "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/trojan_ORIGINAL.webp"
+    ,"low-size-img"]},
+
+    {"type": "h2", "sectionID": "section6", "elementContent": ["rootkit","uppercase"]},
+   {"type": "span", "sectionID": "section6","elementContent":["Jest to oprogramowanie instalujące się w jądrze systemu. Uzyskuje w ten sposób większą kontrolę, którą wykorzystuje do:",""]},
+   {"type": "br", "sectionID": "section6"},
+   {"type": "list","sectionID": "section6", "elementContent": {"ver":"ul",
+    "listElements":["Zdalnego przejecie urządzenia przez hakera.",
+        "Modyfikacji usług i procesów systemu.",
+        "Instalację złośliwego oprogramowania i ukrycia go pod postacią procesów systemu operacyjnego."
+    ] }},
+   {"type": "br", "sectionID": "section6"},
+   {"type": "br", "sectionID": "section6"},
+    {"type": "img", "sectionID": "section6", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/rootkit.webp",
+    "Malware - rootkit.",
+    "819","947", "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/rootkit_ORIGINAL.webp"
+    ,"low-size-img"]},
+
+        {"type": "h2", "sectionID": "section7", "elementContent": ["backdoor","uppercase"]},
+   {"type": "list","sectionID": "section7", "elementContent": {"ver":"ul",
+    "listElements":["Zdalnego przejecie urządzenia przez hakera.",
+        "Jest to bardzo złośliwe oprogramowanie tworzące ukryte wejście do systemu. Umożliwiające zdalny dostęp do urządzenia bez wiedzy użytkownika w dowolnym momencie.",
+        "Daje wszystkie możliwości trojan, lecz przez to, że tworzy jedynie furtkę dla cyberprzestępców. Jest trudniejszy w wykryciu, a przez to groźniejszy."
+    ] }},
+   {"type": "br", "sectionID": "section7"},
+   {"type": "br", "sectionID": "section7"},
+    {"type": "img", "sectionID": "section7", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/backdoor.webp",
+    "Malware - backdoor.",
+    "819","947", "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/backdoor_ORIGINAL.webp"
     ,"low-size-img"]}
 ]
