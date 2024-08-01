@@ -37,5 +37,51 @@
     "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/schowek-windows.webp",
     "Przedstawienie działania schowka Windows.",
     "944","1105", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/schowek-windows_ORIGINAL.webp"
+    ]},
+
+    {"type": "h2", "sectionID": "section2", "elementContent": ["Ustawienia maszyny: System"]},
+{"type": "span", "sectionID": "section2","elementContent":["Te ustawienia można zmieniać tylko wtedy gdy maszyna jest wyłączona. W zakładce Płyta główna możesz zadeklarować ilość pamięci RAM do przydzielenia maszynie oraz określić kolejność bootowania. Pozostałe ustawienia są specyficzne dla instalowanego systemu na maszynie.",""]},
+ {"type": "img", "sectionID": "section2", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/maszyna-system-plyta.webp",
+    "Ustawienia systemu maszyny zmiana Ram-u i sekwencji boot-owania.",
+    "944","602", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/maszyna-system-plyta_ORIGINAL.webp"
+    ]},
+    {"type": "span", "sectionID": "section2","elementContent":["W zakładce Procesor możesz określić z ilu rdzeni będzie korzystać maszyna i w jakim stopniu może je wykorzystać.",""]},
+    {"type": "br", "sectionID": "section2"},
+    {"type": "span", "sectionID": "section2","elementContent":["Rozszerzone właściwości:",""]},
+    {"type": "br", "sectionID": "section2"},
+    {"type": "b", "sectionID": "section2","elementContent":["PAE/NX ",""]},
+    {"type": "span", "sectionID": "section2","elementContent":["pozwala na ",""]},
+    {"type": "u", "sectionID": "section2","elementContent":["wykorzystanie większą ilość pamięci RAM ",""]},
+    {"type": "span", "sectionID": "section2","elementContent":["niż ",""]},
+    {"type": "bi", "sectionID": "section2","elementContent":["4GiB ",""]},
+    {"type": "span", "sectionID": "section2","elementContent":["w systemie",""]},
+    {"type": "i", "sectionID": "section2","elementContent":["32Bit",""]},
+    {"type": "br", "sectionID": "section2"},
+    {"type": "bi", "sectionID": "section2","elementContent":["Zagnieżdżone VT-x/AMD-V ",""]},
+    {"type": "span", "sectionID": "section2","elementContent":["umożliwia wirtualizację w wirtualizacji. ( Tą opcje należy aktywować za pomocą CMD, by wykonywać komendy oraz w nowszych wersjach VirtualBox wymagane są PythonCore i Win32API )",""]},
+    
+ {"type": "img", "sectionID": "section2", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/maszyna-system-cpu.webp",
+    "Ustawienia systemu maszyny zmiana ilości przypisanej do niej rdzeni procesora (CPU)",
+    "945","602", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/maszyna-system-cpu_ORIGINAL.webp"
+    ]},
+    {"type": "span", "sectionID": "section2","elementContent":["W zakładce akceleracja, gdy posiadasz procesor, którego premiera odbyła się po 2010 roku, ",""]},
+    {"type": "b", "sectionID": "section2","elementContent":["włącz zagnieżdżone stronicowanie",""]},
+    {"type": "span", "sectionID": "section2","elementContent":[". Może to pozytywnie wpłynąć na wydajność maszyny. Kolejną opcją do ustawienia jest ",""]},
+    {"type": "b", "sectionID": "section2","elementContent":["interfejs prawirtualizacji",""]},
+    {"type": "span", "sectionID": "section2","elementContent":[". Wersja ",""]},
+    {"type": "text-block-name", "sectionID": "section2", "elementContent": ["Domyślny",""]},
+    {"type": "span", "sectionID": "section2","elementContent":[". automatycznie wybierze najlepszy interfejs do systemu gościa. To samo uczyni wybranie  ",""]},
+    {"type": "text-block-name", "sectionID": "section2", "elementContent": ["Stary",""]},
+    {"type": "span", "sectionID": "section2","elementContent":[", ale jest on przeznaczony dla starszych systemów. Pozostałe interfejsy zostały dostosowane do konkretnych rodzajów systemów. Na grafice przedstawiono, jakiego wyboru dokonać.",""]},
+{"type": "img", "sectionID": "section2", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/maszyna-system-gpu.webp",
+    "Ustawienia systemu maszyny zmiana interfejsu pra wirtualizacji na najlepszy dla danego systemu gościa",
+    "944","602", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/maszyna-system-gpu_ORIGINAL.webp"
     ]}
+
+
+
+    
 ]
