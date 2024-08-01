@@ -91,7 +91,7 @@
      {"type": "h2", "sectionID": "section8", "elementContent": ["Inne powiązane artykuły"]},
    {"type": "span", "sectionID": "section8","elementContent":["Wymienione tu wirusy są rezydentne. Sprawdź też typy wirusów nie rezydentnych:",""]},
     {"type": "br", "sectionID": "section8"},
-    {"type": "link-art", "sectionID": "section8", "elementContent": ["Wirusy nierezydentne","Zagrożenia w Informatyce"]}
+    {"type": "link-art", "sectionID": "section8", "elementContent": ["Wirusy nie rezydentne","Zagrożenia w Informatyce"]}
 
     
   
