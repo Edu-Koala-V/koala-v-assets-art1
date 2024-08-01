@@ -12,7 +12,7 @@
     "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/wirus-plyty-glownej.webp",
     "Malware - wirus płyty głównej.",
     "819","947", "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/wirus-plyty-glownej_ORIGINAL.webp"
-    ]},
+    ,"low-size-img"]},
       {"type": "h2", "sectionID": "section3", "elementContent": ["wobbit","uppercase"]},
    {"type": "span", "sectionID": "section3","elementContent":["Oprogramowanie które po uruchomieniu rozpoczyna replikację samego siebie, zapychając wszystkie dostępne lokalnie pamięci masowe i zużywając podzespoły komputera do utrzymania i dalszej replikacji swoich klonów.",""]},
    {"type": "br", "sectionID": "section3"},
@@ -23,5 +23,5 @@
     "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/wobbit.webp",
     "Malware - wobbit.",
     "819","947", "Edu-Koala-V/koala-v-assets-art1/main/zagrozenia-w-informatyce/wobbit_ORIGINAL.webp"
-    ]}
+    ,"low-size-img"]}
 ]
