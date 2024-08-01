@@ -79,6 +79,7 @@
     
   {"type": "br", "sectionID": "section6"},
   {"type": "br", "sectionID": "section6"},
+  {"type": "br", "sectionID": "section6"},
     
    {"type": "h3", "sectionID": "section6","elementContent":["Sposoby zainfekowania urządzenia:",""]},
   {"type": "br", "sectionID": "section6"},
@@ -87,7 +88,7 @@
  {"type": "list","sectionID": "section6", "elementContent": {"ver":"ul",
     "listElements":["Posiadanie Malware `u zdolnego do instalacji złośliwego oprogramowania.",
         "Klikanie w podejrzane reklamy.",
-        "Nieaktualizowanie systemu i zasad zabezpieczeń oraz oprogramowania antywirusowego i antyszpiegowskiego.",
+        "Nie aktualizowanie systemu i zasad zabezpieczeń oraz oprogramowania antywirusowego i antyszpiegowskiego.",
         "Wyłączanie zapory sieciowej / ogniowej ( w sytuacjach niebadawczych ).",
         "Wchodzenie na podejrzane strony WwW.",
         "Instalując podejrzane rozszerzenia do przeglądarki WwW.",
