@@ -72,8 +72,7 @@
 
         {"type": "h2", "sectionID": "section7", "elementContent": ["backdoor","uppercase"]},
    {"type": "list","sectionID": "section7", "elementContent": {"ver":"ul",
-    "listElements":["Zdalnego przejecie urządzenia przez hakera.",
-        "Jest to bardzo złośliwe oprogramowanie tworzące ukryte wejście do systemu. Umożliwiające zdalny dostęp do urządzenia bez wiedzy użytkownika w dowolnym momencie.",
+    "listElements":["Jest to bardzo złośliwe oprogramowanie tworzące ukryte wejście do systemu. Umożliwiające zdalny dostęp do urządzenia bez wiedzy użytkownika w dowolnym momencie.",
         "Daje wszystkie możliwości trojan, lecz przez to, że tworzy jedynie furtkę dla cyberprzestępców. Jest trudniejszy w wykryciu, a przez to groźniejszy."
     ] }},
    {"type": "br", "sectionID": "section7"},
