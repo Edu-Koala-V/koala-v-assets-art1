@@ -1,8 +1,81 @@
 [
 {"type": "h2", "sectionID": "section1", "elementContent": ["Ustawienia maszyny: Sieć"]},
-{"type": "span", "sectionID": "section1","elementContent":["Wirtual box pozwala maksymalnie na podłączenie 4 kart sieciowych do jednej maszyny oraz określenie sposobu ich działania.",""]}
+{"type": "span", "sectionID": "section1","elementContent":["Na stronie sieci masz możliwość włączenia do czterech indywidualnych kart sieciowych. Pamiętaj że możesz dodawać i usuwać karty tylko wtedy gdy maszyna jest wyłączona, dokładnie tak samo jak w przypadku fizycznego montażu kart rozszerzeń. Każdą kartę sieciową możesz podłączyć do konkretnego trybu działania interfejsu. Najważniejszymi są: ",""]},
+{"type": "bi", "sectionID": "section1","elementContent":["NAT",""]},
+{"type": "span", "sectionID": "section1","elementContent":[",",""]},
+{"type": "bi", "sectionID": "section1","elementContent":["Sieć wewnętrzna",""]},
+{"type": "span", "sectionID": "section1","elementContent":[",",""]},
+{"type": "bi", "sectionID": "section1","elementContent":["Sieć NAT",""]},
+{"type": "span", "sectionID": "section1","elementContent":["oraz",""]},
+{"type": "bi", "sectionID": "section1","elementContent":["Mostkowana karta sieciowa (bridged)",""]},
+{"type": "span", "sectionID": "section1","elementContent":[". Możesz zmienić adres ",""]},
+{"type": "bi", "sectionID": "section1","elementContent":["MAC",""]},
+{"type": "span", "sectionID": "section1","elementContent":["(Media Access Control address – sprzętowy adres karty sieciowej, w nowsze karty sieciowe pozwalają na jego zmianę z poziomu systemu w przeciwieństwie do starszych wersji).",""]},
+{"type": "img", "sectionID": "section1", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/vb-ustawienia-sieci.webp",
+    "Najwarzniejsze elementy strony sieć w ustawieniach maszyny wirtualnej.",
+    "780","570", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/vb-ustawienia-sieci_ORIGINAL.webp"
+    ]},
 
+  
+{"type": "h2", "sectionID": "section2", "elementContent": ["Tryb działania karty sieciowej: NAT"]},
+  {"type": "span", "sectionID": "section2","elementContent":["Domyślnym ustawieniem każdej nowej maszyny jest sieć podłączona do trybu ",""]},
+  {"type": "b", "sectionID": "section2","elementContent":["NAT",""]},
+  {"type": "span", "sectionID": "section2","elementContent":["(Network Address Translation - Translacja Adresów Sieciowych czasem Native Address Translation, translacja adresów rodzimych, znane również jako maskarada sieci lub maskarada IP, od ang. network/IP masquerading. Jest to technika przesyłania ruchu sieciowego poprzez router lub serwer NAT, która wiąże się ze zmianą źródłowych lub docelowych adresów IP.)",""]},
+  {"type": "span", "sectionID": "section2","elementContent":["Zastosowanie jej w danej karcie sieci sprawia że maszyny są izolowane, wiec nie mogą się komunikować miedzy sobą. VirtualBox posiada wbudowane moduły sieciowe pozwalające mu na zarządzanie pakietami sieciowymi maszyn. Najważniejszymi emulacjami są usługi NAT i DHCP do przekształcania adresów zewnętrznych na wewnętrzne i dynamiczna konfiguracja podłączonych do usługi interfejsów sieciowych maszyn.",""]},
+  {"type": "br", "sectionID": "section2","elementContent":["",""]},
+  {"type": "span", "sectionID": "section2","elementContent":["[DHCP (Dynamic Host Configuration Protocol – protokół dynamicznego konfigurowania hostów) – protokół komunikacyjny umożliwiający hostom uzyskanie od serwera danych konfiguracyjnych, np. adresu IP hosta, adresu IP bramy sieciowej, adresu serwera DNS, maski podsieci.]",""]},
+  {"type": "span", "sectionID": "section2","elementContent":["W sieci fizycznej taki sposób działania jest realizowany przez Router którego głównymi zadaniami jest nadanie adresów IPv4 dla podłączonych urządzeń i przekierowywanie przechodzących pakietów z adresu publicznego do Internetu na odpowiedni adres urządzenia w lokalnej sieci ",""]},
+  {"type": "bi", "sectionID": "section2","elementContent":["LAN",""]},
+  {"type": "span", "sectionID": "section2","elementContent":["(Local Area Network - lokalna sieć).",""]},
+  {"type": "span", "sectionID": "section2","elementContent":["",""]},
+{"type": "img", "sectionID": "section2", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/vb-nat.webp",
+    "Infografika: Tryb działania karty sieciowej -- NAT  w VirtualBox.",
+    "922","407", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/vb-nat_ORIGINAL.webp"
+    ]},
 
+{"type": "h2", "sectionID": "section3", "elementContent": ["Tryb działania karty sieciowej: Izolowana sieć wewnętrzna"]},
+  {"type": "span", "sectionID": "section3","elementContent":["Jednym z najważniejszych w pracach laboratoryjno-badawczych usług systemowo-sieciowych jest izolowana sieć wewnętrzna. Pozwala na komunikację tylko tym maszynom które posiadają tą samą nazwę sieci wewnętrznej. Ten sposób działania w sieci fizycznej można przedstawić podłączając urządzenia do",""]},
+{"type": "u", "sectionID": "section3", "elementContent": ["niezarządzanego przełącznika "]},
+{"type": "span", "sectionID": "section3", "elementContent": ["("]},
+{"type": "i", "sectionID": "section3", "elementContent": ["SWITCH"]},
+{"type": "span", "sectionID": "section3", "elementContent": [") lub koncentratora "]},
+ {"type": "span", "sectionID": "section3", "elementContent": ["("]},
+{"type": "i", "sectionID": "section3", "elementContent": ["HUB"]},
+{"type": "span", "sectionID": "section3", "elementContent": ["). Da to sieć wewnętrzną o nazwie np.: "]}, 
+{"type": "i", "sectionID": "section3", "elementContent": ["„intnet”"]}, 
+{"type": "span", "sectionID": "section3", "elementContent": [". Zmiana nazwy w trybie sieci wewnętrznej jest równoznaczną z stworzeniem nowego HUB-a i podłączeniem do niego maszyny na której przeprowadzono tą operację. "]}, 
+{"type": "br", "sectionID": "section3"}, 
+{"type": "span", "sectionID": "section3", "elementContent": ["Uwaga Sieć wewnętrzna nie świadczy usługi DHCP wiec należy przeprowadzić konfigurację interfejsów sieciowych w zwirtualizowanych systemach tak aby były w tej samej podsieci i nie następował konflikt adresów -- (dwa lub więcej urządzeń w sieci o tym samym adresie IP)"]}, 
+{"type": "img", "sectionID": "section2", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/vb-internal-network.webp",
+    "Infografika: Tryb działania karty sieciowej -- Izolowana sieć wewnętrzna  w VirtualBox.",
+    "922","407", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/vb-internal-network_ORIGINAL.webp"
+    ]},
+
+  
+  {"type": "h2", "sectionID": "section4", "elementContent": ["Tryb działania karty sieciowej: Sieć NAT"]},
+  {"type": "span", "sectionID": "section4","elementContent":["Kolejnym trybem działania karty sieciowej w VirtualBox jest Sieć NAT, łącząca funkcjonalności sieci wewnętrznej i NAT.",""]},
+{"type": "br", "sectionID": "section4"}, 
+{"type": "span", "sectionID": "section4", "elementContent": ["Maszyny są podłączone do wirtualnego Switch-a wraz z usługami NAT i DHCP. Sprawia to że zwirtualizowane systemy mogą komunikować się pomiędzy sobą oraz z gospodarzem i fizyczną siecią LAN za pośrednictwem usługi NAT VirtualBox-a. Wszystkie maszyny uzyskują adresację interfejsów w sposób automatyczny. W fizycznej sieci znowu taki sposób działania można uzyskać za pomocą Routera. "]},
+  {"type": "img", "sectionID": "section4", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/vb-nat-network.webp",
+    "Infografika: Tryb działania karty sieciowej -- Sieć NAT w VirtualBox.",
+    "922","407", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/vb-nat-network_ORIGINAL.webp"
+    ]},
+
+    {"type": "h2", "sectionID": "section5", "elementContent": ["Tryb działania karty sieciowej: Mostkowana karta sieciowa (bridged)"]},
+  {"type": "span", "sectionID": "section5","elementContent":["Ostatnim godnym przedstawienia trybem działania karty sieciowej maszyny wirtualnej jest jej zmostkowanie z fizyczną kartą sieciową gospodarza pobierając adresacje z serwera",""]},
+{"type": "u", "sectionID": "section5", "elementContent": ["DHCP sieci fizycznej LAN"]},
+{"type": "span", "sectionID": "section5", "elementContent": [". W tym przypadku maszyny z trybem "]},
+{"type": "bi", "sectionID": "section5", "elementContent": ["bridged "]},
+{"type": "span", "sectionID": "section5", "elementContent": ["mogą się komunikować z każdym i każdy może się z nimi komunikować. Pozwala to na świadczenie usług sieciowych w sieci fizycznej z maszyn wirtualnych. Porównując to z siecią fizyczną to tak jak by podłączono maszynę wirtualną bezpośrednio do wejścia Ethernet LAN."]},
+  {"type": "img", "sectionID": "section5", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/vb-bridge.webp",
+    "Infografika: Tryb działania karty sieciowej -- Mostkowana karta sieciowa (bridged) w VirtualBox.",
+    "922","407", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/vb-bridge_ORIGINAL.webp"
+    ]}
 
   
 ]
