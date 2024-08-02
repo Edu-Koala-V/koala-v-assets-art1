@@ -111,7 +111,7 @@
 {"type": "span", "sectionID": "section4","elementContent":["(Virtual Disk Image – obraz wirtualnego dysku) lub obraz ISO jako płytę do dysku fizycznego. W ten sposób wirtualizujesz nowe dyski dla maszyny gościa. Pamiętaj, że musisz mieć fizycznie daną ilość pamięci na swoim dysku, aby móc ją zwirtualizować dla maszyn.",""]},
 {"type": "br", "sectionID": "section4"},
 {"type": "span", "sectionID": "section4","elementContent":["Ustawienie kontrolera NVMe wymaga doinstalowania dodatkowej paczki rozszerzającej funkcjonalności VirtrualBox-a: ",""]},
-     {"type": "link","sectionID":"section3","elementContent":["https://www.virtualbox.org/wiki/Downloads"]},
+     {"type": "link","sectionID":"section4","elementContent":["https://www.virtualbox.org/wiki/Downloads"]},
     {"type": "img", "sectionID": "section4", "elementContent": [
     "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/extension-pack.webp",
     "Oficjalna lokalizacja linku do pobrania extension pcak dla virtualbox",
