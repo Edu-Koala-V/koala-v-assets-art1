@@ -153,7 +153,7 @@
 
 {"type": "h2", "sectionID": "section6", "elementContent": ["Ustawienia maszyny: Sieć "]},
 {"type": "span", "sectionID": "section6","elementContent":["Strona z dotycząca sieci jest tak bardzo ważna że została przeniesiona do oddzielnego artykułu: ",""]},
-{"type": "link-art", "sectionID": "section6", "elementContent": ["Sieci - ustawienia trybu działania interfejsów w maszynie","VirtualBox"]}
+{"type": "link-art", "sectionID": "section6", "elementContent": ["Sieci - ustawienia trybu działania interfejsów w maszynie","VirtualBox"]},
 {"type": "br", "sectionID": "section6"},
 
 {"type": "h2", "sectionID": "section7", "elementContent": ["Ustawienia maszyny: Porty szeregowe "]},
