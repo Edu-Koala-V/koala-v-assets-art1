@@ -48,7 +48,7 @@
 {"type": "span", "sectionID": "section3", "elementContent": [". Zmiana nazwy w trybie sieci wewnętrznej jest równoznaczną z stworzeniem nowego HUB-a i podłączeniem do niego maszyny na której przeprowadzono tą operację. "]}, 
 {"type": "br", "sectionID": "section3"}, 
 {"type": "span", "sectionID": "section3", "elementContent": ["Uwaga Sieć wewnętrzna nie świadczy usługi DHCP wiec należy przeprowadzić konfigurację interfejsów sieciowych w zwirtualizowanych systemach tak aby były w tej samej podsieci i nie następował konflikt adresów -- (dwa lub więcej urządzeń w sieci o tym samym adresie IP)"]}, 
-{"type": "img", "sectionID": "section2", "elementContent": [
+{"type": "img", "sectionID": "section3", "elementContent": [
     "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/vb-internal-network.webp",
     "Infografika: Tryb działania karty sieciowej -- Izolowana sieć wewnętrzna  w VirtualBox.",
     "922","407", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/vb-internal-network_ORIGINAL.webp"
