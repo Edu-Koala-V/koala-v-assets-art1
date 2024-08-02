@@ -119,7 +119,7 @@
     ]},
 {"type": "span", "sectionID": "section4","elementContent":["Gdy pobierzesz już plik ",""]},
 {"type": "i", "sectionID": "section4","elementContent":["vbox-extpack",""]},
-{"type": "span", "sectionID": "section4","elementContent":["Przejdź do VirtualbBox-a, i postepuj zgodnie z poniższymi krokami przedstawionymi na obrazku, by zainstalować tą paczkę rozszerezającą.""]},
+{"type": "span", "sectionID": "section4","elementContent":["Przejdź do VirtualbBox-a, i postepuj zgodnie z poniższymi krokami przedstawionymi na obrazku, by zainstalować tą paczkę rozszerezającą.",""]},
   {"type": "img", "sectionID": "section4", "elementContent": [
     "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/extension-pack-install.webp",
     "Kroki przedstawiające jak zainstalować paczkę rozszerzającą funkcjonalności VirtualBox",
