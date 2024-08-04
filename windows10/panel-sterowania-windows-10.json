@@ -1,0 +1,85 @@
+[
+ {"type": "h2", "sectionID": "section1", "elementContent": ["Wstęp"]},
+   {"type": "span", "sectionID": "section1","elementContent":["Panel sterowania to narzędzie, które służy do zmiany ustawień systemu Windows. Choć od premiery Windows 10 w 2015 roku pojawiła się aplikacja Ustawienia, mająca zastąpić Panel sterowania, to wciąż wiele osób korzysta z tego starszego narzędzia. Niektóre funkcje są dostępne zarówno w Ustawieniach, jak i w Panelu sterowania, dlatego warto przypiąć skrót do paska zadań lub umieścić go na pulpicie, aby uniknąć konieczności ciągłego wyszukiwania.",""]},
+   
+   {"type": "img", "sectionID": "section1", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/windows10/przygotowanie-panelu-sterowania.webp",
+    "Dodanie ikon Panelu sterowania do szybszego uruchamiania.",
+    "1921","1033", "Edu-Koala-V/koala-v-assets-art1/main/windows10/przygotowanie-panelu-sterowania_ORIGINAL.webp"
+    ]},
+{"type": "span", "sectionID": "section1","elementContent":["Możesz też wybrać sposób wyświetlania na domyślny pogrupowany kategoriami lub jako ikony.",""]},
+   
+   {"type": "img", "sectionID": "section1", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/windows10/panel-sterowania-kategorie.webp",
+    "Przedstawienie Panelu sterowania jako grupy i duże ikony",
+    "1921","1033", "Edu-Koala-V/koala-v-assets-art1/main/windows10/panel-sterowania-kategorie_ORIGINAL.webp"
+    ]},
+
+
+
+   {"type": "h2", "sectionID": "section2", "elementContent": ["System i zabezpieczenia"]},
+   {"type": "br", "sectionID": "section2"},
+   {"type": "h3", "sectionID": "section2","elementContent":["Konserwacja systemu",""]},
+   {"type": "span", "sectionID": "section2","elementContent":["W tej kategorii ",""]},
+   {"type": "span", "sectionID": "section2","elementContent":["znajdziesz ustawienia związane z usuwaniem zbędnych, uszkodzonych lub niepoprawnych plików oraz naprawą drobnych błędów systemowych. Pierwsze dwa elementy oznaczone zielonym kolorem przenoszą cię do aplikacji ",""]},
+   {"type": "bi", "sectionID": "section2","elementContent":["„Ustawienia”",""]},
+   {"type": "span", "sectionID": "section2","elementContent":[". Natomiast limonkową obwódką jest zaznaczony fragment dotyczący archiwizacji z kontrolą wersji plików. Co najmniej co 10 minut tworzona jest nowa kopia elementów znajdujących się w katalogu ",""]},
+   {"type": "text-block-name", "sectionID": "section4","elementContent":["C:\\Users\\Nazwa aktualnie zalogowanego użytkownika",""]},
+   {"type": "span", "sectionID": "section2","elementContent":[". Włączenie opcji ",""]},
+   {"type": "bi", "sectionID": "section2","elementContent":["„Historia plików” ",""]},
+   {"type": "span", "sectionID": "section2","elementContent":["umożliwia archiwizację tych plików. Pamiętaj, że wszyscy użytkownicy mają dostęp do tych skopiowanych plików, a ręczne usunięcie katalogu z dysku spowoduje, że system przestanie je archiwizować. Te funkcje można również znaleźć w sekcji ",""]},
+   {"type": "bi", "sectionID": "section2","elementContent":["„System i zabezpieczenia”",""]},
+   {"type": "span", "sectionID": "section2","elementContent":["pod nazwą",""]},
+   {"type": "bi", "sectionID": "section2","elementContent":["„Historia plików”",""]},
+   {"type": "span", "sectionID": "section2","elementContent":[".",""]},
+   
+   {"type": "img", "sectionID": "section2", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/windows10/panel-sterowania-zabezpieczenia-konserwacja.webp",
+    "Panel sterowania - zabezpieczenia i konserwacja.",
+    "1905","1419", "Edu-Koala-V/koala-v-assets-art1/main/windows10/panel-sterowania-zabezpieczenia-konserwacja_ORIGINAL.webp"
+    ]},
+
+   {"type": "br", "sectionID": "section2"},
+   {"type": "h3", "sectionID": "section2","elementContent":["Zapora Windows Defender ",""]},
+   {"type": "span", "sectionID": "section2","elementContent":["Pozwala na sprawdzenie stanu profili zapory, włączanie lub wyłączenie całego profilu zapory oraz uruchomienie aplikacji ",""]},
+   {"type": "bi", "sectionID": "section2","elementContent":["„Zapora Windows Defender z zabezpieczeniami zaawansowanymi”",""]},
+  {"type": "img", "sectionID": "section2", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/windows10/panel-sterowania-zapora.webp",
+    "Panel sterowania - zapora sieciowa windows defender.",
+    "1921","1033", "Edu-Koala-V/koala-v-assets-art1/main/windows10/panel-sterowania-zapora_ORIGINAL.webp"
+    ]},
+
+ {"type": "br", "sectionID": "section2"},
+   {"type": "h3", "sectionID": "section2","elementContent":["System",""]},
+   {"type": "span", "sectionID": "section2","elementContent":["Ta opcja z panelu sterowania będzie uruchamiać zakładkę „System” z aplikacji Ustawienia.",""]},
+
+   {"type": "br", "sectionID": "section2"},
+   {"type": "h3", "sectionID": "section2","elementContent":["Opcje zasilania",""]},
+   {"type": "span", "sectionID": "section2","elementContent":["Możesz tu wybrać plan zarządzania energią urządzenia lub utworzyć własny.",""]},
+   {"type": "bi", "sectionID": "section2","elementContent":["„Zapora Windows Defender z zabezpieczeniami zaawansowanymi”",""]},
+  {"type": "img", "sectionID": "section2", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/windows10/panel-sterowania-zasilanie.webp",
+    "Panel sterowania - opcje zasilania.",
+    "1921","1033", "Edu-Koala-V/koala-v-assets-art1/main/windows10/panel-sterowania-zasilanie_ORIGINAL.webp"
+    ]},
+  
+  
+   {"type": "br", "sectionID": "section2"},
+   {"type": "h3", "sectionID": "section2","elementContent":["Kopia zapasowa i przywracanie (Windows 7) ",""]},
+   {"type": "span", "sectionID": "section2","elementContent":["to starsza, ale nadal użyteczna funkcja. Pozwala na tworzenie pełnych kopii zapasowych, choć nie jest to zbyt wydajne. Dzięki takiej kopii można przywrócić całość lub wybrane pliki i katalogi, decydując się na ich podmianę lub zachowanie obok oryginałów",""]},
+
+
+     {"type": "br", "sectionID": "section2"},
+   {"type": "h3", "sectionID": "section2","elementContent":["Szyfrowanie dysków funkcją BitLocker",""]},
+   {"type": "span", "sectionID": "section2","elementContent":["Możesz tu wybrać plan zarządzania energią urządzenia lub utworzyć własny.",""]},
+   {"type": "bi", "sectionID": "section2","elementContent":["„Zapora Windows Defender z zabezpieczeniami zaawansowanymi”",""]},
+  {"type": "img", "sectionID": "section2", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/windows10/panel-sterowania-zasilanie.webp",
+    "Panel sterowania - opcje zasilania.",
+    "1921","1033", "Edu-Koala-V/koala-v-assets-art1/main/windows10/panel-sterowania-zasilanie_ORIGINAL.webp"
+    ]}
+
+
+
+  
+]
