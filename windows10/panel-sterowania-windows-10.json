@@ -24,7 +24,7 @@
    {"type": "span", "sectionID": "section2","elementContent":["znajdziesz ustawienia związane z usuwaniem zbędnych, uszkodzonych lub niepoprawnych plików oraz naprawą drobnych błędów systemowych. Pierwsze dwa elementy oznaczone zielonym kolorem przenoszą cię do aplikacji ",""]},
    {"type": "bi", "sectionID": "section2","elementContent":["„Ustawienia”",""]},
    {"type": "span", "sectionID": "section2","elementContent":[". Natomiast limonkową obwódką jest zaznaczony fragment dotyczący archiwizacji z kontrolą wersji plików. Co najmniej co 10 minut tworzona jest nowa kopia elementów znajdujących się w katalogu ",""]},
-   {"type": "text-block-name", "sectionID": "section4","elementContent":["C:\\Users\\Nazwa aktualnie zalogowanego użytkownika",""]},
+   {"type": "text-block-name", "sectionID": "section2","elementContent":["C:\\Users\\Nazwa aktualnie zalogowanego użytkownika",""]},
    {"type": "span", "sectionID": "section2","elementContent":[". Włączenie opcji ",""]},
    {"type": "bi", "sectionID": "section2","elementContent":["„Historia plików” ",""]},
    {"type": "span", "sectionID": "section2","elementContent":["umożliwia archiwizację tych plików. Pamiętaj, że wszyscy użytkownicy mają dostęp do tych skopiowanych plików, a ręczne usunięcie katalogu z dysku spowoduje, że system przestanie je archiwizować. Te funkcje można również znaleźć w sekcji ",""]},
@@ -71,14 +71,77 @@
 
      {"type": "br", "sectionID": "section2"},
    {"type": "h3", "sectionID": "section2","elementContent":["Szyfrowanie dysków funkcją BitLocker",""]},
-   {"type": "span", "sectionID": "section2","elementContent":["Możesz tu wybrać plan zarządzania energią urządzenia lub utworzyć własny.",""]},
-   {"type": "bi", "sectionID": "section2","elementContent":["„Zapora Windows Defender z zabezpieczeniami zaawansowanymi”",""]},
+   {"type": "span", "sectionID": "section2","elementContent":["Jest to skuteczny sposób na zabezpieczenie danych na dysku lub partycji. Działa poprzez szyfrowanie za pomocą modułu",""]},
+   {"type": "bi", "sectionID": "section2","elementContent":["TPM ",""]},
+   {"type": "span", "sectionID": "section2","elementContent":["(Trusted Platform Module). Po włączeniu BitLockera, przy każdym ponownym uruchomieniu systemu będziesz musiał podać hasło, aby uzyskać dostęp do dysku lub partycji. Poprawne hasło spowoduje zmianę ikony partycji oraz wyświetlenie informacji o zajętości dysku. ",""]},
   {"type": "img", "sectionID": "section2", "elementContent": [
-    "Edu-Koala-V/koala-v-assets-art1/main/windows10/panel-sterowania-zasilanie.webp",
-    "Panel sterowania - opcje zasilania.",
-    "1921","1033", "Edu-Koala-V/koala-v-assets-art1/main/windows10/panel-sterowania-zasilanie_ORIGINAL.webp"
-    ]}
+    "Edu-Koala-V/koala-v-assets-art1/main/windows10/panel-sterowania-bitlocker.webp",
+    "Panel sterowania - BitLocker.",
+    "1921","1033", "Edu-Koala-V/koala-v-assets-art1/main/windows10/panel-sterowania-bitlocker_ORIGINAL.webp"
+    ]},
 
+      {"type": "br", "sectionID": "section2"},
+   {"type": "h3", "sectionID": "section2","elementContent":["Miejsce do magazynowania ",""]},
+   {"type": "p", "sectionID": "section2","elementContent":["Miejsce do magazynowania służy do skonfigurowania dysków jako partycji RAID. ",""]},
+   {"type": "span", "sectionID": "section2","elementContent":["Najważniejsze są RAID 0 i RAID 1. ",""]},
+   {"type": "br", "sectionID": "section2"},
+    {"type": "list","sectionID": "section2", "elementContent": {"ver":"ul",
+    "listElements":["RAID 0 Łączy przestrzeń wielu dysków w jedną partycję.",
+        "RAID 1 Duplikuje dane na drugi dysk."
+    ] }},
+   {"type": "br", "sectionID": "section2"},
+ 
+   {"type": "bi", "sectionID": "section2","elementContent":["TPM ",""]},
+   {"type": "span", "sectionID": "section2","elementContent":["(Trusted Platform Module). Po włączeniu BitLockera, przy każdym ponownym uruchomieniu systemu będziesz musiał podać hasło, aby uzyskać dostęp do dysku lub partycji. Poprawne hasło spowoduje zmianę ikony partycji oraz wyświetlenie informacji o zajętości dysku. ",""]},
+  {"type": "img", "sectionID": "section2", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/windows10/raid01.webp",
+    "Panel sterowania - Schematy podziełu danych na dwa dyski w RAID 0 i RAID 1.",
+    "520","399", "Edu-Koala-V/koala-v-assets-art1/main/windows10/raid01_ORIGINAL.webp"
+    ]},
+   {"type": "span", "sectionID": "section2","elementContent":["Aby utworzyć partycję łączącą dwa dyski w jedną partycję lub duplikującą dane na dwa dyski musisz najpierw utworzyć nową pulę i wybrać dyski do skonfigurowania jako macierz RAID, a następnie utworzyć miejsce do magazynowania. Ta opcja będzie wyszarzona dopóki nie klikniesz ",""]},
+
+   {"type": "text-block-name", "sectionID": "section2","elementContent":["„Zmień ustawienia”",""]},
+ {"type": "span", "sectionID": "section2","elementContent":[". Z listy wyboru typu odporności wybierz ",""]},
+   {"type": "text-block-name", "sectionID": "section2","elementContent":["„Proste (brak odporności)”",""]},
+ {"type": "span", "sectionID": "section2","elementContent":["by utworzyć",""]},
+ {"type": "b", "sectionID": "section2","elementContent":["RAID 0",""]},
+ {"type": "span", "sectionID": "section2","elementContent":[" lub ",""]},
+   {"type": "text-block-name", "sectionID": "section2","elementContent":["„duplikowany dwustopniowo”",""]},
+  {"type": "span", "sectionID": "section2","elementContent":["aby utworzyć",""]},
+ {"type": "b", "sectionID": "section2","elementContent":["RAID 1",""]},
+ {"type": "span", "sectionID": "section2","elementContent":[". Sfinalizuj konfigurację klikając ",""]},
+   {"type": "text-block-name", "sectionID": "section2","elementContent":["„Utwórz miejsce do magazynowania”",""]},
+{"type": "img", "sectionID": "section2", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/windows10/panel-sterowania-magazyn-raid.webp",
+    "Panel sterowania - miejsce do magazynowania .",
+    "1921","1033", "Edu-Koala-V/koala-v-assets-art1/main/windows10/panel-sterowania-magazyn-raid_ORIGINAL.webp"
+    ]},
+
+  {"type": "br", "sectionID": "section2"},
+  {"type": "br", "sectionID": "section2"},
+  {"type": "br", "sectionID": "section2"},
+   {"type": "b", "sectionID": "section2","elementContent":["Foldery robocze",""]},
+   {"type": "span", "sectionID": "section2","elementContent":["są funkcjonalnością archaiczną pozwalały na automatyczną synchronizację zawartości katalogu roboczego użytkownika pomiędzy serwerem firmy a wykorzystywanymi urządzeniami.",""]},
+  {"type": "br", "sectionID": "section2"},
+  {"type": "b", "sectionID": "section2","elementContent":["Narzędzia administracyjne ",""]},
+   {"type": "span", "sectionID": "section2","elementContent":["to zestaw programów do diagnostyki i zarządzaniem i konfiguracją systemu. Dokładniej zostaną omówione w kolejnych artykułach.",""]},
+
+
+ 
+   {"type": "h2", "sectionID": "section3","elementContent":["Sieć i Internet",""]},
+    {"type": "list","sectionID": "section3", "elementContent": {"ver":"ul",
+    "listElements":["Stan: zawiera informacje o połączeniu, a w szczegółach jest przedstawiona pełna konfiguracja interfejsu sieciowego.",
+        "Zmień nazwę: pozwala na zmianę nazwy interfejsu sieciowego co czasem wymagane jest na egzaminie zawodowym. Wiec warto zapamiętać że jest to tak proste do zrobienia.",
+     "Właściwości otworzą okienko w którym będziesz chcieć zaznaczyć „Protokół internetowy w wersji 4 (TCP/IPv4)”, a następnie kliknąć „Właściwości” lub po prostu dwa razy lewym przyciskiem myszy i otworzy się kolejne okno w którym będzie można przeprowadzić konfigurację manualną adresacji interfejsu sieciowego"
+    ] }},
+   {"type": "br", "sectionID": "section3"},
+  {"type": "br", "sectionID": "section3"},
+ {"type": "b", "sectionID": "section3","elementContent":["W Centrum sieci i udostępniania",""]},
+   {"type": "span", "sectionID": "section3","elementContent":["przejdź do ",""]},
+ {"type": "bi", "sectionID": "section3","elementContent":["„Zmień ustawienia karty sieciowej” ",""]},
+   {"type": "span", "sectionID": "section3","elementContent":["aby zobaczyć wszystkie dostępne interfejsy sieciowe w systemie Windows. Na poniższym obrazku przedstawiono trzy najważniejsze czynności do wykonania na karcie sieciowej.",""]}
+ 
+ 
 
 
   
