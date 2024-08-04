@@ -204,10 +204,10 @@
     "1921","1033", "Edu-Koala-V/koala-v-assets-art1/main/windows10/panel-sterowania-personalizacja_ORIGINAL.webp"
     ]},
 
- {"type": "h2", "sectionID": "section7","elementContent":["Zegar i region",""]},
-   {"type": "span", "sectionID": "section7","elementContent":["Możesz tu skonfigurować czas systemowy oraz strefę czasową.",""]},
+ {"type": "h2", "sectionID": "section8","elementContent":["Zegar i region",""]},
+   {"type": "span", "sectionID": "section8","elementContent":["Możesz tu skonfigurować czas systemowy oraz strefę czasową.",""]},
 
- {"type": "h2", "sectionID": "section7","elementContent":["Ułatwienia dostępu",""]},
-   {"type": "span", "sectionID": "section7","elementContent":["Jest to zestaw funkcjonalności wspierające użytkowników z niepełnosprawnościami.",""]}
+ {"type": "h2", "sectionID": "section9","elementContent":["Ułatwienia dostępu",""]},
+   {"type": "span", "sectionID": "section9","elementContent":["Jest to zestaw funkcjonalności wspierające użytkowników z niepełnosprawnościami.",""]}
  
 ]
