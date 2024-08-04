@@ -129,20 +129,53 @@
 
  
    {"type": "h2", "sectionID": "section3","elementContent":["Sieć i Internet",""]},
-    {"type": "list","sectionID": "section3", "elementContent": {"ver":"ul",
+    
+ {"type": "b", "sectionID": "section3","elementContent":["W Centrum sieci i udostępniania",""]},
+   {"type": "span", "sectionID": "section3","elementContent":["przejdź do ",""]},
+ {"type": "bi", "sectionID": "section3","elementContent":["„Zmień ustawienia karty sieciowej” ",""]},
+   {"type": "span", "sectionID": "section3","elementContent":["aby zobaczyć wszystkie dostępne interfejsy sieciowe w systemie Windows. Na poniższym obrazku przedstawiono trzy najważniejsze czynności do wykonania na karcie sieciowej.",""]},
+  {"type": "br", "sectionID": "section3"},
+  {"type": "br", "sectionID": "section3"},
+ {"type": "list","sectionID": "section3", "elementContent": {"ver":"ul",
     "listElements":["Stan: zawiera informacje o połączeniu, a w szczegółach jest przedstawiona pełna konfiguracja interfejsu sieciowego.",
         "Zmień nazwę: pozwala na zmianę nazwy interfejsu sieciowego co czasem wymagane jest na egzaminie zawodowym. Wiec warto zapamiętać że jest to tak proste do zrobienia.",
      "Właściwości otworzą okienko w którym będziesz chcieć zaznaczyć „Protokół internetowy w wersji 4 (TCP/IPv4)”, a następnie kliknąć „Właściwości” lub po prostu dwa razy lewym przyciskiem myszy i otworzy się kolejne okno w którym będzie można przeprowadzić konfigurację manualną adresacji interfejsu sieciowego"
     ] }},
    {"type": "br", "sectionID": "section3"},
-  {"type": "br", "sectionID": "section3"},
- {"type": "b", "sectionID": "section3","elementContent":["W Centrum sieci i udostępniania",""]},
-   {"type": "span", "sectionID": "section3","elementContent":["przejdź do ",""]},
- {"type": "bi", "sectionID": "section3","elementContent":["„Zmień ustawienia karty sieciowej” ",""]},
-   {"type": "span", "sectionID": "section3","elementContent":["aby zobaczyć wszystkie dostępne interfejsy sieciowe w systemie Windows. Na poniższym obrazku przedstawiono trzy najważniejsze czynności do wykonania na karcie sieciowej.",""]}
- 
- 
+ {"type": "img", "sectionID": "section3", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/windows10/panel-sterowania-karty-sieciowe.webp",
+    "Panel sterowania - Sieć i Internet >> Centrum sieci i udostępniania .",
+    "1921","1033", "Edu-Koala-V/koala-v-assets-art1/main/windows10/panel-sterowania-karty-sieciowe_ORIGINAL.webp"
+    ]},
 
+  {"type": "h2", "sectionID": "section4","elementContent":["Sprzęt i dźwięk",""]},
+   {"type": "span", "sectionID": "section4","elementContent":["Ta grupa pozwala na zmianę dźwięków z użądzeń wejścia/wyjścia. ",""]},
+   {"type": "br", "sectionID": "section4"},
+   {"type": "span", "sectionID": "section4","elementContent":["Dodatkowo możesz tu zarządzać drukarkami lokalnymi oraz dodać drukarkę sieciową.",""]},
 
-  
+  {"type": "h2", "sectionID": "section5","elementContent":["Programy",""]},
+   {"type": "span", "sectionID": "section5","elementContent":["W tej grupie możesz:",""]},
+  {"type": "list","sectionID": "section5", "elementContent": {"ver":"ul",
+    "listElements":["Odinstalować zainstalowane programy.",
+        "Włączyć i zainstalować funkcje Windows-a lub wyłączyć i odinstalować np.: Klient TFTP.",
+     "Zmienić standardowe akcje przy włożeniu zewnętrznych nośników pamięci np.: aby zawartość karty SD kamery została zaimportowana",
+     "Sprawdzić zainstalowane aktualizacje i wrazie problemów w działaniu systemu je odinstalować."
+    ] }},
+   {"type": "br", "sectionID": "section5"},
+ 
+   {"type": "span", "sectionID": "section5","elementContent":["Elementy zaznaczone brązową obwódką uruchomią odpowiednią stronę w aplikacji „Ustawienia”.",""]},
+ {"type": "img", "sectionID": "section6", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/windows10/panel-sterowania-programy.webp",
+    "Panel sterowania - Programy .",
+    "1921","1033", "Edu-Koala-V/koala-v-assets-art1/main/windows10/panel-sterowania-programy_ORIGINAL.webp"
+    ]},
+ 
+    {"type": "h2", "sectionID": "section5","elementContent":["Konta użytkowników",""]},
+   {"type": "span", "sectionID": "section5","elementContent":["Tu możesz zmienić nazwę użytkownika i typ konta (",""]},
+   {"type": "b", "sectionID": "section5","elementContent":["Standardowe ",""]},
+   {"type": "span", "sectionID": "section5","elementContent":[" albo ",""]},
+   {"type": "b", "sectionID": "section5","elementContent":["Administrator",""]},
+   {"type": "span", "sectionID": "section5","elementContent":["). Wszystkie inne opcje przeniosą cię do aplikacji ",""]},
+   {"type": "bi", "sectionID": "section5","elementContent":["„Ustawienia” ",""]},
+   {"type": "span", "sectionID": "section5","elementContent":["w której zmienisz hasło, grafikę profilu użytkownika oraz dodasz nowego użytkownika. Dodatkowo możesz nadal z poziomu panelu sterowania zmienić poziom kontroli akcji użytkownika. ( Chodzi o te okienko Tak/Nie gdy uruchamiasz program jako administrator.)",""]}
 ]
