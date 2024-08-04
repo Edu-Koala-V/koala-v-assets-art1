@@ -164,18 +164,18 @@
    {"type": "br", "sectionID": "section5"},
  
    {"type": "span", "sectionID": "section5","elementContent":["Elementy zaznaczone brązową obwódką uruchomią odpowiednią stronę w aplikacji „Ustawienia”.",""]},
- {"type": "img", "sectionID": "section6", "elementContent": [
+ {"type": "img", "sectionID": "section5", "elementContent": [
     "Edu-Koala-V/koala-v-assets-art1/main/windows10/panel-sterowania-programy.webp",
     "Panel sterowania - Programy .",
     "1921","1033", "Edu-Koala-V/koala-v-assets-art1/main/windows10/panel-sterowania-programy_ORIGINAL.webp"
     ]},
  
-    {"type": "h2", "sectionID": "section5","elementContent":["Konta użytkowników",""]},
-   {"type": "span", "sectionID": "section5","elementContent":["Tu możesz zmienić nazwę użytkownika i typ konta (",""]},
-   {"type": "b", "sectionID": "section5","elementContent":["Standardowe ",""]},
-   {"type": "span", "sectionID": "section5","elementContent":[" albo ",""]},
-   {"type": "b", "sectionID": "section5","elementContent":["Administrator",""]},
-   {"type": "span", "sectionID": "section5","elementContent":["). Wszystkie inne opcje przeniosą cię do aplikacji ",""]},
-   {"type": "bi", "sectionID": "section5","elementContent":["„Ustawienia” ",""]},
-   {"type": "span", "sectionID": "section5","elementContent":["w której zmienisz hasło, grafikę profilu użytkownika oraz dodasz nowego użytkownika. Dodatkowo możesz nadal z poziomu panelu sterowania zmienić poziom kontroli akcji użytkownika. ( Chodzi o te okienko Tak/Nie gdy uruchamiasz program jako administrator.)",""]}
+    {"type": "h2", "sectionID": "section6","elementContent":["Konta użytkowników",""]},
+   {"type": "span", "sectionID": "section6","elementContent":["Tu możesz zmienić nazwę użytkownika i typ konta (",""]},
+   {"type": "b", "sectionID": "section6","elementContent":["Standardowe ",""]},
+   {"type": "span", "sectionID": "section6","elementContent":[" albo ",""]},
+   {"type": "b", "sectionID": "section6","elementContent":["Administrator",""]},
+   {"type": "span", "sectionID": "section6","elementContent":["). Wszystkie inne opcje przeniosą cię do aplikacji ",""]},
+   {"type": "bi", "sectionID": "section6","elementContent":["„Ustawienia” ",""]},
+   {"type": "span", "sectionID": "section6","elementContent":["w której zmienisz hasło, grafikę profilu użytkownika oraz dodasz nowego użytkownika. Dodatkowo możesz nadal z poziomu panelu sterowania zmienić poziom kontroli akcji użytkownika. ( Chodzi o te okienko Tak/Nie gdy uruchamiasz program jako administrator.)",""]}
 ]
