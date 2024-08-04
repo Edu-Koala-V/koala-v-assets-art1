@@ -177,5 +177,37 @@
    {"type": "b", "sectionID": "section6","elementContent":["Administrator",""]},
    {"type": "span", "sectionID": "section6","elementContent":["). Wszystkie inne opcje przeniosą cię do aplikacji ",""]},
    {"type": "bi", "sectionID": "section6","elementContent":["„Ustawienia” ",""]},
-   {"type": "span", "sectionID": "section6","elementContent":["w której zmienisz hasło, grafikę profilu użytkownika oraz dodasz nowego użytkownika. Dodatkowo możesz nadal z poziomu panelu sterowania zmienić poziom kontroli akcji użytkownika. ( Chodzi o te okienko Tak/Nie gdy uruchamiasz program jako administrator.)",""]}
+   {"type": "span", "sectionID": "section6","elementContent":["w której zmienisz hasło, grafikę profilu użytkownika oraz dodasz nowego użytkownika. Dodatkowo możesz nadal z poziomu panelu sterowania zmienić poziom kontroli akcji użytkownika. ( Chodzi o te okienko Tak/Nie gdy uruchamiasz program jako administrator.)",""]},
+ {"type": "img", "sectionID": "section6", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/windows10/panel-sterowania-konta.webp",
+    "Panel sterowania - Konta użytkowników .",
+    "1921","1033", "Edu-Koala-V/koala-v-assets-art1/main/windows10/panel-sterowania-konta_ORIGINAL.webp"
+    ]},
+
+{"type": "h2", "sectionID": "section7","elementContent":["Wygląd i personalizacja",""]},
+   {"type": "span", "sectionID": "section7","elementContent":["Pasek zadań i nawigacja przenosi do aplikacji ",""]},
+   {"type": "span", "sectionID": "section7","elementContent":["„Ustawienia”.",""]},
+   {"type": "span", "sectionID": "section7","elementContent":[". Możesz za to sprawdzić jakie czcionki są zainstalowane w systemie.",""]},
+   {"type": "br", "sectionID": "section7"},
+   {"type": "span", "sectionID": "section7","elementContent":["Spoko rzeczą do zrobienia w nowo zainstalowanym systemie jest zmiana Opcji Eksploratora plików lub też Opcji folderów w zależności w jaki sposób dane okienko zostanie uruchomione tak będzie się nazywać.",""]},
+   {"type": "br", "sectionID": "section7"},
+   {"type": "br", "sectionID": "section7"},
+ {"type": "list","sectionID": "section7", "elementContent": {"ver":"ul",
+    "listElements":["Odinstalować zainstalowane programy.",
+        "Uruchamianie eksploratora plików domyślnie na stronie „Ten komputer” zamiast „Szybki dostęp”.",
+     "Przełączenie w widoku widoczności ukrytych plików i katalogów (folderów)."
+    ] }},
+   {"type": "br", "sectionID": "section7"},
+ {"type": "img", "sectionID": "section7", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/windows10/panel-sterowania-personalizacja.webp",
+    "Panel sterowania - Konta użytkowników .",
+    "1921","1033", "Edu-Koala-V/koala-v-assets-art1/main/windows10/panel-sterowania-personalizacja_ORIGINAL.webp"
+    ]},
+
+ {"type": "h2", "sectionID": "section7","elementContent":["Zegar i region",""]},
+   {"type": "span", "sectionID": "section7","elementContent":["Możesz tu skonfigurować czas systemowy oraz strefę czasową.",""]},
+
+ {"type": "h2", "sectionID": "section7","elementContent":["Ułatwienia dostępu",""]},
+   {"type": "span", "sectionID": "section7","elementContent":["Jest to zestaw funkcjonalności wspierające użytkowników z niepełnosprawnościami.",""]}
+ 
 ]
