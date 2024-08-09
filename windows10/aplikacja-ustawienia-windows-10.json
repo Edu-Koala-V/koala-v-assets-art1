@@ -124,7 +124,7 @@
     ]},
 {"type": "span", "sectionID": "section5","elementContent":["Klikając",""]},
 {"type": "text-block-name", "sectionID": "section5","elementContent":["„Właściwości”",""]},
-{"type": "span", "sectionID": "section5","elementContent":["danego interfejsu sieciowego, możesz sprawdzić jego skonfigurowane właściwości oraz samodzielnie przeprowadzić konfigurację adresacji IPv4 i IPv6.",""]},
+{"type": "span", "sectionID": "section5","elementContent":["danego interfejsu sieciowego, możesz sprawdzić jego skonfigurowane właściwości oraz samodzielnie przeprowadzić konfigurację adresacji",""]},
 {"type": "b", "sectionID": "section5","elementContent":["IPv4.",""]},
 {"type": "span", "sectionID": "section5","elementContent":["i",""]},
 {"type": "b", "sectionID": "section5","elementContent":["IPv6",""]},
@@ -140,7 +140,7 @@
 
      {"type": "h2", "sectionID": "section7", "elementContent": ["Aplikacje"]},
 {"type": "span", "sectionID": "section7","elementContent":["Na tej stronie w kategorii ",""]},
-{"type": "text-block-name", "sectionID": "section6","elementContent":["„Aplikacje i funkcje”",""]},
+{"type": "text-block-name", "sectionID": "section7","elementContent":["„Aplikacje i funkcje”",""]},
    {"type": "span", "sectionID": "section7","elementContent":["możesz usunąć programy które nie są widoczne za pośrednictwem panelu sterowania. W ",""]},
 {"type": "text-block-name", "sectionID": "section7","elementContent":["„Aplikacje domyślne”",""]},
    
@@ -170,7 +170,7 @@
 
     {"type": "h2", "sectionID": "section11", "elementContent": ["Wyszukiwanie"]},
 {"type": "span", "sectionID": "section11","elementContent":["Możesz tu ustawić czas oraz strefę czasową system i język.",""]},
-{"type": "text-block-name", "sectionID": "section10","elementContent":["„Wyszukaj”",""]},
+{"type": "text-block-name", "sectionID": "section11","elementContent":["„Wyszukaj”",""]},
 {"type": "span", "sectionID": "section11","elementContent":[". Te ustawienia dotyczą właśnie tej funkcjonalności. Określisz typ filtrowania wyników internetowych stron WWW oraz możliwość wyszukiwania w Internecie. Ustalisz, w jakich lokalizacjach Windows ma indeksować pliki, aby można je było szybko wyszukać.",""]},
    
 
