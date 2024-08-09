@@ -12,7 +12,7 @@
    {"type": "span", "sectionID": "section1","elementContent":["Na kolejnych obrazkach przedstawiono style aplikacji Ustawienia w różnych wersjach systemu. Aby sprawdzić swoją aktualnie zainstalowaną kompilację systemu Windows, użyj kombinacji klawiszy ",""]},
     {"type": "key-combo", "sectionID": "section1", "elementContent": ["Windows","R"]},
    {"type": "span", "sectionID": "section1","elementContent":[", wpisz",""]},
-     {"type": "text-block-name", "sectionID": "section3", "elementContent": ["​winver",""]},
+     {"type": "text-block-name", "sectionID": "section1", "elementContent": ["​winver",""]},
    {"type": "span", "sectionID": "section1","elementContent":[" i naciśnij ",""]},
     {"type": "key-combo", "sectionID": "section1", "elementContent": ["Enter"]},
    {"type": "br", "sectionID": "section1"},
@@ -44,23 +44,28 @@
 {"type": "h2", "sectionID": "section2", "elementContent": ["System"]},
    {"type": "span", "sectionID": "section2","elementContent":["Grupa ogólnych ustawień systemu, w której mogą cię zainteresować, to wyświetlacz, pamięć, obsługa wielu zadań i schowek.",""]},
 {"type": "h3", "sectionID": "section2", "elementContent": ["Wyświetlacz"]},
+   {"type": "br", "sectionID": "section2"},
    {"type": "list","sectionID": "section2", "elementContent": {"ver":"ul",
     "listElements":["Ustawienia wyświetlania nocnego: Ekran emituje niebieskie światło, które może działać pobudzająco w nocy. W trybie wyświetlania nocnego są używane cieplejsze kolory, co pomaga zasnąć.",
 "Skala i układ: Możesz ustawić skalowanie aplikacji w systemie oraz ustawić jaką rozdzielczość wyświetlacza chcesz używać. ( Maksymalna rozdzielczość to mniejsza wartość maksymalna wyświetlacza lub karty graficznej. Jak grafika jest wstanie obsłużyć 4k a monitor Full HD to maksymalna rozdzielczość do zastosowania to ta z monitora czyli 1920x1080.",
 "Wiele wyświetlaczy: W  Zaawansowane ustawienia wyświetlania możesz uzyskać informacje dotyczące twoich wyświetlaczy i zmienić częstotliwość odświeżania która często jest ustawiona domyślnie jako 60Hz ( Herc )nawet gdy monitor wspiera 144Hz."
     ] }},
-
+   {"type": "br", "sectionID": "section2"},
 {"type": "h3", "sectionID": "section2", "elementContent": ["Pamięć"]},
+   {"type": "br", "sectionID": "section2"},
    {"type": "list","sectionID": "section2", "elementContent": {"ver":"ul",
     "listElements":["Czujnik pamięci: Może automatycznie usuwać pliki tymczasowe oraz zawartość kosza i katalogu pobrane w zależności od czasu ostatniego użycia. ( Wartości do zastosowania to: nigdy, 1 dzień, 14 dni, 30 dni, 60 dni ).",
 "Zmiana domyślnej lokalizacji zapisywania nowej zawartości: Nie działa poprawnie, przynajmniej tak weszło z moich testów. ",
 "Zarządzaj miejscami do magazynowania: zostanie uruchomiona dobrze ci znana strona w panelu sterowania.",
 "Optymalizuj dyski: uruchomi się narzędzie administratora do defragmentacji i optymalizacji dysków."
     ] }},
+   {"type": "br", "sectionID": "section2"},
+   
 {"type": "h3", "sectionID": "section2", "elementContent": ["Obsługa wielu zadań"]},
 {"type": "span", "sectionID": "section2","elementContent":["Skonfigurujesz tu funkcjonalności poruszania się pomiędzy oknami ",""]},
-    {"type": "key-combo", "sectionID": "section1", "elementContent": ["Alt","Tab"]},
+    {"type": "key-combo", "sectionID": "section2", "elementContent": ["Alt","Tab"]},
 {"type": "span", "sectionID": "section2","elementContent":[" i rozmieszczania okien programów.",""]},
+   {"type": "br", "sectionID": "section2"},
 {"type": "h3", "sectionID": "section2", "elementContent": ["Schowek"]},
 {"type": "span", "sectionID": "section2","elementContent":["Nowa funkcjonalność wprowadzona w Windows 10 pozwalająca na wybór skopiowanych elementów po kombinacji klawiszy ",""]},
  {"type": "key-combo", "sectionID": "section2", "elementContent": ["Windows","V"]},
@@ -80,9 +85,9 @@
 {"type": "span", "sectionID": "section3","elementContent":["sugerowanie słów nie działa w ogóle. ",""]},
 {"type": "br", "sectionID": "section3"},
 {"type": "span", "sectionID": "section3","elementContent":["Jeśli chcesz użyć emoji, zastosuj kombinację klawiszy",""]},
- {"type": "key-combo", "sectionID": "section2", "elementContent": ["Windows",";"]},
+ {"type": "key-combo", "sectionID": "section3", "elementContent": ["Windows",";"]},
 {"type": "span", "sectionID": "section3","elementContent":["lub",""]},
- {"type": "key-combo", "sectionID": "section2", "elementContent": ["Windows","."]},
+ {"type": "key-combo", "sectionID": "section3", "elementContent": ["Windows","."]},
 {"type": "span", "sectionID": "section3","elementContent":[", wywołasz w Windows 10 i Windows 11 okno emoji.",""]},
 {"type": "img", "sectionID": "section3", "elementContent": [
     "Edu-Koala-V/koala-v-assets-art1/main/windows10/ustawienia-podpowiedzi-do-pisania-windows-10.webp",
@@ -120,6 +125,10 @@
 {"type": "span", "sectionID": "section5","elementContent":["Klikając",""]},
 {"type": "text-block-name", "sectionID": "section5","elementContent":["„Właściwości”",""]},
 {"type": "span", "sectionID": "section5","elementContent":["danego interfejsu sieciowego, możesz sprawdzić jego skonfigurowane właściwości oraz samodzielnie przeprowadzić konfigurację adresacji IPv4 i IPv6.",""]},
+{"type": "b", "sectionID": "section5","elementContent":["IPv4.",""]},
+{"type": "span", "sectionID": "section5","elementContent":["i",""]},
+{"type": "b", "sectionID": "section5","elementContent":["IPv6",""]},
+{"type": "span", "sectionID": "section5","elementContent":[".",""]},
 {"type": "img", "sectionID": "section5", "elementContent": [
     "Edu-Koala-V/koala-v-assets-art1/main/windows10/ustawienia-konfiguracja-sieci-windows-10.webp",
     "Aplikacja Ustawienia >> Sieć i Internet >> Stan >> Właściwości",
@@ -129,77 +138,77 @@
      {"type": "h2", "sectionID": "section6", "elementContent": ["Personalizacja"]},
 {"type": "span", "sectionID": "section6","elementContent":["Dokonasz tu konfiguracji  stylistycznej systemu dla zalogowanego użytkownika. Wymagana jest aktywacja systemu by móc dokonać zmian w tej kategorii.",""]},
 
-     {"type": "h2", "sectionID": "section6", "elementContent": ["Aplikacje"]},
-{"type": "span", "sectionID": "section6","elementContent":["Na tej stronie w kategorii ",""]},
+     {"type": "h2", "sectionID": "section7", "elementContent": ["Aplikacje"]},
+{"type": "span", "sectionID": "section7","elementContent":["Na tej stronie w kategorii ",""]},
 {"type": "text-block-name", "sectionID": "section6","elementContent":["„Aplikacje i funkcje”",""]},
-   {"type": "span", "sectionID": "section6","elementContent":["możesz usunąć programy które nie są widoczne za pośrednictwem panelu sterowania. W ",""]},
-{"type": "text-block-name", "sectionID": "section6","elementContent":["„Aplikacje domyślne”",""]},
+   {"type": "span", "sectionID": "section7","elementContent":["możesz usunąć programy które nie są widoczne za pośrednictwem panelu sterowania. W ",""]},
+{"type": "text-block-name", "sectionID": "section7","elementContent":["„Aplikacje domyślne”",""]},
    
-{"type": "span", "sectionID": "section6","elementContent":["możesz zmienić domyślny program dla ",""]},
-{"type": "bi", "sectionID": "section6","elementContent":["Przeglądarki fotografii ",""]},
-{"type": "span", "sectionID": "section6","elementContent":["fotografii lub dla konkretnego typu rozszerzenia pliku np.: ",""]},
-{"type": "i", "sectionID": "section6","elementContent":[".jpeg",""]},
-{"type": "img", "sectionID": "section6", "elementContent": [
+{"type": "span", "sectionID": "section7","elementContent":["możesz zmienić domyślny program dla ",""]},
+{"type": "bi", "sectionID": "section7","elementContent":["Przeglądarki fotografii ",""]},
+{"type": "span", "sectionID": "section7","elementContent":["fotografii lub dla konkretnego typu rozszerzenia pliku np.: ",""]},
+{"type": "i", "sectionID": "section7","elementContent":[".jpeg",""]},
+{"type": "img", "sectionID": "section7", "elementContent": [
     "Edu-Koala-V/koala-v-assets-art1/main/windows10/ustawienia-aplikacje-windows-10.webp",
     "Aplikacja Ustawienia >> Aplikacje >> Palikacje domyślne",
     "1921","1033", "Edu-Koala-V/koala-v-assets-art1/main/windows10/ustawienia-aplikacje-windows-10_ORIGINAL.webp"
     ]},
    
- {"type": "h2", "sectionID": "section7", "elementContent": ["Konta"]},
-{"type": "span", "sectionID": "section7","elementContent":["Na tej stronie zmienisz zdjęcie profilowe zalogowanego użytkownika oraz sposób logowania. Dodatkowo w tym miejscu dodasz nowe konto do systemu Windows. Po dodaniu nowego konta możesz zmienić jego typ tak samo jak w panelu sterownia.",""]},
-{"type": "img", "sectionID": "section7", "elementContent": [
+ {"type": "h2", "sectionID": "section8", "elementContent": ["Konta"]},
+{"type": "span", "sectionID": "section8","elementContent":["Na tej stronie zmienisz zdjęcie profilowe zalogowanego użytkownika oraz sposób logowania. Dodatkowo w tym miejscu dodasz nowe konto do systemu Windows. Po dodaniu nowego konta możesz zmienić jego typ tak samo jak w panelu sterownia.",""]},
+{"type": "img", "sectionID": "section8", "elementContent": [
     "Edu-Koala-V/koala-v-assets-art1/main/windows10/ustawienia-nowe-konto-windows-10.webp",
     "Aplikacja Ustawienia >> Konta >> Rodzina i inni użytkownicy",
     "1921","1033", "Edu-Koala-V/koala-v-assets-art1/main/windows10/ustawienia-nowe-konto-windows-10_ORIGINAL.webp"
     ]},
 
- {"type": "h2", "sectionID": "section8", "elementContent": ["Czas i język"]},
-{"type": "span", "sectionID": "section8","elementContent":["Możesz tu ustawić czas oraz strefę czasową system i język.",""]},
+ {"type": "h2", "sectionID": "section9", "elementContent": ["Czas i język"]},
+{"type": "span", "sectionID": "section9","elementContent":["Możesz tu ustawić czas oraz strefę czasową system i język.",""]},
 
-    {"type": "h2", "sectionID": "section9", "elementContent": ["Ułatwienia dostępu"]},
-{"type": "span", "sectionID": "section9","elementContent":["Jest to zestaw funkcjonalności wspierające użytkowników z niepełnosprawnościami.",""]},
+    {"type": "h2", "sectionID": "section10", "elementContent": ["Ułatwienia dostępu"]},
+{"type": "span", "sectionID": "section10","elementContent":["Jest to zestaw funkcjonalności wspierające użytkowników z niepełnosprawnościami.",""]},
 
-    {"type": "h2", "sectionID": "section10", "elementContent": ["Wyszukiwanie"]},
-{"type": "span", "sectionID": "section10","elementContent":["Możesz tu ustawić czas oraz strefę czasową system i język.",""]},
+    {"type": "h2", "sectionID": "section11", "elementContent": ["Wyszukiwanie"]},
+{"type": "span", "sectionID": "section11","elementContent":["Możesz tu ustawić czas oraz strefę czasową system i język.",""]},
 {"type": "text-block-name", "sectionID": "section10","elementContent":["„Wyszukaj”",""]},
-{"type": "span", "sectionID": "section10","elementContent":[". Te ustawienia dotyczą właśnie tej funkcjonalności. Określisz typ filtrowania wyników internetowych stron WWW oraz możliwość wyszukiwania w Internecie. Ustalisz, w jakich lokalizacjach Windows ma indeksować pliki, aby można je było szybko wyszukać.",""]},
+{"type": "span", "sectionID": "section11","elementContent":[". Te ustawienia dotyczą właśnie tej funkcjonalności. Określisz typ filtrowania wyników internetowych stron WWW oraz możliwość wyszukiwania w Internecie. Ustalisz, w jakich lokalizacjach Windows ma indeksować pliki, aby można je było szybko wyszukać.",""]},
    
 
-    {"type": "h2", "sectionID": "section11", "elementContent": ["Prywatność"]},
-{"type": "span", "sectionID": "section11","elementContent":["Tu  możesz zdecydować jakim aplikacjom i systemowi chcesz udzielić dane o tobie.",""]},
+    {"type": "h2", "sectionID": "section12", "elementContent": ["Prywatność"]},
+{"type": "span", "sectionID": "section12","elementContent":["Tu  możesz zdecydować jakim aplikacjom i systemowi chcesz udzielić dane o tobie.",""]},
 
-    {"type": "h2", "sectionID": "section12", "elementContent": ["Aktualizacja i zabezpieczenia"]},
-{"type": "span", "sectionID": "section12","elementContent":["Na tej stronie znajdziesz kategorie ustawień dotyczących procesu aktualizacji systemu. Określisz ich częstotliwość oraz współdzielenie plików aktualizacji z innymi komputerami w sieci. Uruchomisz ustawienia ",""]},
- {"type": "bi", "sectionID": "section12", "elementContent": ["Windows Defender"]},
- {"type": "span", "sectionID": "section12", "elementContent": [":"]},
-{"type": "img", "sectionID": "section12", "elementContent": [
+    {"type": "h2", "sectionID": "section13", "elementContent": ["Aktualizacja i zabezpieczenia"]},
+{"type": "span", "sectionID": "section13","elementContent":["Na tej stronie znajdziesz kategorie ustawień dotyczących procesu aktualizacji systemu. Określisz ich częstotliwość oraz współdzielenie plików aktualizacji z innymi komputerami w sieci. Uruchomisz ustawienia ",""]},
+ {"type": "bi", "sectionID": "section13", "elementContent": ["Windows Defender"]},
+ {"type": "span", "sectionID": "section13", "elementContent": [":"]},
+{"type": "img", "sectionID": "section13", "elementContent": [
     "Edu-Koala-V/koala-v-assets-art1/main/windows10/ustawienia-defender-windows-10.webp",
     "Aplikacja Ustawienia >> Aktualizacje i zabezpieczenia >> Zabezpieczenia Windows >> Otwórz usługę Zabezpieczenia Windows",
     "1921","1033", "Edu-Koala-V/koala-v-assets-art1/main/windows10/ustawienia-defender-windows-10_ORIGINAL.webp"
     ]},
 
- {"type": "span", "sectionID": "section12", "elementContent": ["Tak samo jak w panelu sterowania możesz skonfigurować tu kopię plików użytkownika z kontrolą wersji."]},
-{"type": "img", "sectionID": "section12", "elementContent": [
+ {"type": "span", "sectionID": "section13", "elementContent": ["Tak samo jak w panelu sterowania możesz skonfigurować tu kopię plików użytkownika z kontrolą wersji."]},
+{"type": "img", "sectionID": "section13", "elementContent": [
     "Edu-Koala-V/koala-v-assets-art1/main/windows10/ustawienia-historiia-plikow-windows-10.webp",
     "Aplikacja Ustawienia >> Aktualizacje i zabezpieczenia >> Kopia zapasowa plików",
     "1311","1033", "Edu-Koala-V/koala-v-assets-art1/main/windows10/ustawienia-historiia-plikow-windows-10_ORIGINAL.webp"
     ]},
-{"type": "span", "sectionID": "section12", "elementContent": ["Możesz w kategorii"]},
-{"type": "text-block-name", "sectionID": "section12","elementContent":["„Odzyskiwanie”",""]},
+{"type": "span", "sectionID": "section13", "elementContent": ["Możesz w kategorii"]},
+{"type": "text-block-name", "sectionID": "section13","elementContent":["„Odzyskiwanie”",""]},
    
-{"type": "span", "sectionID": "section12", "elementContent": ["przeinstalować swojego Windowsa, przywracając go do stanu początkowego z twoimi plikami lub bez nich. Drugą ciekawą opcją jest uruchomienie opcji zaawansowanych."]},
-{"type": "img", "sectionID": "section12", "elementContent": [
+{"type": "span", "sectionID": "section13", "elementContent": ["przeinstalować swojego Windowsa, przywracając go do stanu początkowego z twoimi plikami lub bez nich. Drugą ciekawą opcją jest uruchomienie opcji zaawansowanych."]},
+{"type": "img", "sectionID": "section13", "elementContent": [
     "Edu-Koala-V/koala-v-assets-art1/main/windows10/ustawienia-uruchamianie-zaawnsowane-windows-10.webp",
     "Aplikacja Ustawienia >> Aktualizacje i zabezpieczenia >> Odzyskiwanie",
     "1921","1033", "Edu-Koala-V/koala-v-assets-art1/main/windows10/ustawienia-uruchamianie-zaawnsowane-windows-10_ORIGINAL.webp"
     ]},
    
-{"type": "span", "sectionID": "section12", "elementContent": ["Ważnymi kategoriami do wspomnienia są"]},
-{"type": "text-block-name", "sectionID": "section12","elementContent":["„Aktywacja”",""]},
-{"type": "span", "sectionID": "section12", "elementContent": ["– jak sama nazwa wskazuje – tu możesz wprowadzić klucz produktu Windows oraz"]},
-{"type": "text-block-name", "sectionID": "section12","elementContent":["„Niejawny program testów systemu Windows”",""]},
-{"type": "span", "sectionID": "section12", "elementContent": [", w którym wymagane jest włączenie opcjonalnych danych diagnostycznych. Dzięki temu uzyskasz najświeższe kompilacje systemu, zależnie od wyboru kanału."]},
-{"type": "img", "sectionID": "section12", "elementContent": [
+{"type": "span", "sectionID": "section13", "elementContent": ["Ważnymi kategoriami do wspomnienia są"]},
+{"type": "text-block-name", "sectionID": "section13","elementContent":["„Aktywacja”",""]},
+{"type": "span", "sectionID": "section13", "elementContent": ["– jak sama nazwa wskazuje – tu możesz wprowadzić klucz produktu Windows oraz"]},
+{"type": "text-block-name", "sectionID": "section13","elementContent":["„Niejawny program testów systemu Windows”",""]},
+{"type": "span", "sectionID": "section13", "elementContent": [", w którym wymagane jest włączenie opcjonalnych danych diagnostycznych. Dzięki temu uzyskasz najświeższe kompilacje systemu, zależnie od wyboru kanału."]},
+{"type": "img", "sectionID": "section13", "elementContent": [
     "Edu-Koala-V/koala-v-assets-art1/main/windows10/ustawienia-niejawny-program-aktualizacji-windows10.webp",
     "Aplikacja Ustawienia -- Kanały niejawnego programu testów systemu Windows",
     "548","665", "Edu-Koala-V/koala-v-assets-art1/main/windows10/ustawienia-niejawny-program-aktualizacji-windows10_ORIGINAL.webp"
