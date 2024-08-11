@@ -1,0 +1,16 @@
+[
+   {"type": "h2", "sectionID": "section1", "elementContent": ["Wstęp"]},
+   {"type": "span", "sectionID": "section1","elementContent":["W systemie Windows jest wiele narzędzi administracyjnych, które pozwalają na wykonywanie zadań administracyjnych, naprawczych oraz konfigurację komputera i systemu. Są one nazywane ",""]},
+   {"type": "bi", "sectionID": "section1","elementContent":["przystawkami",""]},
+   {"type": "span", "sectionID": "section1","elementContent":[". Aby uruchomić daną przystawkę systemu należy w menu Start wpisać nazwę przystawki z rozszerzeniem ",""]},
+   {"type": "bi", "sectionID": "section1","elementContent":[".msc",""]},
+   {"type": "span", "sectionID": "section1","elementContent":["i ją włączyć. Niektóre z nich wymagają uprawnień administratora. W systemie możemy skorzystać z wbudowanego programu jakim jest",""]},
+   {"type": "bi", "sectionID": "section1","elementContent":["konsola MMC",""]},
+   {"type": "span", "sectionID": "section1","elementContent":[", jest to środowisko, do którego można dodać różne ",""]},
+     {"type": "bi", "sectionID": "section1","elementContent":["przystawki",""]},
+   {"type": "span", "sectionID": "section1","elementContent":[", aby ułatwić administrowanie komputerem oraz umożliwić przenoszenie konsol między komputerami. Przystawki dzielą się na autonomiczne i rozszerzenia przystawek. Przystawki autonomiczne można dodać do konsoli bez uprzedniego dodawania innego elementu. Rozszerzenie jest zawsze dodawane do przystawki lub innego rozszerzenia.",""]},
+
+  
+  {"type": "link-art", "sectionID": "section1", "elementContent": ["Użytkownicy i grupy lokalne", "windows10"]},
+  {"type": "link-art", "sectionID": "section1", "elementContent": ["Panel sterowania", "windows10"]}
+]
