@@ -11,8 +11,76 @@
    {"type": "span", "sectionID": "section1","elementContent":[", aby ułatwić administrowanie komputerem oraz umożliwić przenoszenie konsol między komputerami. Przystawki dzielą się na autonomiczne i rozszerzenia przystawek. Przystawki autonomiczne można dodać do konsoli bez uprzedniego dodawania innego elementu. Rozszerzenie jest zawsze dodawane do przystawki lub innego rozszerzenia.",""]},
 
 
-   {"type": "h2", "sectionID": "section1", "elementContent": ["Jak dodać przystawkę do konsoli?"]},
+   {"type": "h2", "sectionID": "section2", "elementContent": ["Jak dodać przystawkę do konsoli?"]},
+  {"type": "span", "sectionID": "section2","elementContent":["Aby dodać przystawkę do konsoli należy w menu ",""]},
+   {"type": "text-block-name", "sectionID": "section2","elementContent":["„Plik”",""]},
+   {"type": "span", "sectionID": "section2","elementContent":["i kliknąć",""]},
+   {"type": "text-block-name", "sectionID": "section2","elementContent":[" „Dodaj/Usuń przystawkę”",""]},
+   {"type": "span", "sectionID": "section2","elementContent":[". Następnie zaznaczyć na liście przystawkę i kliknąć ",""]},
+   {"type": "text-block-name", "sectionID": "section2","elementContent":["„Dodaj”",""]},
+   {"type": "span", "sectionID": "section2","elementContent":[". Aby ją usunąć należy wybrać ją z listy ",""]},
+   {"type": "text-block-name", "sectionID": "section2","elementContent":["„Wybrane przystawki”",""]},
+   {"type": "span", "sectionID": "section2","elementContent":["i kliknąć przycisk ",""]},
+   {"type": "text-block-name", "sectionID": "section2","elementContent":["„Usuń”",""]},
+   {"type": "span", "sectionID": "section2","elementContent":[".",""]},
+ {"type": "img", "sectionID": "section2", "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/windows10/MMC.webp",
+    "Aplikacja Ustawienia w Windows 8",
+    "1921","1033", "Edu-Koala-V/koala-v-assets-art1/main/windows10/MMC_ORIGINAL.webp"
+    ]},
+
    
-  {"type": "link-art", "sectionID": "section1", "elementContent": ["Użytkownicy i grupy lokalne", "windows10"]},
-  {"type": "link-art", "sectionID": "section1", "elementContent": ["Panel sterowania", "windows10"]}
+   {"type": "h2", "sectionID": "section3", "elementContent": ["Wybrane przystawki Windows"]},
+   {"type": "i", "sectionID": "section3","elementContent":["compmgmt.msc",""]},
+   {"type": "span", "sectionID": "section3","elementContent":[" ---> ",""]},
+  {"type": "link-art", "sectionID": "section3", "elementContent": ["Zarządzanie komputerem", "windows10"]},
+  {"type": "br", "sectionID": "section3"},
+   
+   {"type": "i", "sectionID": "section3","elementContent":["taskschd.msc",""]},
+   {"type": "span", "sectionID": "section3","elementContent":[" ---> ",""]},
+  {"type": "link-art", "sectionID": "section3", "elementContent": ["Harmonogram zadań", "windows10"]},
+  {"type": "br", "sectionID": "section3"},
+   
+    {"type": "i", "sectionID": "section3","elementContent":["eventvwr.msc",""]},
+   {"type": "span", "sectionID": "section3","elementContent":[" ---> ",""]},
+  {"type": "link-art", "sectionID": "section3", "elementContent": ["Podgląd zdarzeń", "windows10"]},
+  {"type": "br", "sectionID": "section3"},
+   
+     {"type": "i", "sectionID": "section3","elementContent":["fsmgmt.msc",""]},
+   {"type": "span", "sectionID": "section3","elementContent":[" ---> ",""]},
+  {"type": "link-art", "sectionID": "section3", "elementContent": ["Foldery udostępnione", "windows10"]},
+  {"type": "br", "sectionID": "section3"}, 
+   
+
+     {"type": "i", "sectionID": "section3","elementContent":["lusrmgr.msc",""]},
+   {"type": "span", "sectionID": "section3","elementContent":[" ---> ",""]},
+  {"type": "link-art", "sectionID": "section3", "elementContent": ["Użytkownicy i grupy lokalne", "windows10"]},
+  {"type": "br", "sectionID": "section3"}, 
+
+   {"type": "i", "sectionID": "section3","elementContent":["perfmon.msc",""]},
+   {"type": "span", "sectionID": "section3","elementContent":[" ---> ",""]},
+  {"type": "link-art", "sectionID": "section3", "elementContent": ["Wydajność", "windows10"]},
+  {"type": "br", "sectionID": "section3"}, 
+
+  {"type": "i", "sectionID": "section3","elementContent":["devmgmt.msc",""]},
+   {"type": "span", "sectionID": "section3","elementContent":[" ---> ",""]},
+  {"type": "link-art", "sectionID": "section3", "elementContent": ["Menadżer urządzeń", "windows10"]},
+  {"type": "br", "sectionID": "section3"}, 
+
+    
+{"type": "i", "sectionID": "section3","elementContent":["diskmgmt.msc",""]},
+   {"type": "span", "sectionID": "section3","elementContent":[" ---> ",""]},
+  {"type": "link-art", "sectionID": "section3", "elementContent": ["Zarządzanie dyskami", "windows10"]},
+  {"type": "br", "sectionID": "section3"}, 
+
+{"type": "i", "sectionID": "section3","elementContent":["services.msc",""]},
+   {"type": "span", "sectionID": "section3","elementContent":[" ---> ",""]},
+  {"type": "link-art", "sectionID": "section3", "elementContent": ["Usługi", "windows10"]},
+  {"type": "br", "sectionID": "section3"}, 
+
+   {"type": "i", "sectionID": "section3","elementContent":["services.msc",""]},
+   {"type": "span", "sectionID": "section3","elementContent":[" ---> ",""]},
+  {"type": "link-art", "sectionID": "section3", "elementContent": ["Usługi", "windows10"]},
+  {"type": "br", "sectionID": "section3"}
+   
 ]
