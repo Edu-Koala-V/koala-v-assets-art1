@@ -31,53 +31,63 @@
 
    
    {"type": "h2", "sectionID": "section3", "elementContent": ["Wybrane przystawki Windows"]},
+
+  {"type": "br", "sectionID": "section3"}, 
    {"type": "i", "sectionID": "section3","elementContent":["compmgmt.msc",""]},
    {"type": "span", "sectionID": "section3","elementContent":[" ---> ",""]},
   {"type": "link-art", "sectionID": "section3", "elementContent": ["Zarządzanie komputerem", "windows10"]},
   {"type": "br", "sectionID": "section3"},
    
+  {"type": "br", "sectionID": "section3"}, 
    {"type": "i", "sectionID": "section3","elementContent":["taskschd.msc",""]},
    {"type": "span", "sectionID": "section3","elementContent":[" ---> ",""]},
   {"type": "link-art", "sectionID": "section3", "elementContent": ["Harmonogram zadań", "windows10"]},
   {"type": "br", "sectionID": "section3"},
    
+  {"type": "br", "sectionID": "section3"}, 
     {"type": "i", "sectionID": "section3","elementContent":["eventvwr.msc",""]},
    {"type": "span", "sectionID": "section3","elementContent":[" ---> ",""]},
   {"type": "link-art", "sectionID": "section3", "elementContent": ["Podgląd zdarzeń", "windows10"]},
   {"type": "br", "sectionID": "section3"},
    
+  {"type": "br", "sectionID": "section3"}, 
      {"type": "i", "sectionID": "section3","elementContent":["fsmgmt.msc",""]},
    {"type": "span", "sectionID": "section3","elementContent":[" ---> ",""]},
   {"type": "link-art", "sectionID": "section3", "elementContent": ["Foldery udostępnione", "windows10"]},
   {"type": "br", "sectionID": "section3"}, 
    
 
+  {"type": "br", "sectionID": "section3"}, 
      {"type": "i", "sectionID": "section3","elementContent":["lusrmgr.msc",""]},
    {"type": "span", "sectionID": "section3","elementContent":[" ---> ",""]},
   {"type": "link-art", "sectionID": "section3", "elementContent": ["Użytkownicy i grupy lokalne", "windows10"]},
   {"type": "br", "sectionID": "section3"}, 
 
+  {"type": "br", "sectionID": "section3"}, 
    {"type": "i", "sectionID": "section3","elementContent":["perfmon.msc",""]},
    {"type": "span", "sectionID": "section3","elementContent":[" ---> ",""]},
   {"type": "link-art", "sectionID": "section3", "elementContent": ["Wydajność", "windows10"]},
   {"type": "br", "sectionID": "section3"}, 
 
+  {"type": "br", "sectionID": "section3"}, 
   {"type": "i", "sectionID": "section3","elementContent":["devmgmt.msc",""]},
    {"type": "span", "sectionID": "section3","elementContent":[" ---> ",""]},
   {"type": "link-art", "sectionID": "section3", "elementContent": ["Menadżer urządzeń", "windows10"]},
   {"type": "br", "sectionID": "section3"}, 
 
-    
+  {"type": "br", "sectionID": "section3"},     
 {"type": "i", "sectionID": "section3","elementContent":["diskmgmt.msc",""]},
    {"type": "span", "sectionID": "section3","elementContent":[" ---> ",""]},
   {"type": "link-art", "sectionID": "section3", "elementContent": ["Zarządzanie dyskami", "windows10"]},
   {"type": "br", "sectionID": "section3"}, 
 
+  {"type": "br", "sectionID": "section3"}, 
 {"type": "i", "sectionID": "section3","elementContent":["services.msc",""]},
    {"type": "span", "sectionID": "section3","elementContent":[" ---> ",""]},
   {"type": "link-art", "sectionID": "section3", "elementContent": ["Usługi", "windows10"]},
   {"type": "br", "sectionID": "section3"}, 
 
+  {"type": "br", "sectionID": "section3"}, 
    {"type": "i", "sectionID": "section3","elementContent":["services.msc",""]},
    {"type": "span", "sectionID": "section3","elementContent":[" ---> ",""]},
   {"type": "link-art", "sectionID": "section3", "elementContent": ["Usługi", "windows10"]},
