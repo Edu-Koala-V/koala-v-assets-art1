@@ -10,7 +10,9 @@
      {"type": "bi", "sectionID": "section1","elementContent":["przystawki",""]},
    {"type": "span", "sectionID": "section1","elementContent":[", aby ułatwić administrowanie komputerem oraz umożliwić przenoszenie konsol między komputerami. Przystawki dzielą się na autonomiczne i rozszerzenia przystawek. Przystawki autonomiczne można dodać do konsoli bez uprzedniego dodawania innego elementu. Rozszerzenie jest zawsze dodawane do przystawki lub innego rozszerzenia.",""]},
 
-  
+
+   {"type": "h2", "sectionID": "section1", "elementContent": ["Jak dodać przystawkę do konsoli?"]},
+   
   {"type": "link-art", "sectionID": "section1", "elementContent": ["Użytkownicy i grupy lokalne", "windows10"]},
   {"type": "link-art", "sectionID": "section1", "elementContent": ["Panel sterowania", "windows10"]}
 ]
