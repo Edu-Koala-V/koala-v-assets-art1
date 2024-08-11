@@ -85,12 +85,6 @@
 {"type": "i", "sectionID": "section3","elementContent":["services.msc",""]},
    {"type": "span", "sectionID": "section3","elementContent":[" ---> ",""]},
   {"type": "link-art", "sectionID": "section3", "elementContent": ["Usługi", "windows10"]},
-  {"type": "br", "sectionID": "section3"}, 
-
-  {"type": "br", "sectionID": "section3"}, 
-   {"type": "i", "sectionID": "section3","elementContent":["services.msc",""]},
-   {"type": "span", "sectionID": "section3","elementContent":[" ---> ",""]},
-  {"type": "link-art", "sectionID": "section3", "elementContent": ["Usługi", "windows10"]},
   {"type": "br", "sectionID": "section3"}
    
 ]
