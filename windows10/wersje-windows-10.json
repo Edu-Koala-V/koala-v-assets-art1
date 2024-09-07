@@ -1,7 +1,7 @@
 [
   {"type": "h2", "sectionID": "section1", "elementContent": ["Wymagania minimalne windows 10"]},
 
-    {"type": "span", "sectionID": "section1","elementContent":["Poniżej przedstawiono minimalne wymagania do instalcji Windows 10. Pełna specyfikacja na stronie producenta: ",""]},
+    {"type": "span", "sectionID": "section1","elementContent":["Poniżej przedstawiono minimalne wymagania do instalacji Windows 10. Pełna specyfikacja na stronie producenta: ",""]},
      {"type": "link","sectionID":"section1","elementContent":["https://www.microsoft.com/pl-pl/windows/windows-10-specifications"]},
   
     {"type": "table", "sectionID": "section1","elementContent":
