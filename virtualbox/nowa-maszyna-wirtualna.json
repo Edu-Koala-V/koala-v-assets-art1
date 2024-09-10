@@ -1,5 +1,5 @@
 [
-    {"type": "h2", "sectionID": "section1", "elementContent": ["Konfiguracja globalna i maszyny w VirtualBox"]},
+    {"type": "h2", "sectionID": "section1", "elementContent": ["Konfiguracja globalna i maszyny w VirtualBox", ""]},
 
     {"type": "span", "sectionID": "section1","elementContent":[" (Uruchom VirtualBox-a i przejdź do globalnych ustawieni ( alternatywnie skrót klawiszowy ",""]},
     {"type": "key-combo", "sectionID": "section1", "elementContent": ["Ctrl","G"]},
@@ -23,7 +23,7 @@
     ]},
 
     
-    {"type": "h2", "sectionID": "section2", "elementContent": ["Tworzenie nowej maszyny wirtualnej"]},
+    {"type": "h2", "sectionID": "section2", "elementContent": ["Tworzenie nowej maszyny wirtualnej", ""]},
     {"type": "span", "sectionID": "section2","elementContent":["Kliknij ",""]},
     {"type": "text-block-name", "sectionID": "section2", "elementContent": ["Nowa", "​"]},
     {"type": "span", "sectionID": "section2","elementContent":[" (alternatywnie użyj skrótu klawiszowego ",""]},
