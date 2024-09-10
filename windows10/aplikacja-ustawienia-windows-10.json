@@ -1,5 +1,5 @@
 [
-   {"type": "h2", "sectionID": "section1", "elementContent": ["Wstęp"]},
+   {"type": "h2", "sectionID": "section1", "elementContent": ["Wstęp", ""]},
    {"type": "span", "sectionID": "section1","elementContent":["Aplikacja ",""]},
    {"type": "bi", "sectionID": "section1","elementContent":["„Ustawienia”",""]},
    {"type": "span", "sectionID": "section1","elementContent":["została wprowadzona w systemie Windows 8. W miarę pojawiania się nowych wersji systemu oraz aktualizacji, coraz więcej funkcjonalności z Panelu sterowania jest przenoszonych do aplikacji ”. ",""]},
@@ -8,7 +8,7 @@
    {"type": "bi", "sectionID": "section1","elementContent":["„Ustawienia”",""]},
    {"type": "span", "sectionID": "section1","elementContent":[". Skrótem klawiszowym do uruchomienia ustawień w Windows 10 i Windows 11 jest: ",""]},
     {"type": "key-combo", "sectionID": "section1", "elementContent": ["Windows","I"]},
-   {"type": "h2", "sectionID": "section1", "elementContent": ["Stylistyka aplikacji Ustawienia w różnych wersjach systemów Windows"]},
+   {"type": "h2", "sectionID": "section1", "elementContent": ["Stylistyka aplikacji Ustawienia w różnych wersjach systemów Windows", ""]},
    {"type": "span", "sectionID": "section1","elementContent":["Na kolejnych obrazkach przedstawiono style aplikacji Ustawienia w różnych wersjach systemu. Aby sprawdzić swoją aktualnie zainstalowaną kompilację systemu Windows, użyj kombinacji klawiszy ",""]},
     {"type": "key-combo", "sectionID": "section1", "elementContent": ["Windows","R"]},
    {"type": "span", "sectionID": "section1","elementContent":[", wpisz",""]},
@@ -41,7 +41,7 @@
     "1921","1033", "Edu-Koala-V/koala-v-assets-art1/main/windows10/ustawienia-windows11_ORIGINAL.webp"
     ]},
 
-{"type": "h2", "sectionID": "section2", "elementContent": ["System"]},
+{"type": "h2", "sectionID": "section2", "elementContent": ["System", ""]},
    {"type": "span", "sectionID": "section2","elementContent":["Grupa ogólnych ustawień systemu, w której mogą cię zainteresować, to wyświetlacz, pamięć, obsługa wielu zadań i schowek.",""]},
 {"type": "h3", "sectionID": "section2", "elementContent": ["Wyświetlacz"]},
    {"type": "br", "sectionID": "section2"},
@@ -77,7 +77,7 @@
     ]},
 
 
-   {"type": "h2", "sectionID": "section3", "elementContent": ["Urządzenia"]},
+   {"type": "h2", "sectionID": "section3", "elementContent": ["Urządzenia", ""]},
 {"type": "span", "sectionID": "section3","elementContent":["Znajdziesz tu ustawienia dotyczące urządzeń peryferyjnych, takich jak mysz i klawiatura. Z tego miejsca możesz zarządzać urządzeniami znanych dla systemu. Ciekawe funkcje do włączenia znajdują się w sekcji",""]},
 {"type": "text-block-name", "sectionID": "section3","elementContent":["„Pisanie”",""]},
 {"type": "span", "sectionID": "section3","elementContent":[", gdzie podczas pisania system podpowiada ci trzy prawdopodobne słowa, które chcesz zapisać. Niestety, auto korekta w moim przypadku nie działa, a dodatkowo w najnowszej na ten moment wersji",""]},
@@ -96,14 +96,14 @@
     ]},
 
 
-   {"type": "h2", "sectionID": "section4", "elementContent": ["Urządzenia przenośne"]},
+   {"type": "h2", "sectionID": "section4", "elementContent": ["Urządzenia przenośne", ""]},
 {"type": "span", "sectionID": "section4","elementContent":["Ta strona została w Windows 11 przeniesiona do sekcji ",""]},
 {"type": "text-block-name", "sectionID": "section4","elementContent":["„Bluetooth i urządzenia”",""]},
 {"type": "span", "sectionID": "section4","elementContent":["ponieważ zawiera tylko trzy funkcje do włączenia i wyłączenia. Do prawidłowego działania niezbędny jest program: ",""]},
 {"type": "b", "sectionID": "section4","elementContent":["„Aplikacja Łączenia z telefonem”",""]},
 {"type": "span", "sectionID": "section4","elementContent":["”. Możesz jej użyć do uruchomienia aplikacji na smartfonie oraz do przeglądania wiadomości SMS, zdjęć i dokonywania połączeń za jego pośrednictwem. Ciekawym jest wykorzystanie tego połączenia do uczynienia z telefonu kamery, którą OBS wykryje jako urządzenie do przechwytywania wideo.",""]},
    
- {"type": "h2", "sectionID": "section5", "elementContent": ["Sieć i Internet"]},
+ {"type": "h2", "sectionID": "section5", "elementContent": ["Sieć i Internet", ""]},
 {"type": "span", "sectionID": "section5","elementContent":["Tu możesz przeprowadzić konfigurację ",""]},
 {"type": "b", "sectionID": "section5","elementContent":["VPN",""]},
 {"type": "span", "sectionID": "section5","elementContent":["i serwera",""]},
@@ -135,10 +135,10 @@
     "1921","1033", "Edu-Koala-V/koala-v-assets-art1/main/windows10/ustawienia-konfiguracja-sieci-windows-10_ORIGINAL.webp"
     ]},
 
-     {"type": "h2", "sectionID": "section6", "elementContent": ["Personalizacja"]},
+     {"type": "h2", "sectionID": "section6", "elementContent": ["Personalizacja", ""]},
 {"type": "span", "sectionID": "section6","elementContent":["Dokonasz tu konfiguracji  stylistycznej systemu dla zalogowanego użytkownika. Wymagana jest aktywacja systemu by móc dokonać zmian w tej kategorii.",""]},
 
-     {"type": "h2", "sectionID": "section7", "elementContent": ["Aplikacje"]},
+     {"type": "h2", "sectionID": "section7", "elementContent": ["Aplikacje", ""]},
 {"type": "span", "sectionID": "section7","elementContent":["Na tej stronie w kategorii ",""]},
 {"type": "text-block-name", "sectionID": "section7","elementContent":["„Aplikacje i funkcje”",""]},
    {"type": "span", "sectionID": "section7","elementContent":["możesz usunąć programy które nie są widoczne za pośrednictwem panelu sterowania. W ",""]},
@@ -154,7 +154,7 @@
     "1921","1033", "Edu-Koala-V/koala-v-assets-art1/main/windows10/ustawienia-aplikacje-windows-10_ORIGINAL.webp"
     ]},
    
- {"type": "h2", "sectionID": "section8", "elementContent": ["Konta"]},
+ {"type": "h2", "sectionID": "section8", "elementContent": ["Konta", ""]},
 {"type": "span", "sectionID": "section8","elementContent":["Na tej stronie zmienisz zdjęcie profilowe zalogowanego użytkownika oraz sposób logowania. Dodatkowo w tym miejscu dodasz nowe konto do systemu Windows. Po dodaniu nowego konta możesz zmienić jego typ tak samo jak w panelu sterownia.",""]},
 {"type": "img", "sectionID": "section8", "elementContent": [
     "Edu-Koala-V/koala-v-assets-art1/main/windows10/ustawienia-nowe-konto-windows-10.webp",
@@ -162,22 +162,22 @@
     "1921","1033", "Edu-Koala-V/koala-v-assets-art1/main/windows10/ustawienia-nowe-konto-windows-10_ORIGINAL.webp"
     ]},
 
- {"type": "h2", "sectionID": "section9", "elementContent": ["Czas i język"]},
+ {"type": "h2", "sectionID": "section9", "elementContent": ["Czas i język", ""]},
 {"type": "span", "sectionID": "section9","elementContent":["Możesz tu ustawić czas oraz strefę czasową system i język.",""]},
 
-    {"type": "h2", "sectionID": "section10", "elementContent": ["Ułatwienia dostępu"]},
+    {"type": "h2", "sectionID": "section10", "elementContent": ["Ułatwienia dostępu", ""]},
 {"type": "span", "sectionID": "section10","elementContent":["Jest to zestaw funkcjonalności wspierające użytkowników z niepełnosprawnościami.",""]},
 
-    {"type": "h2", "sectionID": "section11", "elementContent": ["Wyszukiwanie"]},
+    {"type": "h2", "sectionID": "section11", "elementContent": ["Wyszukiwanie", ""]},
 {"type": "span", "sectionID": "section11","elementContent":["Możesz tu ustawić czas oraz strefę czasową system i język.",""]},
 {"type": "text-block-name", "sectionID": "section11","elementContent":["„Wyszukaj”",""]},
 {"type": "span", "sectionID": "section11","elementContent":[". Te ustawienia dotyczą właśnie tej funkcjonalności. Określisz typ filtrowania wyników internetowych stron WWW oraz możliwość wyszukiwania w Internecie. Ustalisz, w jakich lokalizacjach Windows ma indeksować pliki, aby można je było szybko wyszukać.",""]},
    
 
-    {"type": "h2", "sectionID": "section12", "elementContent": ["Prywatność"]},
+    {"type": "h2", "sectionID": "section12", "elementContent": ["Prywatność", ""]},
 {"type": "span", "sectionID": "section12","elementContent":["Tu  możesz zdecydować jakim aplikacjom i systemowi chcesz udzielić dane o tobie.",""]},
 
-    {"type": "h2", "sectionID": "section13", "elementContent": ["Aktualizacja i zabezpieczenia"]},
+    {"type": "h2", "sectionID": "section13", "elementContent": ["Aktualizacja i zabezpieczenia", ""]},
 {"type": "span", "sectionID": "section13","elementContent":["Na tej stronie znajdziesz kategorie ustawień dotyczących procesu aktualizacji systemu. Określisz ich częstotliwość oraz współdzielenie plików aktualizacji z innymi komputerami w sieci. Uruchomisz ustawienia ",""]},
  {"type": "bi", "sectionID": "section13", "elementContent": ["Windows Defender"]},
  {"type": "span", "sectionID": "section13", "elementContent": [":"]},
