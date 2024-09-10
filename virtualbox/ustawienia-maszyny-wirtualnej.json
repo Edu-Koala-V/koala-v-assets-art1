@@ -1,5 +1,5 @@
 [
-{"type": "h2", "sectionID": "section1", "elementContent": ["Ustawienia maszyny: Ogólne"]},
+{"type": "h2", "sectionID": "section1", "elementContent": ["Ustawienia maszyny: Ogólne", ""]},
 {"type": "span", "sectionID": "section1","elementContent":["Aby wykorzystać dodatkowe funkcjonalności interakcji z maszyną, musisz zainstalować zestaw pakietowy dodatków gościa, zwanych również “Guest Additions”. Dzięki nim będziesz mógł zmieniać okno gościa na pełen ekran.",""]},
 {"type": "br", "sectionID": "section1"},
 {"type": "span", "sectionID": "section1","elementContent":["Zamontuj obraz w maszynie i otwórz go w stacji dysków.",""]},
@@ -38,7 +38,7 @@
     "944","1105", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/schowek-windows_ORIGINAL.webp"
     ]},
 
-    {"type": "h2", "sectionID": "section2", "elementContent": ["Ustawienia maszyny: System"]},
+    {"type": "h2", "sectionID": "section2", "elementContent": ["Ustawienia maszyny: System", ""]},
 {"type": "span", "sectionID": "section2","elementContent":["Te ustawienia można zmieniać tylko wtedy gdy maszyna jest wyłączona. W zakładce Płyta główna możesz zadeklarować ilość pamięci RAM do przydzielenia maszynie oraz określić kolejność bootowania. Pozostałe ustawienia są specyficzne dla instalowanego systemu na maszynie.",""]},
  {"type": "img", "sectionID": "section2", "elementContent": [
     "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/maszyna-system-plyta.webp",
@@ -81,7 +81,7 @@
     ]},
 
 
-    {"type": "h2", "sectionID": "section3", "elementContent": ["Ustawienia maszyny: Ekran"]},
+    {"type": "h2", "sectionID": "section3", "elementContent": ["Ustawienia maszyny: Ekran", ""]},
 {"type": "span", "sectionID": "section3","elementContent":["W zakładce Ekran możesz włączyć akcelerację 3D która wpłynie na wydajność oraz dostosować ilość pamięci ram i wybrać kontroler grafiki:",""]},
      {"type": "list","sectionID": "section3", "elementContent": {"ver":"ul",
     "listElements":["VBoxVGA – zaimportowano maszynę ( Czyli utworzoną w VirtualBox starszym niż 6.0)",
@@ -105,7 +105,7 @@
     {"type": "text-block-name", "sectionID": "section3", "elementContent": ["Nagrywanie",""]},
 {"type": "span", "sectionID": "section3","elementContent":["Możesz sprawdzić w własnym zakresie przy nowszych wersjach VB bo aktualnie powoduje to dużo błędów i nie działą tak jak powinno.",""]},
 
-    {"type": "h2", "sectionID": "section4", "elementContent": ["Ustawienia maszyny: Pamięć"]},
+    {"type": "h2", "sectionID": "section4", "elementContent": ["Ustawienia maszyny: Pamięć", ""]},
 {"type": "span", "sectionID": "section4","elementContent":["Na tej stronie zarządzasz kontrolerami urządzeń magazynujących, dyskiem lub napędem optycznym. Następnie do tego kontrolera możesz dodać plik ",""]},
 {"type": "bi", "sectionID": "section4","elementContent":[".vdi",""]},
 {"type": "span", "sectionID": "section4","elementContent":["(Virtual Disk Image – obraz wirtualnego dysku) lub obraz ISO jako płytę do dysku fizycznego. W ten sposób wirtualizujesz nowe dyski dla maszyny gościa. Pamiętaj, że musisz mieć fizycznie daną ilość pamięci na swoim dysku, aby móc ją zwirtualizować dla maszyn.",""]},
@@ -146,17 +146,17 @@
     "944","579", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/ustawienia-maszyny-pamiec_ORIGINAL.webp"
     ]},
 
-{"type": "h2", "sectionID": "section5", "elementContent": ["Ustawienia maszyny: Dźwięk "]},
+{"type": "h2", "sectionID": "section5", "elementContent": ["Ustawienia maszyny: Dźwięk ", ""]},
 {"type": "span", "sectionID": "section5","elementContent":["Domyślnie odpowiada za przesyłanie dźwięków gościa do gospodarza, a także możesz zaznaczyć opcję ",""]},
     {"type": "text-block-name", "sectionID": "section5", "elementContent": ["Włącz wejście dźwięku",""]},
 {"type": "span", "sectionID": "section5","elementContent":[", aby wysyłać dane z własnego fizycznego mikrofonu do maszyny.",""]},
 
-{"type": "h2", "sectionID": "section6", "elementContent": ["Ustawienia maszyny: Sieć "]},
+{"type": "h2", "sectionID": "section6", "elementContent": ["Ustawienia maszyny: Sieć ", ""]},
 {"type": "span", "sectionID": "section6","elementContent":["Strona z dotycząca sieci jest tak bardzo ważna że została przeniesiona do oddzielnego artykułu: ",""]},
 {"type": "link-art", "sectionID": "section6", "elementContent": ["Sieci - ustawienia trybu działania interfejsów w maszynie","VirtualBox"]},
 {"type": "br", "sectionID": "section6"},
 
-{"type": "h2", "sectionID": "section7", "elementContent": ["Ustawienia maszyny: Porty szeregowe "]},
+{"type": "h2", "sectionID": "section7", "elementContent": ["Ustawienia maszyny: Porty szeregowe ", ""]},
 {"type": "span", "sectionID": "section7","elementContent":["Można pominąć gdy wirtualizujesz nowoczesne systemy operacyjne.",""]},
 {"type": "br", "sectionID": "section7"},
 {"type": "span", "sectionID": "section7","elementContent":["W czasach DOS i pierwszych Windowsów, porty COM były podstawowymi interesami do podłączenia różnych urządzeń. Oprogramowanie często  komunikowało się bezpośrednio z nimi z pominięciem systemu operacyjnego. Dziś możesz odpalić w wirtualnej maszynie takie DOS-owe oprogramowanie, które wykorzystuje właśnie tylko porty serial i nie umie inaczej przesyłać danych. Możemy ulokować aż 4 porty w jednej ",""]},
@@ -171,7 +171,7 @@
     "TCP – służy do przekierowania ruchu poprzez protokół TCP/IP. Wirtualna maszyna może działać jako klient lub serwer. Opcja przydatna  przy połączenia typu null-modem."
     ] }},
 
-{"type": "h2", "sectionID": "section8", "elementContent": ["Ustawienia maszyny: Udostępniane foldery "]},
+{"type": "h2", "sectionID": "section8", "elementContent": ["Ustawienia maszyny: Udostępniane foldery ", ""]},
 {"type": "span", "sectionID": "section8","elementContent":["Możesz dodać wirtualną lokalizację sieciową dla maszyny, aby miała dostęp do plików z katalogu gospodarza. Dodaj udostepnienie, następnie wybierz katalog na dysku. Punkt montowania pozostaw pusty aby Windows sam zdecydował jaką literę zastosować.",""]},
      {"type": "img", "sectionID": "section8", "elementContent": [
     "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/share-folders-1.webp",
@@ -201,7 +201,7 @@
     "944","577", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/share-folders-3_ORIGINAL.webp"
     ]},
 
-{"type": "h2", "sectionID": "section9", "elementContent": ["Ustawienia maszyny: Udostępniane foldery "]},
+{"type": "h2", "sectionID": "section9", "elementContent": ["Ustawienia maszyny: Udostępniane foldery ", ""]},
 {"type": "span", "sectionID": "section9","elementContent":["Na tej stronie ustawień dostosujesz widoczność elementów interfejsu użytkownika w maszynie gościa. W poniższym przykładzie została ukryta opcja ",""]},
 {"type": "bi", "sectionID": "section9","elementContent":["„Stacje dyskietek”",""]},
 {"type": "span", "sectionID": "section9","elementContent":["w",""]},
