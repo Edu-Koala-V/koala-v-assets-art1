@@ -8,7 +8,7 @@
 
     {"type": "h2", "sectionID": "section2", "elementContent": ["Instalator systemu Windows 10"]},
    {"type": "span", "sectionID": "section2","elementContent":["Wprowadź klucz produktu i kliknij ",""]},
-    {"type": "key-combo", "sectionID": "section2", "elementContent": ["Dalej"]},
+    {"type": "ref-btn-for-img", "sectionID": "section2", "elementContent": ["Dalej"]},
    {"type": "span", "sectionID": "section2","elementContent":[", lub gdy go nie masz lub jest przypisany do twojego konta Microsoft kliknij ",""]},
    {"type": "text-block-name", "sectionID": "section2", "elementContent": ["Nie mam klucza produktu", "​"]},
      {"type": "img", "sectionID": "section2", "elementContent": [
@@ -24,7 +24,7 @@
     "945","707", "Edu-Koala-V/koala-v-assets-art1/main/windows10/wybór-edycji-systemu_ORIGINAL.webp"
     ]},
       {"type": "span", "sectionID": "section2","elementContent":["Zaakceptuj postanowienia licencyjne i kliknij ",""]},
-    {"type": "key-combo", "sectionID": "section2", "elementContent": ["Dalej"]},
+    {"type": "ref-btn-for-img", "sectionID": "section2", "elementContent": ["Dalej"]},
 {"type": "img", "sectionID": "section2", "elementContent": [
     "Edu-Koala-V/koala-v-assets-art1/main/windows10/postanowienia-licencyjne-windows-10.webp",
     "Postanowienia licencyjne windows 10.",
