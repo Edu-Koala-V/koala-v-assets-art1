@@ -10,7 +10,7 @@
    {"type": "span", "sectionID": "section2","elementContent":["Wprowadź klucz produktu i kliknij ",""]},
     {"type": "ref-btn-for-img", "sectionID": "section2", "elementContent": ["Dalej"]},
    {"type": "span", "sectionID": "section2","elementContent":[", lub gdy go nie masz lub jest przypisany do twojego konta Microsoft kliknij ",""]},
-   {"type": "u", "sectionID": "section2", "elementContent": ["Nie mam klucza produktu", "font-math​"]},
+   {"type": "u", "sectionID": "section2", "elementContent": ["Nie mam klucza produktu", "font-math"]},
      {"type": "img", "sectionID": "section2", "elementContent": [
     "Edu-Koala-V/koala-v-assets-art1/main/windows10/instalator-windows-10.webp",
     "Instalator porosi cię o podanie klucza produktu.",
