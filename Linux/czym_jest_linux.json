@@ -74,7 +74,11 @@
     "sectionID": "section1",
     "elementContent": ["Linusa Torvaldsa ", ""]
   },
-  {"type": "link","sectionID":"section1","elementContent":["https://pl.wikipedia.org/wiki/Linus_Torvalds"]},
+  {
+    "type": "link",
+    "sectionID": "section1",
+    "elementContent": ["https://pl.wikipedia.org/wiki/Linus_Torvalds"]
+  },
 
   { "type": "span", "sectionID": "section1", "elementContent": [" w ", ""] },
   { "type": "i", "sectionID": "section1", "elementContent": ["1991", ""] },
@@ -87,11 +91,17 @@
     ]
   },
   { "type": "br", "sectionID": "section1" },
-  {"type": "img", "sectionID": "section1", "elementContent": [
-    "https://raw.githubusercontent.com/Edu-Koala-V/koala-v-assets-art1/main/Linux/LinusTorvalds.webp",
-    "Linus Benedict Torvalds (ur. 28 grudnia 1969 w Helsinkach) – fiński programista, twórca jądra Linux oraz systemu kontroli wersji Git.",
-    "1200","675", "https://raw.githubusercontent.com/Edu-Koala-V/koala-v-assets-art1/main/Linux/LinusTorvalds_ORIGINAL.webp"
-    ]},
+  {
+    "type": "img",
+    "sectionID": "section1",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/Linux/LinusTorvalds.webp",
+      "Linus Benedict Torvalds (ur. 28 grudnia 1969 w Helsinkach) – fiński programista, twórca jądra Linux oraz systemu kontroli wersji Git.",
+      "1200",
+      "675",
+      "Edu-Koala-V/koala-v-assets-art1/main/Linux/LinusTorvalds_ORIGINAL.webp"
+    ]
+  },
   {
     "type": "h2",
     "sectionID": "section2",
@@ -235,6 +245,19 @@
     ]
   },
   { "type": "br", "sectionID": "section3" },
+  {
+    "type": "img",
+    "sectionID": "section3",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/Linux/motherLinux.webp",
+      "Loga dystrybucji Linuxa: Debian, Fedora, Arch Linux, Solus, Gentoo, SUSE Linux Enterprise",
+      "1362",
+      "926",
+      "Edu-Koala-V/koala-v-assets-art1/main/Linux/motherLinux_ORIGINAL.webp"
+    ]
+  },
+  { "type": "br", "sectionID": "section3" },
+
   {
     "type": "span",
     "sectionID": "section3",
