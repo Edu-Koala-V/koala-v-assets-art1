@@ -826,18 +826,312 @@
     "800",
     "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/strefa_czasowa_ORIGINAL.webp"
   ]
+},
+{
+  "type": "span",
+  "sectionID": "section2",
+  "elementContent": [
+    "Przed instalacją pojawi się ogólne podsumowanie twoich konfiguracji w instalatorze.",
+    ""
+  ]
+},
+{
+  "type": "img",
+  "sectionID": "section2",
+  "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/podsumowanie_przed_instalacja_ubuntu.webp",
+    "Podsumowanie konfiguracji instalatora przed instalacją Ubuntu.",
+    "1280",
+    "800",
+    "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/podsumowanie_przed_instalacja_ubuntu_ORIGINAL.webp"
+  ]
+},
+{
+  "type": "span",
+  "sectionID": "section2",
+  "elementContent": [
+    "Gdy system będzie się już instalował, przełącz tryb widoku na konsolowy. Pozwoli ci to w łatwy sposób zdiagnozować możliwe błędy podczas instalacji.",
+    ""
+  ]
+},
+{
+  "type": "img",
+  "sectionID": "section2",
+  "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/podglad_logow_ubuntu.webp",
+    "Widok szczegułowy logów instalacji Ubuntu.",
+    "1280",
+    "800",
+    "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/podglad_logow_ubuntu_ORIGINAL.webp"
+  ]
+},
+{
+  "type": "span",
+  "sectionID": "section2",
+  "elementContent": [
+    "Po zainstalowaniu instalator  poprosi cię o zdecydowanie, czy chcesz kontynuować testowanie Ubuntu w trybie zbootowanym, czy zrestartować komputer i przejść do zainstalowanego systemu.",
+    ""
+  ]
+},
+{
+  "type": "img",
+  "sectionID": "section2",
+  "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/zainstalowane_ubuntu.webp",
+    "Zainstalowany Ubuntu na dysku.",
+    "1280",
+    "800",
+    "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/zainstalowane_ubuntu_ORIGINAL.webp"
+  ]
+},
+{
+  "type": "span",
+  "sectionID": "section2",
+  "elementContent": [
+    "Instalator zakończy działania procesów na twoim nośniku, aby można było go bezpiecznie odłączyć. Gdy to zrobisz, naciśnij ",
+    ""
+  ]
+},
+{
+  "type": "key-combo",
+  "sectionID": "section2",
+  "elementContent": ["↵ Enter"]
+},
+{ "type":"br","sectionID":"section2"},
+{ "type":"br","sectionID":"section2"},
+{
+  "type": "span",
+  "sectionID": "section2",
+  "elementContent": [
+    "VirtualBox automatycznie w tym momencie odłącza plik obrazu ISO, więc możesz od razu  ",
+    ""
+  ]
+},
+{
+  "type": "key-combo",
+  "sectionID": "section2",
+  "elementContent": ["↵ Enter"]
+},
+{
+  "type": "img",
+  "sectionID": "section2",
+  "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/remove_pendrive_ubuntu.webp",
+    "Informacja o możliwości bezpiecznego odłączenia nośnika z instalatorem Ubuntu.",
+    "1280",
+    "800",
+    "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/remove_pendrive_ubuntu_ORIGINAL.webp"
+  ]
+},
+{
+  "type": "span",
+  "sectionID": "section2",
+  "elementContent": [
+    "Gdy system się uruchomi, załaduje się jednorazowo okno powitalne. Możesz zdecydować, czy chcesz korzystać z wydłużonego okresu wsparcia technicznego i aktualizacji za kwotę kilkuset dolarów. 🤑",
+    ""
+  ]
+},
+{
+  "type": "img",
+  "sectionID": "section2",
+  "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/ubuntuPRO.webp",
+    "Informacja o wersji Ubuntu PRO z wydłużonym wsparciem technicznym.",
+    "1280",
+    "800",
+    "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/ubuntuPRO_ORIGINAL.webp"
+  ]
+},
+{
+  "type": "span",
+  "sectionID": "section2",
+  "elementContent": [
+    "Zdecyduj czy firma ",
+    ""
+  ]
+},
+{
+  "type": "bi",
+  "sectionID": "section2",
+  "elementContent": [
+    "Canonical",
+    "orange"
+  ]
+},
+{
+  "type": "span",
+  "sectionID": "section2",
+  "elementContent": [
+    " może zbierać dane systemowe do ulepszania swoich produktów.",
+    ""
+  ]
+},
+{
+  "type": "img",
+  "sectionID": "section2",
+  "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/ubuntu_wysylanie_danych_diagnostycznych.webp",
+    "Wybór dotyczący udzielenia zgody na przesyłanie danych diagnostycznych do Canonical.",
+    "1280",
+    "800",
+    "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/ubuntu_wysylanie_danych_diagnostycznych_ORIGINAL.webp"
+  ]
+},
+{
+  "type": "span",
+  "sectionID": "section2",
+  "elementContent": [
+    "Ostatnia karta powitalna zachęci cię do skorzystania z centrum oprogramowania i zainstalowania niezbędnych dla ciebie programów i aplikacji.",
+    ""
+  ]
+},
+{
+  "type": "img",
+  "sectionID": "section2",
+  "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/koniec_ubuntu_zainstalowane.webp",
+    "Zachęta do skorzystania z centrum aplikacji.",
+    "1280",
+    "800",
+    "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/koniec_ubuntu_zainstalowane_ORIGINAL.webp"
+  ]
+},
+
+{
+  "type": "span",
+  "sectionID": "section2",
+  "elementContent": [
+    "System został zainstalowany. Pamiętasz rozłożenie partycji na dwa dyski",
+    ""
+  ]
+},
+{"type":"br","sectionID":"section2"},
+{
+  "type": "span",
+  "sectionID": "section2",
+  "elementContent": [
+    "Katalog ",
+    ""
+  ]
+},
+{
+  "type": "bi",
+  "sectionID": "section2",
+  "elementContent": [
+    "/home",
+    ""
+  ]
+},
+{
+  "type": "span",
+  "sectionID": "section2",
+  "elementContent": [
+    " miał być na drugim dysku. Można to sprawdzić, uruchamiając terminal i wpisując następujące komendy:",
+    ""
+  ]
+},
+{"type":"br","sectionID":"section2"},
+
+{
+  "type": "text-block-name",
+  "sectionID": "section4",
+  "elementContent": ["cd /home", ""]
+},
+{
+  "type": "span",
+  "sectionID": "section2",
+  "elementContent": [
+    " zmień katalog na ",
+    ""
+  ]
+},
+{
+  "type": "bi",
+  "sectionID": "section2",
+  "elementContent": [
+    "/home",
+    ""
+  ]
+},
+{"type":"br","sectionID":"section2"},
+{
+  "type": "text-block-name",
+  "sectionID": "section4",
+  "elementContent": ["ls -l", ""]
+},
+{
+  "type": "span",
+  "sectionID": "section2",
+  "elementContent": [
+    " pokaż zawartość katalogu (pliki i foldery) w formie listy",
+    ""
+  ]
+},
+{"type":"br","sectionID":"section2"},
+{
+  "type": "span",
+  "sectionID": "section2",
+  "elementContent": [
+    "Możesz też wykonać to wszystko za pomocą jednej komendy:",
+    ""
+  ]
+},
+{
+  "type": "text-block-name",
+  "sectionID": "section4",
+  "elementContent": ["ls -l /home", ""]
+},
+{"type":"br","sectionID":"section2"},
+
+{
+  "type": "span",
+  "sectionID": "section2",
+  "elementContent": [
+    "No dobrze, ale skąd wiadomo, że katalog ",
+    ""
+  ]
+},
+{
+  "type": "bi",
+  "sectionID": "section2",
+  "elementContent": [
+    "/home",
+    ""
+  ]
+},
+{
+  "type": "span",
+  "sectionID": "section2",
+  "elementContent": [
+    " znajduje się na innym dysku niż system? Wskazuje to obecność na najwyższym poziomie pustego katalogu ",
+    ""
+  ]
+},
+{
+  "type": "bi",
+  "sectionID": "section2",
+  "elementContent": [
+    "lost+found",
+    "blue"
+  ]
+},
+{
+  "type": "span",
+  "sectionID": "section2",
+  "elementContent": [
+    ".",
+    ""
+  ]
+},
+{
+  "type": "img",
+  "sectionID": "section2",
+  "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/potwierdzenie_ze_home_to_inny_dysk.webp",
+    "O brawo nauczyłeś się dwóch komend w terminalu: [cd] i [ls].",
+    "1280",
+    "800",
+    "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/potwierdzenie_ze_home_to_inny_dysk_ORIGINAL.webp"
+  ]
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 ]
