@@ -1034,7 +1034,7 @@
 
 {
   "type": "text-block-name",
-  "sectionID": "section4",
+  "sectionID": "section2",
   "elementContent": ["cd /home", ""]
 },
 {
@@ -1056,7 +1056,7 @@
 {"type":"br","sectionID":"section2"},
 {
   "type": "text-block-name",
-  "sectionID": "section4",
+  "sectionID": "section2",
   "elementContent": ["ls -l", ""]
 },
 {
@@ -1078,7 +1078,7 @@
 },
 {
   "type": "text-block-name",
-  "sectionID": "section4",
+  "sectionID": "section2",
   "elementContent": ["ls -l /home", ""]
 },
 {"type":"br","sectionID":"section2"},
