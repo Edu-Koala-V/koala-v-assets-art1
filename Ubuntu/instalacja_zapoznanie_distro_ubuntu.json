@@ -148,7 +148,7 @@
   },
   {
     "type": "text-block-name",
-    "sectionID": "section5",
+    "sectionID": "section2",
     "elementContent": ["GParted", ""]
   },
   {
@@ -305,7 +305,7 @@
     ]
   },
   {
-    "type": "i",
+    "type": "span",
     "sectionID": "section2",
     "elementContent": [
       " w pełni darmowy pakiet biurowy. Dostępny także na systemy Windows i macOS. Sprawdź sam: ",
@@ -427,5 +427,417 @@
       "800",
       "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/rodzaj_partycjonowania_ubuntu_ORIGINAL.webp"
     ]
+  },
+{
+  "type": "b",
+  "sectionID": "section2",
+  "elementContent": [
+    "UWAGA! ",
+    "red"
+  ]
+},
+{
+  "type": "span",
+  "sectionID": "section2",
+  "elementContent": [
+    "Chcąc utworzyć partycje na danym dysku, musisz wykonać następującą akcję: ",
+    ""
+  ]
+},
+{
+  "type":"br",
+  "sectionID":"section2"
+},
+{
+  "type": "span",
+  "sectionID": "section2",
+  "elementContent": [
+    "Kliknij na dysk ",
+    ""
+  ]
+},
+{
+  "type": "bi",
+  "sectionID": "section2",
+  "elementContent": [
+    "sda",
+    ""
+  ]
+},
+{
+  "type": "span",
+  "sectionID": "section2",
+  "elementContent": [
+    ", a następnie ",
+    ""
+  ]
+},
+{
+  "type": "ref-btn-for-img",
+  "sectionID": "section2",
+  "elementContent": ["New partition table"]
+},
+{
+  "type": "span",
+  "sectionID": "section2",
+  "elementContent": [
+    "– cały dysk zostanie wyczyszczony i utworzy się nowa tablica partycjonowania. Jest to ważne, gdyż instalator musi posiadać informację o lokalizacji przestrzeni na dysku, w której mają zostać utworzone partycje i wypakowane pliki systemowe.",
+    ""
+  ]
+},
+{
+  "type":"br",
+  "sectionID":"section2"
+},
+{ "type": "br", "sectionID": "section2" },
+{
+  "type": "span",
+  "sectionID": "section2",
+  "elementContent": [
+    "Gdy masz już gotowe dyski, wybierz z listy na dole ten dysk, który ma być systemowym. W zależności od tego, czy wybrano",
+    ""
+  ]
+},
+{
+  "type": "bi",
+  "sectionID": "section2",
+  "elementContent": [
+    "sda",
+    ""
+  ]
+},
+{
+  "type": "span",
+  "sectionID": "section2",
+  "elementContent": [
+    " czy ",
+    ""
+  ]
+},
+{
+  "type": "bi",
+  "sectionID": "section2",
+  "elementContent": [
+    "sdb",
+    ""
+  ]
+},
+{
+  "type": "span",
+  "sectionID": "section2",
+  "elementContent": [
+    ", utworzy się pierwsza partycja ",
+    ""
+  ]
+},
+{
+  "type": "bi",
+  "sectionID": "section2",
+  "elementContent": [
+    "boot/BIOS",
+    ""
+  ]
+},
+{
+  "type": "span",
+  "sectionID": "section2",
+  "elementContent": [
+    " o rozmiarze ",
+    ""
+  ]
+},
+{
+  "type": "b",
+  "sectionID": "section2",
+  "elementContent": [
+    "1,05MB",
+    ""
+  ]
+},
+{
+  "type": "span",
+  "sectionID": "section2",
+  "elementContent": [
+    " i nazwie ",
+    ""
+  ]
+},
+{
+  "type": "bi",
+  "sectionID": "section2",
+  "elementContent": [
+    "sda",
+    ""
+  ]
+},
+{
+  "type": "span",
+  "sectionID": "section2",
+  "elementContent": [
+    " lub ",
+    ""
+  ]
+},
+{
+  "type": "bi",
+  "sectionID": "section2",
+  "elementContent": [
+    "sdb",
+    ""
+  ]
+},
+{
+  "type": "span",
+  "sectionID": "section2",
+  "elementContent": [
+    ". ",
+    ""
+  ]
+},
+{ "type": "br", "sectionID": "section2" },
+{
+  "type": "br",
+  "sectionID": "section2"
+},
+{
+  "type": "span",
+  "sectionID": "section2",
+  "elementContent": [
+    "Jak już pewnie zauważyłeś, Ubuntu stosuje bardzo prosty system nazywania dysków i partycji. ",
+    ""
+  ]
+},
+{
+  "type": "br",
+  "sectionID": "section2"
+},
+{
+  "type": "span",
+  "sectionID": "section2",
+  "elementContent": [
+    "Dyski mają generowaną nazwę sd – od ",
+    ""
+  ]
+},
+{
+  "type": "i",
+  "sectionID": "section2",
+  "elementContent": [
+    "„storage disk”",
+    ""
+  ]
+},
+{
+  "type": "span",
+  "sectionID": "section2",
+  "elementContent": [
+    " + kolejna litera alfabetu.",
+    ""
+  ]
+},
+{
+  "type": "br",
+  "sectionID": "section2"
+},
+{
+  "type": "span",
+  "sectionID": "section2",
+  "elementContent": [
+    "Natomiast partycje to nazwa dysku + kolejny numer.",
+    ""
+  ]
+},
+{
+  "type": "img",
+  "sectionID": "section2",
+  "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/new_part_table_and_BIOS_part.webp",
+    "Utworzenie nowej tablicy partycji i partycji boot/BIOS poprzez wybór dysku bootowania w instalatorze Ubuntu.",
+    "1280",
+    "800",
+    "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/new_part_table_and_BIOS_part_ORIGINAL.webp"
+  ]
+},
+{
+  "type": "span",
+  "sectionID": "section2",
+  "elementContent": [
+    "Wybierając ",
+    ""
+  ]
+},
+{
+  "type": "i",
+  "sectionID": "section2",
+  "elementContent": [
+    "„Free space”",
+    ""
+  ]
+},
+{
+  "type": "span",
+  "sectionID": "section2",
+  "elementContent": [
+    " (wolna przestrzeń) i klikając +, otworzy się okienko tworzenia nowej partycji z nieprzydzielonej przestrzeni dyskowej.",
+    ""
+  ]
+},
+{
+  "type": "img",
+  "sectionID": "section2",
+  "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/create_part.webp",
+    "Tworzenie nowej partycji z nieprzydzielonej przestrzeni dyskowej.",
+    "1280",
+    "800",
+    "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/create_part_ORIGINAL.webp"
+  ]
+},
+{
+  "type": "span",
+  "sectionID": "section2",
+  "elementContent": [
+    "W efekcie końcowym utwórz następującą strukturę partycji na dostępnych dyskach.",
+    ""
+  ]
+},
+{
+  "type": "img",
+  "sectionID": "section2",
+  "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/created_parts.webp",
+    "Efekt konicowy tworzenia partycji potrzebnych do zainstalowania Ubuntu.",
+    "1280",
+    "800",
+    "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/created_parts_ORIGINAL.webp"
+  ]
+},
+
+
+{"type":"list","sectionID":"section2","elementContent":
+  {"ver":"ol","listElements":
+    [
+      [
+        {"type":"bi","sectionID":"section2","elementContent":["sda1 ",""]},
+        {"type":"span","sectionID":"section2","elementContent":["to partycja ",""]},
+        {"type":"b","sectionID":"section2","elementContent":["boot/BIOS",""]},
+        {"type":"span","sectionID":"section2","elementContent":[" zawierająca bootloader instalatora utworzy się automatycznie gdy wybierzesz dysk z listy na dole.",""]}
+      ],
+      [
+        {"type":"bi","sectionID":"section2","elementContent":["sda2 ",""]},
+        {"type":"span","sectionID":"section2","elementContent":["o typie: ",""]},
+        {"type":"b","sectionID":"section2","elementContent":["VFAT",""]},
+        {"type":"span","sectionID":"section2","elementContent":[" podczas instalacji może być wykorzystywana jako partycja ",""]},
+        {"type":"b","sectionID":"section2","elementContent":["EFI",""]},
+        {"type":"span","sectionID":"section2","elementContent":[".",""]}
+      ],
+      [
+        {"type":"bi","sectionID":"section2","elementContent":["sda3 ",""]},
+        {"type":"span","sectionID":"section2","elementContent":["to partycja o typie: ",""]},
+        {"type":"b","sectionID":"section2","elementContent":["Swap",""]},
+        {"type":"span","sectionID":"section2","elementContent":[" czyli przestrzeń wymiany gdy pamięć ",""]},
+        {"type":"b","sectionID":"section2","elementContent":["RAM",""]},
+        {"type":"span","sectionID":"section2","elementContent":["się zapełni system wykorzysta tą przestrzeń jako wolniejszy ",""]},
+        {"type":"b","sectionID":"section2","elementContent":["RAM",""]},
+        {"type":"span","sectionID":"section2","elementContent":[" do przechowania za dużych plików.",""]}
+      ],
+      [
+        {"type":"bi","sectionID":"section2","elementContent":["sda4 ",""]},
+        {"type":"span","sectionID":"section2","elementContent":["to partycja o typie: ",""]},
+        {"type":"b","sectionID":"section2","elementContent":["Ext4",""]},
+        {"type":"span","sectionID":"section2","elementContent":[" -system plików stosowany w linuxach a ",""]},
+        {"type":"b","sectionID":"section2","elementContent":["/",""]},
+        {"type":"span","sectionID":"section2","elementContent":[" to główny korzeń katalogowy systemu.",""]}
+      ],
+      [
+        {"type":"span","sectionID":"section2","elementContent":["Partycja ",""]},
+        {"type":"bi","sectionID":"section2","elementContent":["sdb1 ",""]},
+        {"type":"span","sectionID":"section2","elementContent":["na drugim dysku w foremacie ",""]},
+        {"type":"b","sectionID":"section2","elementContent":["Ext4",""]},
+        {"type":"span","sectionID":"section2","elementContent":[" i punkcjie montażu w ",""]},
+        {"type":"b","sectionID":"section2","elementContent":["/home",""]},
+        {"type":"span","sectionID":"section2","elementContent":[", to przeniesienie wszystkich katalogów domowych użytkowników systemu na drugi dysk. ",""]}
+      ]
+    ]
   }
+},
+{
+  "type": "span",
+  "sectionID": "section2",
+  "elementContent": [
+    "Teraz czas utworzyć konto użytkownika. Wprowadź dane konta i nazwę hosta, czyli twojego komputera. ",
+    ""
+  ]
+},
+{ "type": "br", "sectionID": "section2"},
+{ "type": "br", "sectionID": "section2"},
+{
+  "type": "span",
+  "sectionID": "section2",
+  "elementContent": [
+    "Zaznaczając opcję ",
+    ""
+  ]
+},
+{
+  "type": "i",
+  "sectionID": "section2",
+  "elementContent": [
+    "„Require my password to login”",
+    ""
+  ]
+},
+{
+  "type": "span",
+  "sectionID": "section2",
+  "elementContent": [
+    ", będziesz musiał podać hasło przy każdym logowaniu do systemu poprzez interfejs. Możesz to odznaczyć, jeśli chcesz.",
+    ""
+  ]
+},
+{"type":"br","sectionID":"section2"},
+{"type":"span","sectionID":"section2","elementContent":["Użyciem Active Directory zajmiemy się kiedy indziej.",""]},
+{
+  "type": "img",
+  "sectionID": "section2",
+  "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/new_user.webp",
+    "Tworzenie nowe konta użytkownika w systemie Ubuntu.",
+    "1280",
+    "800",
+    "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/new_user_ORIGINAL.webp"
+  ]
+},
+{
+  "type": "span",
+  "sectionID": "section2",
+  "elementContent": [
+    "Pozostało tylko wybrać strefę czasową dla systemu i już za chwilę będzie można rozpocząć instalację.",
+    ""
+  ]
+},
+{
+  "type": "img",
+  "sectionID": "section2",
+  "elementContent": [
+    "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/strefa_czasowa.webp",
+    "Wybór strefy czasowej dla systemu Ubuntu.",
+    "1280",
+    "800",
+    "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/strefa_czasowa_ORIGINAL.webp"
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 ]
