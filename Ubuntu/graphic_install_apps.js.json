@@ -1,5 +1,401 @@
 [
-    {"type": "h2", "sectionID": "section1", "elementContent": ["Wstęp"]},
-    {"type": "span", "sectionID": "section1","elementContent":["Przykładowy tekst wstępu do lekcji",""]},
-    {"type": "br", "sectionID": "section1"}
+  { "type": "h2", "sectionID": "section1", "elementContent": ["Wstęp"] },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      "W systemie Windows, aby zainstalować dany program, wykorzystuje się instalatory, które głównie posiadają rozszerzenie ",
+      ""
     ]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section1",
+    "elementContent": [".exe", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [" lub ", ""]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section1",
+    "elementContent": [".msi", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [". Alternatywnie, można też skorzystać z ", ""]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section1",
+    "elementContent": ["Microsoft Store", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [", by za jego pośrednictwem coś zainstalować.", ""]  
+  },
+  { "type":"br", "sectionID":"section1" },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": ["W systemach Linux instalatory mogą mieć różne rozszerzenia w zależności od dystrybucji i projektu.", ""]
+},
+{"type":"br","sectionID":"section1"},
+{"type":"br","sectionID":"section1"},
+{
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": ["Do najpopularniejszych pakietów instalacyjnych należą:", ""]
+},
+{"type":"br","sectionID":"section1"},
+{"type":"br","sectionID":"section1"},
+
+{
+    "type": "list",
+    "sectionID": "section1",
+    "elementContent": {
+      "ver": "ol",
+      "listElements": [
+        [
+          {
+            "type": "bi",
+            "sectionID": "section1",
+            "elementContent": [".apk", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section1",
+            "elementContent": [" od ", ""]
+          },
+          {
+            "type": "b",
+            "sectionID": "section1",
+            "elementContent": ["Google", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section1",
+            "elementContent": [", wykorzystywany w Androidzie.", ""]
+          }
+        ],
+        [
+            {
+                "type": "bi",
+                "sectionID": "section1",
+                "elementContent": [".snap", ""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section1",
+                "elementContent": [" od ", ""]
+            },
+            {
+                "type": "b",
+                "sectionID": "section1",
+                "elementContent": ["Canonical", ""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section1",
+                "elementContent": [", wykorzystywany głównie w Ubuntu.", ""]
+            }
+            ],
+            [
+            {
+                "type": "bi",
+                "sectionID": "section1",
+                "elementContent": [".deb", ""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section1",
+                "elementContent": [" od ", ""]
+            },
+            {
+                "type": "b",
+                "sectionID": "section1",
+                "elementContent": ["Debian Project", ""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section1",
+                "elementContent": [", praktycznie każda dystrybucja oparta na Debianie, w tym Ubuntu.", ""]
+            }
+            ],
+            [
+            {
+                "type": "bi",
+                "sectionID": "section1",
+                "elementContent": [".rpm", ""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section1",
+                "elementContent": [" od ", ""]
+            },
+            {
+                "type": "b",
+                "sectionID": "section1",
+                "elementContent": ["Red Hat", ""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section1",
+                "elementContent": [", wykorzystywany w Red Hat Linux i społecznościowej dystrybucji Fedora wspieranej przez firmę Red Hat oraz oczywiście pochodnych.", ""]
+            }
+        ]
+      ]
+    }
+},
+{
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": ["Wymienione rozszerzenia instalatorów nie są jedynymi, a ich wykorzystanie nie jest ograniczone do konkretnych dystrybucji. Dzięki doinstalowaniu menedżera i czasami konwertera, jesteś w stanie korzystać z dowolnych pakietów na dowolnej dystrybucji.", ""]
+},
+{
+    "type": "h2",
+    "sectionID": "section2",
+    "elementContent": ["Sklep z aplikacjami w Ubuntu"]
+},
+{
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": ["Dla ułatwienia życia użytkownikom Ubuntu powstała aplikacja Snap Store, która nazywa się App Center. Za jej pośrednictwem możesz znaleźć dane oprogramowanie i w prosty sposób, jednym kliknięciem, zainstalować je w systemie.", ""]
+},
+{
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": ["O ile dobrze pamiętam, gdy instalowałem Ubuntu 24.04, podczas konfiguracji instalatora odznaczyłem aktualizowanie systemu podczas jego instalacji.", ""]
+},
+{"type":"br","sectionID":"section1"},
+{
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": ["Więc gdy odpalę App Center i przejdę do zakładki Manage, to podczas próby aktualizacji wyskoczy mi okienko do autoryzacji działania. Po wpisaniu hasła pojawi się błąd, że nie można aktualizować snapd, ponieważ „snap-store” jest uruchomiony.", ""]
+},
+{
+    "type": "img",
+    "sectionID": "section2",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/app-center.webp",
+      "Snap Store czyli App Center w Ubuntu",
+      "1280",
+      "800",
+      "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/app-center_ORIGINAL.webp"
+    ]
+},
+{
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": ["Więc zachodzi pewien paradoks, ponieważ aby zaktualizować App Center, należy kliknąć Update, ale nie można zaktualizować czegoś, co jest uruchomione i jego proces działa w systemie.", ""]
+},
+{ "type":"br", "sectionID":"section2" },
+{ "type":"br", "sectionID":"section2" },
+{
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": ["Rozwiązaniem jest uruchomienie terminala i wykonanie następujących akcji:", ""]
+},
+{"type":"br","sectionID":"section2"},
+{"type":"br","sectionID":"section2"},
+{
+    "type": "list",
+    "sectionID": "section2",
+    "elementContent": {
+      "ver": "ol",
+      "listElements": [
+        [
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["Zabicie wszystkich procesów o nazwie, którą zwrócił nam komunikat błędu, czyli", ""]
+          },
+            {
+                "type": "i",
+                "sectionID": "section2",
+                "elementContent": ["„snap-store”", ""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section2",
+                "elementContent": [".", ""]
+            }
+        ],
+        [
+            {
+                "type": "span",
+                "sectionID": "section2",
+                "elementContent": ["Aktualizacja przy wykorzystaniu narzędzia konsolowego snap, odświeżając do najnowszej wersji aplikację ", ""]
+            },
+            {
+                "type": "i",
+                "sectionID": "section2",
+                "elementContent": ["snap-store", ""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section2",
+                "elementContent": [", czyli po prostu zaktualizowanie jej.", ""]
+            }
+        ]
+      ]
+    }
+},
+{ "type":"br", "sectionID":"section2" },
+{ "type":"br", "sectionID":"section2" },
+{
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": ["Zauważ, że w obu komendach na początku napisałem ", ""]
+},
+{
+    "type":"b",
+    "sectionID":"section2",
+    "elementContent":["sudo", ""]
+},
+{
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [", co oznacza, że wykonujemy je jako super użytkownik,  czyli coś takiego jak administrator w systemach Windows.", ""]
+},
+{ "type":"br", "sectionID":"section2" },
+{
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": ["Rozszerzeniem tej nazwy jest ", ""]
+},
+{
+    "type":"b",
+    "sectionID":"section2",
+    "elementContent":["„superuser do”", ""]
+},
+{
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [", choć aby lepiej tę komendę zapamiętać, uznajmy, że ", ""]
+},
+{
+    "type":"b",
+    "sectionID":"section2",
+    "elementContent":["sudo", ""]
+},
+{
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [" to skrót od ", ""]
+},
+{
+    "type":"b",
+    "sectionID":"section2",
+    "elementContent":["„superuser do it!!!”", ""]
+},
+{
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [", czyli super użytkowniku, zrób to!!!", ""]
+},
+{"type":"br", "sectionID":"section2"},
+{"type":"br", "sectionID":"section2"},
+{
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": ["PS: Podczas wpisywania haseł w konsoli na systemach GNU/Linux nic nie będzie się wyświetlać, choć hasło jest wpisywane.", ""]
+},
+{"type":"br","sectionID":"section2"},
+{"type":"br","sectionID":"section2"},
+{
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": ["Poniżej przedstawiam wyżej wymienione kroki, separując komendy w różnych obramowaniach:", ""]
+},
+{
+    "type": "list",
+    "sectionID": "section2",
+    "elementContent": {
+      "ver": "ol",
+      "listElements": [
+        [
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["Komenda ", ""]
+          },
+          {
+            "type": "text-block-name",
+            "sectionID": "section2",
+            "elementContent": ["sudo killall snap-store", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [" zabiła proces aplikacji App Center. Gdybym ją zamknął przed użyciem wspomnianej komendy, uzyskałbym wynik, że nie ma uruchomionego procesu o tej nazwie.", ""]
+          }
+        ],
+        [
+            {
+                "type": "span",
+                "sectionID": "section2",
+                "elementContent": ["Komenda ", ""]
+            },
+            {
+                "type": "text-block-name",
+                "sectionID": "section2",
+                "elementContent": ["sudo snap refresh snap-store", ""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section2",
+                "elementContent": [" wykorzystała menedżer pakietów snap i rozpoczęła pobieranie najnowszego pakietu snap-store, co zostało przedstawione w niebieskim obramowaniu. Po pobraniu rozpocznie się instalacja i na sam koniec zwrócony zostanie stosowny komunikat. W moim wypadku App Center został zaktualizowany, czy też dosłownie odświeżony.", ""]
+            }
+        ]
+      ]
+    }
+},
+{
+    "type":"img",
+    "sectionID":"section2",
+    "elementContent":[
+        "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/sudo.webp",
+        "Komendy w terminalu które posłużyły do zaktualizowania Snap Store",
+        "1280",
+        "486",
+        "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/sudo_ORIGINAL.webp"
+    ]
+},
+{
+    "type": "h2",
+    "sectionID": "section3",
+    "elementContent": ["Podsumowanie"]
+},
+{
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": ["Teraz możesz już bez problemów przejrzeć dostępne w App Center oprogramowanie i je zainstalować w Ubuntu.", ""]
+},
+{"type":"br","sectionID":"section3"},
+{"type":"br","sectionID":"section3"},
+{
+    "type": "b",
+    "sectionID": "section3",
+    "elementContent": ["Uwaga!", "red"]
+},
+{
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [" W aplikacji App Center nie ma wszystkich możliwych programów z których możesz skorzystać w systemie.", ""]
+},
+{
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": ["Przejdź do artykułu poświęconemu instalacji poprzez terminal aby dowiedzieć się jak instalować dodatkowe oprogramowanie.", ""]
+},
+{
+    "type": "link-art",
+    "sectionID": "section3",
+    "elementContent": ["Powłokowe plecenia instalacyjne oprogramowania", "Linux - Ubuntu Desktop"]
+}
+]
