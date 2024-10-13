@@ -737,7 +737,7 @@
         {"type":"b","sectionID":"section2","elementContent":["Swap",""]},
         {"type":"span","sectionID":"section2","elementContent":[" czyli przestrzeń wymiany gdy pamięć ",""]},
         {"type":"b","sectionID":"section2","elementContent":["RAM",""]},
-        {"type":"span","sectionID":"section2","elementContent":["się zapełni system wykorzysta tą przestrzeń jako wolniejszy ",""]},
+        {"type":"span","sectionID":"section2","elementContent":[" się zapełni system wykorzysta tą przestrzeń jako wolniejszy ",""]},
         {"type":"b","sectionID":"section2","elementContent":["RAM",""]},
         {"type":"span","sectionID":"section2","elementContent":[" do przechowania za dużych plików.",""]}
       ],
