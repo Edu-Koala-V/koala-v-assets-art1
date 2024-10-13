@@ -206,7 +206,7 @@
     "type": "list",
     "sectionID": "section2",
     "elementContent": {
-      "ver": "ol",
+      "ver": "ul",
       "listElements": [
         [
           {
