@@ -380,12 +380,12 @@
 {
     "type":"span",
     "sectionID":"section2",
-    "elementContent":["Czasem ten proces może napotkać na różnego rodzaju błędy. APT udostepnia prefiks –",""]
+    "elementContent":["Czasem ten proces może napotkać na różnego rodzaju błędy. APT udostepnia prefiks: ",""]
 },
 {
     "type":"i",
     "sectionID":"section2",
-    "elementContent":["--fix-broken install",""]
+    "elementContent":["„--fix-broken install”",""]
 },
 {
     "type":"span",
