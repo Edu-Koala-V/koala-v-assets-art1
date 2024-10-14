@@ -1,5 +1,1050 @@
 [
-    {"type": "h2", "sectionID": "section1", "elementContent": ["Wstęp"]},
-    {"type": "span", "sectionID": "section1","elementContent":["Przykładowy tekst wstępu do lekcji",""]},
-    {"type": "br", "sectionID": "section1"}
+{
+    "type": "h2",
+    "sectionID": "section1",
+    "elementContent": ["Systemy UNIX - idea: Wszystko jest plikiem"]
+},
+{
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": ["Systemy ",""]
+},
+{
+    "type": "b",
+    "sectionID": "section1",
+    "elementContent": ["UNIX", "purple"]
+},
+{
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [" to rodzina systemów operacyjnych opartych na zasadzie, że ",""]
+},
+{
+    "type": "bi",
+    "sectionID": "section1",
+    "elementContent": ["wszystko jest plikiem", ""]
+},
+{
+    "type":"span",
+    "sectionID":"section1",
+    "elementContent":[". Oznacza to, że dane, urządzenia (dyski, klawiatury, myszki, drukarki) oraz procesy są reprezentowane jako pliki.",""]
+},
+{"type":"br","sectionID":"section1"},
+{
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": ["Ta jednolita koncepcja upraszcza interakcje z systemem, ponieważ operacje takie jak ",""]
+},
+{
+    "type": "i",
+    "sectionID": "section1",
+    "elementContent": ["otwieranie", ""]
+},
+{
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [", ",""]
+},
+{
+    "type": "i",
+    "sectionID": "section1",
+    "elementContent": ["zamykanie", ""]
+},
+{
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [", ",""]
+},
+{
+    "type": "i",
+    "sectionID": "section1",
+    "elementContent": ["czytanie", ""]
+},
+{
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [" i ",""]
+},
+{
+    "type": "i",
+    "sectionID": "section1",
+    "elementContent": ["zapisywanie", ""]
+},
+{
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [" są identyczne dla wszystkich elementów. Dzięki temu zarządzanie systemem jest bardziej intuicyjne i elastyczne. ",""]
+},
+{"type":"br","sectionID":"section1"},
+{
+    "type": "b",
+    "sectionID": "section1",
+    "elementContent": ["UNIX", "purple"]
+},
+{
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [", będący fundamentem dla systemów takich jak ",""]
+},
+{
+    "type": "b",
+    "sectionID": "section1",
+    "elementContent": ["Linux", "orange"]
+},
+{
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [" i ",""]
+},
+{
+    "type": "b",
+    "sectionID": "section1",
+    "elementContent": ["macOS", "pink"]
+},
+{
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [", pozostaje kluczowym elementem nowoczesnych technologii informatycznych.",""]
+},
+{"type":"br","sectionID":"section1"},
+{
+    "type": "h2",
+    "sectionID": "section2",
+    "elementContent": ["Struktura katalogów w systemach UNIX"]
+},
+{
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": ["W systemach ",""]
+},
+{
+    "type": "b",
+    "sectionID": "section2",
+    "elementContent": ["UNIX", "purple"]
+},
+{
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [" katalogi są organizowane w strukturę drzewiastą. Na szczycie drzewa znajduje się jeden katalog: ",""]
+},
+{
+    "type": "bi",
+    "sectionID": "section2",
+    "elementContent": ["„ / ”", ""]
+},
+{
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [". Jest to katalog główny, który zawiera wszystkie inne katalogi i pliki. ",""]
+},
+{"type":"br","sectionID":"section2"},
+{
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": ["W podstawowej strukturze katalogów głównych wyróżnia się:",""]
+},
+{
+    "type": "list",
+    "sectionID": "section2",
+    "elementContent": {
+        "ver": "ul",
+        "listElements": [
+            [
+                {
+                    "type": "b",
+                    "sectionID": "section2",
+                    "elementContent": ["/bin - ", ""]
+                },
+                {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": ["podstawowe pliki wykonywalne (binarne)", ""]
+                }
+            ],
+            [
+                {
+                    "type": "b",
+                    "sectionID": "section2",
+                    "elementContent": ["/boot - ", ""]
+                },
+                {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": ["pliki potrzebne do uruchomienia systemu", ""]
+                }
+            ],
+            [
+                {
+                    "type": "b",
+                    "sectionID": "section2",
+                    "elementContent": ["/dev - ", ""]
+                },
+                {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": ["pliki urządzeń wirtualnych", ""]
+                }
+            ],
+            [
+                {
+                    "type": "b",
+                    "sectionID": "section2",
+                    "elementContent": ["/etc - ", ""]
+                },
+                {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": ["pliki konfiguracyjne systemu", ""]
+                }
+            ],
+            [
+                {
+                    "type": "b",
+                    "sectionID": "section2",
+                    "elementContent": ["/home - ", ""]
+                },
+                {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": ["katalogi poszczególnych użytkowników systemu", ""]
+                }
+            ],
+            [
+                {
+                    "type": "b",
+                    "sectionID": "section2",
+                    "elementContent": ["/lib - ", ""]
+                },
+                {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": ["biblioteki współdzielone", ""]
+                }
+            ],
+            [
+                {
+                    "type": "b",
+                    "sectionID": "section2",
+                    "elementContent": ["/media - ", ""]
+                },
+                {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": ["zamontowane wymienne nośniki danych", ""]
+                }
+            ],
+            [
+                {
+                    "type": "b",
+                    "sectionID": "section2",
+                    "elementContent": ["/mnt - ", ""]
+                },
+                {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": ["zamontowane dyski", ""]
+                }
+            ],
+            [
+                {
+                    "type": "b",
+                    "sectionID": "section2",
+                    "elementContent": ["/opt - ", ""]
+                },
+                {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": ["pliki dodatkowych aplikacji", ""]
+                }
+            ],
+            [
+                {
+                    "type": "b",
+                    "sectionID": "section2",
+                    "elementContent": ["/proc - ", ""]
+                },
+                {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": ["informacje o działających procesach", ""]
+                }
+            ],
+            [
+                {
+                    "type": "b",
+                    "sectionID": "section2",
+                    "elementContent": ["/root - ", ""]
+                },
+                {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": ["katalog administratora systemu", ""]
+                }
+            ],
+            [
+                {
+                    "type": "b",
+                    "sectionID": "section2",
+                    "elementContent": ["/sbin - ", ""]
+                },
+                {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": ["pliki wykonywalne dostępne tylko dla administratora", ""]
+                }
+            ],
+            [
+                {
+                    "type": "b",
+                    "sectionID": "section2",
+                    "elementContent": ["/sys - ", ""]
+                },
+                {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": ["pliki systemowe", ""]
+                }
+            ],
+            [
+                {
+                    "type": "b",
+                    "sectionID": "section2",
+                    "elementContent": ["/tmp - ", ""]
+                },
+                {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": ["pliki tymczasowe",""]
+                }
+            ],
+            [
+                {
+                    "type": "b",
+                    "sectionID": "section2",
+                    "elementContent": ["/usr - ", ""]
+                },
+                {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": ["pliki doinstalowanych programów", ""]
+                }
+            ],
+            [
+                {
+                    "type": "b",
+                    "sectionID": "section2",
+                    "elementContent": ["/var - ", ""]
+                },
+                {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": ["pliki serwerów www, pocztowych, ftp oraz logi i pliki drukarek",""]
+                }
+            ]
+        ]
+    }
+},
+{
+    "type": "h2",
+    "sectionID": "section3",
+    "elementContent": ["Lokalny system plików macOS"]
+},
+{
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": ["W zależności od pochodnej ",""]
+},
+{
+    "type": "b",
+    "sectionID": "section3",
+    "elementContent": ["UNIX", "purple"]
+},
+{
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": ["-a mogą w danym systemie być dodatkowe katalogi, takie jak ",""]
+},
+{
+    "type": "bi",
+    "sectionID": "section3",
+    "elementContent": ["snap", ""]
+},
+{
+    "type" : "span",
+    "sectionID" : "section3",
+    "elementContent" : [" do przechowywania aplikacji instalowanych z App Center w Ubuntu.",""]
+},
+{"type":"br","sectionID":"section3"},
+{
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": ["W systemie ",""]
+},
+{
+    "type": "b",
+    "sectionID": "section3",
+    "elementContent": ["macOS", "pink"]
+},
+{
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [" struktura katalogów jest podobna do innych systemów ",""]
+},
+{
+    "type": "b",
+    "sectionID": "section3",
+    "elementContent": ["UNIX", "purple"]
+},
+{
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [", ale posiada również swoje specyficzne katalogi:",""]
+},
+{"type":"br","sectionID":"section3"},
+{
+    "type": "b",
+    "sectionID": "section3",
+    "elementContent": ["/Applications - ", ""]
+},
+{
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": ["zawiera zainstalowane aplikacje.",""]
+},
+{"type":"br","sectionID":"section3"},
+{
+    "type": "b",
+    "sectionID": "section3",
+    "elementContent": ["/Library - ", ""]
+},
+{
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": ["przechowuje pliki wspólne dla wszystkich użytkowników, takie jak preferencje systemowe i pliki wsparcia aplikacji.",""]
+},
+{"type":"br","sectionID":"section3"},
+{
+    "type": "b",
+    "sectionID": "section3",
+    "elementContent": ["/System - ", ""]
+},
+{
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": ["zawiera pliki systemowe niezbędne do działania ",""]
+},
+{
+    "type": "b",
+    "sectionID": "section3",
+    "elementContent": ["macOS", "pink"]
+},
+{
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [".",""]
+},
+{"type":"br","sectionID":"section3"},
+{
+    "type": "b",
+    "sectionID": "section3",
+    "elementContent": ["/Users - ", ""]
+},
+{
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": ["katalogi domowe poszczególnych użytkowników.",""]
+},
+{"type":"br","sectionID":"section3"},
+{
+    "type": "b",
+    "sectionID": "section3",
+    "elementContent": ["/Volumes - ", ""]
+},
+{
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": ["zamontowane woluminy, takie jak dyski zewnętrzne.",""]
+},
+{"type":"br","sectionID":"section3"},
+{
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": ["W ",""]
+},
+{
+    "type": "b",
+    "sectionID": "section3",
+    "elementContent": ["macOS", "pink"]
+},
+{
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [" niektóre katalogi są domyślnie ukryte, aby chronić użytkowników przed przypadkowym usunięciem lub modyfikacją ważnych plików systemowych. Do ukrytych katalogów należą m.in.:",""]
+},
+{"type":"br","sectionID":"section3"},
+{
+    "type":"list",
+    "sectionID":"section3",
+    "elementContent":{
+        "ver":"ul",
+        "listElements":[
+            [
+                {
+                    "type":"b",
+                    "sectionID":"section3",
+                    "elementContent":["/usr",""]
+                }
+            ],
+            [
+                {
+                    "type":"b",
+                    "sectionID":"section3",
+                    "elementContent":["/dev",""]
+                }
+            ],
+            [
+                {
+                    "type":"b",
+                    "sectionID":"section3",
+                    "elementContent":["/tmp",""]
+                }
+            ],
+            [
+                {
+                    "type":"b",
+                    "sectionID":"section3",
+                    "elementContent":["/bin",""]
+                }
+            ],
+            [
+                {
+                    "type":"b",
+                    "sectionID":"section3",
+                    "elementContent":["/etc",""]
+                }
+            ],
+            [
+                {
+                    "type":"b",
+                    "sectionID":"section3",
+                    "elementContent":["/sbin",""]
+                }
+            ],
+            [
+                {
+                    "type":"b",
+                    "sectionID":"section3",
+                    "elementContent":["/var",""]
+                }
+            ],
+            [
+                {
+                    "type":"b",
+                    "sectionID":"section3",
+                    "elementContent":["/private",""]
+                }
+            ]
+        ]
+    }
+},
+{
+    "type": "h2",
+    "sectionID": "section4",
+    "elementContent": ["Struktura katalogów w Ubuntu"]
+},
+{
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": ["W przeciwieństwie do ",""]
+},
+{
+    "type": "b",
+    "sectionID": "section4",
+    "elementContent": ["macOS", "pink"]
+},
+{
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": [", w systemie ",""]
+},
+{
+    "type": "b",
+    "sectionID": "section4",
+    "elementContent": ["Ubuntu", "orange"]
+},
+{
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": [" katalogi znajdujące się bezpośrednio w korzeniu ",""]
+},
+{
+    "type": "bi",
+    "sectionID": "section4",
+    "elementContent": ["„ / ”", ""]
+},
+{
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": [" nie są ukrywane przed użytkownikiem. Co nie znaczy że wszystkie katalogi i pliki umieszczone głebiej w strukturze tego drzewa są jawne.",""]
+},
+{
+    "type": "text-block-name",
+    "sectionID": "section4",
+    "elementContent": ["ls -a /"]
+},
+{
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": [" wyświetli wszystkie pliki i katalogi z lokalizacji ",""]
+},
+{
+    "type": "b",
+    "sectionID": "section4",
+    "elementContent": [" /  ",""]
+},
+{
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": [" w tym również te ukryte, zaczynające się od ",""]
+},
+{
+    "type": "b",
+    "sectionID": "section4",
+    "elementContent": [" . ","red"]
+},
+{
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": [" w tym również te ukryte, zaczynające się od . dzięki dodaniu argumentu ",""]
+},
+{
+    "type": "b",
+    "sectionID": "section4",
+    "elementContent": [" -a",""]
+},
+{
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": [".",""]
+},
+{"type":"br","sectionID":"section4"},
+{
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": ["Poniżej tabelka opisująca prawie wszystkie katalogi z korzenia Ubuntu 24.04:",""]
+},
+{
+    "type": "table",
+    "sectionID": "section4",
+    "elementContent":[
+        [
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Nazwa Katalogu",""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Krótki Opis",""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Dłuższy Opis",""]
+            }
+        ],
+        [
+            {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["/bin/","red"]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Podstawowe pliki wykonywalne dostępne dla wszystkich użytkowników.",""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Znajdziesz tu programy takie jak ls, cp, mv, które są niezbędne do podstawowej pracy w systemie. Na przykład, ls pozwala wyświetlić zawartość katalogu.",""]
+            }
+        ],
+        [
+            {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["/boot/","green"]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Pliki potrzebne do uruchomienia systemu.",""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Zawiera jądro systemu (kernel) i pliki konfiguracyjne bootloadera, które są kluczowe dla startu systemu. Bez tych plików komputer nie uruchomi się poprawnie.",""]
+            }
+        ],
+        [
+            {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["/cdrom/","blue"]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Punkt montowania dla napędów CD-ROM.",""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Kiedy wkładasz płytę CD, jej zawartość pojawia się tutaj, umożliwiając dostęp do danych na płycie. To jak wkładanie płyty do odtwarzacza DVD.",""]
+            }
+        ],
+        [
+            {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["/dev/","orange"]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Pliki reprezentujące urządzenia sprzętowe.",""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Znajdziesz tu pliki odpowiadające dyskom twardym, myszkom, klawiaturom, które umożliwiają komunikację z tymi urządzeniami. Na przykład, dev/sda może reprezentować Twój główny dysk twardy.",""]
+            }
+        ],
+        [
+            {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["/etc/","yellow"]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Pliki konfiguracyjne systemu i usług.",""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Zawiera ustawienia sieci, konfiguracje serwerów i inne pliki konfiguracyjne, które są niezbędne do działania systemu. Na przykład, plik etc/hosts pozwala na przypisanie nazw do adresów IP.",""]
+            }
+        ],
+        [
+            {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["/home/","purple"]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Katalogi domowe użytkowników.",""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Każdy użytkownik ma tu swój własny katalog, gdzie przechowuje swoje pliki, dokumenty, zdjęcia i inne dane osobiste. To jak Twoja osobista szafka w szkole.",""]
+            }
+        ],
+        [
+            {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["/lib/","pink"]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Biblioteki systemowe.",""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Zawiera pliki niezbędne do działania programów znajdujących się w /bin i /sbin. Na przykład, biblioteki potrzebne do uruchomienia polecenia ls.",""]
+            }
+        ],
+        [
+            {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["/lib64/","brown"]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Biblioteki systemowe dla architektury 64-bitowej.",""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Podobnie jak /lib, ale przeznaczone dla systemów 64-bitowych.",""]
+            }
+        ],
+        [
+            {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["/media/","red"]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Punkty montowania dla nośników wymiennych.",""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Tutaj montowane są pendrive-y, zewnętrzne dyski twarde i inne nośniki wymienne. Kiedy podłączasz pendrive-a, jego zawartość pojawia się tutaj.",""]
+            }
+        ],
+        [
+            {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["/mnt/","green"]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Tymczasowe punkty montowania.",""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Używane do montowania dodatkowych systemów plików na czas określony. Na przykład, możesz tu tymczasowo zamontować dodatkowy dysk twardy.",""]
+            }
+        ],
+        [
+            {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["/opt/","blue"]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Dodatkowe oprogramowanie opcjonalne.",""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Przechowuje aplikacje i pakiety, które nie są częścią standardowej instalacji systemu. Na przykład, dodatkowe gry lub programy.",""]
+            }
+        ],
+        [
+            {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["/proc/","orange"]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Informacje o procesach i systemie.",""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Wirtualny system plików, który zawiera dane o aktualnie działających procesach i stanie systemu. Na przykład, możesz tu znaleźć informacje o zużyciu pamięci przez różne programy.",""]
+            }
+        ],
+        [
+            {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["/root/","brown"]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Katalog domowy użytkownika root.",""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Jest to miejsce, gdzie administrator systemu przechowuje swoje pliki i dane. To jak osobisty katalog dla superużytkownika.",""]
+            }
+        ],
+        [
+            {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["/run/","yellow"]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Pliki tymczasowe systemu.",""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Zawiera pliki tworzone podczas działania systemu, które są usuwane po restarcie. Na przykład, pliki z informacjami o aktualnie zalogowanych użytkownikach.",""]
+            }
+        ],
+        [
+            {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["/sbin/","purple"]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Pliki wykonywalne systemu.",""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Zawiera programy używane głównie przez administratora systemu, takie jak ifconfig, reboot. Na przykład, reboot pozwala na ponowne uruchomienie systemu.",""]
+            }
+        ],
+        [
+            {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["/snap/","pink"]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Aplikacje zainstalowane przez Snap.",""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Katalog, w którym znajdują się aplikacje zainstalowane za pomocą systemu pakietów Snap. Na przykład, aplikacje takie jak Spotify zainstalowane przez Snap.",""]
+            }
+        ],
+        [
+            {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["/srv/","red"]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Dane dla usług systemowych.",""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Przechowuje dane używane przez serwery WWW, FTP i inne usługi systemowe. Na przykład, pliki stron internetowych hostowanych na Twoim serwerze.",""]
+            }
+        ],
+        [
+            {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["/sys/","green"]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Informacje o systemie i sprzęcie.",""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Podobnie jak /proc, jest to wirtualny system plików z informacjami o systemie i sprzęcie. Na przykład, informacje o podłączonych urządzeniach USB.",""]
+            }
+        ],
+        [
+            {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["/tmp/","brown"]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Pliki tymczasowe",""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Katalog na pliki tymczasowe, które są usuwane po restarcie systemu. Na przykład, pliki tymczasowe tworzone podczas instalacji programów.",""]
+            }
+        ],
+        [
+            {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["/usr/","orange"]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Pliki doinstalowanych programów",""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Zawiera pliki zainstalowanych programów i aplikacji. Na przykład, pliki programów zainstalowanych z repozytorium Ubuntu.",""]
+            }
+        ],
+        [
+            {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["/var/","yellow"]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Pliki serwerów www, pocztowych, ftp oraz logi i pliki drukarek",""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Zawiera dane używane przez serwery www, pocztowe, ftp oraz logi i pliki drukarek. Na przykład, pliki logów serwera WWW.",""]
+            }
+        ]
+
     ]
+},
+{
+    "type": "img",
+    "sectionID": "section4",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/pełna_hierarchia_katalogowa.webp",
+      "Struktura katalogów w systemie Ubuntu 24.04 znajdujących się bezpośrednio w korzeniu „ / ”.",
+      "1024",
+      "1024",
+      "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/pełna_hierarchia_katalogowa_ORIGINAL.webp"
+    ]
+},
+{
+    "type": "h2",
+    "sectionID": "section5",
+    "elementContent": ["Podsumowanie"]
+},
+{
+    "type": "span",
+    "sectionID": "section5",
+    "elementContent": ["Znasz już strukturę, po której będziesz się przemieszczać. Nie próbuj wszystkiego zapamiętać od razu, bo nie ma to sensu. Potraktuj tę strukturę jak ogromny statek – z czasem, gdy będziesz pracować z plikami, wejdzie Ci w nawyk, gdzie co się znajduje, dokładnie tak samo jak pracownikom załogi.",""]
+},
+{
+    "type": "img",
+    "sectionID": "section1",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/statek-ubuntu.webp",
+      "Personifikacja twojej wiedzy o strukturze katalogów, komendach i usługach systemu Ubuntu. Wiedza ta jest jak statek, którym będziesz żeglować po morzu informacji. Z czasem będziesz coraz sprawniej poruszać się po systemie, jak doświadczony kapitan. Wiedza ta pozwoli Ci na skuteczne zarządzanie systemem i rozwiązywanie problemów, które napotkasz na swojej drodze.",
+      "1024",
+      "1024",
+      "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/statek-ubuntu_ORIGINAL.webp"
+    ]
+  }
+]
+
