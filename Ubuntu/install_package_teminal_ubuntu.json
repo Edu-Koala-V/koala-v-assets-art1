@@ -1,5 +1,591 @@
 [
-    {"type": "h2", "sectionID": "section1", "elementContent": ["Wstęp"]},
-    {"type": "span", "sectionID": "section1","elementContent":["Przykładowy tekst wstępu do lekcji",""]},
-    {"type": "br", "sectionID": "section1"}
+    {
+        "type": "h2",
+        "sectionID": "section1",
+        "elementContent": ["Wstęp i przygotowanie pliku instalacyjnego .deb",""]      
+    },
+{
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": ["Jak już wiesz, .deb to plik instalacyjny dla systemów opartych na Debianie, takich jak Ubuntu.",""]
+},
+{
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": ["W tym artykule dowiesz się, jak zainstalować plik .deb na Ubuntu za pomocą terminala. W przedstawionych przykładach będę chciał zainstalować program TeamViewer. Pamiętaj, że zamiast TeamViewer możesz użyć dowolnego innego programu, który posiada plik .deb.",""]
+},
+{ "type": "br", "sectionID": "section1" },
+{ "type": "br", "sectionID": "section1" },
+{
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": ["Oto bezpośredni link do sekcji pobierania TeamViewer dla systemów GNU/Linux: ",""]
+},
+{ "type":"link", "sectionID":"section1", "elementContent":["https://www.teamviewer.com/en/download/linux/"] },
+{ "type": "br", "sectionID": "section1" },
+{
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": ["Pobierz plik .deb instalatora TeamViewer klikając  x86-64Bit dla wersji Ubuntu/Debian.",""]
+},
+{
+    "type": "img",
+    "sectionID": "section1",
+    "elementContent": [
+        "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/pobieranie_teamviewer.webp",
+        "Pobieranie pliku .deb instalatora TeamViewer po kliknięciu w x86-64Bit dla wersji Ubuntu/Debian",
+        "1280",
+        "800",
+        "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/pobieranie_teamviewer_ORIGINAL.webp"
     ]
+},
+{
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": ["Następnie uruchom Terminal wykorzystując skrót klawiszowy: ",""]
+},
+{
+    "type": "key-combo",
+    "sectionID": "section1",
+    "elementContent": ["Ctrl","Alt","T"]
+},
+{"type":"br","sectionID":"section1"},
+{"type":"br","sectionID":"section1"},
+{
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": ["Komendą ",""]
+},
+{
+    "type": "bi",
+    "sectionID": "section1",
+    "elementContent": ["cd"]
+},
+{
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [" (change the working directory czyli zmień katalog roboczy) przejdź do ",""]
+},
+{
+    "type": "bi",
+    "sectionID": "section1",
+    "elementContent": ["Downloads/","blue"]
+},
+{"type":"br","sectionID":"section1"},
+
+{
+    "type": "text-block-name",
+    "sectionID": "section1",
+    "elementContent": ["cd Downloads/", ""]
+},
+{"type":"br","sectionID":"section1"},
+
+{
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": ["Wpisując ",""]
+},
+{
+    "type": "i",
+    "sectionID": "section1",
+    "elementContent": ["„cd D”"]
+},
+{
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [", a następnie klikając klawisz ",""]
+},
+{
+    "type":"key-combo",
+    "sectionID":"section1",
+    "elementContent":["Tab"]
+},
+{
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": ["Terminal sam uzupełni nazwę katalogu, jeśli jest ona unikalna. W przeciwnym razie naciśnij klawisz ",""]
+},
+{
+    "type":"key-combo",
+    "sectionID":"section1",
+    "elementContent":["Tab"]
+},
+{
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [" jeszcze raz, aby zobaczyć dostępne opcje.",""]
+},
+{
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [" Ważne jest to, że Linux odróżnia wielkości liter, więc wpisując małe ",""]
+},
+{
+    "type": "i",
+    "sectionID": "section1",
+    "elementContent": ["„d”",""]
+},
+{
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [", nie uzyskasz żadnych wyników.",""]
+},
+{"type":"br","sectionID":"section1"},
+{"type":"br","sectionID":"section1"},
+{
+    "type": "text-block-name",
+    "sectionID": "section1",
+    "elementContent": ["cd ..", ""]
+},
+{
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [" - tą komendą przejdziesz do katalogu nadrzędnego.",""]
+},
+{
+    "type": "img",
+    "sectionID": "section1",
+    "elementContent": [
+        "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/cd_downloads.webp",
+        "Proste poruszanie się po katalogach w terminalu Ubuntu",
+        "630",
+        "201",
+        "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/cd_downloads_ORIGINAL.webp"
+    ]
+},
+{
+    "type":"h2",
+    "sectionID":"section2",
+    "elementContent":["Instalacja pliku .deb za pomocą terminala",""]
+},
+{
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":["W dystrybucjach opartych na ",""]
+},
+{
+    "type":"bi",
+    "sectionID":"section2",
+    "elementContent":["Debianie","purple"]
+},
+{
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":[" masz możliwość skorzystania z narzędzia do zarządzania pakietami – ",""]
+},
+{
+    "type":"bi",
+    "sectionID":"section2",
+    "elementContent":["dpkg","orange"]
+},
+{
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":[". W systemie Ubuntu możesz skorzystać z ",""]
+},
+{
+    "type":"bi",
+    "sectionID":"section2",
+    "elementContent":["dpkg","orange"]
+},
+{
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":[" , ale zalecane jest wykorzystanie ",""]
+},
+{
+    "type":"bi",
+    "sectionID":"section2",
+    "elementContent":["apt","green"]
+},
+{
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":[" , który jest narzędziem do obsługi paczek i wykorzystuje funkcjonalności ",""]
+},
+{
+    "type":"bi",
+    "sectionID":"section2",
+    "elementContent":["dpkg","orange"]
+},
+{"type":"br","sectionID":"section2"},
+{"type":"br","sectionID":"section2"},
+{
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":["W przypadku, to zainstalujmy coś przy pomocy ",""]
+},
+{
+    "type":"bi",
+    "sectionID":"section2",
+    "elementContent":["dpkg","orange"]
+},
+{
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":[". Gdy już jestem w katalogu ",""]
+},
+{
+    "type":"bi",
+    "sectionID":"section2",
+    "elementContent":["Downloads/","blue"]
+},
+{
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":[" , wpisuję komendę:",""]
+},
+{"type":"br","sectionID":"section2"},
+{
+    "type":"text-block-name",
+    "sectionID":"section2",
+    "elementContent":["ls",""]
+},
+{
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":[" – (list directory content, czyli wylistuj mi zawartość katalogu)",""]
+},
+{"type":"br","sectionID":"section2"},
+{
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":["Jak widać, w ",""]
+},
+{
+    "type":"bi",
+    "sectionID":"section2",
+    "elementContent":["Downloads/","blue"]
+},
+{
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":[" znajduje się czerwony plik wykonywalny z rozszerzeniem ",""]
+},
+{
+    "type":"bi",
+    "sectionID":"section2",
+    "elementContent":[".deb","purple"]
+},
+{
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":[". To właśnie tę aplikację będę chciał zainstalować, a zrobię to poprzez komendę:",""]
+},
+{"type":"br","sectionID":"section2"},
+{
+    "type":"text-block-name",
+    "sectionID":"section2",
+    "elementContent":["sudo dpkg -i teamviewer_15.58.4_amd64.deb",""]
+},
+{"type":"br","sectionID":"section2"},
+{
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":["Zauważ, że za pierwszym razem nie użyłem ",""]
+},
+{
+    "type":"bi",
+    "sectionID":"section2",
+    "elementContent":["sudo",""]
+},
+{
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":[" , ponieważ nie powinno się zawsze uruchamiać komend jako super użytkownik, zwłaszcza jeżeli nie jest się pewnym, co się robi.",""]
+},
+{"type":"br","sectionID":"section2"},
+{
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":["Chcąc zainstalować aplikację, dostałem komunikat błędu, że tę operację może przeprowadzić tylko SU.",""]
+},
+{"type":"br","sectionID":"section2"},
+{
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":["Kolejnym błędem, który napotkałem, jest brak zainstalowanych potrzebnych zależności wykorzystywanych przez aplikację TeamViewer. Na obrazku zaznaczyłem ten fragment na ",""]
+},
+{
+    "type":"bi",
+    "sectionID":"section2",
+    "elementContent":["żółto","yellow"]
+},
+{
+    "type":"img",
+    "sectionID":"section2",
+    "elementContent":[
+        "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/dpkg_dependency_problem.webp",
+        "Brak zainstalowanych zależności niezbędnych dla TeamViewer",
+        "996",
+        "654",
+        "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/dpkg_dependency_problem_ORIGINAL.webp"
+    ]
+},
+{"type":"br","sectionID":"section2"},
+{
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":["Najprostszym rozwiązaniem tego problemu będzie skorzystanie z aktualizacji przy pomocy ",""]
+},
+{
+    "type":"bi",
+    "sectionID":"section2",
+    "elementContent":["APT","green"]
+},
+{
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":[".",""]
+},
+{"type":"br","sectionID":"section2"},
+{
+    "type":"text-block-name",
+    "sectionID":"section2",
+    "elementContent":["sudo apt update",""]
+},
+{
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":[" – sprawdza i aktualizuje lokalne linki do twoich pakietów na podstawie znanych sobie repozytoriów.",""]
+},
+{"type":"br","sectionID":"section2"},
+{
+    "type":"text-block-name",
+    "sectionID":"section2",
+    "elementContent":["sudo apt upgrade",""]
+},
+{
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":[" – aktualizuje pakiety na podstawie lokalnych linków do repozytoriów.",""]
+},
+{"type":"br","sectionID":"section2"},
+{
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":["Możesz połączyć te komendy w jednej linii stosując podwójny znak ",""]
+},
+{
+    "type":"bi",
+    "sectionID":"section2",
+    "elementContent":["„&”","green"]
+},
+{
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":[".",""]
+},
+{"type":"br","sectionID":"section2"},
+{
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":["Czasem ten proces może napotkać na różnego rodzaju błędy. APT udostepnia prefiks –",""]
+},
+{
+    "type":"i",
+    "sectionID":"section2",
+    "elementContent":["--fix-broken install",""]
+},
+{
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":[".",""]
+},
+{"type":"br","sectionID":"section2"},
+{
+    "type":"text-block-name",
+    "sectionID":"section2",
+    "elementContent":["sudo apt --fix-broken install",""]
+},
+{"type":"br","sectionID":"section2"},
+
+{
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":["Pozwala to na dokonanie prób naprawy i ponownego zainstalowania aktualizacji",""]
+},
+{"type":"br","sectionID":"section2"},
+{
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":["Gdy napotkasz na: ",""]
+},
+{
+    "type":"i",
+    "sectionID":"section2",
+    "elementContent":["„Do you want to continue? [Y/n]”",""]
+},
+{
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":[" możesz wpisać ",""]
+},
+{
+    "type":"bi",
+    "sectionID":"section2",
+    "elementContent":["y",""]
+},
+{
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":[" od yes (tak) lub ",""]
+},
+{
+    "type":"bi",
+    "sectionID":"section2",
+    "elementContent":["n",""]
+},
+{
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":[" od no (nie). Z racji że ",""]
+},
+{
+    "type":"b",
+    "sectionID":"section2",
+    "elementContent":["„Y”",""]
+},
+{
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":[" jest zapisane jako wielka litera możesz kliknąć ",""]
+},
+{
+    "type":"key-combo",
+    "sectionID":"section2",
+    "elementContent":["Enter"]
+},
+{
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":[" i domyślnie konsola uzna to za ",""]
+},
+{
+    "type":"b",
+    "sectionID":"section2",
+    "elementContent":["YES",""]
+},
+{
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":[".",""]
+},
+{
+    "type":"img",
+    "sectionID":"section2",
+    "elementContent":[
+        "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/fix_dependency.webp",
+        "Naprawa błędów związanych z zależnościami w systemie Ubuntu",
+        "1208",
+        "1557",
+        "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/fix_dependency_ORIGINAL.webp"
+    ]
+},
+{"type":"br","sectionID":"section2"},
+{
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":["Teraz, gdy problemy z powiązaniami są raczej naprawione, możesz ponownie wykonać:",""]
+},
+{"type":"br","sectionID":"section2"},
+{
+    "type":"text-block-name",
+    "sectionID":"section2",
+    "elementContent":["sudo dpkg -i teamviewer_15.58.4_amd64.deb",""]
+},
+{"type":"br","sectionID":"section2"},
+{
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":["Alternatywnie, skorzystaj z APT. Aby zainstalować program z pliku .deb, wpisz:",""]
+},
+{"type":"br","sectionID":"section2"},
+{
+    "type":"text-block-name",
+    "sectionID":"section2",
+    "elementContent":["sudo apt install ./teamviewer_15.58.4_amd64.deb",""]
+},
+{"type":"br","sectionID":"section2"},
+{
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":["Możesz też zainstalować TeamViewer, nie pobierając żadnego pliku z Internetu.",""]
+},
+{"type":"br","sectionID":"section2"},
+{
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":["Jeżeli APT znajdzie w lokalnych repozytoriach linki dotyczące danego oprogramowania, możesz je zainstalować bezpośrednio z terminala, bez użycia GUI. Komenda będzie następująca:",""]
+},
+{
+    "type":"text-block-name",
+    "sectionID":"section2",
+    "elementContent":["sudo apt install teamviewer",""]
+},
+{"type":"br","sectionID":"section2"},
+{
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":["A jeżeli będziesz chciał pozbyć się danego pakietu, zamiast ",""]
+},
+{
+    "type":"bi",
+    "sectionID":"section2",
+    "elementContent":["install",""]
+},
+{
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":[" użyj ",""]
+},
+{
+    "type":"bi",
+    "sectionID":"section2",
+    "elementContent":["remove",""]
+},
+{
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":[". Przykład z TeamViewer-em:",""]
+},
+{"type":"br","sectionID":"section2"},
+{
+    "type":"text-block-name",
+    "sectionID":"section2",
+    "elementContent":["sudo apt remove teamviewer",""]
+},
+{
+    "type":"h2",
+    "sectionID": "section3",
+    "elementContent": ["Ćwiczenie",""]
+},
+{
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": ["Wykorzystując poznane techniki instalacji oprogramowania pobierz i zainstaluj:",""]
+},
+{
+    "type": "list",
+    "sectionID": "section3",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": ["Przeglądarkę Chromium ",""]
+          }
+        ],
+        [
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": ["Program graficzny GIMP",""]
+          }
+        ]
+      ]
+    }
+}
+]
