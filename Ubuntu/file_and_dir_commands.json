@@ -1,5 +1,900 @@
 [
-    {"type": "h2", "sectionID": "section1", "elementContent": ["Wstęp"]},
-    {"type": "span", "sectionID": "section1","elementContent":["Przykładowy tekst wstępu do lekcji",""]},
-    {"type": "br", "sectionID": "section1"}
+  {
+    "type": "h2",
+    "sectionID": "section1",
+    "elementContent": [
+      "Poruszanie się po strukturze katalogowej i modyfikacja jej poprzez powłokę",
+      ""
     ]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": ["Wprowadzenie", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      "Powłoka Bash (Bourne-Again Shell) to jedna z najpopularniejszych powłok systemowych w systemach Unix i GNU/Linux. Jest to program, który interpretuje polecenia wpisywane przez użytkownika i wykonuje odpowiednie operacje systemowe. Wykorzystywałeś ją w aplikacji terminal, teraz poznasz podstawowe komendy, które pozwolą Ci poruszać się po strukturze katalogowej i ją modyfikować.",
+      ""
+    ]
+  },
+  {
+    "type": "h2",
+    "sectionID": "section2",
+    "elementContent": ["cd - Zmiana katalogu", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": ["Komenda ", ""]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section2",
+    "elementContent": ["cd", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      " (change the working directory - zmień katalog roboczy) pozwala na zmianę bieżącego katalogu roboczego.",
+      ""
+    ]
+  },
+  {"type":"br","sectionID":"section2"},
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": ["Składnie: ", ""]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section2",
+    "elementContent": ["cd [ścieżka]", ""]
+  },
+  {
+    "type": "br",
+    "sectionID": "section2"
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      "Gdy chcesz przejść do katalogu który znajduje się w twojej bieżącej lokalizacji, użyj: ",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section2"
+  },
+  {
+    "type": "text-block-name",
+    "sectionID": "section2",
+    "elementContent": ["cd Documents", ""]
+  },
+  {
+    "type": "br",
+    "sectionID": "section2"
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      "Czesto bedziesz chciał przejsc do katalogu który znajduje się w innej lokalizacji niż w katalogu domowym. Wtedy użyj tej komendy z ścieżką bezwzględną: ",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section2"
+  },
+  {
+    "type": "text-block-name",
+    "sectionID": "section2",
+    "elementContent": ["cd /etc/netplan/", ""]
+  },
+  {
+    "type": "br",
+    "sectionID": "section2"
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      "Jeśli chcesz przejść do katalogu nadrzędnego (wyższego poziomu), użyj:",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section2"
+  },
+  {
+    "type": "text-block-name",
+    "sectionID": "section2",
+    "elementContent": ["cd ..", ""]
+  },
+  {
+    "type": "br",
+    "sectionID": "section2"
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": ["Opis: Komenda ", ""]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section2",
+    "elementContent": ["cd", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      " zmienia bieżący katalog roboczy na ten wskazany w ścieżce. Jeśli ścieżka nie jest podana, ",
+      ""
+    ]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section2",
+    "elementContent": ["cd", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      " przenosi do katalogu domowego użytkownika w prompterze oznaczony jako (tylda) ",
+      ""
+    ]
+  },
+  {
+    "type": "b",
+    "sectionID": "section2",
+    "elementContent": ["~", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      "zamiast",
+      ""
+    ]
+  },
+  {
+    "type":"i",
+    "sectionID":"section2",
+    "elementContent":["/home/Nazwa_Użytkownika_Na Którym_Jesteś_Zalogowany", ""]
+  },
+  {
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":[".", ""]
+  },
+  {
+    "type": "h2",
+    "sectionID": "section4",
+    "elementContent": ["ls - Wyświetlanie zawartości katalogu", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": ["Komenda ", ""]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section4",
+    "elementContent": ["ls", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": [
+      " (list directory content, czyli wylistuj mi zawartość katalogu) wyświetla listę plików i katalogów w bieżącym katalogu lub w podanej ścieżce.",
+      ""
+    ]
+  },
+  {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": ["Składnia: ", ""]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section4",
+    "elementContent": ["ls [opcje] [ścieżka]", ""]
+  },
+  {
+    "type": "br",
+    "sectionID": "section4"
+  },
+  {
+    "type": "text-block-name",
+    "sectionID": "section4",
+    "elementContent": ["ls -l", ""]
+  },
+  {
+    "type": "br",
+    "sectionID": "section4"
+  },
+  {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": ["Opis: Komenda ", ""]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section4",
+    "elementContent": ["ls", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": [
+      " bez argumentów wyświetla nazwy plików i katalogów w bieżącym katalogu. Opcje mogą zmieniać sposób wyświetlania informacji:",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section4"
+  },
+  {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": [
+      "-l: Wyświetla szczegółowe informacje o plikach, takie jak uprawnienia (prawa dostępu), liczba linków (połączeń), właściciel, grupa, rozmiar i data modyfikacji.",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section4"
+  },
+  {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": [
+      "-a: Wyświetla wszystkie pliki, w tym ukryte (pliki, których nazwy zaczynają się od kropki).",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section4"
+  },
+  {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": [
+      "-la lub -al: Połączenie obu opcji, wyświetla szczegółowe informacje o wszystkich plikach, w tym ukrytych.",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section4"
+  },
+  {
+    "type": "text-block-name",
+    "sectionID": "section4",
+    "elementContent": ["ls -la", ""]
+  },
+  {
+    "type": "br",
+    "sectionID": "section4"
+  },
+  {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": ["Opis wyników: Wynik komendy ", ""]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section4",
+    "elementContent": ["ls -la", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": [" może wyglądać tak:", ""]
+  },
+  {
+    "type": "br",
+    "sectionID": "section4"
+  },
+  {
+    "type": "br",
+    "sectionID": "section4"
+  },
+  {
+    "type": "i",
+    "sectionID": "section4",
+    "elementContent": ["drwxr-xr-x  2 user group 4096 Oct 15 08:00 .", ""]
+  },
+  {
+    "type": "br",
+    "sectionID": "section4"
+  },
+  {
+    "type": "i",
+    "sectionID": "section4",
+    "elementContent": ["drwxr-xr-x 10 user group 4096 Oct 15 07:00 ..", ""]
+  },
+  {
+    "type": "br",
+    "sectionID": "section4"
+  },
+  {
+    "type": "i",
+    "sectionID": "section4",
+    "elementContent": [
+      "-rw-r--r--  1 user group  220 Oct 15 08:00 .bash_logout",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section4"
+  },
+  {
+    "type": "i",
+    "sectionID": "section4",
+    "elementContent": ["-rw-r--r--  1 user group 3771 Oct 15 08:00 .bashrc", ""]
+  },
+  {
+    "type": "br",
+    "sectionID": "section4"
+  },
+  {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": [
+      "drwxr-xr-x  2 user group 4096 Oct 15 08:00 Documents",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section4"
+  },
+  {
+    "type": "br",
+    "sectionID": "section4"
+  },
+  {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": ["d na początku oznacza katalog, - oznacza plik.", ""]
+  },
+  {
+    "type": "br",
+    "sectionID": "section4"
+  },
+  {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": [
+      "r (read - odczyt) oznacza uprawnienia do odczytu, w (write - zapis) do zapisu, x (execute - wykonanie) do wykonania.",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section4"
+  },
+  {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": [
+      "Pierwsza kolumna to uprawnienia, druga to liczba linków, trzecia to właściciel, czwarta to grupa, piąta to rozmiar w bajtach, szósta to data modyfikacji, a ostatnia to nazwa pliku lub katalogu.",
+      ""
+    ]
+  },
+  {
+    "type": "h2",
+    "sectionID": "section5",
+    "elementContent": ["mkdir - Tworzenie nowego katalogu", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section5",
+    "elementContent": ["Komenda ", ""]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section5",
+    "elementContent": ["mkdir", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section5",
+    "elementContent": [
+      " (make directory - utwórz katalog) tworzy nowy katalog.",
+      ""
+    ]
+  },
+  {
+    "type": "span",
+    "sectionID": "section5",
+    "elementContent": ["Składnia: ", ""]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section5",
+    "elementContent": ["mkdir [nazwa_katalogu]", ""]
+  },
+  {
+    "type": "br",
+    "sectionID": "section5"
+  },
+  {
+    "type": "text-block-name",
+    "sectionID": "section5",
+    "elementContent": ["mkdir NowyKatalog", ""]
+  },
+  {
+    "type": "br",
+    "sectionID": "section5"
+  },
+  {
+    "type": "span",
+    "sectionID": "section5",
+    "elementContent": ["Opis: Komenda ", ""]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section5",
+    "elementContent": ["mkdir", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section5",
+    "elementContent": [
+      " tworzy nowy katalog o podanej nazwie. Można również tworzyć zagnieżdżone katalogi (katalogi w katalogach) za pomocą opcji -p.",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section5"
+  },
+  {
+    "type": "text-block-name",
+    "sectionID": "section5",
+    "elementContent": ["mkdir -p Katalog1/Katalog2", ""]
+  },
+  {
+    "type": "h2",
+    "sectionID": "section6",
+    "elementContent": ["rmdir - Usuwanie katalogu", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section6",
+    "elementContent": ["Komenda ", ""]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section6",
+    "elementContent": ["rmdir", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section6",
+    "elementContent": [
+      " (remove directory - usuń katalog) usuwa pusty katalog.",
+      ""
+    ]
+  },
+  {
+    "type": "span",
+    "sectionID": "section6",
+    "elementContent": ["Składnia: ", ""]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section6",
+    "elementContent": ["rmdir [nazwa_katalogu]", ""]
+  },
+  {
+    "type": "br",
+    "sectionID": "section6"
+  },
+  {
+    "type": "text-block-name",
+    "sectionID": "section6",
+    "elementContent": ["rmdir StaryKatalog", ""]
+  },
+  {
+    "type": "br",
+    "sectionID": "section6"
+  },
+  {
+    "type": "span",
+    "sectionID": "section6",
+    "elementContent": ["Opis: Komenda ", ""]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section6",
+    "elementContent": ["rmdir", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section6",
+    "elementContent": [
+      " usuwa tylko puste katalogi. Aby usunąć katalog wraz z jego zawartością, użyj komendy ",
+      ""
+    ]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section6",
+    "elementContent": ["rm", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section6",
+    "elementContent": [" z opcją -r.", ""]
+  },
+  {
+    "type": "h2",
+    "sectionID": "section7",
+    "elementContent": ["rm - Usuwanie plików i katalogów", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section7",
+    "elementContent": ["Komenda ", ""]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section7",
+    "elementContent": ["rm", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section7",
+    "elementContent": [" (remove - usuń) usuwa pliki lub katalogi.", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section7",
+    "elementContent": ["Składnia: ", ""]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section7",
+    "elementContent": ["rm [opcje] [nazwa_pliku/katalogu]", ""]
+  },
+  {
+    "type": "br",
+    "sectionID": "section7"
+  },
+  {
+    "type": "text-block-name",
+    "sectionID": "section7",
+    "elementContent": ["rm -r KatalogDoUsunięcia", ""]
+  },
+  {
+    "type": "br",
+    "sectionID": "section7"
+  },
+  {
+    "type": "span",
+    "sectionID": "section7",
+    "elementContent": ["Opis: Komenda ", ""]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section7",
+    "elementContent": ["rm", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section7",
+    "elementContent": [
+      " usuwa pliki.",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section7"
+  },
+  {
+    "type": "span",
+    "sectionID": "section7",
+    "elementContent": [
+      "Opcja -r (rekursywnie - powtarzająco) pozwala na usunięcie katalogu wraz z jego zawartością.",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section7"
+  },
+  {
+    "type": "span",
+    "sectionID": "section7",
+    "elementContent": [
+      "Opcja -f (force - wymuś) wymusza usunięcie bez pytania o potwierdzenie.",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section7"
+  },
+  {
+    "type": "text-block-name",
+    "sectionID": "section7",
+    "elementContent": ["rm -rf KatalogDoUsunięcia", ""]
+  },
+
+  {
+    "type": "h2",
+    "sectionID": "section8",
+    "elementContent": ["cp - Kopiowanie plików i katalogów", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section8",
+    "elementContent": ["Komenda ", ""]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section8",
+    "elementContent": ["cp", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section8",
+    "elementContent": [" (copy - kopiuj) kopiuje pliki lub katalogi.", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section8",
+    "elementContent": ["Składnia: ", ""]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section8",
+    "elementContent": ["cp [opcje] [źródło] [cel]", ""]
+  },
+  {
+    "type": "br",
+    "sectionID": "section8"
+  },
+  {
+    "type": "text-block-name",
+    "sectionID": "section8",
+    "elementContent": ["cp plik.txt kopia_plik.txt", ""]
+  },
+  {
+    "type": "br",
+    "sectionID": "section8"
+  },
+  {
+    "type": "span",
+    "sectionID": "section8",
+    "elementContent": ["Opis: Komenda ", ""]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section8",
+    "elementContent": ["cp", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section8",
+    "elementContent": [
+      " kopiuje pliki z miejsca źródłowego do miejsca docelowego. Opcja -r (rekursywnie - powtarzająco) pozwala na kopiowanie katalogów wraz z ich zawartością.",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section8"
+  },
+  {
+    "type": "text-block-name",
+    "sectionID": "section8",
+    "elementContent": ["cp -r Katalog1 Katalog2", ""]
+  },
+  {
+    "type": "h2",
+    "sectionID": "section9",
+    "elementContent": [
+      "mv - Przenoszenie lub zmiana nazwy plików i katalogów",
+      ""
+    ]
+  },
+  {
+    "type": "span",
+    "sectionID": "section9",
+    "elementContent": ["Komenda ", ""]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section9",
+    "elementContent": ["mv", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section9",
+    "elementContent": [
+      " (move - przenieś) przenosi lub zmienia nazwę plików i katalogów.",
+      ""
+    ]
+  },
+  {
+    "type": "span",
+    "sectionID": "section9",
+    "elementContent": ["Składnia: ", ""]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section9",
+    "elementContent": ["mv [opcje] [źródło] [cel]", ""]
+  },
+  {
+    "type": "br",
+    "sectionID": "section9"
+  },
+  {
+    "type": "text-block-name",
+    "sectionID": "section9",
+    "elementContent": ["mv stary_plik.txt nowy_plik.txt", ""]
+  },
+  {
+    "type": "br",
+    "sectionID": "section9"
+  },
+  {
+    "type": "span",
+    "sectionID": "section9",
+    "elementContent": ["Opis: Komenda ", ""]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section9",
+    "elementContent": ["mv", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section9",
+    "elementContent": [
+      " przenosi pliki lub katalogi z miejsca źródłowego do miejsca docelowego. Może być również używana do zmiany nazwy plików i katalogów.",
+      ""
+    ]
+  },
+
+  {
+    "type": "h2",
+    "sectionID": "section10",
+    "elementContent": ["touch - Tworzenie nowego pliku", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section10",
+    "elementContent": ["Komenda ", ""]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section10",
+    "elementContent": ["touch", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section10",
+    "elementContent": [" tworzy nowy, pusty plik.", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section10",
+    "elementContent": ["Składnia: ", ""]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section10",
+    "elementContent": ["touch [nazwa_pliku]", ""]
+  },
+  {
+    "type": "br",
+    "sectionID": "section10"
+  },
+  {
+    "type": "text-block-name",
+    "sectionID": "section10",
+    "elementContent": ["touch nowy_plik.txt", ""]
+  },
+  {
+    "type": "br",
+    "sectionID": "section10"
+  },
+  {
+    "type": "span",
+    "sectionID": "section10",
+    "elementContent": ["Opis: Komenda ", ""]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section10",
+    "elementContent": ["touch", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section10",
+    "elementContent": [
+      " tworzy nowy plik o podanej nazwie lub aktualizuje czas modyfikacji istniejącego pliku.",
+      ""
+    ]
+  },
+  {
+    "type": "h2",
+    "sectionID": "section11",
+    "elementContent": ["cat - Wyświetlanie zawartości pliku", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section11",
+    "elementContent": ["Komenda ", ""]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section11",
+    "elementContent": ["cat", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section11",
+    "elementContent": [" (concatenate - łączyć) wyświetla zawartość pliku.", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section11",
+    "elementContent": ["Składnia: ", ""]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section11",
+    "elementContent": ["cat [nazwa_pliku]", ""]
+  },
+  {
+    "type": "br",
+    "sectionID": "section11"
+  },
+  {
+    "type": "text-block-name",
+    "sectionID": "section11",
+    "elementContent": ["cat dokument.txt", ""]
+  },
+  {
+    "type": "br",
+    "sectionID": "section11"
+  },
+  {
+    "type": "span",
+    "sectionID": "section11",
+    "elementContent": ["Opis: Komenda ", ""]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section11",
+    "elementContent": ["cat", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section11",
+    "elementContent": [
+      " wyświetla zawartość pliku na standardowym wyjściu (zazwyczaj ekranie). Może być również używana do łączenia plików.",
+      ""
+    ]
+  }
+]
