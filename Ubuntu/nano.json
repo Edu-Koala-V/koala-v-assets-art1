@@ -1,5 +1,627 @@
 [
-    {"type": "h2", "sectionID": "section1", "elementContent": ["Wstęp"]},
-    {"type": "span", "sectionID": "section1","elementContent":["Przykładowy tekst wstępu do lekcji",""]},
-    {"type": "br", "sectionID": "section1"}
+  {
+    "type": "h2",
+    "sectionID": "section1",
+    "elementContent": ["Wstęp"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      "Edytor tekstowy nano to jeden z najprostszych i najbardziej intuicyjnych edytorów tekstu dostępnych w systemach operacyjnych opartych na UNIX-ie, takich jak Linux.",
+      ""
     ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section1"
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      "Jest idealny dla początkujących użytkowników, którzy potrzebują narzędzia do edycji tekstu bez skomplikowanych funkcji.",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section1"
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      "Nano jest często preinstalowany w wielu dystrybucjach Linuksa, co czyni go łatwo dostępnym narzędziem do codziennej pracy z plikami tekstowymi.",
+      ""
+    ]
+  },
+  {
+    "type": "h2",
+    "sectionID": "section2",
+    "elementContent": ["Opis komendy nano"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": ["Komenda ", ""]
+  },
+  {
+    "type": "text-block-name",
+    "sectionID": "section2",
+    "elementContent": ["nano", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      " służy do otwierania edytora tekstowego nano. Można jej używać do tworzenia nowych plików tekstowych lub edytowania istniejących. Podstawowa składnia komendy wygląda następująco:",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section2"
+  },{
+    "type": "br",
+    "sectionID": "section2"
+  },
+  {
+    "type": "text-block-name",
+    "sectionID": "section2",
+    "elementContent": ["nano [opcje] [plik]", ""]
+  },
+  {
+    "type": "br",
+    "sectionID": "section2"
+  },{
+    "type": "br",
+    "sectionID": "section2"
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": ["Gdzie ", ""]
+  },
+  {
+    "type": "text-block-name",
+    "sectionID": "section2",
+    "elementContent": ["[opcje]", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [" to dodatkowe argumenty, a ", ""]
+  },
+  {
+    "type": "text-block-name",
+    "sectionID": "section2",
+    "elementContent": ["[plik]", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      " to nazwa pliku, który chcemy otworzyć lub utworzyć. Jeśli plik nie istnieje, to nano utworzy nowy plik o podanej nazwie.",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section2"
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      "Dlatego, gdy chcesz przykładowo dokonać zmiany w pliku konfiguracyjnym danej usługi Linuksa, upewnij się, jaką ma dokładnie nazwę i wpisując ją, klikaj klawisz ",
+      ""
+    ]
+  },
+  {
+    "type": "key-combo",
+    "sectionID": "section2",
+    "elementContent": ["Tab"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      " by konsola sama uzupełniła dalszy ciąg nazwy istniejącego pliku. Ponieważ gdy podczas wpisywania nazwy ręcznie popełnisz literówkę, to utworzysz nowy pusty plik, który nie będzie brany pod uwagę jako konfiguracja usługi.",
+      ""
+    ]
+  },
+  {
+    "type": "h2",
+    "sectionID": "section3",
+    "elementContent": ["Argumenty komendy nano"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [
+      "Poniżej przedstawiamy najważniejsze argumenty komendy nano, uporządkowane od najważniejszych do najmniej ważnych:",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section3"
+  },
+  {
+    "type": "list",
+    "sectionID": "section3",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": ["-m: ", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [
+              "Włącza obsługę myszy, co umożliwia nawigację i edycję tekstu za pomocą myszy. Jest to przydatne dla użytkowników, którzy preferują interakcję z edytorem za pomocą urządzeń wskazujących.",
+              ""
+            ]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": ["-E: ", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [
+              "Konwertuje tabulatory na spacje (ale tylko wtedy, gdy tabulatory zostaną dodane po uruchomieniu nano z argumentem ",
+              ""
+            ]
+          },
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": [
+              "-E",
+              ""
+            ]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [
+              "). Pomaga to w utrzymaniu jednolitego formatowania tekstu, co jest szczególnie ważne w plikach z rozszerzeniem ",
+              ""
+            ]
+          },{
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": [
+              ".yaml",
+              ""
+            ]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [
+              ".",
+              ""
+            ]
+          }
+
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": ["-B: ", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [
+              "Tworzy kopię zapasową pliku przed jego edycją. Kopia zapasowa jest tworzona z rozszerzeniem ",
+              ""
+            ]
+          },
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": [
+              "~",
+              ""
+            ]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [
+              ", co pozwala na odzyskanie oryginalnej wersji pliku w razie potrzeby. Aby kopia się zapisała, musisz dokonać zmian w pliku i go zapisać.",
+              ""
+            ]
+          }
+
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": ["-l: ", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [
+              "Uruchamia edytor tekstowy z numeracją linii po lewej stronie.",
+              ""
+            ]
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "type": "h2",
+    "sectionID": "section4",
+    "elementContent": ["Skróty klawiszowe w nano"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": [
+      "Nano oferuje wiele skrótów klawiszowych, które ułatwiają edycję tekstu. Zawsze masz legendę na dole edytora. Znaczek ^ to klawisz Ctrl, a znaczek M- to ALT lub Command w urządzeniach MacBook. Oto najważniejsze z nich:",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section4"
+  },
+  {
+    "type": "list",
+    "sectionID": "section4",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "key-combo",
+            "sectionID": "section4",
+            "elementContent": ["Ctrl", "G"]
+          },
+          {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": [
+              ": Wyświetl pomoc. Otwiera ekran pomocy, który zawiera listę wszystkich dostępnych skrótów klawiszowych i ich opisów.",
+              ""
+            ]
+          }
+        ],
+        [
+          {
+            "type": "key-combo",
+            "sectionID": "section4",
+            "elementContent": ["Ctrl", "O"]
+          },
+          {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": [
+              ": Zapisz plik. Ten skrót pozwala na szybkie zapisanie zmian w edytowanym pliku bez konieczności wychodzenia z edytora.",
+              ""
+            ]
+          }
+        ],
+        [
+          {
+            "type": "key-combo",
+            "sectionID": "section4",
+            "elementContent": ["Ctrl", "X"]
+          },
+          {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": [
+              ": Zakończ edytor. Używany do zamknięcia nano. Jeśli wprowadzone zmiany nie zostały zapisane, nano zapyta, czy chcemy je zapisać przed zamknięciem.",
+              ""
+            ]
+          }
+        ],
+        [
+          {
+            "type": "key-combo",
+            "sectionID": "section4",
+            "elementContent": ["Ctrl", "K"]
+          },
+          {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": [
+              ": Wytnij bieżącą linię. Przydatne do szybkiego usuwania całych linii tekstu.",
+              ""
+            ]
+          }
+        ],
+        [
+          {
+            "type": "key-combo",
+            "sectionID": "section4",
+            "elementContent": ["Ctrl", "U"]
+          },
+          {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": [
+              ": Wklej wyciętą linię. Umożliwia wklejenie wcześniej wyciętej linii w nowym miejscu.",
+              ""
+            ]
+          }
+        ],
+        [
+          {
+            "type": "key-combo",
+            "sectionID": "section4",
+            "elementContent": ["Ctrl", "W"]
+          },
+          {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": [
+              ": Wyszukaj tekst w pliku. Umożliwia szybkie znalezienie określonego fragmentu tekstu w edytowanym dokumencie.",
+              ""
+            ]
+          }
+        ],
+        [
+          {
+            "type": "key-combo",
+            "sectionID": "section4",
+            "elementContent": ["Ctrl", "Y"]
+          },
+          {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": [
+              ": Przewiń w górę. Umożliwia przewijanie dokumentu w górę, co jest przydatne przy pracy z dużymi plikami.",
+              ""
+            ]
+          }
+        ],
+        [
+          {
+            "type": "key-combo",
+            "sectionID": "section4",
+            "elementContent": ["Ctrl", "V"]
+          },
+          {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": [
+              ": Przewiń w dół. Umożliwia przewijanie dokumentu w dół.",
+              ""
+            ]
+          }
+        ],
+        [
+          {
+            "type": "key-combo",
+            "sectionID": "section4",
+            "elementContent": ["Alt", "U"]
+          },
+          {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": [": Cofnij zmiany w tekście.", ""]
+          }
+        ],
+        [
+          {
+            "type": "key-combo",
+            "sectionID": "section4",
+            "elementContent": ["Alt", "E"]
+          },
+          {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": [": Przywróć cofnięte zmiany.", ""]
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "type": "h2",
+    "sectionID": "section5",
+    "elementContent": ["Ćwiczenie"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section5",
+    "elementContent": [
+      "Aby utrwalić zdobytą wiedzę, wykonaj poniższe ćwiczenie:",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section5"
+  },
+  {
+    "type": "list",
+    "sectionID": "section5",
+    "elementContent": {
+      "ver": "ol",
+      "listElements": [
+        [
+          {
+            "type": "span",
+            "sectionID": "section5",
+            "elementContent": ["Otwórz terminal.", ""]
+          }
+        ],
+        [
+          {
+            "type": "span",
+            "sectionID": "section5",
+            "elementContent": [
+              "W katalogu domowym masz plik dziady.txt (jeśli nie, pobierz go: ",
+              ""
+            ]
+          },
+          {
+            "type": "link",
+            "sectionID": "section5",
+            "elementContent": [
+              "https://raw.githubusercontent.com/Edu-Koala-V/koala-v-assets-art1/main/Pliki/Dziady.txt",
+              ""
+            ]
+          },
+          {
+            "type": "span",
+            "sectionID": "section5",
+            "elementContent": [").", ""]
+          }
+        ],
+        [
+          {
+            "type": "span",
+            "sectionID": "section5",
+            "elementContent": ["Otwórz plik z automatyczną kopią.", ""]
+          }
+        ],
+        [
+            {
+                "type": "span",
+                "sectionID": "section5",
+                "elementContent": [
+                  "Zmodyfikuj tekst, wyszukując znak kropki (",
+                  ""
+                ]
+              },
+              {
+                "type": "bi",
+                "sectionID": "section5",
+                "elementContent": [
+                  "„ . ”",
+                  ""
+                ]
+              },
+              {
+                "type": "span",
+                "sectionID": "section5",
+                "elementContent": [
+                  ") i tuż po niej wykonaj przejście do nowej linii (",
+                  ""
+                ]
+              },
+          {
+            "type": "key-combo",
+            "sectionID": "section",
+            "elementContent": ["Enter"]
+          },
+          {
+            "type": "span",
+            "sectionID": "section5",
+            "elementContent": [").", ""]
+          }
+        ],
+        [
+          {
+            "type": "span",
+            "sectionID": "section5",
+            "elementContent": [
+              "Zaznacz cały fragment między ",
+              ""
+            ]
+          },
+          {
+            "type": "i",
+            "sectionID": "section5",
+            "elementContent": [
+              "„Przedmowa:”",
+              ""
+            ]
+          },
+          {
+            "type": "span",
+            "sectionID": "section5",
+            "elementContent": [
+              " a ",
+              ""
+            ]
+          },
+          {
+            "type": "i",
+            "sectionID": "section5",
+            "elementContent": [
+              "„Prolog:”",
+              ""
+            ]
+          },
+          {
+            "type": "span",
+            "sectionID": "section5",
+            "elementContent": [
+              " i usuń.",
+              ""
+            ]
+          }
+        ],
+        [
+          {
+            "type": "span",
+            "sectionID": "section5",
+            "elementContent": ["Zapisz plik.", ""]
+          }
+        ],
+        [
+          {
+            "type": "span",
+            "sectionID": "section5",
+            "elementContent": [
+              "Powiedz, w której linii jest zdanie „Salon Warszawski.”",
+              ""
+            ]
+          }
+        ],
+        [
+          {
+            "type": "span",
+            "sectionID": "section5",
+            "elementContent": ["Zmień całą linię 14 na ", ""]
+          },
+          {
+            "type": "i",
+            "sectionID": "section5",
+            "elementContent": ["„Tajne”", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section5",
+            "elementContent": [".", ""]
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "type": "h2",
+    "sectionID": "section6",
+    "elementContent": ["Zakończenie"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section6",
+    "elementContent": [
+      "Edytor tekstowy nano jest prostym, ale potężnym narzędziem do edycji tekstu w systemach Unix. Dzięki znajomości podstawowych komend, argumentów i skrótów klawiszowych, możesz efektywnie pracować z plikami tekstowymi. Mam nadzieję, że ten kurs pomógł Ci lepiej zrozumieć, jak korzystać z nano. Powodzenia w dalszej nauce!",
+      ""
+    ]
+  }
+]
