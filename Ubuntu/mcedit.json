@@ -1,5 +1,365 @@
 [
-    {"type": "h2", "sectionID": "section1", "elementContent": ["Wstęp"]},
-    {"type": "span", "sectionID": "section1","elementContent":["Przykładowy tekst wstępu do lekcji",""]},
-    {"type": "br", "sectionID": "section1"}
+    { "type": "h2", "sectionID": "section1", "elementContent": ["Wprowadzenie do mcedit"] },
+  { "type": "b", "sectionID": "section1", "elementContent": ["mcedit", ""] },
+  { "type": "span", "sectionID": "section1", "elementContent": [" to edytor tekstowy wbudowany w ", ""] },
+  { "type": "bi", "sectionID": "section1", "elementContent": ["Midnight Commander", "blue"] },
+  { "type": "span", "sectionID": "section1", "elementContent": [", popularny menedżer plików dla systemów Linux. Jest to prosty, ale potężny edytor, który umożliwia edycję plików tekstowych bez konieczności opuszczania Midnight Commandera.", ""] },
+  { "type": "h3", "sectionID": "section1", "elementContent": ["Instalacja Midnight Commander"] },
+  { "type": "span", "sectionID": "section1", "elementContent": ["Aby zainstalować Midnight Commander na systemie Linux, możesz użyć menedżera pakietów odpowiedniego dla Twojej dystrybucji.", ""] },
+  { "type": "br", "sectionID": "section1" },
+  {"type":"span","sectionID":"section1","elementContent":["Na przykład:",""]},
+  { "type": "br", "sectionID": "section1" },
+
+  {
+    "type": "text-block-name",
+    "sectionID": "section1",
+    "elementContent": ["sudo apt install mc", ""]
+  },
+  {"type":"span","sectionID":"section1","elementContent":[" # dla systemów opartych na Debianie/Ubuntu",""]},
+  { "type": "br", "sectionID": "section1" },
+  {
+    "type": "text-block-name",
+    "sectionID": "section1",
+    "elementContent": ["sudo yum install mc", ""]
+  },
+  {"type":"span","sectionID":"section1","elementContent":[" # dla systemów opartych na Red Hat/CentOS",""]},
+  { "type": "br", "sectionID": "section1" },
+  {
+    "type": "text-block-name",
+    "sectionID": "section1",
+    "elementContent": ["sudo pacman -S mc", ""]
+  },
+  {"type":"span","sectionID":"section1","elementContent":[" # dla Arch Linux",""]},
+  { "type": "br", "sectionID": "section1" },
+  { "type": "br", "sectionID": "section1" },
+
+ 
+  { "type": "span", "sectionID": "section1", "elementContent": ["Podstawowa składnia komendy wygląda następująco:", ""] },
+  { "type": "br", "sectionID": "section1" },
+
+  {
+    "type": "text-block-name",
+    "sectionID": "section1",
+    "elementContent": ["mcedit [opcje] [plik]", ""]
+  },
+  { "type": "br", "sectionID": "section1" },
+
+  { "type": "span", "sectionID": "section1", "elementContent": ["W przeciwieństwie do nano w mcedit nie masz ciekawych i przydatnych argumentów do wstawienia w [opcje].", ""] },
+  { "type": "br", "sectionID": "section1" },
+
+  { "type": "span", "sectionID": "section1", "elementContent": ["W zamian za brak ciekawych argumentów dostajesz możliwość operowania w prostym interfejsie graficznym konsoli.", ""] },
+
+  {
+    "type": "img",
+    "sectionID": "section1",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/okienka_w_mcedit.webp",
+      "Pliki i katalogi w Midnight Commander - lokalizacja to katalog domowy użytkownika",
+      "1211",
+      "755",
+      "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/okienka_w_mcedit_ORIGINAL.webp"
     ]
+  },
+
+  { "type": "h2", "sectionID": "section2", "elementContent": ["Skróty klawiszowe i wykonywanie podstawowych akcji w mcedit"] },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      "W mcedit możesz korzystać z kursora myszki. Na dole w legendzie masz podstawowe akcje które sowim numerkiem odpowiadają klawiszom od ",
+      ""
+    ]
+  },
+  {
+    "type": "key-combo",
+    "sectionID": "section2",
+    "elementContent": ["F1"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      " do ",
+      ""
+    ]
+  },
+  {
+    "type": "key-combo",
+    "sectionID": "section2",
+    "elementContent": ["F10"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      ".",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section2"
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      "Możesz użyć tych akcji klikając daną cyfrę w legendzie. ",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section2"
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      "Akcje wykonane w edytorze możesz cofać za pomocą ",
+      ""
+    ]
+  },
+  {
+    "type": "key-combo",
+    "sectionID": "section2",
+    "elementContent": ["Ctrl","U"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      ", a ponownie wykonać za pomocą ",
+      ""
+    ]
+  },
+  {
+    "type": "key-combo",
+    "sectionID": "section2",
+    "elementContent": ["Alt","R"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      ".",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section2"
+  },
+  {
+    "type": "br",
+    "sectionID": "section2"
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      "Ciekawą funkcjonalnością w mcedit jest możliwość wyszukania i podmiany fragmentów tekstu.",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section2"
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      "Aby wyszukać tekst i zamienić go na inny, przejdź na górę pliku (klawisz ",
+      ""
+    ]
+  },
+  {
+    "type": "key-combo",
+    "sectionID": "section2",
+    "elementContent": ["PageUp"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      ") i kliknij ",
+      ""
+    ]
+  },
+  {
+    "type": "key-combo",
+    "sectionID": "section2",
+    "elementContent": ["F4"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      ". Pojawi się okno, w którym wpisujesz, czego szukasz i na co chcesz zamienić. Gdy klikniesz ",
+      ""
+    ]
+  },
+  {
+    "type": "key-combo",
+    "sectionID": "section2",
+    "elementContent": ["Enter"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      ", zaznaczy się pierwszy wyszukiwany fragment tekstu i pojawi się okno dialogowe. Możesz wybrać, czy chcesz zamienić ten fragment, wszystkie wystąpienia, pominąć ten fragment czy anulować operację.",
+      ""
+    ]
+  },
+  {
+    "type": "img",
+    "sectionID": "section2",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/mc-replace.webp",
+      "Przedstawienie etapów wyszukiwania i zamiany tekstu w mcedit",
+      "1637",
+      "1160",
+      "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/mc-replace_ORIGINAL.webp"
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section2"
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      "Aby skopiować fragment tekstu, zaznacz go kursorem myszki lub trzymając ",
+      ""
+    ]
+  },
+  {
+    "type": "key-combo",
+    "sectionID": "section2",
+    "elementContent": ["Shift"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      " i poruszając zaznaczeniem strzałkami (",
+      ""
+    ]
+  },
+  {
+    "type": "key-combo",
+    "sectionID": "section2",
+    "elementContent": ["arrowUp"]
+  },
+  {
+    "type": "key-combo",
+    "sectionID": "section2",
+    "elementContent": ["arrowDown"]
+  },
+  {
+    "type": "key-combo",
+    "sectionID": "section2",
+    "elementContent": ["arrowRight"]
+  },
+  {
+    "type": "key-combo",
+    "sectionID": "section2",
+    "elementContent": ["arrowLeft"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      ").",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section2"
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      "Następnie naciśnij ",
+      ""
+    ]
+  },
+  {
+    "type": "key-combo",
+    "sectionID": "section2",
+    "elementContent": ["Ctrl","F"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      ", aby zapisać blok tekstu w pamięci podrecznej.",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section2"
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      "Teraz  możesz przenieść kursor tekstu w docelowe miejsce wklejenia zapisanego fragmentu i nacisnąć: ",
+      ""
+    ]
+  },
+  {
+    "type": "key-combo",
+    "sectionID": "section2",
+    "elementContent": ["Shift","F5"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      ". Na koniec zatwierdź wprowadzenie zapisanego bloku tekstowego.",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section2"
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      "Mega proste i wygodne, prawda? 🙃",
+      ""
+    ]
+  },
+  { "type": "h2", "sectionID": "section3", "elementContent": ["Podsumowanie"] },
+  { "type": "span", "sectionID": "section3", "elementContent": [" Na sam koniec przypomnę że możesz korzystać z całego ", ""] },
+  { "type": "bi", "sectionID": "section3", "elementContent": ["Midnight Commander ", "blue"] },
+  { "type": "span", "sectionID": "section3", "elementContent": [" i w łatwy sposób poruszać się pos strukturze katalogowo pikowej systemu. Wystarczy użyć komendy:", ""] },
+  { "type": "br", "sectionID": "section3"},
+  {"type":"text-block-name","sectionID":"section3","elementContent":["mc",""]},
+    { "type": "br", "sectionID": "section3"},
+  { "type": "span", "sectionID": "section3", "elementContent": ["Oczywiście, jeśli chcesz modyfikować pliki konfiguracyjne, które może edytować tylko administrator, dopisz na początku sudo. Składnia bedzie następująca:", ""] },
+  { "type": "br", "sectionID": "section3"},
+  {"type":"text-block-name","sectionID":"section3","elementContent":["sudo mc",""]},
+    { "type": "br", "sectionID": "section3"},
+    {
+        "type": "img",
+        "sectionID": "section3",
+        "elementContent": [
+          "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/mc.webp",
+          "Pliki i katalogi w Midnight Commander - lokalizacja to katalog domowy użytkownika",
+          "1211",
+          "755",
+          "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/mc_ORIGINAL.webp"
+        ]
+      }
+
+]
