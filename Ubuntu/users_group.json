@@ -2,8 +2,10 @@
     { "type": "h2", "sectionID": "section1", "elementContent": ["Wstęp - tworzenie użytkownika poprzez GUI",""] },
     { "type": "span", "sectionID": "section1", "elementContent": ["Tworzenie i zarządzanie użytkownikami oraz grupami w systemie operacyjnym Ubuntu jest kluczowym elementem administracji systemem. Umożliwia to kontrolowanie dostępu do zasobów, zarządzanie uprawnieniami oraz organizację użytkowników w logiczne grupy. W tej lekcji omówimy, jak tworzyć użytkowników i grupy w Ubuntu 24.04, jakie są dostępne narzędzia oraz jak zarządzać tymi elementami w codziennej pracy administratora systemu.", ""] },
     { "type": "br", "sectionID": "section1" },
-    { "type": "span", "sectionID": "section1", "elementContent": ["Aby utworzyć użytkownika poprzez GUI otwórz ustawienia prządź do kategorii system a nastepnie użytkownicy. Aby dodać nowego użytkownika musisz tą opcję odblokować klikając ",""] },
-    { "type": "b", "sectionID": "section1", "elementContent": ["Unlock..",""] },
+    { "type": "span", "sectionID": "section1", "elementContent": ["Aby utworzyć użytkownika poprzez GUI otwórz ustawienia prządź do kategorii system a nastepnie użytkownicy. Aby dodać nowego użytkownika musisz tą opcję odblokować klikając: ",""] },
+    { "type": "ref-btn-for-img", "sectionID": "section1", "elementContent": ["Unlock...",""] },
+    { "type": "span", "sectionID": "section1", "elementContent": [" i wprowadzając hasło administratora.",""] },
+    { "type": "br", "sectionID": "section1" },
     { "type": "span", "sectionID": "section1", "elementContent": [" Teraz możesz dodawać i usuwać użytkowników 😊",""] },
 
     {
@@ -17,10 +19,7 @@
           "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/unlock_add_user_ORIGINAL.webp"
         ]
       },
-    { "type": "span", "sectionID": "section1", "elementContent": ["Wprowadź dane i określ czy użytkownik ma być Administratorem.",""] },
-    { "type": "br", "sectionID": "section1"},
-    { "type": "span", "sectionID": "section1", "elementContent": ["U mnie Jan Kowalski nie jest administratorem i przy pierwszym logowaniu bedzie musiał zmienić hasło.",""] },
-
+    { "type": "span", "sectionID": "section1", "elementContent": ["Wprowadź dane i określ, czy użytkownik ma być administratorem. W moim przypadku Jan Kowalski nie jest administratorem i przy pierwszym logowaniu będzie musiał zmienić hasło.",""] },
       {
         "type": "img",
         "sectionID": "section1",
@@ -41,13 +40,25 @@
       },
       { "type": "span", "sectionID": "section1", "elementContent": [" - dla ułatwienia zapamietania su - switch user czyli po polsku zmiana użytkownika.",""] },
     { "type": "br", "sectionID": "section1"},
+    {
+      "type": "img",
+      "sectionID": "section1",
+      "elementContent": [
+        "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/su_user_graphic.webp",
+        "Logowanie za pomocą komendy su",
+        "1280",
+        "802",
+        "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/su_user_graphic_ORIGINAL.webp"
+      ]
+    },
    
     { "type": "h2", "sectionID": "section2", "elementContent": ["Tworzenie użytkownika poprzez Terminal",""] },
     { "type": "b", "sectionID": "section2", "elementContent": ["UWAGA! ", "red"] },
-    { "type": "span", "sectionID": "section2", "elementContent": ["Tylko administratorzy mogą tworzyć i zarządzać użytkownikami oraz grupami, czyli musisz należeć do grupy sudoers-ów", ""] },
+    { "type": "span", "sectionID": "section2", "elementContent": ["Tylko administratorzy mogą tworzyć i zarządzać użytkownikami oraz grupami, czyli musisz należeć do grupy ", ""] },
     { "type": "b", "sectionID": "section2", "elementContent": ["sudoers", ""] },
-    { "type": "span", "sectionID": "section2", "elementContent": ["-ów", ""] },
-    { "type": "bi", "sectionID": "section2", "elementContent": ["Dodawanie nowego użytkownika",""] },
+    { "type": "span", "sectionID": "section2", "elementContent": ["-ów.", ""] },
+    { "type": "br", "sectionID": "section2" },
+    { "type": "br", "sectionID": "section2"},
     { "type": "br", "sectionID": "section2" },
     { "type": "span", "sectionID": "section2", "elementContent": ["Aby dodać nowego użytkownika w Ubuntu, użyj polecenia ",""] },
     { "type": "b", "sectionID": "section2", "elementContent": ["adduser",""] },
@@ -70,7 +81,89 @@
           "802",
           "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/add_user_terminal_ORIGINAL.webp"
         ]
-      }
+      },
+      { "type": "span", "sectionID": "section2", "elementContent": ["Alternatywnie możesz utworzyć użytkownika za pomocą ",""] },
+    { "type": "b", "sectionID": "section2", "elementContent": ["useradd",""] },
+    { "type": "span", "sectionID": "section2", "elementContent": [".",""] },
+    { "type": "br", "sectionID": "section2"},
+    {
+      "type": "text-block-name",
+      "sectionID": "section2",
+      "elementContent": ["sudo useradd nazwa_uzytkownika", ""]
+    },
+  { "type": "br", "sectionID": "section2"},
+    { "type": "span", "sectionID": "section2", "elementContent": [" Użycie tej komendy wiąże się z koniecznością nadania hasła dla konta oraz utworzenia i skonfigurowania katalogu domowego użytkownika.",""] },
+
+   
+
+    {
+      "type": "h2",
+      "sectionID": "section3",
+      "elementContent": ["Zmiana hasła dla konta użytkownika",""]
+    },
+    { "type": "span", "sectionID": "section3", "elementContent": ["Aby zmienić hasło dla konta użytkownika, użyj polecenia ",""] },
+    { "type": "b", "sectionID": "section3", "elementContent": ["passwd",""] },
+    { "type": "br", "sectionID": "section3"},
+    {
+        "type": "text-block-name",
+        "sectionID": "section3",
+        "elementContent": ["sudo passwd nazwa_uzytkownika", ""]
+      },
+    { "type": "br", "sectionID": "section3"},
+    { "type": "span", "sectionID": "section3", "elementContent": ["Polecenie to wymaga podania nowego hasła oraz jego potwierdzenia. Po wykonaniu tej operacji hasło zostanie zmienione.",""] },
+    { "type": "br", "sectionID": "section3"},
+    { "type": "br", "sectionID": "section3"},
+    { "type": "bi", "sectionID": "section3", "elementContent": ["Co w przypadku gdy chcemy aby to użytkownik przy kolejnym logowaniu zmienił hasło?",""] },
+    { "type": "br", "sectionID": "section3"},
+    { "type": "span", "sectionID": "section3", "elementContent": ["Możemy to uczynić na dwa sposoby wymuszając event (wydarzenie) konieczności zmiany hasła:",""] },
+    { "type": "br", "sectionID": "section3"},
+    {
+      "type": "text-block-name",
+      "sectionID": "section3",
+      "elementContent": ["sudo passwd --expire nazwa_użytkownika", ""]
+    },
+    { "type": "br", "sectionID": "section3"},
+    {
+      "type": "text-block-name",
+      "sectionID": "section3",
+      "elementContent": ["sudo chage -d 0 nazwa_użytkownika", ""]
+    },
+    { "type": "br", "sectionID": "section3"},
+    { "type": "span", "sectionID": "section3", "elementContent": ["Pierwsza komenda ",""] },
+    { "type": "u", "sectionID": "section3", "elementContent": ["wymusza zmianę hasła przy następnym logowaniu",""] },
+    { "type": "span", "sectionID": "section3", "elementContent": [", a druga ",""] },
+    { "type": "u", "sectionID": "section3", "elementContent": ["ustawia datę ostatniej zmiany hasła na ",""] },
+    { "type": "b", "sectionID": "section3", "elementContent": ["0",""] },
+    { "type": "span", "sectionID": "section3", "elementContent": [", co również wymusza zmianę hasła przy następnym logowaniu.",""] },
+    { "type": "br", "sectionID": "section3"},
+    { "type": "span", "sectionID": "section3", "elementContent": ["Pamiętaj, że zmiana hasła dla innego konta użytkownika wymaga uprawnień administratora.",""] },
+    { "type": "br", "sectionID": "section3"},
+    { "type": "br", "sectionID": "section3"},
+    { "type": "span", "sectionID": "section3", "elementContent": ["W przypadku gdy chcesz ",""] },
+    { "type": "u", "sectionID": "section3", "elementContent": ["zmienić hasło dla swojego konta",""] },
+    { "type": "span", "sectionID": "section3", "elementContent": [", użyj polecenia: ",""] },
+    { "type": "br", "sectionID": "section3"},
+    {
+      "type": "text-block-name",
+      "sectionID": "section3",
+      "elementContent": ["passwd", ""]
+    },
+    { "type": "br", "sectionID": "section3"},
+    { "type": "span", "sectionID": "section3", "elementContent": ["🤓PS.: Gdy zmieniasz hasło swojego konta nie potrzebujesz uprawnień administratora wiec możesz wpisać tą komendę bez ",""] },
+    { "type": "b", "sectionID": "section3", "elementContent": ["sudo",""] },
+    { "type": "span", "sectionID": "section3", "elementContent": [" na początku.",""] },
+    {
+      "type": "img",
+      "sectionID": "section3",
+      "elementContent": [
+        "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/passwd.webp",
+        "Wymuszanie zmiany hasła dla użytkownika",
+        "1214",
+        "579",
+        "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/passwd_ORIGINAL.webp"
+      ]
+    }
+
 
 ]
 
