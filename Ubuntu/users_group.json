@@ -92,9 +92,11 @@
       "elementContent": ["sudo useradd nazwa_uzytkownika", ""]
     },
   { "type": "br", "sectionID": "section2"},
-    { "type": "span", "sectionID": "section2", "elementContent": [" Użycie tej komendy wiąże się z koniecznością nadania hasła dla konta, utworzenia i skonfigurowania katalogu domowego użytkownika oraz powłoki bash. Potrzebne komendy do wykonania tych konfiguracji przedstawię pod koniec tego artykułu: modyfikowanie użytkownika.",""] },
-
-   
+  { "type": "br", "sectionID": "section2"},
+  { "type": "b", "sectionID": "section2", "elementContent": ["useradd",""] },
+  { "type": "span", "sectionID": "section2", "elementContent": [" jest komendą nisko poziomową stosowaną w wielu Linuxach, a ",""] },
+  { "type": "b", "sectionID": "section2", "elementContent": ["adduser",""] },
+  { "type": "span", "sectionID": "section2", "elementContent": [" to komenda uruchamiająca skrypt kreatora konta, który wykonuje szereg dodatkowych komend potrzebnych do pełnego skonfigurowania nowego użytkownika.",""] },
 
     {
       "type": "h2",
@@ -212,19 +214,9 @@
         ]
       }
     },
-    { "type": "br", "sectionID": "section4"},
-    { "type": "span", "sectionID": "section4", "elementContent": ["Istnieje też ",""] },
-    { "type": "b", "sectionID": "section4", "elementContent": ["deluser",""] },
-    { "type": "span", "sectionID": "section4", "elementContent": [", ale z tego ",""] },
-    { "type": "u", "sectionID": "section4", "elementContent": ["nie korzystaj",""] },
-    { "type": "span", "sectionID": "section4", "elementContent": [" bo jest gorsze ponieważ nie ma opcji ",""] },
-    { "type": "span", "sectionID": "section4", "elementContent": [" -f ",""] },
-    { "type": "span", "sectionID": "section4", "elementContent": [" / ",""] },
-    { "type": "span", "sectionID": "section4", "elementContent": ["--force",""] },
-    { "type": "span", "sectionID": "section4", "elementContent": [" do wymuszenia usunięcia użytkownika nawet gdy jakiś jego proces działa",""] },
     {
       "type": "img",
-      "sectionID": "section3",
+      "sectionID": "section4",
       "elementContent": [
         "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/user_remove.webp",
         "Usuwanie użytkownika poprzez Terminal",
@@ -232,8 +224,310 @@
         "579",
         "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/user_remove_ORIGINAL.webp"
       ]
+    },
+    { "type": "br", "sectionID": "section4"},
+    { "type": "span", "sectionID": "section4", "elementContent": ["Istnieje też polecenie wywołania Debianowego skryptu",""] },
+    { "type": "b", "sectionID": "section4", "elementContent": ["deluser",""] },
+    { "type": "span", "sectionID": "section4", "elementContent": [", ale z tego ",""] },
+    { "type": "u", "sectionID": "section4", "elementContent": ["nie korzystaj",""] },
+    { "type": "span", "sectionID": "section4", "elementContent": [" bo jest gorsze niż niskopoziomowa komenda, ponieważ nie ma opcji ",""] },
+    { "type": "b", "sectionID": "section4", "elementContent": [" -f ",""] },
+    { "type": "span", "sectionID": "section4", "elementContent": [" / ",""] },
+    { "type": "b", "sectionID": "section4", "elementContent": ["--force",""] },
+    { "type": "span", "sectionID": "section4", "elementContent": [" do wymuszenia usunięcia użytkownika nawet gdy jakiś jego proces działa. 👌",""] },
+    {
+      "type": "h2",
+      "sectionID": "section5",
+      "elementContent": ["Tworzenie grupy",""]
     }
+    ,
+    { "type": "span", "sectionID": "section5", "elementContent": ["Aby utworzyć grupę, użyj polecenia ",""] },
+    { "type": "b", "sectionID": "section5", "elementContent": ["addgroup",""] },
+    { "type": "br", "sectionID": "section5"},
+    {
+        "type": "text-block-name",
+        "sectionID": "section5",
+        "elementContent": ["sudo addgroup nazwa_grupy", ""]
+      },
+    { "type": "br", "sectionID": "section5"},
+    { "type": "span", "sectionID": "section5", "elementContent": ["W przypadku gdy chcesz utworzyć grupę z określonym ID, użyj polecenia: ",""] },
+    { "type": "br", "sectionID": "section5"},
+    {
+      "type": "text-block-name",
+      "sectionID": "section5",
+      "elementContent": ["sudo addgroup --gid 1000 nazwa_grupy", ""]
+    },
+    { "type": "br", "sectionID": "section5"},
+    { "type": "br", "sectionID": "section5"},
+    { "type": "b", "sectionID": "section5", "elementContent": ["groupadd",""] },
+    { "type": "span", "sectionID": "section5", "elementContent": [" jest komendą nisko poziomową stosowaną w wielu Linuxach, a ",""] },
+    { "type": "b", "sectionID": "section5", "elementContent": ["addgroup",""] },
+    { "type": "span", "sectionID": "section5", "elementContent": [" podobnie do adduser jest wywołaniem skryptu Debiana, który dokonuje dodatkowej konfiguracji.",""] },
+    {
+      "type": "h2",
+      "sectionID": "section6",
+      "elementContent": ["Usuwanie grupy",""]
+    }
+    ,
+    { "type": "span", "sectionID": "section6", "elementContent": ["Aby usunąć grupę, użyj polecenia ",""] },
+    { "type": "b", "sectionID": "section6", "elementContent": ["groupdel",""] },
+    { "type": "br", "sectionID": "section6"},
+    {
+        "type": "text-block-name",
+        "sectionID": "section6",
+        "elementContent": ["sudo groupdel nazwa_grupy", ""]
+      },
+    { "type": "br", "sectionID": "section6"},
+    { "type": "span", "sectionID": "section6", "elementContent": ["W przypadku gdy chcesz usunąć grupę z określonym ID, użyj polecenia: ",""] },
+    { "type": "br", "sectionID": "section6"},
+    {
+      "type": "text-block-name",
+      "sectionID": "section6",
+      "elementContent": ["sudo groupdel --gid 1000 nazwa_grupy", ""]
+    },
+    { "type": "br", "sectionID": "section6"},
+    { "type": "br", "sectionID": "section6"},
+    { "type": "b", "sectionID": "section6", "elementContent": ["delgroup",""] },
+    { "type": "span", "sectionID": "section6", "elementContent": [" jest komendą nisko poziomową stosowaną w wielu Linuxach, a ",""] },
+    { "type": "b", "sectionID": "section6", "elementContent": ["groupdel",""] },
+    { "type": "span", "sectionID": "section6", "elementContent": [" podobnie do groupadd oraz useradd jest wywołaniem skryptu Debiana, który dokonuje dodatkowej konfiguracji.",""] },
+    {
+      "type": "h2",
+      "sectionID": "section7",
+      "elementContent": ["Modyfikacja użytkownika",""]
+    }
+    ,
+    { "type": "span", "sectionID": "section7", "elementContent": ["Mając utworzonych użytkowników i grupy, warto je ze sobą połączyć. Grupa, do której nie należy żaden użytkownik, jest bezużyteczna. Ponadto, nadawanie uprawnień wielu użytkownikom jest łatwiejsze poprzez przypisanie ich do odpowiedniej grupy. Aby tego dokonać użyj polecenia:  ",""] },
+    { "type": "b", "sectionID": "section7", "elementContent": ["usermod",""] },
+    { "type": "br", "sectionID": "section7"},
+    { "type": "span", "sectionID": "section7", "elementContent": ["Poniżej komenda dodania użytkownika do grupy:",""] },
+    { "type": "br", "sectionID": "section7"},
+    {
+        "type": "text-block-name",
+        "sectionID": "section7",
+        "elementContent": ["sudo usermod -aG nazwa_grupy nazwa_uzytkownika", ""]
+      },
+    { "type": "br", "sectionID": "section7"},
+    { "type": "span", "sectionID": "section7", "elementContent": ["Możesz również zmodyfikować konto użytkownika. Skoro już wiesz, jak zmieniać i ustawiać hasła, to teraz przedstawię Ci komendę do zmiany loginu.",""] },
+    { "type": "br", "sectionID": "section7"},
+    {
+      "type": "text-block-name",
+      "sectionID": "section7",
+      "elementContent": ["sudo usermod -l nowa_nazwa_uzytkownika stara_nazwa_uzytkownika", ""]
+    },
+    { "type": "br", "sectionID": "section7"},
+    { "type": "span", "sectionID": "section7", "elementContent": ["Użytkownicy oraz grupy w systemach Linux posiadają swoje identyfikatory liczbowe w skrócie id.",""] },
+    { "type": "br", "sectionID": "section7"},
+    {
+      "type": "list",
+      "sectionID": "section1",
+      "elementContent": {
+        "ver": "ul",
+        "listElements": [
+          [
+            {
+              "type": "b",
+              "sectionID": "section1",
+              "elementContent": ["uid ", ""]
+            },
+            {
+              "type": "span",
+              "sectionID": "section1",
+              "elementContent": ["od user identyfikator - identyfikator użytkownika", ""]
+            }
+          ],
+          [
+            {
+              "type": "b",
+              "sectionID": "section1",
+              "elementContent": ["gid ", ""]
+            },
+            {
+              "type": "span",
+              "sectionID": "section1",
+              "elementContent": ["od group identyfikator - identyfikator grupy", ""]
+            }
+        ]
+      ]
+      }
+    },
+    { "type": "br", "sectionID": "section7"},
 
-
+    { "type": "span", "sectionID": "section7", "elementContent": ["Jeśli chcesz zmienić identyfikator użytkownika, użyj polecenia:",""] },
+    {
+      "type": "text-block-name",
+      "sectionID": "section7",
+      "elementContent": ["sudo usermod -u 2137 nazwa_uzytkownika", ""]
+    },
+    {
+      "type": "img",
+      "sectionID": "section4",
+      "elementContent": [
+        "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/usermod.webp",
+        "Zmiana nazwy użytkownika i jego identyfikatora oraz dodanie go do grupy",
+        "1214",
+        "381",
+        "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/usermod_ORIGINAL.webp"
+      ]
+    },
+    {
+      "type": "h2",
+      "sectionID": "section8",
+      "elementContent": ["Pliki powiązane z kontami użytkowników i grupami w systemie",""]
+    },
+    {
+      "type":"span",
+      "sectionID":"section8",
+      "elementContent": ["W Ubuntu informacje o użytkownikach i grupach są przechowywane w kilku kluczowych plikach systemowych:",""]
+    },
+    {
+      "type": "list",
+      "sectionID": "section8",
+      "elementContent": {
+        "ver": "ol",
+        "listElements": [
+          [
+            {
+              "type": "b",
+              "sectionID": "section8",
+              "elementContent": ["/etc/passwd ", ""]
+            },
+            {
+              "type": "list",
+              "sectionID": "section8",
+              "elementContent": {
+                "ver": "ul",
+                "listElements": [
+                  [
+                    {
+                      "type": "span",
+                      "sectionID": "section8",
+                      "elementContent": ["Ten plik zawiera podstawowe informacje o wszystkich użytkownikach systemu.", ""]
+                    }
+                  
+                  ],
+                  [
+                    {
+                      "type": "span",
+                      "sectionID": "section8",
+                      "elementContent": ["Każda linia w pliku reprezentuje jednego użytkownika i zawiera takie dane jak nazwa użytkownika, UID (identyfikator użytkownika), GID (identyfikator grupy), katalog domowy i powłoka logowania.", ""]
+                    }
+                ]
+              ]
+              }
+            }
+          ],
+          [
+            {
+              "type": "b",
+              "sectionID": "section8",
+              "elementContent": ["/etc/shadow ", ""]
+            },
+            {
+              "type": "list",
+              "sectionID": "section8",
+              "elementContent": {
+                "ver": "ul",
+                "listElements": [
+                  [
+                    {
+                      "type": "span",
+                      "sectionID": "section8",
+                      "elementContent": ["Ten plik przechowuje zaszyfrowane hasła użytkowników oraz dodatkowe informacje dotyczące haseł, takie jak data ostatniej zmiany hasła i polityka wygasania hasła.", ""]
+                    }
+                  
+                  ],
+                  [
+                    {
+                      "type": "span",
+                      "sectionID": "section8",
+                      "elementContent": ["Dostęp do tego pliku jest ograniczony do użytkownika root. Czyli administratora należącego do grupy sudors-ów (sudo).", ""]
+                    }
+                ]
+              ]
+              }
+            }
+          ],
+          [
+            {
+              "type": "b",
+              "sectionID": "section8",
+              "elementContent": ["/etc/group ", ""]
+            },
+            {
+              "type": "list",
+              "sectionID": "section8",
+              "elementContent": {
+                "ver": "ul",
+                "listElements": [
+                  [
+                    {
+                      "type": "span",
+                      "sectionID": "section8",
+                      "elementContent": ["Ten plik zawiera informacje o grupach użytkowników.", ""]
+                    }
+                  
+                  ],
+                  [
+                    {
+                      "type": "span",
+                      "sectionID": "section8",
+                      "elementContent": ["Każda linia w pliku reprezentuje jedną grupę i zawiera takie dane jak nazwa grupy, GID oraz lista użytkowników należących do grupy.", ""]
+                    }
+                ]
+              ]
+              }
+            }
+          ],
+          [
+            {
+              "type": "b",
+              "sectionID": "section8",
+              "elementContent": ["/etc/gshadow ", ""]
+            },
+            {
+              "type": "list",
+              "sectionID": "section8",
+              "elementContent": {
+                "ver": "ul",
+                "listElements": [
+                  [
+                    {
+                      "type": "span",
+                      "sectionID": "section8",
+                      "elementContent": ["Ten plik przechowuje zaszyfrowane hasła grup oraz dodatkowe informacje o grupach, takie jak administratorzy grup.", ""]
+                    }
+                  
+                  ],
+                  [
+                    {
+                      "type": "span",
+                      "sectionID": "section8",
+                      "elementContent": ["Dokładnie tak samo jak „shadow”, dostęp do tego pliku jest ograniczony do użytkownika root. Czyli administratora należącego do grupy sudors-ów (sudo).", ""]
+                    }
+                ]
+              ]
+              }
+            }
+          ]
+          
+      ]
+      }
+    },
+    {
+      "type": "h2",
+      "sectionID": "section9",
+      "elementContent": ["Podsumowanie",""]
+    }
+    ,
+    { "type": "span", "sectionID": "section9", "elementContent": ["Tworzenie i zarządzanie użytkownikami oraz grupami w systemie operacyjnym Ubuntu jest kluczowym elementem administracji systemem. Umożliwia to kontrolowanie dostępu do zasobów, zarządzanie uprawnieniami oraz organizację użytkowników w logiczne grupy. W tej lekcji omówiliśmy, jak tworzyć użytkowników i grupy w Ubuntu 24.04, jakie są dostępne narzędzia oraz jak zarządzać tymi elementami w codziennej pracy administratora systemu.",""] },
+    { "type": "br", "sectionID": "section9"},
+    { "type": "span", "sectionID": "section9", "elementContent": ["Pamiętaj, że zarządzanie użytkownikami i grupami to jedno z podstawowych zadań administratora systemu. Dzięki temu możesz kontrolować dostęp do zasobów, zarządzać uprawnieniami oraz organizować użytkowników w logiczne grupy. Wiedza na temat tworzenia i zarządzania użytkownikami oraz grupami w systemie operacyjnym Ubuntu jest kluczowa dla każdego administratora systemu.",""] },
+    {"type":"br", "sectionID":"section9"},
+    {
+      "type": "link-art",
+      "sectionID": "section9",
+      "elementContent": ["Uprawnienia do plików i katalogów", "Linux - Ubuntu Desktop"]
+    }
 ]
 
