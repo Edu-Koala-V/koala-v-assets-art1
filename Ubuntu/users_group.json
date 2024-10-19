@@ -1,5 +1,76 @@
 [
-    {"type": "h2", "sectionID": "section1", "elementContent": ["Wstęp"]},
-    {"type": "span", "sectionID": "section1","elementContent":["Przykładowy tekst wstępu do lekcji",""]},
-    {"type": "br", "sectionID": "section1"}
-    ]
+    { "type": "h2", "sectionID": "section1", "elementContent": ["Wstęp - tworzenie użytkownika poprzez GUI",""] },
+    { "type": "span", "sectionID": "section1", "elementContent": ["Tworzenie i zarządzanie użytkownikami oraz grupami w systemie operacyjnym Ubuntu jest kluczowym elementem administracji systemem. Umożliwia to kontrolowanie dostępu do zasobów, zarządzanie uprawnieniami oraz organizację użytkowników w logiczne grupy. W tej lekcji omówimy, jak tworzyć użytkowników i grupy w Ubuntu 24.04, jakie są dostępne narzędzia oraz jak zarządzać tymi elementami w codziennej pracy administratora systemu.", ""] },
+    { "type": "br", "sectionID": "section1" },
+    { "type": "span", "sectionID": "section1", "elementContent": ["Aby utworzyć użytkownika poprzez GUI otwórz ustawienia prządź do kategorii system a nastepnie użytkownicy. Aby dodać nowego użytkownika musisz tą opcję odblokować klikając ",""] },
+    { "type": "b", "sectionID": "section1", "elementContent": ["Unlock..",""] },
+    { "type": "span", "sectionID": "section1", "elementContent": [" Teraz możesz dodawać i usuwać użytkowników 😊",""] },
+
+    {
+        "type": "img",
+        "sectionID": "section1",
+        "elementContent": [
+          "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/unlock_add_user.webp",
+          "Etapy otwarcia ustawień użytkowników i odblokowanie akcji dodawania nowego użytkownika",
+          "1280",
+          "802",
+          "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/unlock_add_user_ORIGINAL.webp"
+        ]
+      },
+    { "type": "span", "sectionID": "section1", "elementContent": ["Wprowadź dane i określ czy użytkownik ma być Administratorem.",""] },
+    { "type": "br", "sectionID": "section1"},
+    { "type": "span", "sectionID": "section1", "elementContent": ["U mnie Jan Kowalski nie jest administratorem i przy pierwszym logowaniu bedzie musiał zmienić hasło.",""] },
+
+      {
+        "type": "img",
+        "sectionID": "section1",
+        "elementContent": [
+          "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/add_user_graphic.webp",
+          "Tworzenie nowego użytkownika poprzez GUI",
+          "1280",
+          "802",
+          "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/add_user_graphic_ORIGINAL.webp"
+        ]
+      },
+      { "type": "span", "sectionID": "section1", "elementContent": ["Poniżej przedstawiam pierwsze logowanie na konto Jana Kowalskiego. Do zalogowania użyto komendę: ",""] },
+    { "type": "br", "sectionID": "section1"},
+    {
+        "type": "text-block-name",
+        "sectionID": "section1",
+        "elementContent": ["su nazwa_uzytkownika", ""]
+      },
+      { "type": "span", "sectionID": "section1", "elementContent": [" - dla ułatwienia zapamietania su - switch user czyli po polsku zmiana użytkownika.",""] },
+    { "type": "br", "sectionID": "section1"},
+   
+    { "type": "h2", "sectionID": "section2", "elementContent": ["Tworzenie użytkownika poprzez Terminal",""] },
+    { "type": "b", "sectionID": "section2", "elementContent": ["UWAGA! ", "red"] },
+    { "type": "span", "sectionID": "section2", "elementContent": ["Tylko administratorzy mogą tworzyć i zarządzać użytkownikami oraz grupami, czyli musisz należeć do grupy sudoers-ów", ""] },
+    { "type": "b", "sectionID": "section2", "elementContent": ["sudoers", ""] },
+    { "type": "span", "sectionID": "section2", "elementContent": ["-ów", ""] },
+    { "type": "bi", "sectionID": "section2", "elementContent": ["Dodawanie nowego użytkownika",""] },
+    { "type": "br", "sectionID": "section2" },
+    { "type": "span", "sectionID": "section2", "elementContent": ["Aby dodać nowego użytkownika w Ubuntu, użyj polecenia ",""] },
+    { "type": "b", "sectionID": "section2", "elementContent": ["adduser",""] },
+    { "type": "br", "sectionID": "section2"},
+    {
+        "type": "text-block-name",
+        "sectionID": "section2",
+        "elementContent": ["sudo adduser nazwa_uzytkownika", ""]
+      },
+    { "type": "br", "sectionID": "section2"},
+
+      { "type": "span", "sectionID": "section2", "elementContent": ["To polecenie utworzy nowego użytkownika i poprosi o podanie hasła oraz kilku dodatkowych informacji, takich jak pełne imię i nazwisko. Oczywiście poza hasłem możesz resztę pominąć.",""] },
+      {
+        "type": "img",
+        "sectionID": "section2",
+        "elementContent": [
+          "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/add_user_terminal.webp",
+          "Tworzenie nowego użytkownika poprzez Terminal",
+          "1280",
+          "802",
+          "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/add_user_terminal_ORIGINAL.webp"
+        ]
+      }
+
+]
+
