@@ -92,7 +92,7 @@
       "elementContent": ["sudo useradd nazwa_uzytkownika", ""]
     },
   { "type": "br", "sectionID": "section2"},
-    { "type": "span", "sectionID": "section2", "elementContent": [" Użycie tej komendy wiąże się z koniecznością nadania hasła dla konta oraz utworzenia i skonfigurowania katalogu domowego użytkownika.",""] },
+    { "type": "span", "sectionID": "section2", "elementContent": [" Użycie tej komendy wiąże się z koniecznością nadania hasła dla konta, utworzenia i skonfigurowania katalogu domowego użytkownika oraz powłoki bash. Potrzebne komendy do wykonania tych konfiguracji przedstawię pod koniec tego artykułu: modyfikowanie użytkownika.",""] },
 
    
 
@@ -161,6 +161,76 @@
         "1214",
         "579",
         "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/passwd_ORIGINAL.webp"
+      ]
+    },
+    {
+      "type": "h2",
+      "sectionID": "section4",
+      "elementContent": ["Usuwanie użytkownika",""]
+    }
+    ,
+    { "type": "span", "sectionID": "section4", "elementContent": ["Aby usunąć użytkownika z systemu, użyj polecenia ",""] },
+    { "type": "b", "sectionID": "section4", "elementContent": ["userdel",""] },
+    { "type": "br", "sectionID": "section4"},
+    {
+        "type": "text-block-name",
+        "sectionID": "section4",
+        "elementContent": ["sudo userdel nazwa_uzytkownika", ""]
+      },
+    { "type": "br", "sectionID": "section4"},
+    { "type": "span", "sectionID": "section4", "elementContent": ["W tej komendzie wyróżniamy dwa przydatne argumenty: ",""] },
+    {
+      "type": "list",
+      "sectionID": "section4",
+      "elementContent": {
+        "ver": "ul",
+        "listElements": [
+          [
+            {
+              "type": "b",
+              "sectionID": "section4",
+              "elementContent": ["-f:", ""]
+            },
+            {
+              "type": "span",
+              "sectionID": "section4",
+              "elementContent": [" Wymusza usuniecie użytkownika nawet gdy jest zalogowany.", ""]
+            }
+          ],
+          [
+            {
+              "type": "b",
+              "sectionID": "section4",
+              "elementContent": ["-r:", ""]
+            },
+            {
+              "type": "span",
+              "sectionID": "section4",
+              "elementContent": [" Usuwa dodatkowe pliki i katalogi powiązane z użytkownikiem np.: katalog domowy.", ""]
+            }
+          ]
+        ]
+      }
+    },
+    { "type": "br", "sectionID": "section4"},
+    { "type": "span", "sectionID": "section4", "elementContent": ["Istnieje też ",""] },
+    { "type": "b", "sectionID": "section4", "elementContent": ["deluser",""] },
+    { "type": "span", "sectionID": "section4", "elementContent": [", ale z tego ",""] },
+    { "type": "u", "sectionID": "section4", "elementContent": ["nie korzystaj",""] },
+    { "type": "span", "sectionID": "section4", "elementContent": [" bo jest gorsze ponieważ nie ma opcji ",""] },
+    { "type": "span", "sectionID": "section4", "elementContent": [" -f ",""] },
+    { "type": "span", "sectionID": "section4", "elementContent": [" / ",""] },
+    { "type": "span", "sectionID": "section4", "elementContent": ["--force",""] },
+    { "type": "span", "sectionID": "section4", "elementContent": [" do wymuszenia usunięcia użytkownika nawet gdy jakiś jego proces działa",""] },
+    {
+      "type": "img",
+      "sectionID": "section3",
+      "elementContent": [
+        "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/user_remove.webp",
+        "Usuwanie użytkownika poprzez Terminal",
+        "1214",
+        "579",
+        "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/user_remove_ORIGINAL.webp"
       ]
     }
 
