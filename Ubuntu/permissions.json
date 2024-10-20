@@ -69,7 +69,7 @@
   {
     "type": "span",
     "sectionID": "section1",
-    "elementContent": ["Komendy ", ""]
+    "elementContent": ["Komende ", ""]
   },
   {
     "type": "b",
@@ -162,7 +162,7 @@
   {
     "type": "span",
     "sectionID": "section1",
-    "elementContent": ["Zwróć uwagę jakie zmiany zaszły po zastosowaniu na zawartości katalogu Documents zmian w właścicielu i grupie.", ""]
+    "elementContent": ["Zwróć uwagę na zmiany, które zaszły w zawartości katalogu Documents po zmianie właściciela i grupy.", ""]
   },
   {
     "type": "img",
@@ -245,7 +245,7 @@
       {
         "type":"span",
         "sectionID":"section2",
-        "elementContent":["Listując zawartość katalogów w pierwszej części wyniku działania komendy ", ""]
+        "elementContent":["Listując zawartość katalogów za pomocą komendy ", ""]
     },
     {
         "type":"b",
@@ -255,7 +255,7 @@
     {
         "type":"span",
         "sectionID":"section2",
-        "elementContent":[" zobaczysz zestawienie kresek (-) i literek. Pierwszy znak to typ pliku, a kolejne 3 sekcje po 3 znaki to uprawnienia dla kolejno:", ""]
+        "elementContent":[", w pierwszej części wyniku zobaczysz zestawienie kresek (-) i liter. Pierwszy znak wskazuje typ pliku, a kolejne trzy sekcje po trzy znaki reprezentują uprawnienia dla:", ""]
     },
     {
         "type": "list",
@@ -322,7 +322,13 @@
       {
         "type": "span",
         "sectionID": "section3",
-        "elementContent": ["Zapewne pamietasz że w UNIX-owych systemach wszystko jest plikiem? To poniżej masz typy plików dzieki którym system nadaje im odpowiednie funkcjonalności i domyślne zachowania.", ""]
+        "elementContent": ["Zapewne pamietasz że w UNIX-owych systemach wszystko jest plikiem?", ""]
+      },
+      {"type":"br","sectionID":"section2"},
+      {
+        "type": "span",
+        "sectionID": "section3",
+        "elementContent": ["To poniżej masz typy plików dzieki którym system nadaje im odpowiednie funkcjonalności i domyślne zachowania.", ""]
       },
       {
         "type": "list",
@@ -358,7 +364,17 @@
                       {
                         "type": "span",
                         "sectionID": "section3",
-                        "elementContent": ["Przykład: dokumenty tekstowe, pliki konfiguracyjne, skrypty.", ""]
+                        "elementContent": ["Przykład: dokumenty tekstowe, pliki konfiguracyjne, skrypty ", ""]
+                      },
+                      {
+                        "type": "b",
+                        "sectionID": "section3",
+                        "elementContent": [".sh", "green"]
+                      },
+                      {
+                        "type": "span",
+                        "sectionID": "section3",
+                        "elementContent": [".", ""]
                       }
                     ]
                   ]
