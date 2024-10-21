@@ -1,5 +1,679 @@
 [
-    {"type": "h2", "sectionID": "section1", "elementContent": ["Wstęp"]},
-    {"type": "span", "sectionID": "section1","elementContent":["Przykładowy tekst wstępu do lekcji",""]},
-    {"type": "br", "sectionID": "section1"}
+  { "type": "h2", "sectionID": "section1", "elementContent": ["Wstęp"] },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      "W tym artykule pokażę, jak przygotować nowy dysk, utworzyć partycje oraz dodawać dane na dysk za pomocą terminala.",
+      ""
     ]
+  },
+  { "type": "br", "sectionID": "section1" },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      "Podczas instalacji Windowsa 10 i pracy z DiskPartem omówiłem trzy systemy plików: ",
+      ""
+    ]
+  },
+  {
+    "type": "b",
+    "sectionID": "section1",
+    "elementContent": ["NTFS", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [", ", ""]
+  },
+  {
+    "type": "b",
+    "sectionID": "section1",
+    "elementContent": ["FAT", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [", ", ""]
+  },
+  {
+    "type": "b",
+    "sectionID": "section1",
+    "elementContent": ["exFAT", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [". ", ""]
+  },
+  { "type": "br", "sectionID": "section1" },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      "Linux rozpoznaje te systemy plików, ale najczęściej używanym jest ",
+      ""
+    ]
+  },
+  {
+    "type": "b",
+    "sectionID": "section1",
+    "elementContent": ["Ext4", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      " (Fourth Extended File System). Czwarta wersja EXT została włączona do jądra Linux 2.6.28, które wydano 25 grudnia 2008 roku. Od tego czasu jest nieustannie rozwijana i szeroko stosowana w wielu dystrybucjach. Najprawdopodobniej nie powstanie piąta wersja EXT, ponieważ inne systemy plików, takie jak ",
+      ""
+    ]
+  },
+
+  {
+    "type": "b",
+    "sectionID": "section1",
+    "elementContent": ["Btrfs", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [" i ", ""]
+  },
+  {
+    "type": "b",
+    "sectionID": "section1",
+    "elementContent": ["ZFS", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      ", zyskują na popularności dzięki swoim zaawansowanym funkcjom.",
+      ""
+    ]
+  },
+  {"type":"br", "sectionID":"section1"},
+  {
+    "type": "h3",
+    "sectionID": "section1",
+    "elementContent": ["Przypomnienie", "pink"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      "W systemie Linux dyski nazywane są jako sd i kolejne litery alfabetu. Pierwszy dysk to sda i tak dalej. Partycje na dysku oznaczane są jako sdX1, sdX2 itd. Gdzie X to litera dysku. Na przykład: sda1, sda2, sdb1, sdc1 itd.",
+      ""
+    ]
+  },
+
+  {
+    "type": "h2",
+    "sectionID": "section2",
+    "elementContent": ["Przygotowanie nowego dysku"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      "Dodaj dysk do maszyny w VirtualBox tak jak na ponizszym obrazku i ją uruchom.",
+      ""
+    ]
+  },
+  {
+    "type": "img",
+    "sectionID": "section2",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/dodanie_nowego_dysku.webp",
+      "Dodanie nowego dysku dla maszyny wirtualnej w VirtualBox",
+      "805",
+      "960",
+      "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/dodanie_nowego_dysku_ORIGINAL.webp"
+    ]
+  },
+  {
+    "type": "h2",
+    "sectionID": "section3",
+    "elementContent": ["Tworzenie nowej tablicy partycjonowania i partycji"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": ["Uruchom terminal i wpisz komendę: ", ""]
+  },
+  {
+    "type": "text-block-name",
+    "sectionID": "section3",
+    "elementContent": ["lsblk", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [
+      ". Wyświetli się lista dysków i partycji. Na pomarańczowo oznaczono dyski, a kolorem limonkowym partycje. Dysk który ja mam zamiar przygotować to ",
+      ""
+    ]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section3",
+    "elementContent": ["sdc", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [
+      " jego rozmiar to 30GB oznaczone na obrazku kolorem niebieskim.",
+      ""
+    ]
+  },
+  {
+    "type": "img",
+    "sectionID": "section3",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/lsblk.webp",
+      "Wylistowane dyski i partycje w terminalu",
+      "1215",
+      "532",
+      "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/lsblk_ORIGINAL.webp"
+    ]
+  },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [
+      "Aby utworzyć nową tablicę partycjonowania i podzielić dysk na trzy partycje, wpisz komendę: ",
+      ""
+    ]
+  },
+  { "type": "br", "sectionID": "section3" },
+
+  {
+    "type": "text-block-name",
+    "sectionID": "section3",
+    "elementContent": ["sudo parted /dev/[nazwa_dysku]", ""]
+  },
+  { "type": "br", "sectionID": "section3" },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": ["W moim przypadku nazwa dysku to ", ""]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section3",
+    "elementContent": ["sdc", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [". Po wpisaniu komendy uruchomi się ", ""]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section3",
+    "elementContent": ["GNU Parted 3.6", "blue"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [
+      " i informacja na którym dysku będą przeprowadzane operacje.",
+      ""
+    ]
+  },
+  { "type": "br", "sectionID": "section3" },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": ["Teraz twój prompt zmienił się na ", ""]
+  },
+  {
+    "type": "i",
+    "sectionID": "section3",
+    "elementContent": ["(parted)", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [
+      ". Komendy które bedziesz musiał wpisać określą typ tablicy partycjonowania i wstepnie podzielą sektory danych na czyste partycje.",
+      ""
+    ]
+  },
+  { "type": "br", "sectionID": "section3" },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [
+      "Aby wyczyścić dysk i nadać mu nową tablicę partycji, wpisz komendę: ",
+      ""
+    ]
+  },
+  { "type": "br", "sectionID": "section3" },
+
+  {
+    "type": "text-block-name",
+    "sectionID": "section3",
+    "elementContent": ["mklabel {msdos [dla_MBR] || gpt [dla GPT]}", ""]
+  },
+  { "type": "br", "sectionID": "section3" },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [
+      "Nastepnie chcąc utworzyć 3 partycje musisz trzy razy wpisać komendę określając zakres sektorów dla każdej partycji w postaci procentowej lub w stosując jednostki (MB,GB) zamiast znaku %. Na przykład: ",
+      ""
+    ]
+  },
+  { "type": "br", "sectionID": "section3" },
+
+  {
+    "type": "text-block-name",
+    "sectionID": "section3",
+    "elementContent": ["mkpart primary ext4 0% 33%", ""]
+  },
+  { "type": "br", "sectionID": "section3" },
+
+  {
+    "type": "text-block-name",
+    "sectionID": "section3",
+    "elementContent": ["mkpart primary ext4 0MB 10.6GB", ""]
+  },
+  { "type": "br", "sectionID": "section3" },
+
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [
+      "Przygotowane w ten sposób partycje możesz wyświetlić używając komendy: ",
+      ""
+    ]
+  },
+  { "type": "br", "sectionID": "section3" },
+
+  {
+    "type": "text-block-name",
+    "sectionID": "section3",
+    "elementContent": ["print", ""]
+  },
+  { "type": "br", "sectionID": "section3" },
+
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [
+      "Aby wyjść z konsolowego programu parted wpisz komendę: ",
+      ""
+    ]
+  },
+  { "type": "br", "sectionID": "section3" },
+
+  {
+    "type": "text-block-name",
+    "sectionID": "section3",
+    "elementContent": ["quit", ""]
+  },
+  {
+    "type": "img",
+    "sectionID": "section3",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/parted.webp",
+      "Nowa tablica partycjonowania MBR i trzy partycje",
+      "1215",
+      "577",
+      "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/parted_ORIGINAL.webp"
+    ]
+  },
+  { "type": "br", "sectionID": "section3" },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [
+      "Niby w parted określaliśmy typ partycji jako ext4, ale system go nie rozpoznaje co możesz zaobserwować na kolejnym obrazku w niebieskim obramowaniu jest świerza partycja 3.",
+      ""
+    ]
+  },
+  {
+    "type": "img",
+    "sectionID": "section3",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/mkfs.webp",
+      "Formatowanie partycji na system plików ext4",
+      "1215",
+      "768",
+      "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/mkfs_ORIGINAL.webp"
+    ]
+  },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [
+      "Aby sformatować partycje by system wykrywał ją jako ext4, podając za każdą razą nazwy partycji wpisz komendę: ",
+      ""
+    ]
+  },
+  { "type": "br", "sectionID": "section3" },
+
+  {
+    "type": "text-block-name",
+    "sectionID": "section3",
+    "elementContent": ["sudo mkfs -t ext4 /dev/[nazwa_partycji]", ""]
+  },
+  {
+    "type":"h2",
+    "sectionID":"section4",
+    "elementContent":["Montowanie partycji lub dysku (gdy nie ma partycji)"]
+  },
+  {
+    "type":"span",
+    "sectionID":"section4",
+    "elementContent":["Do montowania dysków w systemach UNIX powinno się wykorzystywać katalog ",""]
+  },
+  {
+    "type":"b",
+    "sectionID":"section4",
+    "elementContent":["/mnt",""]
+  },
+  {
+    "type":"span",
+    "sectionID":"section4",
+    "elementContent":[", ale co system to inaczej pełna samowolka.",""]
+  },
+  {
+    "type": "list",
+    "sectionID": "section4",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "b",
+            "sectionID": "section4",
+            "elementContent": ["Ubuntu ", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": [" dyski montuje w katalogu ", ""]
+          },
+          {
+            "type": "b",
+            "sectionID": "section4",
+            "elementContent": [" /media/nazwa_użytkownika/UUID_dysku ", ""]
+          }
+        ],
+        [
+            {
+              "type": "b",
+              "sectionID": "section4",
+              "elementContent": ["Mac OSX ", ""]
+            },
+            {
+              "type": "span",
+              "sectionID": "section4",
+              "elementContent": [" dyski montuje w katalogu ", ""]
+            },
+            {
+              "type": "b",
+              "sectionID": "section4",
+              "elementContent": [" /Volumes/Nazwa_dysku ", ""]
+            }
+          ]
+      ]
+    }
+  },
+  {
+    "type":"span",
+    "sectionID":"section4",
+    "elementContent":["Ja wykorzystam jednak katalog ",""]
+  },
+  {
+    "type":"b",
+    "sectionID":"section4",
+    "elementContent":["/mnt",""]
+  },
+  {
+    "type":"span",
+    "sectionID":"section4",
+    "elementContent":[" i utworzę w nim trzy katalogi po jednym na każdą z nowych partycji dysku sdc. Następnie zamontuję przy użyciu komendy ",""]
+  },
+  {
+    "type":"b",
+    "sectionID":"section4",
+    "elementContent":["mount",""]
+  },
+  {
+    "type":"span",
+    "sectionID":"section4",
+    "elementContent":[":",""]
+  },
+  { "type": "br", "sectionID": "section4" },
+
+  {
+    "type":"text-block-name",
+    "sectionID":"section4",
+    "elementContent":["sudo mount /dev/sdc1 /mnt/part1",""]
+  },
+  { "type": "br", "sectionID": "section4" },
+  {
+    "type":"span",
+    "sectionID":"section4",
+    "elementContent":["Jak by dysk sdc został sformatowany mkfs-em bez podziału na partycje to możesz zamontować wtedy cały dysk podając jego nazwę (ale tak się nie powinno chyba robić 😋)",""]
+  },
+  { "type": "br", "sectionID": "section4" },
+  {
+    "type":"span",
+    "sectionID":"section4",
+    "elementContent":["Na poniższym obrazku widnieje przykład zamontowanej partycji 3 poprzez GUI Ubuntu oraz partycji 1 poprzez komendy w terminalu. Całość zaprezentowana w aplikacji ",""]
+  },
+  {
+    "type":"b",
+    "sectionID":"section4",
+    "elementContent":["Disks",""]
+  },
+  {
+    "type":"span",
+    "sectionID":"section4",
+    "elementContent":[":",""]
+  },
+  {
+    "type": "img",
+    "sectionID": "section4",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/mount.webp",
+      "Montowanie partycji poprzez GUI i terminal",
+      "1215",
+      "836",
+      "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/mount_ORIGINAL.webp"
+    ]
+  },
+  {
+    "type":"h2",
+    "sectionID":"section5",
+    "elementContent":["Odmontowanie partycji lub dysku"]
+  },
+  {
+    "type":"span",
+    "sectionID":"section5",
+    "elementContent":["Aby od odmontować partycje lub dysk wpisz komendę",""]
+  },
+  {
+    "type":"b",
+    "sectionID":"section5",
+    "elementContent":["umount",""]
+  },
+  {
+    "type":"span",
+    "sectionID":"section5",
+    "elementContent":[":",""]
+  },
+  { "type": "br", "sectionID": "section5" },
+  {
+    "type":"text-block-name",
+    "sectionID":"section5",
+    "elementContent":["sudo umount [lokalizacja_katalogu_do_ktorego_zamontowano_dysk_lub_partycje]",""]
+  },
+    { "type": "br", "sectionID": "section5" },
+    {
+        "type":"span",
+        "sectionID":"section5",
+        "elementContent":["Na poniższym obrazku widnieje przykład odmontowania partycji 1 poprzez GUI oraz 3 wykorzystując komendę w terminalu. ",""]
+    },
+    {
+        "type": "img",
+        "sectionID": "section5",
+        "elementContent": [
+          "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/umount.webp",
+          "Odmontowanie partycji poprzez GUI i terminal",
+          "1215",
+          "836",
+          "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/umount_ORIGINAL.webp"
+        ]
+      },
+
+    {
+        "type":"h2",
+        "sectionID":"section6",
+        "elementContent":["Automatyczne montowanie partycji lub dysku przy starcie systemu"]
+    },
+    {
+        "type":"span",
+        "sectionID":"section6",
+        "elementContent":["Aby automatycznie montować partycje lub dyski przy starcie systemu należy dodać wpis do pliku ",""]
+    },
+    {
+        "type":"b",
+        "sectionID":"section6",
+        "elementContent":["/etc/fstab",""]
+    },
+    {
+        "type":"span",
+        "sectionID":"section6",
+        "elementContent":[":",""]
+    },
+    { "type": "br", "sectionID": "section6" },
+    {
+        "type":"span",
+        "sectionID":"section6",
+        "elementContent":["Wpis powinien wyglądać mniej więcej tak: ",""]
+    },
+    { "type": "br", "sectionID": "section6" },
+    {
+        "type":"text-block-name",
+        "sectionID":"section6",
+        "elementContent":["/dev/sdc1 /mnt/part1 ext4 defaults 0 0",""]
+    },
+    { "type": "br", "sectionID": "section6" },
+    {
+        "type":"span",
+        "sectionID":"section6",
+        "elementContent":["Gdzie: ",""]
+    },
+    { "type": "br", "sectionID": "section6" },
+    {
+        "type":"b",
+        "sectionID":"section6",
+        "elementContent":["/dev/sdc1",""]
+    },
+    {
+        "type":"span",
+        "sectionID":"section6",
+        "elementContent":[" - to nazwa partycji lub dysku, ",""]
+    },
+    { "type": "br", "sectionID": "section6" },
+    {
+        "type":"b",
+        "sectionID":"section6",
+        "elementContent":["/mnt/part1",""]
+    },
+    {
+        "type":"span",
+        "sectionID":"section6",
+        "elementContent":[" - to katalog do którego zamontowano partycje lub dysk, ",""]
+    },
+    { "type": "br", "sectionID": "section6" },
+    {
+        "type":"b",
+        "sectionID":"section6",
+        "elementContent":["ext4",""]
+    },
+    {
+        "type":"span",
+        "sectionID":"section6",
+        "elementContent":[" - to typ systemu plików, ",""]
+    },
+    { "type": "br", "sectionID": "section6" },
+    {
+        "type":"b",
+        "sectionID":"section6",
+        "elementContent":["defaults",""]
+    },
+    {
+        "type":"span",
+        "sectionID":"section6",
+        "elementContent":[" - to opcje montowania, ",""]
+    },
+    { "type": "br", "sectionID": "section6" },
+    {
+        "type":"b",
+        "sectionID":"section6",
+        "elementContent":["0",""]
+    },
+    {
+        "type":"span",
+        "sectionID":"section6",
+        "elementContent":[" - to opcje sprawdzania partycji podczas startu systemu, ",""]
+    },
+    { "type": "br", "sectionID": "section6" },
+    {
+        "type":"b",
+        "sectionID":"section6",
+        "elementContent":["0",""]
+    },
+    {
+        "type":"span",
+        "sectionID":"section6",
+        "elementContent":[" - to opcje sprawdzania partycji podczas startu systemu, ",""]
+    },
+    { "type": "br", "sectionID": "section6" },
+    {
+        "type":"span",
+        "sectionID":"section6",
+        "elementContent":["Po dodaniu wpisu do pliku /etc/fstab możesz sprawdzić czy wpis jest poprawny wpisując komendę ",""]
+    },
+    {
+        "type":"text-block-name",
+        "sectionID":"section6",
+        "elementContent":["sudo mount -a",""]
+    },
+    { "type": "br", "sectionID": "section6" },
+    {
+        "type":"span",
+        "sectionID":"section6",
+        "elementContent":["Jeśli nie pojawiły się żadne błędy to wszystko jest ok. Możesz też sprawdzić czy partycje są zamontowane poprawnie wpisując komendę ",""]
+    },
+    {
+        "type":"text-block-name",
+        "sectionID":"section6",
+        "elementContent":["df -h",""]
+    },
+    { "type": "br", "sectionID": "section6" },
+    {
+        "type":"span",
+        "sectionID":"section6",
+        "elementContent":["Na poniższym obrazku widnieje przykład wpisu do pliku /etc/fstab oraz sprawdzenie czy partycje są zamontowane poprawnie. ",""]
+    },
+    {
+        "type": "img",
+    "sectionID": "section6",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/auto_mount.webp",
+      "Wpis do pliku /etc/fstab aby partycje były montowane przy starcie systemu",
+      "1214",
+      "764",
+      "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/auto_mount_ORIGINAL.webp"
+    ]
+    }
+]
