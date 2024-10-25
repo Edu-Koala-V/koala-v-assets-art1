@@ -675,5 +675,15 @@
       "764",
       "Edu-Koala-V/koala-v-assets-art1/main/Ubuntu/auto_mount_ORIGINAL.webp"
     ]
+    },
+   {
+        "type":"h2",
+        "sectionID":"section7",
+        "elementContent":["Alternatywa dla parted",""]
+    },
+   {
+        "type":"span",
+        "sectionID":"section7",
+        "elementContent":["Kiedy już zapoznasz się z narzędziem parted, możesz samodzielnie przeprowadzić ponowny podział na partycje, tym razem korzystając z FDISK lub GDISK. Warto również spróbować graficznego narzędzia GParted. 😁",""]
     }
 ]
