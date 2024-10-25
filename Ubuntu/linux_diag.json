@@ -1,5 +1,636 @@
 [
-    {"type": "h2", "sectionID": "section1", "elementContent": ["Wstęp"]},
-    {"type": "span", "sectionID": "section1","elementContent":["Przykładowy tekst wstępu do lekcji",""]},
-    {"type": "br", "sectionID": "section1"}
-    ]
+    {
+        "type": "h2",
+        "sectionID": "section1",
+        "elementContent": ["Wstęp",""]
+    },
+    {
+        "type": "span",
+        "sectionID": "section1",
+        "elementContent": ["Na egzaminie często pojawiają się pytania dotyczące tych jak i wcześniej omówionych komend. Często też pojawia się zadanie polegające na uzupełnieniu tabeli w arkuszu danymi z komputera z zainstalowanym systemem Linux. Warto więc zapoznać się z poniższymi komendami, samodzielnie je wypróbować i przeanalizować wyniki.",""]
+    },
+    {
+        "type": "h2",
+        "sectionID": "section2",
+        "elementContent": ["Podstawowe informacje o systemie",""]
+    },
+    {
+        "type":"span",
+        "sectionID": "section2",
+        "elementContent": ["Komenda ",""]
+    },
+    {
+        "type": "bi",
+        "sectionID": "section2",
+        "elementContent": ["uname",""]
+    },
+    {
+        "type": "i",
+        "sectionID": "section2",
+        "elementContent": [" - skrót od unix name - ",""]
+    },
+    {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": ["umożliwia wyświetlenie informacji o systemie operacyjnym, na którym pracujemy. W zależności od zastosowanych opcji, komenda ta może wyświetlić informacje o nazwie jądra, wersji jądra, wersji systemu, nazwie hosta, architekturze procesora, itp.",""]
+    },
+    {
+        "type": "br",
+        "sectionID": "section2"
+    },
+    {
+        "type": "text-block-name",
+        "sectionID": "section2",
+        "elementContent": ["uname -a",""]
+    },
+    {
+        "type": "br",
+        "sectionID": "section2"
+    },
+    {
+        "type": "br",
+        "sectionID": "section2"
+    },
+    {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": ["Komenda ",""]
+    },
+    {
+        "type": "bi",
+        "sectionID": "section2",
+        "elementContent": ["hostname",""]
+    },
+    {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": [" umożliwia wyświetlenie nazwy hosta, na którym pracujemy. W twoim przypadku skoro korzystasz z ubuntu to w prompterze jest zapisany hostname.",""]
+    },
+    {
+        "type": "br",
+        "sectionID": "section2"
+    },
+    {
+        "type": "text-block-name",
+        "sectionID": "section2",
+        "elementContent": ["hostname",""]
+    },
+    {
+        "type": "br",
+        "sectionID": "section2"
+    },
+    {
+        "type": "br",
+        "sectionID": "section2"
+    },
+    {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": ["Komenda ",""]
+    },
+    {
+        "type": "bi",
+        "sectionID": "section2",
+        "elementContent": ["whoami",""]
+    },
+    {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": [" umożliwia wyświetlenie nazwy użytkownika, na którego konto jesteśmy zalogowani. Druga bezużyteczna komenda dla użytkowników domyślnych w ubuntu ponieważ ta informacja jest w prompterze",""]
+    },
+    {
+        "type": "br",
+        "sectionID": "section2"
+    },
+    {
+        "type":"text-block-name",
+        "sectionID": "section2",
+        "elementContent": ["whoami",""]
+    },
+    {
+        "type": "br",
+        "sectionID": "section2"
+    },
+    {
+        "type": "br",
+        "sectionID": "section2"
+    },
+    {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": ["Komenda ",""]
+    },
+    {
+        "type": "bi",
+        "sectionID": "section2",
+        "elementContent": ["id",""]
+    },
+    {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": [" umożliwia wyświetlenie informacji o użytkowniku, na którego konto jesteśmy zalogowani, albo możesz równie dobrze dopisać na koniec nazwę użytkownika. Ważne dla ciebie dane to uid oraz gid czyli kolejno user id i group id.",""]
+    },
+    {
+        "type": "br",
+        "sectionID": "section2"
+    },
+    {
+        "type": "text-block-name",
+        "sectionID": "section2",
+        "elementContent": ["id",""]
+    },
+    {
+        "type": "br",
+        "sectionID": "section2"
+    },
+    {
+        "type": "text-block-name",
+        "sectionID": "section2",
+        "elementContent": ["id inny_uzytkownik",""]
+    },
+    {
+        "type": "br",
+        "sectionID": "section2"
+    },
+    {
+        "type": "br",
+        "sectionID": "section2"
+    },
+    {
+        "type":"h2",
+        "sectionID": "section3",
+        "elementContent": ["Informacje o sprzęcie",""]
+    },
+    {
+        "type": "span",
+        "sectionID": "section3",
+        "elementContent": ["Komenda ",""]
+    },
+    {
+        "type": "bi",
+        "sectionID": "section3",
+        "elementContent": ["top",""]
+    },
+    {
+        "type": "span",
+        "sectionID": "section3",
+        "elementContent": [" umożliwia wyświetlenie informacji o obciążeniu systemu, procesach, pamięci, itp. To jest taki terminalowy menadzer zadań z Windowsa.",""]
+    },
+    {
+        "type": "br",
+        "sectionID": "section3"
+    },
+    {
+        "type": "text-block-name",
+        "sectionID": "section3",
+        "elementContent": ["top",""]
+    },
+    {
+        "type": "br",
+        "sectionID": "section3"
+    },
+    {
+        "type": "br",
+        "sectionID": "section3"
+    },
+    {
+        "type": "span",
+        "sectionID": "section3",
+        "elementContent": ["Komenda ",""]
+    },
+    {
+        "type": "bi",
+        "sectionID": "section3",
+        "elementContent": ["free",""]
+    },
+    {
+        "type": "span",
+        "sectionID": "section3",
+        "elementContent": [" umożliwia wyświetlenie informacji o wykorzystaniu pamięci RAM. Ważne dla ciebie dane to total, used, free, shared, buff/cache. Pierwsze trzy to odpowiednio cała pamięć, pamięć używana i wolna pamięć. Kolejne dwie to pamięć współdzielona i pamięć buforowana.",""]
+    },
+    {
+        "type": "br",
+        "sectionID": "section3"
+    },
+    {
+        "type": "text-block-name",
+        "sectionID": "section3",
+        "elementContent": ["free",""]
+    },
+    {
+        "type": "br",
+        "sectionID": "section3"
+    },
+    {
+        "type": "text-block-name",
+        "sectionID": "section3",
+        "elementContent": ["free -h",""]
+    },
+    {
+        "type": "br",
+        "sectionID": "section3"
+        },
+    {
+        "type": "span",
+        "sectionID": "section3",
+        "elementContent": [" - h oznacza human readable, czyli czytelne dla człowieka. Wartości są podane w formacie KB, MB, GB, itd.",""]
+    },
+    {
+        "type": "br",
+        "sectionID": "section3"
+    },
+    {
+        "type": "br",
+        "sectionID": "section3"
+    },
+    {
+        "type": "span",
+        "sectionID": "section3",
+        "elementContent": ["Komenda ",""]
+    },
+    {
+        "type": "bi",
+        "sectionID": "section3",
+        "elementContent": ["df",""]
+    },
+    {
+        "type": "span",
+        "sectionID": "section3",
+        "elementContent": [" umożliwia wyświetlenie informacji o wykorzystaniu przestrzeni dyskowej. Ważne dla ciebie dane to system plików, montowany punkt, rozmiar, użyte, dostępne, użycie. Pierwsze trzy to odpowiednio system plików, montowany punkt i rozmiar partycji. Kolejne trzy to rozmiar partycji, zajęte miejsce i wolne miejsce.",""]
+    },
+    {
+        "type": "br",
+        "sectionID": "section3"
+    },
+    {
+        "type": "text-block-name",
+        "sectionID": "section3",
+        "elementContent": ["df",""]
+    },
+    {
+        "type": "br",
+        "sectionID": "section3"
+    },
+    {
+        "type": "text-block-name",
+        "sectionID": "section3",
+        "elementContent": ["df -h",""]
+    },
+    {
+        "type": "br",
+        "sectionID": "section3"
+        },
+
+    {
+        "type": "span",
+        "sectionID": "section3",
+        "elementContent": [" - h oznacza human readable, czyli czytelne dla człowieka. Wartości są podane w formacie KB, MB, GB, itd.",""]
+    },
+    {
+        "type": "br",
+        "sectionID": "section3"
+    },
+    {
+        "type": "br",
+        "sectionID": "section3"
+    },
+    {
+        "type": "span",
+        "sectionID": "section3",
+        "elementContent": ["Komenda ",""]
+    },
+    {
+        "type": "bi",
+        "sectionID": "section3",
+        "elementContent": ["du",""]
+    },
+    {
+        "type": "span",
+        "sectionID": "section3",
+        "elementContent": [" umożliwia wyświetlenie informacji o zajętości przestrzeni dyskowej w danym katalogu. Ważne dla ciebie dane to rozmiar katalogu w skrócie czyli argument -s i po lucku czyli -h. ",""]
+    },
+    {
+        "type": "br",
+        "sectionID": "section3"
+    },
+    {
+        "type": "text-block-name",
+        "sectionID": "section3",
+        "elementContent": ["du -sh",""]
+    },
+
+    {
+        "type": "br",
+        "sectionID": "section3"
+    },
+    {
+        "type": "br",
+        "sectionID": "section3"
+    },
+    {
+        "type": "span",
+        "sectionID": "section3",
+        "elementContent": ["Komenda ",""]
+    },
+    {
+        "type": "bi",
+        "sectionID": "section3",
+        "elementContent": ["lshw",""]
+    },
+    {
+        "type": "span",
+        "sectionID": "section3",
+        "elementContent": [" wyświetla informacje o podzespołach komputera. ",""]
+    },
+    {
+        "type": "br",
+        "sectionID": "section3"
+    },
+    {
+        "type": "text-block-name",
+        "sectionID": "section3",
+        "elementContent": ["lshw | less",""]
+    },
+    {
+        "type": "br",
+        "sectionID": "section3"
+    },
+    {
+        "type": "span",
+        "sectionID": "section3",
+        "elementContent": ["Warto dodać ",""]
+    },
+    {
+        "type": "b",
+        "sectionID": "section3",
+        "elementContent": ["| less",""]
+    },
+    {
+        "type": "span",
+        "sectionID": "section3",
+        "elementContent": [" pozwoli ci to na przewijanie wyniku w Linuxach nie obsługujących myszki a co za tym idzie scrolla. ",""]
+    },
+    {
+        "type": "br",
+        "sectionID": "section3"
+    },
+    {
+        "type": "span",
+        "sectionID": "section3",
+        "elementContent": ["Wstępują też warianty szczegółowe takie jak:",""]
+    },
+    {
+        "type": "br",
+        "sectionID": "section3"
+    },
+    {
+        "type": "list",
+        "sectionID": "section3",
+        "elementContent": {
+          "ver": "ul",
+          "listElements": [
+            [
+              {
+                "type": "b",
+                "sectionID": "section3",
+                "elementContent": ["lscpu ", ""]
+              },
+              {
+                "type": "span",
+                "sectionID": "section3",
+                "elementContent": [" dokładniejsze dane o procesorze CPU", ""]
+              }
+            ],
+            [
+                {
+                  "type": "b",
+                  "sectionID": "section3",
+                  "elementContent": ["lspci ", ""]
+                },
+                {
+                  "type": "span",
+                  "sectionID": "section3",
+                  "elementContent": [" dokładniejsze dane na temat kart rozszerzeń podłączonych do PCI ", ""]
+                }
+              ],
+              [
+                {
+                  "type": "b",
+                  "sectionID": "section3",
+                  "elementContent": ["lsusb ", ""]
+                },
+                {
+                  "type": "span",
+                  "sectionID": "section3",
+                  "elementContent": [" dokładniejsze dane na temat urządzeń USB podłączonych do komputera ", ""]
+                }
+              ],
+              [
+                {
+                  "type": "b",
+                  "sectionID": "section3",
+                  "elementContent": ["lsblk ", ""]
+                },
+                {
+                  "type": "span",
+                  "sectionID": "section3",
+                  "elementContent": [" dokładniejsze dane na temat partycji dyskowych ", ""]
+                }
+              ],
+              [
+                {
+                  "type": "b",
+                  "sectionID": "section3",
+                  "elementContent": ["lsmod ", ""]
+                },
+                {
+                  "type": "span",
+                  "sectionID": "section3",
+                  "elementContent": [" dokładniejsze dane na temat modułów jądra ", ""]
+                }
+              ]
+          ]
+        }
+      },
+   {
+    "type": "h2",
+    "sectionID": "section4",
+    "elementContent": ["Diagnostyka sieci",""]
+   },
+   {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": ["podstawowe i najważniejsze polecenia dla ciebie w systemie Linux to ping oraz ip. ",""]
+   },
+   {
+    "type":"br",
+    "sectionID": "section4"
+   },
+   {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": ["Komenda ",""]
+   },
+   {
+    "type": "bi",
+    "sectionID": "section4",
+    "elementContent": ["ping",""]
+   },
+    {
+     "type": "span",
+     "sectionID": "section4",
+     "elementContent": [" za pośrednictwem protokołu icmp przesyła pakiety oczekując na odpowiedź, umożliwia to sprawdzenie czy dany host jest widoczny i osiągalny w sieci. ",""]
+    },
+    {
+     "type": "br",
+     "sectionID": "section4"
+    },
+    {
+     "type": "text-block-name",
+     "sectionID": "section4",
+     "elementContent": ["ping adres_hosta",""]
+    },
+    {
+     "type": "br",
+     "sectionID": "section4"
+    },
+    {
+     "type": "br",
+     "sectionID": "section4"
+    },
+    {
+     "type": "span",
+     "sectionID": "section4",
+     "elementContent": ["Komenda ",""]
+    },
+    {
+     "type": "bi",
+     "sectionID": "section4",
+     "elementContent": ["ip",""]
+    },
+    {
+     "type": "span",
+     "sectionID": "section4",
+     "elementContent": [" umożliwia wyświetlenie informacji o interfejsach sieciowych. ",""]
+    },
+    {
+     "type": "br",
+     "sectionID": "section4"
+    },
+    {
+     "type": "text-block-name",
+     "sectionID": "section4",
+     "elementContent": ["ip a",""]
+    },
+    {
+     "type": "br",
+     "sectionID": "section4"
+    },
+    {
+     "type": "br",
+     "sectionID": "section4"
+    },
+    {
+     "type": "text-block-name",
+     "sectionID": "section4",
+     "elementContent": ["ip -c a",""]
+    },
+    {
+        "type": "br",
+        "sectionID": "section4"
+        },
+        {
+        "type": "br",
+        "sectionID": "section4"
+        },
+        {
+        "type": "span",
+        "sectionID": "section4",
+        "elementContent": ["Warto dodać ",""]
+        },
+        {
+        "type": "b",
+        "sectionID": "section4",
+        "elementContent": ["-c",""]
+        },
+        {
+        "type": "span",
+        "sectionID": "section4",
+        "elementContent": [" pozwoli ci to na wyświetlenie informacji w bardziej czytelny sposób. ",""]
+        },
+        {
+        "type": "br",
+        "sectionID": "section4"
+        },
+        {
+        "type": "br",
+        "sectionID": "section4"
+        },
+        {
+        "type": "span",
+        "sectionID": "section4",
+        "elementContent": ["Wstępują też warianty szczegółowe takie jak:",""]
+        },
+        {
+        "type": "br",
+        "sectionID": "section4"
+        },
+        {
+        "type": "list",
+        "sectionID": "section4",
+        "elementContent": {
+        "ver": "ul",
+        "listElements": [
+            [
+            {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["ip route ", ""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": [" wyświetla tablicę routingu ", ""]
+            }
+            ],
+            [
+                {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["ip link ", ""]
+                },
+                {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": [" wyświetla informacje o interfejsach sieciowych ", ""]
+                }
+            ],
+            [
+                {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["ip neigh ", ""]
+                },
+                {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": [" wyświetla tablicę ARP ", ""]
+                }
+            ],
+            [
+                {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["ip maddr ", ""]
+                },
+                {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": [" wyświetla tablicę MAC ", ""]
+                }
+            ]
+        ]
+    }
+    }
+
+]
