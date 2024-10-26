@@ -1,5 +1,497 @@
 [
-    {"type": "h2", "sectionID": "section1", "elementContent": ["Wstęp"]},
-    {"type": "span", "sectionID": "section1","elementContent":["Przykładowy tekst wstępu do lekcji",""]},
-    {"type": "br", "sectionID": "section1"}
+  {
+    "type": "h2",
+    "sectionID": "section1",
+    "elementContent": ["Wstęp", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      "Sieć komputerowa to grupa komputerów lub innych urządzeń połączonych w celu wymiany danych lub współdzielenia zasobów. Do najczęstszych zastosowań sieci komputerowych należą:",
+      ""
     ]
+  },
+  {
+    "type": "list",
+    "sectionID": "section1",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "span",
+            "sectionID": "section1",
+            "elementContent": [
+              "Korzystanie ze wspólnych urządzeń, takich jak skanery i drukarki.",
+              ""
+            ]
+          }
+        ],
+        [
+          {
+            "type": "span",
+            "sectionID": "section1",
+            "elementContent": ["Współdzielenie oprogramowania.", ""]
+          }
+        ],
+        [
+          {
+            "type": "span",
+            "sectionID": "section1",
+            "elementContent": ["Dostęp do centralnej bazy danych.", ""]
+          }
+        ],
+        [
+          {
+            "type": "span",
+            "sectionID": "section1",
+            "elementContent": [
+              "Przesyłanie danych, w tym poczty elektronicznej i plików.",
+              ""
+            ]
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "type": "br",
+    "sectionID": "section1"
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      "Sieci komputerowe można klasyfikować według modelu architektury sieciowej, sposobu dostępu do zasobów oraz obszaru działania.",
+      ""
+    ]
+  },
+  {
+    "type": "h2",
+    "sectionID": "section2",
+    "elementContent": ["Modele architektury sieciowej", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      "W zależności od sposobu zarządzania zasobami, wyróżniamy dwa główne modele sieci:",
+      ""
+    ]
+  },
+  {
+    "type": "list",
+    "sectionID": "section2",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["Klient-Serwer: ", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [
+              "W tym modelu jeden lub kilka głównych serwerów udostępnia dane i usługi dla klientów. Przykłady obejmują hosting stron ",
+              ""
+            ]
+          },
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["WwW", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [" oraz serwery gier ", ""]
+          },
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": [" MMO", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [".", ""]
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "type": "img",
+    "sectionID": "section2",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/Sieci/server-klient.webp",
+      "Model architektury sieciowej: Klient-Serwer",
+      "1878",
+      "1156",
+      "Edu-Koala-V/koala-v-assets-art1/main/Sieci/server-klient_ORIGINAL.webp"
+    ]
+  },
+  {
+    "type": "list",
+    "sectionID": "section2",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["Peer-to-Peer (P2P) ", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [
+              "Znana również jako sieć punkt-punkt, sieć równoprawna lub sieć równorzędna. W tym modelu nie ma hierarchii – każdy uczestnik sieci może jednocześnie korzystać z zasobów oraz je udostępniać. Przykłady usług wymiany plików torrent to:",
+              ""
+            ]
+          },
+          {
+            "type": "list",
+            "sectionID": "section2",
+            "elementContent": {
+              "ver": "ul",
+              "listElements": [
+                [
+                  {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": ["qBittorrent", ""]
+                  }
+                ],
+                [
+                  {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": ["BitTorrent", ""]
+                  }
+                ],
+                [
+                  {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": ["µTorrent", ""]
+                  }
+                ]
+              ]
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "type": "img",
+    "sectionID": "section2",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/Sieci/p2p.webp",
+      "Model architektury sieciowej: Peer-to-Peer (P2P)",
+      "1588",
+      "1014",
+      "Edu-Koala-V/koala-v-assets-art1/main/Sieci/p2p_ORIGINAL.webp"
+    ]
+  },
+  {
+    "type": "h2",
+    "sectionID": "section3",
+    "elementContent": ["Rodzaje sieci ze względu na obszar działania", ""]
+  },
+  {
+    "type": "list",
+    "sectionID": "section3",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": ["PAN ", ""]
+          },
+          {
+            "type": "i",
+            "sectionID": "section3",
+            "elementContent": ["(Personal Area Network)", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [
+              ": Najmniejsza sieć, znana również jako sieć osobista, służy do transferu danych na niewielkie odległości przy użyciu technologii takich jak ",
+              ""
+            ]
+          },
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": ["Bluetooth", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [", ", ""]
+          },
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": ["NFC", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [" czy ", ""]
+          },
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": ["IrDA", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [" (podczerwień).", ""]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": ["LAN ", ""]
+          },
+          {
+            "type": "i",
+            "sectionID": "section3",
+            "elementContent": ["(Local Area Network): ", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [
+              "Sieć lokalna działająca na niewielkim, ograniczonym obszarze, najczęściej w obrębie budynku, firmy lub gospodarstwa domowego.",
+              ""
+            ]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": ["WLAN ", ""]
+          },
+          {
+            "type": "i",
+            "sectionID": "section3",
+            "elementContent": ["(Wireless Local Area Network): ", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [
+              "Bezprzewodowa sieć lokalna, znana również jako ",
+              ""
+            ]
+          },
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": ["WiFi", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [".", ""]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": ["MAN", ""]
+          },
+          {
+            "type": "i",
+            "sectionID": "section3",
+            "elementContent": ["(Metropolitan Area Network): ", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [
+              "Miejska sieć komputerowa, umożliwiająca transmisję danych na obszarze aglomeracji lub miasta, zazwyczaj z wykorzystaniem przewodów światłowodowych, które łączą rozproszone sieci .",
+              ""
+            ]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": ["LAN", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [".", ""]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": ["WAN", ""]
+          },
+          {
+            "type": "i",
+            "sectionID": "section3",
+            "elementContent": ["(Wide Area Network): ", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [
+              "Największy rodzaj sieci, obejmujący ogromne przestrzenie geograficzne, takie jak kraj, kontynent czy nawet cały świat. Przykłady to ",
+              ""
+            ]
+          },
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": ["Internet", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [" i ", ""]
+          },
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": ["VPN.", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [".", ""]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": ["SAN", ""]
+          },
+          {
+            "type": "i",
+            "sectionID": "section3",
+            "elementContent": ["(Storage Area Network): ", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [
+              "Sieć serwerów umożliwiająca dostęp do danych jako dodatkowego dysku dla systemu, stanowiąca alternatywę dla ",
+              ""
+            ]
+          },
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": ["NAS", ""]
+          },
+          {
+            "type": "i",
+            "sectionID": "section3",
+            "elementContent": [" (Network Attached Storage)", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [
+              ", które udostępnia katalogi z dysków połączonych w ",
+              ""
+            ]
+          },
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": ["RAID", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": ["-y.", ""]
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "type": "h2",
+    "sectionID": "section4",
+    "elementContent": [
+      "Podział sieci komputerowych ze względu na dostęp do zasobów",
+      ""
+    ]
+  },
+  {
+    "type": "list",
+    "sectionID": "section4",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "b",
+            "sectionID": "section4",
+            "elementContent": ["Internet: ", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": [
+              "Globalna sieć komputerowa, łącząca miliony urządzeń na całym świecie. Jest to publiczna sieć, dostępna dla każdego, kto posiada połączenie internetowe.",
+              ""
+            ]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section4",
+            "elementContent": ["Intranet: ", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": [
+              "Prywatna sieć komputerowa działająca wewnątrz organizacji lub przedsiębiorstwa. Jest to zamknięta sieć, do której dostęp mają jedynie pracownicy lub członkowie danej organizacji.",
+              ""
+            ]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section4",
+            "elementContent": ["Extranet: ", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": [
+              "Rozszerzenie Intranetu, które umożliwia kontrolowany dostęp do jego części. Często wykorzystywany na uczelniach wyższych.",
+              ""
+            ]
+          }
+        ]
+      ]
+    }
+  }
+]
