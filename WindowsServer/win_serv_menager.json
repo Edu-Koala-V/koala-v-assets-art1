@@ -417,7 +417,7 @@
   {
     "type": "link-art",
     "sectionID": "section4",
-    "elementContent": ["DNS - Domain Name System", "Sieci komputerowe"]
+    "elementContent": ["DNS - Domain Name System", "Sieci Komputerowe"]
   },
   {
     "type": "br",
@@ -560,7 +560,7 @@
   {
     "type": "link-art",
     "sectionID": "section5",
-    "elementContent": ["Adresacja IPv4", "Sieci komputerowe"]
+    "elementContent": ["Adresacja IPv4", "Sieci Komputerowe"]
   },
   {
     "type": "span",
@@ -570,7 +570,7 @@
   {
     "type": "link-art",
     "sectionID": "section5",
-    "elementContent": ["Adresacja IPv6", "Sieci komputerowe"]
+    "elementContent": ["Adresacja IPv6", "Sieci Komputerowe"]
   },
   {
     "type": "span",
