@@ -1,5 +1,659 @@
 [
-    {"type": "h2", "sectionID": "section1", "elementContent": ["Wstęp"]},
-    {"type": "span", "sectionID": "section1","elementContent":["Przykładowy tekst wstępu do lekcji",""]},
-    {"type": "br", "sectionID": "section1"}
+  {
+    "type": "h2",
+    "sectionID": "section1",
+    "elementContent": ["Wstęp", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      "Aby skonfigurować maszynę wirtualną z Windows Server 2022 w VirtualBox, wykonaj następujące kroki:",
+      ""
     ]
+  },
+  {
+    "type": "list",
+    "sectionID": "section1",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "b",
+            "sectionID": "section1",
+            "elementContent": ["Karta sieciowa 1: ", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section1",
+            "elementContent": ["Ustaw tryb działania na NAT.", ""]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section1",
+            "elementContent": ["Karta sieciowa 2: ", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section1",
+            "elementContent": [
+              "Ustaw tryb działania na Sieć wewnętrzną. Możesz nadać jej inną nazwę niż domyślna, co spowoduje separację komunikacji sieciowej tylko pomiędzy maszynami działającymi w sieci wewnętrznej o tej samej nazwie.",
+              ""
+            ]
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      "Dodatkowo, dodaj nowy dysk do kontrolera SATA o dowolnej pojemności, na przykład 70 GB. Nie zaznaczaj opcji ",
+      ""
+    ]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": ["„Pre-allocate Full Size”", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      ", co pozwoli na utworzenie dysku o dynamicznym rozmiarze, dzięki czemu nie zapchasz fizycznej pamięci swojego komputera.",
+      ""
+    ]
+  },
+  {
+    "type": "img",
+    "sectionID": "section1",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/Konfiguracja_Windows_Server_w_VB.webp",
+      "Konfiguracja maszyny wirtualnej z Windows Server 2022 w VirtualBox",
+      "1562",
+      "960",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/Konfiguracja_Windows_Server_w_VB_ORIGINAL.webp"
+    ]
+  },
+  {
+    "type": "h2",
+    "sectionID": "section2",
+    "elementContent": ["Windows Server i Klawisz Hosta w VirtualBox", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      "Aby odblokować ekran logowania w Windows Server, konieczne jest użycie kombinacji klawiszy ",
+      ""
+    ]
+  },
+  {
+    "type": "key-combo",
+    "sectionID": "section2",
+    "elementContent": ["Ctrl", "Alt", "Delete"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      ". Jednak ten skrót może być przechwycony przez system gospodarza. Dlatego VirtualBox oferuje funkcję klawisza hosta, którym w moim przypadku jest prawy klawisz ",
+      ""
+    ]
+  },
+  {
+    "type": "key-combo",
+    "sectionID": "section2",
+    "elementContent": ["  Ctrl"]
+  },
+  {
+    "type": "br",
+    "sectionID": "section2"
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": ["Klawisz hosta ma dwie ważne funkcje:", ""]
+  },
+  {
+    "type": "list",
+    "sectionID": "section2",
+    "elementContent": {
+      "ver": "ol",
+      "listElements": [
+        [
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["Odblokowanie ekranu logowania: ", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["Pozwala na przekazanie kombinacji ", ""]
+          },
+          {
+            "type": "key-combo",
+            "sectionID": "section2",
+            "elementContent": ["Ctrl", "Alt", "Delete"]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [
+              " do maszyny wirtualnej. Wykorzystując kombinację klawisz hosta + Delete. W moim przypadku to:",
+              ""
+            ]
+          },
+          {
+            "type": "key-combo",
+            "sectionID": "section2",
+            "elementContent": ["  Ctrl", "Delete"]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["Zwolnienie kursora: ", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [
+              "Pozwala na zwolnienie kursora z maszyny wirtualnej. Klikając klawisz hosta. W moim przypadku to:",
+              ""
+            ]
+          },
+          {
+            "type": "key-combo",
+            "sectionID": "section2",
+            "elementContent": ["  Ctrl"]
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "type": "img",
+    "sectionID": "section2",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/right_CTRL_DELETE_VB.webp",
+      "Klawisz Hosta w VirtualBox",
+      "1920",
+      "1032",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/right_CTRL_DELETE_VB_ORIGINAL.webp"
+    ]
+  },
+  {
+    "type": "h2",
+    "sectionID": "section3",
+    "elementContent": ["Menadżer serwera", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [
+      "Zarządzanie i obsługa w Windows Server odbywa się głównie za pomocą programu Menedżer Serwera. Możesz skonfigurować dwie opcje dotyczące jego działania, które zostały zaznaczone na obrazku na fioletowo. Te opcje pozwalają na:",
+      ""
+    ]
+  },
+  {
+    "type": "list",
+    "sectionID": "section3",
+    "elementContent": {
+      "ver": "ol",
+      "listElements": [
+        [
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": [
+              "Zmianę częstotliwości odświeżania okna programu ",
+              ""
+            ]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [", gdy nie wykonujesz w nim żadnych akcji.", ""]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": [
+              "Zapobieganie automatycznemu uruchamianiu Menedżera Serwera ",
+              ""
+            ]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": ["podczas startu systemu.", ""]
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [
+      "Na czerwono zaznaczono opcję, którą będziesz często wykorzystywać. Możesz do niej dotrzeć na dwa sposoby, przedstawione na obrazku poniżej.",
+      ""
+    ]
+  },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [
+      "Dodatkowe zakładki Menedżera Serwera, zaznaczone zielonym obramowaniem, zostaną omówione oddzielnie.",
+      ""
+    ]
+  },
+  {
+    "type": "img",
+    "sectionID": "section3",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/menager_win_serv.webp",
+      "Strona główna Menedżera Serwera",
+      "1024",
+      "768",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/menager_win_serv_ORIGINAL.webp"
+    ]
+  },
+  {
+    "type": "h2",
+    "sectionID": "section4",
+    "elementContent": ["Konfiguracja Serwera Lokalnego", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": ["Klikając ", ""]
+  },
+  {
+    "type": "b",
+    "sectionID": "section4",
+    "elementContent": ["„1 Konfiguruj ten serwer lokalny”"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": [" lub wybierając zakładkę ", ""]
+  },
+  {
+    "type": "b",
+    "sectionID": "section4",
+    "elementContent": ["„Serwer lokalny”"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": [
+      " z lewego panelu oznaczonego na zielono na poprzednim obrazku, zobaczysz zestaw skrótów często wykorzystywanych przy konfiguracji serwera.",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section4"
+  },
+  {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": [
+      "Na poniższym obrazku zielonym obramowaniem zaznaczono dwie opcje, które uruchamiają to samo okno  ",
+      ""
+    ]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section4",
+    "elementContent": ["„Właściwości systemu”", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": [". Klikając ", ""]
+  },
+  {
+    "type": "ref-btn-for-img",
+    "sectionID": "section4",
+    "elementContent": ["Zmień"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": [
+      ", możesz zmienić nazwę komputera/hosta, dzięki czemu inne komputery będą mogły zlokalizować twój serwer. Jest to ",
+      ""
+    ]
+  },
+  {
+    "type": "b",
+    "sectionID": "section4",
+    "elementContent": ["DNS", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": ["-owa alternatywa dla wpisywania adresu ", ""]
+  },
+  {
+    "type": "b",
+    "sectionID": "section4",
+    "elementContent": ["IP", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": [
+      ". Pamiętaj, aby nie używać znaków specjalnych, ponieważ w nazwie ",
+      ""
+    ]
+  },
+  {
+    "type": "b",
+    "sectionID": "section4",
+    "elementContent": ["NetBIOS", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": [
+      " komputera zostaną one zinterpretowane niepoprawnie (np. ",
+      ""
+    ]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section4",
+    "elementContent": ["„ż”", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": [" zamieni się na ", ""]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section4",
+    "elementContent": ["„ '' ”", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": [").", ""]
+  },
+  {
+    "type": "br",
+    "sectionID": "section4"
+  },
+  {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": [
+      "Zmiana nazwy komputera lub dołączenie do domeny wymaga ponownego uruchomienia systemu.",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section4"
+  },
+  {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": ["Czym jest DNS? Sprawdź: ", ""]
+  },
+  {
+    "type": "link-art",
+    "sectionID": "section4",
+    "elementContent": ["DNS – Domain Name System", "Sieci komputerowe"]
+  },
+  {
+    "type": "br",
+    "sectionID": "section4"
+  },
+  {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": [
+      "Fioletową obramówką oznaczono szybkie przejście do ustawień zapory sieciowej w Windows Defender.",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section4"
+  },
+  {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": [
+      "W czerwonym kwadracie widzisz wszystkie karty sieciowe na twoim serwerze. Możesz szybko przejść do konfiguracji ich interfejsów sieciowych w Panelu sterowania.",
+      ""
+    ]
+  },
+  {
+    "type": "img",
+    "sectionID": "section4",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/menager_win_serv_conf_local.webp",
+      "Konfiguracja Serwera Lokalnego najważniejsze opcje",
+      "1024",
+      "768",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/menager_win_serv_conf_local_ORIGINAL.webp"
+    ]
+  },
+  {
+    "type": "h2",
+    "sectionID": "section5",
+    "elementContent": [
+      "Przygotowanie Urządzeń do Świadczenia Usług Sieciowych",
+      ""
+    ]
+  },
+  {
+    "type": "span",
+    "sectionID": "section5",
+    "elementContent": [
+      "Aby świadczyć usługi sieciowe, należy odpowiednio przygotować urządzenia. Podstawowym krokiem jest podłączenie ich do infrastruktury sieciowej oraz skonfigurowanie fizycznych kart sieciowych za pomocą logicznych interfejsów sieciowych.",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section5"
+  },
+  {
+    "type": "span",
+    "sectionID": "section5",
+    "elementContent": [
+      "Interfejsy sieciowe w systemach Windows znajdują się w Panelu sterowania >> Sieć i Internet >> Połączenia sieciowe. Klikając prawym przyciskiem myszy na wybrany interfejs, zobaczysz kilka opcji. Najważniejsze z nich to:",
+      ""
+    ]
+  },
+  {
+    "type": "list",
+    "sectionID": "section5",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "b",
+            "sectionID": "section5",
+            "elementContent": [
+              "Wyłączenie i ponowne włączenie interfejsu sieciowego ",
+              ""
+            ]
+          },
+          {
+            "type": "span",
+            "sectionID": "section5",
+            "elementContent": [
+              "(zaznaczone na fioletowo). Pozwala to na pewne zastosowanie konfiguracji IP, gdyż czasem nie jest ona od razu aktywna. Aby to sprawdzić, uruchom w konsoli CMD polecenie ",
+              ""
+            ]
+          },
+          {
+            "type": "text-block-name",
+            "sectionID": "section5",
+            "elementContent": ["ipconfig", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section5",
+            "elementContent": [
+              ".",
+              ""
+            ]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section5",
+            "elementContent": ["Zmiana nazwy interfejsu ", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section5",
+            "elementContent": [
+              "(zaznaczone na zielono), co czasami jest wymagane podczas egzaminu zawodowego INF02.",
+              ""
+            ]
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "type": "span",
+    "sectionID": "section5",
+    "elementContent": [
+      "Wybierając Właściwości i postępując zgodnie z przedstawionymi krokami, otworzysz okno konfiguracji protokołu IPv4.",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section5"
+  },
+  {
+    "type": "span",
+    "sectionID": "section5",
+    "elementContent": [
+      "Więcej informacji o adresacji protokołów IPv4 oraz IPv6 znajdziesz tutaj: ",
+      ""
+    ]
+  },
+  {
+    "type": "link-art",
+    "sectionID": "section5",
+    "elementContent": ["Adresacja IPv4", "Sieci komputerowe"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section5",
+    "elementContent": [" oraz ", ""]
+  },
+  {
+    "type": "link-art",
+    "sectionID": "section5",
+    "elementContent": ["Adresacja IPv6", "Sieci komputerowe"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section5",
+    "elementContent": [".", ""]
+  },
+  {
+    "type": "br",
+    "sectionID": "section5"
+  },
+  {
+    "type": "img",
+    "sectionID": "section5",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/interfejsy_sieciowe_win.webp",
+      "Interfejsy sieciowe w systemach Windows",
+      "1024",
+      "768",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/interfejsy_sieciowe_win_ORIGINAL.webp"
+    ]
+  },
+  {
+    "type": "h2",
+    "sectionID": "section6",
+    "elementContent": ["Zakładka „Wszystkie serwery”", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section6",
+    "elementContent": ["W lewym panelu znajdziesz zakładkę ", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section6",
+    "elementContent": ["„Wszystkie serwery”", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section6",
+    "elementContent": [
+      ". Możesz tutaj dodawać inne serwery oraz klientów systemu Windows, aby łatwo nimi zarządzać. Najlepiej jest dodawać komputery należące do domeny Active Directory, co zapewnia pełen zakres możliwości.",
+      ""
+    ]
+  },
+  {
+    "type": "span",
+    "sectionID": "section6",
+    "elementContent": [
+      "Przez “uwierzytelnianie negocjacyjne usługi WinRM”, konfiguracja zdalnego połączenia poprzez PowerShell jest utrudniona i najlepiej ją wykonać w zakresie domeny Active Directory. Alternatywnie, zawsze możesz połączyć się zdalnie, o ile usługa zdalnego pulpitu nie jest zablokowana na docelowym komputerze.",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section6"
+  },
+  {
+    "type": "img",
+    "sectionID": "section6",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/Add_server_to_list.webp",
+      "Zakładka „Wszystkie serwery” i dodawanie nowych połączeń poprzez adres IP oraz DNS-ową nazwę urządzenia",
+      "1024",
+      "768",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/Add_server_to_list_ORIGINAL.webp"
+    ]
+  },
+  {
+    "type": "h2",
+    "sectionID": "section7",
+    "elementContent": ["Zakładka „Usługi plików i magazynowania”", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section7",
+    "elementContent": ["Ostatnią zakładkę omówię w następnym artykule: ", ""]
+  },
+  {
+    "type": "link-art",
+    "sectionID": "section7",
+    "elementContent": [
+      "Udostępnianie katalogowych zasobów w sieci",
+      "Windows Server 2022"
+    ]
+  }
+]
