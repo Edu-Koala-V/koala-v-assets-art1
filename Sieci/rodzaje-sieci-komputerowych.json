@@ -414,19 +414,9 @@
             "type": "span",
             "sectionID": "section3",
             "elementContent": [
-              ", które udostępnia katalogi z dysków połączonych w ",
+              ".",
               ""
             ]
-          },
-          {
-            "type": "b",
-            "sectionID": "section3",
-            "elementContent": ["RAID", ""]
-          },
-          {
-            "type": "span",
-            "sectionID": "section3",
-            "elementContent": ["-y.", ""]
           }
         ]
       ]
