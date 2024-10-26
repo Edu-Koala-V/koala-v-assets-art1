@@ -1,5 +1,339 @@
 [
-    {"type": "h2", "sectionID": "section1", "elementContent": ["Wstęp"]},
-    {"type": "span", "sectionID": "section1","elementContent":["Przykładowy tekst wstępu do lekcji",""]},
-    {"type": "br", "sectionID": "section1"}
-    ]
+    { "type": "h2", "sectionID": "section1", "elementContent": ["Wstęp"] },
+    { "type": "span", "sectionID": "section1", "elementContent": ["Wczesne projekty i idee komunikacji pomiędzy urządzeniami a zwłaszcza komputerami były bardzo zróżnicowane. Początki komunikacji sieciowej to istny dziki zachód każdy producent robił po swojemu. Aż narodziła się potrzeba standaryzacji i określenia wspólnych zasad projektowania i wdrażania protokołów komunikacyjnych. By w końcu wyklarowały się dwa modele:"] },
+    {
+        "type": "list",
+        "sectionID": "section1",
+        "elementContent": {
+          "ver": "ul",
+          "listElements": [
+            [
+              {
+                "type": "b",
+                "sectionID": "section1",
+                "elementContent": ["Użytkowy TCP/IP ", ""]
+              },
+              {
+                "type": "span",
+                "sectionID": "section1",
+                "elementContent": ["stworzony przez Agencję Zaawansowanych Projektów Badawczych Departamentu Obrony Stanów Zjednoczonych (", ""]
+              },
+              {
+                "type": "b",
+                "sectionID": "section1",
+                "elementContent": ["DARPA", ""]
+              },
+              {
+                "type": "span",
+                "sectionID": "section1",
+                "elementContent": [") i wykorzystany w pionierskim projekcie ", ""]
+              },
+              {
+                "type": "b",
+                "sectionID": "section1",
+                "elementContent": ["ARPANET", ""]
+              },
+              {
+                "type": "span",
+                "sectionID": "section1",
+                "elementContent": [" który pozwolił na komunikację pomiędzy uczelniami na zasadzie wyszukiwania urządzeń w sieci. Wcześniejsza komunikacja wymagała łączenia okablowaniem urządzeń na zasadzie każdy z każdym. ", ""]
+              },
+                {
+                    "type": "br",
+                    "sectionID": "section1"
+                },
+                {
+                    "type": "span",
+                    "sectionID": "section1",
+                    "elementContent": ["Ilość potrzebnych kabli to ", ""]
+                },
+                {
+                    "type": "bi",
+                    "sectionID": "section1",
+                    "elementContent": ["( n (n-1) ) / 2 )", ""]
+                },
+                {
+                    "type": "span",
+                    "sectionID": "section1",
+                    "elementContent": [" gdzie n jest liczbą podłączonych komputerów.", ""]
+                }
+            ],
+            [
+              {
+                "type": "b",
+                "sectionID": "section1",
+                "elementContent": ["Teoretyczny ISO/OSI ", ""]
+              },
+              {
+                "type": "span",
+                "sectionID": "section1",
+                "elementContent": ["wykorzystywany przez inżynierów i projektantów rozwiązań sieciowych", ""]
+              }
+            ]
+          ]
+        }
+      },
+    { "type": "span", "sectionID": "section1", "elementContent": ["Poniżej plan sieci ARPANET:"] },
+    {
+        "type": "img",
+        "sectionID": "section1",
+        "elementContent": [
+          "Edu-Koala-V/koala-v-assets-art1/main/Sieci/ARPANET_logical_map.webp",
+          "Plan sieci ARPANET",
+          "800",
+          "597",
+          "Edu-Koala-V/koala-v-assets-art1/main/Sieci/ARPANET_logical_map_ORIGINAL.webp"
+        ]
+    },
+    {
+        "type":"h2",
+        "sectionID":"section2",
+        "elementContent":["Modele działania sieci"]
+    },
+    {
+        "type": "img",
+        "sectionID": "section2",
+        "elementContent": [
+          "Edu-Koala-V/koala-v-assets-art1/main/Sieci/iso_osi_tcp_ip_logical_map.webp",
+          "Model ISO/OSI oraz TCP/IP 5-warstwowy i 4-warstwowy",
+          "1228",
+          "734",
+          "Edu-Koala-V/koala-v-assets-art1/main/Sieci/iso_osi_tcp_ip_logical_map_ORIGINAL.webp"
+        ]
+    },
+    {
+        "type":"h3",
+        "sectionID":"section2",
+        "elementContent":["Warstwy modelu ISO/OSI",""]
+    },
+    {
+        "type":"list",
+        "sectionID":"section2",
+        "elementContent":{
+            "ver":"ul",
+            "listElements":[
+                [
+                    {
+                        "type":"b",
+                        "sectionID":"section2",
+                        "elementContent":["Warstwa aplikacji:",""]
+                    },
+                    {
+                        "type":"span",
+                        "sectionID":"section2",
+                        "elementContent":[" Zapewnia interfejsy dla aplikacji sieciowych, umożliwiając komunikację między programami. Przykłady protokołów: HTTP, FTP, SMTP.",""]
+                    }
+                ],
+                [
+                    {
+                        "type":"b",
+                        "sectionID":"section2",
+                        "elementContent":["Warstwa prezentacji:",""]
+                    },
+                    {
+                        "type":"span",
+                        "sectionID":"section2",
+                        "elementContent":[" Odpowiada za formatowanie danych, aby były one zrozumiałe dla aplikacji. Obejmuje kodowanie, kompresję i szyfrowanie danych.",""]
+                    }
+                ],
+                [
+                    {
+                        "type":"b",
+                        "sectionID":"section2",
+                        "elementContent":["Warstwa sesji:",""]
+                    },
+                    {
+                        "type":"span",
+                        "sectionID":"section2",
+                        "elementContent":[" Zarządza sesjami komunikacyjnymi między aplikacjami, obejmując ustanawianie, utrzymywanie i kończenie sesji.",""]
+                    }
+                ],
+                [
+                    {
+                        "type":"b",
+                        "sectionID":"section2",
+                        "elementContent":["Warstwa transportowa:",""]
+                    },
+                    {
+                        "type":"span",
+                        "sectionID":"section2",
+                        "elementContent":[" Zapewnia niezawodną transmisję danych między końcowymi urządzeniami. Przykłady protokołów: TCP, UDP.",""]
+                    }
+                ],
+                [
+                    {
+                        "type":"b",
+                        "sectionID":"section2",
+                        "elementContent":["Warstwa sieciowa:",""]
+                    },
+                    {
+                        "type":"span",
+                        "sectionID":"section2",
+                        "elementContent":[" Odpowiada za trasowanie danych między różnymi sieciami. Kluczowy protokół: IP.",""]
+                    }
+                ],
+                [
+                    {
+                        "type":"b",
+                        "sectionID":"section2",
+                        "elementContent":["Warstwa łącza danych:",""]
+                    },
+                    {
+                        "type":"span",
+                        "sectionID":"section2",
+                        "elementContent":[" Zajmuje się przesyłaniem danych między bezpośrednio połączonymi urządzeniami, obejmując adresowanie fizyczne (MAC) i kontrolę dostępu do medium (MAC).",""]
+                    }
+                ],
+                [
+                    {
+                        "type":"b",
+                        "sectionID":"section2",
+                        "elementContent":["Warstwa fizyczna:",""]
+                    },
+                    {
+                        "type":"span",
+                        "sectionID":"section2",
+                        "elementContent":[" Odpowiada za fizyczne połączenia między urządzeniami sieciowymi, obejmując kable, złącza i sygnały elektryczne.",""]
+                    }
+                ]
+            ]
+        }
+    },
+    {
+        "type":"h3",
+        "sectionID":"section2",
+        "elementContent":["Warstwy modelu TCP/IP 5-warstwowego",""]
+    },
+    {
+        "type":"list",
+        "sectionID":"section2",
+        "elementContent":{
+            "ver":"ul",
+            "listElements":[
+                [
+                    {
+                        "type":"b",
+                        "sectionID":"section2",
+                        "elementContent":["Warstwa aplikacji:",""]
+                    },
+                    {
+                        "type":"span",
+                        "sectionID":"section2",
+                        "elementContent":[" Obejmuje funkcje warstw aplikacji, prezentacji i sesji modelu ISO/OSI.",""]
+                    }
+                ],
+                [
+                    {
+                        "type":"b",
+                        "sectionID":"section2",
+                        "elementContent":["Warstwa transportowa:",""]
+                    },
+                    {
+                        "type":"span",
+                        "sectionID":"section2",
+                        "elementContent":[" Odpowiada warstwie transportowej modelu ISO/OSI.","pink"]
+                    }
+                ],
+                [
+                    {
+                        "type":"b",
+                        "sectionID":"section2",
+                        "elementContent":["Warstwa sieciowa:",""]
+                    },
+                    {
+                        "type":"span",
+                        "sectionID":"section2",
+                        "elementContent":[" Odpowiada warstwie sieciowej modelu ISO/OSI.","pink"]
+                    }
+                ],
+                [
+                    {
+                        "type":"b",
+                        "sectionID":"section2",
+                        "elementContent":["Warstwa łącza danych:",""]
+                    },
+                    {
+                        "type":"span",
+                        "sectionID":"section2",
+                        "elementContent":[" Odpowiada warstwie łącza danych modelu ISO/OSI.","pink"]
+                    }
+                ],
+                [
+                    {
+                        "type":"b",
+                        "sectionID":"section2",
+                        "elementContent":["Warstwa fizyczna:",""]
+                    },
+                    {
+                        "type":"span",
+                        "sectionID":"section2",
+                        "elementContent":[" Odpowiada warstwie fizycznej modelu ISO/OSI.","pink"]
+                    }
+                ]
+            ]
+        }
+    },
+    {
+        "type":"h3",
+        "sectionID":"section2",
+        "elementContent":["Warstwy modelu TCP/IP 4-warstwowego",""]
+    },
+    {
+        "type":"list",
+        "sectionID":"section2",
+        "elementContent":{
+            "ver":"ul",
+            "listElements":[
+                [
+                    {
+                        "type":"b",
+                        "sectionID":"section2",
+                        "elementContent":["Warstwa aplikacji:",""]
+                    },
+                    {
+                        "type":"span",
+                        "sectionID":"section2",
+                        "elementContent":[" Obejmuje funkcje warstw aplikacji, prezentacji i sesji modelu ISO/OSI.",""]
+                    }
+                ],
+                [
+                    {
+                        "type":"b",
+                        "sectionID":"section2",
+                        "elementContent":["Warstwa transportowa:",""]
+                    },
+                    {
+                        "type":"span",
+                        "sectionID":"section2",
+                        "elementContent":[" Odpowiada warstwie transportowej modelu ISO/OSI.","pink"]
+                    }
+                ],
+                [
+                    {
+                        "type":"b",
+                        "sectionID":"section2",
+                        "elementContent":["Warstwa internetowa:",""]
+                    },
+                    {
+                        "type":"span",
+                        "sectionID":"section2",
+                        "elementContent":[" Działa podobnie jak warstwa sieciowa w modelu ISO/OSI, ale pod inną nazwą.","brown"]
+                    }
+                ],
+                [
+                    {
+                        "type":"b",
+                        "sectionID":"section2",
+                        "elementContent":["Warstwa dostępu do sieci:",""]
+                    },
+                    {
+                        "type":"span",
+                        "sectionID":"section2",
+                        "elementContent":[" Obejmuje funkcje warstw fizycznej i łącza danych modelu ISO/OSI.",""]
+                    }
+                ]
+            ]
+        }
+    }
+
+]
