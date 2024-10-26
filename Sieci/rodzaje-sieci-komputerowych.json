@@ -326,12 +326,12 @@
             "type": "span",
             "sectionID": "section3",
             "elementContent": [
-              "Miejska sieć komputerowa, umożliwiająca transmisję danych na obszarze aglomeracji lub miasta, zazwyczaj z wykorzystaniem przewodów światłowodowych, które łączą rozproszone sieci .",
+              "Miejska sieć komputerowa, umożliwiająca transmisję danych na obszarze aglomeracji lub miasta, zazwyczaj z wykorzystaniem przewodów światłowodowych, które łączą rozproszone sieci ",
               ""
             ]
           },
           {
-            "type": "span",
+            "type": "b",
             "sectionID": "section3",
             "elementContent": ["LAN", ""]
           },
