@@ -1,5 +1,512 @@
 [
-    {"type": "h2", "sectionID": "section1", "elementContent": ["Wstęp"]},
-    {"type": "span", "sectionID": "section1","elementContent":["Przykładowy tekst wstępu do lekcji",""]},
-    {"type": "br", "sectionID": "section1"}
-    ]
+    {
+        "type":"h2",
+        "sectionID":"section1",
+        "elementContent":["Wprowadzenie do kabla koncentrycznego",""]
+    },
+    {
+        "type":"span",
+        "sectionID":"section1",
+        "elementContent":["Kabel koncentryczny jest specjalnie zaprojektowany do przesyłania sygnałów elektrycznych z minimalnymi stratami i zakłóceniami. Jest szeroko stosowany głównie w telewizji kablowej i satelitarnej oraz do urządzeń audio. Kiedyś budowano nim sieci komputerowe.",""]
+    },
+    {
+        "type":"h2",
+        "sectionID":"section2",
+        "elementContent":["Budowa kabla koncentrycznego",""]
+    },
+    {
+        "type": "img",
+        "sectionID": "section2",
+        "elementContent": [
+          "Edu-Koala-V/koala-v-assets-art1/main/Sieci/koncentryk_budowa.webp",
+          "Schema budowy kabla koncentrycznego",
+          "1000",
+          "666",
+          "Edu-Koala-V/koala-v-assets-art1/main/Sieci/koncentryk_budowa_ORIGINAL.webp"
+        ]
+      },
+      {
+        "type":"h3",
+        "sectionID":"section2",
+        "elementContent":["Przewód wewnętrzny",""]
+      },
+      {
+        "type": "list",
+        "sectionID": "section2",
+        "elementContent": {
+          "ver": "ul",
+          "listElements": [
+            [
+              {
+                "type": "b",
+                "sectionID": "section2",
+                "elementContent": ["Materiał:", ""]
+              },
+              {
+                "type": "span",
+                "sectionID": "section2",
+                "elementContent": [" Zwykle miedź lub miedziowany drut stalowy.", ""]
+              }
+            ],[
+              {
+                "type": "b",
+                "sectionID": "section2",
+                "elementContent": ["Funkcja:", ""]
+              },
+              {
+                "type": "span",
+                "sectionID": "section2",
+                "elementContent": [" Przewodzi sygnał elektryczny.", ""]
+              }
+            ]
+          ]
+        }
+      },
+      {
+        "type":"h3",
+        "sectionID":"section2",
+        "elementContent":["Dielektryk",""]
+      },
+      {
+        "type": "list",
+        "sectionID": "section2",
+        "elementContent": {
+          "ver": "ul",
+          "listElements": [
+            [
+              {
+                "type": "b",
+                "sectionID": "section2",
+                "elementContent": ["Materiał:", ""]
+              },
+              {
+                "type": "i",
+                "sectionID": "section2",
+                "elementContent": ["Polietylen", ""]
+              },
+              {
+                "type": "span",
+                "sectionID": "section2",
+                "elementContent": [" (", ""]
+              },
+              {
+                "type": "b",
+                "sectionID": "section2",
+                "elementContent": ["PE", ""]
+              },
+              {
+                "type": "span",
+                "sectionID": "section2",
+                "elementContent": [") o niskiej stratności (", ""]
+              },
+              {
+                "type": "b",
+                "sectionID": "section2",
+                "elementContent": ["PE-LLC", ""]
+              },
+              {
+                "type": "span",
+                "sectionID": "section2",
+                "elementContent": [") lub inne materiały o niskiej stałej dielektrycznej. ", ""]
+              },{
+                "type":"br",
+                "sectionID":"section2"
+              },
+              {
+                "type": "span",
+                "sectionID": "section2",
+                "elementContent": ["(Stała dielektryczna wpływa na zdolność materiału do magazynowania energii elektrycznej w polu elektrycznym)", ""]
+              }
+              ],[
+                {
+                    "type": "b",
+                    "sectionID": "section2",
+                    "elementContent": ["Funkcja:", ""]
+                },
+                {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": [" Izoluje przewód wewnętrzny od ekranu, utrzymując stałą odległość między nimi, co jest kluczowe dla zachowania impedancji falowej kabla. ", ""]
+                },{
+                    "type":"br",
+                    "sectionID":"section2"
+                },
+                {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": ["(Impedancja falowa to wpływ na odbicia sygnału na granicy różnych ośrodków)", ""]
+                }
+            ]
+          ]
+        }
+      },
+        {
+            "type":"h3",
+            "sectionID":"section2",
+            "elementContent":["Ekran (folia i/lub oplot)",""]
+        },
+        {
+            "type": "list",
+            "sectionID": "section2",
+            "elementContent": {
+            "ver": "ul",
+            "listElements": [
+                [
+                {
+                    "type": "b",
+                    "sectionID": "section2",
+                    "elementContent": ["Materiał:", ""]
+                },
+                {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": [" Folia aluminiowa, oplot miedziany lub aluminiowy.", ""]
+                }
+                ],[
+                {
+                    "type": "b",
+                    "sectionID": "section2",
+                    "elementContent": ["Funkcja:", ""]
+                },
+                {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": [" Chroni sygnał przed zakłóceniami elektromagnetycznymi z zewnątrz oraz zapobiega wypromieniowaniu sygnału na zewnątrz kabla. Ekran działa również jako przewodnik powrotny dla prądu.", ""]
+                }
+                ]
+            ]
+            }
+        },
+        {
+            "type":"h3",
+            "sectionID":"section2",
+            "elementContent":["Płaszcz zewnętrzny",""]
+        },
+        {
+            "type": "list",
+            "sectionID": "section2",
+            "elementContent": {
+            "ver": "ul",
+            "listElements": [
+                [
+                {
+                    "type": "b",
+                    "sectionID": "section2",
+                    "elementContent": ["Materiał:", ""]
+                },
+                {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": [" PVC, PE lub inne materiały odporne na warunki atmosferyczne.", ""]
+                }
+                ],[
+                {
+                    "type": "b",
+                    "sectionID": "section2",
+                    "elementContent": ["Funkcja:", ""]
+                },
+                {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": [" Chroni kabel przed uszkodzeniami mechanicznymi, wilgocią i innymi czynnikami zewnętrznymi.", ""]
+                }
+                ]
+            ]
+            }
+        },
+        {
+            "type":"h2",
+            "sectionID":"section3",
+            "elementContent":["Zalety kabla koncentrycznego",""]
+        },
+        {
+            "type": "list",
+            "sectionID": "section3",
+            "elementContent": {
+            "ver": "ul",
+            "listElements": [
+                [
+                {
+                    "type": "b",
+                    "sectionID": "section3",
+                    "elementContent": ["Niskie tłumienie:", ""]
+                },
+                {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": [" Dzięki wysokiej jakości dielektrykom i ekranowaniu, kable koncentryczne mają niskie tłumienie sygnału, co pozwala na przesyłanie sygnałów na większe odległości.", ""]
+                }
+                ],[
+                {
+                    "type": "b",
+                    "sectionID": "section3",
+                    "elementContent": ["Odporność na zakłócenia:", ""]
+                },
+                {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": [" Ekranowanie skutecznie chroni sygnał przed zakłóceniami elektromagnetycznymi, co jest kluczowe w środowiskach o wysokim poziomie zakłóceń.", ""]
+                }
+                ],[
+                {
+                    "type": "b",
+                    "sectionID": "section3",
+                    "elementContent": ["Stała impedancja:", ""]
+                },
+                {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": [" Konstrukcja kabla zapewnia stałą impedancję falową, co jest ważne dla minimalizacji odbić sygnału i utraty jakości.", ""]
+                }
+                ]
+            ]
+            }
+        },
+        {
+            "type":"h2",
+            "sectionID":"section4",
+            "elementContent":["Dlaczego kabel koncentryczny nie jest już powszechnie stosowany w nowych infrastrukturach sieciowych?",""]
+        },
+        {
+            "type": "list",
+            "sectionID": "section4",
+            "elementContent": {
+            "ver": "ul",
+            "listElements": [
+                [
+                {
+                    "type": "b",
+                    "sectionID": "section4",
+                    "elementContent": ["Maksymalna przepustowość:", ""]
+                },
+                {
+                    "type": "span",
+                    "sectionID": "section4",
+                    "elementContent": [" Kable koncentryczne mają ograniczoną przepustowość w porównaniu do nowoczesnych kabli, takich jak skrętka czy światłowody.", ""]
+                }
+                ],[
+                {
+                    "type": "b",
+                    "sectionID": "section4",
+                    "elementContent": ["Łatwość instalacji:", ""]
+                },
+                {
+                    "type": "span",
+                    "sectionID": "section4",
+                    "elementContent": [" Kable typu skrętka są łatwiejsze w instalacji ze względu na ich giętkość.", ""]
+                }
+                ],[
+                {
+                    "type": "b",
+                    "sectionID": "section4",
+                    "elementContent": ["Koszt:", ""]
+                },
+                {
+                    "type": "span",
+                    "sectionID": "section4",
+                    "elementContent": [" Cena do jakości skrętek i światłowodów jest bardziej atrakcyjna.", ""]
+                }
+                ]
+            ]
+            }
+        },
+        {
+            "type":"h2",
+            "sectionID":"section5",
+            "elementContent":["Aktualne zastosowania kabla koncentrycznego",""]
+        },
+        {
+            "type":"span",
+            "sectionID":"section5",
+            "elementContent":["Łącza antenowe TV: Kable koncentryczne są powszechnie używane do przesyłania sygnałów telewizyjnych.",""]
+        },
+        {
+            "type":"span",
+            "sectionID":"section5",
+            "elementContent":["Urządzenia audio: Kable koncentryczne są stosowane w urządzeniach audio, ponieważ sygnał analogowy jest mniej stratny niż cyfrowy, jeśli chodzi o dźwięk.",""]
+        },
+        {
+            "type":"h3",
+            "sectionID":"section5",
+            "elementContent":["Przykłady sygnału analogowego w audio",""]
+        },
+        {
+            "type":"span",
+            "sectionID":"section5",
+            "elementContent":["Sygnał analogowy jest ceniony za swoje „ciepłe” i naturalne brzmienie. Przykłady urządzeń wykorzystujących sygnał analogowy to:",""]
+        },
+        {
+            "type":"list",
+            "sectionID":"section5",
+            "elementContent":{
+                "ver":"ul",
+                "listElements":[
+                    [
+                        {
+                            "type":"b",
+                            "sectionID":"section5",
+                            "elementContent":["Gramofony: ",""]
+                        },
+                        {
+                            "type":"span",
+                            "sectionID":"section5",
+                            "elementContent":[" Przesyłają sygnał analogowy z płyt winylowych.",""]
+                        }
+                    ],[
+                        {
+                            "type":"b",
+                            "sectionID":"section5",
+                            "elementContent":["Magnetofony: ",""]
+                        },
+                        {
+                            "type":"span",
+                            "sectionID":"section5",
+                            "elementContent":[" Używają taśm magnetycznych do odtwarzania dźwięku.",""]
+                        }
+                    ],[
+                        {
+                            "type":"b",
+                            "sectionID":"section5",
+                            "elementContent":["Tradycyjne odbiorniki radiowe FM: ",""]
+                        },
+                        {
+                            "type":"span",
+                            "sectionID":"section5",
+                            "elementContent":[" Odbierają sygnały analogowe.",""]
+                        }
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"h2",
+            "sectionID":"section6",
+            "elementContent":["Wtyki audio do sygnału analogowego",""]
+        },
+        {
+            "type":"list",
+            "sectionID":"section6",
+            "elementContent":{
+                "ver":"ul",
+                "listElements":[
+                    [
+                        {
+                            "type":"b",
+                            "sectionID":"section6",
+                            "elementContent":["RCA (cinch): ",""]
+                        },
+                        {
+                            "type":"span",
+                            "sectionID":"section6",
+                            "elementContent":[" Najpopularniejsze złącze analogowe, używane do przesyłania sygnałów audio i wideo.",""]
+                        }
+                    ],[
+                        {
+                            "type":"b",
+                            "sectionID":"section6",
+                            "elementContent":["Jack: ",""]
+                        },
+                        {
+                            "type":"span",
+                            "sectionID":"section6",
+                            "elementContent":[" Wtyki Jack (3.5 mm, 6.3 mm) są powszechnie stosowane w sprzęcie audio do przesyłania sygnałów analogowych.",""]
+                        }
+                    ],[
+                        {
+                            "type":"b",
+                            "sectionID":"section6",
+                            "elementContent":["XLR: ",""]
+                        },
+                        {
+                            "type":"span",
+                            "sectionID":"section6",
+                            "elementContent":[" Używane w profesjonalnym sprzęcie audio do przesyłania zbalansowanych sygnałów analogowych.",""]
+                        }
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"h2",
+            "sectionID":"section7",
+            "elementContent":["Wtyki wideo do dekoderów i telewizji satelitarnej",""]
+        },
+        {
+            "type":"list",
+            "sectionID":"section7",
+            "elementContent":{
+                "ver":"ul",
+                "listElements":[
+                    [
+                        {
+                            "type":"b",
+                            "sectionID":"section7",
+                            "elementContent":["F-type: ",""]
+                        },
+                        {
+                            "type":"span",
+                            "sectionID":"section7",
+                            "elementContent":[" Najczęściej używane w telewizji satelitarnej i kablowej. Mają cylindryczny kształt z gwintowanym złączem, co zapewnia stabilne połączenie.",""]
+                        }
+                    ],[
+                        {
+                            "type":"b",
+                            "sectionID":"section7",
+                            "elementContent":["IEC: ",""]
+                        },
+                        {
+                            "type":"span",
+                            "sectionID":"section7",
+                            "elementContent":[" Standardowy wtyk antenowy stosowany w telewizji naziemnej (DVB-T). Ma dwa rodzaje końcówek – męską i żeńską.",""]
+                        }
+                    ]
+                ]
+            }
+        },
+        {
+            "type":"h2",
+            "sectionID":"section8",
+            "elementContent":["Wtyki BNC w sieciach komputerowych",""]
+        },
+        {
+            "type":"span",
+            "sectionID":"section8",
+            "elementContent":["BNC (Bayonet Neill-Concelman): Stosowane w starszych topologiach sieciowych",""]
+        },
+        {
+            "type":"span",
+            "sectionID":"section8",
+            "elementContent":["Wyróżnia się trzy typy złączy wykorzystywanych w topologiach sieciowych głównie w topologii magistrali: ",""]
+        },
+        {
+            "type":"img",
+            "sectionID": "section8",
+            "elementContent": [
+              "Edu-Koala-V/koala-v-assets-art1/main/Sieci/terminator_BNC.webp",
+              "Schemat podłączenia karty sieciowej BNC w sieci z użyciem trójnika BNC",
+              "1000",
+              "666",
+              "Edu-Koala-V/koala-v-assets-art1/main/Sieci/terminator_BNC_ORIGINAL.webp"
+            ]
+          },
+          {
+            "type":"span",
+            "sectionID":"section8",
+            "elementContent":["Schemat podłączenia karty sieciowej BNC w sieci z użyciem trójnika BNC:",""]
+        },
+        {
+            "type":"img",
+            "sectionID": "section8",
+            "elementContent": [
+              "Edu-Koala-V/koala-v-assets-art1/main/Sieci/karta_sieciowa_BNC.webp",
+              "Schemat podłączenia karty sieciowej BNC w sieci z użyciem trójnika BNC",
+              "1000",
+              "666",
+              "Edu-Koala-V/koala-v-assets-art1/main/Sieci/karta_sieciowa_BNC_ORIGINAL.webp"
+            ]
+          }
+]
+
+
+
+
