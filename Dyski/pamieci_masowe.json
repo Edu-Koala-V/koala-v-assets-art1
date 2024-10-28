@@ -1,5 +1,855 @@
 [
-    {"type": "h2", "sectionID": "section1", "elementContent": ["Wstęp"]},
-    {"type": "span", "sectionID": "section1","elementContent":["Przykładowy tekst wstępu do lekcji",""]},
-    {"type": "br", "sectionID": "section1"}
+  {
+    "type": "h2",
+    "sectionID": "section1",
+    "elementContent": ["Definicja i znaczenie pamięci masowych", ""]
+  },
+  {
+    "type": "b",
+    "sectionID": "section1",
+    "elementContent": ["Pamięć masowa", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [" (", ""]
+  },
+  {
+    "type": "i",
+    "sectionID": "section1",
+    "elementContent": ["ang. mass storage", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      ") to rodzaj pamięci trwałej, która umożliwia przechowywanie dużych ilości danych przez długi czas. W odróżnieniu od pamięci operacyjnej, pamięć masowa nie pozwala na adresowanie pojedynczych bajtów, a jej czas dostępu przez procesor jest wielokrotnie dłuższy.",
+      ""
     ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section1"
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      "Pamięć masowa jest kluczowa dla przechowywania danych, które muszą być dostępne nawet po wyłączeniu zasilania, takich jak pliki systemowe, aplikacje i dane użytkownika.",
+      ""
+    ]
+  },
+  {
+    "type": "h2",
+    "sectionID": "section2",
+    "elementContent": ["Rodzaje pamięci masowych", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      "Pamięć masowa może być klasyfikowana na podstawie rodzaju nośnika danych:",
+      ""
+    ]
+  },
+  {
+    "type": "list",
+    "sectionID": "section2",
+    "elementContent": {
+      "ver": "ol",
+      "listElements": [
+        [
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["Nośniki magnetyczne: ", ""]
+          },
+          {
+            "type": "list",
+            "sectionID": "section2",
+            "elementContent": {
+              "ver": "ul",
+              "listElements": [
+                [
+                  {
+                    "type": "b",
+                    "sectionID": "section2",
+                    "elementContent": ["Dyski twarde (HDD): ", ""]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": [
+                      "Używają magnetycznych talerzy do przechowywania danych. ",
+                      ""
+                    ]
+                  },
+                  {
+                    "type": "br",
+                    "sectionID": "section2"
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": [
+                      "Są stosunkowo tanie i oferują dużą pojemność, ale są wolniejsze i bardziej podatne na uszkodzenia mechaniczne.",
+                      ""
+                    ]
+                  },
+                  {
+                    "type": "img",
+                    "sectionID": "section2",
+                    "elementContent": [
+                      "Edu-Koala-V/koala-v-assets-art1/main/Dyski/all_hdd.webp",
+                      "Na zdjeciu przedstawiono dyski twarde HDD w dwóch różnych rozmiarach: 3,5 cala i 2,5 cala.",
+                      "1950",
+                      "984",
+                      "Edu-Koala-V/koala-v-assets-art1/main/Dyski/all_hdd_ORIGINAL.webp"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "b",
+                    "sectionID": "section2",
+                    "elementContent": ["Taśmy magnetyczne: ", ""]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": [
+                      "Używane głównie do archiwizacji i tworzenia kopii zapasowych. ",
+                      ""
+                    ]
+                  },
+                  {
+                    "type": "br",
+                    "sectionID": "section2"
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": [
+                      "Są trwałe i tanie, ale mają ograniczoną pojemność i wolniejszy czas dostępu w porównaniu do dysków twardych HDD i SSD.",
+                      ""
+                    ]
+                  },
+                  {
+                    "type": "img",
+                    "sectionID": "section2",
+                    "elementContent": [
+                      "Edu-Koala-V/koala-v-assets-art1/main/Dyski/magnetband_6_meter.webp",
+                      "Taśma magnetyczna o długości 6 metrów szerokości 18mm i grubości 0,3mm.",
+                      "1500",
+                      "1183",
+                      "Edu-Koala-V/koala-v-assets-art1/main/Dyski/magnetband_6_meter_ORIGINAL.webp"
+                    ]
+                  }
+                ]
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["Nośniki optyczne: ", ""]
+          },
+          {
+            "type": "list",
+            "sectionID": "section2",
+            "elementContent": {
+              "ver": "ul",
+              "listElements": [
+                [
+                  {
+                    "type": "b",
+                    "sectionID": "section2",
+                    "elementContent": ["CD, DVD, Blu-ray: ", ""]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": [
+                      "Używają laserów do odczytu i zapisu danych. ",
+                      ""
+                    ]
+                  },
+                  {
+                    "type": "br",
+                    "sectionID": "section2"
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": [
+                      "Są trwałe i tanie, ale mają ograniczoną pojemność i wolniejszy czas dostępu w porównaniu do dysków twardych i SSD. Oraz zapis danych odbywa się poprzez działanie lasera na powierzchnię płyty.",
+                      ""
+                    ]
+                  },
+                  {
+                    "type": "br",
+                    "sectionID": "section2"
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": [
+                      "W CD oraz DVD występują dwa rodzaje zapisu: jednokrotny (R) i wielokrotny (RW). Oraz standard zapisu (-) starszy i (+) nowszy.",
+                      ""
+                    ]
+                  },
+                  {
+                    "type": "list",
+                    "sectionID": "section2",
+                    "elementContent": {
+                      "ver": "ul",
+                      "listElements": [
+                        [
+                          {
+                            "type": "b",
+                            "sectionID": "section2",
+                            "elementContent": ["Płyty R (Recordable)", ""]
+                          },
+                          {
+                            "type": "span",
+                            "sectionID": "section2",
+                            "elementContent": [
+                              " można zapisać tylko raz, ponieważ używają specjalnej warstwy barwnika, która ulega trwałemu zmianie pod wpływem lasera. Po zapisaniu danych, nie można ich już zmienić ani usunąć.",
+                              ""
+                            ]
+                          }
+                        ],
+                        [
+                          {
+                            "type": "b",
+                            "sectionID": "section2",
+                            "elementContent": ["Płyty RW (Rewritable)", ""]
+                          },
+                          {
+                            "type": "span",
+                            "sectionID": "section2",
+                            "elementContent": [
+                              " wykorzystują warstwę fazową, która może zmieniać swój stan pod wpływem ciepła lasera. Dzięki temu dane mogą być wielokrotnie zapisywane i usuwane, co pozwala na ponowne użycie płyty",
+                              ""
+                            ]
+                          }
+                        ]
+                      ]
+                    }
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": ["W przypadku płyt ", ""]
+                  },
+                  {
+                    "type": "bi",
+                    "sectionID": "section2",
+                    "elementContent": ["Blu-ray", ""]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": [", mamy ", ""]
+                  },
+                  {
+                    "type": "b",
+                    "sectionID": "section2",
+                    "elementContent": ["BD-R ", ""]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": ["(", ""]
+                  },
+                  {
+                    "type": "i",
+                    "sectionID": "section2",
+                    "elementContent": ["Blu-ray Disc-Recordable", ""]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": [
+                      "), które można zapisać tylko raz, oraz ",
+                      ""
+                    ]
+                  },
+                  {
+                    "type": "b",
+                    "sectionID": "section2",
+                    "elementContent": ["BD-RE ", ""]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": ["(", ""]
+                  },
+                  {
+                    "type": "i",
+                    "sectionID": "section2",
+                    "elementContent": ["Blu-ray Disc-Rewritable", ""]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": [
+                      "), które można wielokrotnie zapisywać i usuwać dane.",
+                      ""
+                    ]
+                  },
+                  {
+                    "type": "img",
+                    "sectionID": "section2",
+                    "elementContent": [
+                      "Edu-Koala-V/koala-v-assets-art1/main/Dyski/cd4.webp",
+                      "Na zdjeciu przedstawiono płyty CD, DVD, Blu-ray i HD-DVD.",
+                      "900",
+                      "456",
+                      "Edu-Koala-V/koala-v-assets-art1/main/Dyski/cd4_ORIGINAL.webp"
+                    ]
+                  }
+                ]
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["Nośniki półprzewodnikowe: ", ""]
+          },
+          {
+            "type": "list",
+            "sectionID": "section2",
+            "elementContent": {
+              "ver": "ul",
+              "listElements": [
+                [
+                  {
+                    "type": "b",
+                    "sectionID": "section2",
+                    "elementContent": ["Dyski SSD (Solid State Drive): ", ""]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": [
+                      "Używają pamięci flash do przechowywania danych. ",
+                      ""
+                    ]
+                  },
+                  {
+                    "type": "br",
+                    "sectionID": "section2"
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": [
+                      "Są szybkie, trwałe i odporne na wstrząsy, ale droższe w przeliczeniu na gigabajt w porównaniu do HDD.",
+                      ""
+                    ]
+                  },
+                  {
+                    "type": "img",
+                    "sectionID": "section2",
+                    "elementContent": [
+                      "Edu-Koala-V/koala-v-assets-art1/main/Dyski/all_ssd.webp",
+                      "Na zdjeciu przedstawiono diski SSD w trzech różnych rozmiarach: M.2, 2,5 cala i 3,5 cala.",
+                      "2000",
+                      "1125",
+                      "Edu-Koala-V/koala-v-assets-art1/main/Dyski/all_ssd_ORIGINAL.webp"
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "b",
+                    "sectionID": "section2",
+                    "elementContent": [
+                      "Karty pamięci i pamięci USB (pendrive): ",
+                      ""
+                    ]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": [
+                      "Używane w urządzeniach przenośnych, takich jak smartphone-y, aparaty fotograficzne i tablety. ",
+                      ""
+                    ]
+                  },
+                  {
+                    "type": "br",
+                    "sectionID": "section2"
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": [
+                      "Są kompaktowe, przenośne i stosunkowo niedrogie. Ze względu na swoją mobilność mają krótszą żywotność, ponieważ są bardziej podatne na uszkodzenia mechaniczne. Dodatkowo, niewłaściwe odłączanie od urządzeń może prowadzić do uszkodzenia sektorów danych.",
+                      ""
+                    ]
+                  },
+                  {
+                    "type": "img",
+                    "sectionID": "section2",
+                    "elementContent": [
+                      "Edu-Koala-V/koala-v-assets-art1/main/Dyski/sd_pendrive.webp",
+                      "Na zdjeciu przedstawiono u góry karty pamięci SD w dwóch różnych rozmiarach, a na dole pendrive z obudową oraz bez.",
+                      "629",
+                      "516",
+                      "Edu-Koala-V/koala-v-assets-art1/main/Dyski/sd_pendrive_ORIGINAL.webp"
+                    ]
+                  }
+                ]
+              ]
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "type": "h2",
+    "sectionID": "section3",
+    "elementContent": ["Rodzaje złączy", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [
+      "Złącza pamięci masowych są kluczowe dla komunikacji między nośnikami pamięci a komputerem:",
+      ""
+    ]
+  },
+  {
+    "type": "list",
+    "sectionID": "section3",
+    "elementContent": {
+      "ver": "ol",
+      "listElements": [
+        [
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": ["IDE (Integrated Drive Electronics): ", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [
+              "Starsze złącze używane głównie w dyskach twardych i napędach optycznych. Charakteryzuje się szerokim, 40-pinowym kablem",
+              ""
+            ]
+          },
+          {
+            "type": "img",
+            "sectionID": "section3",
+            "elementContent": [
+              "Edu-Koala-V/koala-v-assets-art1/main/Dyski/ide_cable.webp",
+              "Złącze żeńskie oraz meskie IDE z 40-pinowym kablem.",
+              "940",
+              "711",
+              "Edu-Koala-V/koala-v-assets-art1/main/Dyski/ide_cable_ORIGINAL.webp"
+            ]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": ["SATA (Serial ATA): ", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [
+              "Najbardziej powszechne złącze używane w dyskach twardych i SSD. Oferuje wysoką przepustowość i jest łatwe w użyciu",
+              ""
+            ]
+          },
+          {
+            "type": "img",
+            "sectionID": "section3",
+            "elementContent": [
+              "Edu-Koala-V/koala-v-assets-art1/main/Dyski/SATA_cable.webp",
+              "Złącze żeńskie oraz meskie SATA z 7-pinowym kablem.",
+              "530",
+              "5033",
+              "Edu-Koala-V/koala-v-assets-art1/main/Dyski/SATA_cable_ORIGINAL.webp"
+            ]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": ["NVMe (Non-Volatile Memory Express): ", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [
+              "Używane głównie w nowoczesnych dyskach SSD. Zapewnia bardzo wysoką prędkość transferu danych dzięki bezpośredniemu połączeniu z magistralą PCIe",
+              ""
+            ]
+          },
+          {
+            "type": "img",
+            "sectionID": "section3",
+            "elementContent": [
+              "Edu-Koala-V/koala-v-assets-art1/main/Dyski/nvme_cable.webp",
+              "Złącze żeńskie oraz meskie NVMe z 67-pinowym kablem.",
+              "1235",
+              "914",
+              "Edu-Koala-V/koala-v-assets-art1/main/Dyski/nvme_cable_ORIGINAL.webp"
+            ]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": ["USB (Universal Serial Bus): ", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [
+              "Powszechnie używane w pamięciach przenośnych, takich jak pendrive’y i zewnętrzne dyski twarde. Jest łatwe w użyciu i szeroko kompatybilne",
+              ""
+            ]
+          },
+          {
+            "type": "img",
+            "sectionID": "section3",
+            "elementContent": [
+              "Edu-Koala-V/koala-v-assets-art1/main/Dyski/USB_cable.webp",
+              "Złącze żeńskie oraz meskie USB typu A 2.0 z 4-pinowym kablem.",
+              "1083",
+              "713",
+              "Edu-Koala-V/koala-v-assets-art1/main/Dyski/USB_cable_ORIGINAL.webp"
+            ]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": ["Thunderbolt: ", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [
+              "Używane w zaawansowanych urządzeniach pamięci masowej. Oferuje bardzo wysoką przepustowość i możliwość łańcuchowego łączenia urządzeń",
+              ""
+            ]
+          },
+          {
+            "type": "br",
+            "sectionID": "section3"
+          },
+          {
+            "type": "br",
+            "sectionID": "section3"
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [
+              "Łańcuchowe łączenie urządzeń, znane również jako „daisy chaining”, to technologia, która pozwala na podłączenie wielu urządzeń do jednego portu Thunderbolt w sposób szeregowy. Oznacza to, że możesz podłączyć jedno urządzenie do komputera, a następnie kolejne urządzenie do pierwszego urządzenia, i tak dalej. Dzięki temu można podłączyć wiele urządzeń, takich jak monitory, dyski zewnętrzne i inne akcesoria, bez potrzeby używania wielu portów w komputerze.",
+              ""
+            ]
+          },
+          {
+            "type": "br",
+            "sectionID": "section3"
+          },
+          {
+            "type": "br",
+            "sectionID": "section3"
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [
+              "To rozwiązanie jest szczególnie przydatne w sytuacjach, gdzie liczba dostępnych portów jest ograniczona, a jednocześnie potrzebujesz podłączyć wiele urządzeń. Thunderbolt oferuje bardzo wysoką przepustowość, co pozwala na przesyłanie dużych ilości danych między urządzeniami bez utraty wydajności.",
+              ""
+            ]
+          },
+          {
+            "type": "img",
+            "sectionID": "section3",
+            "elementContent": [
+              "Edu-Koala-V/koala-v-assets-art1/main/Dyski/Thunderbolt_cable.webp",
+              "Złącze żeńskie oraz meskie Thunderbolt z 24-pinowym kablem.",
+              "1138",
+              "838",
+              "Edu-Koala-V/koala-v-assets-art1/main/Dyski/Thunderbolt_cable_ORIGINAL.webp"
+            ]
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "type": "h2",
+    "sectionID": "section4",
+    "elementContent": ["Tabela porównawcza złączy pamięci masowych", ""]
+  },
+  {
+    "type": "table",
+    "sectionID": "section4",
+    "elementContent": [
+      [
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["Złącze", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["Typ złącza", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["Prędkość transferu danych", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["Zastosowanie", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["Kompatybilność wsteczna", ""]
+        }
+      ],
+      [
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["IDE", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["40-pinowe", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["Do 133 MB/s", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["Starsze dyski twarde i napędy optyczne", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["Nie", ""]
+        }
+      ],
+      [
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["SATA", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["7-pinowe", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["Do 600 MB/s (SATA III)", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["Dyski twarde, SSD", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["Tak", ""]
+        }
+      ],
+      [
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["NVMe", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["M.2/PCIe", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["Do 3500 MB/s", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["Nowoczesne SSD", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["Nie", ""]
+        }
+      ],
+      [
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["USB 2.0", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["4-pinowe", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["Do 480 Mb/s", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["Pendrive’y, zewnętrzne dyski twarde", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["Tak", ""]
+        }
+      ],
+      [
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["USB 3.0", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["9-pinowe", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["Do 5 Gb/s", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["Pendrive’y, zewnętrzne dyski twarde", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["Tak", ""]
+        }
+      ],
+      [
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["USB 3.1", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["9-pinowe", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["Do 10 Gb/s", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["Pendrive’y, zewnętrzne dyski twarde", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["Tak", ""]
+        }
+      ],
+      [
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["USB 3.2", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["9-pinowe", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["Do 20 Gb/s", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["Pendrive’y, zewnętrzne dyski twarde", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["Tak", ""]
+        }
+      ],
+      [
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["Thunderbolt", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["24-pinowe", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["Do 40 Gb/s", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["Zaawansowane urządzenia pamięci masowej", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["Tak", ""]
+        }
+      ]
+    ]
+  }
+]
