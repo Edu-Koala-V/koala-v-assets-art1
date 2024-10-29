@@ -373,7 +373,7 @@
           {
             "type": "b",
             "sectionID": "section3",
-            "elementContent": ["VPN.", ""]
+            "elementContent": ["VPN", ""]
           },
           {
             "type": "span",
