@@ -184,7 +184,7 @@
                     "type": "span",
                     "sectionID": "section2",
                     "elementContent": [
-                      "Są trwałe i tanie, ale mają ograniczoną pojemność i wolniejszy czas dostępu w porównaniu do dysków twardych i SSD. Oraz zapis danych odbywa się poprzez działanie lasera na powierzchnię płyty.",
+                      "Są trwałe i tanie, ale mają ograniczoną pojemność i wolniejszy czas dostępu w porównaniu do dysków twardych i SSD, oraz zapis danych odbywa się poprzez działanie lasera na powierzchnię płyty.",
                       ""
                     ]
                   },
@@ -196,7 +196,7 @@
                     "type": "span",
                     "sectionID": "section2",
                     "elementContent": [
-                      "W CD oraz DVD występują dwa rodzaje zapisu: jednokrotny (R) i wielokrotny (RW). Oraz standard zapisu (-) starszy i (+) nowszy.",
+                      "W CD oraz DVD występują dwa rodzaje zapisu: jednokrotny (R) i wielokrotny (RW), oraz standard zapisu (-) starszy i (+) nowszy.",
                       ""
                     ]
                   },
@@ -216,7 +216,7 @@
                             "type": "span",
                             "sectionID": "section2",
                             "elementContent": [
-                              " można zapisać tylko raz, ponieważ używają specjalnej warstwy barwnika, która ulega trwałemu zmianie pod wpływem lasera. Po zapisaniu danych, nie można ich już zmienić ani usunąć.",
+                              " można zapisać tylko raz, ponieważ używają specjalnej warstwy barwnika, która ulega trwałej zmianie pod wpływem lasera. Po zapisaniu danych, nie można ich już zmienić ani usunąć.",
                               ""
                             ]
                           }
@@ -231,7 +231,7 @@
                             "type": "span",
                             "sectionID": "section2",
                             "elementContent": [
-                              " wykorzystują warstwę fazową, która może zmieniać swój stan pod wpływem ciepła lasera. Dzięki temu dane mogą być wielokrotnie zapisywane i usuwane, co pozwala na ponowne użycie płyty",
+                              " wykorzystują warstwę fazową, która może zmieniać swój stan pod wpływem ciepła lasera. Dzięki temu dane mogą być wielokrotnie zapisywane i usuwane, co pozwala na ponowne użycie płyty.",
                               ""
                             ]
                           }
@@ -423,7 +423,7 @@
     "type": "span",
     "sectionID": "section3",
     "elementContent": [
-      "Złącza pamięci masowych są kluczowe dla komunikacji między nośnikami pamięci a komputerem:",
+      "Złącza pamięci masowych są kluczowe dla komunikacji między nośnikami pamięci, a komputerem:",
       ""
     ]
   },
@@ -469,7 +469,7 @@
             "type": "span",
             "sectionID": "section3",
             "elementContent": [
-              "Najbardziej powszechne złącze używane w dyskach twardych i SSD. Oferuje wysoką przepustowość i jest łatwe w użyciu",
+              "Najbardziej powszechne złącze używane w dyskach twardych i SSD. Oferuje wysoką przepustowość oraz łatwość w użyciu",
               ""
             ]
           },
@@ -547,7 +547,7 @@
             "type": "span",
             "sectionID": "section3",
             "elementContent": [
-              "Używane w zaawansowanych urządzeniach pamięci masowej. Oferuje bardzo wysoką przepustowość i możliwość łańcuchowego łączenia urządzeń",
+              "Używane w zaawansowanych urządzeniach pamięci masowej. Oferuje bardzo wysoką przepustowość i możliwość łańcuchowego łączenia urządzeń.",
               ""
             ]
           },
@@ -563,7 +563,7 @@
             "type": "span",
             "sectionID": "section3",
             "elementContent": [
-              "Łańcuchowe łączenie urządzeń, znane również jako „daisy chaining”, to technologia, która pozwala na podłączenie wielu urządzeń do jednego portu Thunderbolt w sposób szeregowy. Oznacza to, że możesz podłączyć jedno urządzenie do komputera, a następnie kolejne urządzenie do pierwszego urządzenia, i tak dalej. Dzięki temu można podłączyć wiele urządzeń, takich jak monitory, dyski zewnętrzne i inne akcesoria, bez potrzeby używania wielu portów w komputerze.",
+              "Łańcuchowe łączenie urządzeń, znane również jako „daisy chaining”, to technologia, która pozwala na podłączenie wielu urządzeń do jednego portu Thunderbolt w sposób szeregowy. Oznacza to, że możesz podłączyć jedno urządzenie do komputera, a następnie kolejne urządzenie do pierwszego urządzenia i tak dalej. Dzięki temu można podłączyć wiele urządzeń, takich jak monitory, dyski zewnętrzne i inne akcesoria, bez potrzeby używania wielu portów w komputerze.",
               ""
             ]
           },
