@@ -1,6 +1,6 @@
 [
     { "type": "h2", "sectionID": "section1", "elementContent": ["Wstęp"] },
-    { "type": "span", "sectionID": "section1", "elementContent": ["Wczesne projekty i idee komunikacji pomiędzy urządzeniami a zwłaszcza komputerami były bardzo zróżnicowane. Początki komunikacji sieciowej to istny dziki zachód każdy producent robił po swojemu. Aż narodziła się potrzeba standaryzacji i określenia wspólnych zasad projektowania i wdrażania protokołów komunikacyjnych. By w końcu wyklarowały się dwa modele:"] },
+    { "type": "span", "sectionID": "section1", "elementContent": ["Wczesne projekty i idee komunikacji pomiędzy urządzeniami, a zwłaszcza komputerami były bardzo zróżnicowane. Początki komunikacji sieciowej to istny dziki zachód, każdy producent robił po swojemu, aż narodziła się potrzeba standaryzacji i określenia wspólnych zasad projektowania i wdrażania protokołów komunikacyjnych, by w końcu wyklarowały się dwa modele:"] },
     {
         "type": "list",
         "sectionID": "section1",
@@ -36,7 +36,7 @@
               {
                 "type": "span",
                 "sectionID": "section1",
-                "elementContent": [" który pozwolił na komunikację pomiędzy uczelniami na zasadzie wyszukiwania urządzeń w sieci. Wcześniejsza komunikacja wymagała łączenia okablowaniem urządzeń na zasadzie każdy z każdym. ", ""]
+                "elementContent": [", który pozwolił na komunikację pomiędzy uczelniami na zasadzie wyszukiwania urządzeń w sieci. Wcześniejsza komunikacja wymagała łączenia okablowaniem urządzeń na zasadzie każdy z każdym. ", ""]
               },
                 {
                     "type": "br",
