@@ -1,0 +1,916 @@
+[
+  {
+    "type": "h2",
+    "sectionID": "section1",
+    "elementContent": ["Wprowadzenie"]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section1",
+    "elementContent": ["Dyski twarde"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [" - "]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section1",
+    "elementContent": ["HDD"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [" ("]
+  },
+  {
+    "type": "i",
+    "sectionID": "section1",
+    "elementContent": ["ang. hard disk drive"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      ", napęd dysku twardego) są jednym z najstarszych i najczęściej używanych nośników danych w komputerach. Pomimo rosnącej popularności dysków SSD, HDD nadal odgrywają kluczową rolę w przechowywaniu dużych ilości danych."
+    ]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section1",
+    "elementContent": ["SSD"]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section1",
+    "elementContent": [", "]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section1",
+    "elementContent": ["HDD"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      " nadal odgrywają kluczową rolę w przechowywaniu dużych ilości danych."
+    ]
+  },
+  {
+    "type": "h3",
+    "sectionID": "section1",
+    "elementContent": ["Historia dysków twardych"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      "IBM wprowadził pierwszy komercyjny dysk twardy w 1956 roku. Było to ogromne urządzenie, które mogło przechowywać 5 MB danych."
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section1"
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      "Od tamtego czasu technologia dysków twardych znacznie się rozwinęła. Dyski stały się mniejsze, szybsze i bardziej pojemne. W latach 80. i 90. XX wieku dyski twarde stały się standardowym wyposażeniem komputerów osobistych."
+    ]
+  },
+  {
+    "type": "img",
+    "sectionID": "section1",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/Dyski/hdd_ibm.webp",
+      "Na zdjeciu jeden z modeli dysków twardych IBM do komputerów klasy mainframe.",
+      "763",
+      "616",
+      "Edu-Koala-V/koala-v-assets-art1/main/Dyski/hdd_ibm_ORIGINAL.webp"
+    ]
+  },
+  {
+    "type": "h2",
+    "sectionID": "section2",
+    "elementContent": ["Budowa dysku twardego"]
+  },
+  {
+    "type": "img",
+    "sectionID": "section2",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/Dyski/hdd_schemat.webp",
+      "Schemat budowy dysku twardego z zaznaczonymi głównymi komponentami oraz logiczną strukturą danych.",
+      "1605",
+      "1212",
+      "Edu-Koala-V/koala-v-assets-art1/main/Dyski/hdd_schemat_ORIGINAL.webp"
+    ]
+  },
+  {
+    "type": "list",
+    "sectionID": "section2",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["Obudowa", ""]
+          },
+          {
+            "type": "list",
+            "sectionID": "section2",
+            "elementContent": {
+              "ver": "ul",
+              "listElements": [
+                [
+                  {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": [
+                      "Dysk twardy jest zamknięty w metalowej obudowie, która chroni jego wewnętrzne komponenty przed kurzem i uszkodzeniami mechanicznymi.",
+                      ""
+                    ]
+                  }
+                ]
+              ]
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "type": "list",
+    "sectionID": "section2",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["Ramię głowicy", ""]
+          },
+          {
+            "type": "list",
+            "sectionID": "section2",
+            "elementContent": {
+              "ver": "ul",
+              "listElements": [
+                [
+                  {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": [
+                      "Ramię głowicy to element, na którym zamontowane są głowice odczytu/zapisu. Ramię to porusza się w niewielkim odstępie od powierzchni talerzy, umożliwiając głowicom dostęp do różnych obszarów talerzy.",
+                      ""
+                    ]
+                  }
+                ]
+              ]
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "type": "list",
+    "sectionID": "section2",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["Układ pozycjonujący ramię głowicy", ""]
+          },
+          {
+            "type": "list",
+            "sectionID": "section2",
+            "elementContent": {
+              "ver": "ul",
+              "listElements": [
+                [
+                  {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": [
+                      "Układ pozycjonujący, zwany również serwomechanizmem, odpowiada za precyzyjne ustawienie ramienia głowicy nad odpowiednim cylindrem. Współczesne dyski twarde wykorzystują cewkę (voice coil), która porusza się w polu magnetycznym, ustawiając ramię w odpowiedniej pozycji.",
+                      ""
+                    ]
+                  }
+                ]
+              ]
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "type": "list",
+    "sectionID": "section2",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["SATA POWER bazujący na Molex", ""]
+          },
+          {
+            "type": "list",
+            "sectionID": "section2",
+            "elementContent": {
+              "ver": "ul",
+              "listElements": [
+                [
+                  {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": [
+                      "Złącze zasilania SATA jest nowoczesnym standardem, ale w starszych systemach można było spotkać złącza Molex. ",
+                      ""
+                    ]
+                  }
+                ]
+              ]
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "type": "list",
+    "sectionID": "section2",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["Wejście SATA", ""]
+          },
+          {
+            "type": "list",
+            "sectionID": "section2",
+            "elementContent": {
+              "ver": "ul",
+              "listElements": [
+                [
+                  {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": [
+                      "Wejście SATA (Serial ATA) to interfejs używany do podłączania dysków twardych do płyty głównej komputera. Umożliwia szybki transfer danych i jego trzecia wersja standardem w nowoczesnych komputerach.",
+                      ""
+                    ]
+                  }
+                ]
+              ]
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "type": "list",
+    "sectionID": "section2",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["Talerze", ""]
+          },
+          {
+            "type": "list",
+            "sectionID": "section2",
+            "elementContent": {
+              "ver": "ul",
+              "listElements": [
+                [
+                  {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": [
+                      "Talerze to okrągłe dyski wykonane z aluminium lub szkła, pokryte warstwą magnetyczną. Dane są zapisywane na powierzchni talerzy przez głowice odczytu/zapisu. W zależności od pojemności dysku, może on zawierać od jednego do kilku talerzy.",
+                      ""
+                    ]
+                  }
+                ]
+              ]
+            }
+          }
+        ]
+      ]
+    }
+  },
+    {
+        "type": "list",
+        "sectionID": "section2",
+        "elementContent": {
+        "ver": "ul",
+        "listElements": [
+            [
+            {
+                "type": "b",
+                "sectionID": "section2",
+                "elementContent": ["Głowica", ""]
+            },
+            {
+                "type": "list",
+                "sectionID": "section2",
+                "elementContent": {
+                "ver": "ul",
+                "listElements": [
+                    [
+                    {
+                        "type": "span",
+                        "sectionID": "section2",
+                        "elementContent": [
+                        "Głowice odczytu/zapisu to małe sensory, które odpowiadają za odczyt oraz zapis danych na talerzach dysku twardego. Każdy talerz ma dwie głowice, jedną na górze i jedną na dole. Głowice te są zamontowane na suwakach głowy, które są zawieszone na końcach ramion głowy.",
+                        ""
+                        ]
+                    }
+                    ]
+                ]
+                }
+            }
+            ]
+        ]
+        }
+    },
+    {
+        "type": "list",
+        "sectionID": "section2",
+        "elementContent": {
+        "ver": "ul",
+        "listElements": [
+            [
+            {
+                "type": "b",
+                "sectionID": "section2",
+                "elementContent": ["Silnik obracający talerzami", ""]
+            },
+            {
+                "type": "list",
+                "sectionID": "section2",
+                "elementContent": {
+                "ver": "ul",
+                "listElements": [
+                    [
+                    {
+                        "type": "span",
+                        "sectionID": "section2",
+                        "elementContent": [
+                        "Silnik wrzeciona obraca talerze dysku twardego z dużą prędkością, zazwyczaj od 5400 do 7200 obrotów na minutę (RPM). ",
+                        ""
+                        ]
+                    }
+                    ]
+                ]
+                }
+            }
+            ]
+        ]
+        }
+    },
+    {
+        "type": "list",
+        "sectionID": "section2",
+        "elementContent": {
+        "ver": "ul",
+        "listElements": [
+            [
+            {
+                "type": "b",
+                "sectionID": "section2",
+                "elementContent": ["Elektronika sterująca", ""]
+            },
+            {
+                "type": "list",
+                "sectionID": "section2",
+                "elementContent": {
+                "ver": "ul",
+                "listElements": [
+                    [
+                    {
+                        "type": "span",
+                        "sectionID": "section2",
+                        "elementContent": [
+                        "Płytka drukowana z elektroniką sterującą zarządza pracą dysku twardego. Zawiera ona kontroler, który komunikuje się z komputerem oraz zarządza operacjami odczytu i zapisu. Na obrazku jej nie widać bo znajduje się z drugiej strony.",
+                        ""
+                        ]
+                    }
+                    ]
+                ]
+                }
+            }
+            ]
+        ]
+        }
+    },
+    {
+        "type": "h3",
+        "sectionID": "section2",
+        "elementContent": ["Logiczna część dysku twardego"]
+    },
+    {
+        "type": "list",
+        "sectionID": "section2",
+        "elementContent": {
+        "ver": "ul",
+        "listElements": [
+            [
+            {
+                "type": "b",
+                "sectionID": "section2",
+                "elementContent": ["Ścieżka", ""]
+            },
+            {
+                "type": "list",
+                "sectionID": "section2",
+                "elementContent": {
+                "ver": "ul",
+                "listElements": [
+                    [
+                    {
+                        "type": "span",
+                        "sectionID": "section2",
+                        "elementContent": [
+                        "Ścieżka to koncentryczny okrąg na powierzchni talerza dysku, na którym zapisywane są dane. Każdy talerz zawiera wiele ścieżek, które są numerowane od zewnętrznej krawędzi do środka.",
+                        ""
+                        ]
+                    }
+                    ]
+                ]
+            }
+            }
+            ]
+        ]
+        }
+    },
+    {
+        "type": "list",
+        "sectionID": "section2",
+        "elementContent": {
+        "ver": "ul",
+        "listElements": [
+            [
+            {
+                "type": "b",
+                "sectionID": "section2",
+                "elementContent": ["Sektor dysku", ""]
+            },
+            {
+                "type": "list",
+                "sectionID": "section2",
+                "elementContent": {
+                "ver": "ul",
+                "listElements": [
+                    [
+                    {
+                        "type": "span",
+                        "sectionID": "section2",
+                        "elementContent": [
+                        "Sektor to najmniejsza fizyczna jednostka zapisu danych na dysku twardym. Tradycyjnie sektor ma 512 bajtów, ale nowsze dyski mogą używać sektorów o pojemności 4096 bajtów (4 KiB).",
+                        ""
+                        ]
+                    }
+                    ]
+                ]
+                }
+            }
+            ]
+        ]
+        }
+    },
+    {
+        "type": "list",
+        "sectionID": "section2",
+        "elementContent": {
+        "ver": "ul",
+        "listElements": [
+            [
+            {
+                "type": "b",
+                "sectionID": "section2",
+                "elementContent": ["Sektor geometryczny", ""]
+            },
+            {
+                "type": "list",
+                "sectionID": "section2",
+                "elementContent": {
+                "ver": "ul",
+                "listElements": [
+                    [
+                    {
+                        "type": "span",
+                        "sectionID": "section2",
+                        "elementContent": [
+                        "Sektor geometryczny odnosi się do fizycznej lokalizacji sektora na dysku, określonej przez jego położenie na ścieżce i cylindrze.",
+                        ""
+                        ]
+                    }
+                    ]
+                ]
+                }
+            }
+            ]
+        ]
+        }
+    },
+    {
+        "type": "list",
+        "sectionID": "section2",
+        "elementContent": {
+        "ver": "ul",
+        "listElements": [
+            [
+            {
+                "type": "b",
+                "sectionID": "section2",
+                "elementContent": ["Klaster", ""]
+            },
+            {
+                "type": "list",
+                "sectionID": "section2",
+                "elementContent": {
+                "ver": "ul",
+                "listElements": [
+                    [
+                    {
+                        "type": "span",
+                        "sectionID": "section2",
+                        "elementContent": [
+                        "Klaster to grupa sektorów, która jest najmniejszą jednostką alokacji danych w systemie plików. System operacyjny zarządza danymi na dysku twardym w jednostkach klastrów, co pozwala na efektywniejsze zarządzanie przestrzenią dyskową",
+                        ""
+                        ]
+                    }
+                    ]
+                ]
+                }
+            }
+            ]
+        ]
+        }
+    },
+    {
+        "type": "h2",
+        "sectionID": "section3",
+        "elementContent": ["Sposób działania i interpretacji danych na talerzach"]
+    },
+    {
+        "type": "h3",
+        "sectionID": "section3",
+        "elementContent": ["Zapis danych"]
+    },
+    {
+        "type": "span",
+        "sectionID": "section3",
+        "elementContent": ["Podczas zapisu danych na dysku twardym, głowica zapisująca generuje pole magnetyczne, które zmienia orientację magnetyczną cząsteczek na powierzchni talerza. Te zmiany orientacji reprezentują dane binarne ("]
+    },
+    {
+        "type": "b",
+        "sectionID": "section3",
+        "elementContent": ["0"]
+    },
+    {
+        "type": "span",
+        "sectionID": "section3",
+        "elementContent": [" i "]
+    },
+    {
+        "type": "b",
+        "sectionID": "section3",
+        "elementContent": ["1"]
+    },
+    {
+        "type": "span",
+        "sectionID": "section3",
+        "elementContent": ["). Proces ten polega na zmianie kierunku namagnesowania wzdłuż ścieżki na talerzu."]
+    },
+    {
+        "type": "br",
+        "sectionID": "section3"
+    },
+    {
+        "type": "h3",
+        "sectionID": "section3",
+        "elementContent": ["Odczyt danych"]
+    },
+    {
+        "type": "span",
+        "sectionID": "section3",
+        "elementContent": ["Podczas odczytu danych, głowica odczytująca przemieszcza się nad powierzchnią talerza. Głowica ta jest wyposażona w cewkę, która reaguje na zmiany pola magnetycznego. Kiedy głowica przechodzi nad obszarem o zmienionej orientacji magnetycznej, indukuje to prąd w cewce. Te zmiany prądu są następnie przetwarzane przez elektronikę dysku na sygnały cyfrowe, które komputer interpretuje jako dane binarne."]
+    },
+    {
+        "type": "br",
+        "sectionID": "section3"
+    },
+    {
+        "type": "h3",
+        "sectionID": "section3",
+        "elementContent": ["System binarny"]
+    },
+    {
+        "type": "span",
+        "sectionID": "section3",
+        "elementContent": ["Komputer za pośrednictwem zaawansowanych algorytmów kodowania i dekodowania rozpoznaje zmiany w polu magnetycznym jako sekwencję bitów ("]
+    },
+    {
+        "type": "b",
+        "sectionID": "section3",
+        "elementContent": ["0"]
+    },
+    {
+        "type": "span",
+        "sectionID": "section3",
+        "elementContent": [" i "]
+    },
+    {
+        "type": "b",
+        "sectionID": "section3",
+        "elementContent": ["1"]
+    },
+    {
+        "type": "span",
+        "sectionID": "section3",
+        "elementContent": [")."]
+    },
+    {
+        "type": "br",
+        "sectionID": "section3"
+    },
+    {
+        "type": "h2",
+        "sectionID": "section4",
+        "elementContent": ["Zastosowania dysków twardych WD HDD"]
+    },
+    {
+        "type": "span",
+        "sectionID": "section4",
+        "elementContent": ["Firma Western Digital oferuje różne rodzaje dysków twardych, które są przeznaczone do różnych zastosowań. Poniżej przedstawiamy najpopularniejsze serie dysków twardych WD:"]
+    },
+    {
+        "type": "br",
+        "sectionID": "section4"
+    },
+    {
+        "type":"img",
+        "sectionID":"section4",
+        "elementContent":[
+            "Edu-Koala-V/koala-v-assets-art1/main/Dyski/all_wd_color.webp",
+            "Dyski twarde WD",
+            "2354",
+            "600",
+            "Edu-Koala-V/koala-v-assets-art1/main/Dyski/all_wd_color_ORIGINAL.webp"
+        ]
+    },
+    {
+        "type": "list",
+        "sectionID": "section4",
+        "elementContent": {
+        "ver": "ul",
+        "listElements": [
+            [
+            {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["Dysk twardy WD Blue"]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": [" - Jest to nośnik pamięci ogólnego przeznaczenia, niezawodny i energooszczędny."]
+            }
+            ],
+            [
+            {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["Dysk twardy WD Red"]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": [" - Jest produkowany dla systemów NAS i RAID."]
+            }
+            ],
+            [
+            {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["Dysk twardy WD Green"]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": [" - Zużywa mniej energii i jest podobny do dysków twardych z serii niebieskiej. Wersja zielona nie jest obecnie popularna, na stronie producenta nie da się jej kupić."]
+            }
+            ],
+            [
+            {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["Dysk twardy WD Black"]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": [" - Jest to dysk twardy o wysokiej wydajności, przeznaczony do zaawansowanych aplikacji, do gier i tworzenia treści."]
+            }
+            ],
+            [
+            {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["Dysk twardy WD Purple"]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": [" - Jest to urządzenie pamięci masowej systemu nadzoru. Czyli monitoring."]
+            }
+            ],
+            [
+            {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["Dysk twardy WD Gold"]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": [" - Jest to wersja premium dysków twardych WD przeznaczona do centrów danych i innych podobnych zastosowań."]
+            }
+            ]
+        ]
+        }
+    },
+    {
+        "type": "h2",
+        "sectionID": "section5",
+        "elementContent": ["Bad Sektory"]
+    },
+    {
+        "type": "span",
+        "sectionID": "section5",
+        "elementContent": ["Bad sektor to uszkodzony obszar na dysku twardym, który nie odpowiada na żądania odczytu lub zapisu danych. Może to być spowodowane uszkodzeniami fizycznymi lub błędami logicznymi."]
+    },
+    {
+        "type": "br",
+        "sectionID": "section5"
+    },
+    {
+        "type": "br",
+        "sectionID": "section5"
+    },
+    {
+        "type": "bi",
+        "sectionID": "section5",
+        "elementContent": ["Rodzaje bad sektorów:"]
+    },
+    {
+        "type": "list",
+        "sectionID": "section5",
+        "elementContent": {
+        "ver": "ul",
+        "listElements": [
+            [
+            {
+                "type": "b",
+                "sectionID": "section5",
+                "elementContent": ["Fizyczne bad sektory:"]
+            },
+            {
+                "type": "span",
+                "sectionID": "section5",
+                "elementContent": [" Są wynikiem fizycznych uszkodzeń powierzchni dysku, takich jak zarysowania lub uszkodzenia mechaniczne. Nie można ich naprawić."]
+            }
+            ],
+            [
+            {
+                "type": "b",
+                "sectionID": "section5",
+                "elementContent": ["Logiczne bad sektory:"]
+            },
+            {
+                "type": "span",
+                "sectionID": "section5",
+                "elementContent": [" Powstają na skutek błędów oprogramowania lub problemów z zasilaniem. Mogą być naprawione za pomocą narzędzi systemowych, takich jak "]
+            },
+            {
+                "type": "b",
+                "sectionID": "section5",
+                "elementContent": ["CHKDSK"]
+            },
+            {
+                "type": "span",
+                "sectionID": "section5",
+                "elementContent": [" w systemie Windows."]
+            }
+        ]
+        ]
+        }
+    },
+    {
+        "type": "br",
+        "sectionID": "section5"
+    },
+    {
+        "type": "bi",
+        "sectionID": "section5",
+        "elementContent": ["Naprawa bad sektorów:"]
+    },
+    {
+        "type": "list",
+        "sectionID": "section5",
+        "elementContent": {
+        "ver": "ul",
+        "listElements": [
+            [
+            {
+                "type": "bi",
+                "sectionID": "section5",
+                "elementContent": ["CHKDSK:"]
+            },
+            {
+                "type": "span",
+                "sectionID": "section5",
+                "elementContent": [" Wbudowane narzędzie w systemie Windows, które skanuje dysk, identyfikuje i próbuje naprawić logiczne bad sektory. Można je uruchomić z wiersza poleceń, wpisując: "]
+            },
+            {
+                "type":"br",
+                "sectionID":"section5"
+            },
+            {
+                "type":"text-block-name",
+                "sectionID":"section5",
+                "elementContent":["chkdsk [litera dysku]: /f /r",""]
+            }
+          
+
+            ],
+            [
+            {
+                "type": "bi",
+                "sectionID": "section5",
+                "elementContent": ["fsck:"]
+            },
+            {
+                "type": "span",
+                "sectionID": "section5",
+                "elementContent": [" Narzędzie do sprawdzania i naprawy systemów plików. Aby użyć fsck, wpisz w terminalu:"]
+            },
+            {
+                "type":"br",
+                "sectionID":"section5"
+            },
+            {
+                "type": "text-block-name",
+                "sectionID": "section5",
+                "elementContent": ["sudo fsck /dev/sdX",""]
+            }
+            ],
+            [
+            {
+                "type": "bi",
+                "sectionID": "section5",
+                "elementContent": ["Oprogramowanie firm trzecich:"]
+            },
+            {
+                "type": "span",
+                "sectionID": "section5",
+                "elementContent": [" Narzędzia takie jak EaseUS Partition Master mogą również pomóc w identyfikacji i naprawie bad sektorów."]
+            }
+            ]
+        ]
+        }
+    },
+{
+    "type": "img",
+    "sectionID": "section5",
+    "elementContent": [
+        "Edu-Koala-V/koala-v-assets-art1/main/Dyski/good_bad_sectors_hdd.webp",
+        "Dobre sektory i złe sektory na dysku twardym.",
+        "1202",
+        "688",
+        "Edu-Koala-V/koala-v-assets-art1/main/Dyski/good_bad_sectors_hdd_ORIGINAL.webp"
+    ]
+}
+
+]
