@@ -323,7 +323,7 @@
         {
             "type":"span",
             "sectionID":"section5",
-            "elementContent":["Urządzenia audio: Kable koncentryczne są stosowane w urządzeniach audio, ponieważ sygnał analogowy jest mniej stratny niż cyfrowy, jeśli chodzi o dźwięk.",""]
+            "elementContent":[" Urządzenia audio: Kable koncentryczne są stosowane w urządzeniach audio, ponieważ sygnał analogowy jest mniej stratny niż cyfrowy, jeśli chodzi o dźwięk.",""]
         },
         {
             "type":"h3",
