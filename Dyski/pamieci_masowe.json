@@ -184,7 +184,7 @@
                     "type": "span",
                     "sectionID": "section2",
                     "elementContent": [
-                      "Są trwałe i tanie, ale mają ograniczoną pojemność i wolniejszy czas dostępu w porównaniu do dysków twardych i SSD, oraz zapis danych odbywa się poprzez działanie lasera na powierzchnię płyty.",
+                      "Są trwałe i tanie, ale mają ograniczoną pojemność i wolniejszy czas dostępu w porównaniu do dysków twardych i SSD oraz zapis danych odbywa się poprzez działanie lasera na powierzchnię płyty.",
                       ""
                     ]
                   },
@@ -196,7 +196,7 @@
                     "type": "span",
                     "sectionID": "section2",
                     "elementContent": [
-                      "W CD oraz DVD występują dwa rodzaje zapisu: jednokrotny (R) i wielokrotny (RW), oraz standard zapisu (-) starszy i (+) nowszy.",
+                      "W CD oraz DVD występują dwa rodzaje zapisu: jednokrotny (R) i wielokrotny (RW) oraz standard zapisu (-) starszy i (+) nowszy.",
                       ""
                     ]
                   },
@@ -273,7 +273,7 @@
                     "type": "span",
                     "sectionID": "section2",
                     "elementContent": [
-                      "), które można zapisać tylko raz, oraz ",
+                      "), które można zapisać tylko raz oraz ",
                       ""
                     ]
                   },
