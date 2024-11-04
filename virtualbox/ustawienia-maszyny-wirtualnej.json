@@ -1,215 +1,1024 @@
 [
-{"type": "h2", "sectionID": "section1", "elementContent": ["Ustawienia maszyny: Ogólne", ""]},
-{"type": "span", "sectionID": "section1","elementContent":["Aby wykorzystać dodatkowe funkcjonalności interakcji z maszyną, musisz zainstalować zestaw pakietowy dodatków gościa, zwanych również “Guest Additions”. Dzięki nim będziesz mógł zmieniać okno gościa na pełen ekran.",""]},
-{"type": "br", "sectionID": "section1"},
-{"type": "span", "sectionID": "section1","elementContent":["Zamontuj obraz w maszynie i otwórz go w stacji dysków.",""]},
-{"type": "img", "sectionID": "section1", "elementContent": [
-    "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/add-guest-addon.webp",
-    "Zamontuj obraz w maszynie i otwórz go w stacji dysków.",
-    "944","658", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/add-guest-addon_ORIGINAL.webp"
-    ]},
-{"type": "span", "sectionID": "section1","elementContent":["Uruchom instalator VBoxWindowsAdditions.exe i przejdź przez proces instalacji, a następnie uruchom ponownie maszynę.",""]},
-{"type": "img", "sectionID": "section1", "elementContent": [
-    "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/install-guest-addon.webp",
-    "Uruchom instalator VBoxWindowsAdditions.exe.",
-    "943","706", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/install-guest-addon_ORIGINAL.webp"
-    ]},
-  {"type": "span", "sectionID": "section1","elementContent":["Teraz system w maszynie automatycznie będzie wypełniać całą dostępną przestrzeń w oknie dostosowując się do jej rozmiaru i proporcji.",""]},
-{"type": "br", "sectionID": "section1"},
-  {"type": "span", "sectionID": "section1","elementContent":["Kolejną funkcjonalnością którą daje instalacja dodatków gościa to opcje transferu danych pomiędzy gościem a gospodarzem. Współdzielony schowek pozwala na przekopiowanie danych tekstowych i obrazów. Przeciąganie i upuszczanie pozwala przekopiować pliki przenosząc je na lub poza obszar maszyny. ( Niestety zdarza się że VirtualBox się pogubi w działaniach użytkownika i może to zgłośić okienkiem błędu kopiowania pliku )",""]},
-  {"type": "img", "sectionID": "section1", "elementContent": [
-    "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/maszyna-schowek-windows.webp",
-    "Ustawienie maszyny dotyczące wspódzielenia schowka gościa z gospodarzem.",
-    "944","658", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/maszyna-schowek-windows_ORIGINAL.webp"
-    ]},
-{"type": "span", "sectionID": "section1","elementContent":["W razie gdyby gość przechwycił i nie chciał oddać kursora myszki użyj klawisza host zaznaczony na pomarańczowo w prawym dolnym rogu maszyny.",""]},
-{"type": "br", "sectionID": "section1"},
-  {"type": "span", "sectionID": "section1","elementContent":["Wykorzystując kombinację klawiszy ",""]},
-      {"type": "key-combo", "sectionID": "section1", "elementContent": ["Windows","V"]},
-  {"type": "span", "sectionID": "section1","elementContent":[", uruchomisz schowek elementów kopiowanych ",""]},
-      {"type": "key-combo", "sectionID": "section1", "elementContent": ["Ctrl","C"]},
-   {"type": "span", "sectionID": "section1","elementContent":[" lub wyciętych ",""]},
-      {"type": "key-combo", "sectionID": "section1", "elementContent": ["Ctrl","X"]},
-  {"type": "span", "sectionID": "section1","elementContent":[" oraz twoich zrzutów ekranów („screenshots”) ",""]},
-      {"type": "key-combo", "sectionID": "section1", "elementContent": ["Windows","Shift","S"]},
-    {"type": "img", "sectionID": "section1", "elementContent": [
-    "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/schowek-windows.webp",
-    "Przedstawienie działania schowka Windows.",
-    "944","1105", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/schowek-windows_ORIGINAL.webp"
-    ]},
+  {
+    "type": "h2",
+    "sectionID": "section1",
+    "elementContent": ["Ustawienia maszyny: Ogólne", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      "Aby wykorzystać dodatkowe funkcjonalności interakcji z maszyną, musisz zainstalować zestaw pakietowy dodatków gościa, zwanych również ",
+      ""
+    ]
+  },
+  {
+    "type": "i",
+    "sectionID": "section1",
+    "elementContent": ["„Guest Additions”", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      ". Dzięki nim będziesz mógł zmieniać okno gościa na pełen ekran.",
+      ""
+    ]
+  },
+  { "type": "br", "sectionID": "section1" },
+  { "type": "br", "sectionID": "section1" },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      "Zamontuj obraz w maszynie i otwórz go w stacji dysków.",
+      ""
+    ]
+  },
+  {
+    "type": "img",
+    "sectionID": "section1",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/add-guest-addon.webp",
+      "Zamontuj obraz w maszynie i otwórz go w stacji dysków.",
+      "944",
+      "658",
+      "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/add-guest-addon_ORIGINAL.webp"
+    ]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": ["Uruchom instalator ", ""]
+  },
+  {
+    "type": "b",
+    "sectionID": "section1",
+    "elementContent": ["VBoxWindowsAdditions.exe", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      " i przejdź przez proces instalacji, a następnie uruchom ponownie maszynę.",
+      ""
+    ]
+  },
+  {
+    "type": "img",
+    "sectionID": "section1",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/install-guest-addon.webp",
+      "Uruchom instalator VBoxWindowsAdditions.exe.",
+      "943",
+      "706",
+      "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/install-guest-addon_ORIGINAL.webp"
+    ]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      "Teraz system w maszynie automatycznie będzie wypełniać całą dostępną przestrzeń w oknie dostosowując się do jej rozmiaru i proporcji.",
+      ""
+    ]
+  },
+  { "type": "br", "sectionID": "section1" },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      "Kolejną funkcjonalnością, którą daje instalacja dodatków gościa, są opcje transferu danych pomiędzy gościem a gospodarzem. Współdzielony schowek pozwala na przekopiowanie danych tekstowych i obrazów. Przeciąganie i upuszczanie umożliwia przekopiowanie plików, przenosząc je na lub poza obszar maszyny. Niestety, zdarza się, że VirtualBox może się pogubić w działaniach użytkownika i zgłosić błąd kopiowania pliku.",
+      ""
+    ]
+  },
+  {
+    "type": "img",
+    "sectionID": "section1",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/maszyna-schowek-windows.webp",
+      "Ustawienie maszyny dotyczące współdzielenia schowka gościa z gospodarzem.",
+      "944",
+      "658",
+      "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/maszyna-schowek-windows_ORIGINAL.webp"
+    ]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      "W razie gdyby maszyna gościa przechwyciła i nie chciała oddać kursora myszki, użyj klawisza host, zaznaczonego na pomarańczowo w prawym dolnym rogu maszyny.",
+      ""
+    ]
+  },
+  { "type": "br", "sectionID": "section1" },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": ["Wykorzystując kombinację klawiszy ", ""]
+  },
+  {
+    "type": "key-combo",
+    "sectionID": "section1",
+    "elementContent": ["Windows", "V"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [", uruchomisz schowek elementów kopiowanych ", ""]
+  },
+  {
+    "type": "key-combo",
+    "sectionID": "section1",
+    "elementContent": ["Ctrl", "C"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [" lub wyciętych ", ""]
+  },
+  {
+    "type": "key-combo",
+    "sectionID": "section1",
+    "elementContent": ["Ctrl", "X"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [", oraz twoich zrzutów ekranów („screenshots”) ", ""]
+  },
+  {
+    "type": "key-combo",
+    "sectionID": "section1",
+    "elementContent": ["Windows", "Shift", "S"]
+  },
+  {
+    "type": "img",
+    "sectionID": "section1",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/schowek-windows.webp",
+      "Przedstawienie działania schowka Windows.",
+      "944",
+      "1105",
+      "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/schowek-windows_ORIGINAL.webp"
+    ]
+  },
 
-    {"type": "h2", "sectionID": "section2", "elementContent": ["Ustawienia maszyny: System", ""]},
-{"type": "span", "sectionID": "section2","elementContent":["Te ustawienia można zmieniać tylko wtedy gdy maszyna jest wyłączona. W zakładce Płyta główna możesz zadeklarować ilość pamięci RAM do przydzielenia maszynie oraz określić kolejność bootowania. Pozostałe ustawienia są specyficzne dla instalowanego systemu na maszynie.",""]},
- {"type": "img", "sectionID": "section2", "elementContent": [
-    "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/maszyna-system-plyta.webp",
-    "Ustawienia systemu maszyny zmiana Ram-u i sekwencji boot-owania.",
-    "944","602", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/maszyna-system-plyta_ORIGINAL.webp"
-    ]},
-    {"type": "span", "sectionID": "section2","elementContent":["W zakładce Procesor możesz określić z ilu rdzeni będzie korzystać maszyna i w jakim stopniu może je wykorzystać.",""]},
-    {"type": "br", "sectionID": "section2"},
-    {"type": "span", "sectionID": "section2","elementContent":["Rozszerzone właściwości:",""]},
-    {"type": "br", "sectionID": "section2"},
-    {"type": "b", "sectionID": "section2","elementContent":["PAE/NX ",""]},
-    {"type": "span", "sectionID": "section2","elementContent":["pozwala na ",""]},
-    {"type": "u", "sectionID": "section2","elementContent":["wykorzystanie większą ilość pamięci RAM ",""]},
-    {"type": "span", "sectionID": "section2","elementContent":["niż ",""]},
-    {"type": "bi", "sectionID": "section2","elementContent":["4GiB ",""]},
-    {"type": "span", "sectionID": "section2","elementContent":["w systemie",""]},
-    {"type": "i", "sectionID": "section2","elementContent":["32Bit",""]},
-    {"type": "br", "sectionID": "section2"},
-    {"type": "bi", "sectionID": "section2","elementContent":["Zagnieżdżone VT-x/AMD-V ",""]},
-    {"type": "span", "sectionID": "section2","elementContent":["umożliwia wirtualizację w wirtualizacji. ( Tą opcje należy aktywować za pomocą CMD, by wykonywać komendy oraz w nowszych wersjach VirtualBox wymagane są PythonCore i Win32API )",""]},
-    
- {"type": "img", "sectionID": "section2", "elementContent": [
-    "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/maszyna-system-cpu.webp",
-    "Ustawienia systemu maszyny zmiana ilości przypisanej do niej rdzeni procesora (CPU)",
-    "945","602", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/maszyna-system-cpu_ORIGINAL.webp"
-    ]},
-    {"type": "span", "sectionID": "section2","elementContent":["W zakładce akceleracja, gdy posiadasz procesor, którego premiera odbyła się po 2010 roku, ",""]},
-    {"type": "b", "sectionID": "section2","elementContent":["włącz zagnieżdżone stronicowanie",""]},
-    {"type": "span", "sectionID": "section2","elementContent":[". Może to pozytywnie wpłynąć na wydajność maszyny. Kolejną opcją do ustawienia jest ",""]},
-    {"type": "b", "sectionID": "section2","elementContent":["interfejs prawirtualizacji",""]},
-    {"type": "span", "sectionID": "section2","elementContent":[". Wersja ",""]},
-    {"type": "text-block-name", "sectionID": "section2", "elementContent": ["Domyślny",""]},
-    {"type": "span", "sectionID": "section2","elementContent":[". automatycznie wybierze najlepszy interfejs do systemu gościa. To samo uczyni wybranie  ",""]},
-    {"type": "text-block-name", "sectionID": "section2", "elementContent": ["Stary",""]},
-    {"type": "span", "sectionID": "section2","elementContent":[", ale jest on przeznaczony dla starszych systemów. Pozostałe interfejsy zostały dostosowane do konkretnych rodzajów systemów. Na grafice przedstawiono, jakiego wyboru dokonać.",""]},
-{"type": "img", "sectionID": "section2", "elementContent": [
-    "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/maszyna-system-gpu.webp",
-    "Ustawienia systemu maszyny zmiana interfejsu pra wirtualizacji na najlepszy dla danego systemu gościa",
-    "944","602", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/maszyna-system-gpu_ORIGINAL.webp"
-    ]},
+  {
+    "type": "h2",
+    "sectionID": "section2",
+    "elementContent": ["Ustawienia maszyny: System", ""]
+  },
+  {
+    "type": "b",
+    "sectionID": "section2",
+    "elementContent": [
+      "UWAGA! ",
+      "red"
+    ]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      "Te ustawienia można zmieniać tylko wtedy, gdy maszyna jest wyłączona.",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section2"
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": ["W zakładce ", ""]
+  },
+  {
+    "type": "i",
+    "sectionID": "section2",
+    "elementContent": ["„Płyta główna”", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [" możesz zadeklarować ilość pamięci ", ""]
+  },
+  { "type": "b", "sectionID": "section2", "elementContent": ["RAM", ""] },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      " do przydzielenia maszynie, oraz określić kolejność ",
+      ""
+    ]
+  },
+  {
+    "type": "b",
+    "sectionID": "section2",
+    "elementContent": ["bootowania", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      ". Pozostałe ustawienia są specyficzne dla instalowanego systemu na maszynie.",
+      ""
+    ]
+  },
+  {
+    "type": "img",
+    "sectionID": "section2",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/maszyna-system-plyta.webp",
+      "Ustawienia systemu maszyny zmiana Ram-u i sekwencji boot-owania.",
+      "944",
+      "602",
+      "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/maszyna-system-plyta_ORIGINAL.webp"
+    ]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": ["W zakładce ", ""]
+  },
+  {
+    "type": "i",
+    "sectionID": "section2",
+    "elementContent": ["„Procesor”", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      " możesz określić z ilu rdzeni będzie korzystać maszyna i w jakim stopniu może je wykorzystać.",
+      ""
+    ]
+  },
+  { "type": "br", "sectionID": "section2" },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": ["Rozszerzone właściwości:", ""]
+  },
+  { "type": "br", "sectionID": "section2" },
+  { "type": "b", "sectionID": "section2", "elementContent": ["PAE/NX ", ""] },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": ["pozwala na ", ""]
+  },
+  {
+    "type": "u",
+    "sectionID": "section2",
+    "elementContent": ["wykorzystanie większej ilość pamięci RAM ", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": ["niż niecałe ", ""]
+  },
+  { "type": "bi", "sectionID": "section2", "elementContent": ["4GB", ""] },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [" w systemie ", ""]
+  },
+  { "type": "bi", "sectionID": "section2", "elementContent": ["32Bit", ""] },
+  { "type": "br", "sectionID": "section2" },
+  {
+    "type": "bi",
+    "sectionID": "section2",
+    "elementContent": ["Zagnieżdżone VT-x/AMD-V ", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": ["umożliwia wirtualizację w wirtualizacji. ", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      "Tę opcję należy aktywować za pomocą CMD. Aby wykonywać wymagane komendy, posiadając nowszą wersję VirtualBox, wymagane są PythonCore wraz z biblioteką Win32API.",
+      ""
+    ]
+  },
 
+  {
+    "type": "img",
+    "sectionID": "section2",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/maszyna-system-cpu.webp",
+      "Ustawienia systemu maszyny zmiana ilości przypisanej do niej rdzeni procesora (CPU)",
+      "945",
+      "602",
+      "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/maszyna-system-cpu_ORIGINAL.webp"
+    ]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": ["W zakładce ", ""]
+  },
+  {
+    "type": "i",
+    "sectionID": "section2",
+    "elementContent": ["„Akceleracja”", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      ", gdy posiadasz procesor, którego premiera odbyła się po 2010 roku, ",
+      ""
+    ]
+  },
 
-    {"type": "h2", "sectionID": "section3", "elementContent": ["Ustawienia maszyny: Ekran", ""]},
-{"type": "span", "sectionID": "section3","elementContent":["W zakładce Ekran możesz włączyć akcelerację 3D która wpłynie na wydajność oraz dostosować ilość pamięci ram i wybrać kontroler grafiki:",""]},
-     {"type": "list","sectionID": "section3", "elementContent": {"ver":"ul",
-    "listElements":["VBoxVGA – zaimportowano maszynę ( Czyli utworzoną w VirtualBox starszym niż 6.0)",
-        "VMSVGA – Maszyna została utworzona w VMware Workstation i zaimportowana do VirtualBox",
-        "VBoxSVGA – Najlepsza opcja gdy tworzysz nową maszynę w VirtualBox nowszym niż 6.0 i nie masz zamiarów instalować systemu starszego niż Windows 7"
-    ] }},
-{"type": "img", "sectionID": "section3", "elementContent": [
-    "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/maszyna-ekran.webp",
-    "Ustawienia wirtualnych ekranów maszyny",
-    "944","602", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/maszyna-ekran_ORIGINAL.webp"
-    ]},
-{"type": "span", "sectionID": "section3","elementContent":["Dodatkowo możesz określić ilość monitorów do zwirtualizowania co da ci poniższy efekt:",""]},
-{"type": "img", "sectionID": "section3", "elementContent": [
-    "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/maszyna-ekran-efekt.webp",
-    "Włączenie wielu ekranów maszyny gościa w tym wypadku dwie",
-    "944","508", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/maszyna-ekran-efekt_ORIGINAL.webp"
-    ]},
-{"type": "span", "sectionID": "section3","elementContent":["Zakładki ",""]},
-    {"type": "text-block-name", "sectionID": "section3", "elementContent": ["Zdalny pulpit",""]},
-    {"type": "span", "sectionID": "section3","elementContent":[" i ",""]},
-    {"type": "text-block-name", "sectionID": "section3", "elementContent": ["Nagrywanie",""]},
-{"type": "span", "sectionID": "section3","elementContent":["Możesz sprawdzić w własnym zakresie przy nowszych wersjach VB bo aktualnie powoduje to dużo błędów i nie działą tak jak powinno.",""]},
+  {
+    "type": "b",
+    "sectionID": "section2",
+    "elementContent": ["włącz zagnieżdżone stronicowanie", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      ". Może to pozytywnie wpłynąć na wydajność maszyny.",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section2"
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      "Kolejną opcją do ustawienia jest ",
+      ""
+    ]
+  },
 
-    {"type": "h2", "sectionID": "section4", "elementContent": ["Ustawienia maszyny: Pamięć", ""]},
-{"type": "span", "sectionID": "section4","elementContent":["Na tej stronie zarządzasz kontrolerami urządzeń magazynujących, dyskiem lub napędem optycznym. Następnie do tego kontrolera możesz dodać plik ",""]},
-{"type": "bi", "sectionID": "section4","elementContent":[".vdi",""]},
-{"type": "span", "sectionID": "section4","elementContent":["(Virtual Disk Image – obraz wirtualnego dysku) lub obraz ISO jako płytę do dysku fizycznego. W ten sposób wirtualizujesz nowe dyski dla maszyny gościa. Pamiętaj, że musisz mieć fizycznie daną ilość pamięci na swoim dysku, aby móc ją zwirtualizować dla maszyn.",""]},
-{"type": "br", "sectionID": "section4"},
-{"type": "span", "sectionID": "section4","elementContent":["Ustawienie kontrolera NVMe wymaga doinstalowania dodatkowej paczki rozszerzającej funkcjonalności VirtrualBox-a: ",""]},
-     {"type": "link","sectionID":"section4","elementContent":["https://www.virtualbox.org/wiki/Downloads"]},
-    {"type": "img", "sectionID": "section4", "elementContent": [
-    "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/extension-pack.webp",
-    "Oficjalna lokalizacja linku do pobrania extension pcak dla virtualbox",
-    "944","633", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/extension-pack_ORIGINAL.webp"
-    ]},
-{"type": "span", "sectionID": "section4","elementContent":["Gdy pobierzesz już plik ",""]},
-{"type": "i", "sectionID": "section4","elementContent":["vbox-extpack",""]},
-{"type": "span", "sectionID": "section4","elementContent":["Przejdź do VirtualbBox-a, i postepuj zgodnie z poniższymi krokami przedstawionymi na obrazku, by zainstalować tą paczkę rozszerezającą.",""]},
-  {"type": "img", "sectionID": "section4", "elementContent": [
-    "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/extension-pack-install.webp",
-    "Kroki przedstawiające jak zainstalować paczkę rozszerzającą funkcjonalności VirtualBox",
-    "942","507", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/extension-pack-install_ORIGINAL.webp"
-    ]},
-{"type": "span", "sectionID": "section4","elementContent":["W moim przypadku po zainstalowaniu ",""]},
-{"type": "b", "sectionID": "section4","elementContent":["Externsion Pack",""]},
-{"type": "span", "sectionID": "section4","elementContent":["maszyna normalnie się uruchomiła, ale istnieje problem ze sterownikami, więc dyski podłączone pod ten kontroler dalej są niedostępne.",""]},
- {"type": "img", "sectionID": "section4", "elementContent": [
-    "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/brak-sterownika-nvme.webp",
-    "Urządzenie zostało wykryte, ale brakuje sterowników.",
-    "944","690", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/brak-sterownika-nvmel_ORIGINAL.webp"
-    ]},
-{"type": "span", "sectionID": "section4","elementContent":["Wiec można się ograniczyć do Kontrolerów ",""]},
-{"type": "b", "sectionID": "section4","elementContent":["USB",""]},
-{"type": "span", "sectionID": "section4","elementContent":["i",""]},
-{"type": "b", "sectionID": "section4","elementContent":["AHCI",""]},
-{"type": "span", "sectionID": "section4","elementContent":[" czyli ",""]},
-{"type": "b", "sectionID": "section4","elementContent":["SATA",""]},
-{"type": "span", "sectionID": "section4","elementContent":[":",""]},
- {"type": "img", "sectionID": "section4", "elementContent": [
-    "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/ustawienia-maszyny-pamiec.webp",
-    "Nie potrzebujesz wiecej rodzajów kontrolerów magazynowych niż USB i AHCI czyli SATA.",
-    "944","579", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/ustawienia-maszyny-pamiec_ORIGINAL.webp"
-    ]},
+  {
+    "type": "b",
+    "sectionID": "section2",
+    "elementContent": ["interfejs prawirtualizacji", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [". Wersja ", ""]
+  },
+  {
+    "type": "b",
+    "sectionID": "section2",
+    "elementContent": ["Domyślny", "orange"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      " automatycznie wybierze najlepszy interfejs do systemu gościa. To samo uczyni wybranie  ",
+      ""
+    ]
+  },
+  {
+    "type": "b",
+    "sectionID": "section2",
+    "elementContent": ["Stary", "orange"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      ", ale jest on przeznaczony dla starszych systemów. Pozostałe interfejsy zostały dostosowane do konkretnych rodzajów systemów. Na grafice przedstawiono, jakiego wyboru dokonać.",
+      ""
+    ]
+  },
+  {
+    "type": "img",
+    "sectionID": "section2",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/maszyna-system-gpu.webp",
+      "Ustawienia systemu maszyny zmiana interfejsu pra wirtualizacji na najlepszy dla danego systemu gościa",
+      "944",
+      "602",
+      "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/maszyna-system-gpu_ORIGINAL.webp"
+    ]
+  },
 
-{"type": "h2", "sectionID": "section5", "elementContent": ["Ustawienia maszyny: Dźwięk ", ""]},
-{"type": "span", "sectionID": "section5","elementContent":["Domyślnie odpowiada za przesyłanie dźwięków gościa do gospodarza, a także możesz zaznaczyć opcję ",""]},
-    {"type": "text-block-name", "sectionID": "section5", "elementContent": ["Włącz wejście dźwięku",""]},
-{"type": "span", "sectionID": "section5","elementContent":[", aby wysyłać dane z własnego fizycznego mikrofonu do maszyny.",""]},
+  {
+    "type": "h2",
+    "sectionID": "section3",
+    "elementContent": ["Ustawienia maszyny: Ekran", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": ["W zakładce ", ""]
+  },
+  { "type": "i", "sectionID": "section3", "elementContent": ["„Ekran”", ""] },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [
+      " możesz włączyć akcelerację 3D, która wpłynie na wydajność, oraz dostosować ilość pamięci RAM i wybrać kontroler grafiki:",
+      ""
+    ]
+  },
 
-{"type": "h2", "sectionID": "section6", "elementContent": ["Ustawienia maszyny: Sieć ", ""]},
-{"type": "span", "sectionID": "section6","elementContent":["Strona z dotycząca sieci jest tak bardzo ważna że została przeniesiona do oddzielnego artykułu: ",""]},
-{"type": "link-art", "sectionID": "section6", "elementContent": ["Sieci - ustawienia trybu działania interfejsów w maszynie","VirtualBox"]},
-{"type": "br", "sectionID": "section6"},
+  {
+    "type": "list",
+    "sectionID": "section3",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": ["VBoxVGA", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [" – wsteczne wsparcie i obsługa dla maszyn przygotowanych w starszych niż 6.0 wersjach VirtualBox.", ""]
+          }
+        ],
+        [
+            {
+              "type": "b",
+              "sectionID": "section3",
+              "elementContent": ["VMSVGA", ""]
+            },
+            {
+              "type": "span",
+              "sectionID": "section3",
+              "elementContent": [" – wsparcie i obsługa dla maszyn przygotowanych w VMware Workstation i zaimportowana do VirtualBox.", ""]
+            }
+          ],
+            [
+                {
+                "type": "b",
+                "sectionID": "section3",
+                "elementContent": ["VBoxSVGA", ""]
+                },
+                {
+                "type": "span",
+                "sectionID": "section3",
+                "elementContent": [" – najlepsza opcja, gdy tworzysz nową maszynę w VirtualBox nowszym niż 6.0 i nie masz zamiaru instalować systemu starszego niż Windows 7.", ""]
+                }
+            ]
+      ]
+    }
+  },
 
-{"type": "h2", "sectionID": "section7", "elementContent": ["Ustawienia maszyny: Porty szeregowe ", ""]},
-{"type": "span", "sectionID": "section7","elementContent":["Można pominąć gdy wirtualizujesz nowoczesne systemy operacyjne.",""]},
-{"type": "br", "sectionID": "section7"},
-{"type": "span", "sectionID": "section7","elementContent":["W czasach DOS i pierwszych Windowsów, porty COM były podstawowymi interesami do podłączenia różnych urządzeń. Oprogramowanie często  komunikowało się bezpośrednio z nimi z pominięciem systemu operacyjnego. Dziś możesz odpalić w wirtualnej maszynie takie DOS-owe oprogramowanie, które wykorzystuje właśnie tylko porty serial i nie umie inaczej przesyłać danych. Możemy ulokować aż 4 porty w jednej ",""]},
-{"type": "br", "sectionID": "section7"},
-    {"type": "span", "sectionID": "section7","elementContent":["maszynie wirtualnej. W ustawieniach możesz wybrać numer portu i tryb w którym pracuje:",""]},
- {"type": "list","sectionID": "section7", "elementContent": {"ver":"ul",
-    "listElements":["Odłączony – gość będzie widział port ale bez podłączonego urządzenia.",
-        "Łącze komunikacyjne gospodarza – port gościa zostanie przekierowany bezpośrednio do fizycznego portu gospodarza. Tu wymagane jest posiadanie karty z portem COM. Dla Windows będzie to na przykład COM1 a dla systemów uniksowych /dev/ttyS0",
-        "Nie aktualizowanie systemu i zasad zabezpieczeń oraz oprogramowania antywirusowego i antyszpiegowskiego.",
-       "Urządzenie gospodarza – ustawienie działa podobnie jak powyżej z tym ze przekierowanie następuję do łącza komunikacyjnego (pipe) lub gniazda komunikacyjnego (socket).",
-    "Plik Raw – to ustawienie powoduje, że wszelkie dane, które wpadają do wirtualnego porty są zapisywane do pliku.",
-    "TCP – służy do przekierowania ruchu poprzez protokół TCP/IP. Wirtualna maszyna może działać jako klient lub serwer. Opcja przydatna  przy połączenia typu null-modem."
-    ] }},
+  {
+    "type": "img",
+    "sectionID": "section3",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/maszyna-ekran.webp",
+      "Ustawienia wirtualnych ekranów maszyny",
+      "944",
+      "602",
+      "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/maszyna-ekran_ORIGINAL.webp"
+    ]
+  },
 
-{"type": "h2", "sectionID": "section8", "elementContent": ["Ustawienia maszyny: Udostępniane foldery ", ""]},
-{"type": "span", "sectionID": "section8","elementContent":["Możesz dodać wirtualną lokalizację sieciową dla maszyny, aby miała dostęp do plików z katalogu gospodarza. Dodaj udostepnienie, następnie wybierz katalog na dysku. Punkt montowania pozostaw pusty aby Windows sam zdecydował jaką literę zastosować.",""]},
-     {"type": "img", "sectionID": "section8", "elementContent": [
-    "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/share-folders-1.webp",
-    "Przykład konfiguracji folderu udostepnionego dla systemów rodziny Windows",
-    "944","578", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/share-folders-1_ORIGINAL.webp"
-    ]},
-{"type": "span", "sectionID": "section8","elementContent":["W przypadku Linux-a możesz dopisać ścieżkę do zamontowania np.: ",""]},
-{"type": "br", "sectionID": "section8"},
-{"type": "bi", "sectionID": "section8","elementContent":["/home/nazwa_użytkownika/VB_Share",""]},
-     {"type": "img", "sectionID": "section8", "elementContent": [
-    "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/share-folders-2.webp",
-    "Przykład konfiguracji folderu udostepnionego dla systemów rodziny GNU/Linux",
-    "944","577", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/share-folders-2_ORIGINAL.webp"
-    ]},
-{"type": "span", "sectionID": "section8","elementContent":["W katalogu domowym użytkownika ",""]},
-{"type": "i", "sectionID": "section8","elementContent":["egza",""]},
-{"type": "span", "sectionID": "section8","elementContent":["pojawi się nowy katalog posiadający zawartość z udostępnionego katalogu gospodarza oraz nowy element pod koszem (ang.: Trash) do którego domyślnie nie masz uprawnień wejść w sposób graficzny.",""]},
-{"type": "span", "sectionID": "section8","elementContent":["Komendą ",""]},
-    {"type": "text-block-name", "sectionID": "section8", "elementContent": ["findmnt",""]},
-{"type": "span", "sectionID": "section8","elementContent":["zobaczysz wszystkie zamontowane obiekty ",""]},
-{"type": "span", "sectionID": "section8","elementContent":["Komendą ",""]},
-    {"type": "text-block-name", "sectionID": "section8", "elementContent": ["sudo ls -l /home/egza/VB_Share/",""]},
-{"type": "span", "sectionID": "section8","elementContent":["wyslistujesz zawartość zamontowaną do tego katalogu.",""]},
-     {"type": "img", "sectionID": "section8", "elementContent": [
-    "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/share-folders-3.webp",
-    "Folder udostepniony w systemie GNU/Linux",
-    "944","577", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/share-folders-3_ORIGINAL.webp"
-    ]},
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [
+      "Dodatkowo możesz określić ilość monitorów do zwirtualizowania, co da ci poniższy efekt:",
+      ""
+    ]
+  },
 
-{"type": "h2", "sectionID": "section9", "elementContent": ["Ustawienia maszyny: Udostępniane foldery ", ""]},
-{"type": "span", "sectionID": "section9","elementContent":["Na tej stronie ustawień dostosujesz widoczność elementów interfejsu użytkownika w maszynie gościa. W poniższym przykładzie została ukryta opcja ",""]},
-{"type": "bi", "sectionID": "section9","elementContent":["„Stacje dyskietek”",""]},
-{"type": "span", "sectionID": "section9","elementContent":["w",""]},
-{"type": "bi", "sectionID": "section9","elementContent":["„Urządzenia”",""]},
-{"type": "span", "sectionID": "section9","elementContent":[":",""]},
-       {"type": "img", "sectionID": "section9", "elementContent": [
-    "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/user-interface.webp",
-    "Przykład ukrycia opcji „Stacje dyskietek” w „Urządzenia” dla maszyny wirtualnej gościa",
-    "944","449", "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/user-interface_ORIGINAL.webp"
-    ]}
+  {
+    "type": "img",
+    "sectionID": "section3",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/maszyna-ekran-efekt.webp",
+      "Włączenie wielu ekranów maszyny gościa w tym wypadku dwie",
+      "944",
+      "508",
+      "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/maszyna-ekran-efekt_ORIGINAL.webp"
+    ]
+  },
+
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": ["Zakładki ", ""]
+  },
+  { "type": "i", "sectionID": "section3", "elementContent": ["„Zdalny pulpit”", ""] },
+  { "type": "span", "sectionID": "section3", "elementContent": [" i ", ""] },
+  { "type": "i", "sectionID": "section3", "elementContent": ["„Nagrywanie”", ""] },
+
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [
+      ", możesz sprawdzić we własnym zakresie przy nowszych wersjach VB, ponieważ aktualnie powodują dużą ilość błędów i nie działą prawidłowo.",
+      ""
+    ]
+  },
+
+  {
+    "type": "h2",
+    "sectionID": "section4",
+    "elementContent": ["Ustawienia maszyny: Pamięć", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": [
+      "Na tej stronie zarządzasz kontrolerami urządzeń magazynujących, dyskiem lub napędem optycznym.",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section4"
+  },
+  {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": [
+      "Następnie do tego kontrolera możesz dodać plik ",
+      ""
+    ]
+  },
+  { "type": "bi", "sectionID": "section4", "elementContent": [".vdi", ""] },
+  {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": [
+      " (Virtual Disk Image – obraz wirtualnego dysku) lub obraz ISO, jako płytę do dysku fizycznego. W ten sposób wirtualizujesz nowe dyski dla maszyny gościa. Pamiętaj, że musisz mieć fizycznie daną ilość pamięci na swoim dysku, aby móc ją zwirtualizować dla maszyn.",
+      ""
+    ]
+  },
+  { "type": "br", "sectionID": "section4" },
+  {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": [
+      "Ustawienie kontrolera NVMe wymaga doinstalowania dodatkowej paczki rozszerzającej funkcjonalności VirtrualBox-a: ",
+      ""
+    ]
+  },
+  {
+    "type": "link",
+    "sectionID": "section4",
+    "elementContent": ["https://www.virtualbox.org/wiki/Downloads"]
+  },
+  {
+    "type": "img",
+    "sectionID": "section4",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/extension-pack.webp",
+      "Oficjalna lokalizacja linku do pobrania extension pcak dla virtualbox",
+      "944",
+      "633",
+      "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/extension-pack_ORIGINAL.webp"
+    ]
+  },
+  {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": ["Gdy pobierzesz już plik ", ""]
+  },
+  {
+    "type": "i",
+    "sectionID": "section4",
+    "elementContent": ["vbox-extpack", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": [
+      ", przejdź do VirtualBox-a i postępuj zgodnie z poniższymi krokami przedstawionymi na obrazku, aby zainstalować tę paczkę rozszerzającą.",
+      ""
+    ]
+  },
+  {
+    "type": "img",
+    "sectionID": "section4",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/extension-pack-install.webp",
+      "Kroki przedstawiające jak zainstalować paczkę rozszerzającą funkcjonalności VirtualBox",
+      "942",
+      "507",
+      "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/extension-pack-install_ORIGINAL.webp"
+    ]
+  },
+  {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": ["W moim przypadku, po zainstalowaniu ", ""]
+  },
+  {
+    "type": "b",
+    "sectionID": "section4",
+    "elementContent": ["Externsion Pack", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": [
+      ", maszyna normalnie się uruchomiła, ale istnieje problem ze sterownikami, więc dyski podłączone pod ten kontroler dalej są niedostępne.",
+      ""
+    ]
+  },
+  {
+    "type": "img",
+    "sectionID": "section4",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/brak-sterownika-nvme.webp",
+      "Urządzenie zostało wykryte, ale brakuje sterowników.",
+      "944",
+      "690",
+      "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/brak-sterownika-nvmel_ORIGINAL.webp"
+    ]
+  },
+  {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": ["Żadne proponowane rozwiązania z forów tematycznych w moim przypadku nie zadziałały, więc jestem zmuszony ograniczyć się do ", ""]
+  },
+  { "type": "b", "sectionID": "section4", "elementContent": ["USB", ""] },
+  { "type": "span", "sectionID": "section4", "elementContent": [" i ", ""] },
+  { "type": "b", "sectionID": "section4", "elementContent": ["AHCI", ""] },
+  {
+    "type": "span",
+    "sectionID": "section4",
+    "elementContent": [", czyli ", ""]
+  },
+  { "type": "b", "sectionID": "section4", "elementContent": ["SATA", ""] },
+  { "type": "span", "sectionID": "section4", "elementContent": [":", ""] },
+  {
+    "type": "img",
+    "sectionID": "section4",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/ustawienia-maszyny-pamiec.webp",
+      "Nie potrzebujesz wiecej rodzajów kontrolerów magazynowych niż USB i AHCI czyli SATA.",
+      "944",
+      "579",
+      "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/ustawienia-maszyny-pamiec_ORIGINAL.webp"
+    ]
+  },
+
+  {
+    "type": "h2",
+    "sectionID": "section5",
+    "elementContent": ["Ustawienia maszyny: Dźwięk ", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section5",
+    "elementContent": [
+      "Domyślnie odpowiada za przesyłanie dźwięków gościa do gospodarza, a także możesz zaznaczyć opcję ",
+      ""
+    ]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section5",
+    "elementContent": ["„Włącz wejście dźwięku”", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section5",
+    "elementContent": [
+      ", aby wysyłać dane z własnego fizycznego mikrofonu do maszyny.",
+      ""
+    ]
+  },
+
+  {
+    "type": "h2",
+    "sectionID": "section6",
+    "elementContent": ["Ustawienia maszyny: Sieć ", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section6",
+    "elementContent": [
+      "Strona z dotycząca sieci jest tak bardzo ważna że została przeniesiona do oddzielnego artykułu: ",
+      ""
+    ]
+  },
+  {
+    "type": "link-art",
+    "sectionID": "section6",
+    "elementContent": [
+      "Sieci - ustawienia trybu działania interfejsów w maszynie",
+      "VirtualBox"
+    ]
+  },
+  { "type": "br", "sectionID": "section6" },
+
+  {
+    "type": "h2",
+    "sectionID": "section7",
+    "elementContent": ["Ustawienia maszyny: Porty szeregowe ", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section7",
+    "elementContent": [
+      "Można pominąć, gdy wirtualizujesz nowoczesne systemy operacyjne.",
+      ""
+    ]
+  },
+  { "type": "br", "sectionID": "section7" },
+  {
+    "type": "span",
+    "sectionID": "section7",
+    "elementContent": [
+      "W czasach ",
+      ""
+    ]
+  },
+  {
+    "type": "b",
+    "sectionID": "section7",
+    "elementContent": [
+      "DOS",
+      ""
+    ]
+  },
+  {
+    "type": "span",
+    "sectionID": "section7",
+    "elementContent": [
+      " i pierwszych Windows-ów, porty ",
+      ""
+    ]
+  },
+  {
+    "type": "b",
+    "sectionID": "section7",
+    "elementContent": [
+      "COM",
+      ""
+    ]
+  },
+  {
+    "type": "span",
+    "sectionID": "section7",
+    "elementContent": [
+      " były podstawowymi interfejsami do podłączenia różnych urządzeń. Oprogramowanie często komunikowało się bezpośrednio z nimi, z pominięciem systemu operacyjnego. Dziś możesz odpalić w wirtualnej maszynie takie DOS-owe oprogramowanie, które wykorzystuje właśnie tylko porty serial i nie umie inaczej przesyłać danych. Możemy ulokować aż 4 porty w jednej maszynie wirtualnej.",
+      ""
+    ]
+  },
+  { "type": "br", "sectionID": "section7" },
+  {
+    "type": "span",
+    "sectionID": "section7",
+    "elementContent": [
+      "Dla każdego portu szeregowego wybierasz jego numer oraz tryb, w którym pracuje:",
+      ""
+    ]
+  },
+  {
+    "type": "list",
+    "sectionID": "section7",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "b",
+            "sectionID": "section7",
+            "elementContent": ["Odłączony ", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section7",
+            "elementContent": ["gość będzie widział port, ale bez podłączonego urządzenia.", ""]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section7",
+            "elementContent": ["Łącze komunikacyjne gospodarza ", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section7",
+            "elementContent": ["port gościa zostanie przekierowany bezpośrednio do fizycznego portu gospodarza. Tu wymagane jest posiadanie karty z portem COM. Dla Windows będzie to na przykład COM1, a dla systemów uniksowych /dev/ttyS0", ""]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section7",
+            "elementContent": ["Urządzenie gospodarza ", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section7",
+            "elementContent": ["ustawienie działa podobnie, jak powyżej z tym ze przekierowanie następuję do łącza komunikacyjnego (pipe), lub gniazda komunikacyjnego (socket).", ""]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section7",
+            "elementContent": ["Plik Raw ", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section7",
+            "elementContent": ["to ustawienie powoduje, że wszelkie dane, które wpadają do wirtualnego portu są zapisywane do pliku.", ""]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section7",
+            "elementContent": ["TCP ", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section7",
+            "elementContent": ["służy do przekierowania ruchu poprzez protokół TCP/IP.",""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section7",
+            "elementContent": ["Wirtualna maszyna może działać, jako klient lub serwer. Opcja przydatna  przy połączenia typu null-modem.", ""]
+          }
+      ]
+      ]
+    }
+  },
+  {
+    "type": "h2",
+    "sectionID": "section8",
+    "elementContent": ["Ustawienia maszyny: Udostępniane foldery ", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section8",
+    "elementContent": [
+      "Możesz dodać wirtualną lokalizację sieciową dla maszyny, aby miała dostęp do plików z katalogu gospodarza.",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section8"
+  },
+  {
+    "type": "span",
+    "sectionID": "section8",
+    "elementContent": [
+      "Dodaj udostepnienie, następnie wybierz katalog na dysku. Punkt montowania pozostaw pusty, aby Windows sam zdecydował, jaką literę zastosować.",
+      ""
+    ]
+  },
+  {
+    "type": "img",
+    "sectionID": "section8",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/share-folders-1.webp",
+      "Przykład konfiguracji folderu udostepnionego dla systemów rodziny Windows",
+      "944",
+      "578",
+      "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/share-folders-1_ORIGINAL.webp"
+    ]
+  },
+  {
+    "type": "span",
+    "sectionID": "section8",
+    "elementContent": [
+      "W przypadku Linux-a możesz dopisać ścieżkę do zamontowania np.: ",
+      ""
+    ]
+  },
+  { "type": "br", "sectionID": "section8" },
+  {
+    "type": "text-block-name",
+    "sectionID": "section8",
+    "elementContent": ["/home/nazwa_użytkownika/VB_Share", ""]
+  },
+  {
+    "type": "img",
+    "sectionID": "section8",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/share-folders-2.webp",
+      "Przykład konfiguracji folderu udostepnionego dla systemów rodziny GNU/Linux",
+      "944",
+      "577",
+      "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/share-folders-2_ORIGINAL.webp"
+    ]
+  },
+  {
+    "type": "span",
+    "sectionID": "section8",
+    "elementContent": ["W katalogu domowym użytkownika ", ""]
+  },
+  { "type": "i", "sectionID": "section8", "elementContent": ["egza", ""] },
+  {
+    "type": "span",
+    "sectionID": "section8",
+    "elementContent": [
+      " pojawi się nowy katalog, posiadający zawartość z udostępnionego katalogu gospodarza oraz nowy element pod koszem (ang.: Trash) do którego domyślnie nie masz uprawnień wejść w sposób graficzny.",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section8"
+  },
+  {
+    "type": "span",
+    "sectionID": "section8",
+    "elementContent": ["Komendą ", ""]
+  },
+  {
+    "type": "text-block-name",
+    "sectionID": "section8",
+    "elementContent": ["findmnt", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section8",
+    "elementContent": [" zobaczysz wszystkie zamontowane obiekty.", ""]
+  },
+    {
+        "type": "br",
+        "sectionID": "section8"
+    },
+  {
+    "type": "span",
+    "sectionID": "section8",
+    "elementContent": ["Komendą ", ""]
+  },
+  {
+    "type": "text-block-name",
+    "sectionID": "section8",
+    "elementContent": ["sudo ls -l /home/egza/VB_Share/", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section8",
+    "elementContent": [
+      " wyslistujesz zawartość zamontowaną do tego katalogu.",
+      ""
+    ]
+  },
+  {
+    "type": "img",
+    "sectionID": "section8",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/share-folders-3.webp",
+      "Folder udostepniony w systemie GNU/Linux",
+      "944",
+      "577",
+      "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/share-folders-3_ORIGINAL.webp"
+    ]
+  },
+
+  {
+    "type": "h2",
+    "sectionID": "section9",
+    "elementContent": ["Ustawienia maszyny: Udostępniane foldery ", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section9",
+    "elementContent": [
+      "Na tej stronie ustawień dostosujesz widoczność elementów interfejsu użytkownika w maszynie gościa. W poniższym przykładzie została ukryta opcja ",
+      ""
+    ]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section9",
+    "elementContent": ["„Stacje dyskietek”", ""]
+  },
+  { "type": "span", "sectionID": "section9", "elementContent": [" w ", ""] },
+  {
+    "type": "bi",
+    "sectionID": "section9",
+    "elementContent": ["„Urządzenia”", ""]
+  },
+  { "type": "span", "sectionID": "section9", "elementContent": [":", ""] },
+  {
+    "type": "img",
+    "sectionID": "section9",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/user-interface.webp",
+      "Przykład ukrycia opcji „Stacje dyskietek” w „Urządzenia” dla maszyny wirtualnej gościa",
+      "944",
+      "449",
+      "Edu-Koala-V/koala-v-assets-art1/main/virtualbox/user-interface_ORIGINAL.webp"
+    ]
+  }
 ]
