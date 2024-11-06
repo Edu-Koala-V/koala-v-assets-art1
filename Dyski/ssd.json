@@ -1,0 +1,1406 @@
+[
+  {
+    "type": "h2",
+    "sectionID": "section1",
+    "elementContent": ["Dyski SSD", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": ["Dyski SSD (", ""]
+  },
+  {
+    "type": "i",
+    "sectionID": "section1",
+    "elementContent": ["Solid State Drive"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      ") to urządzenia pamięci masowej, które wykorzystują pamięć ",
+      ""
+    ]
+  },
+  {
+    "type": "b",
+    "sectionID": "section1",
+    "elementContent": ["flash"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      " do przechowywania danych. Angielski termin solid-state nawiązuje do fizyki ciała stałego i zwykle oznacza zastosowanie w danym urządzeniu tranzystorów. W przeciwieństwie do tradycyjnych dysków twardych (",
+      ""
+    ]
+  },
+  {
+    "type": "b",
+    "sectionID": "section1",
+    "elementContent": ["HDD"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      "), które używają wirujących talerzy magnetycznych, ",
+      ""
+    ]
+  },
+  {
+    "type": "b",
+    "sectionID": "section1",
+    "elementContent": ["SSD"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      " nie mają ruchomych części. Dzięki temu są szybsze, bardziej niezawodne i mniej podatne na uszkodzenia mechaniczne.",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section1"
+  },
+  {
+    "type": "br",
+    "sectionID": "section1"
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      " Ze względów na zachowanie zgodności wstecznej większość urządzeń półprzewodnikowych wyposażono w interfejs ",
+      ""
+    ]
+  },
+  {
+    "type": "b",
+    "sectionID": "section1",
+    "elementContent": ["SATA"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [" (szeregowy ATA), stąd też skrót ", ""]
+  },
+  {
+    "type": "b",
+    "sectionID": "section1",
+    "elementContent": ["SSD"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [" jest tłumaczony z ", ""]
+  },
+  {
+    "type": "i",
+    "sectionID": "section1",
+    "elementContent": ["solid-state disk", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      ", co oznacza dysk półprzewodnikowy. Prawidłowe określenie pamięci półprzewodnikowych rozwija skrót ",
+      ""
+    ]
+  },
+  {
+    "type": "b",
+    "sectionID": "section1",
+    "elementContent": ["SSD"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [" jako ", ""]
+  },
+  {
+    "type": "i",
+    "sectionID": "section1",
+    "elementContent": ["solid-state drive", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [", czyli urządzenie półprzewodnikowe. ", ""]
+  },
+  {
+    "type": "br",
+    "sectionID": "section1"
+  },
+  {
+    "type": "br",
+    "sectionID": "section1"
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": ["Technologia ", ""]
+  },
+  {
+    "type": "b",
+    "sectionID": "section1",
+    "elementContent": ["SSD"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      " jak większość znanych dziś rozwiązań technicznych do zastosowania w Informatyce ma swoje korzenie w wojsku USA. Pierwsze projekty i próby zastosowania pamięci półprzewodnikowej rozpoczęto w latach 70. XX wieku, a ich dostępność na rynku komercyjnym pojawiła się w latach 80. Tego samego wieku. ",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section1"
+  },
+  {
+    "type": "br",
+    "sectionID": "section1"
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": ["W latach 2000. Technologia ", ""]
+  },
+  {
+    "type": "b",
+    "sectionID": "section1",
+    "elementContent": ["SSD"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      " zaczęła się rozwijać w bardzo szybkim tempie. Produkcje na skalę masową zostały dostatecznie zoptymalizowane aby móc dostarczać te urządzenia na rynku konsumenckim. Z racji wysokiej ceny oraz niewielkich rozmiarów zastosowanie ",
+      ""
+    ]
+  },
+  {
+    "type": "b",
+    "sectionID": "section1",
+    "elementContent": ["SSD"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      " przez konsumentów ograniczało się głównie na przestrzeń dla systemu. Wszelkie oprogramowanie i dane użytkowników pozostawały na dyskach ",
+      ""
+    ]
+  },
+  {
+    "type": "b",
+    "sectionID": "section1",
+    "elementContent": ["HDD"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      ". Ta hybryda dyskowa trwała około 10 lat. Dzięki dalszemu rozwojowi technologicznemu, optymalizacji kosztów produkcji i zwiększaniu pojemności, ",
+      ""
+    ]
+  },
+  {
+    "type": "b",
+    "sectionID": "section1",
+    "elementContent": ["SSD"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      " stały się bardziej dostępne dla przeciętnego użytkownika.",
+      ""
+    ]
+  },
+  {
+    "type": "h2",
+    "sectionID": "section2",
+    "elementContent": ["Budowa SSD", ""]
+  },
+  {
+    "type": "img",
+    "sectionID": "section2",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/Dyski/ssd_budowa.webp",
+      "Budowa SSD",
+      "2584",
+      "2392",
+      "Edu-Koala-V/koala-v-assets-art1/main/Dyski/ssd_budowa_ORIGINAL.webp"
+    ]
+  },
+  {
+    "type": "list",
+    "sectionID": "section2",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["Bufor pamięci cache", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [
+              ": Jest to szybka pamięć, która tymczasowo przechowuje dane, aby przyspieszyć dostęp do nich. Pomaga to w zwiększeniu wydajności dysku SSD.",
+              ""
+            ]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["Kontroler SSD", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [
+              ": To „mózg” dysku SSD, który zarządza przepływem danych między pamięcią ",
+              ""
+            ]
+          },
+          {
+            "type": "bi",
+            "sectionID": "section2",
+            "elementContent": ["NAND", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [
+              ", a komputerem. Kontroler wykonuje operacje takie jak odczyt, zapis, korekcja błędów i zarządzanie pamięcią.",
+              ""
+            ]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["Wejście SATA", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [
+              ": Jest to interfejs, który łączy dysk SSD z komputerem. SATA (Serial ATA) jest jednym z najczęściej używanych interfejsów do podłączania dysków twardych i SSD.",
+              ""
+            ]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["Zasilanie POWER SATA bazujące na Molex", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [
+              ": Jest to złącze zasilania, które dostarcza energię do dysku SSD. ",
+              ""
+            ]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["Molex", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [
+              " to starszy typ złącza zasilania, który jest czasami używany w połączeniu z adapterami do zasilania dysków SSD.",
+              ""
+            ]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["Moduły pamięci flash", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [": Działają na układach pamięci ", ""]
+          },
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["NAND", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [
+              ", które przechowują dane. Są to nieulotne pamięci, co oznacza, że zachowują dane nawet po odłączeniu zasilania. Pamięć NAND jest zorganizowana w komórki, które mogą przechowywać różną liczbę bitów danych.",
+              ""
+            ]
+          },
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["NAND", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [
+              " jest zorganizowana w komórki, które mogą przechowywać różną liczbę bitów danych.",
+              ""
+            ]
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "type": "h2",
+    "sectionID": "section3",
+    "elementContent": ["Typy komórek pamięci NAND", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [
+      "Istnieje podział ze względu na ilość bitów danych do zapisania w jednej komórce, a ich wzrost powoduje zwiększenie wydajności dysków wraz z ryzykiem napotkania błędów.",
+      ""
+    ]
+  },
+  {
+    "type": "list",
+    "sectionID": "section3",
+    "elementContent": {
+      "ver": "ol",
+      "listElements": [
+        [
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": ["SLC (Single-Level Cell)", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [":", ""]
+          },
+          {
+            "type": "list",
+            "sectionID": "section3",
+            "elementContent": {
+              "ver": "ul",
+              "listElements": [
+                [
+                  {
+                    "type": "b",
+                    "sectionID": "section3",
+                    "elementContent": ["Opis", ""]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": [":", ""]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": [" Przechowuje ", ""]
+                  },
+                  {
+                    "type": "bi",
+                    "sectionID": "section3",
+                    "elementContent": ["jeden bit", "green"]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": [" danych na komórkę.", ""]
+                  }
+                ]
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": ["MLC (Multi-Level Cell)", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [":", ""]
+          },
+          {
+            "type": "list",
+            "sectionID": "section3",
+            "elementContent": {
+              "ver": "ul",
+              "listElements": [
+                [
+                  {
+                    "type": "b",
+                    "sectionID": "section3",
+                    "elementContent": ["Opis", ""]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": [":", ""]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": [" Przechowuje ", ""]
+                  },
+                  {
+                    "type": "bi",
+                    "sectionID": "section3",
+                    "elementContent": ["dwa bity", "yellow"]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": [" danych na komórkę.", ""]
+                  }
+                ]
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": ["TLC (Triple-Level Cell)", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [":", ""]
+          },
+          {
+            "type": "list",
+            "sectionID": "section3",
+            "elementContent": {
+              "ver": "ul",
+              "listElements": [
+                [
+                  {
+                    "type": "b",
+                    "sectionID": "section3",
+                    "elementContent": ["Opis", ""]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": [":", ""]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": [" Przechowuje ", ""]
+                  },
+                  {
+                    "type": "bi",
+                    "sectionID": "section3",
+                    "elementContent": ["trzy bity", "pink"]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": [" danych na komórkę.", ""]
+                  }
+                ]
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": ["QLC (Quad-Level Cell)", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [":", ""]
+          },
+          {
+            "type": "list",
+            "sectionID": "section3",
+            "elementContent": {
+              "ver": "ul",
+              "listElements": [
+                [
+                  {
+                    "type": "b",
+                    "sectionID": "section3",
+                    "elementContent": ["Opis", ""]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": [":", ""]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": [" Przechowuje ", ""]
+                  },
+                  {
+                    "type": "bi",
+                    "sectionID": "section3",
+                    "elementContent": ["cztery bity", "blue"]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": [" danych na komórkę.", ""]
+                  }
+                ]
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": ["PLC (Penta-Level Cell)", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [":", ""]
+          },
+          {
+            "type": "list",
+            "sectionID": "section3",
+            "elementContent": {
+              "ver": "ul",
+              "listElements": [
+                [
+                  {
+                    "type": "b",
+                    "sectionID": "section3",
+                    "elementContent": ["Opis", ""]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": [":", ""]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": [" Przechowuje ", ""]
+                  },
+                  {
+                    "type": "bi",
+                    "sectionID": "section3",
+                    "elementContent": ["pięć bitów", "red"]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": [" danych na komórkę.", ""]
+                  }
+                ]
+              ]
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "type":"img",
+    "sectionID":"section3",
+    "elementContent":[
+      "Edu-Koala-V/koala-v-assets-art1/main/Dyski/slc_mlc_tlc_qlc_plc.webp",
+      "Rozłożenie bitowe komórek pamięci NAND",
+      "1920",
+      "1080",
+      "Edu-Koala-V/koala-v-assets-art1/main/Dyski/slc_mlc_tlc_qlc_plc_ORIGINAL.webp"
+    ]
+  },
+  {
+    "type": "h2",
+    "sectionID": "section4",
+    "elementContent": ["Błędy w pamięci NAND", ""]
+  },
+    {
+        "type": "span",
+        "sectionID": "section4",
+        "elementContent": [
+        "Błędy w pamięci NAND mogą mieć różne przyczyny i formy. Oto kilka najczęstszych rodzajów błędów:",
+        ""
+        ]
+    },
+    {
+        "type": "list",
+        "sectionID": "section4",
+        "elementContent": {
+        "ver": "ul",
+        "listElements": [
+            [
+            {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["Błędy odczytu/zapisu", ""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": [
+                ": Występują, gdy dane nie są poprawnie zapisywane lub odczytywane z komórki pamięci.",
+                ""
+                ]
+            }
+            ],
+            [
+            {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["Błędy bitowe (bit errors)", ""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": [
+                ": Pojawiają się, gdy pojedyncze bity danych są zmieniane z 0 na 1 lub odwrotnie.",
+                ""
+                ]
+            }
+            ],
+            [
+            {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["Błędy programowania (program errors)", ""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": [
+                ": Występują, gdy dane nie są poprawnie zapisane do komórki pamięci podczas operacji programowania.",
+                ""
+                ]
+            }
+            ],
+            [
+            {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["Błędy kasowania (erase errors)", ""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": [
+                ": Pojawiają się, gdy komórki pamięci nie są poprawnie wymazywane przed zapisaniem nowych danych.",
+                ""
+                ]
+            }
+            ],
+            [
+            {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["Błędy retencji danych (data retention errors)", ""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": [
+                ": Występują, gdy dane przechowywane w komórkach pamięci ulegają degradacji z czasem.",
+                ""
+                ]
+            }
+            ],
+            [
+            {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["Korekcja błędów", ""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": [
+                "Aby zminimalizować wpływ tych błędów, dyski SSD wykorzystują różne techniki korekcji błędów, takie jak:",
+                ""
+                ]
+            }
+            ]
+        ]
+        }
+    },
+    {
+        "type":"h3",
+        "sectionID":"section4",
+        "elementContent":["Korekcja błędów", ""]
+    },
+    {
+        "type":"span",
+        "sectionID":"section4",
+        "elementContent":["Aby zminimalizować wpływ tych błędów, dyski SSD wykorzystują różne techniki korekcji błędów, takie jak:", ""]
+    },
+    {
+        "type": "list",
+        "sectionID": "section4",
+        "elementContent": {
+        "ver": "ul",
+        "listElements": [
+            [
+                {
+                    "type": "b",
+                    "sectionID": "section4",
+                    "elementContent": ["ECC (Error Correction Code)", ""]
+                },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": [": Kody korekcyjne, które mogą wykrywać i naprawiać błędy bitowe.", ""]
+            }
+            ],
+            [
+                {
+                    "type": "b",
+                    "sectionID": "section4",
+                    "elementContent": ["Wear leveling", ""]
+                },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": [": Technika równomiernego rozkładania zapisów na wszystkie komórki pamięci, aby zapobiec przedwczesnemu zużyciu niektórych komórek.", ""]
+            }
+            ],
+            [
+                {
+                    "type": "b",
+                    "sectionID": "section4",
+                    "elementContent": ["Bad block management", ""]
+                },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": [": Identyfikacja i omijanie uszkodzonych bloków pamięci.", ""]
+            }
+            ],
+            [
+                {
+                    "type": "b",
+                    "sectionID": "section4",
+                    "elementContent": ["Over-provisioning", ""]
+                },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": [": Rezerwowanie dodatkowej przestrzeni na dysku SSD, aby zapewnić elastyczność i wydajność.", ""]
+            }
+            ],
+            [
+                {
+                    "type": "b",
+                    "sectionID": "section4",
+                    "elementContent": ["Garbage collection", ""]
+                },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": [": Proces usuwania nieużywanych danych i przywracania przestrzeni na dysku SSD.", ""]
+            }
+            ],
+            [
+                {
+                    "type": "b",
+                    "sectionID": "section4",
+                    "elementContent": ["Trim", ""]
+                },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": [": Polecenie, które informuje dysk SSD o nieużywanych blokach, które można wyczyścić.", ""]
+            }
+            ]
+        ]
+        }
+    },
+    {
+        "type":"h2",
+        "sectionID":"section5",
+        "elementContent":["Defragmentacja? NIE, optymalizacja!", ""]
+    },
+    {
+        "type":"span",
+        "sectionID":"section5",
+        "elementContent":["Defragmentacja to proces, który nie jest zalecany dla dysków SSD. W przypadku tradycyjnych dysków twardych defragmentacja polega na przesuwaniu danych, aby umieścić je w jednym miejscu na dysku, co poprawia wydajność. W przypadku dysków SSD defragmentacja nie jest konieczna, ponieważ pamięć flash nie ma ruchomych części, a dane mogą być odczytywane z dowolnego miejsca na dysku z taką samą prędkością. Zamiast defragmentacji, dyski SSD wymagają optymalizacji, która polega na usuwaniu nieużywanych danych i przywracaniu przestrzeni na dysku. Optymalizacja pomaga zachować wydajność dysku SSD i przedłużyć jego żywotność.", ""]
+    },
+   {
+    "type": "h3",
+    "sectionID": "section5",
+    "elementContent": ["Sposoby optymalizacji dysku SSD", ""]
+   },
+    {
+     "type": "list",
+     "sectionID": "section5",
+     "elementContent": {
+        "ver": "ol",
+        "listElements": [
+          [
+             {
+                "type": "b",
+                "sectionID": "section5",
+                "elementContent": ["Włącz TRIM", ""]
+             },
+             {
+                "type": "list",
+                "sectionID": "section5",
+                "elementContent": {
+                   "ver": "ul",
+                   "listElements": [
+                     [
+                        {
+                           "type": "b",
+                           "sectionID": "section5",
+                           "elementContent": ["Opis", ""]
+                        },
+                        {
+                           "type": "span",
+                           "sectionID": "section5",
+                           "elementContent": [
+                             ": Upewnij się, że ta funkcja jest włączona w systemie operacyjnym. TRIM pomaga w utrzymaniu wydajności SSD, informując dysk, które bloki danych mogą być usunięte.",
+                             ""
+                           ]
+                        }
+                     ],
+                     [
+                        {
+                           "type": "b",
+                           "sectionID": "section5",
+                           "elementContent": ["Jak sprawdzić", ""]
+                        },
+                        {
+                           "type": "span",
+                           "sectionID": "section5",
+                           "elementContent": [
+                             ": W systemie Windows możesz użyć polecenia ",
+                             ""
+                           ]
+                        },
+                        {
+                            "type": "text-block-name",
+                            "sectionID": "section5",
+                            "elementContent": ["fsutil behavior query DisableDeleteNotify",""]
+                        },
+                        {
+                            "type": "span",
+                            "sectionID": "section5",
+                            "elementContent": [
+                             ". Jeśli wynik to ",
+                             ""
+                           ]
+                        },
+                        {
+                            "type": "b",
+                            "sectionID": "section5",
+                            "elementContent": [
+                             "0",
+                             ""
+                           ]
+                        },
+                        {
+                            "type": "span",
+                            "sectionID": "section5",
+                            "elementContent": [
+                             ", ",
+                             ""
+                           ]
+                        },
+                        {
+                            "type": "b",
+                            "sectionID": "section5",
+                            "elementContent": [
+                             "TRIM",
+                             ""
+                           ]
+                        },
+                        {
+                            "type": "span",
+                            "sectionID": "section5",
+                            "elementContent": [
+                             " jest włączony.",
+                             ""
+                           ]
+                        }
+                     ]
+                   ]
+               }
+           }
+        ],
+            [
+                 {
+                    "type": "b",
+                    "sectionID": "section5",
+                    "elementContent": ["Unikaj pełnego zapełnienia dysku", ""]
+                 },
+                 {
+                    "type": "list",
+                    "sectionID": "section5",
+                    "elementContent": {
+                     "ver": "ul",
+                     "listElements": [
+                         [
+                            {
+                             "type": "b",
+                             "sectionID": "section5",
+                             "elementContent": ["Opis", ""]
+                            },
+                            {
+                             "type": "span",
+                             "sectionID": "section5",
+                             "elementContent": [
+                                 ": Staraj się nie zapełniać SSD do pełna. Zostawienie wolnego miejsca pozwala na efektywniejsze zarządzanie pamięcią przez kontroler SSD.",
+                                 ""
+                             ]
+                            }
+                         ],
+                         [
+                            {
+                             "type": "b",
+                             "sectionID": "section5",
+                             "elementContent": ["Zalecane", ""]
+                            },
+                            {
+                             "type": "span",
+                             "sectionID": "section5",
+                             "elementContent": [
+                                 ": Utrzymuj co najmniej 10-20% wolnego miejsca na dysku.",
+                                 ""
+                             ]
+                            }
+                         ]
+                     ]
+                 }
+             }
+            ],
+            [
+                 {
+                    "type": "b",
+                    "sectionID": "section5",
+                    "elementContent": ["Wyłącz indeksowanie plików", ""]
+                 },
+                 {
+                    "type": "list",
+                    "sectionID": "section5",
+                    "elementContent": {
+                     "ver": "ul",
+                     "listElements": [
+                         [
+                            {
+                             "type": "b",
+                             "sectionID": "section5",
+                             "elementContent": ["Opis", ""]
+                            },
+                            {
+                             "type": "span",
+                             "sectionID": "section5",
+                             "elementContent": [
+                                 ": Indeksowanie plików może powodować dodatkowe operacje zapisu, co może skrócić żywotność SSD. (Wyłączenie indeksowania spowoduje brak możliwości wyszukiwania plików na dysku oraz zainstalowanego oprogramowania.)",
+                                 ""
+                             ]
+                            }
+                         ],
+                         [
+                            {
+                             "type": "b",
+                             "sectionID": "section5",
+                             "elementContent": ["Jak to zrobić", ""]
+                            },
+                            {
+                             "type": "span",
+                             "sectionID": "section5",
+                             "elementContent": [
+                                 ": W systemie Windows kliknij prawym przyciskiem myszy na dysk SSD, wybierz ",
+                                 ""
+                             ]
+                            },
+                            {
+                                "type": "i",
+                                "sectionID": "section5",
+                                "elementContent": [
+                                    "“Właściwości”",
+                                    ""
+                                ]
+                               },
+                               {
+                                "type": "span",
+                                "sectionID": "section5",
+                                "elementContent": [
+                                    " i odznacz opcję ",
+                                    ""
+                                ]
+                               },
+                               {
+                                "type": "i",
+                                "sectionID": "section5",
+                                "elementContent": [
+                                    "“Zezwalaj na indeksowanie zawartości plików na tym dysku”",
+                                    ""
+                                ]
+                               },
+                               {
+                                "type": "span",
+                                "sectionID": "section5",
+                                "elementContent": [
+                                    ".",
+                                    ""
+                                ]
+                               }
+
+                         ]
+                     ]
+                 }
+             }
+            ],
+            [
+                 {
+                    "type": "b",
+                    "sectionID": "section5",
+                    "elementContent": ["Wyłącz defragmentację", ""]
+                 },
+                 {
+                    "type": "list",
+                    "sectionID": "section5",
+                    "elementContent": {
+                     "ver": "ul",
+                     "listElements": [
+                         [
+                            {
+                             "type": "b",
+                             "sectionID": "section5",
+                             "elementContent": ["Opis", ""]
+                            },
+                            {
+                             "type": "span",
+                             "sectionID": "section5",
+                             "elementContent": [
+                                 ": Defragmentacja nie jest potrzebna dla SSD i skraca jego żywotność. Dlatego Microsoft wyłączył przystawkę do defragmentacji i zastąpił ją ogólną optymalizacją.",
+                                 ""
+                             ]
+                            }
+                         ],
+                         [
+                            {
+                             "type": "b",
+                             "sectionID": "section5",
+                             "elementContent": ["Jak to zrobić", ""]
+                            },
+                            {
+                             "type": "span",
+                             "sectionID": "section5",
+                             "elementContent": [
+                                 ": W systemie Windows (innym niż 10/11) otwórz ",
+                                 ""
+                             ]
+                            },
+                            {
+                                "type": "i",
+                                "sectionID": "section5",
+                                "elementContent": [
+                                    "„Defragmentacja dysków”",
+                                    ""
+                                ]
+                               },
+                               {
+                                "type": "span",
+                                "sectionID": "section5",
+                                "elementContent": [
+                                    " i upewnij się, że automatyczna defragmentacja jest wyłączona dla SSD.",
+                                    ""
+                                ]
+                               }
+
+                         ]
+                     ]
+                 }
+             }
+            ],
+            [
+                 {
+                    "type": "b",
+                    "sectionID": "section5",
+                    "elementContent": ["Regularne czyszczenie systemu", ""]
+                 },
+                 {
+                    "type": "list",
+                    "sectionID": "section5",
+                    "elementContent": {
+                     "ver": "ul",
+                     "listElements": [
+                         [
+                            {
+                             "type": "b",
+                             "sectionID": "section5",
+                             "elementContent": ["Opis", ""]
+                            },
+                            {
+                             "type": "span",
+                             "sectionID": "section5",
+                             "elementContent": [
+                                 ": Usuwanie zbędnych plików i programów może pomóc w utrzymaniu wydajności SSD.",
+                                 ""
+                             ]
+                            }
+                         ],
+                         [
+                            {
+                             "type": "b",
+                             "sectionID": "section5",
+                             "elementContent": ["Jak to zrobić", ""]
+                            },
+                            {
+                             "type": "span",
+                             "sectionID": "section5",
+                             "elementContent": [
+                                 ": Używaj narzędzi do czyszczenia systemu, takich jak ",
+                                 ""
+                             ]
+                            },
+                            {
+                                "type": "bi",
+                                "sectionID": "section5",
+                                "elementContent": [
+                                    "CCleaner",
+                                    ""
+                                ]
+                               },
+                               {
+                                "type": "span",
+                                "sectionID": "section5",
+                                "elementContent": [
+                                    ", aby regularnie usuwać tymczasowe pliki i inne niepotrzebne dane.",
+                                    ""
+                                ]
+                               }
+                         ]
+                     ]
+                 }
+             }
+            ],
+            [
+                 {
+                    "type": "b",
+                    "sectionID": "section5",
+                    "elementContent": ["Monitorowanie stanu SSD", ""]
+                 },
+                 {
+                    "type": "list",
+                    "sectionID": "section5",
+                    "elementContent": {
+                     "ver": "ul",
+                     "listElements": [
+                         [
+                            {
+                             "type": "b",
+                             "sectionID": "section5",
+                             "elementContent": ["Opis", ""]
+                            },
+                            {
+                             "type": "span",
+                             "sectionID": "section5",
+                             "elementContent": [
+                                 ": Regularnie sprawdzaj stan zdrowia SSD za pomocą narzędzi diagnostycznych.",
+                                 ""
+                             ]
+                            }
+                         ],
+                         [
+                            {
+                             "type": "b",
+                             "sectionID": "section5",
+                             "elementContent": ["Jak to zrobić", ""]
+                            },
+                            {
+                             "type": "span",
+                                "sectionID": "section5",
+                                "elementContent": [
+                                    ": Używaj programów takich jak CrystalDiskInfo, ",
+                                    ""
+                                ]
+                            },
+                            {
+                                "type": "bi",
+                                   "sectionID": "section5",
+                                   "elementContent": [
+                                       "CrystalDiskInfo",
+                                       ""
+                                   ]
+                               },
+                               {
+                                "type": "span",
+                                   "sectionID": "section5",
+                                   "elementContent": [
+                                       ", aby monitorować temperaturę, zużycie i inne parametry SSD.",
+                                       ""
+                                   ]
+                               }
+                        ]
+                    ]
+                }
+            }
+        ]
+        ]
+    }
+},
+{
+    "type":"h2",
+    "sectionID":"section6",
+    "elementContent":["Wyrównanie 4K (4K Alignment)", ""]
+},
+{
+    "type":"span",
+    "sectionID":"section6",
+    "elementContent":["Wyrównanie 4K odnosi się do sposobu, w jaki dane są zapisywane na dysku SSD w blokach o rozmiarze 4 kilobajtów (", ""]
+},
+{
+    "type":"b",
+    "sectionID":"section6",
+    "elementContent":["KB", ""]
+},
+{
+    "type":"span",
+    "sectionID":"section6",
+    "elementContent":["). Jest to istotne, ponieważ większość nowoczesnych dysków SSD i systemów operacyjnych używa bloków o rozmiarze 4K do przechowywania danych. Jeśli partycje na dysku SSD nie są wyrównane do granic 4K, może to prowadzić do spadku wydajności i zwiększonego zużycia komórek pamięci.", ""]
+},
+{
+    "type":"h3",
+    "sectionID":"section6",
+    "elementContent":["Dlaczego wyrównanie 4K jest ważne?", ""]
+},
+{
+    "type":"bi",
+    "sectionID":"section6",
+    "elementContent":["Wydajność", ""]
+},
+{
+    "type":"span",
+    "sectionID":"section6",
+    "elementContent":[": Niewyrównane partycje mogą powodować, że operacje zapisu i odczytu będą wymagały dostępu do dwóch bloków pamięci zamiast jednego, co spowalnia działanie dysku.", ""]
+},
+{
+    "type":"br",
+    "sectionID":"section6"
+},
+{
+    "type":"bi",
+    "sectionID":"section6",
+    "elementContent":["Żywotność", ""]
+},
+{
+    "type":"span",
+    "sectionID":"section6",
+    "elementContent":[": Niewyrównane zapisy mogą prowadzić do większej liczby operacji zapisu, co skraca żywotność komórek pamięci NAND.", ""]
+},
+{
+    "type":"h3",
+    "sectionID":"section6",
+    "elementContent":["Jak sprawdzić i wyrównać partycje do 4K?", ""]
+},
+{
+    "type":"span",
+    "sectionID":"section6",
+    "elementContent":["W systemie windows możesz uruchomić ", ""]
+},
+{
+    "type":"text-block-name",
+    "sectionID":"section6",
+    "elementContent":["msinfo32", ""]
+},
+{
+    "type":"span",
+    "sectionID":"section6",
+    "elementContent":[", a następnie przejść do  ", ""]
+},
+{
+    "type":"b",
+    "sectionID":"section6",
+    "elementContent":["„Składniki” --> „Magazyn” --> „Dyski”", ""]
+},
+{
+    "type":"span",
+    "sectionID":"section6",
+    "elementContent":[" i sprawdzić, czy partycje są wyrównane do 4K. Jeżeli przesuniecie początku partycji nie jest wielokrotnością 4K, to partycja nie jest wyrównana. ", ""]
+},
+{
+    "type":"br",
+    "sectionID":"section6"
+},
+{
+    "type":"span",
+    "sectionID":"section6",
+    "elementContent":["W moim przypadku wszystkie przesunięcia partycji są wielokrotnością 4KB, czyli 4096 bajtów. Więc nie muszę niczego zmieniać. ", ""]
+},
+{
+    "type":"br",
+    "sectionID":"section6"
+},
+{
+    "type":"span",
+    "sectionID":"section6",
+    "elementContent":["W przypadku, gdy partycje nie są wyrównane, można skorzystać z narzędzi takich jak EaseUS partition Master, aby wyrównać partycje do ", ""]
+},
+{
+    "type":"b",
+    "sectionID":"section6",
+    "elementContent":["4K", ""]
+},
+{
+    "type":"span",
+    "sectionID":"section6",
+    "elementContent":[".", ""]
+},
+{
+    "type":"img",
+    "sectionID":"section6",
+    "elementContent":[
+      "Edu-Koala-V/koala-v-assets-art1/main/Dyski/4k_disk_good.webp",
+      "Wyrównanie 4K",
+      "1171",
+      "1032",
+      "Edu-Koala-V/koala-v-assets-art1/main/Dyski/4k_disk_good_ORIGINAL.webp"
+    ]
+},
+{
+    "type":"h2",
+    "sectionID":"section7",
+    "elementContent":["Podsumowanie", ""]
+},
+{
+    "type":"span",
+    "sectionID":"section7",
+    "elementContent":["Jeżeli korzystasz z najnowszego Windowsa 10/11, nie musisz martwić się o optymalizację swoich dysków SSD, ponieważ system robi to za Ciebie bardzo skutecznie. Wystarczy, że raz do roku przeprowadzisz diagnostykę za pomocą CrystalDiskInfo i postarasz się nie zapełniać swoich partycji korzystających z dysków SSD.", ""]
+}
+
+]
+
