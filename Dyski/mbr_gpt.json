@@ -1,390 +1,1228 @@
 [
-    { "type": "h2", "sectionID": "section1", "elementContent": ["Wstęp"] },
-    {
-        "type": "span",
-        "sectionID": "section1",
-        "elementContent": ["Tablice partycjonowania to struktury danych używane do zarządzania przestrzenią dyskową na dyskach twardych i SSD. Pozwalają one na podział dysku na mniejsze, zarządzalne części zwane partycjami.",""]
-    },
-    {
-        "type":"br",
-        "sectionID":"section1"
-    },
-    {
-        "type":"span",
-        "sectionID":"section1",
-        "elementContent":["Dzielenie dysków na partycje może przynieść kilka korzyści:",""]
-    },
-    {
-        "type":"list",
-        "sectionID":"section1",
-        "elementContent":{
-            "ver":"ol",
-            "listElements":[
-                [
-                    {
-                        "type":"b",
-                        "sectionID":"section1",
-                        "elementContent":["Większy porządek",""]
-                    },
-                    {
-                        "type":"span",
-                        "sectionID":"section1",
-                        "elementContent":[": Podzielenie dysku na partycje może pomóc w organizacji plików. Na przykład, możesz mieć jedną partycję na system operacyjny i sterowniki, drugą na materiały produkcyjne (dokumenty, skrypty, grafiki, modele 3D), trzecią na programy, a czwartą na gry.",""]
-                    }
-                ],
-                [
-                    {
-                        "type":"b",
-                        "sectionID":"section1",
-                        "elementContent":["Zwiększone bezpieczeństwo",""]
-                    },
-                    {
-                        "type":"span",
-                        "sectionID":"section1",
-                        "elementContent":[": Partycje mogą zwiększyć bezpieczeństwo danych. Możesz ustawić bardziej rygorystyczne zabezpieczenia na partycji z ważnymi dokumentami, nadając im hasło i szyfrując je.",""]
-                    }
-                ],
-                [
-                    {
-                        "type":"b",
-                        "sectionID":"section1",
-                        "elementContent":["Łatwiejsze tworzenie kopii zapasowych",""]
-                    },
-                    {
-                        "type":"span",
-                        "sectionID":"section1",
-                        "elementContent":[": Tworzenie kopii zapasowych jest prostsze, gdy dane są podzielone na partycje. Możesz tworzyć kopie zapasowe tylko najważniejszych danych, zamiast całego dysku. Przykładowo kopiujesz tylko dokumenty, zdjęcia i zapisy gier. Resztę można zawsze zainstalować, a twoje pliki mogą przepaść na zawsze, gdy postanowisz odświeżyć system.",""]
-                    }
-                ],
-                [
-                    {
-                        "type":"b",
-                        "sectionID":"section1",
-                        "elementContent":["Dual-booting",""]
-                    },
-                    {
-                        "type":"span",
-                        "sectionID":"section1",
-                        "elementContent":[": Jeśli chcesz mieć na swoim komputerze więcej niż jeden system operacyjny, partycjonowanie dysku jest konieczne. Każdy system operacyjny może być zainstalowany na osobnej partycji. Pozwala ci to uniknąć konieczności posiadania oddzielnego dysku dla każdego systemu.",""]
-                    }
-                ]
+  { "type": "h2", "sectionID": "section1", "elementContent": ["Wstęp"] },
+  {
+    "type": "b",
+    "sectionID": "section1",
+    "elementContent": [
+      "Tablice partycjonowania",
+      ""
+    ]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      " to struktury danych używane do zarządzania przestrzenią dyskową na dyskach twardych i SSD. Pozwalają one na podział dysku na mniejsze, zarządzalne części zwane partycjami.",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section1"
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      "Dzielenie dysków na partycje może przynieść kilka korzyści:",
+      ""
+    ]
+  },
+  {
+    "type": "list",
+    "sectionID": "section1",
+    "elementContent": {
+      "ver": "ol",
+      "listElements": [
+        [
+          {
+            "type": "b",
+            "sectionID": "section1",
+            "elementContent": ["Większy porządek", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section1",
+            "elementContent": [
+              ": Podzielenie dysku na partycje może pomóc w organizacji plików. Na przykład, możesz mieć jedną partycję na system operacyjny i sterowniki, drugą na materiały produkcyjne (dokumenty, skrypty, grafiki, modele 3D), trzecią na programy, a czwartą na gry.",
+              ""
             ]
-        }
-    },
-    {
-        "type":"span",
-        "sectionID":"section1",
-        "elementContent":["W ramach wstępu, istnieje pięć rodzajów struktur danych tablic partycjonowania:",""]
-    },
-    {
-        "type":"list",
-        "sectionID":"section1",
-        "elementContent":{
-            "ver":"ul",
-            "listElements":[
-                [
-                    {
-                        "type":"b",
-                        "sectionID":"section1",
-                        "elementContent":["Apple Partition Map (APM)",""]
-                    }
-                ],
-                [
-                    {
-                        "type":"b",
-                        "sectionID":"section1",
-                        "elementContent":["BSD Disklabel",""]
-                    }
-                ],
-                [
-                    {
-                        "type":"b",
-                        "sectionID":"section1",
-                        "elementContent":["Master Boot Record (MBR)",""]
-                    }
-                ],
-                [
-                    {
-                        "type":"b",
-                        "sectionID":"section1",
-                        "elementContent":["GUID Partition Table (GPT)",""]
-                    }
-                ]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section1",
+            "elementContent": ["Zwiększone bezpieczeństwo", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section1",
+            "elementContent": [
+              ": Partycje mogą zwiększyć bezpieczeństwo danych. Możesz ustawić bardziej rygorystyczne zabezpieczenia na partycji z ważnymi dokumentami, nadając im hasło i szyfrując je.",
+              ""
             ]
-        }
-    },
-    {
-        "type":"br",
-        "sectionID":"section1"
-    },
-    {
-        "type":"span",
-        "sectionID":"section1",
-        "elementContent":["Mało prawdopodobne, że spotkasz się z dwiema pierwszymi, zwłaszcza że nowsze OSX-y korzystają z GPT, a systemy BSD są skrajnie mało popularnymi systemami Unixowymi.",""]
-    },
-    {
-        "type":"br",
-        "sectionID":"section1"
-    },
-    {
-        "type":"h2",
-        "sectionID":"section2",
-        "elementContent":["Master Boot Record (MBR)"]
-    },
-    {
-        "type":"span",
-        "sectionID":"section2",
-        "elementContent":["Gdy zdecydujesz się na strukturę tablicy partycjonowania MBR, pierwszy sektor będzie zawierał poniższy 512-bajtowy rekord rozruchowy.",""]
-    },
-    {
-        "type":"list",
-        "sectionID":"section2",
-        "elementContent":{
-            "ver":"ul",
-            "listElements":[
-                [
-                    {
-                        "type":"b",
-                        "sectionID":"section2",
-                        "elementContent":["Bootloader",""]
-                    },
-                    {
-                        "type":"span",
-                        "sectionID":"section2",
-                        "elementContent":[" analizuje, która partycja jest aktywna i zdatna do zbootowania, czyli np. zawiera system operacyjny.",""]
-                    }
-                ],
-                [
-                    {
-                        "type":"b", 
-                        "sectionID":"section2",
-                        "elementContent":["Sygnatura dysku",""]
-                    },
-                    {
-                        "type":"span", 
-                        "sectionID":"section2",
-                        "elementContent":[" zawiera unikalny identyfikator dysku, wykorzystywany przez system do zarządzania wieloma dyskami.",""]
-                    }
-                ],
-                [
-                    {
-                        "type":"b",
-                        "sectionID":"section2",
-                        "elementContent":["Puste bajty",""]
-                    },
-                    {
-                        "type":"span",
-                        "sectionID":"section2",
-                        "elementContent":[" to taki bufor pozycyjny dla reszty danych, może być wykorzystany do przesunięcia konkretnych innych bajtów na oczekiwany adres.",""]
-                    }
-                ],
-                [
-                    {
-                        "type":"b",
-                        "sectionID":"section2",
-                        "elementContent":["Wpisy o partycjach",""]
-                    },
-                    {
-                        "type":"span",
-                        "sectionID":"section2",
-                        "elementContent":[" przechowują informacje:",""]
-                    },
-                    {
-                        "type": "list",
-                        "sectionID": "section2",
-                        "elementContent": {
-                          "ver": "ul",
-                          "listElements": [
-                            [
-                              {
-                                "type": "span",
-                                "sectionID": "section2",
-                                "elementContent": ["Rozmiary danych partycji", ""]
-                              }
-                            ],
-                            [
-                                {
-                                    "type": "span",
-                                    "sectionID": "section2",
-                                    "elementContent": ["Typ danej partycji (podstawowa lub rozszerzona)", ""]
-                                }
-                                ],
-                                [
-                                {
-                                    "type": "span",
-                                    "sectionID": "section2",
-                                    "elementContent": ["Status bycia aktywną (zawierającą system)", ""]
-                                }
-                                ],
-                                [
-                                {
-                                    "type": "span",
-                                    "sectionID": "section2",
-                                    "elementContent": ["Lokalizacja początkowa danej partycji na dysku", ""]
-                                }
-                                ],
-                                [
-                                {
-                                    "type": "span",
-                                    "sectionID": "section2",
-                                    "elementContent": ["Lokalizacja końcowa danej partycji na dysku", ""]
-                                }
-                            ]
-                          ]
-                        }
-                      }
-                ],
-                [
-                    {
-                        "type":"b",
-                        "sectionID":"section2",
-                        "elementContent":["Sygnatura rozruchowa MBR",""]
-                    },
-                    {
-                        "type":"span",
-                        "sectionID":"section2",
-                        "elementContent":[" musi zawierać wartość ",""]
-                    },
-                    {
-                        "type":"b",
-                        "sectionID":"section2",
-                        "elementContent":["0x55AA",""]
-                    }
-                    ,
-                    {
-                        "type":"span",
-                        "sectionID":"section2",
-                        "elementContent":[", ponieważ tylko w takim wypadku system",""]
-                    },
-                    {
-                        "type":"b",
-                        "sectionID":"section2",
-                        "elementContent":["BIOS",""]
-                    }
-                    ,
-                    {
-                        "type":"span",
-                        "sectionID":"section2",
-                        "elementContent":[" lub ",""]
-                    },
-                    {
-                        "type":"b",
-                        "sectionID":"section2",
-                        "elementContent":["UEFI",""]
-                    }
-                    ,
-                    {
-                        "type":"span",
-                        "sectionID":"section2",
-                        "elementContent":[" rozpoznaje sektor ",""]
-                    },
-                    {
-                        "type":"bi",
-                        "sectionID":"section2",
-                        "elementContent":["MBR",""]
-                    },
-                    {
-                        "type":"span",
-                        "sectionID":"section2",
-                        "elementContent":[".",""]
-                    }
-                ]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section1",
+            "elementContent": ["Łatwiejsze tworzenie kopii zapasowych", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section1",
+            "elementContent": [
+              ": Tworzenie kopii zapasowych jest prostsze, gdy dane są podzielone na partycje. Możesz tworzyć kopie zapasowe tylko najważniejszych danych, zamiast całego dysku. Przykładowo, kopiujesz tylko dokumenty, zdjęcia i zapisy gier. Resztę można zawsze zainstalować, a twoje pliki mogą przepaść na zawsze, gdy postanowisz odświeżyć system.",
+              ""
             ]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section1",
+            "elementContent": ["Dual-booting", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section1",
+            "elementContent": [
+              ": Jeśli chcesz mieć na swoim komputerze więcej niż jeden system operacyjny, partycjonowanie dysku jest konieczne. Każdy system operacyjny może być zainstalowany na osobnej partycji. Pozwala ci to uniknąć konieczności posiadania oddzielnego dysku dla każdego systemu.",
+              ""
+            ]
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      "W ramach wstępu, istnieje pięć rodzajów struktur danych tablic partycjonowania:",
+      ""
+    ]
+  },
+  {
+    "type": "list",
+    "sectionID": "section1",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "b",
+            "sectionID": "section1",
+            "elementContent": ["Apple Partition Map (APM)", ""]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section1",
+            "elementContent": ["BSD Disklabel", ""]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section1",
+            "elementContent": ["Master Boot Record (MBR)", ""]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section1",
+            "elementContent": ["GUID Partition Table (GPT)", ""]
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "type": "br",
+    "sectionID": "section1"
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      "Mało prawdopodobne, że spotkasz się z dwiema pierwszymi, zwłaszcza że nowsze macOS-y korzystają z GPT, a systemy BSD są skrajnie mało popularnymi systemami Unixowymi.",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section1"
+  },
+  {
+    "type": "h2",
+    "sectionID": "section2",
+    "elementContent": ["Master Boot Record (MBR)"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      ", pierwszy sektor będzie zawierał poniższy 512-bajtowy rekord rozruchowy:",
+      ""
+    ]
+  },
+  {
+    "type": "b",
+    "sectionID": "section2",
+    "elementContent": [
+      "MBR",
+      ""
+    ]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      ", pierwszy sektor będzie zawierał poniższy ",
+      ""
+    ]
+  },
+  {
+    "type": "b",
+    "sectionID": "section2",
+    "elementContent": [
+      "512",
+      ""
+    ]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      "-bajtowy rekord rozruchowy:",
+      ""
+    ]
+  },
+  {
+    "type": "list",
+    "sectionID": "section2",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["Bootloader", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [
+              " analizuje, która partycja jest aktywna i zdatna do zbootowania, czyli np. zawiera system operacyjny.",
+              ""
+            ]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["Sygnatura dysku", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [
+              " zawiera unikalny identyfikator dysku, wykorzystywany przez system do zarządzania wieloma dyskami.",
+              ""
+            ]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["Puste bajty", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [
+              " to bufor pozycyjny dla reszty danych, mogą być wykorzystane do przesunięcia konkretnych innych bajtów na oczekiwany adres.",
+              ""
+            ]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["Wpisy o partycjach", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [" przechowują informacje:", ""]
+          },
+          {
+            "type": "list",
+            "sectionID": "section2",
+            "elementContent": {
+              "ver": "ul",
+              "listElements": [
+                [
+                  {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": ["Rozmiary danych partycji", ""]
+                  }
+                ],
+                [
+                  {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": [
+                      "Typ danej partycji (podstawowa lub rozszerzona)",
+                      ""
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": [
+                      "Status bycia aktywną (zawierającą system)",
+                      ""
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": [
+                      "Lokalizacja początkowa danej partycji na dysku",
+                      ""
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": [
+                      "Lokalizacja końcowa danej partycji na dysku",
+                      ""
+                    ]
+                  }
+                ]
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["Sygnatura rozruchowa MBR", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [" musi zawierać wartość ", ""]
+          },
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["0x55AA", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [", ponieważ tylko w takim wypadku system ", ""]
+          },
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["BIOS", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [" lub ", ""]
+          },
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["UEFI", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [" rozpoznaje sektor ", ""]
+          },
+          {
+            "type": "bi",
+            "sectionID": "section2",
+            "elementContent": ["MBR", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [".", ""]
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "type": "img",
+    "sectionID": "section2",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/Dyski/mbr_signature.webp",
+      "Struktura MBR",
+      "1680",
+      "894",
+      "Edu-Koala-V/koala-v-assets-art1/main/Dyski/mbr_signature_ORIGINAL.webp"
+    ]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      "W strukturze tablicy partycjonowania MBR rozróżnia się trzy następujące typy partycji:",
+      ""
+    ]
+  },
+  {
+    "type": "list",
+    "sectionID": "section2",
+    "elementContent": {
+      "ver": "ol",
+      "listElements": [
+        [
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["Podstawowa partycja", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [
+              ": Bootowalna, maksymalnie cztery na dysku, używana do systemów operacyjnych i ważnych danych.",
+              ""
+            ]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["Rozszerzona partycja", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [
+              ": Niebootowalna, tylko jedna na dysku, służy jako kontener dla partycji logicznych.",
+              ""
+            ]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["Partycja logiczna", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [
+              ": Niebootowalna, wiele w ramach jednej rozszerzonej partycji, używana do przechowywania danych. W ramach partycji rozszerzonej tworzony jest łańcuch ",
+              ""
+            ]
+          },
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["EBR", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [
+              ", w którym każdy ostatni rekord partycji logicznej wskazuje na kolejną. ",
+              ""
+            ]
+          },
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["EBR1", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [" wskazuje na ", ""]
+          },
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["EBR2", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [", ", ""]
+          },
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["EBR2", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [" na ", ""]
+          },
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["EBR3", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [" itd.", ""]
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "type": "h2",
+    "sectionID": "section3",
+    "elementContent": ["GUID Partition Table (GPT)"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [
+      "GPT to nowoczesna struktura wypierająca MBR, będąca częścią standardu ",
+      ""
+    ]
+  },
+  {
+    "type": "b",
+    "sectionID": "section3",
+    "elementContent": ["UEFI", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [" (", ""]
+  },
+  {
+    "type": "i",
+    "sectionID": "section3",
+    "elementContent": ["Unified Extensible Firmware Interface", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [
+      "), który jest następcą tradycyjnego BIOS-u. Powstała głównie z powodu ograniczeń MBR, który pozwala na",
+      ""
+    ]
+  },
+  {
+    "type": "u",
+    "sectionID": "section3",
+    "elementContent": [
+      "maksymalnie 4 partycje podstawowe na jednym dysku",
+      ""
+    ]
+  },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [
+      ". W GPT zrezygnowano z podziału na typy partycji, jak w MBR, i każda z ",
+      ""
+    ]
+  },
+  {
+    "type": "u",
+    "sectionID": "section3",
+    "elementContent": ["maksymalnie 128 partycji jest równorzędna", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [".", ""]
+  },
+  {
+    "type": "br",
+    "sectionID": "section3"
+  },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [
+      "Dodatkowo, rozwiązano problem nadpisywania rekordu rozruchowego, dodając na końcu dysku kopię zapasową struktury. Ze względu na powszechne użycie MBR w infrastrukturach komputerowych, niezbędne było zapewnienie kompatybilności wstecznej z systemami obsługującymi wyłącznie MBR oraz sprzętem nie wspierającym UEFI.",
+      ""
+    ]
+  },
+  {
+    "type": "img",
+    "sectionID": "section3",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/Dyski/gpt_schema.webp",
+      "Schemat GPT",
+      "800",
+      "1100",
+      "Edu-Koala-V/koala-v-assets-art1/main/Dyski/gpt_schema_ORIGINAL.webp"
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section3"
+  },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": ["Struktura GPT", ""]
+  },
+  {
+    "type": "list",
+    "sectionID": "section3",
+    "elementContent": {
+      "ver": "ol",
+      "listElements": [
+        [
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": ["Ochronny MBR (Protective MBR)", ""]
+          },
+          {
+            "type": "list",
+            "sectionID": "section3",
+            "elementContent": {
+              "ver": "ul",
+              "listElements": [
+                [
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": [
+                      "Znajduje się w pierwszym sektorze dysku (LBA 0).",
+                      ""
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": [
+                      "Zawiera jedną partycję obejmującą cały dysk, aby chronić dane GPT przed narzędziami, które nie rozpoznają GPT.",
+                      ""
+                    ]
+                  }
+                ]
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": ["Nagłówek GPT (GPT Header)", ""]
+          },
+          {
+            "type": "list",
+            "sectionID": "section3",
+            "elementContent": {
+              "ver": "ul",
+              "listElements": [
+                [
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": [
+                      "Znajduje się w drugim sektorze dysku (LBA 1). ",
+                      ""
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": [
+                      "Zawiera informacje o lokalizacji tablicy partycji, liczbie wpisów partycji oraz ich rozmiarze.",
+                      ""
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": [
+                      "Przechowuje unikalny identyfikator dysku (GUID) oraz kopię zapasową nagłówka GPT.",
+                      ""
+                    ]
+                  }
+                ]
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": [
+              "Tablica wpisów partycji (Partition Entry Array)",
+              ""
+            ]
+          },
+          {
+            "type": "list",
+            "sectionID": "section3",
+            "elementContent": {
+              "ver": "ul",
+              "listElements": [
+                [
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": [
+                      "Zaczyna się od trzeciego sektora (LBA 2) i może zajmować wiele sektorów.",
+                      ""
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": [
+                      "Każdy wpis ma 128 bajtów i zawiera informacje o partycji, takie jak:",
+                      ""
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": [
+                      "Unikalny identyfikator partycji (GUID)",
+                      ""
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": ["Początkowy i końcowy LBA partycji", ""]
+                  }
+                ],
+                [
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": [
+                      "Atrybuty partycji (np. tylko do odczytu)",
+                      ""
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": ["Nazwa partycji (UTF-16).", ""]
+                  }
+                ]
+              ]
+            }
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": [
+              "Kopia zapasowa nagłówka GPT i tablicy wpisów partycji",
+              ""
+            ]
+          },
+          {
+            "type": "list",
+            "sectionID": "section3",
+            "elementContent": {
+              "ver": "ul",
+              "listElements": [
+                [
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": ["Znajduje się na końcu dysku.", ""]
+                  }
+                ],
+                [
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": [
+                      "Zawiera ",
+                      ""
+                    ]
+                  },
+                  {
+                    "type": "u",
+                    "sectionID": "section3",
+                    "elementContent": [
+                      "kopię zapasową nagłówka GPT",
+                      ""
+                    ]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": [
+                      " oraz ",
+                      ""
+                    ]
+                  },
+                  {
+                    "type": "u",
+                    "sectionID": "section3",
+                    "elementContent": [
+                      "tablicy wpisów partycji",
+                      ""
+                    ]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": [
+                      ", co zwiększa niezawodność i odporność na uszkodzenia.",
+                      ""
+                    ]
+                  }
+                ]
+              ]
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "type":"h2",
+    "sectionID":"section4",
+    "elementContent":["Podsumowanie"]
+  },
+  {
+    "type":"span",
+    "sectionID":"section4",
+    "elementContent":[
+      "Oto tabela porównująca ",
+      ""
+    ]
+  },
+  {
+    "type":"b",
+    "sectionID":"section4",
+    "elementContent":[
+      "MBR",
+      ""
+    ]
+  },
+  {
+    "type":"span",
+    "sectionID":"section4",
+    "elementContent":[
+      " (",
+      ""
+    ]
+  },
+  {
+    "type":"bi",
+    "sectionID":"section4",
+    "elementContent":[
+      "M",
+      "red"
+    ]
+  },
+  {
+    "type":"i",
+    "sectionID":"section4",
+    "elementContent":[
+      "aster ",
+      ""
+    ]
+  },
+  {
+    "type":"bi",
+    "sectionID":"section4",
+    "elementContent":[
+      "B",
+      "green"
+    ]
+  },
+  {
+    "type":"i",
+    "sectionID":"section4",
+    "elementContent":[
+      "oot ",
+      ""
+    ]
+  },
+  {
+    "type":"bi",
+    "sectionID":"section4",
+    "elementContent":[
+      "R",
+      "blue"
+    ]
+  },
+  {
+    "type":"i",
+    "sectionID":"section4",
+    "elementContent":[
+      "ecord",
+      ""
+    ]
+  },
+ 
+  {
+    "type":"span",
+    "sectionID":"section4",
+    "elementContent":[
+      ") i ",
+      ""
+    ]
+  },
+  {
+    "type":"b",
+    "sectionID":"section4",
+    "elementContent":[
+      "GPT",
+      ""
+    ]
+  },
+  {
+    "type":"span",
+    "sectionID":"section4",
+    "elementContent":[
+      " (",
+      ""
+    ]
+  },
+  {
+    "type":"bi",
+    "sectionID":"section4",
+    "elementContent":[
+      "G",
+      "red"
+    ]
+  },
+  {
+    "type":"i",
+    "sectionID":"section4",
+    "elementContent":[
+      "UID ",
+      ""
+    ]
+  },
+  {
+    "type":"bi",
+    "sectionID":"section4",
+    "elementContent":[
+      "P",
+      "green"
+    ]
+  },
+  {
+    "type":"i",
+    "sectionID":"section4",
+    "elementContent":[
+      "artition ",
+      ""
+    ]
+  },
+  {
+    "type":"bi",
+    "sectionID":"section4",
+    "elementContent":[
+      "T",
+      "blue"
+    ]
+  },
+  {
+    "type":"i",
+    "sectionID":"section4",
+    "elementContent":[
+      "able",
+      ""
+    ]
+  },
+  {
+    "type":"span",
+    "sectionID":"section4",
+    "elementContent":[
+      "):",
+      ""
+    ]
+  },
+  {
+    "type": "table",
+    "sectionID": "section4",
+    "elementContent": [
+      [
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["Cecha", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["MBR (Master Boot Record)", ""]
+        }, {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": ["GPT (GUID Partition Table)", ""]
+          }
+      ],
+      [
+        {
+          "type": "b",
+          "sectionID": "section4",
+          "elementContent": ["Maksymalna pojemność dysku", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["2 TB", ""]
+        },
+        {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": ["9,44 ZB", ""]
+          }
+      ],
+      [
+        {
+          "type": "b",
+          "sectionID": "section4",
+          "elementContent": ["Liczba partycji", ""]
+        },
+        {
+            "type": "list",
+            "sectionID": "section4",
+            "elementContent": {
+              "ver": "ul",
+              "listElements": [
+                [
+                  {
+                    "type": "span",
+                    "sectionID": "section4",
+                    "elementContent": ["4 partycje podstawowe ", ""]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section4",
+                    "elementContent": ["3 podstawowe + 1 rozszerzona", ""]
+                  }
+                ]
+              ]
+            }
+          },
+        {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": ["Do 128 partycji", ""]
+          }
+      ],
+      [
+        {
+          "type": "b",
+          "sectionID": "section4",
+          "elementContent": ["Typy partycji", ""]
+        },
+        {
+            "type": "list",
+            "sectionID": "section4",
+            "elementContent": {
+              "ver": "ul",
+              "listElements": [
+                [
+                  {
+                    "type": "span",
+                    "sectionID": "section4",
+                    "elementContent": ["Podstawowa", ""]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section4",
+                    "elementContent": ["Rozszerzona", ""]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section4",
+                    "elementContent": ["Logiczna", ""]
+                  }
+                ]
+              ]
+            }
+          },
+        {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": ["Wszystkie partycje są równorzędne", ""]
+          }
+      ],
+      [
+        {
+          "type": "b",
+          "sectionID": "section4",
+          "elementContent": ["Preferowany dla", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["Starsze systemy BIOS", ""]
+        },
+        {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": ["Nowoczesne systemy UEFI", ""]
+          }
+      ],
+      [
+        {
+          "type": "b",
+          "sectionID": "section4",
+          "elementContent": ["Zarządzanie", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["Statyczne", ""]
+        },
+        {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": ["Statyczne", ""]
+          }
+      ],
+      [
+        {
+          "type": "b",
+          "sectionID": "section4",
+          "elementContent": ["Kopie zapasowe", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section4",
+          "elementContent": ["Brak", ""]
+        },
+        {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": ["Kopie zapasowe tablicy partycji i nagłówka", ""]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section4",
+            "elementContent": ["Identyfikatory partycji", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": ["Brak", ""]
+          },
+          {
+              "type": "span",
+              "sectionID": "section4",
+              "elementContent": ["Unikalne identyfikatory GUID", ""]
+            }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section4",
+            "elementContent": ["Odporność na uszkodzenia", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": ["Niska", ""]
+          },
+          {
+              "type": "span",
+              "sectionID": "section4",
+              "elementContent": ["Wysoka", ""]
+            }
+        ]
+      
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section4"
+  },
+  {
+    "type": "h3",
+    "sectionID": "section4",
+    "elementContent": ["Kluczowe różnice:"]
+  },
+    {
+        "type": "list",
+        "sectionID": "section4",
+        "elementContent": {
+        "ver": "ul",
+        "listElements": [
+            [
+                {
+                    "type": "b",
+                    "sectionID": "section4",
+                    "elementContent": ["MBR", ""]
+                },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": [": Ograniczony do 2 TB i 4 partycji podstawowych. Używany głównie w starszych systemach BIOS.", ""]
+            }
+            ],
+            [
+                {
+                    "type": "b",
+                    "sectionID": "section4",
+                    "elementContent": ["GPT", ""]
+                },
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": [": Obsługuje większe dyski (do 9,44 ZB) i więcej partycji (do 128). Zalecany do systemów UEFI.", ""]
+            }
+            ]
+        ]
         }
     }
 ]
-
-Tablice partycjonowania to struktury danych używane do zarządzania przestrzenią dyskową na dyskach twardych i SSD. Pozwalają one na podział dysku na mniejsze, zarządzalne części zwane partycjami.
-Dzielenie dysków na partycje może przynieść kilka korzyści:
-1.	Większy porządek: Podzielenie dysku na partycje może pomóc w organizacji plików. Na przykład, możesz mieć jedną partycję na system operacyjny i sterowniki, drugą na materiały produkcyjne (dokumenty, skrypty, grafiki, modele 3D), trzecią na programy, a czwartą na gry.
-2.	Zwiększone bezpieczeństwo: Partycje mogą zwiększyć bezpieczeństwo danych. Możesz ustawić bardziej rygorystyczne zabezpieczenia na partycji z ważnymi dokumentami, nadając im hasło i szyfrując je.
-3.	Łatwiejsze tworzenie kopii zapasowych: Tworzenie kopii zapasowych jest prostsze, gdy dane są podzielone na partycje. Możesz tworzyć kopie zapasowe tylko najważniejszych danych, zamiast całego dysku. Przykładowo kopiujesz tylko dokumenty, zdjęcia i zapisy gier. Resztę można zawsze zainstalować, a twoje pliki mogą przepaść na zawsze, gdy postanowisz odświeżyć system.
-4.	Dual-booting: Jeśli chcesz mieć na swoim komputerze więcej niż jeden system operacyjny, partycjonowanie dysku jest konieczne. Każdy system operacyjny może być zainstalowany na osobnej partycji. Pozwala ci to uniknąć konieczności posiadania oddzielnego dysku dla każdego systemu.
-W ramach wstępu, istnieje pięć rodzaj struktur danych tablic partycjonowania:
-•	 Apple Partition Map (APM)
-•	BSD Disklabel
-•	Master Boot Record (MBR)
-•	GUID Partition Table (GPT)
-Mało prawdopodobne że spotkasz się z dwiema pierwszymi, zwłaszcza że nowsze OSX-y korzystają z GPT, a systemy BSD są skrajnie mało popularnymi systemami Unixowymi.
-
-
-
-
-
-
-Master Boot Record (MBR)
-Gdy zdecydujesz się na strukturę tablicy partycjonowania MBR, pierwszy sektor będzie zawierał poniższy 512 bajtowy rekord rozruchowy. 
-•	Bootloader analizuje która partycja jest aktywna i zdatna do zbootowania czyli np.: zawiera system operacyjny.
-•	Sygnatura dysku zawiera unikalny identyfikator dysku, wykorzystywanym przez system do zarządzania wieloma dyskami.
-•	Puste bajty to taki bufor pozycyjny dla reszty danych może być wykorzystany do przesunięcia konkretnych innych bajtów na oczekiwany adres.
-•	Wpisy o partycjach przechowują informacje:
-o	rozmiarze danej partycji
-o	Typie danej partycji (podstawowa lub rozszerzona)
-o	Statusie bycia aktywną (zawierającą system)
-o	Lokalizacji początkowej danej partycji na dysku
-o	Lokalizacji końcowej danej partycji na dysku
-•	Sygnatura rozruchowa MBR musi zawierać wartość 0x55AA ponieważ tylko w takim wypadku system BIOS lub UEFI rozpoznaje sektor MBR 
-
- 
-
-
-
-W strukturze tablicy partycjonopwanie MBR rozróżnia się trzy następującje typy partycji:
-
-•	Podstawowa partycja: Bootowalna, maksymalnie cztery na dysku, używana do systemów operacyjnych i ważnych danych.
-•	Rozszerzona partycja: Niebootowalna, tylko jedna na dysku, służy jako kontener dla partycji logicznych.
-•	Partycja logiczna: Niebootowalna, wiele w ramach jednej rozszerzonej partycji, używana do przechowywania danych. W ramach partycji rozszerzonej jest tworzony łańcuch EBR w którym każdy ostatni rekord partycji logicznej wskazuje na kolejną. EBR1 wskazuje na EBR2, EBR2 na EBR3 itd.
-
-GPT (GUID Partition Table)
-GPT to nowoczesna struktura wypierająca MBR i będąca częścią standardu UEFI (Unified Extensible Firmware Interface), który jest następcą tradycyjnego BIOS-u.
-Powstał głównie przez problematykę płynącą z ograniczenia MBR-a do maksymalnie 4 partycji podstawowych na jednym dysku. W GPT zrezygnowano z podziału na typy partycji tak jak w MBR i każda z maksymalnie 128 partycji jest sobie równorzędna.
-Dodatkowo pozbyto się problemu nadpisywania rekordu rozruchowego dodając na końcu dysku kopię zapasową struktury.  Z racji na powszechne użycie MBR w infrastrukturach komputerowych niezbędne było zastosowanie kompatybilności wstecznej z systemami obsługującymi tylko i wyłącznie MBR oraz sprzętem nie wspierającym UEFI.  
-
-
-Struktura GPT
-1.	Ochronny MBR (Protective MBR):
-o	Znajduje się w pierwszym sektorze dysku (LBA 0).
-o	Zawiera jedną partycję obejmującą cały dysk, aby chronić dane GPT przed narzędziami, które nie rozpoznają GPT.
-2.	Nagłówek GPT (GPT Header):
-o	Znajduje się w drugim sektorze dysku (LBA 1).
-o	Zawiera informacje o lokalizacji tablicy partycji, liczbie wpisów partycji oraz ich rozmiarze.
-o	Przechowuje unikalny identyfikator dysku (GUID) oraz kopię zapasową nagłówka GPT.
-3.	Tablica wpisów partycji (Partition Entry Array):
-o	Zaczyna się od trzeciego sektora (LBA 2) i może zajmować wiele sektorów.
-o	Każdy wpis ma 128 bajtów i zawiera informacje o partycji, takie jak:
-	Unikalny identyfikator partycji (GUID)
-	Początkowy i końcowy LBA partycji
-	Atrybuty partycji (np. tylko do odczytu)
-	Nazwa partycji (UTF-16).
-4.	Kopia zapasowa nagłówka GPT i tablicy wpisów partycji:
-o	Znajduje się na końcu dysku.
-o	Zawiera kopię zapasową nagłówka GPT oraz tablicy wpisów partycji, co zwiększa niezawodność i odporność na uszkodzenia.
-
-
-
-
-
-
-
-Podsumowanie
-Oczywiście! Oto tabela porównująca MBR (Master Boot Record) i GPT (GUID Partition Table):
-Cecha	MBR
- (Master Boot Record)	GPT
-(GUID Partition Table)
-Maksymalna pojemność dysku	2 TB	9.44 ZB
-Liczba partycji	4 partycje podstawowe
- lub
- 3 podstawowe + 1 rozszerzona	Do 128 partycji
-Typy partycji	Podstawowe, 
-rozszerzone, 
-logiczne	Wszystkie partycje są równorzędne
-Preferowany dla	Starsze systemy 
-BIOS	Nowoczesne systemy UEFI
-Zarządzanie	Statyczne	Statyczne
-Kopie zapasowe	Brak	Kopie zapasowe tablicy partycji i nagłówka
-Identyfikatory	Brak	Unikalne identyfikatory GUID
-Odporność na uszkodzenia	Niska	Wysoka
-Kluczowe różnice:
-•	MBR: Ograniczony do 2 TB i 4 partycji podstawowych. Używany głównie w starszych systemach BIOS.
-•	GPT: Obsługuje większe dyski (do 9.44 ZB) i więcej partycji (do 128). Zalecane zastosowanie systemów UEFI.
-
