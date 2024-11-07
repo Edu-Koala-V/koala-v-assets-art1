@@ -1041,12 +1041,14 @@
                     "type": "span",
                     "sectionID": "section4",
                     "elementContent": ["4 partycje podstawowe ", ""]
-                  },
-                  {
-                    "type": "span",
-                    "sectionID": "section4",
-                    "elementContent": ["3 podstawowe + 1 rozszerzona", ""]
                   }
+                ],
+                [
+                    {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["3 podstawowe + 1 rozszerzona", ""]
+                      }
                 ]
               ]
             }
@@ -1074,13 +1076,16 @@
                     "type": "span",
                     "sectionID": "section4",
                     "elementContent": ["Podstawowa", ""]
-                  },
+                  }
+                ],
+                [
                   {
                     "type": "span",
                     "sectionID": "section4",
                     "elementContent": ["Rozszerzona", ""]
-                  },
-                  {
+                  }
+                ],
+                [ {
                     "type": "span",
                     "sectionID": "section4",
                     "elementContent": ["Logiczna", ""]
