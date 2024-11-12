@@ -1,0 +1,777 @@
+[
+    { "type": "h2", "sectionID": "section1", "elementContent": ["Macierze RAID"] },
+    { "type": "b", "sectionID": "section1", "elementContent": ["RAID"] },
+    { "type": "span", "sectionID": "section1", "elementContent": ["("] },
+    { "type": "i", "sectionID": "section1", "elementContent": ["Redundant Array of Independent Disks"] },
+    { "type": "span", "sectionID": "section1", "elementContent": [")"] },
+    { "type": "span", "sectionID": "section1", "elementContent": ["to technologia, która łączy wiele dysków twardych w jedną logiczną jednostkę (można też połączyć logiczne jednostki w partycję RAID)."] },
+    { "type": "br", "sectionID": "section1"},
+    { "type": "span", "sectionID": "section1", "elementContent": ["W zależności od wybranego poziomu RAID, będzie charakteryzował się danym sposobem (algorytmem) "] },
+    { "type": "span", "sectionID": "section1", "elementContent": ["zapisu"] },
+    { "type": "span", "sectionID": "section1", "elementContent": [" i "] },
+    { "type": "span", "sectionID": "section1", "elementContent": ["odczytu"] },
+    { "type": "span", "sectionID": "section1", "elementContent": [" danych na połączonych dyskach oraz metodyką niezawodności w utrzymaniu stałego, bezstratnego przepływu danych i ich archiwizacji, np. poprzez odbudowę, gdy któreś urządzenie pamięci masowej ulegnie awarii. Często, aby zwiększyć bezpieczeństwo danych, stosowana jest redundancja, ograniczająca efektywną przestrzeń dysku oraz zmniejszająca wydajność zapisu danych."] },
+    { "type": "br", "sectionID": "section1"},
+    { "type": "br", "sectionID": "section1"},
+    { "type": "b", "sectionID": "section1", "elementContent": ["Redundancja"] },
+    { "type": "span", "sectionID": "section1", "elementContent": [" w systemach RAID oznacza obecność dodatkowych danych, które służą do odtworzenia informacji w przypadku awarii jednego lub kilku dysków. Dzięki redundancji można zabezpieczyć dane przed utratą i zapewnić ciągłość działania systemu."] },
+    { "type": "br", "sectionID": "section1"},
+    { "type": "br", "sectionID": "section1"},
+
+    { "type": "span", "sectionID": "section1", "elementContent": ["Poziomy macierzy dyskowych są zapisywane numerycznie po akronimie RAID, np. RAID 0, RAID 10 itp., a każdy z nich zapewnia inny balans pomiędzy wydajnością, bezpieczeństwem danych i efektywnym rozmiarem pamięci całej macierzy."] },
+
+
+    { "type": "h2", "sectionID": "section2", "elementContent": ["JBOD"] },
+    { "type": "span", "sectionID": "section2", "elementContent": ["Zanim zaczniemy omawiać poszczególne rodzaje poziomów macierzy RAID, warto wspomnieć o mapowaniu zróżnicowanych dysków jako jeden wolumin komputera. Ma to sens, gdy posiada się mnóstwo urządzeń pamięci masowej o niewielkich rozmiarach i do tego zróżnicowanych, np. "] },
+    { "type": "i", "sectionID": "section2", "elementContent": ["20 GB, 64 GB, 128 GB, 64 GB"] },
+    { "type": "span", "sectionID": "section2", "elementContent": [". Użytkownik ma wtedy jedną partycję "] },
+    { "type": "span", "sectionID": "section2", "elementContent": ["C:"] },
+    { "type": "span", "sectionID": "section2", "elementContent": [" (w przypadku Windowsa), w której dane są zapisywane na dysku, aż do momentu, gdy się zapełni, by wtedy wykorzystać przestrzeń kolejnego dysku itd."] },
+    {
+        "type": "img",
+        "sectionID": "section2",
+        "elementContent": [
+          "Edu-Koala-V/koala-v-assets-art1/main/Dyski/JBOD.webp",
+          "Schemat mapowania dysków JBOD",
+          "552",
+          "483",
+          "Edu-Koala-V/koala-v-assets-art1/main/Dyski/JBOD_ORIGINAL.webp",
+      "image-invert-colors"
+        ]
+      },
+
+
+
+
+
+    { "type": "h2", "sectionID": "section3", "elementContent": ["Macierz RAID 0 (Striping)"] },
+    { "type": "b", "sectionID": "section3", "elementContent": ["RAID 0"] },
+    { "type": "span", "sectionID": "section3", "elementContent": [", znany również jako "] },
+    { "type": "bi", "sectionID": "section3", "elementContent": ["striping"] },
+    { "type": "span", "sectionID": "section3", "elementContent": [" (podział danych na bloki i zapisywanie ich równocześnie na wielu dyskach), to konfiguracja RAID, która rozdziela dane na co najmniej dwa dyski. Ta konfiguracja oferuje znaczną poprawę wydajności odczytu i zapisu danych, ponieważ te procesy są dzielone na wszystkie urządzenia pamięci masowej w macierzy."] },
+    { "type": "br", "sectionID": "section3"},
+    {
+        "type": "img",
+        "sectionID": "section3",
+        "elementContent": [
+          "Edu-Koala-V/koala-v-assets-art1/main/Dyski/RAID_0.webp",
+          "Macierze RAID 0 (Striping). Minimalna liczba dysków: 2",
+          "1077",
+          "581",
+          "Edu-Koala-V/koala-v-assets-art1/main/Dyski/RAID_0_ORIGINAL.webp",
+      "image-invert-colors"
+        ]
+      },
+    { "type": "br", "sectionID": "section3"},
+    { "type": "b", "sectionID": "section3", "elementContent": ["UWAGA!","red"] },
+    { "type": "span", "sectionID": "section3", "elementContent": ["Rozmiar blokowy paska danych musi być przemyślany. Zastosowanie zbyt dużego lub małego ogranicznika bloku bajtowego spowoduje utratę wydajności i zniszczy cały sens zastosowania macierzy "] },
+    { "type": "b", "sectionID": "section3", "elementContent": ["RAID 0"] },
+    { "type": "span", "sectionID": "section3", "elementContent": ["."] },
+   
+    { "type": "br", "sectionID": "section3"},
+    { "type": "b", "sectionID": "section3", "elementContent": ["Typowe rozmiary pasków:"] },
+    { "type": "br", "sectionID": "section3"},
+    { "type": "list", "sectionID": "section3", "elementContent": {
+        "ver": "ul",
+        "listElements": [
+            [
+                { "type": "b", "sectionID": "section3", "elementContent": ["32 KB",""] },
+                { "type": "span", "sectionID": "section3", "elementContent": [": Dobry kompromis dla różnych zastosowań.",""] }
+            ],
+            [
+                { "type": "b", "sectionID": "section3", "elementContent": ["64 KB",""] },
+                { "type": "span", "sectionID": "section3", "elementContent": [": Często używany dla systemów plików i baz danych.",""] }
+            ],
+            [
+                { "type": "b", "sectionID": "section3", "elementContent": ["128 KB",""] },
+                { "type": "span", "sectionID": "section3", "elementContent": [": Może być korzystny dla dużych transferów danych.",""] }
+            ],
+            [
+                { "type": "b", "sectionID": "section3", "elementContent": ["256 KB",""] },
+                { "type": "span", "sectionID": "section3", "elementContent": [": Może być używany dla bardzo dużych transferów danych, ale może nie być optymalny dla wszystkich zastosowań.",""] }
+            ]
+        ]
+    } },
+    { "type": "h3", "sectionID": "section3", "elementContent": ["Dla kogo RAID 0?"] },
+    { "type": "span", "sectionID": "section3", "elementContent": ["Przy zastosowaniu dysków "] },
+    { "type": "b", "sectionID": "section3", "elementContent": ["HDD"] },
+    { "type": "span", "sectionID": "section3", "elementContent": [" i "] },
+    { "type": "b", "sectionID": "section3", "elementContent": ["SSD"] },
+    { "type": "span", "sectionID": "section3", "elementContent": [" na interfejsie "] },
+    { "type": "b", "sectionID": "section3", "elementContent": ["SATA"] },
+    { "type": "span", "sectionID": "section3", "elementContent": [" skorzysta każdy użytkownik, transfery danych są odczuwalne, nawet dwukrotnie szybszy zapis i odczyt danych."] },
+    { "type": "br", "sectionID": "section3"},
+    { "type": "br", "sectionID": "section3"},
+    { "type": "span", "sectionID": "section3", "elementContent": ["W przypadku dysków "] },
+    { "type": "b", "sectionID": "section3", "elementContent": ["NVMe"] },
+    { "type": "span", "sectionID": "section3", "elementContent": [" i na interfejsie "] },
+    { "type":"b", "sectionID": "section3", "elementContent":["M.2",""] },
+    { "type": "span", "sectionID": "section3", "elementContent": [" uzyskasz minimalną poprawę wydajności oraz może wystąpić znacząca poprawa wydajności w oprogramowaniu wykorzystującym ciągłą komunikację z danymi w przestrzeni dyskowej, np. dowolny program do montażu filmów."] },
+    { "type": "br", "sectionID": "section3"},
+    { "type": "br", "sectionID": "section3"},
+    { "type": "b", "sectionID": "section3", "elementContent": ["UWAGA!","red"] },
+    { "type": "span", "sectionID": "section3", "elementContent": [" Awaria jednego dysku jest równoznaczna z całkowitą utratą danych na woluminie. "] },
+    { "type": "b", "sectionID": "section3", "elementContent": ["RAID 0"] },
+    { "type": "span", "sectionID": "section3", "elementContent": [" nie posiada możliwości odbudowy danych po wymianie uszkodzonego urządzenia. Jeżeli nastąpi awaria, a system macierzy nie zostanie zatrzymany, to kolejne procesy zapisu i odczytu będą pogłębiać degradację danych. Na rynku istnieje wiele firm zajmujących się odzyskiwaniem danych z uszkodzonych macierzy "] },
+    { "type": "b", "sectionID": "section3", "elementContent": ["RAID 0"] },
+    { "type": "span", "sectionID": "section3", "elementContent": [", ale jest to kosztowny i czasochłonny proces, który nie gwarantuje odzyskania wszystkich danych."] },
+
+
+    { "type": "b", "sectionID": "section4", "elementContent": ["Macierz RAID 1"] },
+    { "type": "br", "sectionID": "section4"},
+ { "type": "b", "sectionID": "section4", "elementContent": ["RAID 1"] },
+
+    { "type": "span", "sectionID": "section4", "elementContent": [", znany również jako "] },
+    { "type": "bi", "sectionID": "section4", "elementContent": ["mirroring"] },
+    { "type": "span", "sectionID": "section4", "elementContent": [" ("] },
+    { "type": "i", "sectionID": "section4", "elementContent": ["ang. odzwierciedlanie"] },
+    { "type": "span", "sectionID": "section4", "elementContent": ["), to konfiguracja pamięci masowej, która polega na duplikowaniu danych na dwóch lub więcej dyskach. W systemie "] },
+    { "type": "b", "sectionID": "section4", "elementContent": ["RAID 1"] },
+    { "type": "span", "sectionID": "section4", "elementContent": [" każda informacja zapisana na jednym dysku jest jednocześnie zapisywana na drugim."] },
+    { "type": "br", "sectionID": "section4"},
+    { "type": "br", "sectionID": "section4"},
+    { "type": "span", "sectionID": "section4", "elementContent": ["Gdy utworzysz tę macierz, uzyskasz jeden wolumin o rozmiarze najmniejszego dysku. Wydajność będzie zbliżona do najwolniejszego dysku. W przypadku zastosowania identycznych urządzeń w macierzy, prędkości zapisu i odczytu mogą się minimalnie pogorszyć lub polepszyć. Jest to związane głównie z dyskami "] },
+    { "type": "b", "sectionID": "section4", "elementContent": ["HDD"] },
+    { "type": "span", "sectionID": "section4", "elementContent": [" i ułożeniem głowicy nad sektorem."] },
+    { "type": "br", "sectionID": "section4"},
+    {
+        "type": "img",
+        "sectionID": "section4",
+        "elementContent": [
+          "Edu-Koala-V/koala-v-assets-art1/main/Dyski/RAID_1.webp",
+          "Macierze RAID 1. Minimalna liczba dysków: 2",
+          "1077",
+          "581",
+          "Edu-Koala-V/koala-v-assets-art1/main/Dyski/RAID_1_ORIGINAL.webp",
+      "image-invert-colors"
+        ]
+      },
+      { "type": "h2", "sectionID": "section5", "elementContent": ["Mniej ważne macierze RAID-y"] },
+        { "type": "span", "sectionID": "section5", "elementContent": ["Poza wcześniej wymienionymi macierzami istnieją też RAID 2, 3, 4, 7 oraz inne rozwiązania "] },
+        { "type": "b", "sectionID": "section5", "elementContent": ["SHR"] },
+        { "type": "span", "sectionID": "section5", "elementContent": [" i "] },
+        { "type": "b", "sectionID": "section5", "elementContent": ["SHR-2"] },
+        { "type": "span", "sectionID": "section5", "elementContent": [" od firmy "] },
+        { "type": "bi", "sectionID": "section5", "elementContent": ["Synology"] },
+        { "type": "span", "sectionID": "section5", "elementContent": [", przeznaczone dla ich sprzętowych urządzeń NAS."] },
+        { "type": "br", "sectionID": "section5" },
+        { "type": "span", "sectionID": "section5", "elementContent": ["Aktualnie nie wykorzystuje się już wymienionych macierzy RAID ponieważ:"] },
+        {
+            "type": "list",
+            "sectionID": "section5",
+            "elementContent": {
+              "ver": "ul",
+              "listElements": [
+                [
+                  {
+                    "type": "b",
+                    "sectionID": "section5",
+                    "elementContent": ["RAID 2", ""]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section5",
+                    "elementContent": [": Wymagał zastosowania dysków kodujących dane na poziomie bitu, co było kosztowne i mało wydajne. ", ""]
+                  }
+                ],
+                [
+                    {
+                      "type": "b",
+                      "sectionID": "section5",
+                      "elementContent": ["RAID 3 i 4", ""]
+                    },
+                    {
+                      "type": "span",
+                      "sectionID": "section5",
+                      "elementContent": [": Oba poziomy były ograniczone przez wąskie gardło przy zapisie danych, ponieważ wszystkie operacje zapisu wymagały dostępu do wszystkich dysków w macierzy.", ""]
+                    }
+                  ],
+                  [
+                    {
+                      "type": "b",
+                      "sectionID": "section5",
+                      "elementContent": ["RAID 7", ""]
+                    },
+                    {
+                      "type": "span",
+                      "sectionID": "section5",
+                      "elementContent": [": Był bardziej złożonym rozwiązaniem należącym do firmy ", ""]
+                    },
+                    {
+                        "type": "bi",
+                        "sectionID": "section5",
+                        "elementContent": ["Storage Computer Corporation", ""]
+                      },
+                        {
+                            "type": "span",
+                            "sectionID": "section5",
+                            "elementContent": [", które nie zyskało szerokiej popularności. Opierał się na działaniu RAID 3 i 4.", ""]
+                        }
+                  ]
+              ]
+            }
+          },
+{ "type": "h2", "sectionID": "section6", "elementContent": ["Macierz RAID 5"] },
+{ "type": "span", "sectionID": "section6", "elementContent": ["Ta macierz miała za zadanie zastąpić RAID 3 i 4, wzorując się na działaniu poziomów 0 i 1. "] },
+{ "type": "br", "sectionID": "section6"},
+{ "type": "b", "sectionID": "section6", "elementContent": ["RAID 5"] },
+{ "type": "span", "sectionID": "section6", "elementContent": [" to konfiguracja pamięci masowej, która łączy co najmniej trzy dyski twarde w jedną logiczną jednostkę. Wykorzystuje techniki "] },
+{ "type": "bi", "sectionID": "section6", "elementContent": ["stripingu "] },
+{ "type": "span", "sectionID": "section6", "elementContent": [" (rozpraszania danych) i rozproszonej parzystości, co zapewnia równowagę między wydajnością, niezawodnością i efektywną pojemnością magazynowania."] },
+{ "type": "br", "sectionID": "section6"},
+{ "type": "br", "sectionID": "section6"},
+{ "type": "span", "sectionID": "section6", "elementContent": ["W tej macierzy, w przeciwieństwie do RAID 0 i 1, "] },
+{ "type": "u", "sectionID": "section6", "elementContent": ["minimalna ilość dysków musi wynosić 3"] },
+{ "type": "br", "sectionID": "section6"},
+{
+    "type":"span",
+    "sectionID":"section6",
+    "elementContent":["Zapisując „"]
+},
+{ "type": "bi", "sectionID": "section6", "elementContent": ["paski"] },
+
+{
+    "type":"span",
+    "sectionID":"section6",
+    "elementContent":["” danych, tworzony jest pasek "]
+},
+{
+    "type":"bi",
+    "sectionID":"section6",
+    "elementContent":["pasek parzystości"]
+},
+{
+    "type":"span",
+    "sectionID":"section6",
+    "elementContent":[" zawierający sumy kontrolne zapisanych plików. Dlatego zaleca się stosować tę macierz w przypadku większych rozmiarowo plików, gdyż niewielkie partie danych wprowadzają redundancję sum kontrolnych. Każda taka operacja sprowadza się do:"]
+},
+{ "type": "br", "sectionID": "section6"},
+{ "type": "list", "sectionID": "section6", "elementContent": {
+    "ver": "ul",
+    "listElements": [
+        [
+            { "type": "span", "sectionID": "section6", "elementContent": ["Odczytania starego bloku danych",""] }
+        ],
+        [
+            { "type": "span", "sectionID": "section6", "elementContent": ["Odczytania starego bloku parzystości",""] }
+        ],
+        [
+            { "type": "span", "sectionID": "section6", "elementContent": ["Porównania starego bloku do żądania zapisu i przeliczenia parzystości",""] }
+        ],
+        [
+            { "type": "span", "sectionID": "section6", "elementContent": ["Zapisania nowego bloku danych",""] }
+        ],
+        [
+            { "type": "span", "sectionID": "section6", "elementContent": ["Zapisania nowego bloku parzystości",""] }
+        ]
+    ]
+} },
+{ "type": "span", "sectionID": "section6", "elementContent": ["W nowszych implementacjach "] },
+{ "type": "b", "sectionID": "section6", "elementContent": ["RAID 5"] },
+{ "type": "span", "sectionID": "section6", "elementContent": [" stosuje się pamięć podręczną do przeliczania sum kontrolnych i zapisywania wielu partii danych na dyski z opóźnieniem, co przyspiesza zapis całej grupy niewielkich plików."] },
+{ "type": "br", "sectionID": "section6"},
+{
+    "type": "img",
+    "sectionID": "section6",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/Dyski/RAID_5.webp",
+      "Macierze RAID 5. Minimalna liczba dysków: 3",
+      "1278",
+      "582",
+      "Edu-Koala-V/koala-v-assets-art1/main/Dyski/RAID_5_ORIGINAL.webp",
+      "image-invert-colors"
+    ]
+    },
+
+{ "type": "h2", "sectionID": "section7", "elementContent": ["Macierz RAID 1E"] },
+{ "type": "span", "sectionID": "section7", "elementContent": ["Hybrydowa macierz "] },
+{ "type": "bi", "sectionID": "section7", "elementContent": ["RAID 1",""] },
+{ "type": "bi", "sectionID": "section7", "elementContent": ["E","purple"] },
+{ "type": "span", "sectionID": "section7", "elementContent": [", gdzie literka E pochodzi od angielskiego słowa „"] },
+{ "type": "bi", "sectionID": "section7", "elementContent": ["Enhanced","purple"] },
+{ "type": "span", "sectionID": "section7", "elementContent": ["”, jest rozbudowaną, rozszerzoną wersją macierzy poziomu pierwszego i należy do tak zwanych „"] },
+{ "type": "i", "sectionID": "section7", "elementContent": ["niestandardowych poziomów RAID"] },
+{ "type": "span", "sectionID": "section7", "elementContent": ["”. "] },
+
+{ "type": "br", "sectionID": "section7"},
+{ "type": "br", "sectionID": "section7"},
+{ "type": "span", "sectionID": "section7", "elementContent": ["Zobacz na poniższy schemat: macierz "] },
+{ "type": "bi", "sectionID": "section7", "elementContent": ["RAID 1",""] },
+{ "type": "bi", "sectionID": "section7", "elementContent": ["E","purple"] },
+{ "type": "span", "sectionID": "section7", "elementContent": [" wykorzystuje wszystkie dostępne dyski ("] },
+{ "type": "u", "sectionID": "section7", "elementContent": ["minimum 3"] },
+{ "type": "span", "sectionID": "section7", "elementContent": [") oraz tworzy kopię danych na kolejnym dysku. O ile nie będzie sytuacji, że dwa sąsiadujące dyski ulegną awarii, to zawsze jest możliwa odbudowa danych, a wykorzystanie wielu urządzeń pamięci masowej jednocześnie przyspiesza procesy zapisu i odczytu danych."] },
+
+{ "type": "br", "sectionID": "section7"},
+{
+    "type": "img",
+    "sectionID": "section7",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/Dyski/RAID_1E.webp",
+      "Macierze RAID 1E. Minimalna liczba dysków: 3",
+      "1278",
+      "582",
+      "Edu-Koala-V/koala-v-assets-art1/main/Dyski/RAID_1E_ORIGINAL.webp",
+      "image-invert-colors"
+    ]
+    },
+
+{ "type": "h2", "sectionID": "section8", "elementContent": ["Macierze RAID 5E i RAID 5EE"] },
+{ "type": "span", "sectionID": "section8", "elementContent": ["Kolejne niestandardowe macierze RAID, które wbudowują w swoją strukturę kopie zapasowe pasków danych, w zależności od wersji:"] },
+{
+    "type": "list",
+    "sectionID": "section8",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "b",
+            "sectionID": "section8",
+            "elementContent": ["RAID 5E", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section8",
+            "elementContent": [": Na końcu każdego urządzenia pamięci masowej.", ""]
+          }
+        ],
+        [
+            {
+              "type": "b",
+              "sectionID": "section8",
+              "elementContent": ["RAID 5EE", ""]
+            },
+            {
+              "type": "span",
+              "sectionID": "section8",
+              "elementContent": [" W pasku na kolejnym urządzeniu.", ""]
+            }
+          ]
+      ]
+    }
+  },
+{ "type": "span", "sectionID": "section8", "elementContent": ["Tę „"] },
+{ "type": "i", "sectionID": "section8", "elementContent": ["wolną"] },
+{ "type": "span", "sectionID": "section8", "elementContent": ["” przestrzeń nazywa się "] },
+{ "type": "b", "sectionID": "section8", "elementContent": ["hot-spare","red"] },
+{ "type": "span", "sectionID": "section8", "elementContent": ["."] },
+{
+    "type": "img",
+    "sectionID": "section8",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/Dyski/RAID_5E_5EE.webp",
+      "Macierze RAID 5E i RAID 5EE. Minimalna liczba dysków: 4",
+      "1278",
+      "582",
+      "Edu-Koala-V/koala-v-assets-art1/main/Dyski/RAID_5E_5EE_ORIGINAL.webp",
+      "image-invert-colors"
+    ]
+  },
+{ "type": "br", "sectionID": "section8"},
+{ "type": "br", "sectionID": "section8"},
+{ "type": "span", "sectionID": "section8", "elementContent": ["W tej macierzy, w zależności od implementacji, możesz maksymalnie mieć od 8 do 16 dysków."] },
+
+{ "type": "h2", "sectionID": "section9", "elementContent": ["Macierz RAID 6"] },
+{ "type": "b", "sectionID": "section9", "elementContent": ["RAID 6"] },
+{ "type": "span", "sectionID": "section9", "elementContent": [" jest rozwinięciem idei "] },
+{ "type": "b", "sectionID": "section9", "elementContent": ["RAID 5"] },
+{ "type": "u", "sectionID": "section9", "elementContent": [" ze zwiększoną ilością pasków parzystości"] },
+{ "type": "span", "sectionID": "section9", "elementContent": [", przez co niwelowana jest do zera sytuacja awarii dwóch dysków na raz. Jedynym kosztem jest zmniejszenie efektywnej pojemności woluminu. W konfiguracji minimalnej składającej się z czterech dysków tracimy połowę przestrzeni roboczej ("] },
+{ "type": "u", "sectionID": "section9", "elementContent": ["2 dyski"] },
+{ "type": "span", "sectionID": "section9", "elementContent": [")."] },
+{
+    "type": "img",
+    "sectionID": "section9",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/Dyski/RAID_6.webp",
+      "Macierze RAID 6. Minimalna liczba dysków: 4",
+      "717",
+      "583",
+      "Edu-Koala-V/koala-v-assets-art1/main/Dyski/RAID_6_ORIGINAL.webp",
+      "image-invert-colors"
+    ]
+  },
+
+
+
+
+
+
+
+
+
+{ "type": "h2", "sectionID": "section10", "elementContent": ["Hybrydy macierzowe RAID"] },
+{ "type": "span", "sectionID": "section10", "elementContent": ["Mimo wielu prób stworzenia idealnej macierzy RAID, poziomy 0 i 1 w dalszym ciągu są tymi najlepszymi. Zamiast tworzyć kolejne ich interpretacje, aby maksymalnie wykorzystać wydajność i przestrzeń oraz posiadać kopie zapasowe, by w razie awarii łatwo je odbudować, postanowiono tworzyć zagnieżdżenia, które oznacza się numerycznie od dołu do góry."] },
+{ "type": "br", "sectionID": "section10"},
+{ "type": "span", "sectionID": "section10", "elementContent": ["Poniżej widzisz "] },
+{ "type": "b", "sectionID": "section10", "elementContent": ["RAID 10"] },
+{ "type": "span", "sectionID": "section10", "elementContent": [", który można też zapisać jako "] },
+{ "type": "b", "sectionID": "section10", "elementContent": ["RAID 1+0"] },
+{ "type": "span", "sectionID": "section10", "elementContent": [" lub "] },
+{ "type": "b", "sectionID": "section10", "elementContent": ["RAID 1&0:"] },
+{ "type": "span", "sectionID": "section10", "elementContent": [":"] },
+{
+    "type": "img",
+    "sectionID": "section10",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/Dyski/RAID_10.webp",
+      "Macierze RAID 10. Minimalna liczba dysków: 4",
+      "645",
+      "634",
+      "Edu-Koala-V/koala-v-assets-art1/main/Dyski/RAID_10_ORIGINAL.webp",
+      "image-invert-colors"
+    ]
+    },
+{ "type":"span", "sectionID":"section10","elementContent":["Zazwyczaj zagnieżdżenia RAID-ów są dwucyfrowe, rzadziej trzycyfrowe.",""]},
+
+{ "type": "h2", "sectionID": "section11", "elementContent": ["Podsumowanie"] },
+{ "type": "span", "sectionID": "section11", "elementContent": ["Warto zapamiętać, że:"] },
+{
+    "type": "list",
+    "sectionID": "section11",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "b",
+            "sectionID": "section11",
+            "elementContent": ["JBOD", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section11",
+            "elementContent": [": Zmapowanie wielu różnych dysków w jeden wolumin logiczny.", ""]
+          }
+        ],
+        [
+            {
+              "type": "b",
+              "sectionID": "section11",
+              "elementContent": ["RAID 0", ""]
+            },
+            {
+              "type": "span",
+              "sectionID": "section11",
+              "elementContent": [": Wykorzystuje jednocześnie wszystkie dyski w macierzy do zapisu i odczytu, zwiększając wydajność, zwłaszcza HDD-ków. Kosztem jest brak możliwości odbudowy struktury danych, ale za to nie traci się przestrzeni roboczej.", ""]
+            }
+          ],
+          [
+            {
+              "type": "b",
+              "sectionID": "section11",
+              "elementContent": ["RAID 1", ""]
+            },
+            {
+              "type": "span",
+              "sectionID": "section11",
+              "elementContent": [": Przestrzeń jest ograniczona do najmniejszego dysku, a pozostałe urządzenia pamięci masowej stanowią idealne klony struktury danych. Prędkość zapisu jest gorsza, a odczytu relatywnie się nie zmienia.", ""]
+            }
+          ],
+          [
+            {
+              "type": "b",
+              "sectionID": "section11",
+              "elementContent": ["RAID 2", ""]
+            },
+            {
+              "type": "span",
+              "sectionID": "section11",
+              "elementContent": [": Wymagał zastosowania dysków kodujących dane na poziomie bitu, co było kosztowne i mało wydajne.", ""]
+            }
+            ],
+            [
+                {
+                  "type": "b",
+                  "sectionID": "section11",
+                  "elementContent": ["RAID 3 i 4", ""]
+                },
+                {
+                  "type": "span",
+                  "sectionID": "section11",
+                  "elementContent": [": Oba poziomy były ograniczone przez wąskie gardło przy zapisie danych, ponieważ wszystkie operacje zapisu wymagały dostępu do wszystkich dysków w macierzy.", ""]
+                }
+              ],
+              [
+                {
+                  "type": "b",
+                  "sectionID": "section11",
+                  "elementContent": ["RAID 5", ""]
+                },
+                {
+                  "type": "span",
+                  "sectionID": "section11",
+                  "elementContent": [": Wykorzystuje wszystkie dyski i po zapisie danego pliku tworzy pasek z sumą kontrolną do wykorzystania w przypadku odbudowy struktury danych uszkodzonego urządzenia.", ""]
+                }
+              ],
+              [
+                {
+                  "type": "b",
+                  "sectionID": "section11",
+                  "elementContent": ["RAID 6", ""]
+                },
+                {
+                  "type": "span",
+                  "sectionID": "section11",
+                  "elementContent": [": Duplikuje pasek parzystości na dwa dyski. Rozszerzenie niezawodności względem poziomu piątego. Praktycznie niemożliwe jest, aby dwa dyski padły w tym samym momencie.", ""]
+                }
+              ],
+              [
+                {
+                  "type": "b",
+                  "sectionID": "section11",
+                  "elementContent": ["RAID 7", ""]
+                },
+                {
+                  "type": "span",
+                  "sectionID": "section11",
+                  "elementContent": [": Był bardziej złożonym rozwiązaniem należącym do firmy ", ""]
+                },
+                {
+                    "type": "bi",
+                    "sectionID": "section11",
+                    "elementContent": ["Storage Computer Corporation", ""]
+                  },
+                    {
+                        "type": "span",
+                        "sectionID": "section11",
+                        "elementContent": [", które nie zyskało szerokiej popularności. Opierał się na działaniu RAID 3 i 4.", ""]
+                    }
+                ],
+                [
+                    {
+                      "type": "b",
+                      "sectionID": "section11",
+                      "elementContent": ["RAID 10, RAID 01, RAID 60", ""]
+                    },
+                    {
+                      "type": "span",
+                      "sectionID": "section11",
+                      "elementContent": [": To zagnieżdżane hybrydy macierzy RAID. Rzadko kiedy zagnieżdża się trzy poziomy, np. RAID 10+0.", ""]
+                    }
+                  ],
+                  [
+                    {
+                      "type": "b",
+                      "sectionID": "section11",
+                      "elementContent": ["RAID 5E i 5EE", ""]
+                    },
+                    {
+                      "type": "span",
+                      "sectionID": "section11",
+                      "elementContent": [": Ulepszenia poziomu 5, zaliczane do niestandardowych poziomów RAID. Charakteryzują się tworzeniem kopii zapasowej sum kontrolnych, zwiększając niezawodność macierzy.", ""]
+                    }
+                  ],
+                  [
+                    {
+                      "type": "b",
+                      "sectionID": "section11",
+                      "elementContent": ["RAID 1E", ""]
+                    },
+                    {
+                      "type": "span",
+                      "sectionID": "section11",
+                      "elementContent": [": Ulepszenie poziomu 1, zaliczane do niestandardowych poziomów RAID. Łączy funkcjonalności RAID 0 i 1, zwiększając wydajność i tworząc kopie struktur danych.", ""]
+                    }
+                  ]
+                ]
+                }
+            },
+{
+    "type": "h3",
+    "sectionID": "section11",
+    "elementContent": ["Dla uzupełnienia i utrwalenia wiedzy sprawdź te filmy:"]
+},
+{
+    "type": "list",
+    "sectionID": "section11",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "span",
+            "sectionID": "section11",
+            "elementContent": ["RAID - Co to jest i dlaczego TY GO POTRZEBUJESZ? Rodzaje i poziomy: ", ""]
+          },
+          {
+            "type": "link",
+            "sectionID": "section11",
+            "elementContent": ["https://www.youtube.com/watch?v=njJQ_4Za2sQ", ""]
+          }
+        ],
+        [
+            {
+              "type": "span",
+              "sectionID": "section11",
+              "elementContent": ["Co dwa SSD to nie jeden! RAID 0 w praktyce: ", ""]
+            },
+            {
+              "type": "link",
+              "sectionID": "section11",
+              "elementContent": ["https://www.youtube.com/watch?v=sdL4JlWJvhI", ""]
+            }
+          ]
+      ]
+    }
+  },
+{ "type": "br", "sectionID": "section11"},
+{ "type": "br", "sectionID": "section11"},
+{ "type": "h3", "sectionID": "section11", "elementContent": ["Zapoznaj się z tabelą porównawczą omówionych macierzy:"] },
+
+
+{
+    "type": "table",
+    "sectionID": "section11",
+    "elementContent": [
+      [
+        { "type": "b", "sectionID": "section11", "elementContent": ["RAID", ""] },
+          { "type": "b", "sectionID": "section11", "elementContent": ["Minimalna liczba dysków", ""] },
+          { "type": "b", "sectionID": "section11", "elementContent": ["Redundancja", ""] },
+          { "type": "b", "sectionID": "section11", "elementContent": ["Wydajność odczytu", ""] },
+          { "type": "b", "sectionID": "section11", "elementContent": ["Wydajność zapisu", ""] },
+          { "type": "b", "sectionID": "section11", "elementContent": ["Efektywna pojemność", ""] },
+          { "type": "b", "sectionID": "section11", "elementContent": ["Odbudowa danych w razie awarii", ""] }
+      ],
+      [
+        { "type": "b", "sectionID": "section11", "elementContent": ["JBOD", ""] },
+          { "type": "b", "sectionID": "section11", "elementContent": ["1", ""] },
+          { "type": "b", "sectionID": "section11", "elementContent": ["Brak", "red"] },
+          { "type": "b", "sectionID": "section11", "elementContent": ["Normalna", ""] },
+          { "type": "b", "sectionID": "section11", "elementContent": ["Normalna", ""] },
+          { "type": "b", "sectionID": "section11", "elementContent": ["(n / n) = 100%", "green"] },
+          { "type": "b", "sectionID": "section11", "elementContent": ["Brak", "red"] }
+      ],
+      [
+        { "type": "b", "sectionID": "section11", "elementContent": ["RAID 0", ""] },
+            { "type": "b", "sectionID": "section11", "elementContent": ["2", ""] },
+            { "type": "b", "sectionID": "section11", "elementContent": ["Brak", "red"] },
+            { "type": "b", "sectionID": "section11", "elementContent": ["Bardzo wysoka", "purple"] },
+            { "type": "b", "sectionID": "section11", "elementContent": ["Bardzo wysoka", "purple"] },
+            { "type": "b", "sectionID": "section11", "elementContent": ["(n / n) = 100%", "green"] },
+            { "type": "b", "sectionID": "section11", "elementContent": ["Brak", "red"] }
+      ],
+      [
+        { "type": "b", "sectionID": "section11", "elementContent": ["RAID 1", ""] },
+        { "type": "b", "sectionID": "section11", "elementContent": ["2", ""] },
+        { "type": "b", "sectionID": "section11", "elementContent": ["Tak", "blue"] },
+        { "type": "b", "sectionID": "section11", "elementContent": ["Wysoka", "green"] },
+        { "type": "b", "sectionID": "section11", "elementContent": ["Niska", "red"] },
+        { "type": "b", "sectionID": "section11", "elementContent": ["(n / 2n) = 50%", "red"] },
+        { "type": "b", "sectionID": "section11", "elementContent": ["Szybka", "green"] }
+      ],
+      [
+        { "type": "b", "sectionID": "section11", "elementContent": ["RAID 2", ""] },
+        { "type": "b", "sectionID": "section11", "elementContent": ["3", ""] },
+        { "type": "b", "sectionID": "section11", "elementContent": ["Tak", "blue"] },
+        { "type": "b", "sectionID": "section11", "elementContent": ["Wysoka", "green"] },
+        { "type": "b", "sectionID": "section11", "elementContent": ["Niska", "red"] },
+        { "type": "b", "sectionID": "section11", "elementContent": ["(n / 2n) = 50%", "red"] },
+        { "type": "b", "sectionID": "section11", "elementContent": ["Szybka", "green"] }
+        ],
+        [
+            { "type": "b", "sectionID": "section11", "elementContent": ["RAID 3", ""] },
+            { "type": "b", "sectionID": "section11", "elementContent": ["3", ""] },
+            { "type": "b", "sectionID": "section11", "elementContent": ["Tak", "blue"] },
+            { "type": "b", "sectionID": "section11", "elementContent": ["Wysoka", "green"] },
+            { "type": "b", "sectionID": "section11", "elementContent": ["Średnia", "orange"] },
+            { "type": "b", "sectionID": "section11", "elementContent": ["(n - 1) / n ≈ 66%", "orange"] },
+            { "type": "b", "sectionID": "section11", "elementContent": ["Szybka", "green"] }
+          ],
+          [
+            { "type": "b", "sectionID": "section11", "elementContent": ["RAID 4", ""] },
+            { "type": "b", "sectionID": "section11", "elementContent": ["3", ""] },
+            { "type": "b", "sectionID": "section11", "elementContent": ["Tak", "blue"] },
+            { "type": "b", "sectionID": "section11", "elementContent": ["Wysoka", "green"] },
+            { "type": "b", "sectionID": "section11", "elementContent": ["Średnia", "orange"] },
+            { "type": "b", "sectionID": "section11", "elementContent": ["(n - 1) / n ≈ 66%", "orange"] },
+            { "type": "b", "sectionID": "section11", "elementContent": ["Szybka", "green"] }
+            ],
+            [
+                { "type": "b", "sectionID": "section11", "elementContent": ["RAID 5", ""] },
+                { "type": "b", "sectionID": "section11", "elementContent": ["3", ""] },
+                { "type": "b", "sectionID": "section11", "elementContent": ["Tak", "blue"] },
+                { "type": "b", "sectionID": "section11", "elementContent": ["Wysoka", "green"] },
+                { "type": "b", "sectionID": "section11", "elementContent": ["Średnia", "orange"] },
+                { "type": "b", "sectionID": "section11", "elementContent": ["(n - 1) / n ≈ 66%", "orange"] },
+                { "type": "b", "sectionID": "section11", "elementContent": ["Średnia", "orange"] }
+                ],
+                [
+                    { "type": "b", "sectionID": "section11", "elementContent": ["RAID 6", ""] },
+                    { "type": "b", "sectionID": "section11", "elementContent": ["4", ""] },
+                    { "type": "b", "sectionID": "section11", "elementContent": ["Tak", "blue"] },
+                    { "type": "b", "sectionID": "section11", "elementContent": ["Wysoka", "green"] },
+                    { "type": "b", "sectionID": "section11", "elementContent": ["Średnia", "orange"] },
+                    { "type": "b", "sectionID": "section11", "elementContent": ["(n - 2) / n ≈ 50%", "orange"] },
+                    { "type": "b", "sectionID": "section11", "elementContent": ["Średnia", "orange"] }
+                    ],
+                    [
+                        { "type": "b", "sectionID": "section11", "elementContent": ["RAID 7", ""] },
+                        { "type": "b", "sectionID": "section11", "elementContent": ["3", ""] },
+                        { "type": "b", "sectionID": "section11", "elementContent": ["Tak", "blue"] },
+                        { "type": "b", "sectionID": "section11", "elementContent": ["Bardzo wysoka", "purple"] },
+                        { "type": "b", "sectionID": "section11", "elementContent": ["Bardzo wysoka", "purple"] },
+                        { "type": "b", "sectionID": "section11", "elementContent": ["(n - 2n) / n ≈ 66%", "orange"] },
+                        { "type": "b", "sectionID": "section11", "elementContent": ["Średnia", "orange"] }
+                    ],
+                    [
+                        { "type": "b", "sectionID": "section11", "elementContent": ["RAID 10", ""] },
+                        { "type": "b", "sectionID": "section11", "elementContent": ["4", ""] },
+                        { "type": "b", "sectionID": "section11", "elementContent": ["Tak", "blue"] },
+                        { "type": "b", "sectionID": "section11", "elementContent": ["Bardzo wysoka", "purple"] },
+                        { "type": "b", "sectionID": "section11", "elementContent": ["Wysoka", "green"] },
+                        { "type": "b", "sectionID": "section11", "elementContent": ["(n / 2n) = 50%", "red"] },
+                        { "type": "b", "sectionID": "section11", "elementContent": ["Szybka", "green"] }
+                        ],
+                        [
+                            { "type": "b", "sectionID": "section11", "elementContent": ["RAID 01", ""] },
+                            { "type": "b", "sectionID": "section11", "elementContent": ["4", ""] },
+                            { "type": "b", "sectionID": "section11", "elementContent": ["Tak", "blue"] },
+                            { "type": "b", "sectionID": "section11", "elementContent": ["Bardzo wysoka", "purple"] },
+                            { "type": "b", "sectionID": "section11", "elementContent": ["Wysoka", "green"] },
+                            { "type": "b", "sectionID": "section11", "elementContent": ["(n / 2n) = 50%", "red"] },
+                            { "type": "b", "sectionID": "section11", "elementContent": ["Szybka", "green"] }
+                            ],
+                            [
+                                { "type": "b", "sectionID": "section11", "elementContent": ["RAID 06", ""] },
+                                { "type": "b", "sectionID": "section11", "elementContent": ["4", ""] },
+                                { "type": "b", "sectionID": "section11", "elementContent": ["Tak", "blue"] },
+                                { "type": "b", "sectionID": "section11", "elementContent": ["Bardzo wysoka", "purple"] },
+                                { "type": "b", "sectionID": "section11", "elementContent": ["Wysoka", "green"] },
+                                { "type": "b", "sectionID": "section11", "elementContent": ["(n / 2n) = 50%", "red"] },
+                                { "type": "b", "sectionID": "section11", "elementContent": ["Średnia", "orange"] }
+                                ],
+                                [
+                                    { "type": "b", "sectionID": "section11", "elementContent": ["RAID 1E", ""] },
+                                    { "type": "b", "sectionID": "section11", "elementContent": ["3", ""] },
+                                    { "type": "b", "sectionID": "section11", "elementContent": ["Tak", "blue"] },
+                                    { "type": "b", "sectionID": "section11", "elementContent": ["Wysoka", "green"] },
+                                    { "type": "b", "sectionID": "section11", "elementContent": ["Średnia", "orange"] },
+                                    { "type": "b", "sectionID": "section11", "elementContent": ["(n / 2n) = 50%", "red"] },
+                                    { "type": "b", "sectionID": "section11", "elementContent": ["Szybka", "green"] }
+                                    ],
+                                    [
+                                        { "type": "b", "sectionID": "section11", "elementContent": ["RAID 5E", ""] },
+                                        { "type": "b", "sectionID": "section11", "elementContent": ["4", ""] },
+                                        { "type": "b", "sectionID": "section11", "elementContent": ["Tak", "blue"] },
+                                        { "type": "b", "sectionID": "section11", "elementContent": ["Wysoka", "green"] },
+                                        { "type": "b", "sectionID": "section11", "elementContent": ["Średnia", "orange"] },
+                                        { "type": "b", "sectionID": "section11", "elementContent": ["(n - 2) / n ≈ 50%", "red"] },
+                                        { "type": "b", "sectionID": "section11", "elementContent": ["Średnia", "orange"] }
+                                        ],
+                                        [
+                                            { "type": "b", "sectionID": "section11", "elementContent": ["RAID 5EE", ""] },
+                                            { "type": "b", "sectionID": "section11", "elementContent": ["4", ""] },
+                                            { "type": "b", "sectionID": "section11", "elementContent": ["Tak", "blue"] },
+                                            { "type": "b", "sectionID": "section11", "elementContent": ["Wysoka", "green"] },
+                                            { "type": "b", "sectionID": "section11", "elementContent": ["Średnia", "orange"] },
+                                            { "type": "b", "sectionID": "section11", "elementContent": ["(n - 2) / n ≈ 50%", "red"] },
+                                            { "type": "b", "sectionID": "section11", "elementContent": ["Średnia", "orange"] }
+                                            ]
+
+    ]
+  }
+]
+
+
