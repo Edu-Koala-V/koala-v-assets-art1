@@ -1,15 +1,15 @@
 [
     { "type": "h2", "sectionID": "section1", "elementContent": ["Macierze RAID"] },
     { "type": "b", "sectionID": "section1", "elementContent": ["RAID"] },
-    { "type": "span", "sectionID": "section1", "elementContent": ["("] },
+    { "type": "span", "sectionID": "section1", "elementContent": [" ("] },
     { "type": "i", "sectionID": "section1", "elementContent": ["Redundant Array of Independent Disks"] },
-    { "type": "span", "sectionID": "section1", "elementContent": [")"] },
+    { "type": "span", "sectionID": "section1", "elementContent": [") "] },
     { "type": "span", "sectionID": "section1", "elementContent": ["to technologia, która łączy wiele dysków twardych w jedną logiczną jednostkę (można też połączyć logiczne jednostki w partycję RAID)."] },
     { "type": "br", "sectionID": "section1"},
     { "type": "span", "sectionID": "section1", "elementContent": ["W zależności od wybranego poziomu RAID, będzie charakteryzował się danym sposobem (algorytmem) "] },
-    { "type": "span", "sectionID": "section1", "elementContent": ["zapisu"] },
+    { "type": "i", "sectionID": "section1", "elementContent": ["zapisu"] },
     { "type": "span", "sectionID": "section1", "elementContent": [" i "] },
-    { "type": "span", "sectionID": "section1", "elementContent": ["odczytu"] },
+    { "type": "i", "sectionID": "section1", "elementContent": ["odczytu"] },
     { "type": "span", "sectionID": "section1", "elementContent": [" danych na połączonych dyskach oraz metodyką niezawodności w utrzymaniu stałego, bezstratnego przepływu danych i ich archiwizacji, np. poprzez odbudowę, gdy któreś urządzenie pamięci masowej ulegnie awarii. Często, aby zwiększyć bezpieczeństwo danych, stosowana jest redundancja, ograniczająca efektywną przestrzeń dysku oraz zmniejszająca wydajność zapisu danych."] },
     { "type": "br", "sectionID": "section1"},
     { "type": "br", "sectionID": "section1"},
@@ -64,7 +64,7 @@
       },
     { "type": "br", "sectionID": "section3"},
     { "type": "b", "sectionID": "section3", "elementContent": ["UWAGA!","red"] },
-    { "type": "span", "sectionID": "section3", "elementContent": ["Rozmiar blokowy paska danych musi być przemyślany. Zastosowanie zbyt dużego lub małego ogranicznika bloku bajtowego spowoduje utratę wydajności i zniszczy cały sens zastosowania macierzy "] },
+    { "type": "span", "sectionID": "section3", "elementContent": [" Rozmiar blokowy paska danych musi być przemyślany. Zastosowanie zbyt dużego lub małego ogranicznika bloku bajtowego spowoduje utratę wydajności i zniszczy cały sens zastosowania macierzy "] },
     { "type": "b", "sectionID": "section3", "elementContent": ["RAID 0"] },
     { "type": "span", "sectionID": "section3", "elementContent": ["."] },
    
@@ -100,7 +100,6 @@
     { "type": "span", "sectionID": "section3", "elementContent": [" na interfejsie "] },
     { "type": "b", "sectionID": "section3", "elementContent": ["SATA"] },
     { "type": "span", "sectionID": "section3", "elementContent": [" skorzysta każdy użytkownik, transfery danych są odczuwalne, nawet dwukrotnie szybszy zapis i odczyt danych."] },
-    { "type": "br", "sectionID": "section3"},
     { "type": "br", "sectionID": "section3"},
     { "type": "span", "sectionID": "section3", "elementContent": ["W przypadku dysków "] },
     { "type": "b", "sectionID": "section3", "elementContent": ["NVMe"] },
@@ -345,7 +344,7 @@
             {
               "type": "span",
               "sectionID": "section8",
-              "elementContent": [" W pasku na kolejnym urządzeniu.", ""]
+              "elementContent": [": W pasku na kolejnym urządzeniu.", ""]
             }
           ]
       ]
@@ -375,8 +374,8 @@
 { "type": "h2", "sectionID": "section9", "elementContent": ["Macierz RAID 6"] },
 { "type": "b", "sectionID": "section9", "elementContent": ["RAID 6"] },
 { "type": "span", "sectionID": "section9", "elementContent": [" jest rozwinięciem idei "] },
-{ "type": "b", "sectionID": "section9", "elementContent": ["RAID 5"] },
-{ "type": "u", "sectionID": "section9", "elementContent": [" ze zwiększoną ilością pasków parzystości"] },
+{ "type": "b", "sectionID": "section9", "elementContent": ["RAID 5 "] },
+{ "type": "u", "sectionID": "section9", "elementContent": ["ze zwiększoną ilością pasków parzystości"] },
 { "type": "span", "sectionID": "section9", "elementContent": [", przez co niwelowana jest do zera sytuacja awarii dwóch dysków na raz. Jedynym kosztem jest zmniejszenie efektywnej pojemności woluminu. W konfiguracji minimalnej składającej się z czterech dysków tracimy połowę przestrzeni roboczej ("] },
 { "type": "u", "sectionID": "section9", "elementContent": ["2 dyski"] },
 { "type": "span", "sectionID": "section9", "elementContent": [")."] },
