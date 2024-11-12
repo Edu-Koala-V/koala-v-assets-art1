@@ -116,7 +116,7 @@
     { "type": "span", "sectionID": "section3", "elementContent": [", ale jest to kosztowny i czasochłonny proces, który nie gwarantuje odzyskania wszystkich danych."] },
 
 
-    { "type": "b", "sectionID": "section4", "elementContent": ["Macierz RAID 1"] },
+    { "type": "h2", "sectionID": "section4", "elementContent": ["Macierz RAID 1"] },
     { "type": "br", "sectionID": "section4"},
  { "type": "b", "sectionID": "section4", "elementContent": ["RAID 1"] },
 
