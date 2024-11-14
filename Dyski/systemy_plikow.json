@@ -1,5 +1,1954 @@
 [
-    {"type": "h2", "sectionID": "section1", "elementContent": ["Wstęp"]},
-    {"type": "span", "sectionID": "section1","elementContent":["Przykładowy tekst wstępu do lekcji",""]},
-    {"type": "br", "sectionID": "section1"}
+    { "type": "h2", "sectionID": "section1", "elementContent": ["Wprowadzenie"] },
+    {
+      "type": "span",
+      "sectionID": "section1",
+      "elementContent": [
+        "Systemy plików są kluczowym elementem każdego systemu operacyjnego, umożliwiającym organizację, przechowywanie i zarządzanie danymi na różnych nośnikach pamięci.",
+        ""
+      ]
+    },
+    { "type": "br", "sectionID": "section1" },
+    {
+      "type": "span",
+      "sectionID": "section1",
+      "elementContent": [
+        "W tej lekcji omówimy najważniejsze systemy plików używane w czterech głównych systemach operacyjnych: ",
+        ""
+      ]
+    },
+    { "type": "bi", "sectionID": "section1", "elementContent": ["Windows", ""] },
+    { "type": "span", "sectionID": "section1", "elementContent": [", ", ""] },
+    { "type": "bi", "sectionID": "section1", "elementContent": ["Linux", ""] },
+    { "type": "span", "sectionID": "section1", "elementContent": [", ", ""] },
+    { "type": "bi", "sectionID": "section1", "elementContent": ["macOS", ""] },
+    { "type": "span", "sectionID": "section1", "elementContent": [" i ", ""] },
+    { "type": "bi", "sectionID": "section1", "elementContent": ["BSD", ""] },
+    { "type": "span", "sectionID": "section1", "elementContent": [".", ""] },
+    { "type": "br", "sectionID": "section1" },
+    {
+      "type": "span",
+      "sectionID": "section1",
+      "elementContent": [
+        "Przyjrzymy się również systemom plików wykorzystywanym między platformami ",
+        ""
+      ]
+    },
+    { "type": "bi", "sectionID": "section1", "elementContent": ["UNIX", ""] },
+    {
+      "type": "span",
+      "sectionID": "section1",
+      "elementContent": [" oraz między ", ""]
+    },
+    { "type": "bi", "sectionID": "section1", "elementContent": ["UNIX", ""] },
+    { "type": "span", "sectionID": "section1", "elementContent": [" i ", ""] },
+    { "type": "bi", "sectionID": "section1", "elementContent": ["MS-DOS", ""] },
+    { "type": "span", "sectionID": "section1", "elementContent": [".", ""] },
+    { "type": "br", "sectionID": "section1" },
+    { "type": "br", "sectionID": "section1" },
+    {
+      "type": "b",
+      "sectionID": "section1",
+      "elementContent": ["Dziennikowanie", ""]
+    },
+    {
+      "type": "span",
+      "sectionID": "section1",
+      "elementContent": [" (ang. ", ""]
+    },
+    {
+      "type": "bi",
+      "sectionID": "section1",
+      "elementContent": ["journaling", ""]
+    },
+    {
+      "type": "span",
+      "sectionID": "section1",
+      "elementContent": [
+        " ) to technika stosowana w systemach plików w celu zwiększenia ich niezawodności i integralności danych. Polega ona na zapisywaniu zmian w systemie plików w specjalnym dzienniku (logu) przed ich faktycznym wprowadzeniem. Dzięki temu, w przypadku awarii systemu (np. nagłego wyłączenia zasilania), system plików może odtworzyć ostatnie operacje i przywrócić spójność danych.",
+        ""
+      ]
+    },
+    { "type": "br", "sectionID": "section1" },
+    {
+      "type": "h3",
+      "sectionID": "section1",
+      "elementContent": ["Jak działa dziennikowanie?", ""]
+    },
+    {
+      "type": "list",
+      "sectionID": "section1",
+      "elementContent": {
+        "ver": "ul",
+        "listElements": [
+          [
+            {
+              "type": "b",
+              "sectionID": "section1",
+              "elementContent": ["Zapis do dziennika", ""]
+            },
+            {
+              "type": "span",
+              "sectionID": "section1",
+              "elementContent": [
+                ": Przed wprowadzeniem jakiejkolwiek zmiany w systemie plików, operacja jest najpierw zapisywana w dzienniku.",
+                ""
+              ]
+            }
+          ],
+          [
+            {
+              "type": "b",
+              "sectionID": "section1",
+              "elementContent": ["Wprowadzenie zmiany", ""]
+            },
+            {
+              "type": "span",
+              "sectionID": "section1",
+              "elementContent": [
+                ": Po zapisaniu operacji w dzienniku, zmiana jest faktycznie wprowadzana do systemu plików.",
+                ""
+              ]
+            }
+          ],
+          [
+            {
+              "type": "b",
+              "sectionID": "section1",
+              "elementContent": ["Usunięcie z dziennika", ""]
+            },
+            {
+              "type": "span",
+              "sectionID": "section1",
+              "elementContent": [
+                ": Po pomyślnym wprowadzeniu zmiany, wpis w dzienniku jest usuwany.",
+                ""
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    { "type": "br", "sectionID": "section1" },
+    {
+      "type": "b",
+      "sectionID": "section1",
+      "elementContent": ["Zalety dziennikowania", ""]
+    },
+    { "type": "br", "sectionID": "section1" },
+    {
+      "type": "list",
+      "sectionID": "section1",
+      "elementContent": {
+        "ver": "ol",
+        "listElements": [
+          [
+            {
+              "type": "b",
+              "sectionID": "section1",
+              "elementContent": ["Ochrona przed awariami", ""]
+            },
+            {
+              "type": "list",
+              "sectionID": "section1",
+              "elementContent": {
+                "ver": "ul",
+                "listElements": [
+                  [
+                    {
+                      "type": "b",
+                      "sectionID": "section1",
+                      "elementContent": ["Zapobieganie utracie danych", ""]
+                    },
+                    {
+                      "type": "span",
+                      "sectionID": "section1",
+                      "elementContent": [
+                        ": Dziennikowanie minimalizuje ryzyko utraty danych w przypadku nagłego wyłączenia systemu lub awarii sprzętu. Zmiany są najpierw zapisywane w dzienniku, co pozwala na ich odtworzenie po ponownym uruchomieniu systemu.",
+                        ""
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "type": "b",
+                      "sectionID": "section1",
+                      "elementContent": ["Spójność systemu plików", ""]
+                    },
+                    {
+                      "type": "span",
+                      "sectionID": "section1",
+                      "elementContent": [
+                        ": Dzięki dziennikowaniu, system plików może szybko przywrócić spójność, ponieważ dziennik zawiera informacje o operacjach, które były w trakcie realizacji w momencie awarii.",
+                        ""
+                      ]
+                    }
+                  ]
+                ]
+              }
+            }
+          ],
+          [
+            {
+              "type": "b",
+              "sectionID": "section1",
+              "elementContent": ["Szybsze odzyskiwanie danych", ""]
+            },
+            {
+              "type": "list",
+              "sectionID": "section1",
+              "elementContent": {
+                "ver": "ul",
+                "listElements": [
+                  [
+                    {
+                      "type": "b",
+                      "sectionID": "section1",
+                      "elementContent": ["Efektywne przywracanie", ""]
+                    },
+                    {
+                      "type": "span",
+                      "sectionID": "section1",
+                      "elementContent": [
+                        ": Proces odzyskiwania danych jest bardziej efektywny, ponieważ system plików może odczytać dziennik i dokończyć lub cofnąć operacje, które były w toku. To znacznie skraca czas potrzebny na przywrócenie systemu do pełnej funkcjonalności.",
+                        ""
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "type": "b",
+                      "sectionID": "section1",
+                      "elementContent": ["Minimalizacja przestojów", ""]
+                    },
+                    {
+                      "type": "span",
+                      "sectionID": "section1",
+                      "elementContent": [
+                        ": Dzięki szybszemu odzyskiwaniu danych, systemy mogą szybciej wrócić do normalnej pracy, co jest kluczowe w środowiskach produkcyjnych i serwerowych.",
+                        ""
+                      ]
+                    }
+                  ]
+                ]
+              }
+            }
+          ],
+          [
+            {
+              "type": "b",
+              "sectionID": "section1",
+              "elementContent": ["Zwiększona niezawodność", ""]
+            },
+            {
+              "type": "list",
+              "sectionID": "section1",
+              "elementContent": {
+                "ver": "ul",
+                "listElements": [
+                  [
+                    {
+                      "type": "b",
+                      "sectionID": "section1",
+                      "elementContent": ["Integralność danych", ""]
+                    },
+                    {
+                      "type": "span",
+                      "sectionID": "section1",
+                      "elementContent": [
+                        ": Dziennikowanie pomaga w utrzymaniu integralności danych, ponieważ każda operacja zapisu jest rejestrowana i może być zweryfikowana. To oznacza, że dane są mniej podatne na uszkodzenia.",
+                        ""
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "type": "b",
+                      "sectionID": "section1",
+                      "elementContent": ["Bezpieczeństwo operacji", ""]
+                    },
+                    {
+                      "type": "span",
+                      "sectionID": "section1",
+                      "elementContent": [
+                        ": Operacje takie jak przenoszenie plików, zmiana nazw czy modyfikacja danych są bezpieczniejsze, ponieważ w razie problemów można je łatwo odtworzyć lub cofnąć.",
+                        ""
+                      ]
+                    }
+                  ]
+                ]
+              }
+            }
+          ]
+        ]
+      }
+    },
+  
+    { "type": "br", "sectionID": "section1" },
+    {
+      "type": "h3",
+      "sectionID": "section1",
+      "elementContent": ["Przykłady systemów plików z dziennikowaniem", ""]
+    },
+    { "type": "br", "sectionID": "section1" },
+    {
+      "type": "list",
+      "sectionID": "section1",
+      "elementContent": {
+        "ver": "ul",
+        "listElements": [
+          [
+            {
+              "type": "bi",
+              "sectionID": "section1",
+              "elementContent": ["NTFS", ""]
+            },
+            {
+              "type": "span",
+              "sectionID": "section1",
+              "elementContent": [" (Windows)", ""]
+            }
+          ],
+          [
+            {
+              "type": "bi",
+              "sectionID": "section1",
+              "elementContent": ["ext3, ext4", ""]
+            },
+            {
+              "type": "span",
+              "sectionID": "section1",
+              "elementContent": [" (Linux)", ""]
+            }
+          ],
+          [
+            {
+              "type": "bi",
+              "sectionID": "section1",
+              "elementContent": ["APFS", ""]
+            },
+            {
+              "type": "span",
+              "sectionID": "section1",
+              "elementContent": [" (macOS)", ""]
+            }
+          ],
+          [
+            {
+              "type": "bi",
+              "sectionID": "section1",
+              "elementContent": ["ReFS", ""]
+            },
+            {
+              "type": "span",
+              "sectionID": "section1",
+              "elementContent": [" (Windows)", ""]
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "type": "h2",
+      "sectionID": "section2",
+      "elementContent": ["Ogólne Systemy Plików", ""]
+    },
+    {
+      "type": "b",
+      "sectionID": "section2",
+      "elementContent": ["FAT", ""]
+    },
+    {
+      "type": "span",
+      "sectionID": "section2",
+      "elementContent": [" (", ""]
+    },
+    {
+      "type": "i",
+      "sectionID": "section2",
+      "elementContent": ["File Allocation Table", ""]
+    },
+    {
+      "type": "span",
+      "sectionID": "section2",
+      "elementContent": [") ", ""]
+    },
+    {
+      "type": "span",
+      "sectionID": "section2",
+      "elementContent": [
+        "System plików FAT jest jednym z najstarszych i najbardziej uniwersalnych systemów plików, używanym na różnych platformach.",
+        ""
+      ]
+    },
+    { "type": "br", "sectionID": "section2" },
+    { "type": "br", "sectionID": "section2" },
+    {
+      "type": "list",
+      "sectionID": "section2",
+      "elementContent": {
+        "ver": "ul",
+        "listElements": [
+          [
+            {
+              "type": "b",
+              "sectionID": "section2",
+              "elementContent": [
+                "FAT16",
+                ""
+              ]
+            },
+            {
+              "type": "span",
+              "sectionID": "section2",
+              "elementContent": [
+                ": Starsza wersja, używana głównie w starszych systemach DOS i Windows.",
+                ""
+              ]
+            }
+          ],
+          [
+            {
+              "type": "b",
+              "sectionID": "section2",
+              "elementContent": [
+                "FAT32",
+                ""
+              ]
+            },
+            {
+              "type": "span",
+              "sectionID": "section2",
+              "elementContent": [
+                ": Ulepszona wersja FAT16, obsługująca większe rozmiary plików i partycji.",
+                ""
+              ]
+            }
+          ],
+          [
+            {
+              "type": "b",
+              "sectionID": "section2",
+              "elementContent": [
+                "exFAT",
+                ""
+              ]
+            },
+            {
+              "type": "span",
+              "sectionID": "section2",
+              "elementContent": [
+                ": Rozszerzona wersja FAT32, obsługująca bardzo duże pliki i partycje, często używana na przenośnych nośnikach pamięci masowej.",
+                ""
+              ]
+            }
+          ]
+        ]
+      }
+    },
+   
+   
+    {
+      "type": "table",
+      "sectionID": "section2",
+      "elementContent": [
+        [
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["Wersja", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["Maks. Rozmiar Pliku", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["Maks. Rozmiar Partycji", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["Dziennikowanie", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["Zastosowanie", ""]
+          }
+        ],
+        [
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["FAT16", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["2 GB", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["2 GB", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["Nie", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["Starsze systemy DOS i Windows", ""]
+          }
+        ],
+        [
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["FAT32", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["4 GB", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["32 GB", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["Nie", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [
+              "Przenośne nośniki pamięci, starsze systemy Windows",
+              ""
+            ]
+          }
+        ],
+        [
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["exFAT", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["16 EB", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["128 PB", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["Nie", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [
+              "Przenośne nośniki pamięci, współczesne systemy operacyjne",
+              ""
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "type": "h2",
+      "sectionID": "section3",
+      "elementContent": ["Systemy Plików w Windows", ""]
+    },
+    {
+      "type": "span",
+      "sectionID": "section3",
+      "elementContent": ["Systemy operacyjne Windows wspierają standardy FAT16, FAT32 i exFAT, ale Microsoft stosuje swoje dedykowane systemy plików, takie jak ", ""]
+    },
+    { "type": "bi", "sectionID": "section3", "elementContent": ["NTFS", ""] },
+    { "type": "span", "sectionID": "section3", "elementContent": [" i ", ""] },
+    { "type": "bi", "sectionID": "section3", "elementContent": ["ReFS", ""] },
+    { "type": "span", "sectionID": "section3", "elementContent": [".", ""] },
+    { "type": "br", "sectionID": "section3" },
+    {
+      "type": "list",
+      "sectionID": "section3",
+      "elementContent": {
+        "ver": "ul",
+        "listElements": [
+          [
+            {
+              "type": "b",
+              "sectionID": "section3",
+              "elementContent": ["NTFS", ""]
+            },
+            {
+              "type": "span",
+              "sectionID": "section3",
+              "elementContent": [" (", ""]
+            },
+            {
+              "type": "i",
+              "sectionID": "section3",
+              "elementContent": ["New Technology File System", ""]
+            },
+            {
+              "type": "span",
+              "sectionID": "section3",
+              "elementContent": ["): Domyślny system plików dla systemów Windows NT, 2000, XP, Vista, 7, 8, 10 i 11.", ""]
+            },
+            { "type": "br", "sectionID": "section3" },
+            {
+              "type": "span",
+              "sectionID": "section3",
+              "elementContent": ["Funkcje: ", ""]
+            },
+            { "type": "br", "sectionID": "section3" },
+            {
+              "type": "list",
+              "sectionID": "section3",
+              "elementContent": {
+                "ver": "ul",
+                "listElements": [
+                  [
+                    {
+                      "type": "span",
+                      "sectionID": "section3",
+                      "elementContent": ["Uprawnienia do plików", ""]
+                    }
+                  ],
+                  [
+                    {
+                      "type": "span",
+                      "sectionID": "section3",
+                        "elementContent": ["Szyfrowanie", ""]
+                    }
+                    ],
+                    [
+                      {
+                        "type": "span",
+                        "sectionID": "section3",
+                        "elementContent": ["Kompresja", ""]
+                      }
+                    ],
+                    [
+                      {
+                        "type": "span",
+                        "sectionID": "section3",
+                        "elementContent": ["Dziennikowanie", ""]
+                      }
+                    ],
+                    [
+                      {
+                        "type": "span",
+                        "sectionID": "section3",
+                        "elementContent": ["Obsługa dużych plików i partycji", ""]
+                      }
+                    ]
+                ]
+                }
+                }
+          ],
+          [
+            {
+              "type": "b",
+              "sectionID": "section3",
+              "elementContent": ["ReFS", ""]
+            },
+            {
+              "type": "span",
+              "sectionID": "section3",
+              "elementContent": [" (", ""]
+            },
+            {
+              "type": "i",
+              "sectionID": "section3",
+              "elementContent": ["Resilient File System", ""]
+            },
+            {
+              "type": "span",
+              "sectionID": "section3",
+              "elementContent": ["): Nowoczesny system plików zaprojektowany dla wysokiej niezawodności i skalowalności.", ""]
+            },
+            { "type": "br", "sectionID": "section3" },
+            {
+              "type": "span",
+              "sectionID": "section3",
+              "elementContent": ["Funkcje: ", ""]
+            },
+            { "type": "br", "sectionID": "section3" },
+            {
+              "type": "list",
+              "sectionID": "section3",
+              "elementContent": {
+                "ver": "ul",
+                "listElements": [
+                  [
+                    {
+                      "type": "span",
+                      "sectionID": "section3",
+                      "elementContent": ["Ochrona przed uszkodzeniami danych", ""]
+                    }
+                  ],
+                  [
+                    {
+                      "type": "span",
+                      "sectionID": "section3",
+                      "elementContent": ["automatyczna naprawa", ""]
+                    }
+                  ],
+                  [
+                    {
+                      "type": "span",
+                      "sectionID": "section3",
+                      "elementContent": ["lepsza wydajność przy dużych obciążeniach.", ""]
+                    }
+                  ]
+                ]
+              }
+            }
+          ]
+        ]
+      }
+    },
+  
+        {
+          "type": "table",
+          "sectionID": "section3",
+          "elementContent": [
+            [
+              {
+                "type": "span",
+                "sectionID": "section3",
+                "elementContent": ["Funkcja", ""]
+              },
+              {
+                "type": "span",
+                "sectionID": "section3",
+                "elementContent": ["NTFS", ""]
+              },
+              {
+                "type": "span",
+                "sectionID": "section3",
+                "elementContent": ["ReFS", ""]
+              }
+            ],
+            [
+              {
+                "type": "span",
+                "sectionID": "section3",
+                "elementContent": ["Dziennikowanie", ""]
+                },
+                {
+                  "type": "span",
+                  "sectionID": "section3",
+                  "elementContent": ["Tak", ""]
+                },
+                {
+                  "type": "span",
+                  "sectionID": "section3",
+                  "elementContent": ["Tak", ""]
+                }
+                ],
+                [
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": ["Maks. Rozmiar Pliku", ""]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": ["16 EB", ""]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": ["35 PB", ""]
+                  }
+                ],
+                [
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": ["Maks. Rozmiar Partycji", ""]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": ["256 TB", ""]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": ["35 PB", ""]
+                  }
+                ],
+                [
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": ["Szyfrowanie", ""]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": ["Tak", ""]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": ["Nie", ""]
+                  }
+                ],
+                [
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": ["Kompresja", ""]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": ["Tak", ""]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": ["Nie", ""]
+                  }
+                ],
+                [
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": ["Automatyczna Naprawa", ""]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": ["Nie", ""]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": ["Tak", ""]
+                    }
+                    ],
+                    [
+                      {
+                        "type": "span",
+                        "sectionID": "section3",
+                        "elementContent": ["Zastosowanie", ""]
+                      },
+                      {
+                        "type": "span",
+                        "sectionID": "section3",
+                        "elementContent": ["Komputery osobiste, serwery", ""]
+                      },
+                      {
+                        "type": "span",
+                        "sectionID": "section3",
+                        "elementContent": ["Serwery, duże woluminy danych", ""]
+                      }
+                    ]
+                ]
+                },
+                {
+                  "type": "h2",
+                  "sectionID": "section4",
+                  "elementContent": ["Systemy Plików w Linux", ""]
+                },
+                {
+                  "type": "span",
+                  "sectionID": "section4",
+                  "elementContent": ["Linux wspiera wiele systemów plików, z których najważniejsze to ext, Btrfs, XFS i ReiserFS.", ""]
+                },
+                { "type": "br", "sectionID": "section4" },
+                {
+                  "type": "span",
+                  "sectionID": "section4",
+                  "elementContent": ["ext (Extended File System)", ""]
+                },
+                {
+                  "type": "list",
+                  "sectionID": "section4",
+                  "elementContent": {
+                    "ver": "ul",
+                    "listElements": [
+                      [
+                        {
+                          "type": "b",
+                          "sectionID": "section4",
+                          "elementContent": ["ext2", ""]
+                        },
+                        {
+                          "type": "span",
+                          "sectionID": "section4",
+                          "elementContent": [": Starsza wersja używana w systemach Linux.", ""]
+                        }
+                      ],
+                      [
+                        {
+                          "type": "b",
+                          "sectionID": "section4",
+                          "elementContent": ["ext3", ""]
+                        },
+                        {
+                          "type": "span",
+                          "sectionID": "section4",
+                          "elementContent": [": Wersja z obsługą dziennikowania, zwiększająca bezpieczeństwo danych.", ""]
+                        }
+                      ],
+                      [
+                        {
+                          "type": "b",
+                          "sectionID": "section4",
+                          "elementContent": ["ext4", ""]
+                        },
+                        {
+                          "type": "span",
+                          "sectionID": "section4",
+                          "elementContent": [": Najnowsza wersja, oferująca lepszą wydajność i większe możliwości zarządzania dużymi plikami.", ""]
+                        }
+                      ]
+                    ]
+                  }
+                },
+                { "type": "br", "sectionID": "section4" },
+                { "type": "br", "sectionID": "section4" },
+                {
+                  "type": "table",
+                  "sectionID": "section4",
+                  "elementContent": [
+                    [
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["Wersja", ""]
+                      },
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["Maks. Rozmiar Pliku", ""]
+                        },
+                        {
+                          "type": "span",
+                          "sectionID": "section4",
+                          "elementContent": ["Maks. Rozmiar Partycji", ""]
+                        },
+                        {
+                          "type": "span",
+                          "sectionID": "section4",
+                          "elementContent": ["Dziennikowanie", ""]
+                        },
+                        {
+                          "type": "span",
+                          "sectionID": "section4",
+                          "elementContent": ["Zastosowanie", ""]
+                        }
+                        ],
+                        [
+                          {
+                            "type": "span",
+                            "sectionID": "section4",
+                            "elementContent": ["ext2", ""]
+                          },
+                          {
+                            "type": "span",
+                            "sectionID": "section4",
+                            "elementContent": ["2 TB", ""]
+                          },
+                          {
+                            "type": "span",
+                            "sectionID": "section4",
+                            "elementContent": ["32 TB", ""]
+                          },
+                          {
+                            "type": "span",
+                            "sectionID": "section4",
+                            "elementContent": ["Nie", ""]
+                          },
+                          {
+                            "type": "span",
+                            "sectionID": "section4",
+                            "elementContent": ["Starsze systemy Linux", ""]
+                          }
+                        ],
+                        [
+                          {
+                            "type": "span",
+                            "sectionID": "section4",
+                            "elementContent": ["ext3", ""]
+                          },
+                          {
+                            "type": "span",
+                            "sectionID": "section4",
+                            "elementContent": ["16 GB", ""]
+                          },
+                          {
+                            "type": "span",
+                            "sectionID": "section4",
+                            "elementContent": ["2 TB", ""]
+                          },
+                          {
+                            "type": "span",
+                            "sectionID": "section4",
+                            "elementContent": ["Tak", ""]
+                          },
+                          {
+                            "type": "span",
+                            "sectionID": "section4",
+                            "elementContent": ["Systemy produkcyjne", ""]
+                          }
+                        ],
+                        [
+                          {
+                            "type": "span",
+                            "sectionID": "section4",
+                            "elementContent": ["ext4", ""]
+                          },
+                          {
+                            "type": "span",
+                            "sectionID": "section4",
+                            "elementContent": ["16 TB", ""]
+                          },
+                          {
+                            "type": "span",
+                            "sectionID": "section4",
+                            "elementContent": ["1 EB", ""]
+                          },
+                          {
+                            "type": "span",
+                            "sectionID": "section4",
+                            "elementContent": ["Tak", ""]
+                          },
+                          {
+                            "type": "span",
+                            "sectionID": "section4",
+                            "elementContent": ["Systemy serwerowe", ""]
+                          }
+                        ]
+                    ]
+                },
+                {
+                  "type":"br",
+                  "sectionID":"section4"
+                },
+                {
+                  "type": "b",
+                  "sectionID": "section4",
+                  "elementContent": ["Btrfs", ""]
+                },
+                {
+                  "type": "span",
+                  "sectionID": "section4",
+                  "elementContent": [" (", ""]
+                },
+                {
+                  "type": "i",
+                  "sectionID": "section4",
+                  "elementContent": ["B-tree File System", ""]
+                },
+                {
+                  "type": "span",
+                  "sectionID": "section4",
+                  "elementContent": ["): Nowoczesny system plików oferujący zaawansowane funkcje.", ""]
+                },
+                { "type": "br", "sectionID": "section4" },
+                {
+                  "type": "span",
+                  "sectionID": "section4",
+                  "elementContent": ["Funkcje: ", ""]
+                },
+                { "type": "br", "sectionID": "section4" },
+                {
+                  "type": "list",
+                  "sectionID": "section4",
+                  "elementContent": {
+                    "ver": "ul",
+                    "listElements": [
+                      [
+                        {
+                          "type": "span",
+                          "sectionID": "section4",
+                          "elementContent": ["Migawki", ""]
+                        }
+                      ],
+                      [
+                        {
+                          "type": "span",
+                          "sectionID": "section4",
+                          "elementContent": ["Kompresja", ""]
+                        }
+                      ],
+                      [
+                        {
+                          "type": "span",
+                          "sectionID": "section4",
+                          "elementContent": ["Kontrola integralności danych.", ""]
+                        }
+                      ]
+                    ]
+                  }
+                },
+                { "type": "br", "sectionID": "section4" },
+                {
+                  "type": "b",
+                  "sectionID": "section4",
+                  "elementContent": ["XFS", ""]
+                },
+                {
+                  "type": "span",
+                  "sectionID": "section4",
+                  "elementContent": [": Wysokowydajny system plików znany z doskonałej obsługi dużych plików i partycji.", ""]
+                },
+                { "type": "br", "sectionID": "section4" },
+                {
+                  "type": "span",
+                  "sectionID": "section4",
+                  "elementContent": ["Funkcje: ", ""]
+                },
+                { "type": "br", "sectionID": "section4" },
+                {
+                  "type": "list",
+                  "sectionID": "section4",
+                  "elementContent": {
+                    "ver": "ul",
+                    "listElements": [
+                      [
+                        {
+                          "type": "span",
+                          "sectionID": "section4",
+                          "elementContent": ["Skalowalność", ""]
+                        }
+                      ],
+                      [
+                        {
+                          "type": "span",
+                          "sectionID": "section4",
+                          "elementContent": ["Wydajność", ""]
+                        }
+                      ],
+                      [
+                        {
+                          "type": "span",
+                          "sectionID": "section4",
+                          "elementContent": ["Obsługa dużych systemów plików", ""]
+                        }
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "b",
+                  "sectionID": "section4",
+                  "elementContent": ["ReiserFS", ""]
+                },
+                {
+                  "type": "span",
+                  "sectionID": "section4",
+                  "elementContent": [": System plików znany z efektywnego zarządzania małymi plikami.", ""]
+                },
+                { "type": "br", "sectionID": "section4" },
+                {
+                  "type": "span",
+                  "sectionID": "section4",
+                  "elementContent": ["Funkcje: ", ""]
+                },
+                { "type": "br", "sectionID": "section4" },
+                {
+                  "type": "list",
+                  "sectionID": "section4",
+                  "elementContent": {
+                    "ver": "ul",
+                    "listElements": [
+                      [
+                        {
+                          "type": "span",
+                          "sectionID": "section4",
+                          "elementContent": ["Wysoka wydajność przy małych plikach", ""]
+                        }
+                      ],
+                      [
+                        {
+                          "type": "span",
+                          "sectionID": "section4",
+                          "elementContent": ["Dziennikowanie.", ""]
+                        }
+                      ]
+                    ]
+                  }
+                },
+                { "type": "br", "sectionID": "section4" },
+                {
+                  "type": "table",
+                  "sectionID": "section4",
+                  "elementContent": [
+                    [
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["Funkcja", ""]
+                      },
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["Btrfs", ""]
+                      },
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["XFS", ""]
+                      },
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["ReiserFS", ""]
+                      },
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["ext4", ""]
+                      }
+                    ],
+                    [
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["Dziennikowanie", ""]
+                      },
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["Tak", ""]
+                      },
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["Tak", ""]
+                      },
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["Tak", ""]
+                      },
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["Tak", ""]
+                      }
+                    ],
+                    [
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["Maks. Rozmiar Pliku", ""]
+                      },
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["16 EB", ""]
+                      },
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["8 EB", ""]
+                      },
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["8 TB", ""]
+                      },
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["16 TB", ""]
+                      }
+                    ],
+                    [
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["Maks. Rozmiar Partycji", ""]
+                      },
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["16 EB", ""]
+                      },
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["8 EB", ""]
+                      },
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["16 TB", ""]
+                      },
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["1 EB", ""]
+                      }
+                    ],
+                    [
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["Migawki", ""]
+                      },
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["Tak", ""]
+                      },
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["Nie", ""]
+                      },
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["Nie", ""]
+                      },
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["Nie", ""]
+                      }
+                    ],
+                    [
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["Kompresja", ""]
+                      },
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["Tak", ""]
+                      },
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["Nie", ""]
+                      },
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["Nie", ""]
+                      },
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["Nie", ""]
+                      }
+                    ],
+                    [
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["Kontrola Integralności", ""]
+                      },
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["Tak", ""]
+                      },
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["Nie", ""]
+                      },
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["Nie", ""]
+                      },
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["Nie", ""]
+                      }
+                    ],
+                    [
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["Zastosowanie", ""]
+                      },
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["Nowoczesne systemy Linux", ""]
+                      },
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["Duże systemy plików Linux", ""]
+                      },
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["Systemy Linux z małymi plikami", ""]
+                      },
+                      {
+                        "type": "span",
+                        "sectionID": "section4",
+                        "elementContent": ["Współczesne systemy Linux", ""]
+                      }
+                    ]
+                  ]
+                },
+                
+{
+  "type": "h2",
+  "sectionID": "section5",
+  "elementContent": ["Systemy Plików w macOS", ""]
+},
+{
+  "type": "span",
+  "sectionID": "section5",
+  "elementContent": ["macOS korzysta z systemu plików ", ""]
+},
+{ "type":"bi", "sectionID": "section5", "elementContent": ["APFS", ""] },
+{ "type": "span", "sectionID": "section5", "elementContent": [" (", ""]
+},
+{ "type": "i", "sectionID": "section5", "elementContent": ["Apple File System", ""]
+},
+{ "type": "span", "sectionID": "section5", "elementContent": [") jako domyślnego systemu plików na nowszych urządzeniach.", ""]
+},
+{ "type": "br", "sectionID": "section5" },
+{
+  "type": "span",
+  "sectionID": "section5",
+  "elementContent": ["Funkcje: ", ""]
+},
+{ "type": "br", "sectionID": "section5" },
+{
+  "type": "list",
+  "sectionID": "section5",
+  "elementContent": {
+    "ver": "ul",
+    "listElements": [
+      [
+        {
+          "type": "span",
+          "sectionID": "section5",
+          "elementContent": ["Szyfrowanie", ""]
+        }
+      ],
+      [
+        {
+          "type": "span",
+          "sectionID": "section5",
+          "elementContent": ["Kompresja", ""]
+        }
+      ],
+      [
+        {
+          "type": "span",
+          "sectionID": "section5",
+          "elementContent": ["Dziennikowanie", ""]
+        }
+      ],
+      [
+        {
+          "type": "span",
+          "sectionID": "section5",
+          "elementContent": ["Snapshoty", ""]
+        }
+      ],
+      [
+        {
+          "type": "span",
+          "sectionID": "section5",
+          "elementContent": ["Optymalizacja dla SSD", ""]
+        }
+      ]
     ]
+  }
+},
+{ "type": "br", "sectionID": "section5" },
+{
+  "type": "table",
+  "sectionID": "section5",
+  "elementContent": [
+    [
+      {
+        "type": "span",
+        "sectionID": "section5",
+        "elementContent": ["Funkcja", ""]
+      },
+      {
+        "type": "span",
+        "sectionID": "section5",
+        "elementContent": ["HFS+", ""]
+      },
+      {
+        "type": "span",
+        "sectionID": "section5",
+        "elementContent": ["APFS", ""]
+      }
+    ],
+    [
+      {
+        "type": "span",
+        "sectionID": "section5",
+        "elementContent": ["Dziennikowanie", ""]
+      },
+      {
+        "type": "span",
+        "sectionID": "section5",
+        "elementContent": ["Tak", ""]
+      },
+      {
+        "type": "span",
+        "sectionID": "section5",
+        "elementContent": ["Tak", ""]
+      }
+    ],
+    [
+      {
+        "type": "span",
+        "sectionID": "section5",
+        "elementContent": ["Maks. Rozmiar Pliku", ""]
+      },
+      {
+        "type": "span",
+        "sectionID": "section5",
+        "elementContent": ["8 EB", ""]
+      },
+      {
+        "type": "span",
+        "sectionID": "section5",
+        "elementContent": ["8 EB", ""]
+      }
+    ],
+    [
+      {
+        "type": "span",
+        "sectionID": "section5",
+        "elementContent": ["Maks. Rozmiar Partycji", ""]
+      },
+      {
+        "type": "span",
+        "sectionID": "section5",
+        "elementContent": ["8 EB", ""]
+      },
+      {
+        "type": "span",
+        "sectionID": "section5",
+        "elementContent": ["8 EB", ""]
+      }
+    ],
+    [
+      {
+        "type": "span",
+        "sectionID": "section5",
+        "elementContent": ["Klonowanie", ""]
+      },
+      {
+        "type": "span",
+        "sectionID": "section5",
+        "elementContent": ["Nie", ""]
+      },
+      {
+        "type": "span",
+        "sectionID": "section5",
+        "elementContent": ["Tak", ""]
+      }
+    ],
+    [
+      {
+        "type": "span",
+        "sectionID": "section5",
+        "elementContent": ["Szyfrowanie", ""]
+      },
+      {
+        "type": "span",
+        "sectionID": "section5",
+        "elementContent": ["Nie", ""]
+      },
+      {
+        "type": "span",
+        "sectionID": "section5",
+        "elementContent": ["Tak", ""]
+      }
+    ],
+    [
+      {
+        "type": "span",
+        "sectionID": "section5",
+        "elementContent": ["Zoptymalizowana Obsługa SSD", ""]
+      },
+      {
+        "type": "span",
+        "sectionID": "section5",
+        "elementContent": ["Nie", ""]
+      },
+      {
+        "type": "span",
+        "sectionID": "section5",
+        "elementContent": ["Tak", ""]
+      }
+    ],
+    [
+      {
+        "type": "span",
+        "sectionID": "section5",
+        "elementContent": ["Zastosowanie", ""]
+      },
+      {
+        "type": "span",
+        "sectionID": "section5",
+        "elementContent": ["Starsze wersje macOS", ""]
+      },
+      {
+        "type": "span",
+        "sectionID": "section5",
+        "elementContent": ["Współczesne systemy w urządzeniach od firmy Apple", ""]
+      }
+    ]
+  ]
+},
+{
+  "type": "h2",
+  "sectionID": "section6",
+  "elementContent": ["Systemy Plików w BSD", ""]
+},
+{
+  "type": "span",
+  "sectionID": "section6",
+  "elementContent": ["BSD wspiera zaawansowany system plików ", ""]
+},
+{ "type":"bi", "sectionID": "section6", "elementContent": ["ZFS", ""] },
+{ "type": "span", "sectionID": "section6", "elementContent": [": Zaawansowany system plików i menedżer woluminów.", ""]
+},
+{ "type": "br", "sectionID": "section6" },
+{
+  "type": "span",
+  "sectionID": "section6",
+  "elementContent": ["Funkcje: ", ""]
+},
+{ "type": "br", "sectionID": "section6" },
+{
+  "type": "list",
+  "sectionID": "section6",
+  "elementContent": {
+    "ver": "ul",
+    "listElements": [
+      [
+        {
+          "type": "span",
+          "sectionID": "section6",
+          "elementContent": ["Migawki", ""]
+        }
+      ],
+      [
+        {
+          "type": "span",
+          "sectionID": "section6",
+          "elementContent": ["Replikacja", ""]
+        }
+      ],
+      [
+        {
+          "type": "span",
+          "sectionID": "section6",
+          "elementContent": ["Samonaprawa danych.", ""]
+        }
+      ]
+    ]
+  }
+},
+{
+  "type": "h2",
+  "sectionID": "section7",
+  "elementContent": ["Systemy Plików Wykorzystywane Między Platformami", ""]
+},
+{
+  "type": "span",
+  "sectionID": "section7",
+  "elementContent": ["Między UNIX-ami (Linux, macOS, BSD)", ""]
+},
+{ "type": "br", "sectionID": "section7" },
+{
+  "type": "list",
+  "sectionID": "section7",
+  "elementContent": {
+    "ver": "ul",
+    "listElements": [
+      [
+        {
+          "type": "b",
+          "sectionID": "section7",
+          "elementContent": ["XFS ", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section7",
+          "elementContent": [": Wysokowydajny system plików używany w systemach Linux i BSD.", ""]
+        }
+      ],
+      [
+        {
+          "type": "b",
+          "sectionID": "section7",
+          "elementContent": ["ZFS ", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section7",
+          "elementContent": [": Używany w systemach BSD i Solaris, a także dostępny w Linuxie.", ""]
+        }
+      ]
+    ]
+  }
+},
+{ "type": "br", "sectionID": "section7" },
+{
+  "type": "span",
+  "sectionID": "section7",
+  "elementContent": ["Między UNIX i MS-DOS", ""]
+},
+{ "type": "br", "sectionID": "section7" },
+{
+  "type": "list",
+  "sectionID": "section7",
+  "elementContent": {
+    "ver": "ul",
+    "listElements": [
+      [
+        {
+          "type": "b",
+          "sectionID": "section7",
+          "elementContent": ["FAT32", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section7",
+          "elementContent": [": Używany na przenośnych nośnikach pamięci, kompatybilny z wieloma systemami operacyjnymi.", ""]
+        }
+      ],
+      [
+        {
+          "type": "b",
+          "sectionID": "section7",
+          "elementContent": ["exFAT", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section7",
+          "elementContent": [": Obsługiwany przez Windows, macOS i niektóre dystrybucje Linuxa.", ""]
+        }
+      ]
+    ]
+  }
+},
+{
+  "type": "h2",
+  "sectionID": "section8",
+  "elementContent": ["Wpływ Tablicy Partycjonowania na System Plików", ""]
+},
+{
+  "type": "span",
+  "sectionID": "section8",
+  "elementContent": ["Rodzaj tablicy partycjonowania ma wpływ na sposób zapisu danych przez system plików. Tablica partycjonowania definiuje strukturę i organizację partycji na dysku, co bezpośrednio wpływa na działanie systemu plików.", ""]
+},
+{ "type": "br", "sectionID": "section8" },
+{
+  "type": "b",
+  "sectionID": "section8",
+  "elementContent": ["MBR", ""]
+},
+{
+  "type": "span",
+  "sectionID": "section8",
+  "elementContent": [" (", ""]
+},
+{
+  "type": "i",
+  "sectionID": "section8",
+  "elementContent": ["Master Boot Record", ""]
+},
+{
+  "type": "span",
+  "sectionID": "section8",
+  "elementContent": [")", ""]
+},
+{
+  "type": "span",
+  "sectionID": "section8",
+  "elementContent": [": Starszy schemat partycjonowania, obsługujący do 4 partycji podstawowych lub 3 podstawowe i jedną rozszerzoną.", ""]
+},
+{ "type": "br", "sectionID": "section8" },
+{
+  "type": "span",
+  "sectionID": "section8",
+  "elementContent": ["Wpływ: Ograniczenie rozmiaru partycji do 2 TB. MBR jest kompatybilny z większością starszych systemów plików, takich jak FAT16, FAT32 i NTFS.", ""]
+},
+{ "type": "br", "sectionID": "section8" },
+{
+  "type": "b",
+  "sectionID": "section8",
+  "elementContent": ["GPT", ""]
+},
+{
+  "type": "span",
+  "sectionID": "section8",
+  "elementContent": [" (", ""]
+},
+{
+  "type": "i",
+  "sectionID": "section8",
+  "elementContent": ["GUID Partition Table", ""]
+},
+{
+  "type": "span",
+  "sectionID": "section8",
+  "elementContent": [")", ""]
+},
+{
+  "type": "span",
+  "sectionID": "section8",
+  "elementContent": [": Nowoczesny schemat partycjonowania, obsługujący do 128 partycji na dysku.", ""]
+},
+{ "type": "br", "sectionID": "section8" },
+{
+  "type": "span",
+  "sectionID": "section8",
+  "elementContent": ["Wpływ: Brak ograniczeń co do rozmiaru partycji, lepsza niezawodność i redundancja danych. GPT jest kompatybilny z nowoczesnymi systemami plików, takimi jak exFAT, NTFS, ReFS, ext4, Btrfs i ZFS.", ""]
+},
+{ "type": "br", "sectionID": "section8" },
+{
+  "type": "span",
+  "sectionID": "section8",
+  "elementContent": ["Dowiedz się więcej o tablicach partycjonowania: ", ""]
+},
+{
+  "type": "link-art",
+  "sectionID": "section8",
+  "elementContent": ["Tablice partycjonowania", "Pamięci masowe"]
+},
+{
+  "type": "h2",
+  "sectionID": "section9",
+  "elementContent": ["Wpływ Rodzaju Urządzenia Pamięci Masowej na System Plików", ""]
+},
+{
+  "type": "span",
+  "sectionID": "section9",
+  "elementContent": ["Rodzaj urządzenia pamięci masowej również wpływa na wybór i działanie systemu plików. Różne urządzenia mają różne wymagania dotyczące wydajności, niezawodności i optymalizacji.", ""]
+},
+{ "type": "br", "sectionID": "section9" },
+{
+  "type": "list",
+  "sectionID": "section9",
+  "elementContent": {
+    "ver": "ul",
+    "listElements": [
+      [
+        {
+          "type": "b",
+          "sectionID": "section9",
+          "elementContent": ["HDD", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section9",
+          "elementContent": [": Tradycyjne dyski twarde, dobrze współpracują z większością systemów plików, takich jak NTFS, ext4, XFS.", ""]
+        }
+      ],
+      [
+        {
+          "type": "b",
+          "sectionID": "section9",
+          "elementContent": ["SSD", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section9",
+          "elementContent": [": Dyski półprzewodnikowe, najlepiej współpracują z systemami plików zoptymalizowanymi pod kątem SSD, takimi jak APFS, Btrfs, ReFS.", ""]
+        }
+      ],
+      [
+        {
+          "type": "b",
+          "sectionID": "section9",
+          "elementContent": ["Pendrive", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section9",
+          "elementContent": [": Przenośne nośniki pamięci, często używają systemów plików takich jak FAT32, exFAT.", ""]
+        }
+      ],
+      [
+        {
+          "type": "b",
+          "sectionID": "section9",
+          "elementContent": ["CD/DVD/BD", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section9",
+          "elementContent": [": Nośniki optyczne, zazwyczaj używają systemów plików takich jak ISO9660, UDF.", ""]
+        }
+      ],
+      [
+        {
+          "type": "b",
+          "sectionID": "section9",
+          "elementContent": ["Taśma magnetyczna", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section9",
+          "elementContent": [": Używana głównie do archiwizacji, systemy plików takie jak LTFS.", ""]
+        }
+      ],
+      [
+        {
+          "type": "b",
+          "sectionID": "section9",
+          "elementContent": ["NVMe", ""]
+        },
+        {
+          "type": "span",
+          "sectionID": "section9",
+          "elementContent": [": Nowoczesne dyski SSD, najlepiej współpracują z systemami plików zoptymalizowanymi pod kątem wysokiej wydajności, takimi jak APFS, Btrfs, ReFS.", ""]
+        }
+      ]
+    ]
+  }
+},
+{
+  "type": "h2",
+  "sectionID": "section10",
+  "elementContent": ["Podsumowanie", ""]
+},
+{
+  "type": "span",
+  "sectionID": "section10",
+  "elementContent": ["Systemy plików są kluczowym elementem zarządzania danymi w systemach operacyjnych. Wybór odpowiedniego systemu plików zależy od specyfiki zastosowania, wymagań dotyczących wydajności, niezawodności i optymalizacji. Zrozumienie różnic między systemami plików pozwala na lepsze dostosowanie do konkretnych potrzeb i zapewnienie efektywnego zarządzania danymi.", ""]
+}
+
+  ]
+  
