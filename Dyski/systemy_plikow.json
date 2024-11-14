@@ -284,13 +284,11 @@
       }
     },
   
-    { "type": "br", "sectionID": "section1" },
     {
       "type": "h3",
       "sectionID": "section1",
       "elementContent": ["Przykłady systemów plików z dziennikowaniem", ""]
     },
-    { "type": "br", "sectionID": "section1" },
     {
       "type": "list",
       "sectionID": "section1",
@@ -381,7 +379,6 @@
         ""
       ]
     },
-    { "type": "br", "sectionID": "section2" },
     { "type": "br", "sectionID": "section2" },
     {
       "type": "list",
