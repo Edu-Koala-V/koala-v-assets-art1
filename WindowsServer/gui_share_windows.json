@@ -1,0 +1,947 @@
+[
+  { "type": "h2", "sectionID": "section1", "elementContent": ["Wstęp"] },
+  { "type": "span", "sectionID": "section1", "elementContent": ["Przygotuj dodatkowy dysk o pojemności 50GB. Przekonwertujemy go na dwie partycje, każdą w innym systemie plików: NTFS i ReFS. ", ""] },
+  {
+    "type": "img",
+    "sectionID": "section1",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/dyski_w_manager_servera.webp",
+      "Uruchom Kreatora nowych woluminów, aby utworzyć wolumin.",
+      "1025",
+      "769",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/dyski_w_manager_servera_ORIGINAL.webp"
+    ]
+  },
+  { "type": "span", "sectionID": "section1", "elementContent": ["W kreatorze nowych woluminów, będąc na stronie „", ""] },
+  { "type": "b", "sectionID": "section1", "elementContent": ["Zanim rozpoczniesz", ""] },
+  { "type": "span", "sectionID": "section1", "elementContent": ["”, możesz zaznaczyć „", ""] },
+  { "type": "i", "sectionID": "section1", "elementContent": ["Nie pokazuj więcej tej strony", ""] },
+  { "type": "span", "sectionID": "section1", "elementContent": ["” i kliknąć ", ""] },
+  {"type": "ref-btn-for-img","sectionID": "section1","elementContent": ["Dalej >"]},
+  { "type": "br", "sectionID": "section1" },
+  { "type": "br", "sectionID": "section1" },
+
+  { "type": "b", "sectionID": "section1", "elementContent": ["Serwer i dyski", ""] },
+  { "type": "span", "sectionID": "section1", "elementContent": [": Wybierz serwer, w którym będzie świadczony dostęp do przestrzeni pamięci masowej, oraz dysk, na którym ma zostać utworzony nowy wolumin. Ta operacja spowoduje wyświetlenie komunikatu o ustawieniu tablicy partycjonowania na GPT. Kliknij ", ""] },
+  {"type": "ref-btn-for-img","sectionID": "section1","elementContent": ["OK"]},
+  { "type": "span", "sectionID": "section1", "elementContent": [", aby przejść na kolejną stronę kreatora.", ""] },
+  { "type": "br", "sectionID": "section1" },
+  { "type": "span", "sectionID": "section1", "elementContent": ["Dowiedz się wiecej o GPT: ", ""] },
+  {
+    "type": "link-art",
+    "sectionID": "section1",
+    "elementContent": ["Tablice Partycjonowania", "Pamięci masowe"]
+  },
+  { "type": "span", "sectionID": "section1", "elementContent": [".", ""] },
+
+  {
+    "type": "img",
+    "sectionID": "section1",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/kreator_nowych_woluminow_1.webp",
+      "Pierwsze trzy kroki w kreatorze nowych woluminów.",
+      "3085",
+      "730",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/kreator_nowych_woluminow_1_ORIGINAL.webp"
+    ]
+  },
+  { "type": "b", "sectionID": "section1", "elementContent": ["Rozmiar", ""] },
+  { "type": "span", "sectionID": "section1", "elementContent": [": Możesz określić, do jakiego katalogu ma zostać przypisany wolumin logiczny, lub nie przypisywać do niego litery dysku lub folderu. Ja zdecydowałem się na udostępnienie woluminu jako dysku z literą ", ""] },
+  { "type": "b", "sectionID": "section1", "elementContent": ["K", ""] },
+  { "type": "span", "sectionID": "section1", "elementContent": [".", ""] },
+  { "type": "br", "sectionID": "section1" },
+  { "type": "br", "sectionID": "section1" },
+  { "type": "b", "sectionID": "section1", "elementContent": ["Litera dysku lub folder", ""] },
+  { "type": "span", "sectionID": "section1", "elementContent": [": Z dostępnej pojemności 50GB mojego dysku postanowiłem wykorzystać połowę przestrzeni na nowy wolumin, czyli 25GB.", ""] },
+  { "type": "br", "sectionID": "section1" },
+  { "type": "br", "sectionID": "section1" },
+  { "type": "b", "sectionID": "section1", "elementContent": ["Ustawienia systemu plików", ""] },
+  { "type": "span", "sectionID": "section1", "elementContent": ["Do wyboru masz dwa systemy plików: NTFS oraz ReFS. Ja zdecydowałem się na ReFS, który jest nowszy. Nadałem też nazwę woluminowi: „", ""] },
+  { "type": "bi", "sectionID": "section1", "elementContent": ["Wolumin Koali", ""] },
+  { "type": "span", "sectionID": "section1", "elementContent": ["”.", ""] },
+  { "type": "br", "sectionID": "section1" },
+  { "type": "br", "sectionID": "section1" },
+  { "type": "span", "sectionID": "section1", "elementContent": ["Dowiedz się o różnicach między NTFS a ReFS w ", ""] },
+  {
+    "type": "link-art",
+    "sectionID": "section1",
+    "elementContent": ["Systemy plików", "Pamięci masowe"]
+  },
+  { "type": "span", "sectionID": "section1", "elementContent": [".", ""] },
+  {
+    "type": "img",
+    "sectionID": "section1",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/kreator_nowych_woluminow_2.webp",
+      "Konfiguracja nowego woluminu.",
+      "3085",
+      "730",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/kreator_nowych_woluminow_2_ORIGINAL.webp"
+    ]
+  },
+  { "type": "b", "sectionID": "section1", "elementContent": ["Potwierdzenie", ""] },
+  { "type": "span", "sectionID": "section1", "elementContent": [": Na tej stronie pojawi się podsumowanie konfiguracji woluminu w kreatorze. Kliknij ", ""] },
+  {"type": "ref-btn-for-img","sectionID": "section1","elementContent": ["Dalej >"]},
+  { "type": "span", "sectionID": "section1", "elementContent": [", aby kreator rozpoczął pracę nad implementacją tej konfiguracji.", ""] },
+  { "type": "br", "sectionID": "section1" },
+  { "type": "br", "sectionID": "section1" },
+  { "type": "span", "sectionID": "section1", "elementContent": ["Teraz na połowie dysku znajduje się wolumin logiczny.", ""] },
+  {
+    "type": "img",
+    "sectionID": "section1",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/kreator_nowych_woluminow_3.webp",
+      "Potwierdzenie konfiguracji i inicjalizacja woluminu.",
+      "3085",
+      "730",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/kreator_nowych_woluminow_3_ORIGINAL.webp"
+    ]
+  },
+
+
+  { "type": "h2", "sectionID": "section2", "elementContent": ["Udziały sieciowe w Serwerze plików "] },
+  { "type": "span", "sectionID": "section2", "elementContent": ["Teraz możesz wrócić do sekcji woluminy. Aby kontynuować, musimy doinstalować rolę serwera: „", ""] },
+  { "type": "bi", "sectionID": "section2", "elementContent": ["Server plików", ""] },
+  { "type": "span", "sectionID": "section2", "elementContent": ["”. Dzięki temu zyskamy następujące możliwości:", ""] },
+  {
+    "type": "list",
+    "sectionID": "section2",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["Udostępnienie utworzonych woluminów w sieci.", ""]
+          }
+        ],
+        [
+            {
+              "type": "span",
+              "sectionID": "section2",
+              "elementContent": ["Wykorzystanie limitu możliwości zapełnienia ich przez użytkowników.", ""]
+            }
+          ],
+          [
+            {
+              "type": "span",
+              "sectionID": "section2",
+              "elementContent": ["Buforowanie danych w trybie offline.", ""]
+            }
+          ],
+          [
+            {
+              "type": "span",
+              "sectionID": "section2",
+              "elementContent": ["Ukrywanie części zasobów przed niepowołanymi osobami.", ""]
+            }
+          ]
+      ]
+    }
+  },
+  {
+    "type": "img",
+    "sectionID": "section2",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/woluminy_manager_servera.webp",
+      "Uruchom Kreatora dodawania ról i funkcji.",
+      "1027",
+      "730",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/woluminy_manager_servera_ORIGINAL.webp"
+    ]
+  },
+  { "type": "span", "sectionID": "section2", "elementContent": ["Po kliknięciu „", ""] },
+  { "type": "u", "sectionID": "section2", "elementContent": ["Uruchom Kreatora dodawania ról i funkcji", ""] },
+  { "type": "span", "sectionID": "section2", "elementContent": ["” zostanie wykonane to, co jest napisane, i automatycznie w „", ""] },
+  { "type": "bi", "sectionID": "section2", "elementContent": ["Role Serwera", ""] },
+  { "type": "span", "sectionID": "section2", "elementContent": ["” zaznaczona będzie rola „", ""] },
+  { "type": "bi", "sectionID": "section2", "elementContent": ["Server plików", ""] },
+  { "type": "span", "sectionID": "section2", "elementContent": ["”. Chcąc mieć możliwość konfiguracji ograniczenia zapełniania zasobów sieciowych przez użytkowników, musisz dodać „", ""] },
+  { "type": "bi", "sectionID": "section2", "elementContent": ["Menadżer zasobów serwera plików", ""] },
+  { "type": "span", "sectionID": "section2", "elementContent": ["” oraz proponowane przez system funkcje.", ""] },
+  {
+    "type": "img",
+    "sectionID": "section2",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/manager_zasobow_servera_plikow_1.webp",
+      "Dodawanie nowej roli serwera.",
+      "1028",
+      "730",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/manager_zasobow_servera_plikow_1_ORIGINAL.webp"
+    ]
+  },
+    { "type": "span", "sectionID": "section2", "elementContent": ["Dalej możesz przeklikać przez kreator, ponieważ nic więcej nie będzie trzeba w nim konfigurować.", ""] },
+    {
+        "type": "img",
+        "sectionID": "section2",
+        "elementContent": [
+          "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/manager_zasobow_servera_plikow_2.webp",
+          "Przeklikaj kreator dodawania ról i funkcji.",
+          "3085",
+          "730",
+          "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/manager_zasobow_servera_plikow_2_ORIGINAL.webp"
+        ]
+      },
+    { "type": "span", "sectionID": "section2", "elementContent": ["Po udanej instalacji zobaczysz nowe opcje w menadżerze serwera. W dalszych krokach skonfigurujemy wolumin jako udział w sieci.", ""] },
+    { "type": "br", "sectionID": "section2" },
+    { "type": "br", "sectionID": "section2" },
+    { "type": "span", "sectionID": "section2", "elementContent": ["Aby możliwe było udostępnienie woluminu jako udział sieciowy, należy w systemie Windows nadać mu literę. Podczas konfiguracji woluminu była opcja nadania tej litery, lecz ta operacja dotyczy wykrywania tylko przez „", ""] },
+    { "type": "i", "sectionID": "section2", "elementContent": ["Menadżer serwera", ""] },
+    { "type": "span", "sectionID": "section2", "elementContent": ["”. Poprawmy nadanie litery tak, aby system wykrywał ją jako partycję i była możliwość udostępnienia jej w sieci poprzez kolejny kreator:", ""] },
+    {
+        "type": "img",
+        "sectionID": "section2",
+        "elementContent": [
+          "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/korekta_litery_woluminu.webp",
+          "Wymagana korekta litery woluminu.",
+          "3098",
+          "730",
+          "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/korekta_litery_woluminu_ORIGINAL.webp"
+        ]
+      },
+  { "type": "span", "sectionID": "section2", "elementContent": ["Przejdź teraz do sekcji „", ""] },
+  { "type": "bi", "sectionID": "section2", "elementContent": ["Udziały", ""] },
+  { "type": "span", "sectionID": "section2", "elementContent": ["” i kliknij „", ""] },
+  { "type": "bi", "sectionID": "section2", "elementContent": ["Uruchom Kreatora nowego udziału, aby utworzyć nowy udział plików", ""] },
+  { "type": "span", "sectionID": "section2", "elementContent": ["”.", ""] },
+  {
+    "type": "img",
+    "sectionID": "section2",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/manager_zasobow_servera_plikow_3.webp",
+      "Uruchom Kreatora nowego udziału, aby utworzyć nowy udział plików.",
+      "1027",
+      "730",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/manager_zasobow_servera_plikow_3_ORIGINAL.webp"
+    ]
+  },
+  { "type": "b", "sectionID": "section2", "elementContent": ["Wybieranie profilu", ""] },
+  { "type": "span", "sectionID": "section2", "elementContent": [": Mamy zasadniczo dwie opcje: ", ""] },
+  { "type": "bi", "sectionID": "section2", "elementContent": ["SMB", ""] },
+  { "type": "span", "sectionID": "section2", "elementContent": [" dla Windowsów lub ", ""] },
+  { "type": "bi", "sectionID": "section2", "elementContent": ["NFS", ""] },
+  { "type": "span", "sectionID": "section2", "elementContent": [" dla UNIX-ów, np. Ubuntu. Dla zastosowania udziału tylko w rodzinie MS-DOS wybieramy „", ""] },
+  { "type": "i", "sectionID": "section2", "elementContent": ["Udział SMB – szybkie” ", ""] },
+  { "type": "span", "sectionID": "section2", "elementContent": ["” i klikamy ", ""] },
+  {"type": "ref-btn-for-img","sectionID": "section2","elementContent": ["Dalej >"]},
+  { "type": "span", "sectionID": "section2", "elementContent": [".", ""] },
+  {
+    "type": "img",
+    "sectionID": "section2",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/share_disk_windows_1.webp",
+      "Udział SMB – szybkie",
+      "1026",
+      "729",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/share_disk_windows_1_ORIGINAL.webp"
+    ]
+  },
+  { "type": "b", "sectionID": "section2", "elementContent": ["Lokalizacja udziału", ""] },
+  { "type": "span", "sectionID": "section2", "elementContent": [": Wybieramy nasz nowy wolumin, który ma zostać udostępniony w sieci. W razie gdyby nie został wyświetlony:", ""] },
+  {
+    "type": "list",
+    "sectionID": "section2",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["Należy zamknąć kreator i odświeżyć „", ""]
+          },
+          {
+            "type": "i",
+            "sectionID": "section2",
+            "elementContent": ["Menadżer serwera", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["”.", ""]
+          }
+        ],
+        [
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["Sprawdzić, czy system plików jest poprawny (NTFS, w przeciwieństwie do ReFS, wspiera przydziały z ograniczeniem przestrzeni do zapisania).", ""]
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "type": "img",
+    "sectionID": "section2",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/share_disk_windows_2.webp",
+      "Wybór dysku do utworzenia udziału sieciowego.",
+      "1026",
+      "729",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/share_disk_windows_2_ORIGINAL.webp"
+    ]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": ["W przystawce zarządzanie komputerem utwórz dwóch użytkowników: ", ""]
+  },
+  { "type": "b", "sectionID": "section2", "elementContent": ["user1", ""] },
+  { "type": "span", "sectionID": "section2", "elementContent": [" i ", ""] },
+  { "type": "b", "sectionID": "section2", "elementContent": ["user2", ""] },
+  { "type": "span", "sectionID": "section2", "elementContent": [".", ""] },
+  { "type": "br", "sectionID": "section2"},
+  { "type": "br", "sectionID": "section2"},
+  {
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":["Dowiedz się więcej o zarządzaniu komputerem w systemie Windows: ", ""]
+  },
+  {
+    "type": "link-art",
+    "sectionID": "section2",
+    "elementContent": ["Zarządzanie komputerem", "Windows10"]
+  },
+  { "type": "br", "sectionID": "section2"},
+  { "type": "br", "sectionID": "section2"},
+  { "type": "b", "sectionID": "section2", "elementContent": ["Inne ustawienia:", ""] },
+  {
+    "type": "list",
+    "sectionID": "section2",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["Pierwsza opcja pozwala na ukrycie podkatalogów i plików w udziale, do których użytkownik poświadczający nie ma uprawnień odczytu lub równoważnych.", ""]
+          }
+        ],
+        [
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["Druga opcja to możliwość zapisania często używanych zasobów z udziału na urządzeniach użytkowników, tzw. bufor danych w trybie ", ""]
+          },
+          {
+            "type": "i",
+            "sectionID": "section2",
+            "elementContent": ["offline", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [".", ""]
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "type": "img",
+    "sectionID": "section2",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/share_disk_windows_4.webp",
+      "Konfiguracja innych ustawień udziału sieciowego.",
+      "1026",
+      "729",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/share_disk_windows_4_ORIGINAL.webp"
+    ]
+  },
+  { "type": "b", "sectionID": "section2", "elementContent": ["Uprawnienia", ""] },
+  { "type": "span", "sectionID": "section2", "elementContent": [": To okno jest tym samym, co zaawansowane zabezpieczenia dla właściwości folderu. Jedynym wyjątkiem jest to, że w kreatorze możesz skonfigurować od razu uprawnienia do udziału sieciowego.", ""] },
+  {
+    "type": "img",
+    "sectionID": "section2",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/share_disk_windows_5.webp",
+      "Konfiguracja uprawnień do udziału sieciowego.",
+      "1026",
+      "729",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/share_disk_windows_5_ORIGINAL.webp"
+    ]
+  },
+  { "type": "br", "sectionID": "section2" },
+  { "type": "br", "sectionID": "section2" },
+  { "type": "span", "sectionID": "section2", "elementContent": ["Na kolejnych stronach masz podsumowanie i przeprowadzenie konfiguracji przez kreator.", ""] },
+  { "type": "br", "sectionID": "section2" },
+  { "type": "br", "sectionID": "section2" },
+  { "type": "h2", "sectionID": "section3", "elementContent": ["Ukrywanie zasobów", ""] },
+  { "type": "span", "sectionID": "section3", "elementContent": ["Pamiętasz, że w „", ""] },
+  { "type": "i", "sectionID": "section3", "elementContent": ["Inne ustawienia", ""] },
+  { "type": "span", "sectionID": "section3", "elementContent": ["” podczas pracy kreatora zaznaczono „", ""] },
+  { "type": "i", "sectionID": "section3", "elementContent": ["Włączyć wyliczanie oparte na dostępie", ""] },
+  { "type": "span", "sectionID": "section3", "elementContent": ["”? Aby wykorzystać tę funkcjonalność, przejdź do lokalizacji udziału „", ""] },
+  { "type": "i", "sectionID": "section3", "elementContent": ["Zasoby", ""] },
+  { "type": "span", "sectionID": "section3", "elementContent": ["”, utwórz katalogi dla użytkowników i dodaj ich do listy zabezpieczeń.", ""] },
+  
+  {
+    "type": "img",
+    "sectionID": "section3",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/share_disk_windows_6.webp",
+      "Uprawnienia do katalogów w udziale sieciowym.",
+      "1026",
+      "729",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/share_disk_windows_6_ORIGINAL.webp"
+    ]
+  },
+  { "type": "span", "sectionID": "section3", "elementContent": ["Chociaż użytkownicy zostali już przypisani do swoich katalogów, aby nie wyświetlać folderów nieautoryzowanym kontom, należy poprzez zaawansowane ustawienia usunąć podmiot „", ""] },
+  { "type": "bi", "sectionID": "section3", "elementContent": ["Wszyscy", ""] },
+  { "type": "span", "sectionID": "section3", "elementContent": ["” oraz oba podmioty „", ""] },
+  { "type": "bi", "sectionID": "section3", "elementContent": ["Użytkownicy", ""] },
+  { "type": "span", "sectionID": "section3", "elementContent": ["”. Pamiętaj, że aby to uczynić, musisz wyłączyć dziedziczenie uprawnień z nadrzędnego katalogu.", ""] },
+  {
+    "type": "img",
+    "sectionID": "section3",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/share_disk_windows_7.webp",
+      "Usuwanie podmiotów zabezpieczeń dzierżawionych.",
+      "1026",
+      "729",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/share_disk_windows_7_ORIGINAL.webp"
+    ]
+  },
+  { "type": "span", "sectionID": "section3", "elementContent": ["Gdy dokonasz wszystkich tych zmian, w efekcie końcowym uzyskasz następujący efekt:", ""] },
+  {
+    "type": "img",
+    "sectionID": "section3",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/share_disk_windows_8.webp",
+      "Ukrywanie części zasobów przed niepowołanymi osobami.",
+      "1808",
+      "738",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/share_disk_windows_8_ORIGINAL.webp"
+    ]
+  },
+  { "type": "b", "sectionID": "section3", "elementContent": ["PS", ""] },
+  { "type": "span", "sectionID": "section3", "elementContent": [": Aby otworzyć na kliencie udział sieciowy, możesz użyć skrótu klawiszowego: ", ""] },
+  {
+    "type": "key-combo",
+    "sectionID": "section3",
+    "elementContent": ["Win", "R"]
+  },
+  { "type": "span", "sectionID": "section3", "elementContent": [" i wpisać: ", ""] },
+
+  {
+    "type": "text-block-name",
+    "sectionID": "section3",
+    "elementContent": ["&bsol;&bsol;adres_serwera", ""]
+  },
+  { "type": "span", "sectionID": "section3", "elementContent": [", np.:", ""] },
+  {
+    "type": "text-block-name",
+    "sectionID": "section3",
+    "elementContent": ["&bsol;&bsol;192.168.0.1", ""]
+  },
+  { "type": "span", "sectionID": "section3", "elementContent": [".", ""] },
+
+
+  { "type": "h2", "sectionID": "section4", "elementContent": ["Przydziały do zasobów z szablonami ograniczenia puli"] },
+  { "type": "h4", "sectionID": "section4", "elementContent": ["Co to jest QUOTA?"] },
+  { "type": "span", "sectionID": "section4", "elementContent": ["QUOTA to limit przestrzeni dyskowej, który można przypisać do użytkownika lub grupy użytkowników. Dzięki temu można zapobiec sytuacjom, w których pojedynczy użytkownik zajmuje zbyt dużo miejsca na dysku, co mogłoby wpłynąć na innych użytkowników.", ""] },
+  { "type": "br", "sectionID": "section4"},
+  { "type": "br", "sectionID": "section4"},
+  { "type": "span", "sectionID": "section4", "elementContent": ["Dodatkowo możesz kontrolować zajętość udziału. W przypadku, gdy skonfigurujesz oprogramowanie obsługujące protokół e-mailowy ", ""] },
+  { "type": "b", "sectionID": "section4", "elementContent": ["SMTP", ""] },
+  { "type": "span", "sectionID": "section4", "elementContent": [" i połączysz je z zdarzeniami procentowego zajęcia przestrzeni, możesz automatycznie wysyłać e-maile informacyjne.", ""] },
+  { "type": "br", "sectionID": "section4"},
+  { "type": "br", "sectionID": "section4"},
+  { "type": "span", "sectionID": "section4", "elementContent": ["Niestety, choć istnieje możliwość zainstalowania serwera ", ""] },
+  { "type": "b", "sectionID": "section4", "elementContent": ["SMTP", ""] },
+  { "type": "span", "sectionID": "section4", "elementContent": [", jego skonfigurowanie jest niemożliwe, gdyż ", ""] },
+  { "type": "b", "sectionID": "section4", "elementContent": ["Microsoft", ""] },
+  { "type": "span", "sectionID": "section4", "elementContent": [" nie będzie już tej funkcjonalności wspierał w Windows Server. Jedyną opcją na skorzystanie z SMTP od Microsoft jest usługa chmurowa ", ""] },
+  { "type": "b", "sectionID": "section4", "elementContent": ["Azure ", ""] },
+  { "type": "span", "sectionID": "section4", "elementContent": [" i ", ""] },
+  { "type": "b", "sectionID": "section4", "elementContent": ["API ", ""] },
+  { "type": "span", "sectionID": "section4", "elementContent": [" dla ", ""] },
+  { "type": "b", "sectionID": "section4", "elementContent": [".NET ", ""] },
+  { "type": "span", "sectionID": "section4", "elementContent": [".", ""] },
+  { "type": "br", "sectionID": "section4"},
+  { "type": "br", "sectionID": "section4"},
+  {
+    "type":"span",
+    "sectionID":"section4",
+    "elementContent":["Dowiedz się więcej o SMTP w ", ""]
+  },
+  {
+    "type": "link-art",
+    "sectionID": "section4",
+    "elementContent": ["Protokoły poczty e-mail", "Sieci Komputerowe"]
+  },
+  { "type": "br", "sectionID": "section4"},
+  { "type": "br", "sectionID": "section4"},
+  {
+    "type":"span",
+    "sectionID":"section4",
+    "elementContent":["Jak widzisz na poniższym obrazku, przydziały są dostępne tylko dla woluminów, w których skonfigurowano system plików NTFS.", ""]
+  },
+  {
+    "type": "img",
+    "sectionID": "section4",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/quota_zasobow_servera_plikow_1.webp",
+      "Przydział wymaga systemu plików NTFS.",
+      "1026",
+      "729",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/quota_zasobow_servera_plikow_1_ORIGINAL.webp"
+    ]
+  },
+  { "type": "span", "sectionID": "section4", "elementContent": ["Utwórz nowy wolumin i tym razem w kreatorze ustaw system plików na ", ""] },
+  { "type": "span", "sectionID": "section4", "elementContent": ["NTFS", ""] },
+  { "type": "span", "sectionID": "section4", "elementContent": [" zamiast ", ""] },
+  { "type": "span", "sectionID": "section4", "elementContent": ["ReFS", ""] },
+  { "type": "span", "sectionID": "section4", "elementContent": [". Tworząc udział na woluminie NTFS z przydziałami, możesz wybrać wersję profilu: „", ""] },
+  { "type": "bi", "sectionID": "section4", "elementContent": ["Udział SMB – zaawansowane", ""] },
+  { "type": "span", "sectionID": "section4", "elementContent": ["”. Pozwoli ci to od razu w kreatorze na wybór schematu przydziału.", ""] },
+  { "type": "br", "sectionID": "section4"},
+  { "type": "br", "sectionID": "section4"},
+  { "type": "span", "sectionID": "section4", "elementContent": ["Jeśli skonfigurujesz udział ", ""] },
+  { "type": "bi", "sectionID": "section4", "elementContent": ["SMB szybko", ""] },
+  { "type": "span", "sectionID": "section4", "elementContent": [", zawsze istnieje możliwość ustawienia przydziału w sekcji zaznaczonej na zielono w poprzednim obrazku. Tam również będzie możliwość zmiany profilu przydziału w dowolnym momencie, gdy tego zapragniesz.", ""] },
+  {
+    "type": "img",
+    "sectionID": "section4",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/quota_zasobow_servera_plikow_2.webp",
+      "Konfiguracja udziału SMB - zaawansowane.",
+      "3085",
+      "730",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/quota_zasobow_servera_plikow_2_ORIGINAL.webp"
+    ]
+  },
+  { "type": "span", "sectionID": "section4", "elementContent": ["Dalsze kroki są podobne jak w szybkiej konfiguracji. Pojawia się nowa strona „", ""] },
+  { "type": "bi", "sectionID": "section4", "elementContent": ["Właściwości zarządzania", ""] },
+  { "type": "span", "sectionID": "section4", "elementContent": ["”. Te ustawienia są dla ciebie bezużyteczne, zwłaszcza podawanie e-maila, ponieważ nie skonfigurujesz SMTP w tym serwerze. Możesz je jednak uzupełnić, aby w razie potrzeby weryfikować kontakt do właściciela poprzez sprawdzenie właściwości danego udziału.", ""] },
+  {
+    "type": "img",
+    "sectionID": "section4",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/quota_zasobow_servera_plikow_3.webp",
+      "Konfiguracja która średnio ma sens.",
+      "3085",
+      "730",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/quota_zasobow_servera_plikow_3_ORIGINAL.webp"
+    ]
+  },
+
+  { "type": "br", "sectionID": "section4"},
+  { "type": "br", "sectionID": "section4"},
+  { "type": "h3", "sectionID": "section4", "elementContent": ["Przydział", ""] },
+  { "type": "span", "sectionID": "section4", "elementContent": ["Wybierz odpowiedni szablon dla siebie. Mamy następujące szablony, pogrupowane w bardziej sensowny sposób:", ""] },
+  {
+    "type": "list",
+    "sectionID": "section4",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": ["Stałe limity:", ""]
+            },
+       {
+        "type": "list",
+        "sectionID": "section4",
+        "elementContent": {
+          "ver": "ul",
+          "listElements": [
+            [
+              {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Stałe limity:", ""]
+                }
+            ],
+            [
+                {
+                    "type": "span",
+                    "sectionID": "section4",
+                    "elementContent": ["100 MB Limit", ""]
+                }
+            ],
+            [
+                {
+                    "type": "span",
+                    "sectionID": "section4",
+                    "elementContent": ["2 GB Limit", ""]
+                }
+            ],
+            [
+                {
+                    "type": "span",
+                    "sectionID": "section4",
+                    "elementContent": ["5 GB Limit", ""]
+                }
+            ],
+            [
+                {
+                    "type": "span",
+                    "sectionID": "section4",
+                    "elementContent": ["10 GB Limit", ""]
+                }
+            ],
+            [
+                {
+                    "type": "span",
+                    "sectionID": "section4",
+                    "elementContent": ["250 MB Extended Limit", ""]
+                }
+            ],
+            [
+                {
+                    "type": "span",
+                    "sectionID": "section4",
+                    "elementContent": ["200 MB Limit Reports to User", ""]
+                }
+            ]
+        ]
+    }
+}
+        ],
+        [
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["200 MB Limit Reports to User", ""]
+            },
+            {
+                "type": "list",
+                "sectionID": "section4",
+                "elementContent": {
+                  "ver": "ul",
+                  "listElements": [
+                    [
+                        {
+                            "type": "span",
+                            "sectionID": "section4",
+                            "elementContent": ["Limity automatycznie rozszerzane:", ""]
+                        }
+                    ],
+                    [
+                        {
+                            "type": "span",
+                            "sectionID": "section4",
+                            "elementContent": ["200 MB Limit with 50 MB Extension – jednokrotnie o 50 MB", ""]
+                        }
+                    ]
+                  ]
+                }
+              }
+        ],
+        [
+            {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Brak limitów, ale zastosowanie monitorowania zajętości przestrzeni względem wartości:", ""]
+            },
+            {
+                "type": "list",
+                "sectionID": "section4",
+                "elementContent": {
+                  "ver": "ul",
+                  "listElements": [
+                    [
+                        {
+                            "type": "span",
+                            "sectionID": "section4",
+                            "elementContent": ["Monitor 200 GB Volume Usage", ""]
+                        }
+                    ],
+                    [
+                        {
+                            "type": "span",
+                            "sectionID": "section4",
+                            "elementContent": ["Monitor 500 MB Share", ""]
+                        }
+                    ],
+                    [
+                        {
+                            "type": "span",
+                            "sectionID": "section4",
+                            "elementContent": ["Monitor 3 TB Volume Usage", ""]
+                        }
+                    ],
+                    [
+                        {
+                            "type": "span",
+                            "sectionID": "section4",
+                            "elementContent": ["Monitor 5 TB Volume Usage", ""]
+                        }
+                    ],
+                    [
+                        {
+                            "type": "span",
+                            "sectionID": "section4",
+                            "elementContent": ["Monitor 10 TB Volume Usage", ""]
+                        }
+                    ]
+                  ]
+                }
+              }
+        ]
+    ]
+    }
+    },
+    {
+        "type": "img",
+        "sectionID": "section4",
+        "elementContent": [
+          "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/quota_zasobow_servera_plikow_4.webp",
+          "Wybór schematu przydziału.",
+          "1026",
+          "729",
+          "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/quota_zasobow_servera_plikow_4_ORIGINAL.webp"
+        ]
+      },
+      { "type": "span", "sectionID": "section4", "elementContent": ["Poniżej masz przykłady tych mniejszych przydziałów:", ""] },
+      {
+        "type": "list",
+        "sectionID": "section4",
+        "elementContent": {
+          "ver": "ul",
+          "listElements": [
+            [
+              {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["100 MB Limit", ""]
+              }
+            ],
+            [
+              {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["200 MB Limit Reports to User", ""]
+              }
+            ],
+            [
+              {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["200 MB Limit with 50 MB Extension, który przechodzi w 250 MB Extended Limit", ""]
+              }
+            ],
+            [
+              {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": ["Monitor 500 MB Share", ""]
+              }
+            ]
+          ]
+        }
+      },
+      {
+        "type": "img",
+        "sectionID": "section4",
+        "elementContent": [
+          "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/quota_zasobow_servera_plikow_5.webp",
+          "Przykłady zastosowanych przydziałów.",
+          "806",
+          "926",
+          "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/quota_zasobow_servera_plikow_5_ORIGINAL.webp"
+        ]
+      },
+      {
+        "type": "span",
+        "sectionID": "section4",
+        "elementContent": ["Dla ułatwienia testowania, poprzez zapychanie udziałów plikami, skorzystaj z komendy:", ""]
+      },
+      {
+        "type": "text-block-name",
+        "sectionID": "section4",
+        "elementContent": ["fsutil file createnew {nazwa_pliku} {rozmiar_w_bajtach}", ""]
+      },
+      {
+        "type": "img",
+        "sectionID": "section4",
+        "elementContent": [
+          "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/przygotowanie_plikow.webp",
+          "Przykłady zastosowanych przydziałów.",
+          "1920",
+          "970",
+          "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/przygotowanie_plikow_ORIGINAL.webp"
+        ]
+      },
+      { "type": "h2", "sectionID": "section5", "elementContent": ["Udziały sieciowe poprzez Eksplorator plików"] },
+      { "type": "span", "sectionID": "section5", "elementContent": ["Ten sposób udostępniania zasobów w sieci jest podstawową wiedzą, którą musisz posiadać. Na szczęście jest to proste i intuicyjne 😊.", ""] },
+      {
+        "type": "list",
+        "sectionID": "section5",
+        "elementContent": {
+          "ver": "ol",
+          "listElements": [
+            [
+              {
+                "type": "span",
+                "sectionID": "section5",
+                "elementContent": ["Tworzysz katalog na partycji z systemem NTFS lub ReFS i przechodzisz do ", ""]
+              },
+              {
+                "type": "b",
+                "sectionID": "section1",
+                "elementContent": ["Właściwości folderu", ""]
+              },
+              {
+                "type": "span",
+                "sectionID": "section1",
+                "elementContent": [".", ""]
+              }
+            ],
+            [
+              {
+                "type": "span",
+                "sectionID": "section5",
+                "elementContent": ["W zakładce ", ""]
+              },
+              {
+                "type": "b",
+                "sectionID": "section5",
+                "elementContent": ["Udostępnianie", ""]
+              },
+              {
+                "type": "span",
+                "sectionID": "section5",
+                "elementContent": [" masz dwie opcje. Jako informatyk wybierzesz ", ""]
+              },
+              {
+                "type": "b",
+                "sectionID": "section5",
+                "elementContent": ["Udostępnianie zaawansowane…", ""]
+              },
+              {
+                "type": "span",
+                "sectionID": "section5",
+                "elementContent": [".", ""]
+              }
+            ],
+            [
+              {
+                "type": "span",
+                "sectionID": "section5",
+                "elementContent": ["Musisz zaznaczyć checkbox: ", ""]
+              },
+              {
+                "type": "b",
+                "sectionID": "section5",
+                "elementContent": ["Udostępnij ten folder", ""]
+              },
+              {
+                "type": "span",
+                "sectionID": "section5",
+                "elementContent": [".", ""]
+              }
+            ],
+            [
+              {
+                "type": "span",
+                "sectionID": "section5",
+                "elementContent": ["Jeżeli chcesz, możesz zmienić nazwę udziału widoczną w sieci oraz dodać komentarz.", ""]
+              }
+            ],
+            [
+              {
+                "type": "span",
+                "sectionID": "section5",
+                "elementContent": ["Windows domyślnie pozwala maksymalnie na jednoczesne podłączenie się do zasobu użytkowników w liczbie: ", ""]
+              },
+              {
+                "type": "b",
+                "sectionID": "section5",
+                "elementContent": ["16 777 216", ""]
+              },
+              {
+                "type": "span",
+                "sectionID": "section5",
+                "elementContent": [". Możesz tę liczbę ograniczyć.", ""]
+                }
+            ],
+            [
+                {
+                  "type": "span",
+                  "sectionID": "section5",
+                  "elementContent": ["Ciekawą opcją jest buforowanie danych na urządzeniach korzystających z zasobów tego udostępnienia.", ""]
+                }
+              ]
+          ]
+        }
+      },
+      {
+        "type": "img",
+        "sectionID": "section5",
+        "elementContent": [
+          "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/file_explor_share_1.webp",
+          "Udostępnianie zaawansowane udziału sieciowego w eksploratorze plików Windows oraz buforowanie.",
+          "1026",
+          "729",
+          "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/file_explor_share_1_ORIGINAL.webp"
+        ]
+      },
+  { "type": "b", "sectionID": "section5", "elementContent": ["Uprawnienia", ""] },
+  { "type": "span", "sectionID": "section5", "elementContent": ["Domyślnie do udziału sieciowego dodawana jest grupa „", ""] },
+  { "type": "bi", "sectionID": "section5", "elementContent": ["Wszyscy", ""] },
+  { "type": "span", "sectionID": "section5", "elementContent": ["” z możliwością odczytu danych. Warto dodać grupę lub użytkowników, którzy będą mieli także prawo do modyfikowania danych w udziale.", ""] },
+  {
+    "type": "img",
+    "sectionID": "section5",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/file_explor_share_2.webp",
+      "Uprawnienia do udziału sieciowego.",
+      "1026",
+      "729",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/file_explor_share_2_ORIGINAL.webp"
+    ]
+  },
+  { "type": "span", "sectionID": "section5", "elementContent": ["Jak widać poniżej, udostępnienia są dostępne. Niezależnie od tego, czy serwer buforuje zasoby, możesz ręcznie ustawić dany plik lub katalog na tryb ", ""] },
+  { "type": "i", "sectionID": "section5", "elementContent": ["offline", ""] },
+  { "type": "span", "sectionID": "section5", "elementContent": [", aby korzystać z niego bez konieczności posiadania połączenia z serwerem.", ""] },
+  {
+    "type": "img",
+    "sectionID": "section5",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/share_disk_windows_9.webp",
+      "Ręczne buforowanie pliku w trybie offline.",
+      "1920",
+      "970",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/share_disk_windows_9_ORIGINAL.webp"
+    ]
+  },    
+  { "type": "h3", "sectionID": "section5", "elementContent": ["Buforowanie danych w trybie offline (brak dostępu do serwera)"] },
+  { "type": "span", "sectionID": "section5", "elementContent": ["Jak widzisz poniżej, system zapamiętuje udziały, w których znajdują się zasoby ", ""] },
+  { "type": "i", "sectionID": "section5", "elementContent": ["offline", ""] },
+  { "type": "span", "sectionID": "section5", "elementContent": [". Nie oznacza to jednak, że każdy plik posiada taki status. Plikami, które nie są synchronizowane, są dokumenty ", ""] },
+  { "type": "b", "sectionID": "section5", "elementContent": [".rft", ""] },
+  { "type": "span", "sectionID": "section5", "elementContent": [" w obu udziałach.", ""] },
+  { "type": "br", "sectionID": "section5"},
+  { "type": "br", "sectionID": "section5"},
+  { "type": "span", "sectionID": "section5", "elementContent": ["Natomiast pliki ", ""] },
+  { "type": "b", "sectionID": "section5", "elementContent": [" .txt", ""] },
+  { "type": "span", "sectionID": "section5", "elementContent": [" w udziale „", ""] },
+  { "type": "bi", "sectionID": "section5", "elementContent": ["Magazyn", ""] },
+  { "type": "span", "sectionID": "section5", "elementContent": ["” były otwierane, więc się zbuforowały. W udziale „", ""] },
+  { "type": "bi", "sectionID": "section5", "elementContent": ["Magazyn ReFS", ""] },
+  { "type": "span", "sectionID": "section5", "elementContent": ["” buforowanie nie jest włączone, ale wcześniej zezwoliłem na dostęp w trybie ", ""] },
+  { "type": "i", "sectionID": "section5", "elementContent": ["offline", ""] },
+  { "type": "span", "sectionID": "section5", "elementContent": [", co jest zaznaczone kołem synchronizacji na ikonie pliku. Dlatego cała zawartość katalogu jest widoczna.", ""] },
+  { "type": "br", "sectionID": "section5"},
+  { "type": "br", "sectionID": "section5"},
+  { "type": "span", "sectionID": "section5", "elementContent": ["Udziały bez buforowania nie zostały wyświetlone w sieci.", ""] },
+
+  {
+    "type": "img",
+    "sectionID": "section5",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/share_disk_windows_10.webp",
+      "Buforowanie danych w trybie offline (brak dostępu do serwera)",
+      "1920",
+      "970",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/share_disk_windows_10_ORIGINAL.webp"
+    ]
+  }
+]
