@@ -1,0 +1,783 @@
+[
+    { "type": "h2", "sectionID": "section1", "elementContent": ["Wstęp"] },
+  { "type": "span", "sectionID": "section1", "elementContent": ["Skoro wiesz już, jak udostępniać zasoby w sieci poprzez ", ""] },
+  { "type": "bi", "sectionID": "section1", "elementContent": ["GUI", ""] },
+  { "type": "span", "sectionID": "section1", "elementContent": [", czas zapoznać się z tym, jak to samo (lub prawie to samo) wykonać w konsoli ", ""] },
+  { "type": "b", "sectionID": "section1", "elementContent": ["CMD", ""] },
+  { "type": "span", "sectionID": "section1", "elementContent": [" i ", ""] },
+  { "type": "b", "sectionID": "section1", "elementContent": ["PowerShell", ""] },
+  { "type": "span", "sectionID": "section1", "elementContent": [". Wymagane będzie przygotowanie partycji (w moim przypadku korzystam z ", ""] },
+  { "type": "b", "sectionID": "section1", "elementContent": ["N:&bsol;", ""] },
+  { "type": "span", "sectionID": "section1", "elementContent": [" w systemie plików ", ""] },
+  { "type": "b", "sectionID": "section1", "elementContent": ["NTFS", ""] },
+  { "type": "span", "sectionID": "section1", "elementContent": [") oraz zainstalowanie roli ", ""] },
+  { "type": "bi", "sectionID": "section1", "elementContent": ["Serwera plików", ""] },
+  { "type": "span", "sectionID": "section1", "elementContent": [" z funkcjonalnością „", ""] },
+  { "type": "bi", "sectionID": "section1", "elementContent": ["Menadżer zasobów serwera plików", ""] },
+  { "type": "span", "sectionID": "section1", "elementContent": ["” 😊.", ""] },
+  { "type": "br", "sectionID": "section1" },
+  { "type": "br", "sectionID": "section1" },
+
+  { "type": "span", "sectionID": "section1", "elementContent": ["Zalecam najpierw przerobić: ", ""] },
+  {
+    "type": "link-art",
+    "sectionID": "section1",
+    "elementContent": ["Udostępnianie katalogowych zasobów w sieci poprzez GUI", "Windows Server 2022"]
+  },
+
+  { "type": "h2", "sectionID": "section2", "elementContent": ["Udostępnianie zasobów poprzez CMD"] },
+  { "type": "span", "sectionID": "section2", "elementContent": ["Aby utworzyć zasób sieciowy z poziomu konsoli CMD, należy skorzystać z polecenia ", ""] },
+  {
+    "type": "text-block-name",
+    "sectionID": "section2",
+    "elementContent": ["net share", ""]
+  },
+  { "type": "span", "sectionID": "section2", "elementContent": [". Wszystkie opcje zawsze możesz sprawdzić w dokumentacji polecenia, wpisując na koniec polecenia ", ""] },
+  {
+    "type": "text-block-name",
+    "sectionID": "section2",
+    "elementContent": ["/help", ""]
+  },
+  { "type": "span", "sectionID": "section2", "elementContent": [" lub, aby poznać jedynie składnię, "] },
+  {
+    "type": "text-block-name",
+    "sectionID": "section2",
+    "elementContent": ["/?", ""]
+  },
+  { "type": "span", "sectionID": "section2", "elementContent": ["."] },
+  { "type": "br", "sectionID": "section2" },
+  { "type": "h3", "sectionID": "section2", "elementContent": ["W poniższym przykładzie dokonano następujących kroków:"] },
+  {
+    "type": "list",
+    "sectionID": "section2",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["Poleceniem ", ""]
+          },
+          {
+            "type": "text-block-name",
+            "sectionID": "section2",
+            "elementContent": ["n:", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [" zmieniono lokalizację „", ""]
+          },
+          {
+            "type": "i",
+            "sectionID": "section2",
+            "elementContent": ["drive", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["”  na dysk ", ""]
+          },
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["N:&bsol;", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [".", ""]
+          }
+        ],
+        [
+            {
+                "type": "span",
+                "sectionID": "section2",
+                "elementContent": ["Poleceniem ", ""]
+              },
+              {
+                "type": "text-block-name",
+                "sectionID": "section2",
+                "elementContent": ["net user {nazwa_użytkownika} {hasło} /add", ""]
+              },
+              {
+                "type": "span",
+                "sectionID": "section2",
+                "elementContent": ["dodano nowego użytkownika o nazwie:", ""]
+              },
+              {
+                "type": "bi",
+                "sectionID": "section2",
+                "elementContent": ["user_cmd", ""]
+              },
+              {
+                "type": "span",
+                "sectionID": "section2",
+                "elementContent": [" i haśle: ", ""]
+              },
+              {
+                "type": "bi",
+                "sectionID": "section2",
+                "elementContent": ["ZAQ!2wsx", ""]
+              },
+              {
+                "type": "span",
+                "sectionID": "section2",
+                "elementContent": [".", ""]
+              }
+        ],
+        [
+            {
+                "type": "span",
+                "sectionID": "section2",
+                "elementContent": ["Poleceniem ", ""]
+              },
+              {
+                "type": "text-block-name",
+                "sectionID": "section2",
+                "elementContent": ["mkdir {nazwa_katalogu}", ""]
+              },
+              {
+                "type": "span",
+                "sectionID": "section2",
+                "elementContent": [" utworzono nowy katalog. Przy nazwie zastosowano spację, więc całość musiała być w cudzysłowie, aby nie utworzyły się dwa katalogi o nazwach: ", ""]
+              },
+              {
+                "type": "i",
+                "sectionID": "section2",
+                "elementContent": ["cmd", ""]
+              },
+              {
+                "type": "span",
+                "sectionID": "section2",
+                "elementContent": [" i ", ""]
+              },
+              {
+                "type": "i",
+                "sectionID": "section2",
+                "elementContent": ["share", ""]
+              },
+              {
+                "type": "span",
+                "sectionID": "section2",
+                "elementContent": [".", ""]
+              }
+        ],
+        [
+            {
+                "type": "span",
+                "sectionID": "section2",
+                "elementContent": ["Poleceniem ", ""]
+              },
+              {
+                "type": "text-block-name",
+                "sectionID": "section2",
+                "elementContent": ["dir", ""]
+              },
+              {
+                "type": "span",
+                "sectionID": "section2",
+                "elementContent": [" sprawdzono, czy katalog został utworzony w tej lokalizacji.", ""]
+              }
+        ],
+        [
+            {
+                "type": "span",
+                "sectionID": "section2",
+                "elementContent": ["Poleceniem ", ""]
+              },
+              {
+                "type": "text-block-name",
+                "sectionID": "section2",
+                "elementContent": ["net share", ""]
+              },
+              {
+                "type": "span",
+                "sectionID": "section2",
+                "elementContent": ["udostępniono folder jako udział sieciowy:", ""]
+              },
+              {
+                "type": "list",
+                "sectionID": "section2",
+                "elementContent": {
+                  "ver": "ul",
+                  "listElements": [
+                    [
+                      {
+                        "type": "text-block-name",
+                        "sectionID": "section2",
+                        "elementContent": ["&quot;Udział CMD&quot;=&quot;N:&bsol;cmd share&quot;", ""]
+                      },
+                      {
+                        "type": "span",
+                        "sectionID": "section2",
+                        "elementContent": [": Nadanie nazwy udziałowi i wskazanie lokalizacji folderu po znaku ", ""]
+                      },
+                      {
+                        "type": "b",
+                        "sectionID": "section2",
+                        "elementContent": ["=", ""]
+                      },
+                      {
+                        "type": "span",
+                        "sectionID": "section2",
+                        "elementContent": [" bez spacji pomiędzy ", ""]
+                      },
+                      {
+                        "type": "b",
+                        "sectionID": "section2",
+                        "elementContent": ["nazwą", ""]
+                      },
+                      {
+                        "type": "span",
+                        "sectionID": "section2",
+                        "elementContent": [" a ", ""]
+                      },
+                      {
+                        "type": "b",
+                        "sectionID": "section2",
+                        "elementContent": ["lokalizacją", ""]
+                      },
+                      {
+                        "type": "span",
+                        "sectionID": "section2",
+                        "elementContent": [".", ""]
+                      }
+                    ],
+                    [
+                        {
+                            "type": "text-block-name",
+                            "sectionID": "section2",
+                            "elementContent": ["/grant:wszyscy,READ", ""]
+                          },
+                          {
+                            "type": "span",
+                            "sectionID": "section2",
+                            "elementContent": [": Nadano grupie ", ""]
+                          },
+                          {
+                            "b": "wszyscy",
+                            "type": "span",
+                            "sectionID": "section2",
+                            "elementContent": [" prawa do odczytu tego udziału.", ""]
+                          }
+                    ],
+                    [
+                        {
+                            "type": "text-block-name",
+                            "sectionID": "section2",
+                            "elementContent": ["/grant:user_cmd,CHANGE", ""]
+                          },
+                          {
+                            "type": "span",
+                            "sectionID": "section2",
+                            "elementContent": [": Nadano użytkownikowi prawa do modyfikacji zawartości w udziale (przy uprawnieniu do modyfikacji zawsze dodawane jest samoistnie prawo do odczytu).", ""]
+                          }
+                    ],
+                    [
+                        {
+                            "type": "text-block-name",
+                            "sectionID": "section2",
+                            "elementContent": ["/users:5", ""]
+                          },
+                          {
+                            "type": "span",
+                            "sectionID": "section2",
+                            "elementContent": [": Ograniczono maksymalną, jednoczesną liczbę podłączonych do udziału użytkowników do 5.", ""]
+                          }
+                    ],
+                    [
+                        {
+                            "type": "text-block-name",
+                            "sectionID": "section2",
+                            "elementContent": ["/remark:&quot;Komentarz udziału CMD&quot;", ""]
+                          },
+                          {
+                            "type": "span",
+                            "sectionID": "section2",
+                            "elementContent": [": Dodano komentarz do udziału.", ""]
+                          }
+                    ]
+                  ]
+                }
+              }
+        ]
+      ]
+    }
+  },
+  {
+    "type": "img",
+    "sectionID": "section2",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/cmd_share_1.webp",
+      "Udostępnianie katalogowych zasobów w sieci poprzez Konsolę CMD",
+      "1026",
+      "497",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/cmd_share_1_ORIGINAL.webp"
+    ]
+  },
+  { "type": "span", "sectionID": "section2", "elementContent": ["Jak widać na poniższym obrazku, pojawił się kolejny udział. Po autoryzacji jako „", ""] },
+  { "type": "bi", "sectionID": "section2", "elementContent": ["user_cmd", ""] },
+  { "type": "span", "sectionID": "section2", "elementContent": ["” mogę tworzyć w nim pliki.", ""] },
+  {
+    "type": "img",
+    "sectionID": "section2",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/cmd_share_2.webp",
+      "Udział sieciowy przygotowany w konsoli CMD - widok z poziomu użytkownika",
+      "1920",
+      "970",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/cmd_share_2_ORIGINAL.webp"
+    ]
+  },
+  { "type": "h2", "sectionID": "section3", "elementContent": ["Udostępnianie zasobów poprzez PowerShell"] },
+  { "type": "span", "sectionID": "section3", "elementContent": ["Aby w ", ""] },
+  { "type": "span", "sectionID": "section3", "elementContent": ["PowerShell", ""] },
+  { "type": "span", "sectionID": "section3", "elementContent": [" (", ""] },
+  { "type": "span", "sectionID": "section3", "elementContent": ["PS", ""] },
+  { "type": "span", "sectionID": "section3", "elementContent": [") zmienić lokalizację na inną partycję, użyj polecenia: ", ""] },
+  { "type": "text-block-name", "sectionID": "section3", "elementContent": ["Set-Location -Path {drive:&bsol;}", ""] },
+  { "type": "span", "sectionID": "section3", "elementContent": [", gdzie ", ""] },
+  { "type": "bi", "sectionID": "section3", "elementContent": ["drive", ""] },
+  { "type": "span", "sectionID": "section3", "elementContent": [" to litera partycji, w moim przypadku ", ""] },
+  { "type": "b", "sectionID": "section3", "elementContent": ["N", ""] },
+  { "type": "span", "sectionID": "section3", "elementContent": [".", ""] },
+  { "type": "br", "sectionID": "section3"},
+  { "type": "span", "sectionID": "section3", "elementContent": ["Aby wyświetlić zawartość twojej lokalizacji, możesz użyć polecenia: ", ""] },
+  { "type": "text-block-name", "sectionID": "section3", "elementContent": ["Get-ChildItem", ""] },
+  { "type": "span", "sectionID": "section3", "elementContent": [" lub jego aliasu:", ""] },
+  { "type": "text-block-name", "sectionID": "section3", "elementContent": ["ls", ""] },
+  {
+    "type": "img",
+    "sectionID": "section3",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/ps_share_1.webp",
+      "Zmiana lokalizacji i wyświetlenie zawartości w PowerShell.",
+      "1024",
+      "617",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/ps_share_1_ORIGINAL.webp"
+    ]
+  },
+
+  { "type": "span", "sectionID": "section3", "elementContent": ["Aby w ", ""] },
+  { "type": "span", "sectionID": "section3", "elementContent": ["PowerShell", ""] },
+  { "type": "span", "sectionID": "section3", "elementContent": [" utworzyć użytkownika z hasłem, skorzystaj z polecenia ", ""] },
+  { "type": "text-block-name", "sectionID": "section3", "elementContent": ["New-LocalUser", ""] },
+  { "type": "span", "sectionID": "section3", "elementContent": [".", ""] },
+  { "type": "br", "sectionID": "section3"},
+  { "type": "span", "sectionID": "section3", "elementContent": ["Składnia polecenia:", ""] },
+  {
+    "type": "list",
+    "sectionID": "section3",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "text-block-name",
+            "sectionID": "section3",
+            "elementContent": ["-Name &quot;Nazwa użytkownika&quot;", ""]
+          },
+          {
+            "type": "text-block-name",
+            "sectionID": "section3",
+            "elementContent": ["-Password (ConvertTo-SecureString &quot;Hasło użytkownika&quot; -AsPlainText -Force)", ""]
+          }
+        ],
+        [
+          {
+            "type": "text-block-name",
+            "sectionID": "section3",
+            "elementContent": ["ConvertTo-SecureString", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [": konwertuje tekst na bezpieczny ciąg znaków.", ""]
+            }
+        ],
+        [
+          {
+            "type": "text-block-name",
+            "sectionID": "section3",
+            "elementContent": ["-AsPlainText", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [": określa format ciągu wejściowego hasła.", ""]
+          }
+        ],
+        [
+          {
+            "type": "text-block-name",
+            "sectionID": "section3",
+            "elementContent": ["-Force", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [": wymusza przyjęcie jawnego tekstu przez konwerter.", ""]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": ["Nie wymagane właściwości:", ""]
+          },
+          {
+            "type": "list",
+            "sectionID": "section3",
+            "elementContent": {
+              "ver": "ul",
+              "listElements": [
+                [
+                    {
+                      "type": "text-block-name",
+                      "sectionID": "section3",
+                      "elementContent": ["-FullName &quot;Pełna nazwa użytkownika&quot;", ""]
+                    },
+                    {
+                      "type": "span",
+                      "sectionID": "section3",
+                      "elementContent": [": nadaje nazwę użytkownika do wyświetlania np. na ekranie logowania do systemu.", ""]
+                    }
+                  ],
+                  [
+                    {
+                      "type": "text-block-name",
+                      "sectionID": "section3",
+                      "elementContent": ["-Description &quot;Opis użytkownika&quot;", ""]
+                    }
+                  ]
+              ]
+            }
+          }
+        ]
+    ]
+    }
+    },
+    {
+        "type": "b",
+        "sectionID": "section3",
+        "elementContent": ["UWAGA!", "red"]
+    },
+    {
+        "type": "span",
+        "sectionID": "section3",
+        "elementContent": [" Użytkownik tworzony w ten sposób nie posiada członkostwa w żadnej z grup. Jeżeli chcesz się na niego zalogować do systemu, musisz dodać go do grupy „", ""]
+    },
+    {
+        "type": "i",
+        "sectionID": "section3",
+        "elementContent": ["Użytkownicy", ""]
+    },
+    {
+        "type": "span",
+        "sectionID": "section3",
+        "elementContent": ["”:", ""]
+    },
+    {
+        "type": "text-block-name",
+        "sectionID": "section3",
+        "elementContent": ["Add-LocalGroupMember -Group &quot;Użytkownicy&quot; -Member &quot;user_ps&quot;", ""]
+    },
+    {
+        "type": "img",
+        "sectionID": "section3",
+        "elementContent": [
+          "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/ps_share_2.webp",
+          "Tworzenie nowego użytkownika w PowerShell.",
+          "1026",
+          "429",
+          "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/ps_share_2_ORIGINAL.webp"
+        ]
+      },
+
+    { "type": "span", "sectionID": "section3", "elementContent": ["No dobrze, skoro mamy już użytkownika, to czas stworzyć nowy katalog i udostępnić go w sieci.", ""] },
+    { "type": "br", "sectionID": "section3"},
+    { "type": "span", "sectionID": "section3", "elementContent": ["Aby stworzyć folder, należy wykorzystać polecenie do tworzenia zasobów i podać ścieżkę ", ""] },
+    { "type": "text-block-name", "sectionID": "section3", "elementContent": ["-Path &quot;ścieżka&quot;", ""] },
+    { "type": "span", "sectionID": "section3", "elementContent": [" oraz typ tworzonego obiektu ", ""] },
+    { "type": "text-block-name", "sectionID": "section3", "elementContent": ["-ItemType {File; Directory}", ""] },
+    { "type": "br", "sectionID": "section3"},
+    { "type": "span", "sectionID": "section3", "elementContent": ["Do udostępnienia zasobu w sieci wykorzystano polecenie ", ""] },
+    { "type": "text-block-name", "sectionID": "section3", "elementContent": ["New-SmbShare", ""] },
+    { "type": "span", "sectionID": "section3", "elementContent": [", które wymaga zainstalowania roli serwera plików. ", ""] },
+    { "type": "span", "sectionID": "section3", "elementContent": ["Składnia polecenia:", ""] },
+    {
+        "type": "list",
+        "sectionID": "section3",
+        "elementContent": {
+          "ver": "ul",
+          "listElements": [
+            [
+              {
+                "type": "text-block-name",
+                "sectionID": "section3",
+                "elementContent": ["-Name &quot;Nazwa udziału w sieci&quot;", ""]
+              },
+              {
+                "type": "text-block-name",
+                "sectionID": "section3",
+                "elementContent": ["-Path &quot;Lokalizacja folderu do udostępnienia&quot;", ""]
+              }
+            ],
+            [
+              {
+                "type": "text-block-name",
+                "sectionID": "section3",
+                "elementContent": ["-ReadAccess &quot;Nazwa grupy lub użytkownika&quot;", ""]
+              },
+              {
+                "type": "span",
+                "sectionID": "section3",
+                "elementContent": [": określenie, kto ma mieć prawa do odczytu.", ""]
+              }
+            ],
+            [
+              {
+                "type": "text-block-name",
+                "sectionID": "section3",
+                "elementContent": ["-ChangeAccess &quot;Nazwa grupy lub użytkownika&quot;", ""]
+              },
+              {
+                "type": "span",
+                "sectionID": "section3",
+                "elementContent": [": określenie, kto ma mieć prawa do zmiany (w tym do odczytu).", ""]
+                }
+            ],
+            [
+              {
+                "type": "text-block-name",
+                "sectionID": "section3",
+                "elementContent": ["-CurrentUserLimit 5", ""]
+              },
+              {
+                "type": "span",
+                "sectionID": "section3",
+                "elementContent": [": maksymalne ograniczenie jednocześnie podłączonych do udziału użytkowników do 5.", ""]
+              }
+            ],
+            [
+              {
+                "type": "text-block-name",
+                "sectionID": "section3",
+                "elementContent": ["-Description &quot;Komentarz udziału&quot;", ""]
+              }
+            ]
+        ]
+        }
+        },
+        {
+            "type": "img",
+            "sectionID": "section3",
+            "elementContent": [
+              "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/ps_share_3.webp",
+              "Udostępnianie zasobu w sieci poprzez PowerShell.",
+              "1026",
+              "497",
+              "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/ps_share_3_ORIGINAL.webp"
+            ]
+          },
+          { "type": "br", "sectionID": "section3"},
+          { "type": "span", "sectionID": "section3", "elementContent": ["W tym momencie podstawowy udział sieciowy jest już gotowy. Osiągnięto ten sam efekt co w przypadku ", ""] },
+          {
+            "type": "text-block-name",
+            "sectionID": "section3",
+            "elementContent": ["net share", ""]
+          },
+          { "type": "span", "sectionID": "section3", "elementContent": [" w CMD.", ""] },
+          { "type": "br", "sectionID": "section3"},
+          { "type": "span", "sectionID": "section3", "elementContent": ["Teraz zaimplementujemy możliwość buforowania używanych zasobów w udziale. Do tego przyda się polecenie ", ""] },
+          { "type": "text-block-name", "sectionID": "section3", "elementContent": ["Set-SmbShare", ""] },
+          { "type": "span", "sectionID": "section3", "elementContent": [".", ""] },
+          { "type": "br", "sectionID": "section3"},
+          { "type": "span", "sectionID": "section3", "elementContent": ["Składnia:", ""] },
+          {
+              "type": "list",
+              "sectionID": "section3",
+              "elementContent": {
+                "ver": "ul",
+                "listElements": [
+                  [
+                    {
+                      "type": "text-block-name",
+                      "sectionID": "section3",
+                      "elementContent": ["-Name &quot;Nazwa udziału do zmodyfikowania&quot;", ""]
+                    }
+                ],[
+                    {
+                      "type": "text-block-name",
+                      "sectionID": "section3",
+                      "elementContent": ["-CachingMode {Programs; Manual; None; Documents; Programs}", ""]
+                    },
+                    {
+                        "type": "span",
+                        "sectionID": "section3",
+                        "elementContent": [": Ustawienie trybu buforowania.", ""]
+                      },
+                    {
+                        "type":"list",
+                        "sectionID":"section3",
+                        "elementContent":{
+                            "ver":"ul",
+                            "listElements":[
+                                [
+                                    {
+                                        "type":"text-block-name",
+                                        "sectionID":"section3",
+                                        "elementContent":["Manual", ""]
+                                    },
+                                    {
+                                        "type":"span",
+                                        "sectionID":"section3",
+                                        "elementContent":[" – pierwsza opcja", ""]
+                                    }
+                                ],
+                                [
+                                    {
+                                        "type":"text-block-name",
+                                        "sectionID":"section3",
+                                        "elementContent":["None", ""]
+                                    },
+                                    {
+                                        "type":"span",
+                                        "sectionID":"section3",
+                                        "elementContent":[" – druga opcja", ""]
+                                    }
+                                ],
+                                [
+                                    {
+                                        "type":"text-block-name",
+                                        "sectionID":"section3",
+                                        "elementContent":["Documents", ""]
+                                    },
+                                    {
+                                        "type":"span",
+                                        "sectionID":"section3",
+                                        "elementContent":[" – trzecia opcja bez optymalizacji", ""]
+                                    }
+                                ],
+                                [
+                                    {
+                                        "type":"text-block-name",
+                                        "sectionID":"section3",
+                                        "elementContent":["Programs", ""]
+                                    },
+                                    {
+                                        "type":"span",
+                                        "sectionID":"section3",
+                                        "elementContent":[" – trzecia opcja z optymalizacją", ""]
+                                    }
+                                ]
+                            ]
+                            
+                        }
+                    }
+                    ]
+                    
+                ]
+                }
+            },
+            {
+                "type": "img",
+                "sectionID": "section3",
+                "elementContent": [
+                  "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/ps_share_4.webp",
+                  "Buforowanie plików w udziale sieciowym.",
+                  "1026",
+                  "497",
+                  "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/ps_share_4_ORIGINAL.webp"
+                ]
+              },
+  { "type": "span", "sectionID": "section3", "elementContent": ["Jak widzisz na poniższym obrazku, buforowanie plików w trybie ", ""] },
+  { "type": "i", "sectionID": "section3", "elementContent": ["offline", ""] },
+  { "type": "span", "sectionID": "section3", "elementContent": [" działa.", ""] },
+  {
+    "type": "img",
+    "sectionID": "section3",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/ps_share_5.webp",
+      "Potwierdzenie działania buforowania plików w udziale sieciowym.",
+      "1920",
+      "970",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/ps_share_5_ORIGINAL.webp"
+    ]
+  },
+  { "type": "br", "sectionID": "section3"},
+  { "type": "br", "sectionID": "section3"},
+  { "type": "span", "sectionID": "section3", "elementContent": ["Z racji że wykorzystywana jest usługa serwera plików, możesz utworzyć przydział wykorzystując gotowe schematy. Pamiętaj, aby odświeżyć „Menadżer serwera”, by zaobserwować zmiany.", ""] },
+  { "type": "br", "sectionID": "section3"},
+  { "type": "span", "sectionID": "section3", "elementContent": ["Ustawienie przydziału/QUOTY wykonasz przy użyciu polecenia ", ""] },
+  {
+    "type": "text-block-name",
+    "sectionID": "section3",
+    "elementContent": ["New-FsrmQuota", ""]
+  },
+  { "type": "span", "sectionID": "section3", "elementContent": [". Składnia:", ""] },
+  {
+    "type": "list",
+    "sectionID": "section3",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "text-block-name",
+            "sectionID": "section3",
+            "elementContent": ["-Path &quot;Ścieżka do katalogu udostępnionego w sieci&quot;", ""]
+          }
+        ],
+        [
+            {
+                "type": "text-block-name",
+                "sectionID": "section3",
+                "elementContent": ["-Template &quot;Nazwa templatki&quot;", ""]
+            }
+        ]
+    ]
+    }
+    },
+    {
+        "type": "img",
+        "sectionID": "section3",
+        "elementContent": [
+          "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/ps_share_6.webp",
+          "Nadanie przydziału/QUOTA przy pomocy templatki w PowerShell.",
+          "1920",
+          "970",
+          "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/ps_share_6_ORIGINAL.webp"
+        ]
+      },
+    { "type": "span", "sectionID": "section3", "elementContent": ["Aby ograniczyć widoczność zasobów tylko dla określonych użytkowników, należy zmienić ich uprawnienia, tak jak to było robione w konfiguracji Serwera plików.", ""] },
+
+    
+    {
+        "type": "img",
+        "sectionID": "section3",
+        "elementContent": [
+          "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/ps_share_7.webp",
+          "Ograniczanie widoczności zasobów poprze Set-SmbShare w PowerShell.",
+          "1920",
+          "970",
+          "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/ps_share_7_ORIGINAL.webp"
+        ]
+      },
+      { "type": "span", "sectionID": "section3", "elementContent": ["W efekcie końcowym, gdy dokonasz autoryzacji jako ", ""] },
+    { "type": "bi", "sectionID": "section3", "elementContent": ["user1", ""] },
+    { "type": "span", "sectionID": "section3", "elementContent": [", tylko część zasobów będzie widoczna:", ""] },
+    {
+        "type": "img",
+        "sectionID": "section3",
+        "elementContent": [
+          "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/ps_share_8.webp",
+          "Potwierdzenie działania ukrywania zasobów w udziale sieciowym przed niepowołanymi użytkownikami.",
+          "1764",
+          "648",
+          "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/ps_share_8_ORIGINAL.webp"
+        ]
+      }
+]
