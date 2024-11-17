@@ -1,4 +1,290 @@
 [
-  {"type": "h2", "sectionID": "section1", "elementContent": ["Wstęp"]},
-   {"type": "span", "sectionID": "section1","elementContent":["Aplikacja ",""]}
+    { "type": "h2", "sectionID": "section1", "elementContent": ["Wprowadzenie do Zarządzania Dyskami"] },
+    { "type": "span", "sectionID": "section1", "elementContent": ["Przystawka „", ""] },
+    { "type": "bi", "sectionID": "section1", "elementContent": ["Zarządzanie dyskami", ""] },
+    { "type": "span", "sectionID": "section1", "elementContent": ["” to narzędzie w systemie Windows, które umożliwia użytkownikom zarządzanie dyskami twardymi i partycjami. Dzięki niej można tworzyć, usuwać, formatować i zmieniać rozmiar woluminów, a także zarządzać dyskami dynamicznymi.", ""] },
+    {
+        "type": "img",
+        "sectionID": "section1",
+        "elementContent": [
+          "Edu-Koala-V/koala-v-assets-art1/main/windows10/diskmgmt.msc_run.webp",
+          "Dwa sposoby na uruchomienie Zarządzania Dyskami",
+          "804",
+          "603",
+          "Edu-Koala-V/koala-v-assets-art1/main/windows10/diskmgmt.msc_run_ORIGINAL.webp"
+        ]
+      },
+    
+      { "type": "h2", "sectionID": "section2", "elementContent": ["Inicjowanie nowych dysków"] },
+      { "type": "span", "sectionID": "section2", "elementContent": ["Gdy dodasz całkowicie nowy dysk do komputera lub serwera, nie zostanie on wykryty jako partycja. System interpretuje dyski bez tablicy partycjonowania i systemu plików jako przestrzeń nieprzydzieloną urządzenia pamięci masowej i musi je zainicjować, aby użytkownik i oprogramowanie mogli z nich korzystać.", ""] },
+    { "type": "br", "sectionID": "section2"},
+    { "type": "span", "sectionID": "section2", "elementContent": ["Dowiedz się więcej:", ""] },
+    {
+        "type": "link-art",
+        "sectionID": "section2",
+        "elementContent": ["Tablice Partycjonowania","Pamięci masowe"]
+
+    },
+    { "type": "br", "sectionID": "section2"},
+
+    { "type": "span", "sectionID": "section2", "elementContent": ["Uruchamiając przystawkę „", ""] },
+    { "type": "bi", "sectionID": "section2", "elementContent": ["Zarządzanie dyskami", ""] },
+    { "type": "span", "sectionID": "section2", "elementContent": ["”, pojawi się okienko inicjalizacji nowych dysków, w którym dokonasz podstawowego wyboru pomiędzy tablicami partycjonowania: ", ""] },
+    { "type": "br", "sectionID": "section2"},
+    { "type": "bi", "sectionID": "section2", "elementContent": ["MBR", "blue"] },
+    { "type": "span", "sectionID": "section2", "elementContent": [" lub ", ""] },
+    { "type": "bi", "sectionID": "section2", "elementContent": ["GPT", "green"] },
+    { "type": "br", "sectionID": "section2"},
+    { "type": "span", "sectionID": "section2", "elementContent": ["Dowiedz się więcej:", ""] },
+    {
+        "type": "link-art",
+        "sectionID": "section2",
+        "elementContent": ["Systemy plików","Pamięci masowe"]
+    },
+    { "type": "br", "sectionID": "section2"},
+    { "type": "span", "sectionID": "section2", "elementContent": ["Gdyby to okienko nie wyskoczyło, zawsze możesz ręcznie zainicjować dany dysk, klikając prawym przyciskiem myszy na jego nazwę i wybierając z menu kontekstowego „", ""] },
+    { "type": "bi", "sectionID": "section2", "elementContent": ["Zainicjuj dysk", ""] },
+    { "type": "span", "sectionID": "section2", "elementContent": ["”.", ""] },
+    { "type": "br", "sectionID": "section2"},
+    { "type": "h3", "sectionID": "section2", "elementContent": ["Przygotowanie woluminów z przestrzeni nieprzydzielonej na zainicjowanych dyskach", ""] },
+    { "type": "span", "sectionID": "section2", "elementContent": ["Aby utworzyć nowy wolumin, należy kliknąć prawym przyciskiem myszy na czarną sekcję zainicjowanego dysku i z menu kontekstowego wybrać odpowiedni typ woluminu.", ""] },
+    {
+        "type": "img",
+        "sectionID": "section2",
+        "elementContent": [
+          "Edu-Koala-V/koala-v-assets-art1/main/windows10/diskmgmt.msc_inicjalizacja.webp",
+          "Inicjalizacja dysku i dostepne typy woluminów.",
+          "693",
+          "1010",
+          "Edu-Koala-V/koala-v-assets-art1/main/windows10/diskmgmt.msc_inicjalizacja_ORIGINAL.webp"
+        ]
+      },
+    { "type": "h2", "sectionID": "section3", "elementContent": ["Wolumin Prosty", ""] },
+    { "type": "bi", "sectionID": "section3", "elementContent": ["Wolumin prosty", ""] },
+    { "type": "span", "sectionID": "section3", "elementContent": [" (", ""] },
+    { "type": "i", "sectionID": "section3", "elementContent": ["ang. primary volume", ""] },
+    { "type": "span", "sectionID": "section3", "elementContent": [") to podstawowy typ woluminu, który zajmuje pojedynczy obszar tylko na jednym dysku. Jest najłatwiejszy do zarządzania i idealny do podstawowych zadań związanych z przechowywaniem danych.", ""] },
+    {
+        "type": "img",
+        "sectionID": "section3",
+        "elementContent": [
+          "Edu-Koala-V/koala-v-assets-art1/main/windows10/diskmgmt.msc_wolumin_prosty.webp",
+          "Tworzenie logicznego woluminu prostego.",
+          "1512",
+          "827",
+          "Edu-Koala-V/koala-v-assets-art1/main/windows10/diskmgmt.msc_wolumin_prosty_ORIGINAL.webp"
+        ]
+      },
+
+
+    { "type": "h2", "sectionID": "section4", "elementContent": ["Wolumin Łączony", ""] },
+    { "type": "bi", "sectionID": "section4", "elementContent": ["Wolumin Łączony", ""] },
+    { "type": "span", "sectionID": "section4", "elementContent": [" (", ""] },
+    { "type": "i", "sectionID": "section4", "elementContent": ["ang. spanned volume", ""] },
+    { "type": "span", "sectionID": "section4", "elementContent": [") pozwala na połączenie przestrzeni dyskowej z kilku dysków w jeden wolumin. Dane są zapisywane sekwencyjnie na każdym dysku. Wolumin łączony nie oferuje redundancji, więc awaria jednego dysku powoduje utratę danych na całym woluminie.", ""] },
+    { "type": "br", "sectionID": "section3"},
+    { "type": "span", "sectionID": "section3", "elementContent": ["Wybierając ten typ woluminu, stosujesz ", ""] },
+    { "type": "bi", "sectionID": "section3", "elementContent": ["RAID JBOD", ""] },
+    { "type": "span", "sectionID": "section3", "elementContent": [", ponieważ łączysz wiele dysków w jedną przestrzeń roboczą i nie muszą one być identyczne rozmiarowo. Sposób zapisu danych na tych urządzeniach pamięci masowej jest zaczerpnięty z ", ""] },
+    { "type": "bi", "sectionID": "section3", "elementContent": ["JBOD", ""] },
+    { "type": "span", "sectionID": "section3", "elementContent": [".", ""] },
+    { "type": "br", "sectionID": "section3"},
+    { "type": "span", "sectionID": "section3", "elementContent": ["(", ""] },
+    { "type": "bi", "sectionID": "section3", "elementContent": ["JBOD", ""] },
+    { "type": "span", "sectionID": "section3", "elementContent": [" nie jest ", ""] },
+    { "type": "bi", "sectionID": "section3", "elementContent": ["RAID", ""] },
+    { "type": "span", "sectionID": "section3", "elementContent": ["-em, tylko ", ""] },
+    { "type": "bi", "sectionID": "section3", "elementContent": ["mapowaniem dysków", ""] },
+    { "type": "span", "sectionID": "section3", "elementContent": [".)", ""] },
+    {
+        "type": "img",
+        "sectionID": "section4",
+        "elementContent": [
+          "Edu-Koala-V/koala-v-assets-art1/main/windows10/diskmgmt.msc_wolumin_lonczony.webp",
+          "Tworzenie woluminu łączonego.",
+          "1512",
+          "827",
+          "Edu-Koala-V/koala-v-assets-art1/main/windows10/diskmgmt.msc_wolumin_lonczony_ORIGINAL.webp"
+        ]
+      },
+    { "type": "h2", "sectionID": "section5", "elementContent": ["Wolumin Rozłożony", ""] },
+    { "type": "bi", "sectionID": "section5", "elementContent": ["Wolumin Rozłożony", ""] },
+    { "type": "span", "sectionID": "section5", "elementContent": [" (", ""] },
+    { "type": "i", "sectionID": "section5", "elementContent": ["ang. striped volume", ""] },
+    { "type": "span", "sectionID": "section5", "elementContent": [") rozkłada dane równomiernie na kilku dyskach, co zwiększa wydajność odczytu i zapisu. Jednakże, podobnie jak w przypadku woluminu łączonego, awaria jednego dysku skutkuje utratą wszystkich danych.", ""] },
+    { "type": "br", "sectionID": "section5"},
+    { "type": "span", "sectionID": "section5", "elementContent": ["Wolumin rozłożony jest odpowiednikiem ", ""] },
+    { "type": "span", "sectionID": "section5", "elementContent": ["RAID 0", ""] },
+    { "type": "span", "sectionID": "section5", "elementContent": [".", ""] },
+    {
+        "type": "img",
+        "sectionID": "section5",
+        "elementContent": [
+          "Edu-Koala-V/koala-v-assets-art1/main/windows10/diskmgmt.msc_wolumin_rozlozony.webp",
+          "Tworzenie woluminu rozłożonego.",
+          "1512",
+          "827",
+          "Edu-Koala-V/koala-v-assets-art1/main/windows10/diskmgmt.msc_wolumin_rozlozony_ORIGINAL.webp"
+        ]
+      },
+    { "type": "h2", "sectionID": "section6", "elementContent": ["Wolumin Dublowany", ""] },
+    { "type": "bi", "sectionID": "section6", "elementContent": ["Wolumin Dublowany", ""] },
+    { "type": "span", "sectionID": "section6", "elementContent": [" (", ""] },
+    { "type": "i", "sectionID": "section6", "elementContent": ["ang. mirrored volume", ""] },
+    { "type": "span", "sectionID": "section6", "elementContent": [") tworzy kopię lustrzaną danych na dwóch dyskach. Zapewnia to wysoką dostępność i redundancję, ponieważ dane są zapisywane jednocześnie na obu dyskach. W przypadku awarii jednego dysku dane są nadal dostępne na drugim.", ""] },
+    { "type": "br", "sectionID": "section5"},
+    { "type": "span", "sectionID": "section5", "elementContent": ["Wolumin dublowany jest odpowiednikiem ", ""] },
+    { "type": "span", "sectionID": "section5", "elementContent": ["RAID 1", ""] },
+    { "type": "span", "sectionID": "section5", "elementContent": [".", ""] },
+    {
+        "type": "img",
+        "sectionID": "section6",
+        "elementContent": [
+          "Edu-Koala-V/koala-v-assets-art1/main/windows10/diskmgmt.msc_wolumin_dublowany.webp",
+          "Tworzenie woluminu dublowanego.",
+          "1512",
+          "827",
+          "Edu-Koala-V/koala-v-assets-art1/main/windows10/diskmgmt.msc_wolumin_dublowany_ORIGINAL.webp"
+        ]
+      },
+    { "type": "h2", "sectionID": "section7", "elementContent": ["Wolumin RAID 5", ""] },
+    { "type": "bi", "sectionID": "section7", "elementContent": ["Wolumin RAID 5", ""] },
+    { "type": "span", "sectionID": "section7", "elementContent": [" to zaawansowana konfiguracja dostępna w wersjach serwerowych systemu Windows, takich jak Windows Server 2022. RAID 5 rozkłada dane i parzystość (informacje o odzyskiwaniu danych) na co najmniej trzech dyskach. Zapewnia to zarówno zwiększoną wydajność, jak i redundancję. W przypadku awarii jednego dysku dane mogą być odzyskane z pozostałych dysków dzięki informacjom o parzystości.", ""] },
+    {
+        "type": "img",
+        "sectionID": "section7",
+        "elementContent": [
+          "Edu-Koala-V/koala-v-assets-art1/main/windows10/diskmgmt.msc_wolumin_RAID-5.webp",
+          "Tworzenie woluminu RAID 5.",
+          "1512",
+          "827",
+          "Edu-Koala-V/koala-v-assets-art1/main/windows10/diskmgmt.msc_wolumin_RAID-5_ORIGINAL.webp"
+        ]
+      },
+    { "type": "h2", "sectionID": "section8", "elementContent": ["Dysk Wirtualny (VHD)", ""] },
+    { "type": "span", "sectionID": "section8", "elementContent": ["Dysk Wirtualny (", ""] },
+    { "type": "bi", "sectionID": "section8", "elementContent": ["VHD", ""] },
+    { "type": "span", "sectionID": "section8", "elementContent": [") to pliki obrazów dysków, które mogą zawierać wszystko, co znajduje się na fizycznych dyskach twardych, takie jak pliki, foldery, systemy plików i partycje. Są one najczęściej używane jako dyski maszyn wirtualnych.", ""] },
+    { "type": "br", "sectionID": "section8"},
+    { "type": "span", "sectionID": "section8", "elementContent": ["Aby utworzyć i zainicjować nowy dysk ", ""] },
+    { "type": "span", "sectionID": "section8", "elementContent": ["VHD", ""] },
+    { "type": "span", "sectionID": "section8", "elementContent": [", wykonaj następujące kroki:", ""] },
+    { "type": "list", "sectionID": "section8", "elementContent": {
+        "ver": "ol",
+        "listElements": [
+          [
+            { "type": "span", "sectionID": "section8", "elementContent": ["Kliknij ", ""] },
+            { "type": "b", "sectionID": "section8", "elementContent": ["Akcja", ""] },
+            { "type": "span", "sectionID": "section8", "elementContent": [" z menu górnego.", ""] }
+          ],
+          [
+            { "type": "span", "sectionID": "section8", "elementContent": ["Z menu kontekstowego wybierz ", ""] },
+            { "type": "b", "sectionID": "section8", "elementContent": ["Utwórz dysk VHD", ""] },
+            { "type": "span", "sectionID": "section8", "elementContent": [".", ""] }
+          ],
+          [
+            { "type": "span", "sectionID": "section8", "elementContent": ["Podaj lokalizację pliku dysku wirtualnego. Możesz ją wpisać lub wskazać po kliknięciu w ", ""] },
+            { "type": "ref-btn-for-img", "sectionID": "section8", "elementContent": ["Przeglądaj…", ""] },
+            { "type": "span", "sectionID": "section8", "elementContent": [".", ""] }
+          ],
+          [
+            { "type": "span", "sectionID": "section8", "elementContent": ["Ustal rozmiar wirtualnego dysku. Możesz zmieniać jednostki miary.", ""] }
+          ],
+          [
+            { "type": "span", "sectionID": "section8", "elementContent": ["Zalecam wybranie typu ", ""] },
+            { "type": "bi", "sectionID": "section8", "elementContent": ["Dynamicznie powiększający się", ""] },
+            { "type": "span", "sectionID": "section8", "elementContent": [". Dzięki temu plik będzie zajmował przestrzeń roboczą w stopniu rzeczywistego zapotrzebowania.", ""] }
+          ],
+          [
+            { "type": "span", "sectionID": "section8", "elementContent": ["Kliknij  ", ""] },
+            {
+                "type": "ref-btn-for-img",
+                "sectionID": "section1",
+                "elementContent": ["OK"]
+              },
+            { "type": "span", "sectionID": "section8", "elementContent": [" i po chwili zostanie utworzony dysk VHD.", ""] }
+            ],
+            [
+                { "type": "span", "sectionID": "section8", "elementContent": ["Po utworzeniu dysku VHD pojawi się on jako ostatni dostępny dysk. Kliknij prawym przyciskiem myszy na jego nazwę i z menu kontekstowego wybierz ", ""] },
+            { "type": "span", "sectionID": "section8", "elementContent": ["Zainicjuj dysk.", ""] },
+            { "type": "span", "sectionID": "section8", "elementContent": [".", ""] }
+            ],
+            [
+                { "type": "span", "sectionID": "section8", "elementContent": ["Dokonaj wyboru tablicy partycjonowania.", ""] }
+            ],
+            [
+                { "type": "span", "sectionID": "section8", "elementContent": ["Po zainicjowaniu, utwórz nowy wolumin prosty.", ""] }
+            ]
+        ]
+        }
+    },
+  { "type": "span", "sectionID": "section8", "elementContent": ["Po wykonaniu tych kroków system będzie wykorzystywał plik dysku wirtualnego jako partycję. Więc dopóki go nie odłączysz w przystawce, nie możesz usunąć ani przenieść pliku ", ""] },
+  { "type": "bi", "sectionID": "section8", "elementContent": [".vhd", ""] },
+  { "type": "span", "sectionID": "section8", "elementContent": [". Alternatywnie, w Eksploratorze plików kliknij prawym przyciskiem myszy na dysk i wybierz opcję „", ""] },
+  { "type": "bi", "sectionID": "section8", "elementContent": ["Wysuń", ""] },
+  { "type": "span", "sectionID": "section8", "elementContent": ["”.", ""] },
+  { "type": "br", "sectionID": "section8"},
+  { "type": "br", "sectionID": "section8"},
+  { "type": "span", "sectionID": "section8", "elementContent": ["Dodatkowo, dyski wirtualne nie są montowane automatycznie przy starcie systemu, więc będziesz musiał za każdym razem montować je w przystawce lub poprzez dwukrotne kliknięcie pliku", ""] },
+  { "type": "bi", "sectionID": "section8", "elementContent": [".vhd", ""] },
+  { "type": "span", "sectionID": "section8", "elementContent": [".", ""] },
+  {
+    "type": "img",
+    "sectionID": "section8",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/windows10/diskmgmt.msc_create_virtual.webp",
+      "Tworzenie dysku wirtualnego VHD.",
+      "1917",
+      "928",
+      "Edu-Koala-V/koala-v-assets-art1/main/windows10/diskmgmt.msc_create_virtual_ORIGINAL.webp"
+    ]
+  },
+  { "type": "span", "sectionID": "section8", "elementContent": ["Poniżej demonstruję odłączenie ", ""] },
+  { "type": "b", "sectionID": "section8", "elementContent": ["VHD", ""] },
+  { "type": "span", "sectionID": "section8", "elementContent": [" z ", ""] },
+  { "type": "bi", "sectionID": "section8", "elementContent": ["Dysku 7", ""] },
+  { "type": "span", "sectionID": "section8", "elementContent": [" (zaznaczone w fioletowym obramowaniu), aby następnie podłączyć go jako oddzielną, prawie autonomiczną pamięć masową.", ""] },
+  {
+    "type": "img",
+    "sectionID": "section8",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/windows10/diskmgmt.msc_link_virtual_disk.webp",
+      "Odłączanie dysku wirtualnego VHD i odłączanie dysku wirtualnego VHD.",
+      "1394",
+      "928",
+      "Edu-Koala-V/koala-v-assets-art1/main/windows10/diskmgmt.msc_link_virtual_disk_ORIGINAL.webp"
+    ]
+  },
+
+  
+  { "type": "h2", "sectionID": "section9", "elementContent": ["Zmiana rozmiaru woluminów", ""] },
+  { "type": "span", "sectionID": "section9", "elementContent": ["Zmiana rozmiaru woluminu jest bardzo łatwa. Wystarczy kliknąć prawym przyciskiem myszy na wolumin i wybrać odpowiednią opcję z menu kontekstowego.", ""] },
+  { "type": "br", "sectionID": "section9"},
+  { "type": "span", "sectionID": "section9", "elementContent": ["Dla przykładu, na obrazku z lewej strony masz zmniejszenie, a z prawej rozszerzenie woluminu.", ""] },
+  {
+    "type": "img",
+    "sectionID": "section9",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/windows10/diskmgmt.msc_rozmiar_woluminu.webp",
+      "Zmiana rozmiaru woluminów.",
+      "1920",
+      "929",
+      "Edu-Koala-V/koala-v-assets-art1/main/windows10/diskmgmt.msc_rozmiar_woluminu_ORIGINAL.webp"
+    ]
+  },
+  { "type": "span", "sectionID": "section9", "elementContent": ["W efekcie końcowym możesz uzyskać następujący efekt:", ""] },
+  {
+    "type": "img",
+    "sectionID": "section9",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/windows10/diskmgmt.msc_rozmiar_end_woluminu.webp",
+      "Zmiana rozmiaru woluminów.",
+      "1920",
+      "929",
+      "Edu-Koala-V/koala-v-assets-art1/main/windows10/diskmgmt.msc_rozmiar_end_woluminu_ORIGINAL.webp"
+    ]
+  },
+  { "type": "span", "sectionID": "section9", "elementContent": ["Zauważ, że po rozszerzeniu „", ""] },
+  { "type": "bi", "sectionID": "section9", "elementContent": ["Y Wolumin", ""] },
+  { "type": "span", "sectionID": "section9", "elementContent": ["” nastąpiła zmiana koloru z ciemnoniebieskiego na fioletowy. Wynika to z faktu, że przy rozszerzaniu wybrano dwa dyski, tworząc wolumin łączony.", ""] }
 ]
