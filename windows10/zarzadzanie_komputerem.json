@@ -1,0 +1,287 @@
+[
+    { "type": "h2", "sectionID": "section1", "elementContent": ["Wprowadzenie"] },
+    { "type": "span", "sectionID": "section1", "elementContent": ["Przystawka „", ""] },
+    { "type": "bi", "sectionID": "section1", "elementContent": ["Zarządzanie komputerem", ""] },
+    { "type": "span", "sectionID": "section1", "elementContent": ["” to narzędzie w systemie Windows, które umożliwia zarządzanie różnymi aspektami komputera z jednego miejsca. Jest to szczególnie przydatne dla administratorów systemów oraz zaawansowanych użytkowników.", ""] },
+    { "type": "br", "sectionID": "section1"},
+    { "type": "span", "sectionID": "section1", "elementContent": ["Tę przystawkę możesz uruchomić z menu kontekstowego Windows Start lub wpisując „", ""] },
+    { "type": "i", "sectionID": "section1", "elementContent": ["compmgmt.msc", ""] },
+    { "type": "span", "sectionID": "section1", "elementContent": ["” w programie ", ""] },
+    { "type": "bi", "sectionID": "section1", "elementContent": ["Uruchom", ""] },
+    { "type": "span", "sectionID": "section1", "elementContent": [", który uruchamiasz skrótem klawiszowym :", ""] },
+    {
+        "type": "key-combo",
+        "sectionID": "section1",
+        "elementContent": ["Win", "R"]
+      },
+      { "type": "span", "sectionID": "section1", "elementContent": [".", ""] },
+      {
+        "type": "img",
+        "sectionID": "section1",
+        "elementContent": [
+          "Edu-Koala-V/koala-v-assets-art1/main/windows10/compmgmt.msc_run.webp",
+          "Uruchamianie przystawki „Zarządzanie komputerem”",
+          "782",
+          "624",
+          "Edu-Koala-V/koala-v-assets-art1/main/windows10/compmgmt.msc_run_ORIGINAL.webp"
+        ]
+      },
+  { "type": "span", "sectionID": "section1", "elementContent": ["Jak widzisz, przystawka „", ""] },
+  { "type": "span", "sectionID": "section1", "elementContent": ["Zarządzanie komputerem", ""] },
+  { "type": "span", "sectionID": "section1", "elementContent": ["” zawiera szereg innych przydatnych przystawek, podzielonych na trzy sekcje:", ""] },
+  {
+    "type": "list",
+    "sectionID": "section1",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "span",
+            "sectionID": "section1",
+            "elementContent": ["Narzędzia systemowe", ""]
+          }
+        ],
+        [
+            {
+              "type": "span",
+              "sectionID": "section1",
+              "elementContent": ["Magazyn", ""]
+            }
+          ],
+          [
+              {
+                "type": "span",
+                "sectionID": "section1",
+                "elementContent": ["Usługi i aplikacje", ""]
+              }
+            ]
+      ]
+    }
+  },
+  {
+    "type": "img",
+    "sectionID": "section1",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/windows10/compmgmt.msc_group.webp",
+      "Sekcje w przystawce „Zarządzanie komputerem”",
+      "817",
+      "394",
+      "Edu-Koala-V/koala-v-assets-art1/main/windows10/compmgmt.msc_group_ORIGINAL.webp"
+    ]
+  },
+  { "type": "h2", "sectionID": "section2", "elementContent": ["Harmonogram zadań (taskschd.msc)", ""] },
+  { "type": "span", "sectionID": "section2", "elementContent": ["Ta przystawka służy do uruchamiania w określonym czasie:", ""] },
+  {
+    "type": "list",
+    "sectionID": "section2",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": ["programów z opcjonalnymi argumentami, ", ""]
+          }],
+          [
+            {
+              "type": "span",
+              "sectionID": "section2",
+              "elementContent": ["poleceń systemowych z CMD, ", ""]
+            }
+          ],
+          [
+            {
+              "type": "span",
+              "sectionID": "section2",
+              "elementContent": ["skryptów ", ""]
+            },
+            {
+                "type": "span",
+                "sectionID": "section2",
+                "elementContent": ["BATCH", ""]
+              },
+              {
+                "type": "span",
+                "sectionID": "section2",
+                "elementContent": [" (.bat) i ", ""]
+              },
+              {
+                "type": "span",
+                "sectionID": "section2",
+                "elementContent": ["PowerShell", ""]
+              },
+              {
+                "type": "span",
+                "sectionID": "section2",
+                "elementContent": [" (.ps1).", ""]
+              }
+
+          ]
+        ]
+    }
+  },
+  { "type": "span", "sectionID": "section2", "elementContent": ["Warto co jakiś czas sprawdzać, jakie zadania zostały dodane przez inne oprogramowanie. Na przykład w moim przypadku są to zdarzenia dotyczące przeglądarki Mozilla Firefox.", ""] },
+  { "type": "br", "sectionID": "section2"},
+  { "type": "span", "sectionID": "section2", "elementContent": ["Jeżeli zaobserwujesz jakieś dziwne zadanie, możliwe, że twój komputer został zainfekowany złośliwym oprogramowaniem.", ""] },
+  {
+    "type": "img",
+    "sectionID": "section2",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/windows10/taskschd.msc_run.webp",
+      "Przystawka „Harmonogram zadań”",
+      "1919",
+      "1080",
+      "Edu-Koala-V/koala-v-assets-art1/main/windows10/taskschd.msc_run_ORIGINAL.webp"
+    ]
+  },
+
+  { "type": "h2", "sectionID": "section3", "elementContent": ["Podgląd zdarzeń (eventvwr.msc)"] },
+  { "type": "span", "sectionID": "section3", "elementContent": ["To przystawka, w której znajdziesz w prosty sposób ładnie przedstawione logi systemowe oraz logi programów, które zostały zainstalowane.", ""] },
+  { "type": "br", "sectionID": "section3"},
+  { "type": "span", "sectionID": "section3", "elementContent": ["Poniżej przykład błędu, który wystąpił u mnie 2,5 godziny przed zrobieniem zrzutu ekranu. (Maszyna wirtualna się zawiesiła i zakończyłem proces w Menadżerze zadań.)", ""] },
+  {
+    "type": "img",
+    "sectionID": "section3",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/windows10/eventvwr.msc_run.webp",
+      "Przystawka „Podgląd zdarzeń”",
+      "1920",
+      "1010",
+      "Edu-Koala-V/koala-v-assets-art1/main/windows10/eventvwr.msc_run_ORIGINAL.webp"
+    ]
+  },
+
+  { "type": "h2", "sectionID": "section4", "elementContent": ["Foldery udostępnione (fsmgmt.msc)"] },
+  { "type": "span", "sectionID": "section4", "elementContent": ["Znajdziesz tu trzy sekcje:", ""] },
+  {
+    "type": "list",
+    "sectionID": "section4",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+  { "type": "b", "sectionID": "section4", "elementContent": ["Udziały", ""] },
+
+          {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": [": Wszystkie udostępnione katalogi, stworzone partycje oraz katalog ADMIN$ do zdalnego łączenia się administratorów systemu i IPC$ (Inter-Process Communication), umożliwiający programom i procesom wymianę danych i komunikację w sieci.", ""]
+          }
+        ],
+        [
+  { "type": "b", "sectionID": "section4", "elementContent": ["Sesje", ""] },
+
+          {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": [": Pokazują wszystkich podłączonych użytkowników i ich czas połączenia.", ""]
+          }
+        ],
+        [
+  { "type": "b", "sectionID": "section4", "elementContent": ["Otwarte pliki", ""] },
+
+          {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": [": Powinny wskazywać jaki plik jest otwarty, ale jedyne, co można z nich wywnioskować, to jaki udział jest otwarty przez danego użytkownika.", ""]
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "type": "img",
+    "sectionID": "section4",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/windows10/fsmgmt.msc_run.webp",
+      "Przystawka „Foldery udostępnione”",
+      "1920",
+      "1009",
+      "Edu-Koala-V/koala-v-assets-art1/main/windows10/fsmgmt.msc_run_ORIGINAL.webp"
+    ]
+  },
+
+  { "type": "h2", "sectionID": "section5", "elementContent": ["Użytkownicy i grupy lokalne (lusrmgr.msc)"] },
+  { "type": "span", "sectionID": "section5", "elementContent": ["Bardzo przydatna przystawka do zarządzania użytkownikami i grupami na komputerze lokalnym.", ""] },
+  {
+    "type": "img",
+    "sectionID": "section5",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/windows10/lusrmgr.msc_run.webp",
+      "Przystawka „Użytkownicy i grupy lokalne”",
+      "1920",
+      "1009",
+      "Edu-Koala-V/koala-v-assets-art1/main/windows10/lusrmgr.msc_run_ORIGINAL.webp"
+    ]
+  },
+
+  { "type": "h2", "sectionID": "section6", "elementContent": ["Wydajność, czyli Monitor zasobów (perfmon.msc) i Menadżer zadań"] },
+  { "type": "span", "sectionID": "section6", "elementContent": ["W tej przystawce „", ""] },
+  { "type": "bi", "sectionID": "section6", "elementContent": ["Wydajność", ""] },
+  { "type": "span", "sectionID": "section6", "elementContent": ["” możesz uruchomić ", ""] },
+  { "type": "b", "sectionID": "section6", "elementContent": ["Monitor zasobów", ""] },
+  { "type": "span", "sectionID": "section6", "elementContent": [". Jest on wykorzystywany przez ", ""] },
+  { "type": "b", "sectionID": "section6", "elementContent": ["Menadżer zadań", ""] },
+  { "type": "span", "sectionID": "section6", "elementContent": [", ale w przeciwieństwie do Menadżera zadań pokazuje szczegółowo i w czasie rzeczywistym zużycie ", ""] },
+  { "type": "b", "sectionID": "section6", "elementContent": ["CPU", ""] },
+  { "type": "span", "sectionID": "section6", "elementContent": [", ", ""] },
+  { "type": "b", "sectionID": "section6", "elementContent": ["dysku", ""] },
+  { "type": "span", "sectionID": "section6", "elementContent": [", ", ""] },
+  { "type": "b", "sectionID": "section6", "elementContent": ["sieci", ""] },
+  { "type": "span", "sectionID": "section6", "elementContent": [" i ", ""] },
+  { "type": "b", "sectionID": "section6", "elementContent": ["RAM", ""] },
+  { "type": "span", "sectionID": "section6", "elementContent": [" przez wybrane procesy.", ""] },
+  {
+    "type": "img",
+    "sectionID": "section6",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/windows10/perfmon.msc_run.webp",
+      "Przystawka „Wydajność”",
+      "1920",
+      "1010",
+      "Edu-Koala-V/koala-v-assets-art1/main/windows10/perfmon.msc_run_ORIGINAL.webp"
+    ]
+  },
+
+  { "type": "h2", "sectionID": "section7", "elementContent": ["Menadżer urządzeń (devmgmt.msc)"] },
+  { "type": "span", "sectionID": "section7", "elementContent": ["Bardzo ważna przystawka służąca diagnostyce, wykrywaniu podzespołów i urządzeń podłączonych do komputera oraz weryfikacji niezainstalowanych sterowników.", ""] },
+  {
+    "type": "img",
+    "sectionID": "section7",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/windows10/devmgmt.msc_run.webp",
+      "Przystawka „Menadżer urządzeń”",
+      "1920",
+      "1010",
+      "Edu-Koala-V/koala-v-assets-art1/main/windows10/devmgmt.msc_run_ORIGINAL.webp"
+    ]
+  },
+
+  { "type": "h2", "sectionID": "section8", "elementContent": ["Zarządzania Dyskami (diskmgmt.msc)"] },
+  { "type": "span", "sectionID": "section8", "elementContent": ["Ta przystawka została dokładniej opisana w tym artykule: ", ""] },
+  {
+    "type": "link-art",
+    "sectionID": "section8",
+    "elementContent": ["Zarządzanie dyskami", "Windows 10"]
+  },
+  { "type": "span", "sectionID": "section8", "elementContent": [".", ""] },
+
+  { "type": "h2", "sectionID": "section9", "elementContent": ["Usługi (services.msc)"] },
+  { "type": "span", "sectionID": "section9", "elementContent": ["W tej przystawce znajdziesz wszystkie serwisy systemu oraz programów zainstalowanych na komputerze. Możesz zarządzać ich ustawieniami, decydując, czy mają się uruchamiać automatycznie przy starcie systemu, ręcznie przy okazji działań użytkownika, czy też całkowicie wyłączyć daną usługę.", ""] },
+  { "type": "br", "sectionID": "section9"},
+  { "type": "br", "sectionID": "section9"},
+  { "type": "span", "sectionID": "section9", "elementContent": ["👾 Złośliwe oprogramowanie często ukrywa się pod nazwami przypominającymi legalne usługi, co może utrudniać jego identyfikację. Dlatego warto regularnie przeglądać listę usług i zwracać uwagę na te, które wydają się podejrzane lub nieznane. Jeśli zauważysz coś nietypowego, warto przeprowadzić dodatkowe skanowanie systemu w poszukiwaniu złośliwego oprogramowania.", ""] },
+  {
+    "type": "img",
+    "sectionID": "section9",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/windows10/services.msc_run.webp",
+      "Przystawka „Usługi”",
+      "1920",
+      "1009",
+      "Edu-Koala-V/koala-v-assets-art1/main/windows10/services.msc_run_ORIGINAL.webp"
+    ]
+  }
+]
