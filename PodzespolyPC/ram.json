@@ -1,270 +1,483 @@
 [
-    {
-        "type":"h1",
-        "sectionID":"section1",
-        "elementContent":["Wstęp",""]
-    },
-    {
-        "type":"span",
-        "sectionID":"section1",
-        "elementContent":["Pamięci operacyjne w przeciwieństwie do pamięci masowych mają za zadnie przechowywać dane użytkowe potrzebne do pracy podzespołów komputera.",""]
-    },
-    {
-        "type": "img",
-        "sectionID": "section1",
-        "elementContent": [
-          "Edu-Koala-V/koala-v-assets-art1/main/PodzespolyPC/memory_tree.webp",
-          "Drzewo rodzajów pamięci stosowanych w komputerach.",
-          "2391",
-          "823",
-          "Edu-Koala-V/koala-v-assets-art1/main/PodzespolyPC/memory_tree_ORIGINAL.webp"
-        ]
-      },
-    {
-        "type":"h2",
-        "sectionID":"section2",
-        "elementContent":["Pamięci RAM",""]
-    },
-    {
-        "type":"span",
-        "sectionID":"section2",
-        "elementContent":["Pamięci RAM (Random Access Memory) to kluczowy element każdego komputera i smartphona. Służą do tymczasowego przechowywania danych, które są potrzebne do bieżącej pracy systemu. Pamięci RAM są szybkie, ale dane w nich przechowywane znikają po wyłączeniu komputera. Bez pamięci RAM komputer działałby znacznie wolniej, ponieważ musiałby odczytywać dane bezpośrednio z dysku twardego, co jest dużo wolniejsze.",""]
-    },
-    {
-      "type":"br",
-      "sectionID":"section2"
-    },
-    {
-      "type":"br",
-      "sectionID":"section2"
-    },
-    {
-      "type":"br",
-      "sectionID":"section2"
-    },
-    {
-        "type":"i",
-        "sectionID":"section2",
-        "elementContent":["Wyobraź sobie szwedzki stół, który reprezentuje pamięć masową, na przykład SSD. Jedzenie na stole to bity informacji, które potrzebujesz, aby zrealizować proces najedzenia się. Gdybyś odczytywał bit po bicie, realizowałbyś akcję polegającą na tym, że bierzesz widelcem kęs jakiegoś dania, następnie idziesz do stołu i go konsumujesz. W ten sposób proces najedzenia się byłby strasznie długi. Pamięć RAM w tej metaforze to talerz, na którym gromadzisz dane (jedzenie) do wykonania procesu najedzenia się przy stole. Dzięki temu możesz szybko i efektywnie zjeść posiłek, bez konieczności ciągłego wracania do szwedzkiego stołu po kolejny kęs.",""]
-    },
-    {
-        "type":"h2",
-        "sectionID":"section3",
-        "elementContent":["Podział pamięci RAM",""]
-    },
-    {
-        "type":"bi",
-        "sectionID":"section3",
-        "elementContent":["Rodzaje RAM:",""]
-    },
-    {
-        "type": "list",
-        "sectionID": "section3",
-        "elementContent": {
-          "ver": "ul",
-          "listElements": [
-            [
-              {
-                "type": "b",
-                "sectionID": "section3",
-                "elementContent": ["SRAM (Static RAM) ", ""]
-              },
-              {
-                "type": "span",
-                "sectionID": "section3",
-                "elementContent": [": Szybsza, ale droższa. Używana głównie w pamięciach podręcznych (cache).", ""]
-              }
-            ],
-            [
-                {
-                    "type": "b",
-                    "sectionID": "section3",
-                    "elementContent": ["DRAM (Dynamic RAM) ", ""]
-                },
-                {
-                    "type": "span",
-                    "sectionID": "section3",
-                    "elementContent": [": Wolniejsza, ale tańsza. Wymaga odświeżania. Używana jako główna pamięć operacyjna.", ""]
-                }
-            ]
-          ]
-        }
-      },
-   
-    {
-        "type":"bi",
-        "sectionID":"section3",
-        "elementContent":["Typy DRAM:",""]
-    },
-    {
-        "type": "list",
-        "sectionID": "section3",
-        "elementContent": {
-          "ver": "ul",
-          "listElements": [
-            [
-              {
-                "type": "b",
-                "sectionID": "section3",
-                "elementContent": ["SDRAM (Synchronous DRAM) ", ""]
-              },
-              {
-                "type": "span",
-                "sectionID": "section3",
-                "elementContent": [": Synchronizuje się z zegarem systemowym.", ""]
-              }
-            ],
-            [
-                {
-                    "type": "b",
-                    "sectionID": "section3",
-                    "elementContent": ["RDRAM (Rambus DRAM) ", ""]
-                },
-                {
-                    "type": "span",
-                    "sectionID": "section3",
-                    "elementContent": [": Szybsza, ale droższa.", ""]
-                }
-            ],
-            [
-                {
-                    "type": "b",
-                    "sectionID": "section3",
-                    "elementContent": ["DDR SDRAM (Double Data Rate SDRAM) ", ""]
-                },
-                {
-                    "type": "span",
-                    "sectionID": "section3",
-                    "elementContent": [": Przesyła dane dwa razy na cykl zegara. Kolejne wersje to DDR2, DDR3, DDR4, DDR5.", ""]
-                }
-            ]
-          ]
-        }
-      },
-      {
-        "type": "img",
-        "sectionID": "section3",
-        "elementContent": [
-          "Edu-Koala-V/koala-v-assets-art1/main/PodzespolyPC/wersje_DDR.webp",
-          "Rodzaje pamięci DDR z umieszczeniem rowka w pinach.",
-          "760",
-          "896",
-          "Edu-Koala-V/koala-v-assets-art1/main/PodzespolyPC/wersje_DDR_ORIGINAL.webp"
-        ]
-      },
-    {
-        "type":"h2",
-        "sectionID":"section4",
-        "elementContent":["Jaką pamięć RAM wybrać?",""]
-    },
-    {
-      "type": "list",
-      "sectionID": "section4",
-      "elementContent": {
-        "ver": "ul",
-        "listElements": [
-          [
-            {
-              "type":"bi",
-              "sectionID":"section4",
-              "elementContent":["Technologia:",""]
+  {
+    "type": "h1",
+    "sectionID": "section1",
+    "elementContent": ["Wstęp", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      "Pamięci operacyjne w przeciwieństwie do pamięci masowych mają za zadnie przechowywać dane użytkowe potrzebne do pracy podzespołów komputera.",
+      ""
+    ]
+  },
+  {
+    "type": "img",
+    "sectionID": "section1",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/PodzespolyPC/memory_tree.webp",
+      "Drzewo rodzajów pamięci stosowanych w komputerach.",
+      "2391",
+      "823",
+      "Edu-Koala-V/koala-v-assets-art1/main/PodzespolyPC/memory_tree_ORIGINAL.webp"
+    ]
+  },
+  {
+    "type": "h2",
+    "sectionID": "section2",
+    "elementContent": ["Pamięci RAM", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": ["Pamięci ", ""]
+  },
+  {
+    "type": "b",
+    "sectionID": "section2",
+    "elementContent": ["RAM", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": ["(", ""]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section2",
+    "elementContent": ["Random Access Memory", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      ") to kluczowy element każdego komputera i smartphona. Służą do tymczasowego przechowywania danych, które są potrzebne do bieżącej pracy systemu. Pamięci RAM są szybkie, ale dane w nich przechowywane znikają po wyłączeniu komputera. Bez pamięci RAM komputer działałby znacznie wolniej, ponieważ musiałby odczytywać dane bezpośrednio z dysku twardego, co jest dużo wolniejsze.",
+      ""
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section2"
+  },
+  {
+    "type": "br",
+    "sectionID": "section2"
+  },
+  {
+    "type": "br",
+    "sectionID": "section2"
+  },
+  {
+    "type": "i",
+    "sectionID": "section2",
+    "elementContent": [
+      "Wyobraź sobie szwedzki stół, który reprezentuje pamięć masową, na przykład ",
+      ""
+    ]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section2",
+    "elementContent": ["SSD", ""]
+  },
+  {
+    "type": "i",
+    "sectionID": "section2",
+    "elementContent": [
+      ". Jedzenie na stole to bity informacji, które potrzebujesz, aby zrealizować proces najedzenia się. Gdybyś odczytywał bit po bicie, realizowałbyś akcję polegającą na tym, że bierzesz widelcem kęs jakiegoś dania, następnie idziesz do stołu i go konsumujesz. W ten sposób proces najedzenia się byłby strasznie długi. Pamięć ",
+      ""
+    ]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section2",
+    "elementContent": ["RAM", ""]
+  },
+  {
+    "type": "i",
+    "sectionID": "section2",
+    "elementContent": [
+      " w tej metaforze to talerz, na którym gromadzisz dane (jedzenie) do wykonania procesu najedzenia się przy stole. Dzięki temu możesz szybko i efektywnie zjeść posiłek, bez konieczności ciągłego wracania do szwedzkiego stołu po kolejny kęs.",
+      ""
+    ]
+  },
+  {
+    "type": "h2",
+    "sectionID": "section3",
+    "elementContent": ["Podział pamięci RAM", ""]
+  },
+  {
+    "type": "bi",
+    "sectionID": "section3",
+    "elementContent": ["Rodzaje RAM:", ""]
+  },
+  {
+    "type": "list",
+    "sectionID": "section3",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": ["SRAM (Static RAM) ", ""]
           },
           {
-            "type":"br",
-            "sectionID":"section4"
-        },
-          {
-              "type":"span",
-              "sectionID":"section4",
-              "elementContent":[" Im nowsza technologia, tym teoretycznie powinna być wydajniejsza i bardziej energooszczędna. Ważne jest, aby płyta główna wspierała daną technologię. Na przykład, jeśli masz na płycie głównej wejście dla DDR4, inne pamięci DDR nie będą pasować do tego wejścia.",""]
-          }
-          ],
-          [
-            {
-              "type":"bi",
-              "sectionID":"section4",
-              "elementContent":["Pojemność i system Dual Channel:",""]
-          },
-          {
-            "type":"br",
-            "sectionID":"section4"
-        },
-          {
-              "type":"span",
-              "sectionID":"section4",
-              "elementContent":[" Jeśli planujesz posiadać w swoim komputerze 32GB RAM, zamiast kupować jedną kość o tej pojemności, zaopatrz się w dwie po 16GB lub jeszcze lepiej cztery po 8GB. System Dual Channel pozwala na jednoczesne używanie dwóch modułów pamięci RAM, co podwaja przepustowość danych i zwiększa wydajność systemu.",""]
-          }
-          ],
-          [
-            {
-              "type":"bi",
-              "sectionID":"section4",
-              "elementContent":["Co w przypadku, gdy masz trzy kości RAM?",""]
-          },
-          {
-            "type":"br",
-            "sectionID":"section4"
-        },
-          {
-              "type":"span",
-              "sectionID":"section4",
-              "elementContent":[" To zależy od producenta płyty głównej. W pierwszym przypadku każda z kości będzie działać w pojedynczym kanale, albo zostanie zastosowany tryb flex, który pozwoli na pracę dwóch kości w wspólnym kanale, zwiększając ich wydajność, a jedna kość pozostanie w Single Channel i będzie wolniejsza. Ułożenie pierwszych dwóch kości RAM jest zapisane w instrukcji obsługi lub oznaczone na płycie głównej. Warto stosować się do zaleceń producenta, na przykład w przypadku płyty głównej AOURS B660 GAMING X AX DDR4 od Gigabyte, optymalnie jest uzupełnić najpierw drugą parę kanałów (A2, B2) wejścia DDR4, tak jak to przedstawił producent na płycie, że najpierw szare wejścia w czerwonym obramowaniu a potem A1 i B1 oznaczone niebieskim obramowaniem.",""]
-      
-          }
-          ]
-        ]
-      }
-    },
-    {
-        "type": "img",
-        "sectionID": "section4",
-        "elementContent": [
-          "Edu-Koala-V/koala-v-assets-art1/main/PodzespolyPC/RAM_DUAL_CHANNEL.webp",
-          "Dual channel - ułożenie kości RAM na płycie głównej.",
-          "2000",
-          "1720",
-          "Edu-Koala-V/koala-v-assets-art1/main/PodzespolyPC/RAM_DUAL_CHANNEL_ORIGINAL.webp"
-        ]
-      },
-      {
-        "type": "list",
-        "sectionID": "section4",
-        "elementContent": {
-          "ver": "ul",
-          "listElements": [
-            [
-              {
-                "type": "b",
-                "sectionID": "section4",
-                "elementContent": ["Czas dostępu - CL (CAS Latency):", ""]
-              },
-              {
-                "type":"br",
-                "sectionID":"section4"
-            },
-              {
-                "type": "span",
-                "sectionID": "section4",
-                "elementContent": ["Najpierw patrz na czas dostępu oznaczany jako CL (CAS Latency), jaki upływa od momentu wysłania polecenia do pamięci RAM do momentu, gdy dane są dostępne.", ""]
-              }
-            ],
-            [
-                {
-                    "type": "b",
-                    "sectionID": "section4",
-                    "elementContent": ["Częstotliwość (Hz): ", ""]
-                },
-                {
-                  "type":"br",
-                  "sectionID":"section4"
-              },
-                {
-                    "type": "span",
-                    "sectionID": "section4",
-                    "elementContent": ["Częstotliwość w Hercach (Hz) odnosi się do prędkości, z jaką pamięć RAM może odczytywać i zapisywać dane. Wyższa częstotliwość oznacza szybszą pamięć, ale musi być zgodna z wydajnością procesora (CPU). Brak optymalnego doboru częstotliwości pracy spowoduje że któryś z podzespołów będzie wąskim gardłem, spowolni pracę drugiego.", ""]
-                }
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [
+              ": Szybsza, ale droższa. Używana głównie w pamięciach podręcznych (cache).",
+              ""
             ]
-          ]
-        }
-      }
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": ["DRAM (Dynamic RAM) ", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [
+              ": Wolniejsza, ale tańsza. Wymaga odświeżania. Używana jako główna pamięć operacyjna.",
+              ""
+            ]
+          }
+        ]
+      ]
+    }
+  },
+
+  {
+    "type": "bi",
+    "sectionID": "section3",
+    "elementContent": ["Typy DRAM:", ""]
+  },
+  {
+    "type": "list",
+    "sectionID": "section3",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": ["SDRAM (Synchronous DRAM) ", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [": Synchronizuje się z zegarem systemowym.", ""]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": ["RDRAM (Rambus DRAM) ", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [": Szybsza, ale droższa.", ""]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section3",
+            "elementContent": ["DDR SDRAM (Double Data Rate SDRAM) ", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [
+              ": Przesyła dane dwa razy na cykl zegara. Kolejne wersje to DDR2, DDR3, DDR4, DDR5.",
+              ""
+            ]
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "type": "img",
+    "sectionID": "section3",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/PodzespolyPC/wersje_DDR.webp",
+      "Rodzaje pamięci DDR z umieszczeniem rowka w pinach.",
+      "760",
+      "896",
+      "Edu-Koala-V/koala-v-assets-art1/main/PodzespolyPC/wersje_DDR_ORIGINAL.webp"
+    ]
+  },
+  {
+    "type": "h2",
+    "sectionID": "section4",
+    "elementContent": ["Jaką pamięć RAM wybrać?", ""]
+  },
+  {
+    "type": "list",
+    "sectionID": "section4",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "bi",
+            "sectionID": "section4",
+            "elementContent": ["Technologia:", ""]
+          },
+          {
+            "type": "br",
+            "sectionID": "section4"
+          },
+          {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": [
+              " Im nowsza technologia, tym teoretycznie powinna być wydajniejsza i bardziej energooszczędna. Ważne jest, aby płyta główna wspierała daną technologię. Na przykład, jeśli masz na płycie głównej wejście dla DDR4, inne pamięci DDR nie będą pasować do tego wejścia.",
+              ""
+            ]
+          }
+        ],
+        [
+          {
+            "type": "bi",
+            "sectionID": "section4",
+            "elementContent": ["Pojemność i system Dual Channel:", ""]
+          },
+          {
+            "type": "br",
+            "sectionID": "section4"
+          },
+          {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": [
+              " Jeśli planujesz posiadać w swoim komputerze 32GB RAM, zamiast kupować jedną kość o tej pojemności, zaopatrz się w dwie po 16GB lub jeszcze lepiej cztery po 8GB. System Dual Channel pozwala na jednoczesne używanie dwóch modułów pamięci RAM, co podwaja przepustowość danych i zwiększa wydajność systemu.",
+              ""
+            ]
+          }
+        ],
+        [
+          {
+            "type": "bi",
+            "sectionID": "section4",
+            "elementContent": ["Co w przypadku, gdy masz trzy kości RAM?", ""]
+          },
+          {
+            "type": "br",
+            "sectionID": "section4"
+          },
+          {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": [
+              "To zależy od producenta płyty głównej. W pierwszym przypadku każda z kości będzie działać w pojedynczym kanale, albo zostanie zastosowany ",
+              ""
+            ]
+          },
+          {
+            "type": "i",
+            "sectionID": "section4",
+            "elementContent": ["tryb flex", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": [
+              ", który pozwoli na pracę dwóch kości w wspólnym kanale, zwiększając ich wydajność, a jedna kość pozostanie w ",
+              ""
+            ]
+          },
+          {
+            "type": "bi",
+            "sectionID": "section4",
+            "elementContent": ["Single Channel", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": [
+              " i będzie wolniejsza. Ułożenie pierwszych dwóch kości RAM jest zapisane w instrukcji obsługi lub oznaczone na płycie głównej.",
+              ""
+            ]
+          },
+          {
+            "type": "br",
+            "sectionID": "section4"
+          },
+          {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": [
+              "Warto stosować się do zaleceń producenta, na przykład w przypadku płyty głównej ",
+              ""
+            ]
+          },
+          {
+            "type": "b",
+            "sectionID": "section4",
+            "elementContent": ["AOURS B660 GAMING X AX DDR4", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": [" od ", ""]
+          },
+          {
+            "type": "bi",
+            "sectionID": "section4",
+            "elementContent": ["Gigabyte", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": [
+              ", optymalnie jest uzupełnić najpierw drugą parę kanałów (",
+              ""
+            ]
+          },
+          {
+            "type": "b",
+            "sectionID": "section4",
+            "elementContent": ["A2", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": [", ", ""]
+          },
+          {
+            "type": "b",
+            "sectionID": "section4",
+            "elementContent": ["B2", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": [") wejścia ", ""]
+          },
+          {
+            "type": "b",
+            "sectionID": "section4",
+            "elementContent": ["DDR4", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": [
+              ", tak jak to przedstawił producent na płycie, że najpierw szare wejścia w ",
+              ""
+            ]
+          },
+          {
+            "type": "bi",
+            "sectionID": "section4",
+            "elementContent": ["czerwonym obramowaniu", "red"]
+          },
+          {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": [" a potem ", ""]
+          },
+          {
+            "type": "b",
+            "sectionID": "section4",
+            "elementContent": ["A1", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": [" i ", ""]
+          },
+          {
+            "type": "b",
+            "sectionID": "section4",
+            "elementContent": ["B1", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": [" oznaczone", ""]
+          },
+          {
+            "type": "bi",
+            "sectionID": "section4",
+            "elementContent": ["niebieskim obramowaniem", "blue"]
+          },
+
+          {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": [".", ""]
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "type": "img",
+    "sectionID": "section4",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/PodzespolyPC/RAM_DUAL_CHANNEL.webp",
+      "Dual channel - ułożenie kości RAM na płycie głównej.",
+      "2000",
+      "1720",
+      "Edu-Koala-V/koala-v-assets-art1/main/PodzespolyPC/RAM_DUAL_CHANNEL_ORIGINAL.webp"
+    ]
+  },
+  {
+    "type": "list",
+    "sectionID": "section4",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "b",
+            "sectionID": "section4",
+            "elementContent": ["Czas dostępu - CL (CAS Latency):", ""]
+          },
+          {
+            "type": "br",
+            "sectionID": "section4"
+          },
+          {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": [
+              "Najpierw patrz na czas dostępu oznaczany jako CL (CAS Latency), jaki upływa od momentu wysłania polecenia do pamięci RAM do momentu, gdy dane są dostępne.",
+              ""
+            ]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section4",
+            "elementContent": ["Częstotliwość (Hz): ", ""]
+          },
+          {
+            "type": "br",
+            "sectionID": "section4"
+          },
+          {
+            "type": "span",
+            "sectionID": "section4",
+            "elementContent": [
+              "Częstotliwość w Hercach (Hz) odnosi się do prędkości, z jaką pamięć RAM może odczytywać i zapisywać dane. Wyższa częstotliwość oznacza szybszą pamięć, ale musi być zgodna z wydajnością procesora (CPU). Brak optymalnego doboru częstotliwości pracy spowoduje że któryś z podzespołów będzie wąskim gardłem, spowolni pracę drugiego.",
+              ""
+            ]
+          }
+        ]
+      ]
+    }
+  }
 ]
