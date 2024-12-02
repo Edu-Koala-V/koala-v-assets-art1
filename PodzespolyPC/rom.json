@@ -1,0 +1,112 @@
+[
+  {
+    "type":"h2",
+    "sectionID":"section1",
+    "elementContent":["ROM",""]
+  },
+  { "type": "bi", "sectionID": "section1", "elementContent": ["RAM", ""] },
+  { "type": "span", "sectionID": "section1", "elementContent": ["to pamięć tylko do odczytu, która przechowuje dane na stałe. Jest to pamięć nieulotna, co oznacza, że dane są zachowane nawet po wyłączeniu komputera.", ""] },
+  { "type": "br", "sectionID": "section1" },
+  { "type": "i", "sectionID": "section1", "elementContent": ["Wyobraź sobie, że ", ""] },
+  { "type": "bi", "sectionID": "section1", "elementContent": ["ROM", ""] },
+  { "type": "i", "sectionID": "section1", "elementContent": [" to książka kucharska. Zawiera przepisy ", ""] },
+  { "type": "span", "sectionID": "section1", "elementContent": ["(dane),", ""] },
+  { "type": "i", "sectionID": "section1", "elementContent": [" które są zawsze dostępne, nawet gdy nie gotujesz (", ""] },
+  { "type": "u", "sectionID": "section1", "elementContent": ["komputer jest wyłączony", ""] },
+  { "type": "i", "sectionID": "section1", "elementContent": ["). Kiedy potrzebujesz przepisu, otwierasz książkę i korzystasz z niego. ", ""] },
+  { "type": "bi", "sectionID": "section1", "elementContent": ["ROM", ""] },
+  { "type": "i", "sectionID": "section1", "elementContent": [" przechowuje niezbędne instrukcje do uruchomienia komputera, takie jak ", ""] },
+  { "type": "bi", "sectionID": "section1", "elementContent": ["BIOS", ""] },
+  { "type": "i", "sectionID": "section1", "elementContent": [" i ", ""] },
+  { "type": "bi", "sectionID": "section1", "elementContent": ["BOOTLOADER", ""] },
+  { "type": "i", "sectionID": "section1", "elementContent": [" – program ładujący system operacyjny lub też ", ""] },
+  { "type": "bi", "sectionID": "section1", "elementContent": ["UEFI", ""] },
+  { "type": "i", "sectionID": "section1", "elementContent": [".", ""] },
+  {
+    "type":"h2",
+    "sectionID":"section2",
+    "elementContent":["Rodzaje ROM",""]
+  },
+  {
+    "type": "list",
+    "sectionID": "section2",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["PROM (Programmable ROM)", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [": Można zaprogramować raz.", ""]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["EPROM (Erasable Programmable ROM)", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [": Można wymazać za pomocą promieniowanie elektromagnetycznego ", ""]
+          },
+          {
+            "type": "bi",
+            "sectionID": "section2",
+            "elementContent": ["UV", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [" (Ultraviolet radiation –  promieniowanie ultrafioletowe) i zaprogramować ponownie.", ""]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["EEPROM (Electrically Erasable Programmable ROM)", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [": Można wymazać elektrycznie i zaprogramować ponownie.", ""]
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "type": "img",
+    "sectionID": "section2",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/PodzespolyPC/ROM_memory.webp",
+      "Rodzaje ROM.",
+      "1920",
+      "1080",
+      "Edu-Koala-V/koala-v-assets-art1/main/PodzespolyPC/ROM_memory_ORIGINAL.webp"
+    ]
+  },
+  { "type": "span", "sectionID": "section2", "elementContent": ["Na pamięciach ", ""] },
+  { "type": "b", "sectionID": "section2", "elementContent": ["ROM", ""] },
+  { "type": "span", "sectionID": "section2", "elementContent": [" przechowuje się ", ""] },
+  { "type": "bi", "sectionID": "section2", "elementContent": ["firmware", ""] },
+  { "type": "span", "sectionID": "section2", "elementContent": [", czyli oprogramowanie kontrolujące działanie komponentów komputera oraz różnych urządzeń, na przykład z dziedziny ", ""] },
+  { "type": "bi", "sectionID": "section2", "elementContent": ["IoT", ""] },
+  { "type": "span", "sectionID": "section2", "elementContent": [" (", ""] },
+  { "type": "i", "sectionID": "section2", "elementContent": ["Internet of Things – Internet Rzeczy", ""] },
+  { "type": "span", "sectionID": "section2", "elementContent": ["). Na płytach głównych w pamięci ", ""] },
+  { "type": "b", "sectionID": "section2", "elementContent": ["ROM", ""] },
+  { "type": "span", "sectionID": "section2", "elementContent": [" przechowywany jest ", ""] },
+  { "type": "b", "sectionID": "section2", "elementContent": ["BIOS", ""] },
+  { "type": "span", "sectionID": "section2", "elementContent": [", który zawiera oprogramowanie startujące system operacyjny, czyli ", ""] },
+  { "type": "b", "sectionID": "section2", "elementContent": ["BOOTLOADER", ""] },
+  { "type": "span", "sectionID": "section2", "elementContent": [".", ""] }
+
+]
