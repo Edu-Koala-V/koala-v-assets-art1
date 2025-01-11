@@ -771,7 +771,7 @@
         "type": "text-block-name",
         "sectionID": "section9",
         "elementContent": [
-            "#\\n# Skrypt programu Windows PowerShell do wdrażania usług AD DS#\n \nImport-Module ADDSDeployment\nInstall-ADDSForest &#96;\n-CreateDnsDelegation:$false &#96;\n-DatabasePath \\\"C:\\Windows\\NTDS\\\" &#96;\n-DomainMode \\\"WinThreshold\\\" &#96;\n-DomainName \\\"szkola.local\\\" &#96;\n-DomainNetbiosName :\\\"SZKOLA\\\" &#96;\n-ForestMode \\\"WinThreshold\\\" &#96;\n-InstallDns:$true &#96;\n-LogPath \\\"C:\\Windows\\\\NTDS\\\" &#96;\n-NoRebootOnCompletion:$false &#96;\n-SysvolPath \\\"C:\\Windows\\SYSVOL\\\" &#96;\n-Force:$true\n",
+            "#\n# Skrypt programu Windows PowerShell do wdrażania usług AD DS \n#\n \nImport-Module ADDSDeployment\nInstall-ADDSForest &#96;\n-CreateDnsDelegation:$false &#96;\n-DatabasePath \\\"C:\\Windows\\NTDS\\\" &#96;\n-DomainMode \\\"WinThreshold\\\" &#96;\n-DomainName \\\"szkola.local\\\" &#96;\n-DomainNetbiosName :\\\"SZKOLA\\\" &#96;\n-ForestMode \\\"WinThreshold\\\" &#96;\n-InstallDns:$true &#96;\n-LogPath \\\"C:\\Windows\\NTDS\\\" &#96;\n-NoRebootOnCompletion:$false &#96;\n-SysvolPath \\\"C:\\Windows\\SYSVOL\\\" &#96;\n-Force:$true\n",
             ""
         ]
     },
