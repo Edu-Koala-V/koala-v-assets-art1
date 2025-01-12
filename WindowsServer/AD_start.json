@@ -318,11 +318,6 @@
     {
         "type":"h2",
         "sectionID":"section2",
-        "elementContent":["Konfiguracja domeny Active Directory",""]
-    },
-    {
-        "type":"h2",
-        "sectionID":"section2",
         "elementContent":["Krok 1: Dodanie roli i funkcji",""]
     },
     {
