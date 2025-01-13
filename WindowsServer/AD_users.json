@@ -1,0 +1,1961 @@
+[
+    {
+        "type": "h2",
+        "sectionID": "section1",
+        "elementContent": ["Wstęp"]
+    },
+    {
+        "type": "span",
+        "sectionID": "section1",
+        "elementContent": ["Skoro już pokrótce omówiliśmy kontenery w domenie i dostępne typy obiektów do utworzenia, możemy wyselekcjonować te najważniejsze dla ciebie pod egzamin zawodowy."]
+    },
+    {
+        "type":"br",
+        "sectionID":"section1"
+    },
+    {
+        "type": "span",
+        "sectionID": "section1",
+        "elementContent": ["W tym celu użyjemy narzędzia "]
+    },
+    {
+        "type": "text-block-name",
+        "sectionID": "section1",
+        "elementContent": ["Użytkownicy i komputery usługi Active Directory", ""]
+      },
+      {
+        "type": "span",
+        "sectionID": "section1",
+        "elementContent": [", które można uruchomić w Menadżerze Serwera, wybierając opcję ", ""]
+      },
+      {
+        "type": "text-block-name",
+        "sectionID": "section1",
+        "elementContent": ["Narzędzia", ""]
+      },
+      {
+        "type": "span",
+        "sectionID": "section1",
+        "elementContent": [" w górnym prawym menu.", ""]
+      },
+      {
+        "type": "img",
+        "sectionID": "section1",
+        "elementContent": [
+          "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/users_group_object_AD.webp",
+          "Uruchomienie narzędzia „Użytkownicy i komputery usługi Active Directory”",
+          "1026",
+          "771",
+          "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/users_group_object_AD_ORIGINAL.webp"
+        ]
+      },
+      {
+        "type": "h2",
+        "sectionID": "section2",
+        "elementContent": ["Nawigacja w „Użytkownicy i komputery usługi Active Directory”"]
+      },
+      {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": ["Po uruchomieniu narzędzia, w prawej sekcji znajdziemy nawigację, która zawiera różne katalogi i obiekty.", ""]
+      },
+      {
+        "type":"br",
+        "sectionID":"section2"
+      },
+      {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": ["Jednym z nich jest ", ""]
+      },
+      {
+        "type":"bi",
+        "sectionID":"section2",
+        "elementContent":["„Zapisane zapytania”", ""]
+      },
+      {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": [". Jest to funkcja, która pozwala na tworzenie i przechowywanie zapytań dotyczących obiektów w Active Directory. Dzięki temu możemy szybko wyszukiwać i filtrować użytkowników, grupy czy komputery według określonych kryteriów.", ""]
+      },
+      {
+        "type":"img",
+        "sectionID":"section2",
+        "elementContent":[
+          "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/nav_users_group_object_AD.webp",
+          "Zawartość Domeny w „Użytkownicy i komputery usługi Active Directory”",
+          "1027",
+          "254",
+          "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/nav_users_group_object_AD_ORIGINAL.webp"
+        ]
+      },
+      {
+        "type": "h2",
+        "sectionID": "section3",
+        "elementContent": ["Zawartość Domeny"]
+      },
+      {
+        "type": "span",
+        "sectionID": "section3",
+        "elementContent": ["W naszym przypadku domena to ", ""]
+      },
+      {
+        "type":"bi",
+        "sectionID":"section3",
+        "elementContent":["„szkola.local”", "green"]
+      },
+      {
+        "type": "span",
+        "sectionID": "section3",
+        "elementContent": [". W jej strukturze znajdziemy kilka domyślnych kontenerów i jednostek organizacyjnych:", ""]
+      },
+      {
+        "type": "list",
+        "sectionID": "section3",
+        "elementContent": {
+          "ver": "ul",
+          "listElements": [
+            [
+              {
+                "type": "b",
+                "sectionID": "section3",
+                "elementContent": ["Builtin", "brown"]
+              },
+              {
+                "type": "span",
+                "sectionID": "section3",
+                "elementContent": [": Jest to wbudowany kontener, który zawiera domyślne grupy zabezpieczeń systemu.", ""]
+              }
+            ],
+            [
+              {
+                "type": "b",
+                "sectionID": "section3",
+                "elementContent": ["Computers", "brown"]
+              },
+              {
+                "type": "span",
+                "sectionID": "section3",
+                "elementContent": [": Kontener ten przechowuje konta komputerów, które zostały dodane do domeny.", ""]
+              }
+            ],
+            [
+              {
+                "type": "b",
+                "sectionID": "section3",
+                "elementContent": ["Domain Controllers", "brown"]
+              },
+              {
+                "type": "span",
+                "sectionID": "section3",
+                "elementContent": [": Jest to jednostka organizacyjna, która zawiera konta kontrolerów domeny.", ""]
+              }
+            ],
+            [
+              {
+                "type": "b",
+                "sectionID": "section3",
+                "elementContent": ["ForeignSecurityPrincipals", "brown"]
+              },
+              {
+                "type": "span",
+                "sectionID": "section3",
+                "elementContent": [": Kontener ten przechowuje identyfikatory zabezpieczeń (SID) obiektów z zewnętrznych, zaufanych domen.", ""]
+              }
+            ],
+            [
+              {
+                "type": "b",
+                "sectionID": "section3",
+                "elementContent": ["Managed Service Accounts", "brown"]
+              },
+              {
+                "type": "span",
+                "sectionID": "section3",
+                "elementContent": [":  Kontener ten przechowuje zarządzane konta usług.", ""]
+              }
+            ],
+            [
+              {
+                "type": "b",
+                "sectionID": "section3",
+                "elementContent": ["Users", "brown"]
+                },
+                {
+                  "type": "span",
+                  "sectionID": "section3",
+                  "elementContent": [": Jest to domyślny kontener dla kont użytkowników.", ""]
+                }
+            ]
+        ]
+        }
+    },
+    {
+        "type": "span",
+        "sectionID": "section3",
+        "elementContent": ["Każdy z tych kontenerów i jednostek organizacyjnych ma swoje specyficzne zastosowanie i przechowuje odpowiednie typy obiektów.", ""]
+    },
+    {
+        "type": "h2",
+        "sectionID": "section4",
+        "elementContent": ["Tworzenie Nowych Obiektów"]
+    },
+    {
+        "type": "span",
+        "sectionID": "section4",
+        "elementContent": ["Gdy klikniemy prawym przyciskiem myszy na nazwę domeny, możemy tworzyć różne typy obiektów, takie jak:", ""]
+    },
+    {
+        "type": "list",
+        "sectionID": "section4",
+        "elementContent": {
+          "ver": "ul",
+          "listElements": [
+            [
+              {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["Komputer", "brown"]
+              },
+              {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": [": Konto komputera, które pozwala na jego dołączenie do domeny.", ""]
+              }
+            ],
+            [
+              {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["Kontakt", "brown"]
+              },
+              {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": [": Obiekt kontaktu, który może być używany w książkach adresowych.", ""]
+              }
+            ],
+            [
+              {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["Grupa", "brown"]
+              },
+              {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": [": Grupa użytkowników, która może być używana do zarządzania uprawnieniami.", ""]
+              }
+            ],
+            [
+              {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["InetOrgPerson", "brown"]
+              },
+              {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": [": Obiekt osoby, który jest zgodny ze standardami LDAP.", ""]
+              }
+            ],
+            [
+              {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["msDS-ShadowPrincipalContainer", "brown"]
+              },
+              {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": [": Kontener dla obiektów cieniowych.", ""]
+              }
+            ],
+            [
+              {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["msImahing-PSPs", "brown"]
+              },
+              {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": [": Specjalne obiekty związane z usługami obrazowania.", ""]
+              }
+            ],
+            [
+              {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["Alias kolejki usługi kolejkowania wiadomości", "brown"]
+              },
+              {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": [": Obiekt związany z usługami kolejkowania wiadomości.", ""]
+              }
+            ],
+            [
+              {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["Jednostka organizacyjna", "brown"]
+              },
+              {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": [": Kontener, który może zawierać inne obiekty i pozwala na delegowanie uprawnień.", ""]
+              }
+            ],
+            [
+              {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["Drukarka", "brown"]
+              },
+              {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": [": Obiekt drukarki, który pozwala na zarządzanie drukarkami w domenie.", ""]
+              }
+            ],
+            [
+              {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["Użytkownik", "brown"]
+              },
+              {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": [": Konto użytkownika, które pozwala na logowanie się do domeny.", ""]
+              }
+            ],
+            [
+              {
+                "type": "b",
+                "sectionID": "section4",
+                "elementContent": ["Folder udostępniony", "brown"]
+              },
+              {
+                "type": "span",
+                "sectionID": "section4",
+                "elementContent": [": Obiekt folderu, który pozwala na udostępnianie zasobów w sieci.", ""]
+              }
+            ]
+            ]
+        }
+    },
+    {
+        "type": "h2",
+        "sectionID": "section5",
+        "elementContent": ["Najistotniejsze elementy „Użytkownicy i komputery usługi Active Directory”"]
+    },
+    {
+        "type": "span",
+        "sectionID": "section5",
+        "elementContent": ["Skoro już pokrótce omówiliśmy kontenery w domenie i dostępne typy obiektów do utworzenia, możemy wyselekcjonować te najważniejsze dla ciebie pod egzamin zawodowy:", ""]
+    },
+    {
+        "type": "list",
+        "sectionID": "section5",
+        "elementContent": {
+          "ver": "ol",
+          "listElements": [
+            [
+              {
+                "type": "b",
+                "sectionID": "section5",
+                "elementContent": ["Computers", "brown"]
+              },
+              {
+                "type": "span",
+                "sectionID": "section5",
+                "elementContent": [": Używany do przeprowadzania zdalnych działań poprzez przystawkę systemu Windows ", ""]
+              },
+              {
+                "type": "text-block-name",
+                "sectionID": "section5",
+                "elementContent": ["Zarządzanie komputerem", ""]
+              },
+            {
+                "type":"span",
+                "sectionID":"section5",
+                "elementContent":[".", ""]
+            },
+                { "type": "br", "sectionID": "section5" },
+                {
+                    "type":"span",
+                    "sectionID":"section5",
+                    "elementContent":["Na przykład, możemy wyłączyć wszystkie lokalne konta na wcześniej dodanym hoście:", ""]
+                },
+                { "type": "br", "sectionID": "section5" },
+                { "type": "br", "sectionID": "section5" },
+                {
+                    "type":"span",
+                    "sectionID":"section5",
+                    "elementContent":["Połącz przystawkę  ", ""]
+                },
+                {
+                    "type": "text-block-name",
+                    "sectionID": "section5",
+                    "elementContent": ["Zarządzanie komputerem", ""]
+                  },
+                {
+                    "type":"span",
+                    "sectionID":"section5",
+                    "elementContent":[" z docelowym hostem.", ""]
+                },
+                {
+                    "type":"img",
+                    "sectionID":"section5",
+                    "elementContent":[
+                      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/computer_local_manage_AD.webp",
+                      "Połączenie z hostem poprzez przystawkę Windows: „Zarządzanie komputerem”",
+                      "1027",
+                      "384",
+                      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/computer_local_manage_AD_ORIGINAL.webp"
+                    ]
+                },
+                {
+                    "type": "span",
+                    "sectionID": "section5",
+                    "elementContent": ["Przejdź do użytkowników i poprzez ", ""]
+                },
+                {
+                    "type": "text-block-name",
+                    "sectionID": "section5",
+                    "elementContent": ["Właściwości", ""]
+                  },
+                  {
+                    "type": "span",
+                    "sectionID": "section5",
+                    "elementContent": [" zaznacz, że konta są wyłączone. Wyłączone konta posiadają przy swojej ikonie strzałkę w dół.", ""]
+                  },
+                  {
+                    "type":"img",
+                    "sectionID":"section5",
+                    "elementContent":[
+                      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/deactivate_local_accounts_AD.webp",
+                      "Wyłączenie kont użytkowników lokalnych na hoście",
+                      "1027",
+                      "771",
+                      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/deactivate_local_accounts_AD_ORIGINAL.webp"
+                    ]
+                  }
+            ],
+            [
+                {
+                  "type": "b",
+                  "sectionID": "section5",
+                  "elementContent": ["Jednostki organizacyjne", "brown"]
+                },
+                {
+                  "type": "span",
+                  "sectionID": "section5",
+                  "elementContent": [": Tworzymy własne jednostki organizacyjne, aby sortować obiekty i ułatwić sobie zarządzanie politykami ", ""]
+                },
+                {
+                    "type":"bi",
+                    "sectionID":"section5",
+                    "elementContent":["GPO", "red"]
+                },
+                {
+                    "type": "span",
+                    "sectionID": "section5",
+                    "elementContent": [" dla danych grup obiektów.", ""]
+                  },
+                  {
+                    "type":"br",
+                    "sectionID":"section5"
+                  },
+                {
+                    "type":"span",
+                    "sectionID":"section5",
+                    "elementContent":["Utwórz nową jednostkę organizacyjną – ", ""]
+                },
+                {
+                    "type": "text-block-name",
+                    "sectionID": "section5",
+                    "elementContent": ["Sala 101 Graficzna", ""]
+                  },
+                  {
+                    "type":"span",
+                    "sectionID":"section5",
+                    "elementContent":[": ", ""]
+                },
+                {
+                    "type":"img",
+                    "sectionID":"section5",
+                    "elementContent":[
+                      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/new_OU_AD.webp",
+                      "Utworzenie jednostki organizacyjnej „Sala 101 Graficzna”",
+                      "1027",
+                      "771",
+                      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/new_OU_AD_ORIGINAL.webp"
+                    ]
+                },
+                {
+                    "type":"span",
+                    "sectionID":"section5",
+                    "elementContent":["Przenieś do niej komputer z ", ""]
+                },
+                {
+                    "type": "text-block-name",
+                    "sectionID": "section5",
+                    "elementContent": ["Computers", ""]
+                  },
+                  {
+                    "type":"span",
+                    "sectionID":"section5",
+                    "elementContent":[", aby posegregować strukturę do rzeczywistego rozkładu urządzeń w naszej hipotetycznej szkole.", ""]
+                },
+                {
+                    "type":"img",
+                    "sectionID":"section5",
+                    "elementContent":[
+                      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/move_computer_OU_AD.webp",
+                      "Przeniesienie komputera do jednostki organizacyjnej „Sala 101 Graficzna”",
+                      "1027",
+                      "771",
+                      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/move_computer_OU_AD_ORIGINAL.webp"
+                    ]
+                },
+                {
+                    "type":"span",
+                    "sectionID":"section5",
+                    "elementContent":["Teraz, gdy wszystkie komputery w domenie są posegregowane według fizycznych klas, łatwo będzie nam określić, na które urządzenia zdalnie zainstalować oprogramowanie.", ""]
+                }
+              ],
+              [
+                {
+                  "type": "b",
+                  "sectionID": "section5",
+                  "elementContent": ["Użytkownik", "brown"]
+                },
+                {
+                  "type": "span",
+                  "sectionID": "section5",
+                  "elementContent": [": Pozwala na utworzenie konta użytkownika domenowego.", ""]
+                }
+              ],
+              [
+                {
+                  "type": "b",
+                  "sectionID": "section5",
+                  "elementContent": ["Grupa", "brown"]
+                },
+                {
+                  "type": "span",
+                  "sectionID": "section5",
+                  "elementContent": [": Jak sama nazwa wskazuje, grupuje użytkowników, aby łatwiej nimi zarządzać.", ""]
+                  }
+              ]
+        ]
+        }
+    },
+    {
+        "type": "h2",
+        "sectionID": "section6",
+        "elementContent": ["Przykład tworzenia nowej grupy"]
+    },
+    {
+        "type": "b",
+        "sectionID": "section6",
+        "elementContent": ["Jednostka organizacyjna: ", ""]
+    },
+    {
+        "type":"bi",
+        "sectionID":"section6",
+        "elementContent":["Grupy szkolne", "purple"]
+    },
+    {
+        "type":"br",
+        "sectionID":"section6"
+    },
+    {
+        "type": "span",
+        "sectionID": "section6",
+        "elementContent": ["Tworzenie nowej grupy w Active Directory umożliwia efektywne zarządzanie uprawnieniami i dostępem do zasobów. Poniżej znajduje się szczegółowe wyjaśnienie poszczególnych opcji dostępnych podczas tworzenia grupy:", ""]
+    },
+    {
+        "type":"br",
+        "sectionID":"section6"
+    },
+    {
+        "type":"b",
+        "sectionID":"section6",
+        "elementContent":["Nazwa grupy", "brown"]
+    },
+    {
+        "type": "list",
+        "sectionID": "section6",
+        "elementContent": {
+          "ver": "ul",
+          "listElements": [
+            [
+              {
+                "type": "b",
+                "sectionID": "section6",
+                "elementContent": ["Nazwa grupy", "brown"]
+              },
+              {
+                "type": "span",
+                "sectionID": "section6",
+                "elementContent": [": To pole określa nazwę grupy, która będzie widoczna w Active Directory.", ""]
+              }
+            ],
+            [
+              {
+                "type": "b",
+                "sectionID": "section6",
+                "elementContent": ["Nazwa grupy (systemy starsze niż Windows 2000)", "brown"]
+              },
+              {
+                "type": "span",
+                "sectionID": "section6",
+                "elementContent": [": To pole jest używane do kompatybilności z systemami starszymi niż Windows 2000. Zazwyczaj jest to skrócona wersja nazwy grupy, ale może być taka sama jak główna nazwa grupy.", ""]
+              }
+            ]
+        ]
+        }
+    },
+    {
+        "type": "b",
+        "sectionID": "section6",
+        "elementContent": ["Zakres grupy", "brown"]
+    },
+    {
+        "type": "list",
+        "sectionID": "section6",
+        "elementContent": {
+          "ver": "ul",
+          "listElements": [
+            [
+              {
+                "type": "b",
+                "sectionID": "section6",
+                "elementContent": ["Lokalny w domenie", "brown"]
+              },
+              {
+                "type": "span",
+                "sectionID": "section6",
+                "elementContent": [": Używana głównie do przyznawania uprawnień do zasobów w obrębie jednej domeny.", ""]
+              }
+            ],
+            [
+              {
+                "type": "b",
+                "sectionID": "section6",
+                "elementContent": ["Globalny", "brown"]
+              },
+              {
+                "type": "span",
+                "sectionID": "section6",
+                "elementContent": [": Używana do przyznawania uprawnień do zasobów w różnych domenach w ramach lasu Active Directory.", ""]
+              }
+            ],
+            [
+              {
+                "type": "b",
+                "sectionID": "section6",
+                "elementContent": ["Uniwersalny", "brown"]
+              },
+              {
+                "type": "span",
+                "sectionID": "section6",
+                "elementContent": [": Używana do przyznawania uprawnień do zasobów w różnych domenach i lasach. Jest szczególnie przydatna w dużych, złożonych środowiskach.", ""]
+              }
+            ]
+        ]
+        }
+    },
+    {
+        "type": "b",
+        "sectionID": "section6",
+        "elementContent": ["Typ grupy", "brown"]
+    },
+    {
+        "type": "list",
+        "sectionID": "section6",
+        "elementContent": {
+          "ver": "ul",
+          "listElements": [
+            [
+              {
+                "type": "b",
+                "sectionID": "section6",
+                "elementContent": ["Zabezpieczenia", "brown"]
+              },
+              {
+                "type": "span",
+                "sectionID": "section6",
+                "elementContent": [": Grupa zabezpieczeń jest używana do przyznawania uprawnień do zasobów, takich jak pliki, foldery, drukarki i inne zasoby sieciowe oraz stosowania polityk zabezpieczeń.", ""]
+                }
+            ],
+            [
+              {
+                "type": "b",
+                "sectionID": "section6",
+                "elementContent": ["Dystrybucja", "brown"]
+              },
+              {
+                "type": "span",
+                "sectionID": "section6",
+                "elementContent": [": Używana głównie w systemach pocztowych do wysyłania wiadomości e-mail do grupy odbiorców.", ""]
+              }
+            ]
+        ]
+    }
+},
+{
+    "type":"h3",
+    "sectionID":"section6",
+    "elementContent":["Przykład Konfiguracji"]
+},
+{
+    "type":"span",
+    "sectionID":"section6",
+    "elementContent":["Jeśli tworzysz grupę ", ""]
+},
+{
+    "type":"bi",
+    "sectionID":"section6",
+    "elementContent":["Nauczyciele", "purple"]
+},
+{
+    "type":"span",
+    "sectionID":"section6",
+    "elementContent":[" i chcesz, aby była używana do zarządzania uprawnieniami do zasobów w domenie, możesz skonfigurować ją jako:", ""]
+},
+{
+    "type": "list",
+    "sectionID": "section6",
+    "elementContent": {
+      "ver": "ul",
+      "listElements": [
+        [
+          {
+            "type": "b",
+            "sectionID": "section6",
+            "elementContent": ["Nazwa grupy: ", "brown"]
+          },
+          {
+            "type": "span",
+            "sectionID": "section6",
+            "elementContent": ["Nauczyciele", ""]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section6",
+            "elementContent": ["Nazwa grupy (systemy starsze niż Windows 2000): ", "brown"]
+          },
+          {
+            "type": "span",
+            "sectionID": "section6",
+            "elementContent": ["Nauczyciele", ""]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section6",
+            "elementContent": ["Zakres grupy: ", "brown"]
+          },
+          {
+            "type": "span",
+            "sectionID": "section6",
+            "elementContent": ["Globalny (jeśli chcesz, aby grupa mogła być używana w różnych domenach w ramach lasu)", ""]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section6",
+            "elementContent": ["Typ grupy: ", "brown"]
+          },
+          {
+            "type": "span",
+            "sectionID": "section6",
+            "elementContent": ["Zabezpieczenia (aby móc przyznawać uprawnienia do zasobów)", ""]
+          }
+        ]
+    ]
+}
+},
+{
+    "type":"img",
+    "sectionID":"section6",
+    "elementContent":[
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/teacher_group_OU_AD.webp",
+      "Utworzenie nowej grupy „Nauczyciele”",
+      "1027",
+      "771",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/teacher_group_OU_AD_ORIGINAL.webp"
+    ]
+},
+{
+    "type":"span",
+    "sectionID":"section6",
+    "elementContent":["Dodaj w tej jednostce organizacyjnej jeszcze grupę: ", ""]
+},
+{
+    "type":"bi",
+    "sectionID":"section6",
+    "elementContent":["Uczniowie", "purple"]
+},
+{
+    "type":"span",
+    "sectionID":"section6",
+    "elementContent":[".", ""]
+},
+{
+    "type":"h2",
+    "sectionID":"section7",
+    "elementContent":["Dodawanie Nowego Użytkownika w Domenie AD"]
+},
+{
+    "type":"span",
+    "sectionID":"section7",
+    "elementContent":["W jednostkach organizacyjnych ", ""]
+},
+{
+    "type":"bi",
+    "sectionID":"section7",
+    "elementContent":[" Konta nauczycieli ", "purple"]
+},
+{
+    "type":"span",
+    "sectionID":"section7",
+    "elementContent":[" oraz ", ""]
+},
+{
+    "type":"bi",
+    "sectionID":"section7",
+    "elementContent":[" Konta uczniów ", "purple"]
+},
+{
+    "type":"span",
+    "sectionID":"section7",
+    "elementContent":[" dodaj nowych użytkowników.", ""]
+},
+{
+    "type":"br",
+    "sectionID":"section7"
+},
+{
+    "type":"span",
+    "sectionID":"section7",
+    "elementContent":["W kreatorze jesteś zobligowany do podania pełnej nazwy użytkownika i nazwy logowania konta użytkownika, co zostało oznaczone na czerwono.", ""]
+},
+{
+    "type":"br",
+    "sectionID":"section7"
+},
+{
+    "type":"br",
+    "sectionID":"section7"
+},
+{
+    "type":"span",
+    "sectionID":"section7",
+    "elementContent":["W szarej strefie masz pola: Imię, Inicjały i Nazwisko. Wpisane w nich wartości kreator wykorzystuje do utworzenia pełnej nazwy użytkownika.", ""]
+},
+{
+    "type":"br",
+    "sectionID":"section7"
+},
+{
+    "type":"br",
+    "sectionID":"section7"
+},
+{
+    "type":"span",
+    "sectionID":"section7",
+    "elementContent":["W kolejnym kroku, w zależności od lokalnych zasad zabezpieczeń na serwerze, musisz podać hasło zgodne z ustaloną polityką haseł (domyślnie 8 znaków, w tym duża i mała litera oraz cyfra).", ""]
+},
+{
+    "type":"img",
+    "sectionID":"section7",
+    "elementContent":[
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/uczen_user_OU_AD.webp",
+      "Dodawanie nowego użytkownika w jednostce organizacyjnej „Konta nauczycieli”",
+      "1026",
+      "1518",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/uczen_user_OU_AD_ORIGINAL.webp"
+    ]
+},
+{
+    "type":"span",
+    "sectionID":"section7",
+    "elementContent":["Na stronie z wpisywaniem hasła użytkownika masz cztery pola do zaznaczenia:", ""]
+},
+
+
+
+{
+    "type":"list",
+    "sectionID":"section7",
+    "elementContent":{
+      "ver":"ul",
+      "listElements":[
+        [
+          {
+            "type":"b",
+            "sectionID":"section7",
+            "elementContent":["Użytkownik musi zmienić hasło przy następnym logowaniu"]
+          },
+          {
+            "type":"span",
+            "sectionID":"section7",
+            "elementContent":[": Wymusza zmianę hasła przy kolejnym logowaniu."]
+          },
+          {
+            "type":"img",
+            "sectionID":"section7",
+            "elementContent":[
+              "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/user_pass_change_AD.webp",
+              "Zmiana hasła użytkownika przy następnym logowaniu",
+              "1027",
+              "771",
+              "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/user_pass_change_AD_ORIGINAL.webp"
+            ]
+          }
+        ],
+        [
+          {
+            "type":"b",
+            "sectionID":"section7",
+            "elementContent":["Użytkownik nie może zmienić hasła"]
+          },
+          {
+            "type":"span",
+            "sectionID":"section7",
+            "elementContent":[": Blokuje możliwość zmiany hasła przez użytkownika."]
+          },
+          {
+            "type":"br",
+            "sectionID":"section7"
+          },
+            {
+                "type":"span",
+                "sectionID":"section7",
+                "elementContent":["Gdy się zalogujesz na konto, użyj kombinacji klawiszy "]
+            },
+            {
+                "type": "key-combo",
+                "sectionID": "section7",
+                "elementContent": ["Ctrl", "Alt", "Delete"]
+              },
+              {
+                "type":"span",
+                "sectionID":"section7",
+                "elementContent":[" i z menu wybierz opcję "]
+            },
+            {
+                "type": "ref-btn-for-img",
+                "sectionID": "section7",
+                "elementContent": ["Zmień hasło"]
+              },
+              {
+                "type":"span",
+                "sectionID":"section7",
+                "elementContent":["."]
+            },
+       {
+            "type":"br",
+            "sectionID":"section7"
+        },
+        {
+            "type":"span",
+            "sectionID":"section7",
+            "elementContent":["Jeśli zmiana hasła nie jest możliwa, otrzymasz komunikat: "]
+        },
+        {
+            "type":"text-block-name",
+            "sectionID":"section7",
+            "elementContent":["Odmowa dostępu",""]
+        },
+        {
+            "type":"span",
+            "sectionID":"section7",
+            "elementContent":[". Jeśli zmiana hasła jest możliwa, hasło zostanie zmienione."]
+        },
+        {
+            "type":"img",
+            "sectionID":"section7",
+            "elementContent":[
+              "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/user_pass_2_AD.webp",
+              "Odmowa zmiany hasła użytkownika",
+              "1027",
+              "771",
+              "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/user_pass_2_AD_ORIGINAL.webp"
+            ]
+        }
+        ],
+        [
+          {
+            "type":"b",
+            "sectionID":"section7",
+            "elementContent":["Hasło nigdy nie wygasa"]
+          },
+          {
+            "type":"span",
+            "sectionID":"section7",
+            "elementContent":[": Ustawia hasło jako niewygasające. "]
+          },
+          {
+            "type":"br",
+            "sectionID":"section7"
+          },
+          {
+            "type":"span",
+            "sectionID":"section7",
+            "elementContent":["Pozostawienie tego pola niezaznaczonym przy domyślnych ustawieniach polityki zabezpieczeń haseł będzie wymagało zmiany hasła po 42 dniach."]
+          }
+        ],
+        [
+          {
+            "type":"b",
+            "sectionID":"section7",
+            "elementContent":["Konto jest wyłączone"]
+          },
+          {
+            "type":"span",
+            "sectionID":"section7",
+            "elementContent":[": Wyłącza konto użytkownika."]
+          },
+          {
+            "type":"br",
+            "sectionID":"section7"
+          }
+        ]
+      ]
+    }
+},
+{
+    "type":"span",
+    "sectionID":"section7",
+    "elementContent":["PS. Nie da się jednocześnie zaznaczyć dwóch pierwszych opcji, ponieważ byłoby to nielogiczne.", ""]
+},
+{
+    "type":"img",
+    "sectionID":"section7",
+    "elementContent":[
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/user_pass_1_2_AD.webp",
+      "Próba ustawienia dwóch sprzecznych opcji jednocześnie",
+      "735",
+      "480",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/user_pass_1_2_AD_ORIGINAL.webp"
+    ]
+},
+{
+    "type":"h2",
+    "sectionID":"section8",
+    "elementContent":["Dodawanie Użytkownika do grupy"]
+},
+{
+    "type":"span",
+    "sectionID":"section8",
+    "elementContent":["Możesz dodać użytkownika do grupy na dwa sposoby:", ""]
+},
+{
+    "type":"b",
+    "sectionID":"section8",
+    "elementContent":["Sposób pierwszy: Przypisanie użytkownikowi członkostwa w grupach"]
+},
+{
+    "type":"list",
+    "sectionID":"section8",
+    "elementContent":{
+      "ver":"ol",
+      "listElements":[
+        [
+          {
+            "type":"span",
+            "sectionID":"section8",
+            "elementContent":["Wybierz użytkownika i w jego właściwościach przejdź do zakładki "]
+          },
+          {
+            "type": "text-block-name",
+            "sectionID": "section8",
+            "elementContent": ["Członek grupy", ""]
+          },
+          {
+            "type":"span",
+            "sectionID":"section8",
+            "elementContent":["."]
+          }
+        ],
+        [
+            {
+                "type":"span",
+                "sectionID":"section8",
+                "elementContent":["Kliknij "]
+                },
+                {
+                  "type": "ref-btn-for-img",
+                  "sectionID": "section8",
+                  "elementContent": ["Dodaj"]
+                },
+                {
+                    "type":"span",
+                    "sectionID":"section8",
+                    "elementContent":["."]
+                }
+        ],
+        [
+          {
+            "type":"span",
+            "sectionID":"section8",
+            "elementContent":["Wpisz nazwę grupy (nie musisz wpisywać pełnej nazwy)."]
+          }
+        ],
+        [
+            {
+                "type":"span",
+                "sectionID":"section8",
+                "elementContent":["Kliknij "]
+                },
+                {
+                  "type": "ref-btn-for-img",
+                  "sectionID": "section8",
+                  "elementContent": ["Sprawdź nazwy"]
+                },
+                {
+                    "type":"span",
+                    "sectionID":"section8",
+                    "elementContent":[" (system sam poprawi nazwę lub zgłosi błąd)."]
+                }
+        ],
+        [
+            {
+                "type":"span",
+                "sectionID":"section8",
+                "elementContent":["Kliknij "]
+                },
+                {
+                  "type": "ref-btn-for-img",
+                  "sectionID": "section8",
+                  "elementContent": ["OK"]
+                },
+                {
+                    "type":"span",
+                    "sectionID":"section8",
+                    "elementContent":[", aby dodać użytkownika do grupy."]
+                }
+        ]
+      ]
+    }
+},
+{
+    "type":"img",
+    "sectionID":"section8",
+    "elementContent":[
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/Add_user_to_group_AD.webp",
+      "Dodawanie użytkownika do grupy „Uczniowie”",
+      "1359",
+      "1041",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/Add_user_to_group_AD_ORIGINAL.webp"
+    ]
+},
+{
+    "type":"b",
+    "sectionID":"section8",
+    "elementContent":["Sposób drugi: Przypisanie użytkowników jako członków grupy"]
+},
+{
+    "type":"list",
+    "sectionID":"section8",
+    "elementContent":{
+      "ver":"ol",
+      "listElements":[
+        [
+            
+          {
+            "type":"span",
+            "sectionID":"section8",
+            "elementContent":["Wybierz grupę, a następnie w jej właściwościach przejdź do zakładki "]
+            },
+            {
+                "type": "text-block-name",
+                "sectionID": "section8",
+                "elementContent": ["Członkowie", ""]
+              },
+              {
+                  "type":"span",
+                  "sectionID":"section8",
+                  "elementContent":["."]
+              }
+        ],
+        [
+            {
+              "type":"span",
+              "sectionID":"section8",
+              "elementContent":["Kliknij "]
+              },
+              {
+                "type": "ref-btn-for-img",
+                "sectionID": "section8",
+                "elementContent": ["Dodaj"]
+              },
+              {
+                  "type":"span",
+                  "sectionID":"section8",
+                  "elementContent":["."]
+              }
+        ],
+        [
+          {
+            "type":"span",
+            "sectionID":"section8",
+            "elementContent":["Wpisz nazwę powiązaną z użytkownikiem (może to być jego login)."]
+          }
+        ],
+        [
+          {
+            "type":"span",
+            "sectionID":"section8",
+            "elementContent":["Sprawdź poprawność wpisanej frazy."]
+          }
+        ],
+        [
+            {
+                "type":"span",
+                "sectionID":"section8",
+                "elementContent":["Kliknij ."]
+                },
+                {
+                  "type": "ref-btn-for-img",
+                  "sectionID": "section8",
+                  "elementContent": ["OK"]
+                },
+                {
+                    "type":"span",
+                    "sectionID":"section8",
+                    "elementContent":[", aby dodać użytkownika do grupy."]
+                }
+        ]
+    ]
+}
+},
+{
+    "type":"img",
+    "sectionID":"section8",
+    "elementContent":[
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/Add_user_in_group_AD.webp",
+      "Dodawanie użytkownika do grupy „Uczniowie”",
+      "1359",
+      "968",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/Add_user_in_group_AD_ORIGINAL.webp"
+    ]
+},
+{
+    "type":"span",
+    "sectionID":"section8",
+    "elementContent":["Na powyższym obrazku zaznaczono fioletową obramówką zakładkę "]
+},
+{
+    "type": "text-block-name",
+    "sectionID": "section8",
+    "elementContent": ["Członek grupy", ""]
+  },
+{
+    "type":"span",
+    "sectionID":"section8",
+    "elementContent":[". Tam możesz dodać inne grupy nadrzędne, z których ta grupa będzie dziedziczyć prawa."]
+},
+{
+    "type":"br",
+    "sectionID":"section8"
+},
+{
+    "type":"b",
+    "sectionID":"section8",
+    "elementContent":["UWAGA!", "red"]
+},
+{
+    "type":"span",
+    "sectionID":"section8",
+    "elementContent":[" W obu przypadkach nie zapomnij kliknąć w oknie "]
+},
+{
+    "type": "text-block-name",
+    "sectionID": "section8",
+    "elementContent": ["Właściwości", ""]
+  },
+{
+    "type":"span",
+    "sectionID":"section8",
+    "elementContent":[" przycisku "]
+},
+{
+    "type": "ref-btn-for-img",
+    "sectionID": "section8",
+    "elementContent": ["OK"]
+  },
+{
+    "type":"span",
+    "sectionID":"section8",
+    "elementContent":[", aby zatwierdzić zmiany."]
+},
+{
+    "type":"h2",
+    "sectionID":"section9",
+    "elementContent":["Ustawienia konta użytkownika"]
+},
+{
+    "type":"span",
+    "sectionID":"section9",
+    "elementContent":["Domena Active Directory pozwala na zastosowanie dodatkowych ustawień konta użytkownika:", ""]
+},
+{
+    "type":"list",
+    "sectionID":"section9",
+    "elementContent":{
+      "ver":"ul",
+      "listElements":[
+        [
+          {
+            "type":"b",
+            "sectionID":"section9",
+            "elementContent":["Godziny logowania","brown"]
+          },
+          {
+            "type":"span",
+            "sectionID":"section9",
+            "elementContent":[": Określenie, w jakich godzinach i dniach tygodnia użytkownik będzie mógł zalogować się do domeny."]
+          }
+        ],
+        [
+          {
+            "type":"b",
+            "sectionID":"section9",
+            "elementContent":["Profil użytkownika","brown"]
+          },
+          {
+            "type":"span",
+            "sectionID":"section9",
+            "elementContent":[": "]
+          },
+          {
+            "type":"list",
+            "sectionID":"section9",
+            "elementContent":{
+              "ver":"ul",
+              "listElements":[
+                [
+                  {
+                    "type":"b",
+                    "sectionID":"section9",
+                    "elementContent":["Ścieżka profilu","brown"]
+                  },
+                  {
+                    "type":"span",
+                    "sectionID":"section9",
+                    "elementContent":[": Pozwala na zastosowanie wędrującego profilu, zapisując lekkie pliki (maksymalny rozmiar pliku zależy od polityki organizacji) na serwerze i przesyłając je na każde stanowisko komputerowe w domenie, do którego użytkownik się zaloguje."]
+                  }
+                ],
+                [
+                  {
+                    "type":"b",
+                    "sectionID":"section9",
+                    "elementContent":["Skrypt logowania","brown"]
+                  },
+                  {
+                    "type":"span",
+                    "sectionID":"section9",
+                    "elementContent":[": Skrypt, który jest uruchamiany podczas logowania użytkownika. Może być używany do mapowania dysków sieciowych, ustawiania drukarek, uruchamiania aplikacji itp."]
+                  },
+                  {
+                    "type":"br",
+                    "sectionID":"section9"
+                  },
+                  {
+                    "type":"br",
+                    "sectionID":"section9"
+                  },
+                  {
+                    "type":"span",
+                    "sectionID":"section9",
+                    "elementContent":["Przykład skryptu logowania: "]
+                  },
+                  {
+                    "type":"br",
+                    "sectionID":"section9"
+                  },
+                 {
+                    "type":"text-block-name",
+                    "sectionID": "section9",
+                    "elementContent": ["@echo off\\n\\n:: Wyświetla „Komunikat” w konsoli CMD\\necho Komunikat\\n\\n:: Oczekuje wciśnięcia klawisza by zakończyć działanie konsoli CMD\\npause", ""]
+                 }
+                ]
+              ]
+            }
+          }
+        ],
+        [
+            {
+              "type":"b",
+              "sectionID":"section9",
+              "elementContent":["Folder macierzysty","brown"]
+            },
+            {
+              "type":"span",
+              "sectionID":"section9",
+              "elementContent":[": Pozwala na ustawienie partycji sieciowej widocznej w eksploratorze plików „Ten komputer” użytkownika, która jest udziałem sieciowym serwera."]
+            }
+          ]
+        ]
+    }
+},
+{
+    "type":"h2",
+    "sectionID":"section10",
+    "elementContent":["Konfiguracja godzin logowania użytkowników"]
+},
+{
+    "type":"span",
+    "sectionID":"section10",
+    "elementContent":["Przejdź do właściwości użytkownika, a następnie w zakładce "]
+},
+{
+    "type":"text-block-name",
+    "sectionID":"section10",
+    "elementContent":["Konto",""]
+},
+{
+    "type":"span",
+    "sectionID":"section10",
+    "elementContent":[" kliknij przycisk "]
+},
+{
+    "type":"ref-btn-for-img",
+    "sectionID":"section10",
+    "elementContent":["Godziny logowania"]
+},
+{
+    "type":"br",
+    "sectionID":"section10"
+},
+{
+    "type":"span",
+    "sectionID":"section10",
+    "elementContent":[". Teraz możesz graficznie określić zakres czasowy możliwości logowania do domeny tego użytkownika kolorem niebieskim i wykluczyć kolorem białym."]
+},
+{
+    "type":"br",
+    "sectionID":"section10"
+},
+{
+    "type":"span",
+    "sectionID":"section10",
+    "elementContent":["W lewym dolnym rogu tego okienka pojawi się wtedy podsumowanie."]
+},
+{
+    "type":"img",
+    "sectionID":"section10",
+    "elementContent":[
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/user_time_AD.webp",
+      "Konfiguracja czasów logowania użytkowników",
+      "1027",
+      "771",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/user_time_AD_ORIGINAL.webp"
+    ]
+},
+{
+    "type":"span",
+    "sectionID":"section10",
+    "elementContent":["W efekcie końcowym próba zalogowania poza wyznaczonymi godzinami logowania spowoduje odmowę i wyświetlenie stosownego komunikatu:"]
+},
+{
+    "type":"img",
+    "sectionID":"section10",
+    "elementContent":[
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/user_time_result_AD.webp",
+      "Komunikat o odmowie logowania poza wyznaczonymi godzinami",
+      "1027",
+      "771",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/user_time_result_AD_ORIGINAL.webp"
+    ]
+},
+{
+    "type":"h2",
+    "sectionID":"section11",
+    "elementContent":["Konfiguracja profilu mobilnego"]
+},
+{
+    "type":"span",
+    "sectionID":"section11",
+    "elementContent":["Na początku na dysku "]
+},
+{
+    "type":"b",
+    "sectionID":"section11",
+    "elementContent":["C:",""]
+},
+{
+    "type":"span",
+    "sectionID":"section11",
+    "elementContent":[" utwórz katalog "]
+},
+{
+    "type":"text-block-name",
+    "sectionID":"section11",
+    "elementContent":["AD_users",""]
+},
+{
+    "type":"span",
+    "sectionID":"section11",
+    "elementContent":[", a w nim podkatalog "]
+},
+{
+    "type":"text-block-name",
+    "sectionID":"section11",
+    "elementContent":["Profile",""]
+},
+{
+    "type":"span",
+    "sectionID":"section11",
+    "elementContent":[". Udostępnij katalog "]
+},
+{
+    "type":"text-block-name",
+    "sectionID":"section11",
+    "elementContent":["AD_users",""]
+},
+{
+    "type":"span",
+    "sectionID":"section11",
+    "elementContent":[" jako udział sieciowy, przydzielając mu uprawnienie "]
+},
+{
+    "type":"i",
+    "sectionID":"section11",
+    "elementContent":["„Pełna kontrola”"]
+},
+{
+    "type":"span",
+    "sectionID":"section11",
+    "elementContent":[", i już mamy wszystko przygotowane do skonfigurowania profili mobilnych dla użytkowników "]
+},
+{
+    "type":"bi",
+    "sectionID":"section11",
+    "elementContent":["AD DC","orange"]
+},
+{
+    "type":"span",
+    "sectionID":"section11",
+    "elementContent":["."]
+},
+{
+    "type":"br",
+    "sectionID":"section11"
+},
+{
+    "type":"br",
+    "sectionID":"section11"
+},
+{
+    "type":"span",
+    "sectionID":"section11",
+    "elementContent":["Wybierz teraz użytkownika, a w jego właściwościach zakładkę "]
+},
+{
+    "type":"text-block-name",
+    "sectionID":"section11",
+    "elementContent":["Profil",""]
+},
+{
+    "type":"span",
+    "sectionID":"section11",
+    "elementContent":["."]
+},
+{
+    "type":"br",
+    "sectionID":"section11"
+},
+{
+    "type":"br",
+    "sectionID":"section11"
+},
+{
+    "type":"span",
+    "sectionID":"section11",
+    "elementContent":["Wprowadź ścieżkę do zapisywania profilu użytkownika, jego składnia jest następująca:"]
+},
+{
+    "type":"br",
+    "sectionID":"section11"
+},
+{
+    "type":"text-block-name",
+    "sectionID":"section11",
+    "elementContent":[" \\nazwa_serwera\\nazwa_udziału_sieciowego\\podkatalog_tego_udziału\\%username%\\ ",""]
+},
+{
+    "type":"br",
+    "sectionID":"section11"
+},
+{
+    "type":"br",
+    "sectionID":"section11"
+},
+{
+    "type":"span",
+    "sectionID":"section11",
+    "elementContent":["Zamiast nazwy serwera, którą możesz sprawdzić, wpisując w CMD komendę: "]
+},
+{
+    "type":"text-block-name",
+    "sectionID":"section11",
+    "elementContent":["hostname",""]
+},
+{
+    "type":"span",
+    "sectionID":"section11",
+    "elementContent":[", dopuszczalne jest wpisanie adresu IPv4."]
+},
+{
+    "type":"br",
+    "sectionID":"section11"
+},
+{
+    "type":"text-block-name",
+    "sectionID":"section11",
+    "elementContent":["%username%",""]
+},
+{
+    "type":"span",
+    "sectionID":"section11",
+    "elementContent":[" to zmienna tymczasowa, która ustawi zamiast tej frazy login użytkownika, na którym to jest konfigurowane."]
+},
+{
+    "type":"img",
+    "sectionID":"section11",
+    "elementContent":[
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/user_profile_AD.webp",
+      "Konfiguracja profilu mobilnego użytkowników „Adam” i „Ewa”",
+      "1027",
+      "771",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/user_profile_AD_ORIGINAL.webp"
+    ]
+},
+{
+    "type":"span",
+    "sectionID":"section11",
+    "elementContent":["Do przetestowania profilu mobilnego potrzebujesz zaimportować dodatkową maszynę z Windowsem i dołączyć ją do domeny. Upewnij się, że w nowej maszynie karta sieciowa będzie miała inny adres MAC."]
+},
+{
+    "type":"br",
+    "sectionID":"section11"
+},
+{
+    "type":"br",
+    "sectionID":"section11"
+},
+{
+    "type":"span",
+    "sectionID":"section11",
+    "elementContent":["Na początku zaloguj się na obu maszynach do konta Adama i dokonaj zmian w ustawieniach personalizacji oraz utwórz nowy plik tekstowy. Następnie wyloguj się z maszyn, a nowsze zmiany zostaną zapisane na serwerze AD DC."]
+},
+{
+    "type":"img",
+    "sectionID":"section11",
+    "elementContent":[
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/user_profile_result1_AD.webp",
+      "Zmiany w profilu użytkownika „Adam”",
+      "1920",
+      "1080",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/user_profile_result1_AD_ORIGINAL.webp"
+    ]
+},
+{
+    "type":"span",
+    "sectionID":"section11",
+    "elementContent":["W efekcie końcowym, gdy zalogujesz się ponownie na obie maszyny tym samym kontem, dane zostaną zsynchronizowane. Nawet lokalizacja pliku na pulpicie będzie taka sama, co w starszych wersjach domen na Windows serwer nie miało miejsca."]
+},
+{
+    "type":"img",
+    "sectionID":"section11",
+    "elementContent":[
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/user_profile_result2_AD.webp",
+      "Zmiany w profilu użytkownika „Adam”",
+      "1920",
+      "1080",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/user_profile_result2_AD_ORIGINAL.webp"
+    ]
+},
+{
+    "type":"h2",
+    "sectionID":"section12",
+    "elementContent":["Konfiguracja Folderu macierzy – banalny dostęp do udziału sieciowego"]
+},
+{
+    "type":"span",
+    "sectionID":"section12",
+    "elementContent":["Dodaj kolejny podkatalog do "]
+},
+{
+    "type":"text-block-name",
+    "sectionID":"section12",
+    "elementContent":["AD_users",""]
+},
+{
+    "type":"span",
+    "sectionID":"section12",
+    "elementContent":[" i nazwij go "]
+},
+{
+    "type":"text-block-name",
+    "sectionID":"section12",
+    "elementContent":["Udział", ""]
+},
+{
+    "type":"span",
+    "sectionID":"section12",
+    "elementContent":[". W moim przypadku chcę, aby konfiguracja dawała wspólną przestrzeń sieciową dla obu użytkowników."]
+},
+{
+    "type":"img",
+    "sectionID":"section12",
+    "elementContent":[
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/user_disk_AD.webp",
+      "Dodawanie nowego udziału sieciowego „Udział”",
+      "1026",
+      "771",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/user_disk_AD_ORIGINAL.webp"
+    ]
+},
+{
+    "type":"span",
+    "sectionID":"section12",
+    "elementContent":["Może się wyświetlić następujące ostrzeżenie, którym nie należy się przejmować. Kliknij "]
+},
+{
+    "type": "ref-btn-for-img",
+    "sectionID": "section12",
+    "elementContent": ["Tak"]
+  },
+  {
+    "type":"span",
+    "sectionID":"section12",
+    "elementContent":[":"]
+},
+  {
+    "type":"img",
+    "sectionID":"section12",
+    "elementContent":[
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/user_disk_warrning_AD.webp",
+      "Ostrzeżenie o dodawaniu nowego udziału sieciowego",
+      "413",
+      "224",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/user_disk_warrning_AD_ORIGINAL.webp"
+    ]
+  },
+  
+{
+    "type":"br",
+    "sectionID":"section12"
+},
+{
+    "type":"span",
+    "sectionID":"section12",
+    "elementContent":["Po ponownym przelogowaniu się na konto Adama, w eksploratorze plików "]
+},
+{
+    "type":"bi",
+    "sectionID":"section12",
+    "elementContent":["„Ten komputer”","blue"]
+},
+{
+    "type":"span",
+    "sectionID":"section12",
+    "elementContent":[" ukaże się podłączony dysk sieciowy do przestrzeni naszego udziału i literce "]
+},
+{
+    "type":"b",
+    "sectionID":"section12",
+    "elementContent":["W","green"]
+},
+{
+    "type":"span",
+    "sectionID":"section12",
+    "elementContent":["."]
+},
+{
+    "type":"img",
+    "sectionID":"section12",
+    "elementContent":[
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/user_disk_result_AD.webp",
+      "Udostępniony dysk sieciowy „Udział” i anomalie w konsoli CMD",
+      "1920",
+      "1032",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/user_disk_result_AD_ORIGINAL.webp"
+    ]
+},
+{
+    "type":"b",
+    "sectionID":"section12",
+    "elementContent":["Obserwacja"]
+},
+{
+    "type":"span",
+    "sectionID":"section12",
+    "elementContent":[": Od tego momentu, przy odpaleniu konsoli CMD poprzez wyszukanie jej w menu"]
+},
+{
+    "type":"text-block-name",
+    "sectionID":"section12",
+    "elementContent":["Windows Start",""]
+},
+{
+    "type":"span",
+    "sectionID":"section12",
+    "elementContent":[", domyślna ścieżka to "]
+},
+{
+    "type":"text-block-name",
+    "sectionID":"section12",
+    "elementContent":["W:\\>",""]
+},
+{
+    "type":"span",
+    "sectionID":"section12",
+    "elementContent":[" zamiast "]
+},
+{
+    "type":"text-block-name",
+    "sectionID":"section12",
+    "elementContent":["C:\\>",""]
+},
+{
+    "type":"span",
+    "sectionID":"section12",
+    "elementContent":["."]
+},
+{
+    "type":"br",
+    "sectionID":"section12"
+},
+{
+    "type":"span",
+    "sectionID":"section12",
+    "elementContent":["Co nie ma miejsca, gdy konsola zostanie uruchomiona z programu uruchom "]
+},
+{
+    "type": "key-combo",
+    "sectionID": "section12",
+    "elementContent": ["CTRL", "R"]
+},
+{
+    "type":"span",
+    "sectionID":"section12",
+    "elementContent":["."]
+},
+{
+    "type":"h2",
+    "sectionID":"section13",
+    "elementContent":["Konfiguracja skryptu logowania"]
+},
+{
+    "type":"span",
+    "sectionID":"section13",
+    "elementContent":["W tym przypadku należy skorzystać z udziału sieciowego utworzonego przez "]
+},
+{
+    "type":"bi",
+    "sectionID":"section13",
+    "elementContent":["AD DC","orange"]
+},
+{
+    "type":"span",
+    "sectionID":"section13",
+    "elementContent":[". Umieść poniższy skrypt "]
+},
+{
+    "type":"bi",
+    "sectionID":"section13",
+    "elementContent":["BATCH","blue"]
+},
+{
+    "type":"span",
+    "sectionID":"section13",
+    "elementContent":[" w następującej lokalizacji sieciowej:"]
+},
+{
+    "type":"br",
+    "sectionID":"section13"
+},
+{
+    "type":"text-block-name",
+    "sectionID":"section13",
+    "elementContent":["\\szkola.local\\SYSVOL\\\\szkola.local\\scripts",""]
+},
+{
+    "type":"span",
+    "sectionID":"section13",
+    "elementContent":[", gdzie "]
+},
+{
+    "type":"text-block-name",
+    "sectionID":"section13",
+    "elementContent":["szkola.local",""]
+},
+{
+    "type":"span",
+    "sectionID":"section13",
+    "elementContent":[" to nazwa domeny:"]
+},
+
+{
+    "type":"text-block-name",
+    "sectionID":"section13",
+    "elementContent":["@echo off\n\n:: Ustawia kodowanie znaków na UTF-8, który obsługuje polskie znaki specjalne\nchcp 65001 >nul\n\n:: Rozmiar okna CMD\nmode con: cols=80 lines=25\n\n:: Modyfikacja rejestru dodająca klucz ustalający rozmiar czcionki na 80\nreg add \"HKCU\\Console\" /v FontSize /t REG_DWORD /d 0x0500000 /f\n\n:: Uruchamia nowe okno CMD z sformatowaną wiadomością i czeka na klawisz, aby się zamknąć\nstart \"\" cmd /c \"color 0A & echo Witaj Użytkowniku & pause\"\n\n:: Przywraca domyślne ustawienie rozmiaru czcionki poprzez usunięcie wartości z rejestru\nreg delete \"HKCU\\Console\" /v FontSize /f\n\n:: Zamyka pierwsze okno CMD\nexit", ""]
+},
+{
+    "type":"img",
+    "sectionID":"section13",
+    "elementContent":[
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/user_script_AD.webp",
+      "Skrypt logowania użytkownika „Adam”",
+      "1024",
+      "768",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/user_script_AD_ORIGINAL.webp"
+    ]
+},
+{
+    "type":"span",
+    "sectionID":"section13",
+    "elementContent":["Od teraz, gdy Adam będzie się logował, automatycznie uruchomi się skrypt, który włącza konsolę CMD i dużymi zielonymi literami wyświetla komunikat powitalny."]
+},
+{
+    "type":"img",
+    "sectionID":"section13",
+    "elementContent":[
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/user_script_result_AD.webp",
+      "Komunikat powitalny dla użytkownika „Adam”",
+      "1920",
+      "1032",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/user_script_result_AD_ORIGINAL.webp"
+    ]
+},
+{
+    "type":"span",
+    "sectionID":"section13",
+    "elementContent":["PS: Skrypt czasami nie zadziała poprawnie i wyświetli komunikat w standardowym rozmiarze czcionki."]
+},
+{
+    "type":"h2",
+    "sectionID":"section14",
+    "elementContent":["Podsumowanie"]
+},
+{
+    "type":"span",
+    "sectionID":"section14",
+    "elementContent":["Poczynione konfiguracje profilu mobilnego i skryptów logowania obciążają sieć i wydłużają proces logowania i wylogowywania się użytkownika w domenie.", ""]
+}
+]
