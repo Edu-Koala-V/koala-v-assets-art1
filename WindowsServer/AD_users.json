@@ -1389,7 +1389,7 @@
                  {
                     "type":"text-block-name",
                     "sectionID": "section9",
-                    "elementContent": ["@echo off\\n\\n:: Wyświetla „Komunikat” w konsoli CMD\\necho Komunikat\\n\\n:: Oczekuje wciśnięcia klawisza by zakończyć działanie konsoli CMD\\npause", ""]
+                    "elementContent": ["@echo off\n\n:: Wyświetla „Komunikat” w konsoli CMD\necho Komunikat\n\n:: Oczekuje wciśnięcia klawisza by zakończyć działanie konsoli CMD\npause", ""]
                  }
                 ]
               ]
@@ -1910,12 +1910,6 @@
     "sectionID":"section13",
     "elementContent":[" to nazwa domeny:"]
 },
-
-{
-    "type":"text-block-name",
-    "sectionID":"section13",
-    "elementContent":["@echo off\n\n:: Ustawia kodowanie znaków na UTF-8, który obsługuje polskie znaki specjalne\nchcp 65001 >nul\n\n:: Rozmiar okna CMD\nmode con: cols=80 lines=25\n\n:: Modyfikacja rejestru dodająca klucz ustalający rozmiar czcionki na 80\nreg add \"HKCU\\Console\" /v FontSize /t REG_DWORD /d 0x0500000 /f\n\n:: Uruchamia nowe okno CMD z sformatowaną wiadomością i czeka na klawisz, aby się zamknąć\nstart \"\" cmd /c \"color 0A & echo Witaj Użytkowniku & pause\"\n\n:: Przywraca domyślne ustawienie rozmiaru czcionki poprzez usunięcie wartości z rejestru\nreg delete \"HKCU\\Console\" /v FontSize /f\n\n:: Zamyka pierwsze okno CMD\nexit", ""]
-},
 {
     "type":"img",
     "sectionID":"section13",
@@ -1927,6 +1921,25 @@
       "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/user_script_AD_ORIGINAL.webp"
     ]
 },
+{
+    "type":"br",
+    "sectionID":"section13"
+},
+{
+    "type":"span",
+    "sectionID":"section13",
+    "elementContent":["Zawartość skryptu:"]
+},
+{
+    "type":"br",
+    "sectionID":"section13"
+},
+{
+    "type":"text-block-name",
+    "sectionID":"section13",
+    "elementContent":["@echo off\n\n:: Ustawia kodowanie znaków na UTF-8, który obsługuje polskie znaki specjalne\nchcp 65001 >nul\n\n:: Rozmiar okna CMD\nmode con: cols=80 lines=25\n\n:: Modyfikacja rejestru dodająca klucz ustalający rozmiar czcionki na 80\nreg add \"HKCU\\Console\" /v FontSize /t REG_DWORD /d 0x0500000 /f\n\n:: Uruchamia nowe okno CMD z sformatowaną wiadomością i czeka na klawisz, aby się zamknąć\nstart \"\" cmd /c \"color 0A & echo Witaj Użytkowniku & pause\"\n\n:: Przywraca domyślne ustawienie rozmiaru czcionki poprzez usunięcie wartości z rejestru\nreg delete \"HKCU\\Console\" /v FontSize /f\n\n:: Zamyka pierwsze okno CMD\nexit", ""]
+},
+
 {
     "type":"span",
     "sectionID":"section13",
