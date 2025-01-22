@@ -1,0 +1,416 @@
+[
+  {
+    "type": "h2",
+    "sectionID": "section1",
+    "elementContent": ["Wstęp"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [
+      "W tym artykule przedstawię problemy, na które możesz napotkać podczas dołączania klienta do Domeny AD. Wszelkie błędy powiązane z dołączaniem do domeny zapisywane są do pliku tekstowego "
+    ]
+  },
+  {
+    "type": "i",
+    "sectionID": "section1",
+    "elementContent": ["dcdiag.txt"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": [" w następującej lokalizacji: "]
+  },
+  {
+    "type": "text-block-name",
+    "sectionID": "section1",
+    "elementContent": ["C:\\\\Windows\\\\debug\\\\", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section1",
+    "elementContent": ["."]
+  },
+  {
+    "type": "h2",
+    "sectionID": "section2",
+    "elementContent": ["Brak komunikacji sieciowej"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      "Zacznijmy od tego, że może nie zostały skonfigurowane interfejsy sieciowe."
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section2"
+  },
+  {
+    "type": "br",
+    "sectionID": "section2"
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      "Na obrazku poniżej czerwonymi obramówkami oznaczono informacje dotyczące błędu dołączenia do domeny AD."
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section2"
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      "Pomarańczowym obramowaniem zaznaczono ustawienie automatycznego uzyskiwania adresu IP. Jeżeli nie ma serwera DHCP w sieci, system ustawi adres "
+    ]
+  },
+  {
+    "type": "text-block-name",
+    "sectionID": "section2",
+    "elementContent": ["192.254.207.202", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [
+      ", jest to specjalny adres IPv4, który oznacza brak możliwości uzyskania adresu IP z serwera DHCP."
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section2"
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": ["Aby sprawdzić adresy DNS, musisz dopisać do komendy "]
+  },
+  {
+    "type": "text-block-name",
+    "sectionID": "section2",
+    "elementContent": ["ipconfig", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": [" argument "]
+  },
+  {
+    "type": "text-block-name",
+    "sectionID": "section2",
+    "elementContent": ["/all", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section2",
+    "elementContent": ["."]
+  },
+  {
+    "type": "img",
+    "sectionID": "section2",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/non_addresses_conf_AD_DC.webp",
+      "Brak komunikacji sieciowej",
+      "1581",
+      "926",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/non_addresses_conf_AD_DC_ORIGINAL.webp"
+    ]
+  },
+  {
+    "type": "h2",
+    "sectionID": "section2",
+    "elementContent": [
+      "Kolejnymi problemami dotyczącymi komunikacji sieciowej są dwa przypadki:"
+    ]
+  },
+  {
+    "type": "list",
+    "sectionID": "section2",
+    "elementContent": {
+      "ver": "ol",
+      "listElements": [
+        [
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["Żółte obramowanie: ", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [
+              " Próbujesz skomunikować się z urządzeniem z innej podsieci bez bramy domyślnej i skonfigurowanego routingu."
+            ]
+          },
+          {
+            "type": "img",
+            "sectionID": "section2",
+            "elementContent": [
+              "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/bad_addresses_conf_AD_DC.webp",
+              "Błedne adresacje sieciowe IPv4.",
+              "1920",
+              "1032",
+              "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/bad_addresses_conf_AD_DC_ORIGINAL.webp"
+            ]
+          }
+        ],
+        [
+          {
+            "type": "b",
+            "sectionID": "section2",
+            "elementContent": ["Pomarańczowe obramowanie:", ""]
+          },
+          {
+            "type": "span",
+            "sectionID": "section2",
+            "elementContent": [
+              " Skonfigurowano poprawnie interfejsy w tej samej podsieci, ale coś nie pozwala na transmisję danych.",
+              ""
+            ]
+          },
+          {
+            "type": "list",
+            "sectionID": "section2",
+            "elementContent": {
+              "ver": "ul",
+              "listElements": [
+                [
+                  {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": [
+                      "Niepoprawna konfiguracja kart sieciowych maszyn w VirtualBox:  ",
+                      ""
+                    ]
+                  },
+                  {
+                    "type": "list",
+                    "sectionID": "section2",
+                    "elementContent": {
+                      "ver": "ul",
+                      "listElements": [
+                        [
+                          {
+                            "type": "span",
+                            "sectionID": "section2",
+                            "elementContent": [
+                              "Typ karty ustawiony jest na inny niż ",
+                              ""
+                            ]
+                          },
+                          {
+                            "type": "bi",
+                            "sectionID": "section2",
+                            "elementContent": ["„Sieć wewnętrzna” ", ""]
+                          },
+                          {
+                            "type": "span",
+                            "sectionID": "section2",
+                            "elementContent": [" lub ", ""]
+                          },
+                          {
+                            "type": "bi",
+                            "sectionID": "section2",
+                            "elementContent": ["„Sieć NAT”", ""]
+                          },
+                          {
+                            "type": "span",
+                            "sectionID": "section2",
+                            "elementContent": [".", ""]
+                          }
+                        ],
+                        [
+                          {
+                            "type": "span",
+                            "sectionID": "section2",
+                            "elementContent": [
+                              "Sieć wewnętrzna ma różne nazwy w maszynach.",
+                              ""
+                            ]
+                          }
+                        ],
+                        [
+                          {
+                            "type": "span",
+                            "sectionID": "section2",
+                            "elementContent": [
+                              "Czasami tryb nasłuchu może być problemem.",
+                              ""
+                            ]
+                          }
+                        ],
+                        [
+                          {
+                            "type": "span",
+                            "sectionID": "section2",
+                            "elementContent": ["Adresy MAC są identyczne.", ""]
+                          }
+                        ],
+                        [
+                          {
+                            "type": "span",
+                            "sectionID": "section2",
+                            "elementContent": [
+                              "Wirtualny kabel nie jest podłączony.",
+                              ""
+                            ]
+                          }
+                        ]
+                      ]
+                    }
+                  }
+                ],
+                [
+                  {
+                    "type": "span",
+                    "sectionID": "section2",
+                    "elementContent": [
+                      "Brak wyjątku w FireWall (możesz go dodać albo po prostu wyłączyć Zaporę sieciową, co jest niebezpieczne i niezalecane poza działaniami laboratoryjnymi).",
+                      ""
+                    ]
+                  },
+                  {
+                    "type": "img",
+                    "sectionID": "section2",
+                    "elementContent": [
+                      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/block_ping_AD_DC.webp",
+                      "Blokowanie komunikacji przez złą konfigurację kart sieciowych w VirtualBox lub zaporę sieciową.",
+                      "1920",
+                      "1032",
+                      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/bad_dns_ad_dc_ORIGINAL.webp"
+                    ]
+                  }
+                ]
+              ]
+            }
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "type": "h2",
+    "sectionID": "section3",
+    "elementContent": ["Problem z DNS"]
+  },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": ["Jeżeli komunikacja z pomocą polecenia "]
+  },
+  {
+    "type": "text-block-name",
+    "sectionID": "section3",
+    "elementContent": ["ping docelowy_adres_ip", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [
+      " przebiega pomyślnie, a problem dalej występuje, może to być spowodowane brakiem lub niepoprawnym adresem IP serwera DNS."
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section3"
+  },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [
+      "Na poniższym obrazku podczas dołączania do domeny nie znaleziono adresów DNS, co wskazałem strzałką w komunikacie."
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section3"
+  },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [
+      "Pomarańczowym obramowaniem zaznaczyłem puste adresy DNS i jak to wygląda w wyniku komendy "
+    ]
+  },
+  {
+    "type": "text-block-name",
+    "sectionID": "section3",
+    "elementContent": ["ipconfig /all", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": ["."]
+  },
+  {
+    "type": "br",
+    "sectionID": "section3"
+  },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [
+      "Niebieskim obramowaniem wskazałem na uzupełnione adresy DNS, które można uznać za niepoprawne, ponieważ serwery o tych adresach IP nie posiadają naszego AD DC."
+    ]
+  },
+  {
+    "type": "br",
+    "sectionID": "section3"
+  },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [
+      "Zielonym obramowaniem podałem przykład poprawnej adresacji DNS, zakładając, że adres IP serwera z AD DC to: "
+    ]
+  },
+  {
+    "type": "text-block-name",
+    "sectionID": "section3",
+    "elementContent": ["192.168.0.1", ""]
+  },
+  {
+    "type": "img",
+    "sectionID": "section3",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/bad_dns_ad_dc.webp",
+      "Brak adresacji DNS.",
+      "1920",
+      "1032",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/bad_dns_ad_dc_ORIGINAL.webp"
+    ]
+  },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [
+      "Możesz też sprawdzić poprawność działania DNS z poziomu klienta za pomocą komendy: "
+    ]
+  },
+  {
+    "type": "text-block-name",
+    "sectionID": "section3",
+    "elementContent": ["nslookup adres_mnemoniczny_lub_adres_IP", ""]
+  },
+  {
+    "type": "span",
+    "sectionID": "section3",
+    "elementContent": [" (np. szkola.local, strona.pl)."]
+  },
+  {
+    "type": "img",
+    "sectionID": "section3",
+    "elementContent": [
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/nslookup_Win.webp",
+      "Przykład działania nslookup.",
+      "507",
+      "286",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/nslookup_Win_ORIGINAL.webp"
+    ]
+  }
+]
