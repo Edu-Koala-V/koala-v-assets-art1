@@ -1,0 +1,867 @@
+[
+    {
+        "type": "h2",
+        "sectionID": "section1",
+        "elementContent": ["Wstęp"]
+    },
+    {
+        "type":"b",
+        "sectionID": "section1",
+        "elementContent": ["Zasady grupy"]
+    },
+    {
+        "type": "span",
+        "sectionID": "section1",
+        "elementContent": [" ("]
+    },
+    {
+        "type":"bi",
+        "sectionID": "section1",
+        "elementContent": ["Group Policy Objects", ""]
+    },
+    {
+        "type": "span",
+        "sectionID": "section1",
+        "elementContent": [", "]
+    },
+    {
+        "type": "b",
+        "sectionID": "section1",
+        "elementContent": ["GPO"]
+    },
+    {
+        "type": "span",
+        "sectionID": "section1",
+        "elementContent": [") to mechanizm zarządzania konfiguracją systemów i użytkowników w środowisku Active Directory. Umożliwiają centralne zarządzanie ustawieniami systemu operacyjnego, aplikacji i zabezpieczeń, co jest kluczowe w dużych organizacjach."]
+    },
+    {
+        "type": "br",
+        "sectionID": "section1"
+    },
+    {
+        "type": "span",
+        "sectionID": "section1",
+        "elementContent": ["W tej lekcji przedstawię ci na przykładzie zasad haseł w domenie wszystkie najważniejsze i podstawowe akcje do skonfigurowania pierwszej polityki. W kolejnych sekcjach zademonstruję zestawienie przykładowych zasad z rezultatem."]
+    },
+    {
+        "type": "br",
+        "sectionID": "section1"
+    },
+    {
+        "type": "h2",
+        "sectionID": "section2",
+        "elementContent": ["GPO w pigułce"]
+    },
+    {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": ["Gdy masz już skonfigurowaną domenę, przejdź do "]
+    },
+    {
+        "type": "text-block-name",
+        "sectionID": "section2",
+        "elementContent": ["Narzędzia", ""]
+    },
+    {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": [", a następnie wybierz "]
+    },
+    {
+        "type": "text-block-name",
+        "sectionID": "section2",
+        "elementContent": ["Zarządzanie zasadami grupy", ""]
+    },
+    {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": ["."]
+    },
+    {
+        "type":"img",
+        "sectionID":"section2",
+        "elementContent":[
+          "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/start_GPO_AD.webp",
+          "Uruchomienie narzędzia Zarządzanie zasadami grupy z poziomu menedżera serwera",
+          "1024",
+          "768",
+          "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/start_GPO_AD_ORIGINAL.webp"
+        ]
+    },
+    {
+        "type": "br",
+        "sectionID": "section2"
+    },
+    {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": ["W lewym menu nawigacyjnym zobaczysz strukturę lasu "]
+    },
+    {
+        "type": "bi",
+        "sectionID": "section2",
+        "elementContent": ["„szkola.local”"]
+    },
+    {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": [" i podpięte do niej drzewa. W moim przypadku jest tylko jedno drzewo "]
+    },
+    {
+        "type": "bi",
+        "sectionID": "section2",
+        "elementContent": ["„szkola.local”"]
+    },
+    {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": ["."]
+    },
+    {
+        "type": "br",
+        "sectionID": "section2"
+    },
+    {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": ["Pierwszy element podrzędny "]
+    },
+    {
+        "type": "bi",
+        "sectionID": "section2",
+        "elementContent": ["„Default Domain Policy”"]
+    },
+    {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": [" to globalne zasady obowiązujące w całej domenie tego drzewa, czyli każda poczyniona konfiguracja będzie obowiązywać wszystkich klientów, którzy dołączą i już dołączyli do domeny."]
+    },
+    {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": ["Kolejne elementy, które powinny cię zainteresować, to jednostki organizacyjne, które zostały utworzone w "]
+    },
+    {
+        "type": "bi",
+        "sectionID": "section2",
+        "elementContent": ["„Użytkownicy i komputery usługi Active Directory”"]
+    },
+    {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": [". Dzięki segregacji użytkowników, grup i komputerów na dane jednostki możesz łatwo spersonalizować specyficzne zasady dla każdej z nich."]
+    },
+    {
+        "type":"img",
+        "sectionID":"section2",
+        "elementContent":[
+          "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/tree_GPO_AD.webp",
+          "Struktura drzewa GPO w środowisku AD",
+          "1024",
+          "768",
+          "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/tree_GPO_AD_ORIGINAL.webp"
+        ]
+    },
+    {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": ["A więc dokonajmy modyfikacji globalnych zasad GPO. Kliknij prawym przyciskiem myszy na "]
+    },
+    {
+        "type": "text-block-name",
+        "sectionID": "section2",
+        "elementContent": ["„Default Domain Policy”", ""]
+    },
+    {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": [", zaznacz "]
+    },
+    {
+        "type": "text-block-name",
+        "sectionID": "section2",
+        "elementContent": ["„Wymuszanie”",""]
+    },
+    {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": [", a następnie "]
+    },
+    {
+        "type": "text-block-name",
+        "sectionID": "section2",
+        "elementContent": ["edytuj",""]
+    },
+    {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": ["."]
+    },
+    {
+        "type": "br",
+        "sectionID": "section2"
+    },
+    {
+        "type": "bi",
+        "sectionID": "section2",
+        "elementContent": ["Wymuszanie"]
+    },
+    {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": [" sprawia, że zasady powinny automatycznie zostać pobrane i zastosowane przez użytkowników AD DC na klientów."]
+    },
+    {
+        "type":"img",
+        "sectionID":"section2",
+        "elementContent":[
+          "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/global_edit_GPO_AD.webp",
+          "Edycja globalnych zasad GPO",
+          "1024",
+          "768",
+          "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/global_edit_GPO_AD_ORIGINAL.webp"
+        ]
+    },
+    {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": ["W razie, gdyby to się jednak nie stało, możesz zawsze ręcznie z poziomu klienta lub serwera sforsować zaktualizowanie zasad GPO."]
+    },
+    {
+        "type": "h3",
+        "sectionID": "section2",
+        "elementContent": ["Z poziomu klienta"]
+    },
+    {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": ["Wykorzystasz konsolę CMD i komendę "]
+    },
+    {
+        "type": "text-block-name",
+        "sectionID": "section2",
+        "elementContent": ["gpupdate",""]
+    },
+    {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": [" z odpowiednim argumentem:"]
+    },
+    {
+        "type": "list",
+        "sectionID": "section2",
+        "elementContent": {
+            "ver": "ul",
+            "listElements": [
+                [
+                    {
+                        "type": "text-block-name",
+                        "sectionID": "section2",
+                        "elementContent": ["gpupdate /target:user",""]
+                    },
+                    {
+                        "type": "span",
+                        "sectionID": "section2",
+                        "elementContent": [" zaktualizuje zasady z sekcji „Konfiguracja użytkownika”."]
+                    }
+                ],
+                [
+                    {
+                        "type": "text-block-name",
+                        "sectionID": "section2",
+                        "elementContent": ["gpupdate /target:computer",""]
+                    },
+                    {
+                        "type": "span",
+                        "sectionID": "section2",
+                        "elementContent": [" zaktualizuje zasady z sekcji „Konfiguracja komputera”."]
+                    }
+                ],
+                [
+                    {
+                        "type": "text-block-name",
+                    "sectionID": "section2",
+                    "elementContent": ["gpupdate /force",""]
+                    },
+                    {
+                        "type": "span",
+                        "sectionID": "section2",
+                        "elementContent": [" zaktualizuje obie sekcje."]
+                    }
+                ]
+            ]
+        }
+    },
+   {
+    "type":"img",
+    "sectionID":"section2",
+    "elementContent":[
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/cmd_GPO_AD.webp",
+      "Aktualizacja zasad GPO z poziomu klienta",
+      "447",
+      "212",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/cmd_GPO_AD_ORIGINAL.webp"
+    ]
+   },
+    {
+        "type": "h3",
+        "sectionID": "section2",
+        "elementContent": ["Z poziomu serwera"]
+    },
+    {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": ["Wykorzystasz konsolę PowerShell i następującą składnię:"]
+    },
+    {   
+        "type":"br",
+        "sectionID": "section2"
+    },
+    {
+        "type":"text-block-name",
+        "sectionID": "section2",
+        "elementContent": ["Invoke-GPUpdate -Computer ”Nazwa komputera” – Force",""]
+    },
+    {
+        "type":"br",
+        "sectionID": "section2"
+    },
+    {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": ["Poniżej masz dwa wywołania. Za pierwszym razem zablokowała mnie zapora sieciowa, która była włączona na kliencie."]
+    },
+    {
+        "type":"img",
+        "sectionID":"section2",
+        "elementContent":[
+          "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/ps_GPO_AD.webp",
+          "Aktualizacja zasad GPO z poziomu serwera",
+          "1026",
+          "294",
+          "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/ps_GPO_AD_ORIGINAL.webp"
+        ]
+    },
+    {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": ["Zasady grupy dzielą się na:"]
+    },
+    {
+        "type": "list",
+        "sectionID": "section2",
+        "elementContent": {
+            "ver": "ul",
+            "listElements": [
+                [
+                    {
+                        "type": "b",
+                        "sectionID": "section2",
+                        "elementContent": ["Konfiguracja komputera: "]
+                    },
+                    {
+                        "type": "span",
+                        "sectionID": "section2",
+                        "elementContent": ["Obejmuje ustawienia, które są stosowane do komputerów, niezależnie od tego, kto się na nich loguje. Przykłady takich ustawień to zasady dotyczące zabezpieczeń, instalacji oprogramowania, ustawienia systemu operacyjnego, polityki haseł, ustawienia zapory sieciowej, itp. Zmiany wprowadzone w tej sekcji wpływają na wszystkie komputery w domenie, które są objęte daną polityką."]
+                    }
+                ],
+                [
+                    {
+                        "type": "b",
+                        "sectionID": "section2",
+                        "elementContent": ["Konfiguracja użytkownika: "]
+                    },
+                    {
+                        "type": "span",
+                        "sectionID": "section2",
+                        "elementContent": ["Obejmuje ustawienia, które są stosowane do użytkowników, niezależnie od tego, na którym komputerze się logują. Przykłady takich ustawień to zasady dotyczące wyglądu pulpitu, ustawienia przeglądarki internetowej, mapowanie dysków sieciowych, skrypty logowania, itp. Zmiany wprowadzone w tej sekcji wpływają na wszystkich użytkowników w domenie, którzy są objęci daną polityką."]
+                    }
+                ]
+            ]
+        }
+    },
+    {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": ["My chcemy zmienić politykę haseł w całej domenie, więc musimy skorzystać z sekcji Konfiguracja komputera."]
+    },
+    {
+        "type":"br",
+        "sectionID": "section2"
+    },
+    {
+        "type":"span",
+        "sectionID": "section2",
+        "elementContent": ["Przechodzimy kolejno: "]
+    },
+    {
+        "type": "br",
+        "sectionID": "section2"
+    },
+    {
+        "type": "text-block-name",
+        "sectionID": "section2",
+        "elementContent": ["Konfiguracja komputera >> Ustawienia systemu Windows >> Ustawienia zabezpieczeń >> Zasady konta >> Zasady haseł",""]
+    },
+    {
+        "type":"br",
+        "sectionID": "section2"
+    },
+    {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": ["Interesująca nas zasada to "]
+    },
+    {
+        "type": "bi",
+        "sectionID": "section2",
+        "elementContent": ["„Minimalna długość hasła”"]
+    },
+    {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": [". Zmieńmy ją z 7 znaków na 12."]
+    },
+    {
+        "type":"img",
+        "sectionID":"section2",
+        "elementContent":[
+          "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/max_pass_length_GPO_AD.webp",
+          "Zmiana minimalnej długości hasła w zasadach GPO",
+          "1024",
+          "768",
+          "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/max_pass_length_GPO_AD_ORIGINAL.webp"
+        ]
+    },
+    {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": ["Teraz przejdźmy do właściwości użytkownika „uczen001” i zastosujmy zmianę, że to konto będzie musiało przy następnym logowaniu zmienić hasło."]
+    },
+   {
+    "type":"img",
+    "sectionID":"section2",
+    "elementContent":[
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/force_change_pass_adam_GPO_AD.webp",
+      "Wymuszenie zmiany hasła użytkownika",
+      "1024",
+      "768",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/force_change_pass_adam_GPO_AD_ORIGINAL.webp"
+    ]
+   },
+    {
+        "type": "span",
+        "sectionID": "section2",
+        "elementContent": ["Teraz można sprawdzić, czy nowa zasada już obowiązuje. Spróbujmy zalogować się na Adama i podczas zmiany hasła podajmy wartość składającą się z 9 znaków, aby wykluczyć możliwość działania poprzedniego wymagania 7-znakowego i sprawdzić, czy system będzie wymagał hasła o długości co najmniej 12 znaków."]
+    },
+    {
+        "type":"br",
+        "sectionID": "section2"
+    },
+    {
+        "type":"br",
+        "sectionID": "section2"
+    },
+    {
+        "type":"span",
+        "sectionID": "section2",
+        "elementContent": ["Jak widać na poniższym obrazku, zmiana hasła nie powiodła się, bo było za krótkie, a system zgłosił stosowny komunikat nie precyzujący, co w haśle jest nie tak."]
+    },
+    {
+        "type":"img",
+        "sectionID":"section2",
+        "elementContent":[
+          "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/to_short_pass_GPO_AD.webp",
+          "Zbyt krótkie hasło",
+          "1024",
+          "768",
+          "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/to_short_pass_GPO_AD_ORIGINAL.webp"
+        ]
+    },
+    {
+        "type": "h2",
+        "sectionID": "section3",
+        "elementContent": ["Ustawienie wymogu odblokowania ekranu logowania po użyciu klawiszy CTRL + ALT + DEL"]
+    },
+    {
+        "type": "text-block-name",
+        "sectionID": "section3",
+        "elementContent": ["Konfiguracja komputera >> Zasady >> Ustawienia systemu Windows >> Ustawienia zabezpieczeń >> Zasady lokalne >> Opcje zabezpieczeń",""]
+    },
+    {
+        "type":"br",
+        "sectionID": "section3"
+    },
+    {
+        "type":"span",
+        "sectionID": "section3",
+        "elementContent": ["Zasada: "]
+    },
+    {
+        "type": "bi",
+        "sectionID": "section3",
+        "elementContent": ["Logowanie interakcyjne: nie wymagaj naciśnięcia klawiszy CTRL + ALT + DEL"]
+    },
+    {
+        "type":"img",
+        "sectionID":"section3",
+        "elementContent":[
+          "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/rule_ctrl+alt+delete_GPO_AD.webp",
+          "Ustawienie wymogu odblokowania ekranu logowania po użyciu klawiszy CTRL + ALT + DEL",
+          "1024",
+          "768",
+          "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/rule_ctrl+alt+delete_GPO_AD_ORIGINAL.webp"
+        ]
+    },
+    {
+        "type":"span",
+        "sectionID": "section3",
+        "elementContent": ["Możesz zdefiniować brak wymogu zastosowania klawiszy "]
+    },
+    {
+        "type": "key-combo",
+        "sectionID": "section3",
+        "elementContent": ["Ctrl", "Alt", "Delete"]
+      },
+      {
+        "type":"span",
+        "sectionID": "section3",
+        "elementContent": [", by odblokować ekran logowania."]
+    },
+    {
+        "type": "list",
+        "sectionID": "section3",
+        "elementContent": {
+          "ver": "ul",
+          "listElements": [
+            [
+              {
+                "type": "b",
+                "sectionID": "section3",
+                "elementContent": ["Włączone: ", ""]
+              },
+              {
+                "type": "span",
+                "sectionID": "section3",
+                "elementContent": ["Windows klient i serwer nie będzie już wymagał klikania tej kombinacji klawiszy.", ""]
+              }
+            ],
+            [
+                {
+                    "type": "b",
+                    "sectionID": "section3",
+                    "elementContent": ["Wyłączone: ", ""]
+                },
+                {
+                    "type": "span",
+                    "sectionID": "section3",
+                    "elementContent": ["Windows klient i serwer będzie wymagał klikania tej kombinacji klawiszy.", ""]
+                }
+            ]
+          ]
+        }
+      },
+      {
+        "type":"img",
+        "sectionID":"section3",
+        "elementContent":[
+          "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/ctrl+alt+delete_GPO_AD.webp",
+          "Ustawienie wymogu odblokowania ekranu logowania po użyciu klawiszy CTRL + ALT + DEL",
+          "1024",
+          "768",
+          "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/ctrl+alt+delete_GPO_AD_ORIGINAL.webp"
+        ]
+      },
+      {
+        "type":"h2",
+        "sectionID":"section4",
+        "elementContent":["Zasady Panelu sterowania"]
+      },
+      {
+        "type":"b",
+        "sectionID":"section4",
+        "elementContent":["Na początek przedstawię ci niezmieniony domyślny panel sterowania, który przełączyłem na duże ikony:"]
+      },
+   {
+    "type":"img",
+    "sectionID":"section4",
+    "elementContent":[
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/panel_sterowania.webp",
+      "Panel sterowania",
+      "1028",
+      "642",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/panel_sterowania_ORIGINAL.webp"
+    ]
+   },
+   {
+    "type":"text-block-name",
+    "sectionID":"section4",
+    "elementContent":["Konfiguracja użytkownika >> Zasady >> Szablony administracyjne... >> Panel sterowania",""]
+   },
+   {
+    "type":"br",
+    "sectionID":"section4"
+   },
+   {
+    "type":"span",
+    "sectionID":"section4",
+    "elementContent":["Zasada: "]
+   },
+   {
+    "type":"bi",
+    "sectionID":"section4",
+    "elementContent":["Ukryj określone elementy Panelu sterowania"]
+   },
+   {
+    "type":"img",
+    "sectionID":"section4",
+    "elementContent":[
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/rule_hide_panel_sterowania_GPO_AD.webp",
+      "Zasada do ukrywania poszczególnych elementów Panelu sterowania",
+      "1026",
+      "770",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/rule_hide_panel_sterowania_GPO_AD_ORIGINAL.webp"
+    ]
+   },
+   {
+    "type":"span",
+    "sectionID":"section4",
+    "elementContent":["Gdy włączysz tę zasadę, kliknij "]
+   },
+   {
+    "type": "ref-btn-for-img",
+    "sectionID": "section4",
+    "elementContent": ["Pokaż…"]
+  },
+   {
+    "type":"span",
+    "sectionID":"section4",
+    "elementContent":[" i dodaj nazwy elementów do usunięcia. Wielkość znaków nie ma znaczenia, ale wpisane wartości muszą być zgodne z tym, co wyświetla się w panelu sterowania. Jak widzisz na powyższym obrazku, zrobiłem literówkę i Menedżer poświadczeń się nie ukrył."]
+   },
+   {
+    "type":"br",
+    "sectionID":"section4"
+   },
+   {
+    "type":"span",
+    "sectionID":"section4",
+    "elementContent":["Ps. Pisanie nazw po angielsku, gdy mamy spolszczony system kliencki, nie zadziała."]
+   },
+ {
+    "type":"img",
+    "sectionID":"section4",
+    "elementContent":[
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/hide_panel_sterowania_GPO_AD.webp",
+      "Wynik zasady do ukrywania poszczególnych elementów Panelu sterowania",
+      "1026",
+      "770",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/hide_panel_sterowania_GPO_AD_ORIGINAL.webp"
+    ]
+ },
+   {
+    "type":"text-block-name",
+    "sectionID":"section4",
+    "elementContent":["Konfiguracja użytkownika >> Zasady >> Szablony administracyjne... >> Panel sterowania",""]
+   },
+   {
+    "type":"br",
+    "sectionID":"section4"
+   },
+   {
+    "type":"span",
+    "sectionID":"section4",
+    "elementContent":["Zasada: "]
+   },
+   {
+    "type":"bi",
+    "sectionID":"section4",
+    "elementContent":["Pokaż tylko określone elementy Panelu sterowania"]
+   },
+   {
+    "type":"img",
+    "sectionID":"section4",
+    "elementContent":[
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/rule_show_panel_sterowania_GPO_AD.webp",
+      "Zasada do pokazywania poszczególnych elementów Panelu sterowania",
+      "1026",
+      "770",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/rule_show_panel_sterowania_GPO_AD_ORIGINAL.webp"
+    ]
+   },
+   {
+    "type":"span",
+    "sectionID":"section4",
+    "elementContent":["W tej zasadzie możesz ustalić, jakie elementy panelu sterowania mogą być wyświetlane. Zwróć uwagę na hierarchię, aby ta zasada mogła zadziałać, musisz zmienić wyższą na "]
+   },
+   {
+    "type":"bi",
+    "sectionID":"section4",
+    "elementContent":["„Nie skonfigurowano”"]
+   },
+   {
+    "type":"span",
+    "sectionID":"section4",
+    "elementContent":[" lub "]
+   },
+   {
+    "type":"bi",
+    "sectionID":"section4",
+    "elementContent":["„Wyłączone”"]
+   },
+   {
+    "type":"span",
+    "sectionID":"section4",
+    "elementContent":[", co spowoduje wyczyszczenie zawartości tej zasady."]
+   },
+{
+    "type":"img",
+    "sectionID":"section4",
+    "elementContent":[
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/show_panel_sterowania_GPO_AD.webp",
+      "Wynik zasady do pokazywania poszczególnych elementów Panelu sterowania",
+      "1026",
+      "770",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/show_panel_sterowania_GPO_AD_ORIGINAL.webp"
+    ]
+},
+{
+    "type":"text-block-name",
+    "sectionID":"section4",
+    "elementContent":["Konfiguracja użytkownika >> Zasady >> Szablony administracyjne... >> Panel sterowania",""]
+},
+{
+    "type":"br",
+    "sectionID":"section4"
+},
+{
+    "type":"span",
+    "sectionID":"section4",
+    "elementContent":["Zasada: "]
+},
+{
+    "type":"bi",
+    "sectionID":"section4",
+    "elementContent":["Zabroń dostępu do Panelu sterowania i ekranu Ustawienia komputera"]
+},
+{
+    "type":"img",
+    "sectionID":"section4",
+    "elementContent":[
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/rule_block_panel_sterowania_GPO_AD.webp",
+      "Zasada do blokowania dostępu do Panelu sterowania i ekranu Ustawienia komputera",
+      "1026",
+      "770",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/rule_block_panel_sterowania_GPO_AD_ORIGINAL.webp"
+    ]
+},
+{
+    "type":"span",
+    "sectionID":"section4",
+    "elementContent":["Włączenie tej zasady spowoduje zablokowanie dostępu do panelu sterowania i wyświetlanie przy każdej próbie go uruchomienia takiego komunikatu."]
+},
+{
+    "type":"h2",
+    "sectionID":"section5",
+    "elementContent":["Zasady Pulpitu"]
+},
+{
+    "type":"text-block-name",
+    "sectionID":"section5",
+    "elementContent":["Konfiguracja użytkownika >> Zasady >> Szablony administracyjne... >> Panel sterowania >> Personalizacja",""]
+},
+{
+    "type":"br",
+    "sectionID":"section5"
+},
+{
+    "type":"span",
+    "sectionID":"section5",
+    "elementContent":["Zasada: "]
+},
+{
+    "type":"bi",
+    "sectionID":"section5",
+    "elementContent":["Zapobiegaj zmienianiu tła pulpitu"]
+},
+{
+    "type":"img",
+    "sectionID":"section5",
+    "elementContent":[
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/rule_block_change_desktop_GPO_AD.webp",
+      "Zasada do blokowania zmiany tła pulpitu",
+      "1026",
+      "770",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/rule_block_change_desktop_GPO_AD_ORIGINAL.webp"
+    ]
+},
+{
+    "type":"br",
+    "sectionID":"section5"
+},
+{
+    "type":"span",
+    "sectionID":"section5",
+    "elementContent":["Zasada: "]
+},
+{
+    "type":"bi",
+    "sectionID":"section5",
+    "elementContent":["Tapeta pulpitu"]
+},
+{
+    "type":"br",
+    "sectionID":"section5"
+},
+{
+    "type":"span",
+    "sectionID":"section5",
+    "elementContent":["Lokalna lokalizacja domyślnych plików graficznych teł w Windows 10: "]
+},
+{
+    "type":"text-block-name",
+    "sectionID":"section5",
+    "elementContent":["C:\\Windows\\Web",""]
+},
+{
+    "type":"span",
+    "sectionID":"section5",
+    "elementContent":["."]
+},
+{
+    "type":"img",
+    "sectionID":"section5",
+    "elementContent":[
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/rule_set_desktop_GPO_AD.webp",
+      "Zasada do ustawiania tła pulpitu z pliku lokalnego",
+      "1026",
+      "770",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/rule_set_desktop_GPO_AD_ORIGINAL.webp"
+    ]
+},
+{
+    "type":"span",
+    "sectionID":"section5",
+    "elementContent":["Tym razem nie chciało mi się rozdzielać wyników tych dwóch zasad, więc połączyłem je. W efekcie końcowym mamy ustawione tło pulpitu z pliku lokalnego klienta (gdyby go nie było, pulpit stałby się cały czarny), oraz zabronione uruchamianie "]
+},
+{
+    "type":"bi",
+    "sectionID":"section5",
+    "elementContent":["„Personalizuj”"]
+},
+{
+    "type":"span",
+    "sectionID":"section5",
+    "elementContent":[" i ustawiania dowolnego obrazu jako tło pulpitu."]
+},
+{
+    "type":"img",
+    "sectionID":"section5",
+    "elementContent":[
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/set_desktop_GPO_AD.webp",
+      "Zasada do ustawiania tła pulpitu z pliku lokalnego",
+      "1026",
+      "770",
+      "Edu-Koala-V/koala-v-assets-art1/main/WindowsServer/set_desktop_GPO_AD_ORIGINAL.webp"
+    ]
+}
+]
