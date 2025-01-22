@@ -24,7 +24,7 @@
   {
     "type": "text-block-name",
     "sectionID": "section1",
-    "elementContent": ["C:\\\\Windows\\\\debug\\\\", ""]
+    "elementContent": ["C:\\Windows\\debug\\", ""]
   },
   {
     "type": "span",
