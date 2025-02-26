@@ -322,7 +322,7 @@
       {
         "type": "span",
         "sectionID": "section3",
-        "elementContent": ["Zapewne pamietasz że w UNIX-owych systemach wszystko jest plikiem?", ""]
+        "elementContent": ["Zapewne pamietasz, że w UNIX-owych systemach wszystko jest plikiem?", ""]
       },
       {"type":"br","sectionID":"section2"},
       {
@@ -459,7 +459,7 @@
                         {
                           "type": "span",
                           "sectionID": "section3",
-                          "elementContent": ["Przykład: link symboliczny", ""]
+                          "elementContent": ["Przykład: link symboliczny ", ""]
                         },
                         {
                           "type": "text-block-name",
@@ -559,7 +559,7 @@
                         {
                           "type": "span",
                           "sectionID": "section3",
-                          "elementContent": ["Przykład: urządzenia w katalogu", ""]
+                          "elementContent": ["Przykład: urządzenia w katalogu ", ""]
                         },
                         {
                           "type": "text-block-name",
@@ -604,6 +604,11 @@
         "sectionID":"section4",
         "elementContent":[". Możemy nadawać uprawnienia stosując literki i odwołując się do właściciela, grupy, innych lub wszystkich trzech.", ""]
     },
+  
+    {
+        "type":"br",
+        "sectionID":"section4"
+    },
     {
         "type":"span",
         "sectionID":"section4",
@@ -644,7 +649,7 @@
     {
         "type":"span",
         "sectionID":"section4",
-        "elementContent":["[uprawnienia] - to opcje, które określają, które uprawnienia chcemy zmienić (np. g+r, g-w, g=x  - wynikiem tych uprawnień bedzie dodanie odczytu dla grupy, potem usuniecie prawa zapisu by końcowo grupa miała tylko prawa do wykonania [(x) execute] ). ", ""]
+        "elementContent":["[uprawnienia] - to opcje, które określają, które uprawnienia chcemy zmienić (np. g+r, g-w, g=x  - wynikiem tych uprawnień będzie dodanie odczytu dla grupy, potem usunięcie prawa zapisu, by końcowo grupa miała tylko prawa do wykonania [(x) execute] ). ", ""]
     },
     {
         "type":"br",
@@ -698,7 +703,7 @@
     {
         "type":"span",
         "sectionID":"section4",
-        "elementContent":["Wartości liczbowe uprawnień są powiązane z systemem octalnym czyli ósemkowym i zapis - lub (r,w,x) odnosi się do 0 lub 1 w zapisie binarnym:", ""]
+        "elementContent":["Wartości liczbowe uprawnień są powiązane z systemem octalnym, czyli ósemkowym i zapis - lub (r,w,x) odnosi się do 0 lub 1 w zapisie binarnym:", ""]
     },
     {
         "type":"br",
