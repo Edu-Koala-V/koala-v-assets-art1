@@ -220,10 +220,21 @@
     "sectionID":"section2",
     "elementContent":["dpkg","orange"]
 },
+    
+{
+    "type":"br",
+    "sectionID":"section2"
+},
+    
 {
     "type":"span",
     "sectionID":"section2",
-    "elementContent":[". Gdy już jestem w katalogu ",""]
+    "elementContent":[". ",""]
+},
+{
+    "type":"span",
+    "sectionID":"section2",
+    "elementContent":["Przejdźmy do katalogu ",""]
 },
 {
     "type":"bi",
@@ -233,9 +244,8 @@
 {
     "type":"span",
     "sectionID":"section2",
-    "elementContent":[" , wpisuję komendę:",""]
+    "elementContent":[", w którym znajduje się pobrany instalator, i wpiszmy komendę ",""]
 },
-{"type":"br","sectionID":"section2"},
 {
     "type":"text-block-name",
     "sectionID":"section2",
@@ -244,7 +254,7 @@
 {
     "type":"span",
     "sectionID":"section2",
-    "elementContent":[" – (list directory content, czyli wylistuj mi zawartość katalogu)",""]
+    "elementContent":[" – (list directory content, czyli wylistuj mi zawartość katalogu), aby zobaczyć jego pełną nazwę.",""]
 },
 {"type":"br","sectionID":"section2"},
 {
