@@ -585,12 +585,12 @@
 {
     "type": "span",
     "sectionID": "section4",
-    "elementContent": [" nie są ukrywane przed użytkownikiem. Co nie znaczy że wszystkie katalogi i pliki umieszczone głebiej w strukturze tego drzewa są jawne.",""]
+    "elementContent": [" nie są ukrywane przed użytkownikiem. Co nie znaczy że, wszystkie katalogi i pliki umieszczone głebiej w strukturze tego drzewa są jawne.",""]
 },
 {
     "type": "text-block-name",
     "sectionID": "section4",
-    "elementContent": ["ls -a /"]
+    "elementContent": ["ls -a /",""]
 },
 {
     "type": "span",
@@ -668,7 +668,7 @@
             {
                 "type": "span",
                 "sectionID": "section4",
-                "elementContent": ["Znajdziesz tu programy takie jak ls, cp, mv, które są niezbędne do podstawowej pracy w systemie. Na przykład, ls pozwala wyświetlić zawartość katalogu.",""]
+                "elementContent": ["Znajdziesz tu programy takie jak ls, cp, mv, które są niezbędne do podstawowej pracy w systemie. Np. ls pozwala wyświetlić zawartość katalogu.",""]
             }
         ],
         [
@@ -719,7 +719,7 @@
             {
                 "type": "span",
                 "sectionID": "section4",
-                "elementContent": ["Znajdziesz tu pliki odpowiadające dyskom twardym, myszkom, klawiaturom, które umożliwiają komunikację z tymi urządzeniami. Na przykład, dev/sda może reprezentować Twój główny dysk twardy.",""]
+                "elementContent": ["Znajdziesz tu pliki odpowiadające dyskom twardym, myszkom, klawiaturom, które umożliwiają komunikację z tymi urządzeniami. Np. dev/sda może reprezentować Twój główny dysk twardy.",""]
             }
         ],
         [
@@ -736,7 +736,7 @@
             {
                 "type": "span",
                 "sectionID": "section4",
-                "elementContent": ["Zawiera ustawienia sieci, konfiguracje serwerów i inne pliki konfiguracyjne, które są niezbędne do działania systemu. Na przykład, plik etc/hosts pozwala na przypisanie nazw do adresów IP.",""]
+                "elementContent": ["Zawiera ustawienia sieci, konfiguracje serwerów i inne pliki konfiguracyjne, które są niezbędne do działania systemu. Np. plik etc/hosts pozwala na przypisanie nazw do adresów IP.",""]
             }
         ],
         [
@@ -753,7 +753,7 @@
             {
                 "type": "span",
                 "sectionID": "section4",
-                "elementContent": ["Każdy użytkownik ma tu swój własny katalog, gdzie przechowuje swoje pliki, dokumenty, zdjęcia i inne dane osobiste. To jak Twoja osobista szafka w szkole.",""]
+                "elementContent": ["Każdy użytkownik ma tu swój własny katalog, gdzie przechowuje swoje pliki, dokumenty, zdjęcia i inne dane osobiste.",""]
             }
         ],
         [
@@ -770,7 +770,7 @@
             {
                 "type": "span",
                 "sectionID": "section4",
-                "elementContent": ["Zawiera pliki niezbędne do działania programów znajdujących się w /bin i /sbin. Na przykład, biblioteki potrzebne do uruchomienia polecenia ls.",""]
+                "elementContent": ["Zawiera pliki niezbędne do działania programów znajdujących się w /bin i /sbin. Np. biblioteki potrzebne do uruchomienia polecenia ls.",""]
             }
         ],
         [
@@ -821,7 +821,7 @@
             {
                 "type": "span",
                 "sectionID": "section4",
-                "elementContent": ["Używane do montowania dodatkowych systemów plików na czas określony. Na przykład, możesz tu tymczasowo zamontować dodatkowy dysk twardy.",""]
+                "elementContent": ["Używane do montowania dodatkowych systemów plików na czas określony. Np. możesz tu tymczasowo zamontować dodatkowy dysk twardy.",""]
             }
         ],
         [
@@ -838,7 +838,7 @@
             {
                 "type": "span",
                 "sectionID": "section4",
-                "elementContent": ["Przechowuje aplikacje i pakiety, które nie są częścią standardowej instalacji systemu. Na przykład, dodatkowe gry lub programy.",""]
+                "elementContent": ["Przechowuje aplikacje i pakiety, które nie są częścią standardowej instalacji systemu. Np. dodatkowe gry lub programy.",""]
             }
         ],
         [
@@ -855,7 +855,7 @@
             {
                 "type": "span",
                 "sectionID": "section4",
-                "elementContent": ["Wirtualny system plików, który zawiera dane o aktualnie działających procesach i stanie systemu. Na przykład, możesz tu znaleźć informacje o zużyciu pamięci przez różne programy.",""]
+                "elementContent": ["Wirtualny system plików, który zawiera dane o aktualnie działających procesach i stanie systemu. Np. możesz tu znaleźć informacje o zużyciu pamięci przez różne programy.",""]
             }
         ],
         [
@@ -889,7 +889,7 @@
             {
                 "type": "span",
                 "sectionID": "section4",
-                "elementContent": ["Zawiera pliki tworzone podczas działania systemu, które są usuwane po restarcie. Na przykład, pliki z informacjami o aktualnie zalogowanych użytkownikach.",""]
+                "elementContent": ["Zawiera pliki tworzone podczas działania systemu, które są usuwane po restarcie. Np. pliki z informacjami o aktualnie zalogowanych użytkownikach.",""]
             }
         ],
         [
@@ -906,7 +906,7 @@
             {
                 "type": "span",
                 "sectionID": "section4",
-                "elementContent": ["Zawiera programy używane głównie przez administratora systemu, takie jak ifconfig, reboot. Na przykład, reboot pozwala na ponowne uruchomienie systemu.",""]
+                "elementContent": ["Zawiera programy używane głównie przez administratora systemu, takie jak ifconfig, reboot. Np. reboot pozwala na ponowne uruchomienie systemu.",""]
             }
         ],
         [
@@ -923,7 +923,7 @@
             {
                 "type": "span",
                 "sectionID": "section4",
-                "elementContent": ["Katalog, w którym znajdują się aplikacje zainstalowane za pomocą systemu pakietów Snap. Na przykład, aplikacje takie jak Spotify zainstalowane przez Snap.",""]
+                "elementContent": ["Katalog, w którym znajdują się aplikacje zainstalowane za pomocą systemu pakietów Snap. Np. aplikacje takie jak Spotify zainstalowane przez Snap.",""]
             }
         ],
         [
@@ -940,7 +940,7 @@
             {
                 "type": "span",
                 "sectionID": "section4",
-                "elementContent": ["Przechowuje dane używane przez serwery WWW, FTP i inne usługi systemowe. Na przykład, pliki stron internetowych hostowanych na Twoim serwerze.",""]
+                "elementContent": ["Przechowuje dane używane przez serwery WWW, FTP i inne usługi systemowe. Np. pliki stron internetowych hostowanych na Twoim serwerze.",""]
             }
         ],
         [
@@ -957,7 +957,7 @@
             {
                 "type": "span",
                 "sectionID": "section4",
-                "elementContent": ["Podobnie jak /proc, jest to wirtualny system plików z informacjami o systemie i sprzęcie. Na przykład, informacje o podłączonych urządzeniach USB.",""]
+                "elementContent": ["Podobnie jak /proc, jest to wirtualny system plików z informacjami o systemie i sprzęcie. Np. informacje o podłączonych urządzeniach USB.",""]
             }
         ],
         [
@@ -974,7 +974,7 @@
             {
                 "type": "span",
                 "sectionID": "section4",
-                "elementContent": ["Katalog na pliki tymczasowe, które są usuwane po restarcie systemu. Na przykład, pliki tymczasowe tworzone podczas instalacji programów.",""]
+                "elementContent": ["Katalog na pliki tymczasowe, które są usuwane po restarcie systemu. Np. pliki tymczasowe tworzone podczas instalacji programów.",""]
             }
         ],
         [
@@ -991,7 +991,7 @@
             {
                 "type": "span",
                 "sectionID": "section4",
-                "elementContent": ["Zawiera pliki zainstalowanych programów i aplikacji. Na przykład, pliki programów zainstalowanych z repozytorium Ubuntu.",""]
+                "elementContent": ["Zawiera pliki zainstalowanych programów i aplikacji. Np. pliki programów zainstalowanych z repozytorium Ubuntu.",""]
             }
         ],
         [
@@ -1008,7 +1008,7 @@
             {
                 "type": "span",
                 "sectionID": "section4",
-                "elementContent": ["Zawiera dane używane przez serwery www, pocztowe, ftp oraz logi i pliki drukarek. Na przykład, pliki logów serwera WWW.",""]
+                "elementContent": ["Zawiera dane używane przez serwery www, pocztowe, ftp oraz logi i pliki drukarek. Np. pliki logów serwera WWW.",""]
             }
         ]
 
