@@ -151,7 +151,7 @@
   {
     "type": "h3",
     "sectionID": "section2",
-    "elementContent": ["Powody atrakcyjności Linuxa", ""]
+    "elementContent": ["Powody atrakcyjności Linuxa:", ""]
   },
   {
     "type": "list",
@@ -358,7 +358,22 @@
             "type": "span",
             "sectionID": "section3",
             "elementContent": [
-              "Komercyjna dystrybucja znana ze swojej stabilności, bezpieczeństwa i wsparcia technicznego. Szeroko stosowana w środowiskach korporacyjnych i serwerowych. openSUSE to darmowa dystrybucja oparta na kodzie źródłowym SLE, stabilna i wszechstronna, przeznaczona zarówno dla początkujących, jak i zaawansowanych użytkowników.",
+              "Komercyjna dystrybucja znana ze swojej stabilności, bezpieczeństwa i wsparcia technicznego. Szeroko stosowana w środowiskach korporacyjnych i serwerowych. ",
+              ""
+            ]
+          },
+          
+          {
+            "type": "bi",
+            "sectionID": "section3",
+            "elementContent": ["openSUSE", "green"]
+          },
+          
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [
+              " to darmowa dystrybucja oparta na kodzie źródłowym SLE, stabilna i wszechstronna, przeznaczona zarówno dla początkujących, jak i zaawansowanych użytkowników.",
               ""
             ]
           }
