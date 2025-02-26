@@ -331,7 +331,7 @@
     "type": "span",
     "sectionID": "section3",
     "elementContent": [
-      "Niby w parted określaliśmy typ partycji jako ext4, ale system go nie rozpoznaje co możesz zaobserwować na kolejnym obrazku w niebieskim obramowaniu jest świerza partycja 3.",
+      "Niby w parted określiliśmy typ partycji jako ext4, ale system go nie rozpoznaje, co możesz zaobserwować na kolejnym obrazku. W niebieskim obramowaniu jest nowo utworzona partycja 3.",
       ""
     ]
   },
@@ -497,7 +497,7 @@
   {
     "type":"span",
     "sectionID":"section5",
-    "elementContent":["Aby od odmontować partycje lub dysk wpisz komendę",""]
+    "elementContent":["Aby odmontować partycje lub dysk wpisz komendę ",""]
   },
   {
     "type":"b",
