@@ -219,17 +219,15 @@
     "type":"bi",
     "sectionID":"section2",
     "elementContent":["dpkg","orange"]
-},
-    
-{
-    "type":"br",
-    "sectionID":"section2"
-},
-    
+},    
 {
     "type":"span",
     "sectionID":"section2",
     "elementContent":[". ",""]
+},
+{
+    "type":"br",
+    "sectionID":"section2"
 },
 {
     "type":"span",
