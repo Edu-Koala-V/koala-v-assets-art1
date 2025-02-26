@@ -212,7 +212,7 @@
           {
             "type": "span",
             "sectionID": "section2",
-            "elementContent": ["Zabicie wszystkich procesów o nazwie, którą zwrócił nam komunikat błędu, czyli", ""]
+            "elementContent": ["Zabicie wszystkich procesów o nazwie, którą zwrócił nam komunikat błędu, czyli ", ""]
           },
             {
                 "type": "i",
@@ -386,12 +386,12 @@
 {
     "type": "span",
     "sectionID": "section3",
-    "elementContent": [" W aplikacji App Center nie ma wszystkich możliwych programów z których możesz skorzystać w systemie.", ""]
+    "elementContent": [" W aplikacji App Center nie ma wszystkich możliwych programów z których możesz skorzystać w systemie. ", ""]
 },
 {
     "type": "span",
     "sectionID": "section3",
-    "elementContent": ["Przejdź do artykułu poświęconemu instalacji poprzez terminal aby dowiedzieć się jak instalować dodatkowe oprogramowanie.", ""]
+    "elementContent": ["Przejdź do artykułu poświęconemu instalacji poprzez terminal, aby dowiedzieć się jak instalować dodatkowe oprogramowanie. ", ""]
 },
 {
     "type": "link-art",
