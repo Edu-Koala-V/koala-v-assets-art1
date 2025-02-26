@@ -128,7 +128,7 @@
     {
         "type": "span",
         "sectionID": "section2",
-        "elementContent": [" umożliwia wyświetlenie informacji o użytkowniku, na którego konto jesteśmy zalogowani, albo możesz równie dobrze dopisać na koniec nazwę użytkownika. Ważne dla ciebie dane to uid oraz gid czyli kolejno user id i group id.",""]
+        "elementContent": [" umożliwia wyświetlenie informacji o użytkowniku, na którego konto jesteśmy zalogowani, albo możesz równie dobrze dopisać na koniec nazwę użytkownika. Ważne dla Ciebie dane to uid oraz gid czyli kolejno user id i group id.",""]
     },
     {
         "type": "br",
@@ -174,7 +174,7 @@
     {
         "type": "span",
         "sectionID": "section3",
-        "elementContent": [" umożliwia wyświetlenie informacji o obciążeniu systemu, procesach, pamięci, itp. To jest taki terminalowy menadzer zadań z Windowsa.",""]
+        "elementContent": [" umożliwia wyświetlenie informacji o obciążeniu systemu, procesach, pamięci, itp. To jest taki terminalowy menadżer zadań z Windowsa.",""]
     },
     {
         "type": "br",
@@ -206,7 +206,7 @@
     {
         "type": "span",
         "sectionID": "section3",
-        "elementContent": [" umożliwia wyświetlenie informacji o wykorzystaniu pamięci RAM. Ważne dla ciebie dane to total, used, free, shared, buff/cache. Pierwsze trzy to odpowiednio cała pamięć, pamięć używana i wolna pamięć. Kolejne dwie to pamięć współdzielona i pamięć buforowana.",""]
+        "elementContent": [" umożliwia wyświetlenie informacji o wykorzystaniu pamięci RAM. Ważne dla Ciebie dane to total, used, free, shared, buff/cache. Pierwsze trzy to odpowiednio cała pamięć, pamięć używana i wolna pamięć. Kolejne dwie to pamięć współdzielona i pamięć buforowana.",""]
     },
     {
         "type": "br",
@@ -256,7 +256,7 @@
     {
         "type": "span",
         "sectionID": "section3",
-        "elementContent": [" umożliwia wyświetlenie informacji o wykorzystaniu przestrzeni dyskowej. Ważne dla ciebie dane to system plików, montowany punkt, rozmiar, użyte, dostępne, użycie. Pierwsze trzy to odpowiednio system plików, montowany punkt i rozmiar partycji. Kolejne trzy to rozmiar partycji, zajęte miejsce i wolne miejsce.",""]
+        "elementContent": [" umożliwia wyświetlenie informacji o wykorzystaniu przestrzeni dyskowej. Ważne dla Ciebie dane to system plików, montowany punkt, rozmiar, użyte, dostępne, użycie. Pierwsze trzy to odpowiednio system plików, montowany punkt i rozmiar partycji. Kolejne trzy to rozmiar partycji, zajęte miejsce i wolne miejsce.",""]
     },
     {
         "type": "br",
@@ -307,7 +307,7 @@
     {
         "type": "span",
         "sectionID": "section3",
-        "elementContent": [" umożliwia wyświetlenie informacji o zajętości przestrzeni dyskowej w danym katalogu. Ważne dla ciebie dane to rozmiar katalogu w skrócie czyli argument -s i po lucku czyli -h. ",""]
+        "elementContent": [" umożliwia wyświetlenie informacji o zajętości przestrzeni dyskowej w danym katalogu. Ważne dla Ciebie dane to rozmiar katalogu w skrócie, czyli argument -s i poludzku czyli -h. ",""]
     },
     {
         "type": "br",
@@ -368,7 +368,7 @@
     {
         "type": "span",
         "sectionID": "section3",
-        "elementContent": [" pozwoli ci to na przewijanie wyniku w Linuxach nie obsługujących myszki a co za tym idzie scrolla. ",""]
+        "elementContent": [", pozwoli Ci to na przewijanie wyniku w Linuxach nie obsługujących myszki, a co za tym idzie scrolla. ",""]
     },
     {
         "type": "br",
@@ -377,7 +377,7 @@
     {
         "type": "span",
         "sectionID": "section3",
-        "elementContent": ["Wstępują też warianty szczegółowe takie jak:",""]
+        "elementContent": ["Występują też warianty szczegółowe takie jak:",""]
     },
     {
         "type": "br",
@@ -460,7 +460,7 @@
    {
     "type": "span",
     "sectionID": "section4",
-    "elementContent": ["podstawowe i najważniejsze polecenia dla ciebie w systemie Linux to ping oraz ip. ",""]
+    "elementContent": ["Podstawowe i najważniejsze polecenia dla Ciebie w systemie Linux to ping oraz ip. ",""]
    },
    {
     "type":"br",
@@ -556,7 +556,7 @@
         {
         "type": "span",
         "sectionID": "section4",
-        "elementContent": [" pozwoli ci to na wyświetlenie informacji w bardziej czytelny sposób. ",""]
+        "elementContent": [" pozwoli Ci to na wyświetlenie informacji w bardziej czytelny sposób. ",""]
         },
         {
         "type": "br",
@@ -569,7 +569,7 @@
         {
         "type": "span",
         "sectionID": "section4",
-        "elementContent": ["Wstępują też warianty szczegółowe takie jak:",""]
+        "elementContent": ["Występują też warianty szczegółowe takie jak:",""]
         },
         {
         "type": "br",
