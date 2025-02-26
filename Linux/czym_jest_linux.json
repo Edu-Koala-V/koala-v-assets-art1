@@ -298,7 +298,22 @@
             "type": "span",
             "sectionID": "section3",
             "elementContent": [
-              "Rozwijana przez Fedora Project i sponsorowana przez Red Hat. Znana z wprowadzania najnowszych technologii i narzędzi. Często używana jako platforma rozwoju dla nowych technologii.",
+              "Rozwijana przez Fedora Project i sponsorowana przez ",
+              ""
+            ]
+          },
+          
+          {
+            "type": "bi",
+            "sectionID": "section3",
+            "elementContent": ["Red Hat", "red"]
+          },
+          
+          {
+            "type": "span",
+            "sectionID": "section3",
+            "elementContent": [
+              ". Znana z wprowadzania najnowszych technologii i narzędzi. Często używana jako platforma rozwoju dla nowych technologii.",
               ""
             ]
           }
