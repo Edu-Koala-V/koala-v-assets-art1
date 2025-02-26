@@ -64,7 +64,7 @@
     {
         "type": "span",
         "sectionID": "section2",
-        "elementContent": [" umożliwia wyświetlenie nazwy hosta, na którym pracujemy. W twoim przypadku skoro korzystasz z ubuntu to w prompterze jest zapisany hostname.",""]
+        "elementContent": [" umożliwia wyświetlenie nazwy hosta na którym pracujemy. W twoim przypadku skoro korzystasz z ubuntu to w prompterze jest zapisany hostname.",""]
     },
     {
         "type": "br",
@@ -96,7 +96,7 @@
     {
         "type": "span",
         "sectionID": "section2",
-        "elementContent": [" umożliwia wyświetlenie nazwy użytkownika, na którego konto jesteśmy zalogowani. Druga bezużyteczna komenda dla użytkowników domyślnych w ubuntu ponieważ ta informacja jest w prompterze",""]
+        "elementContent": [" umożliwia wyświetlenie nazwy użytkownika na którego konto jesteśmy zalogowani. Druga bezużyteczna komenda dla użytkowników domyślnych w ubuntu ponieważ ta informacja jest w prompterze",""]
     },
     {
         "type": "br",
@@ -128,7 +128,7 @@
     {
         "type": "span",
         "sectionID": "section2",
-        "elementContent": [" umożliwia wyświetlenie informacji o użytkowniku, na którego konto jesteśmy zalogowani, albo możesz równie dobrze dopisać na koniec nazwę użytkownika. Ważne dla Ciebie dane to uid oraz gid czyli kolejno user id i group id.",""]
+        "elementContent": [" umożliwia wyświetlenie informacji o użytkowniku na którego konto jesteśmy zalogowani albo możesz równie dobrze dopisać na koniec nazwę użytkownika. Ważne dla Ciebie dane to uid oraz gid, czyli kolejno user id i group id.",""]
     },
     {
         "type": "br",
