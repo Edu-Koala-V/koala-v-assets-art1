@@ -15,21 +15,21 @@
     "sectionID": "section1",
     "elementContent": ["sudo apt install mc", ""]
   },
-  {"type":"span","sectionID":"section1","elementContent":[" # dla systemów opartych na Debianie/Ubuntu",""]},
+  {"type":"span","sectionID":"section1","elementContent":[" - dla systemów opartych na Debianie/Ubuntu",""]},
   { "type": "br", "sectionID": "section1" },
   {
     "type": "text-block-name",
     "sectionID": "section1",
     "elementContent": ["sudo yum install mc", ""]
   },
-  {"type":"span","sectionID":"section1","elementContent":[" # dla systemów opartych na Red Hat/CentOS",""]},
+  {"type":"span","sectionID":"section1","elementContent":[" - dla systemów opartych na Red Hat/CentOS",""]},
   { "type": "br", "sectionID": "section1" },
   {
     "type": "text-block-name",
     "sectionID": "section1",
     "elementContent": ["sudo pacman -S mc", ""]
   },
-  {"type":"span","sectionID":"section1","elementContent":[" # dla Arch Linux",""]},
+  {"type":"span","sectionID":"section1","elementContent":[" - dla Arch Linux",""]},
   { "type": "br", "sectionID": "section1" },
   { "type": "br", "sectionID": "section1" },
 
@@ -66,7 +66,7 @@
     "type": "span",
     "sectionID": "section2",
     "elementContent": [
-      "W mcedit możesz korzystać z kursora myszki. Na dole w legendzie masz podstawowe akcje które sowim numerkiem odpowiadają klawiszom od ",
+      "W mcedit możesz korzystać z kursora myszki. Na dole w legendzie masz podstawowe akcje które sowimi numerami odpowiadają klawiszom od ",
       ""
     ]
   },
@@ -340,9 +340,9 @@
     ]
   },
   { "type": "h2", "sectionID": "section3", "elementContent": ["Podsumowanie"] },
-  { "type": "span", "sectionID": "section3", "elementContent": [" Na sam koniec przypomnę że możesz korzystać z całego ", ""] },
+  { "type": "span", "sectionID": "section3", "elementContent": [" Na sam koniec przypomnę, że możesz korzystać z całego ", ""] },
   { "type": "bi", "sectionID": "section3", "elementContent": ["Midnight Commander ", "blue"] },
-  { "type": "span", "sectionID": "section3", "elementContent": [" i w łatwy sposób poruszać się pos strukturze katalogowo pikowej systemu. Wystarczy użyć komendy:", ""] },
+  { "type": "span", "sectionID": "section3", "elementContent": [" i w łatwy sposób poruszać się po strukturze katalogowo-plikowej systemu. Wystarczy użyć komendy:", ""] },
   { "type": "br", "sectionID": "section3"},
   {"type":"text-block-name","sectionID":"section3","elementContent":["mc",""]},
     { "type": "br", "sectionID": "section3"},
