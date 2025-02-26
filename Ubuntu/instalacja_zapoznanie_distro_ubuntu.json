@@ -334,7 +334,7 @@
     "type": "span",
     "sectionID": "section2",
     "elementContent": [
-      "Ostatnim pytaniem dotyczącym oprogramowania, jakie zada ci instalator, będzie informacja, czy chcesz doinstalować dodatkowe sterowniki do oprogramowania firm trzecich, które nie są otwartoźródłowe, więc niektórzy użytkownicy Linuxa ich nie akceptują. Dlatego możesz, ale nie musisz ich instalować.",
+      "Ostatnim pytaniem dotyczącym oprogramowania, jakie zada Ci instalator, będzie informacja, czy chcesz doinstalować dodatkowe sterowniki do oprogramowania firm trzecich, które nie są otwartoźródłowe, więc niektórzy użytkownicy Linuxa ich nie akceptują. Dlatego możesz, ale nie musisz ich instalować.",
       ""
     ]
   },
@@ -413,7 +413,7 @@
     "type": "span",
     "sectionID": "section2",
     "elementContent": [
-      "Ja zaprezentuję ci metodę manualnego podziału dysku na partycje i opiszę ją w kolejnych krokach.",
+      "Zaprezentuję Ci metodę manualnego podziału dysku na partycje i opiszę ją w kolejnych krokach.",
       ""
     ]
   },
@@ -494,7 +494,7 @@
   "type": "span",
   "sectionID": "section2",
   "elementContent": [
-    "Gdy masz już gotowe dyski, wybierz z listy na dole ten dysk, który ma być systemowym. W zależności od tego, czy wybrano",
+    "Gdy masz już gotowe dyski, wybierz z listy na dole ten dysk, który ma być systemowym. W zależności od tego, czy wybrano ",
     ""
   ]
 },
@@ -721,7 +721,7 @@
         {"type":"bi","sectionID":"section2","elementContent":["sda1 ",""]},
         {"type":"span","sectionID":"section2","elementContent":["to partycja ",""]},
         {"type":"b","sectionID":"section2","elementContent":["boot/BIOS",""]},
-        {"type":"span","sectionID":"section2","elementContent":[" zawierająca bootloader instalatora utworzy się automatycznie gdy wybierzesz dysk z listy na dole.",""]}
+        {"type":"span","sectionID":"section2","elementContent":[" zawierająca bootloader instalatora utworzy się automatycznie, gdy wybierzesz dysk z listy na dole.",""]}
       ],
       [
         {"type":"bi","sectionID":"section2","elementContent":["sda2 ",""]},
@@ -735,7 +735,7 @@
         {"type":"bi","sectionID":"section2","elementContent":["sda3 ",""]},
         {"type":"span","sectionID":"section2","elementContent":["to partycja o typie: ",""]},
         {"type":"b","sectionID":"section2","elementContent":["Swap",""]},
-        {"type":"span","sectionID":"section2","elementContent":[" czyli przestrzeń wymiany gdy pamięć ",""]},
+        {"type":"span","sectionID":"section2","elementContent":[", czyli przestrzeń wymiany, gdy pamięć ",""]},
         {"type":"b","sectionID":"section2","elementContent":["RAM",""]},
         {"type":"span","sectionID":"section2","elementContent":[" się zapełni system wykorzysta tą przestrzeń jako wolniejszy ",""]},
         {"type":"b","sectionID":"section2","elementContent":["RAM",""]},
@@ -745,7 +745,7 @@
         {"type":"bi","sectionID":"section2","elementContent":["sda4 ",""]},
         {"type":"span","sectionID":"section2","elementContent":["to partycja o typie: ",""]},
         {"type":"b","sectionID":"section2","elementContent":["Ext4",""]},
-        {"type":"span","sectionID":"section2","elementContent":[" -system plików stosowany w linuxach a ",""]},
+        {"type":"span","sectionID":"section2","elementContent":[" - system plików stosowany w linuxach a, ",""]},
         {"type":"b","sectionID":"section2","elementContent":["/",""]},
         {"type":"span","sectionID":"section2","elementContent":[" to główny korzeń katalogowy systemu.",""]}
       ],
@@ -754,7 +754,7 @@
         {"type":"bi","sectionID":"section2","elementContent":["sdb1 ",""]},
         {"type":"span","sectionID":"section2","elementContent":["na drugim dysku w foremacie ",""]},
         {"type":"b","sectionID":"section2","elementContent":["Ext4",""]},
-        {"type":"span","sectionID":"section2","elementContent":[" i punkcjie montażu w ",""]},
+        {"type":"span","sectionID":"section2","elementContent":[" i punkcie montażu w ",""]},
         {"type":"b","sectionID":"section2","elementContent":["/home",""]},
         {"type":"span","sectionID":"section2","elementContent":[", to przeniesienie wszystkich katalogów domowych użytkowników systemu na drugi dysk. ",""]}
       ]
@@ -765,7 +765,7 @@
   "type": "span",
   "sectionID": "section2",
   "elementContent": [
-    "Teraz czas utworzyć konto użytkownika. Wprowadź dane konta i nazwę hosta, czyli twojego komputera. ",
+    "Teraz czas utworzyć konto użytkownika. Wprowadź dane konta i nazwe hosta, czyli twojego komputera. ",
     ""
   ]
 },
@@ -783,7 +783,7 @@
   "type": "i",
   "sectionID": "section2",
   "elementContent": [
-    "„Require my password to login”",
+    "„Require my password to log in”",
     ""
   ]
 },
@@ -888,7 +888,7 @@
   "type": "span",
   "sectionID": "section2",
   "elementContent": [
-    "Instalator zakończy działania procesów na twoim nośniku, aby można było go bezpiecznie odłączyć. Gdy to zrobisz, naciśnij ",
+    "Instalator zakończy działania procesów na twoim nośniku, aby można było go bezpiecznie odłączyć. Gdy to zrobisz, naciśnij: ",
     ""
   ]
 },
@@ -903,7 +903,7 @@
   "type": "span",
   "sectionID": "section2",
   "elementContent": [
-    "VirtualBox automatycznie w tym momencie odłącza plik obrazu ISO, więc możesz od razu  ",
+    "VirtualBox automatycznie w tym momencie odłącza plik obrazu ISO, więc możesz od razu wcisnąć: ",
     ""
   ]
 },
@@ -1001,7 +1001,7 @@
   "type": "span",
   "sectionID": "section2",
   "elementContent": [
-    "System został zainstalowany. Pamiętasz rozłożenie partycji na dwa dyski",
+    "ystem został zainstalowany. Pamiętasz podział partycji na dwa dyski? ",
     ""
   ]
 },
