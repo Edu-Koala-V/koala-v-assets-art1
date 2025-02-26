@@ -2,7 +2,7 @@
     { "type": "h2", "sectionID": "section1", "elementContent": ["Wstęp - tworzenie użytkownika poprzez GUI",""] },
     { "type": "span", "sectionID": "section1", "elementContent": ["Tworzenie i zarządzanie użytkownikami oraz grupami w systemie operacyjnym Ubuntu jest kluczowym elementem administracji systemem. Umożliwia to kontrolowanie dostępu do zasobów, zarządzanie uprawnieniami oraz organizację użytkowników w logiczne grupy. W tej lekcji omówimy, jak tworzyć użytkowników i grupy w Ubuntu 24.04, jakie są dostępne narzędzia oraz jak zarządzać tymi elementami w codziennej pracy administratora systemu.", ""] },
     { "type": "br", "sectionID": "section1" },
-    { "type": "span", "sectionID": "section1", "elementContent": ["Aby utworzyć użytkownika poprzez GUI otwórz ustawienia prządź do kategorii system a nastepnie użytkownicy. Aby dodać nowego użytkownika musisz tą opcję odblokować klikając: ",""] },
+    { "type": "span", "sectionID": "section1", "elementContent": ["Aby utworzyć użytkownika poprzez GUI otwórz ustawienia przejdź do kategorii system, a nastepnie użytkownicy. Aby dodać nowego użytkownika musisz tą opcję odblokować klikając: ",""] },
     { "type": "ref-btn-for-img", "sectionID": "section1", "elementContent": ["Unlock...",""] },
     { "type": "span", "sectionID": "section1", "elementContent": [" i wprowadzając hasło administratora.",""] },
     { "type": "br", "sectionID": "section1" },
@@ -151,7 +151,7 @@
       "elementContent": ["passwd", ""]
     },
     { "type": "br", "sectionID": "section3"},
-    { "type": "span", "sectionID": "section3", "elementContent": ["🤓PS.: Gdy zmieniasz hasło swojego konta nie potrzebujesz uprawnień administratora wiec możesz wpisać tą komendę bez ",""] },
+    { "type": "span", "sectionID": "section3", "elementContent": ["🤓PS.: Gdy zmieniasz hasło swojego konta nie potrzebujesz uprawnień administratora więc możesz wpisać tą komendę bez ",""] },
     { "type": "b", "sectionID": "section3", "elementContent": ["sudo",""] },
     { "type": "span", "sectionID": "section3", "elementContent": [" na początku.",""] },
     {
@@ -226,11 +226,11 @@
       ]
     },
     { "type": "br", "sectionID": "section4"},
-    { "type": "span", "sectionID": "section4", "elementContent": ["Istnieje też polecenie wywołania Debianowego skryptu",""] },
+    { "type": "span", "sectionID": "section4", "elementContent": ["Istnieje też polecenie wywołania Debianowego skryptu ",""] },
     { "type": "b", "sectionID": "section4", "elementContent": ["deluser",""] },
     { "type": "span", "sectionID": "section4", "elementContent": [", ale z tego ",""] },
     { "type": "u", "sectionID": "section4", "elementContent": ["nie korzystaj",""] },
-    { "type": "span", "sectionID": "section4", "elementContent": [" bo jest gorsze niż niskopoziomowa komenda, ponieważ nie ma opcji ",""] },
+    { "type": "span", "sectionID": "section4", "elementContent": [", bo jest gorsze niż niskopoziomowa komenda, ponieważ nie ma opcji ",""] },
     { "type": "b", "sectionID": "section4", "elementContent": [" -f ",""] },
     { "type": "span", "sectionID": "section4", "elementContent": [" / ",""] },
     { "type": "b", "sectionID": "section4", "elementContent": ["--force",""] },
@@ -297,7 +297,7 @@
       "elementContent": ["Modyfikacja użytkownika",""]
     }
     ,
-    { "type": "span", "sectionID": "section7", "elementContent": ["Mając utworzonych użytkowników i grupy, warto je ze sobą połączyć. Grupa, do której nie należy żaden użytkownik, jest bezużyteczna. Ponadto, nadawanie uprawnień wielu użytkownikom jest łatwiejsze poprzez przypisanie ich do odpowiedniej grupy. Aby tego dokonać użyj polecenia:  ",""] },
+    { "type": "span", "sectionID": "section7", "elementContent": ["Mając utworzonych użytkowników i grupy, warto je ze sobą połączyć. Grupa do której nie należy żaden użytkownik, jest bezużyteczna. Ponadto, nadawanie uprawnień wielu użytkownikom jest łatwiejsze poprzez przypisanie ich do odpowiedniej grupy. Aby tego dokonać użyj polecenia:  ",""] },
     { "type": "b", "sectionID": "section7", "elementContent": ["usermod",""] },
     { "type": "br", "sectionID": "section7"},
     { "type": "span", "sectionID": "section7", "elementContent": ["Poniżej komenda dodania użytkownika do grupy:",""] },
@@ -503,7 +503,7 @@
                     {
                       "type": "span",
                       "sectionID": "section8",
-                      "elementContent": ["Dokładnie tak samo jak „shadow”, dostęp do tego pliku jest ograniczony do użytkownika root. Czyli administratora należącego do grupy sudors-ów (sudo).", ""]
+                      "elementContent": ["Dokładnie tak samo jak „shadow”, dostęp do tego pliku jest ograniczony do użytkownika root, czyli administratora należącego do grupy sudors-ów (sudo).", ""]
                     }
                 ]
               ]
