@@ -7,7 +7,7 @@
 {
     "type": "span",
     "sectionID": "section1",
-    "elementContent": ["Jak już wiesz, .deb to plik instalacyjny dla systemów opartych na Debianie, takich jak Ubuntu.",""]
+    "elementContent": ["Jak już wiesz, .deb to plik instalacyjny dla systemów opartych na Debianie, takich jak Ubuntu. ",""]
 },
 {
     "type": "span",
@@ -64,7 +64,7 @@
 {
     "type": "span",
     "sectionID": "section1",
-    "elementContent": [" (change the working directory czyli zmień katalog roboczy) przejdź do ",""]
+    "elementContent": [" (change the working directory, czyli zmień katalog roboczy) przejdź do ",""]
 },
 {
     "type": "bi",
@@ -213,7 +213,7 @@
 {
     "type":"span",
     "sectionID":"section2",
-    "elementContent":["W przypadku, to zainstalujmy coś przy pomocy ",""]
+    "elementContent":["W tym przypadku, do zainstalowania oprogramowania TeamViewer skorzystam bezpośrednio z komendy narzędziowej  ",""]
 },
 {
     "type":"bi",
@@ -403,7 +403,7 @@
 {
     "type":"span",
     "sectionID":"section2",
-    "elementContent":["Pozwala to na dokonanie prób naprawy i ponownego zainstalowania aktualizacji",""]
+    "elementContent":["Pozwala to na dokonanie prób naprawy i ponownego zainstalowania aktualizacji. ",""]
 },
 {"type":"br","sectionID":"section2"},
 {
